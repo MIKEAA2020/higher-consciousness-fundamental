@@ -18,6 +18,9 @@ qwen_messages.jsonl
 qwen_conversation.md
 qwen_conversation_clean.md
 qwen_chat_transcript.md
+qwen_page2.json
+qwen2_messages.jsonl
+qwen2_chat_transcript.md
 
 # Build intermediates
 scripts/_body.pdf
