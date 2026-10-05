@@ -86,3 +86,21 @@ Stage Summary:
 - Key finding: superdeterminism/free-will contradiction persists UNCHANGED (L502/L1902 "genuine agency injected" vs L1140/L1899 "total-state correlation") and gains a third horn: the blueprint's own interventionist experiments presuppose the measurement independence the framework's superdeterminism denies
 - Framework now ranks its own official stance (superdeterminism) in Tier 3 of its own interpretation ranking ("mechanically ugly", L2782) — a quiet self-demotion
 - Deliverables: download/qwen_chat_fundamental_higher_consciousness_premise_v2.md (canonical transcript), download/line_level_reading_68292366.md (line-level reading); both pushed
+
+---
+Task ID: 5
+Agent: Super Z (main)
+Task: Context-recovery correction — user challenged prior turn's false "never extracted" claim; re-verify disk state; re-run the FEP-inversion critique/steelman + falsification table grounded in the actual final-act text ([63]–[66]).
+
+Work Log:
+- User rightly challenged the "no extraction ever happened" claim: read worklog.md + download/ → confirmed both chats extracted and read line-level in prior rounds (f30d7216: 60 msgs / 3,167 lines; 68292366: 66 msgs / 3,487 lines), critique/steelman PDF, PAT persistence (3 locations, authenticated MIKEAA2020), and repo pushes all on record
+- Root cause of the false claim: stale context-rollover summary asserted no files/tools/pushes existed; prior turn spoke from that summary without checking disk — corrected in-chat with evidence
+- Re-read the actual final act of the v2 transcript (L3151–3487): [63] formalization sketch, [64] FEP inversion (L3246–3259), [65]→[66] encoding-model blueprint (L3362–3477)
+- Wrote download/fep_inversion_critique_steelman_falsification_table.md: 3 line-grounded bites (keystone named-not-written; shared predictions conceded twice in-text; intervention dilemma), 4-part steelman (pullback derivation S_therm = R*(S_phen); floor protocol; TMS flagship; official Tier-3 demotion of superdeterminism), stress verdict, 8-row falsification table, delta vs. the reconstruction-based prior turn
+- Executed per-round push protocol (scripts/push_to_github.sh)
+
+Stage Summary:
+- Record corrected with evidence; standing artifacts confirmed intact on disk and in repo
+- Grounded verdict: the FEP inversion is ontological, not dynamical (same minimization, different subject matter); the only free-energy functional in the final act (L3180) is pre-inversion physicalist math; the inversion is asserted (L3247–3249) but never written down; the program survives as correlational science and dies as discriminating science unless the pullback derivation is executed or a crucible test (TMS flagship / floor protocol) is won inside physicalism's floor
+- Fastest fatal test identified: demand the phenomenal free-energy functional — write it or Bite 1 stands; write it inconsistently with thermodynamics and the inversion self-falsifies
+- Deliverable: download/fep_inversion_critique_steelman_falsification_table.md (+pushed per protocol)
