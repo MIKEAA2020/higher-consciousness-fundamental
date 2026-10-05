@@ -1,0 +1,27 @@
+# Workspace .gitignore
+# Secrets — never commit
+.github_pat
+.github_pat.bak
+.ghuser*.json
+.env
+
+# Internal skill infrastructure (not user creations)
+skills/
+tool-results/
+
+# Bulky root-level extraction intermediates (canonical copy lives in download/)
+qwen_chat.html
+qwen_page.json
+qwen_chat.json
+qwen_messages.jsonl
+qwen_conversation.md
+qwen_conversation_clean.md
+qwen_chat_transcript.md
+
+# Build intermediates
+scripts/_body.pdf
+scripts/_cover.pdf
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store
