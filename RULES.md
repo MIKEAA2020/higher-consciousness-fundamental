@@ -27,12 +27,13 @@ These rules were set by the user and persist across all future rounds.
 4. **Worklog**: Every agent appends its task record to `/home/z/my-project/worklog.md`
    per the shared protocol, then pushes (rule 3).
 
-## Status note (2026-10-06)
+## Status note (updated 2026-10-06, round 4)
 
-The PAT provided on 2026-10-06 was rejected by the GitHub API with
-`401 Bad credentials` (tried both `Bearer` and `token` schemes; stored length
-86 chars vs. the 93 expected of a well-formed fine-grained PAT — it appears
-truncated, expired, or auto-revoked by GitHub secret scanning). The local repo
-is initialized and committed; `scripts/push_to_github.sh` will complete the
-push as soon as `.github_pat` holds a valid token (fine-grained, with
-Administration:write + Contents:write permissions).
+New PAT provided in round 4 (93 chars, well-formed fine-grained PAT) — verified
+valid, authenticated as `MIKEAA2020`. Push protocol is operational.
+
+NOTE: workspace resets between rounds can wipe gitignored files (including
+`.github_pat`). If the push script reports a missing/rejected token after a
+reset, the token must be re-provided and re-saved. The canonical push command:
+`scripts/push_to_github.sh` (verifies token, ensures the private repo
+`workspace-creations` exists, pushes main).
