@@ -2,6 +2,7 @@
 # Secrets — never commit
 .github_pat
 .github_pat.bak
+.secrets/
 .ghuser*.json
 .env
 
@@ -25,3 +26,6 @@ __pycache__/
 *.pyc
 node_modules/
 .DS_Store
+
+# Master-repo push worktree (temporary)
+.master_wt/
