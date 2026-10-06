@@ -6,11 +6,11 @@ Handles the double-encoded JSON that agent-browser eval returns
 Output: /home/z/my-project/qwen2_chat_transcript.md
 """
 import json
+import sys
 
-IN_PATH = '/home/z/my-project/qwen2_messages.jsonl'
-OUT_PATH = '/home/z/my-project/qwen2_chat_transcript.md'
-
-TITLE = 'Fundamental Higher Consciousness Premise (share 68292366, October 05 2026)'
+IN_PATH = sys.argv[1] if len(sys.argv) > 1 else '/home/z/my-project/qwen2_messages.jsonl'
+OUT_PATH = sys.argv[2] if len(sys.argv) > 2 else '/home/z/my-project/qwen2_chat_transcript.md'
+TITLE = sys.argv[3] if len(sys.argv) > 3 else 'Fundamental Higher Consciousness Premise (share 68292366, October 05 2026)'
 
 def decode_line(line):
     line = line.strip()

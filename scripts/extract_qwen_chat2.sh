@@ -1,8 +1,9 @@
 #!/bin/bash
-# Extract all messages from the rendered Qwen shared chat (share 68292366)
-# into qwen2_messages.jsonl. Requires the page to be open in agent-browser
-# (default session) with all expand toggles already clicked.
-OUT=/home/z/my-project/qwen2_messages.jsonl
+# Extract all messages from the rendered Qwen shared chat currently open in
+# agent-browser (default session) into a JSONL file.
+# Usage: extract_qwen_chat2.sh [output.jsonl]   (default: qwen2_messages.jsonl)
+# Requires the page to be open with all expand toggles already clicked.
+OUT=${1:-/home/z/my-project/qwen2_messages.jsonl}
 N=$(agent-browser eval "document.querySelectorAll('.qwen-chat-message').length" 2>/dev/null | tr -d '"')
 echo "messages found: $N"
 > "$OUT"
