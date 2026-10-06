@@ -141,3 +141,28 @@ Stage Summary:
 - Record corrected in-file with a visible correction section; user's methodological objection sustained and codified as the arc-test for all future line-level findings
 - Tensions surviving the arc-test: stranded injection thesis (4.1), intervention dilemma (4.2), Divine Simplicity vs compositionality (4.6), immunization by stratification (4.7, absorbing 4.4); FEP inversion (4.5) = uncollected promissory note; plenitude/uniqueness (4.8) = unwelded polarity
 - Root cause of the original error: not a reading failure (all 10,457 lines were read) but an assembly failure — the tension list was built by testing the transcript as a static doctrinal system rather than against its own supersession structure
+
+---
+Task ID: 5
+Agent: Main agent (Super Z)
+Task: (1) Restore rollback persistence (GitHub PAT at all protocol locations, English-only rule at workspace root + backups) and unify the diverged local/remote git histories, committing and pushing all previous creations. (2) Finish the FHCP steelman audit PDF: assemble the ReportLab body (chapters 1-12), build the Template-03 cover, merge, and pass the full preflight QA chain, per user parameters (steelman critique, thematic + key quotes, neutral academic voice, PDF, 10k+ words, objection-response table, axiomatic structure, comparative context, general readers, no self-praise commentary).
+
+Work Log:
+- Re-provided PAT saved to 5 gitignored locations (.github-token, .github-token.backup, .github_pat, .github_pat.bak, .secrets/github_pat.txt, all mode 600); GitHub API auth verified 200 as MIKEAA2020
+- Wrote unified RULES.md (+ RULES.md.backup) at workspace root: English-only mandate, token persistence protocol, push protocol (higher-consciousness-fundamental writable, master read-only), workspace boundaries (glm agent 2 folder, upload/ read-only), current project state
+- Found local/remote histories diverged at the root (remote: qwen-thread archive with The_Dream_That_Must_Be_Critique_Steelman_Survival_Test.pdf, transcript exports, line-level readings; local: docx audit + fhcp PDF scripts). Unified via merge --allow-unrelated-histories -X ours; resolved RULES.md add/add conflict by hand-merging both versions; restored the remote 149-line shared worklog as base; pushed merge commit b7a3ba8
+- Loaded the full pdf skill chain (SKILL.md, report.md, fonts.md, cover.md incl. Template 03 spec, TOC gate, preflight sequence)
+- Wrote fhcp_pdf_build.py: TocDocTemplate + multiBuild assembly, TableOfContents with levelStyles, BodyStartMarker for roman/arabic footer zones, paint_page header/footer on every page
+- Fixed TOC/footer numbering mismatch: afterFlowable now notifies body-relative (displayed) page numbers so TOC entries match printed footers
+- Built fhcp_cover.html (Template 03 Academic Vertical Anchor, dark umber #201c14 + gold #87702a accent matching the body cascade palette seed 7); fixed vline-to-text gap (83px to 104px) per cover_validate.js 40px rule; reworded cover to avoid the checker parsing "Contents:" + "OCTOBER 2026" as a TOC entry pointing to page 2026
+- Wrote fhcp_pdf_merge.py: pypdf merge, normalize-to-A4, metadata (Title/Author/Creator/Subject)
+- Fixed 7 line-start em-dash warnings centrally via _nb_dash() in fhcp_pdf_lib.py (non-breaking space binds spaced em-dashes to the preceding word) applied to body/bullet/quote/callout/table cells
+- Preflight: code.sanitize, font.check (0 issues), toc.check (pass), pages.clean (0 blank), pdf_qa.py --skip-cover (13/13 PASS), cover_validate.js (all pass), poster_validate check-html (pass)
+- VLM visual QA on cover, TOC, body, ledger-table and comparative-context pages: all PASS
+- Delivered cover HTML alongside the PDF (HTML+PDF dual-delivery rule)
+
+Stage Summary:
+- Deliverable: download/Fundamental-Higher-Consciousness-Premise_Steelman-Audit-and-Consolidation.pdf (38 pages A4: 1 cover + 3 TOC + 34 body; 16,862 extracted words; 12 chapters; objection-response ledger, axiomatic structure, comparative context, consolidated premise, empirical annex, glossary)
+- Companion: download/Fundamental-Higher-Consciousness-Premise_Steelman-Cover.html (editable cover source)
+- Build scripts (editable for iteration): glm agent 2/scripts/fhcp_pdf_lib.py, fhcp_pdf_part1..4.py, fhcp_pdf_build.py, fhcp_pdf_merge.py, fhcp_cover.html
+- Infrastructure state: token at 5 locations, RULES.md + backup pushed, histories unified, all creations pushed; future rounds: read RULES.md first, commit + push after each work unit

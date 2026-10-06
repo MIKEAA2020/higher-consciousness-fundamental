@@ -81,4 +81,8 @@ pushes (rule 3). Agent-specific logs may additionally live under
 
 Token re-provided and re-saved to all five locations; authenticated as
 `MIKEAA2020` (API 200). Diverged local/remote histories unified via merge
-commit. FHCP steelman PDF build in progress; see worklog for details.
+commit. FHCP steelman audit PDF COMPLETE and pushed:
+`download/Fundamental-Higher-Consciousness-Premise_Steelman-Audit-and-Consolidation.pdf`
+(38 pages, 16.9k words, 13/13 QA pass). Build scripts editable at
+`glm agent 2/scripts/fhcp_pdf_*.py` — to iterate, edit parts and re-run
+`fhcp_pdf_build.py` then `fhcp_pdf_merge.py`.
