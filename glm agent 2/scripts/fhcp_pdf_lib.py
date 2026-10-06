@@ -143,7 +143,14 @@ class TocDocTemplate(SimpleDocTemplate):
             level = getattr(flowable, 'bookmark_level', 0)
             text = getattr(flowable, 'bookmark_text', '')
             key = getattr(flowable, 'bookmark_key', '')
-            self.notify('TOCEntry', (level, text, self.page, key))
+            # Report the DISPLAYED page number (arabic body numbering),
+            # so TOC entries match the printed footers.
+            body_start = getattr(self, '_body_start', None)
+            if body_start is not None and self.page >= body_start:
+                page = self.page - body_start + 1
+            else:
+                page = self.page
+            self.notify('TOCEntry', (level, text, page, key))
 
 
 _ROMAN = {1: 'i', 2: 'ii', 3: 'iii', 4: 'iv', 5: 'v', 6: 'vi', 7: 'vii',
@@ -178,6 +185,15 @@ def paint_page(canvas, doc):
 
 
 # ━━ Builders ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+def _nb_dash(text):
+    """Bind spaced em-dashes to the preceding word.
+
+    Replaces the breakable space before an em-dash with a non-breaking
+    space, so a dash can never start a line (typography hygiene).
+    """
+    return text.replace(' \u2014', '\u00a0\u2014')
+
+
 def _bookmark(text, style, level):
     key = 'h_' + hashlib.md5(text.encode()).hexdigest()[:8]
     p = Paragraph('<a name="%s"/>%s' % (key, text), style)
@@ -208,18 +224,18 @@ def h3(story, text):
 
 
 def body(story, text):
-    story.append(Paragraph(text, S['body']))
+    story.append(Paragraph(_nb_dash(text), S['body']))
 
 
 def bullet(story, text):
     style = ParagraphStyle('Bullet', parent=S['body'], leftIndent=16,
                            bulletIndent=4, spaceAfter=6)
-    story.append(Paragraph(text, style, bulletText='\u2022'))
+    story.append(Paragraph(_nb_dash(text), style, bulletText='\u2022'))
 
 
 def quote(story, text, attr=None):
     """Block quote: italic, indented, muted accent left border."""
-    rows = [[Paragraph(text, S['quote'])]]
+    rows = [[Paragraph(_nb_dash(text), S['quote'])]]
     if attr:
         rows.append([Paragraph(attr, S['quote_attr'])])
     tbl = Table(rows, colWidths=[AVAIL_W - 24], hAlign='CENTER')
@@ -242,7 +258,7 @@ def callout(story, title, text):
     if title:
         inner.append(Paragraph('<b>%s</b>' % title, S['callout']))
         inner.append(Spacer(1, 3))
-    inner.append(Paragraph(text, S['callout']))
+    inner.append(Paragraph(_nb_dash(text), S['callout']))
     box = Table([[inner]], colWidths=[AVAIL_W * 0.94], hAlign='CENTER')
     box.setStyle(TableStyle([
         ('BACKGROUND', (0, 0), (-1, -1), CARD_BG),
@@ -279,7 +295,7 @@ def data_table(story, caption, headers, rows, ratios, font_size=8.8,
         cells = []
         for ci, cell in enumerate(row):
             st = td_c_style if ci in center_cols else td_style
-            cells.append(Paragraph(cell, st))
+            cells.append(Paragraph(_nb_dash(cell), st))
         data.append(cells)
 
     tbl = Table(data, colWidths=col_widths, hAlign='CENTER', repeatRows=1)
