@@ -1,2 +1,10 @@
 skills/
 node_modules/
+
+# secrets (never commit)
+.github-token
+.github-token.backup
+.github_pat
+.github_pat.bak
+.secrets/
+.hcf_wt/
