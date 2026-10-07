@@ -8,3 +8,4 @@ node_modules/
 .github_pat.bak
 .secrets/
 .hcf_wt/
+glm agent 2/research/ds_chunks/b64_*.txt
