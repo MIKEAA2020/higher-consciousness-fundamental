@@ -77,12 +77,15 @@ pushes (rule 3). Agent-specific logs may additionally live under
   "The_Dream_That_Must_Be_Critique_Steelman_Survival_Test.pdf") live in
   `download/` and remain canonical.
 
-## Status note (updated 2026-10-06, round 5)
+## Status note (updated 2026-10-08, round 10)
 
-Token re-provided and re-saved to all five locations; authenticated as
-`MIKEAA2020` (API 200). Diverged local/remote histories unified via merge
-commit. FHCP steelman audit PDF COMPLETE and pushed:
-`download/Fundamental-Higher-Consciousness-Premise_Steelman-Audit-and-Consolidation.pdf`
-(38 pages, 16.9k words, 13/13 QA pass). Build scripts editable at
-`glm agent 2/scripts/fhcp_pdf_*.py` — to iterate, edit parts and re-run
-`fhcp_pdf_build.py` then `fhcp_pdf_merge.py`.
+Token re-provided after the second workspace rollback (round 9 -> 10) wiped
+all five locations again; re-saved to all five and verified (API 200,
+MIKEAA2020, push permission confirmed). The blocked round-9 push completed:
+the v2 trilogy edition
+(`download/The_Dream_That_Must_Be_v2_Trilogy_Edition.pdf`, 28pp) and all
+other creations are on `origin/main`. Rollback exposure is now understood:
+workspace files survive ordinary session boundaries via snapshots but NOT
+rollbacks to pre-save snapshots; the GitHub remote is the only rollback-proof
+store for creations; the PAT cannot be stored on the remote by design, so
+token re-provision on rollback is the accepted protocol.

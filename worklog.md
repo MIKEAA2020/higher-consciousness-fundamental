@@ -211,3 +211,22 @@ Stage Summary:
 - v2 trilogy edition complete and QA-passed; the arc-test verdicts (1 retraction, 1 folding, 2 downgrades, 4 survivors) are the document's centerpiece; two verdict-changes vs the first edition, both documented in-text
 - Standing verdict: the framework converged on the steelman's repaired positions in 4 of 6 audited repairs and declined 2 (Layer-2 re-fusion; the epistemic wall) — the two declensions coincide with the two strongest surviving tensions (immunization; intervention dilemma)
 - Local commit ready; push awaits PAT re-provision (all five protocol locations empty)
+
+---
+Task ID: 10
+Agent: Super Z (main)
+Task: Round 10 — Restore PAT persistence from the user-re-provided token after the second rollback wipe; re-establish the lost origin remote; complete the blocked round-9 push (v2 trilogy edition) and resume the standing push protocol for all previous and future rounds; answer the user's persistence-architecture questions.
+
+Work Log:
+- Confirmed post-rollback state: all five PAT protocol locations empty; origin remote missing from .git/config (only FETCH_HEAD survived, pointing at cc18ec3); local main holding the unpushed round-9 commit 07be872; working tree otherwise clean
+- Re-provided PAT written via file-write (never placed on a command line or in any tracked file) to all five protocol locations: .github_pat, .github-token, .github-token.backup, .github_pat.bak, .secrets/github_pat.txt — all mode 600, sha256 byte-identity verified (1 unique digest across 5 copies)
+- Re-added origin remote: https://github.com/MIKEAA2020/higher-consciousness-fundamental.git
+- Token verified via GitHub API: authenticated as MIKEAA2020; push permission on the target repo confirmed true; default branch main
+- Fetched origin: remote main unchanged at cc18ec3 (no parallel pushes from other sessions); local exactly one commit ahead — clean fast-forward, no merge needed
+- Updated RULES.md status note (+ byte-identical RULES.md.backup) to record the re-provision and the rollback-exposure findings
+- Ran the standing push protocol (scripts/push_to_github.sh): token check pass, credential sweep pass, workspace state committed, origin/main advanced
+
+Stage Summary:
+- Round-9 push unblocked: The_Dream_That_Must_Be_v2_Trilogy_Edition.pdf (28pp) + companion markdown/cover + all workspace creations now on the remote
+- PAT persistence restored at the five protocol locations; per-round push protocol back in force for future rounds
+- Persistence architecture documented for the user: workspace files survive ordinary session boundaries via snapshots but NOT rollbacks to pre-save snapshots; the GitHub remote is the only rollback-proof store for creations; the PAT cannot be stored on the remote by design (gitignored + credential-swept), so token re-provision on rollback is the accepted protocol — the rollback that hit this session restored a round-3 snapshot, while other sessions' snapshots (taken after their PAT saves) retained their copies, which is why the token survived there but not here
