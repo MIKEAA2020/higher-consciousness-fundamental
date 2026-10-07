@@ -166,3 +166,28 @@ Stage Summary:
 - Companion: download/Fundamental-Higher-Consciousness-Premise_Steelman-Cover.html (editable cover source)
 - Build scripts (editable for iteration): glm agent 2/scripts/fhcp_pdf_lib.py, fhcp_pdf_part1..4.py, fhcp_pdf_build.py, fhcp_pdf_merge.py, fhcp_cover.html
 - Infrastructure state: token at 5 locations, RULES.md + backup pushed, histories unified, all creations pushed; future rounds: read RULES.md first, commit + push after each work unit
+
+---
+Task ID: 8
+Agent: Super Z (main)
+Task: Round 8 — (1) surgical correction of the 2nd-Ed PDF page 13 ("cold has no thermodynamics" -> "cold has no subject study in physics"); (2) read all new sources line-level to the end (DeepSeek share URL, consolidation-treatise chat file, deepseek audit file); (3) produce the revised (third-edition) steelman audit and consolidation, adjudicating opposing points among all audits.
+
+Work Log:
+- Merged the user's three GitHub uploads (universal-consciousness audit chat 426 lines; deepseek audit 473 lines; 2nd-Ed PDF 33 pages); mode-only add/add conflicts resolved
+- Read "chat-universal consciousness audit+deepseek chat.txt" fully (426 lines): Grand Dream audit (4 pillars/4 weaknesses/4 gaps/5 improvements), consolidated treatise, DeepSeek-exchange audit, and the Architecture of the Absolute treatise ending in the specified closing line
+- Read "deepseek auidt of universal consciousness.txt" fully (473 lines): two external audits (line-level slippages table, 12 surviving points, A-H weakness categories, 10 consolidation steps, jewel-image correction)
+- Extracted the DeepSeek share (ei9y81lsr98ujftn91) via headless browser: discovered the rendered page shows only 27 turns because 52 of 106 messages were deleted server-side; recovered the full 53-turn exchange (352K content chars) from the damaged API payload (valid JSON + displaced raw fragment); message 64's response unrecoverable (5,445-char thinking trace survives, cut); message-12 continuity anomaly (edited user text) and two empty file attachments recorded as source-critical notes
+- Read the recovered 53-turn exchange end-to-end (lean transcript, 3,046 lines), T1 phenomenal concepts through T53 scaffold verdict, verified the specified closing line and the privation directive (T32-T33)
+- Applied the page-13 surgical correction to the 2nd-Ed PDF via pikepdf content-stream edit with fontTools-computed justification (line count and margins preserved; pdf_qa 13/13 PASS)
+- Verified load-bearing dialogue citations (L5959, L9673, L9988, L11025, L4819, L7371, L5494, L1689, L1859, L3945) against the transcript
+- Wrote the Revised Edition (Third Edition) as 5 part modules + build/merge scripts (r3_part1..5.py, r3_build.py, r3_merge.py, r3_cover.html): 14 chapters + Appendix A; core new chapter 8 (adjudication of 12 audit disagreements under a 4-rule protocol); privation register restated in corrected objective phrasing; three-tier axiomatics (A1-A8 / D1-D10 / E1-E6); expanded objection ledger (20 rows); W15-W16 added from external audits; C17 correction logged; R13-R16 repairs; rivals table (physicalist family); atemporal lexicon table; turn index computed at build time from the transcript
+- Fixed cover subtitle/authors overlap (subtitle 205px tall overlapped authors at 700px; shortened subtitle, moved authors to 745px / institution to 800px; re-measured boxes: gaps 36/35/104px)
+- QA: poster_validate 0 errors/0 warnings; cover_validate all pass; font.check 0 issues; toc.check pass; pages.clean 0 blank; pdf_qa 13 hard checks PASS with 11 benign English-quote warnings (CJK-rule false positives, same class as prior editions); VLM visual QA on cover/TOC/body/table/last pages: PASS
+- Infrastructure: token files had been wiped by the workspace reset — re-provided PAT restored to all five locations (authenticated MIKEAA2020); .env untracked after sweep flagged it; push script remote fixed (hcf -> origin)
+
+Stage Summary:
+- Deliverable: download/Fundamental-Higher-Consciousness-Premise_Audit-and-Consolidation_Revised-Ed.pdf (45 pages A4: 1 cover + 44 body; 19,742 extracted words; 14 chapters + turn-index appendix)
+- Companion: download/Fundamental-Higher-Consciousness-Premise_Revised-Ed-Cover.html (editable cover source)
+- Corrected 2nd-Ed: download/Fundamental-Higher-Consciousness-Premise_Audit-and-Consolidation_2nd-Ed.pdf (page 13 phrase corrected in place)
+- Key adjudications: treatise's "necessary self-expression" rejected (forced-shadow contradiction) in favor of the two-level split (worldhood expressively necessary; this world not); GNS + superselection sectors merged; three-tier axiomatics adopted from external audits; jewel capstone corrected; ethics clause added
+- Research artifacts: glm agent 2/research/ (recovered exchange transcripts, 2nd-Ed extraction, ds_share_content.json evidence)
