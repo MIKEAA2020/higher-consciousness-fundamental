@@ -1,0 +1,1191 @@
+
+===== PAGE 1 =====
+Dissociative part-dependent biopsychosocial reactions to backward
+masked angry and neutral faces: An fMRI study of dissociative
+identity disorder ☆
+Yolanda R. Schlumpf a,⁎, Ellert R.S. Nijenhuis b, Sima Chalavi c, Ekaterina V. Weder d, Eva Zimmermann e,
+Roger Luechinger f, Roberto La Marca g, A.A.T. Simone Reinders c,h, Lutz Jäncke a,i
+a Division of Neuropsychology, Institute of Psychology, University of Zurich, Switzerland
+b Top Referent Trauma Center Mental Health Care Drenthe, Assen, The Netherlands
+c Department of Neuroscience, University Medical Center Groningen, and BCN Neuroimaging Center, University of Groningen, Groningen, The Netherlan ds
+d Private Practice, Eschen, Liechtenstein
+e Fribourg General Hospital, Fribourg, Switzerland
+f Institute for Biomedical Engineering, University and ETH Zurich, Switzerland
+g Division Clinical Psychology and Psychotherapy, Institute of Psychology, University of Zurich, Switzerland
+h Department of Psychosis Studies, Institute of Psychiatry, King's College London, London, UK
+i International Normal Aging and Plasticity Imaging Center, University of Zurich, Switzerland
+abstractarticle info
+Article history:
+Received 6 March 2013
+Received in revised form 28 June 2013
+Accepted 3 July 2013
+Available online xxxx
+Keywords:
+Dissociative identity disorder
+Neuroimaging
+Backward masking
+Face perception
+Emotional ambiguity
+Hypervigilance
+Objective: The Theory of Structural Dissociation of the Personality (TSDP) proposes that dissociative identity
+disorder (DID) patients are ﬁxed in traumatic memories as “Emotional Parts” (EP), but mentally avoid these
+as “Apparently Normal Parts ” of the personality (ANP). We tested the hypotheses that ANP and EP have dif-
+ferent biopsychosocial reactions to subliminally presented angry and neutral faces, and that actors instructed
+and motivated to simulate ANP and EP react differently.
+Methods: Women with DID and matched healthy female actors (CON) were as ANP and EP (DIDanp, DIDep,
+CONanp, CONep) consecutively exposed to masked neutral and angry faces. Their brain activation was mon-
+itored using functional magnetic resonance imaging. The black-and-white dotted masks preceding and fol-
+lowing the faces each had a centered colored dot, but in a different color. Participants were instructed to
+immediately press a button after a perceived color change. State anxiety was assessed after each run using
+the STAI-S. Final statistical analyses were conducted on 11 DID patients and 15 controls for differences in
+neural activity, and 13 DID patients and 15 controls for differences in behavior and psychometric measures.
+Results: Differences between ANP and EP in DID patients and between DID and CON in the two dissociative
+parts of the personality were generally larger for neutral than for angry faces. The longest reaction times
+(RTs) existed for DIDep when exposed to neutral faces. Compared to DIDanp, DIDep was associated with
+more activation of the parahippocampal gyrus. Following neutral faces and compared to CONep, DIDep had
+more activation in the brainstem, face-sensitive regions, and motor-related areas. DIDanp showed a de-
+creased activity all over the brain in the neutral and angry face condition. There were neither signi ﬁcant
+within differences nor signi ﬁcant between group differences in state anxiety. CON was not able to simulate
+genuine ANP and EP biopsychosocially.
+Conclusions: DID patients have dissociative part-dependent biopsychosocial reactions to masked neutral and
+angry faces. As EP, they are overactivated, and as ANP underactivated. The ﬁndings support TSDP. Major clin-
+ical implications are discussed.
+© 2013 The Authors. Published by Elsevier Inc. All rights reserved.
+NeuroImage: Clinical 3 (2013) 54 – 64
+☆ This is an open-access article distributed under the terms of the Creative Commons Attribution-NonCommercial-No Derivative Works License, which p ermits non-commercial
+use, distribution, and reproduction in any medium, provided the original author and source are credited.
+⁎ Corresponding author at: Institute of Psychology, Division Neuropsychology, University of Zurich, Binzmühlestrasse 14/25, CH-8050 Zurich, Swit zerland. Tel.: +41 44 635 7404;
+fax: +41 44 635 7409.
+E-mail addresses: y.schlumpf@psychologie.uzh.ch (Y.R. Schlumpf), e.nijenhuis@home.nl, enijenhuis@me.com (E.R.S. Nijenhuis), sima.chalavi@gmail.com (S. Chalavi),
+praxis@ev-weder.li (E.V. Weder), eva.zimmermann@bluewin.ch (E. Zimmermann), luechinger@biomed.ee.ethz.ch (R. Luechinger), r.lamarca@psychologie.uzh.ch (R. La Marca),
+a.a.t.s.reinders@gmail.com (A.A.T.S. Reinders), l.jaencke@psychologie.uzh.ch (L. Jäncke).
+2213-1582/$ – see front matter © 2013 The Authors. Published by Elsevier Inc. All rights reserved.
+http://dx.doi.org/10.1016/j.nicl.2013.07.002
+Contents lists available at SciVerse ScienceDirect
+NeuroImage: Clinical
+journal homepage: www.elsevier.com/locate/ynicl
+===== PAGE 2 =====
+1. Introduction
+Dissociative Identity Disorder (DID) is the most complex of dissocia-
+tive disorders ( American Psychiatric Association, 1994 ). According to
+the Theory of Structural Dissociation of the Personality (TSDP)
+(Nijenhuis et al., 2002; Van der Hart et al., 2006 ), DID is a severe form
+of posttraumatic stress disorder (PTSD) encompassing different types
+of dissociative parts of the personality. In TSDP, personality
+is understood as a whole biopsychosocial system, and dissociative
+parts as subsystems of this whole system.Van der Hart et al. (2006)pro-
+pose a distinction between “Emotional Parts” (EP) and “Apparently
+Normal Parts” (ANP) of the personality. DID involves more than one
+EP and more than one ANP. Switching between these dissociative
+parts is a major characteristic of DID. EP isﬁxed in traumatic memories.
+As ANP, DID patients may claim a degree of amnesia for these memo-
+ries, do not or not suf ﬁciently personify traumatic experiences and
+memories, and attempt to mentally avoid trauma-related stimuli.
+TSDP distinguishes different prototypical subtypes of EP ( Nijenhuis
+and Den Boer, 2009). Some subtypes show strong emotional reactions
+to trauma-related stimuli and engage in active mammalian defensive
+reactions (e.g., freeze,ﬂight, attachment cry), whereas another subtype
+engages in passive mammalian defense (playing dead), which implies
+emotional and bodily anesthesia.
+Severe and chronic dissociative symptoms tend to develop in the
+context of severe and chronic childhood traumatization, which in-
+cludes profound attachment disruptions ( Dalenberg et al., 2012;
+Diseth, 2006; Nijenhuis and Den Boer, 2009; Nijenhuis et al., 2002;
+Ogawa et al., 1997; Trickett et al., 2011 ). In a Positron Emission To-
+mography (PET) study, female DID patients listened as ANP and as
+EP (in Reinders et al. (2006b) referred to as a neutral identity state
+(NIS) and trauma-related identity state (TIS)) to autobiographical
+neutral and trauma scripts while their psychophysiological and
+brain activation was monitored ( Reinders et al., 2003, 2006b ). As
+ANP, the patients in this study reacted similarly to the neutral and
+the trauma memory scripts. This ﬁnding suggests low emotional in-
+volvement in trauma-related stimuli, which is consistent with TSDP.
+In this study, EP (subtype active defense), as compared to the ANP,
+showed signiﬁcant activation of many areas also observed in PTSD pa-
+tients while being confronted with a personalized trauma script
+(Lanius et al., 2001; Rauch et al., 1996; Shin et al., 2001 ). EP but not
+ANP demonstrated strong psychophysiological reactions to the trau-
+ma script. Thus, EP but not ANP was psychobiologically aroused.
+ANP showed a brain activation pattern similar to patients with deper-
+sonalization disorder ( Simeon et al., 2000 ) and PTSD patients with
+negative dissociative symptoms to trauma-related stimuli ( Lanius et
+al., 2002, 2006 ).
+According to the sociocognitive view (also referred to as fantasy
+model, Dalenberg et al., 2012), DID is caused by high fantasy proneness,
+role-playing, suggestibility, and iatrogenic suggestion (Giesbrecht et al.,
+2008; Lilienfeld et al., 1999; Merckelbach and Muris, 2001; Merckelbach
+et al., 2002; Merskey, 1992; Spanos, 1994 ). Few suggestions would
+sufﬁce to generate dissociative parts in suggestible, fantasy prone indi-
+viduals (Spanos, 1996). However, a recent symptom provocation func-
+tional brain imaging study provided evidence suggesting that DID is not
+linked to fantasy proneness. Reinders et al. (2012) found that neither
+high nor low fantasy prone mentally healthy women instructed and
+motivated to simulate ANP and EP were able to enact the psychophysi-
+ological and neural activation patterns of the genuine ANP and EP.
+A study by Hermans et al. (2006) used backward masking to ex-
+pose DID patients to angry and neutral faces for 25 ms. Attentional
+bias scores were calculated by subtracting the reaction times (RTs)
+needed to color-name the mask that immediately followed a neutral
+face from the RTs needed to color-name the mask that immediately
+followed an angry face. A positive attentional bias score (i.e., longer
+RT for angry than neutral faces) was interpreted as vigilance, and a
+negative one (i.e., longer RT for neutral than angry faces) as avoidance
+(Bakvis et al., 2009; Putman et al., 2004; Van Honk et al., 1998, 2000 ).
+Hermans et al. (2006) found that as ANP but not as EP, DID patients
+had a negative attentional bias in that their RT to angry faces was
+faster than that to neutral faces. Healthy controls instructed and mo-
+tivated to role-play ANP and EP did not show this negative bias. Taken
+together, these behavioral data also contradict the sociocognitive
+view of DID.
+The ﬁndings from Reinders et al. (2003, 2006b, 2012) and Hermans
+et al. (2006) support the hypotheses derived from TSDP that as EP en-
+gaging in active defense, DID patients are ﬁxed in traumatic memories
+and demonstrate unusually strong cortical, subcortical and vegetative
+reactions (i.e., hyperarousal) to reminders of traumatic experiences.
+As ANP on the other hand, they react to trauma-related cues in a
+depersonalized and detached manner (i.e., hypoarousal). In addition,
+these differences between ANP and EP exist already at a preconscious
+level, that is, with respect to pre-attentive reactivity to external and in-
+ternal stimuli.
+EP's preconscious ﬁxation on perceived threat ( Hermans et al.,
+2006) is hypothesized to be associated with neural networks related
+to perceptual and emotional processing of the angry faces. Reactions
+to emotional faces compared to neutral faces are expected to be asso-
+ciated with greater activation in early visual areas (striate cortex) and
+higher order visual areas (extrastriate cortex) including face-sensitive
+regions in the fusiform gyrus ( Vuilleumier and Pourtois, 2007 ). Func-
+tional imaging studies have identi ﬁed additional areas in the
+extrastriate occipito-temporal region involved in the visual analysis
+of faces (i.e., lateral inferior occipital cortex, sulcus temporalis superi-
+or [STS]) ( Haxby et al., 2000 ). Amaral and colleagues have demon-
+strated that enhanced activity within the visual cortex as reaction to
+emotional stimuli is mainly driven by the amygdala, which has strong
+anatomical connections to visual areas ( Amaral et al., 1992 ). One of
+the main contributions of the amygdala is to support rapid reaction
+to potential or actual sources of danger ( Davis and Whalen, 2001;
+LeDoux, 1998; Phan et al., 2002 ). Activity within the amygdala can
+occur even if the threatening stimuli are presented below the level
+of awareness ( Morris et al., 1998; Whalen et al., 1998 ). Amygdala
+responsitivity and associated vigilance are abnormally enhanced in
+PTSD ( Armony et al., 2005; Rauch et al., 2000; Shin et al., 2004 ).
+This hypervigilance ﬁts clinical observations that as EP engaged in ac-
+tive defense, patients are continuously scanning the environment for
+threat cues. Engagement in active defense may thus be associated
+with enhanced activation in motor-related areas, which was found
+in the study of Reinders et al. (2006b) as well (i.e., basal ganglia, cer-
+ebellum). This proposal also ﬁts the observations that the cortical
+motor system is activated during emotional processing in humans
+(Hajcak et al., 2007; Oliveri et al., 2003 ), which prepares the individ-
+ual for an appropriate motor reaction ( Baumgartner et al., 2007 ).
+In most previous functional imaging studies with masked stimuli
+investigating PTSD patients, the analysis was mainly restricted to the
+amygdala as a key brain structure for emotional processing (
+Armony
+et al., 2005; Hendler et al., 2003; Rauch et al., 2000 ). This focus on
+the amygdala re ﬂected a particular a priori interest in the role of this
+brain structure in fear. However, Sakamoto and colleagues conducted
+a whole-brain analysis (Sakamoto et al., 2005). In this study, PTSD pa-
+tients showed signi ﬁcantly higher activations to masked traumatic
+images in the left parahippocampal gyrus and the tail of the left
+hippocampus.
+Per de ﬁnition neutral faces do not express a clear emotion, thus
+can be perceived as emotionally ambiguous. Like anxiety disorder pa-
+tients, and consistent with clinical observations, as EP, DID patients
+may have dif ﬁculty tolerating uncertainty or ambiguity ( Grillon et
+al., 2008; Holaway et al., 2006 ) and may tend to interpret ambiguous
+stimuli in negative ways ( Bishop, 2007; Eysenck et al., 1991 ).
+The current functional magnetic resonance imaging (fMRI) study
+aims to examine the underlying neural activation patterns involved
+in ANP-dependent and EP-dependent preconscious reactivity. Based
+55Y.R. Schlumpf et al. / NeuroImage: Clinical 3 (2013) 54 –64
+===== PAGE 3 =====
+on the mentioned theoretical and empirical grounds, we speci ﬁcally
+hypothesized that compared to (i) ANP in DID patients, and (ii) EP
+in controls, EP in DID patients have a different pattern of neural activ-
+ity in response to subliminally presented faces, particularly more
+activity in primary and higher-order visual areas, face-sensitive areas
+including extrastriate occipito-temporal regions, limbic structures in-
+cluding the amygdala and hippocampal/parahippocampal region, and
+motor-related areas comprising the cortical motor system, basal
+ganglia, and cerebellum. We also hypothesized that (iii) these differ-
+ences are more pronounced following angry faces, that (iv) EP in DID
+patients have longer RTs to these faces than ANP in DID patients and
+than EP in controls, and that (v) comparisons of ANP and EP in controls
+yield different neural and behavioral reactivity patterns than compari-
+sons of ANP and EP in DID patients.
+2. Methods and materials
+2.1. Participants
+Fifteen female outpatients who met the DSM-IV American Psychi-
+atric Association ( American Psychiatric Association, 1994 ) criteria for
+DID were enrolled in the study. They were recruited from private prac-
+titioners of psychiatry and psychotherapy and psychiatric outpatient
+departments in Switzerland and Germany. The clinical diagnosis was
+independently checked by clinical experts in dissociative disorders
+(E. Weder [EW] and E. Zimmermann [EZ]) using the German version
+of the Structured Clinical Interview for DSM-IV Dissociative Disorders
+(SCID-D) ( Steinberg, 1993 ), the (SKID-D) ( Gast et al., 2000 ). All pa-
+tients had to be involved in a treatment phase involving exposure to
+trauma-related memories ( Steele et al., 2005; Van der Hart et al.,
+2006). Exclusion criteria were comorbid psychosis, drug abuse or ad-
+diction, antisocial or histrionic personality disorder, and a neurologi-
+cal or organic brain disease. Two patients were free of medication.
+All other patients were medicated predominantly with antidepressant
+medication.
+Fifteen female actors who were motivated to simulate ANP and EP
+served as controls. They did not differ signiﬁcantly from the patients in
+age (controls: M = 43.2 years, SD = 10.4; patients: M = 43.3 years,
+SD = 9.1; t(28) = 0.019, p N .05) and educational level (controls:
+M = 4.7, SD = 1.2; patients: M = 4.1, SD = 1.5; t(26.099) =
+−1.341, p N .05; the educational level was assessed by a 7-point Likert
+scale based on the common European educational system). The controls
+were interviewed by EW and EZ using the SKID-D ( Gast et al., 2000 ).
+They also completed the German version of the Posttraumatic Diagnos-
+tic Scale (PDS) (Ehlers et al., 1996) and the Beck Depression Inventory II
+(BDI-II) (Hautzinger et al., 2006) to ensure that none of the controls had
+a dissociative disorder, PTSD, and/or major depression. The actors
+watched a video showing a DID patient talking to her therapist. In the
+video, the therapist invites the patient to alternate between ANP and
+EP. Based on detailed written information on TSDP (Van der Hart et al.,
+2006), the actors were instructed and motivated to create an ANP and
+EP using a list of properties (e.g., name, sex, age). ANP should be a
+dissociative part without personalized memories of traumatizing events
+and EP a dissociative part with personalized traumatic memories. The
+actors were requested to practice simulating ANP and EP as often as
+they deemed necessary to adequately enact these roles but at least
+three times before the fMRI measurement. Patients completed as ANP
+and EP the State Anxiety Inventory (STAI-S) (Laux et al., 1981) immedi-
+ately after the MRI measurement, as did the controls to check if the
+actors had understood and followed the instructions to simulate an
+ANP and EP.
+Each subject was informed about risks and inconveniences associ-
+ated with the experiment before written informed consent was
+obtained. All procedures were approved by the local ethical commit-
+tee and were conducted in accordance with the standards set by the
+Declaration of Helsinki. All participants received a ﬁnancial compen-
+sation of 80 Swiss Francs for their participation.
+2.2. Stimuli and experimental design
+A backward masking paradigm was used to investigate preconscious
+mental reactivity to masked faces. The Karolinska Directed Emotional
+Faces (KDEF) served as photographic stimuli. They involved neutral,
+happy, fearful, and angry facial expressions, including approximately
+half male and half female subjects (Lundquist et al., 1998). The selection
+of the facial pictures used in the study was based on a rating of the in-
+tensity and genuineness of the displayed emotions ( Van Balen, 2005).
+In addition to the faces, houses and scrambled images were presented.
+Scrambled stimuli were created in Fourier space by setting a low level
+of phase-coherence (Reinders et al., 2005, 2006a )i nf a c ep i c t u r e sa n d
+served as baseline stimuli. All pictures were matched for luminance,
+contrast, brightness, and spatial frequency information ( Rainer et al.,
+2001; Reinders et al., 2005, 2006a).
+The pictures were generated by the software Presentation (version
+14.1, http://www.neurobs.com) on a computer (Intel Core 2 Duo CPK,
+60-Hz refresh rate) outside the scanner room. A DLP beamer (Plus
+U2-1110) projected them on a half-transparent screen, which could
+be seen via a mirror system placed on the head coil. All blocks of pic-
+tures were shown three times in a pseudorandomized order (18 blocks
+in total). Order effects were controlled by using two playlists (P1, P2),
+which were randomly assigned to ANP and EP. Each block consisted of
+10 subliminal pictures (16.7 ms) and 11 black-and-white dotted
+masks (2.5 s). The masks, also used in previous studies ( Henke et al.,
+2003a, 2003b ), immediately preceded and followed the subliminal
+stimuli. This procedure ensured that the pictures could not be con-
+sciously perceived. The duration of the mask (equivalent to the
+interstimulus interval) was jittered by ± 1 s in randomized steps of
+0.5 s. Every block lasted for 27.5 s and was separated by a 2.5 s mask
+(interblock interval), resulting in a total time of 9 min per run.Fig. 1 de-
+picts the temporal sequence of events in a block.
+A button press task (based on Reinders et al., 2005, 2006a ) was
+used to measure condition-dependent RTs. Each mask contained a
+colored dot (yellow or turquoise). The color of the dot on the masks
+that preceded the experimental pictures was different from the
+color of the dot on the masks that followed these pictures. The partic-
+ipants were instructed to immediately press a button when they no-
+ticed that the color of the dot had changed. To direct the participants'
+gaze to the center of the faces, the dots on the masks were positioned
+at the place that corresponded with the center between the eyebrows
+of the faces. Each participant was ﬁrst tested as ANP, and then as EP.
+The patient switched between dissociative parts of the personality
+outside the scanner room with little guidance from the research clini-
+cian. Inadvertent switches to a different dissociative part than the
+intended ANP or EP during the fMRI measurement were checked by
+asking the participants after the run what dissociative part had been
+present during the run. If there had been a switch to or a co-
+activation of an unintended dissociative part, the run was repeated,
+which was the case in one ANP and two EPs. A LED light of the re-
+sponse box in the scanner room switched on and off in synchrony
+with the participants' button presses. The authors observed that ir-
+regular ﬂashing of this light was a good indicator of co-awareness of
+and/or switching to an unintended dissociative part during the exper-
+iment in DID patients. DID patients behaving like this explained that
+they had major dif ﬁculty to execute the button press task in an
+adequate fashion. For example, they reported that an unintended
+dissociative part wanted to participate in the task but was not or
+not fully aware of task instructions. Therefore, the authors closely
+watched the regularity of the LED ﬂashing. It appeared that DID pa-
+tients with irregular patterns of button presses were precisely the pa-
+tients who were removed from the statistical analysis for other
+methodological reasons (see later).
+56 Y.R. Schlumpf et al. / NeuroImage: Clinical 3 (2013) 54 –64
+===== PAGE 4 =====
+2.3. Determination of awareness
+The level of awareness of the masked images was determined at
+the very end of the experiment, outside of the scanner, using a subjec-
+tive and an objective test ( Cheesman and Merikle, 1984 ). The subjec-
+tive test involves the participant's self report. Thus, the ANPs and EPs
+were asked what they had seen while lying in the scanner. The objec-
+tive test is a forced-choice task, and constitutes the ‘ gold-standard’ for
+the determination of awareness ( Cheesman and Merikle, 1984;
+Greenwald et al., 1996; Holender, 1986 ). The subjective and objective
+tests demonstrated that the participants had not consciously seen the
+experimental images (see Supplementary Findings 1 and Inline Sup-
+plementary Table S1). A light sensor (Vishay Semiconductors) was
+used to examine the beamer's capacity to project pictures within
+the refresh rate of the computer's graphic card (NVIDIA Quadro FX
+1700, 60-Hz) (see Supplementary Findings 2).
+Inline Supplementary Table S1 can be found online at http://dx.
+doi.org/10.1016/j.nicl.2013.07.002.
+2.4. Image acquisition and data preprocessing
+fMRI scanning was performed at the University Hospital of
+Zurich with a 3-T Philips Achieva whole-body magnetic resonance
+imaging equipped with an eight-channel Philips SENSE head coil.
+A total of 325 T2*-weighted echo planar image volumes, with
+blood-oxygen-level-dependent (BOLD) contrast (imaging parameter:
+echo time =30 ms, repetition time = 1.7 s, ﬂip-angle = 79°, FOV =
+220 × 220 × 107 mm, slice thickness = 2.4 mm, slice gap = 1 mm,
+acquired voxel size = 2.75 × 2.75 × 2.4 mm, slices per volume = 32,
+SENSE factor = 2), were acquired during a single run. Initial ‘ dummy’
+volumes were obtained to ensure BOLD saturation. The data analysis
+was performed with the parametric mapping software SPM8 ( http://
+www.ﬁl.ion.ucl.ac.uk/spm). Standard imaging pre-processing and statisti-
+cal analysis procedures were applied. To account for movement artifacts,
+the functional images were realigned to the mean volume and
+coregistered onto the subject speciﬁc T1 image. This T1 image was nor-
+malized using the uni ﬁed segmentation approach ( Ashburner and
+Friston, 2005). The resulting normalization matrix was applied to the
+functional volumes, which transformed them into MNI space (new
+voxel size = 2 × 2 × 2 mm). Data were spatially smoothed with an
+8-mm full width at half-maximum (FWHM) Gaussian kernel. In line
+with the experimental design, the BOLD data was modeled with a block
+design convolved with the standardized canonical haemodynamic re-
+sponse function (HRF). In one ANP of a DID patient, we observed huge im-
+aging artifacts. One ANP of a DID patient reported that she had fallen
+asleep during the measurement. For one patient's EP, we found massive
+movement artifacts and one patient's EP was unable to complete the mea-
+surement. In view of our repeated measures ANOVA, the data of these
+four patients were omitted casewise. The ﬁnal brain imaging statistical
+analysis was performed with data of 11 participants in the patient
+group and 15 in the control group.
+A model with six condition and six movement regressors (with the
+realignment parameters) was aligned for each participant for ANP and
+EP separately at the ﬁrst level analysis. The current analyses are re-
+stricted to the contrasts Neutral-Scramble (N-S) and Angry-Scramble
+(A-S). The results of the other contrasts will be published elsewhere.
+At the second level, the data were analyzed using a factorial design
+that consisted of two independent variables resulting in a 2 × 4
+ANOVA with repeated measures on the second factor: Group (two
+levels: DID/CON), Condition (four levels: ANP N-S/ANP A-S/EP N-S/
+EP A-S). The analysis was based on a whole-brain voxel-wise compar-
+ison. For the main effect of condition, main effect of group, and inter-
+action effect, we employed an uncorrected statistical threshold (i.e.,
+voxel level of signi ﬁcance uncorrected [unc.] for multiple testing for
+the whole brain) of p b .001 with respect to our a priori de ﬁned re-
+gions. The selection of these regions is based on previous studies
+outlined in the introduction section ( Hajcak et al., 2007; Haxby et al.,
+2000; Reinders et al., 2006b; Sakamoto et al., 2005; Vuilleumier and
+Pourtois, 2007; Whalen et al., 1998 ). To avoid type-2 errors, statistical
+thresholds of similar sizes have been used in affective and clinical
+neuroscience research ( Felmingham et al., 2008; Phelps et al., 2001 ).
+Where no a priori hypothesis was available, we only accepted
+brain areas which reached a corrected p-value (p b .05). Corrected
+p-values are reported based on the family-wise error (FWE) correc-
+tion at cluster level ( Friston et al., 1994, 1996 ).
+The participants were measured as ANP and EP in the patient group
+(DIDanp/DIDep) and in the control group (CONanp/CONep). The fol-
+lowing eight planned comparisons were performed: DIDanp – DIDep
+N-S, CONanp-CONep N-S, DIDanp – CONanp N-S, DIDep – CONep N-S,
+DIDanp– DIDep A-S, CONanp-CONep A-S, DIDanp –CONanp A-S,
+DIDep– CONep A-S. Planned comparisons were not orthogonal. Statisti-
+cal thresholds for a priori de ﬁned regions for these planned compari-
+sons were adjusted for multiple testing using Bonferroni correction
+(p b .05/8 = p b .000125). All tests were one-sided, thus, were
+performed twice to assess positive differences in the BOLD signal in
+one and in the inverse contrast. Again, where no a priori hypothesis
+was available, we only accepted brain areas that survived FWE correc-
+tion at cluster-level (p b .05). A cluster-size threshold of 7 voxels was
+applied. Only the ﬁrst peak of a cluster and only the most signi ﬁcant
+ﬁnding of a brain area are reported in the Tables 2 to 5 . The exact
+Fig. 1. Experimental design. Example stimuli (KDEF, identity number M14 and F20, Lundquist et al., 1998 ), masks, and ﬁxation dots are presented from one block displayed during
+the fMRI measurement.
+57Y.R. Schlumpf et al. / NeuroImage: Clinical 3 (2013) 54 –64
+===== PAGE 5 =====
+location of all clusters was de ﬁned using the Harvard – Oxford cortical
+and subcortical structural atlases (Desikan et al., 2006) and by visual in-
+spection on a high-resolution T1-weighted image in FSL ( http://www.
+fmrib.ox.ac.uk/fsl). The cingulate subregions were named according to
+Vogt's cytoarchitectonic division (Vogt, 2005).
+2.5. Data analysis: behavioral reactions
+An attentional bias (AB) score was calculated by subtracting the
+mean value of the RTs for the three scrambled face blocks (S) from the
+mean value for the RTs of the three neutral face blocks (N) and the
+angry face blocks (A), respectively. The data of the participant who fell
+asleep and the one whose EP was not able to ﬁnish the measurement
+were excluded. The ﬁnal statistical analysis was performed with data
+of 13 participants in the patient group and 15 in the control group.
+We calculated a 2 × 4 ANOVA with repeated measures on the second
+factor: Group (two levels: DID/CON), Condition (four levels: ANP N-S/
+ANP A-S/EP N-S/EP A-S) in SPSS18. For the main effect of condition,
+main effect of group, and interaction effect, p-values were set at .05.
+The following eight planned comparisons were performed: DIDanp –
+DIDep N-S, CONanp-CONep N-S, DIDanp – CONanp N-S, DIDep –CONep
+N-S, DIDanp – DIDep A-S, CONanp-CONep A-S, DIDanp –CONanp A-S,
+DIDep– CONep A-S. Planned comparisons were not orthogonal. There-
+fore, Bonferroni correction was applied and p-values were set at
+.00625, one-tailed.
+Furthermore, the following four post-hoc t-tests were calculated to
+ensure that a RT difference can be explained by a face-speci ﬁce f f e c t :
+DIDanp N-S versus DIDanp A-S, DIDep N-S versus DIDep A-S, CONanp
+N-S versus CONanp A-S, CONep N-S versus CONep A-S. Bonferroni ad-
+justed p-values were set at .0125, one-tailed.
+2.6. Data analysis: state anxiety
+A total value of the STAI-S (sum of obtained scores in the question-
+naire) was calculated for each participant. The data of the participant
+who fell asleep and the one whose EP was not able to ﬁnish the
+measurement were excluded. The ﬁnal statistical analysis was
+performed with data of 13 participants in the patient and 15 in the
+control group.
+We calculated a 2 × 2 ANOVA with repeated measures on the second
+factor: Group (two levels: DID/CON), Type of dissociative part (two
+levels: ANP/EP) in SPSS18. For the main effect of group, main effect of
+type of dissociative part, and interaction effect, p-values were set at .05.
+3. Results
+3.1. Behavioral data
+There was a signi ﬁcant interaction effect of group by condition
+(F(1,26) = 4.82, p b .05, partial η
+2 = .16). The main effect of group
+and the main effect of condition did not reach a signi ﬁcant threshold
+(p N .05). In AB N-S, Bonferroni corrected planned comparisons re-
+vealed a RT difference between DIDanp and DIDep (t(12) = − 3.15,
+p b .00625, d = 1.31). In AB A-S, planned comparisons did not reveal
+any signiﬁcant results (p N .00625). Nevertheless, there is a clear pos-
+itive AB N-S and a tendency to a positive AB A-S in DIDep ( Fig. 2).
+We observed a signi ﬁcant longer RT in DIDep N-S compared to
+DIDep A-S (t(12) = 2.69, p b .0125, d = 0.73). All other post-hoc
+tests did not reach the critical threshold (p N .0125). Fig. 3 depicts
+the mean and standard error of RT (A-S) – (N-S) in DIDanp, DIDep,
+CONanp, and CONep.
+3.2. State anxiety
+There was neither a signi ﬁcant main effect of group, nor a signi ﬁ-
+cant main effect of type of dissociative part, nor an interaction effect
+of group by type of dissociative part (p N .05). Table 1 summarizes
+the descriptive statistics of the STAI-S score in DIDanp, DIDep,
+CONanp, and CONep.
+3.3. Neural data
+3.3.1. Repeated measures ANOVA
+We found a signi ﬁcant main effect of condition (putamen, posteri-
+or part of the parahippocampal gyrus) and a signi ﬁcant interaction ef-
+fect of group by condition (parahippocampal gyrus, middle temporal
+gyrus) (Table 2). There was no signi ﬁcant main effect of group.
+3.3.2. Planned comparisons
+Within-group comparisons of two different types of dissociative
+parts of the personality (i.e., ANP – EP comparisons) are listed in
+Table 3 . ANP – EP comparisons between groups are given in Tables 4
+and 5.
+3.3.2.1. Within-group ANP –EP comparisons. In the angry and neutral
+face condition, DIDep had more activation in the parahippocampal
+gyrus than DIDanp (DIDep – DIDanp N-S/A-S, Table 3). This activation
+was not found for ANP versus EP in controls. The neutral faces but not
+the angry faces evoked a signi ﬁcantly increased right amygdala activ-
+ity as well as in several cortical regions in CONanp compared to
+CONep (CONanp– CONep N-S, Table 3).
+3.3.2.2. Between-group ANP –EP comparisons. In the angry face condi-
+tion and compared to CONep, DIDep was associated with more activa-
+tion in the precentral gyrus (DIDep
+– CONep A-S, Table 4 ). In the
+neutral face condition (DIDep– CONep N-S, Table 4), the same contrast
+demonstrated increased neural activation for DIDep. Multiple large
+clusters reached our prede ﬁned statistical thresholds. The ﬁrst cluster
+with a peak value in the left dorsal brainstem includes several mainly
+left lateralized areas in the occipito-temporal junction (lingual gyrus,
+temporal occipital fusiform gyrus, and occipital fusiform gyrus) and
+the left parahippocampal gyrus (Fig. 4). Within this cluster, brainstem
+and lingual gyrus survived FWE correction for whole-brain multiple
+comparisons (p b .05, Table 5). DIDep had more activation in several
+a priori de ﬁned regions (middle temporal gyrus, STS, lateral occipital
+cortex, occipital pole). As this type of dissociative part, DID patients
+also had more activation in several motor-related areas (pre-
+supplementary motor area, precentral gyrus).
+4. Discussion
+This is the ﬁrst fMRI study of neural activation patterns to precon-
+sciously perceived facial expressions for two different prototypes of
+dissociative parts of the personality (ANP and EP) in DID patients.
+As generally hypothesized, we found different neural and behavioral
+activation patterns for ANP and EP in DID patients and in controls.
+Consistent with ourﬁrst hypothesis, as EP, DID patients demonstrat-
+ed more activation in the right parahippocampal gyrus during the
+masked presentation of neutral and angry faces than they had as ANP
+(see Table 3). The parahippocampal gyrus has been implicated in recall
+of autobiographical memories ( Fink et al., 1996 ), with a right hemi-
+spheric predominance ( Tulving et al., 1994 ), and in re-experiencing
+symptoms in PTSD (Osuch et al., 2001; Sakamoto et al., 2005 ). The ob-
+served enhanced activation in the parahippocampal gyrus corresponds
+with core features of EP, that is, their ﬁxation in traumatic memories,
+their tendency to perceive safe individuals as dangerous, and their ten-
+dency to reactivate traumatic memories when confronted with re-
+minders of traumatic experiences. However, we did not ﬁnd the
+hypothesized differences for ANP and EP in DID patients with respect
+to visual areas, face sensitive areas, amygdala, and motor areas. This
+negative ﬁnding may at least in part relate to limitations of the present
+study, which will be discussed below.
+58 Y.R. Schlumpf et al. / NeuroImage: Clinical 3 (2013) 54 –64
+===== PAGE 6 =====
+Differences in neural activation patterns were much more pro-
+nounced for EP in DID patients compared to EP in controls. But in con-
+trast with our third hypothesis, EP's subliminal perception of neutral
+and not angry faces revealed these strong differences. In reaction to
+subliminally presented angry faces, EP in DID showed enhanced ac-
+tivity in the precentral gyrus (see Fig. 4). We also observed increased
+activity in the temporal pole of the superior temporal gyrus. This area
+is known to participate in the analysis of faces too, particularly in pro-
+cessing the semantic knowledge of a face ( Haxby et al., 2000 ). We are
+reluctant to discuss this activity any further, as it did not reach the
+statistical threshold for non-a priori de ﬁned regions. Masked neutral
+faces evoked activation in a cluster of brain areas including the dorsal
+brainstem, parahippocampal gyrus, and mainly left lateralized areas
+positioned in the occipito-temporal junction (see Fig. 4 ), as well as
+several motor-related areas (see Table 4).
+Taken together, the ﬁndings of the current study suggest that as
+EP, DID patients deeply engaged in subliminally presented faces, par-
+ticularly in neutral faces. DIDep's dorsal brainstem activity further-
+more indicates increased arousal ( Jones, 2003 ) and associated
+vigilance in reaction to subliminally perceived neutral faces.
+The occipito-temporal junction is a face-sensitive region ( Gorno-
+Tempini et al., 2001; Haxby et al., 2000; Nakamura et al., 2000 ), and
+the occipital fusiform gyrus contributes at a very early phase in the
+face-processing stream and generates the initial representation of a
+Fig. 2. Mean attentional bias (AB) score (reaction times [RTs] for emotional faces minus RTs for scrambled faces) for (A) the neutral faces (AB N-S) and (B) the angry faces (AB A-S)
+in ms (±SEM). A positive AB indicates vigilance, a negative AB indicates avoidance, *p b .00625 (Bonferroni corrected).
+Fig. 3. Mean reaction time (N-S) – (A-S) of ANP and EP in DID and CON (±SEM).
+59Y.R. Schlumpf et al. / NeuroImage: Clinical 3 (2013) 54 –64
+===== PAGE 7 =====
+face (Pitcher et al., 2007). The mainly left lateralized activation pattern
+is in line with previousﬁndings of left hemispheric involvement in sub-
+liminal perception of faces ( Henke et al., 1994 ). Activation of motor
+areas could indicate defensive reactions to perceived threat.
+Given the integral role of the amygdala in automatic processing of
+threatening stimuli (Öhman, 2005; Vuilleumier, 2005), the reason for
+the lack of amygdalar activity in our study deserves a closer look.
+PTSD neuroimaging studies have led to inconsistent ﬁndings with
+regards to amygdala activation. Studies employing masked-faces para-
+digm (Rauch et al., 2000) or visual imagery ( Shin et al., 1997)d e m o n -
+strated exaggerated amygdala responses in PTSD patients compared
+to healthy controls, although studies conducting script-driven imagery
+failed to reveal increased amygdala activity in PTSD subjects (Bremner
+et al., 1999a, 1999b; Shin et al., 1999). Furthermore, amygdala engage-
+ment during the processing of fearful faces is a reliable and consistent
+ﬁnding in the fMRI literature, whereas amygdala enhancement as reac-
+tion to angry or neutral faces has been reported less consistently
+(Fusar-Poli et al., 2009 ). The amygdala can habituate during repeated
+exposure to emotional stimuli (Breiter et al., 1996; Fischer et al., 2003;
+Schwartz et al., 2003; Wright et al., 2001 ). Time courses of left and
+right amygdala activity (mean beta values within the left and right
+amygdala, data not shown) did not reveal evidence of amygdala habit-
+uation during the whole experimental period, neither in DID patients
+nor in controls. However, the amygdala is not only restricted to signal-
+ing of fear, but is also involved in the evaluation of salient (Sander et al.,
+2003) and novel stimuli (Blackford et al., 2010). It has been shown that
+the amygdala is activated most strongly at the beginning of a stimulus
+series ( Büchel et al., 1998 ). Hence, the blockwise manner, in which
+our stimuli were presented, might explain the non signiﬁcant amygdala
+activity in our study. It could also be possible that the amygdala of DID
+patients was consistently overactivated even before negative stimuli
+were presented. This idea accords with results of other imaging studies
+showing that anxious individuals have increased anticipatory activity in
+the amygdala preceding stimuli with prior known negative, neutral, or
+ambiguous emotional valence (Brühl et al., 2011; Nitschke et al., 2009).
+Comparisons in which ANP's brain activation was contrasted to
+other conditions did not give signi ﬁcant results (i.e., DIDanp – DIDep,
+DIDanp– CONanp; see Tables 3 and 4 ). This ﬁnding indicates a rela-
+tively decreased BOLD signal all over the brain for this type of disso-
+ciative part, suggesting low involvement in subliminally presented
+faces.
+There was increased activation in many a priori de ﬁned brain re-
+gions for EP in DID patients compared to EP in controls, but fewer dif-
+ferences for ANP in DID patients compared to EP in these patients. We
+therefore checked post hoc if these differences also existed for ANP in
+DID patients compared to EP in controls (DIDanp – CONep N-S, data
+not shown). We found enhanced activity in the dorsal brainstem, lin-
+gual gyrus (with some voxels extending to the temporal occipital fu-
+siform gyrus), and motor-related areas such as the putamen and the
+(pre-)supplementary motor area. While this pattern resembles the
+one for DIDep, it was less pronounced. It thus seems that ANP's de-
+creased involvement in consciously perceived trauma-related cues
+(Reinders et al., 2003, 2006b ) has roots in ANP's subdued precon-
+scious reactivity to trauma-related cues.
+This study is the ﬁ
+rst to document that foremost as EP, DID patients
+speciﬁcally focus on, and seem to be alarmed by preconsciously per-
+ceived neutral faces. Consistent with the neuralﬁndings and our fourth
+hypothesis, EP in DID patients also showed signi ﬁcantly slower RTs to
+Table 2
+Main effect condition and interaction effect.
+Brain area MNI coordinates a
+Side xyz kEF value
+Main effect
+condition
+Putamen L −24 6 0 73 8.70
+Parahippocampal gyrus
+(posterior part)
+R1 8 −36 −10 33 7.90
+Interaction
+effect
+Parahippocampal gyrus
+(anterior part)
+R1 6 −10 −24 29 9.60
+Middle temporal gyrus
+b R6 2 −38 −8 17 7.31
+R/L, left or right hemisphere; k E, cluster size in voxels (one voxel is 2 × 2 × 2 mm).
+a MNI coordinates (in mm) refer to the maximum of signal change in each region.
+b Ventral bank of the sulcus temporalis superior.
+Table 3
+ANP/EP effects within groups in response to masked angry and neutral faces as compared to scrambled faces (A-S, N-S).
+Brain area Side MNI coordinates a kET value
+xyz
+Condition A-S
+DIDanp– DIDep n.s
+DIDep– DIDanp Parahippocampal gyrus (anterior part) R 20 −14 −26 9 4.20
+CONanp– CONep n.s.
+CONep– CONanp n.s
+Condition N-S
+DIDanp– DIDep n.s
+DIDep– DIDanp Parahippocampal gyrus (anterior part) R 16 −12 −26 11 4.27
+CONanp– CONep Superior frontal gyrus L −20 28 54 140 4.94 ⁎
+aMCC/pMCC R 2 12 36 277 4.65 ⁎
+Precentral gyrus (premotor cortex) L −42 −4 46 25 4.26
+Amygdala R 26 −6 −22 16 4.15
+Middle temporal gyrus (temporooccipital part) R 58 −56 2 7 4.03
+CONep– CONanp n.s.
+R/L, left or right hemisphere; k E, cluster-size in voxels (one voxel is 2 × 2 × 2 mm); n.s., not signi ﬁcant; DIDanp, ANP DID group; DIDep, EP DID group; CONanp, ANP control group;
+CONep, EP control group; aMCC, anterior midcingulate cortex; pMCC, posterior midcingulate cortex.
+a MNI coordinates (in mm) refer to the maximum of signal change in each region.
+⁎ Corrected for multiple comparisons using cluster-level statistics, p b .05.
+Table 1
+Descriptive statistics of state anxiety.
+STAI-S Mean SD
+DID (n = 13)
+DIDanp 49.92 11.64
+DIDep 52.90 14.83
+CON (n = 15)
+CONanp 48.87 13.22
+CONep 49.80 10.15
+STAI-S, state anxiety inventory; DIDanp, ANP DID group; DIDep, EP DID group;
+CONanp, ANP control group; CONep, EP control group.
+60 Y.R. Schlumpf et al. / NeuroImage: Clinical 3 (2013) 54 –64
+===== PAGE 8 =====
+neutral faces and a tendency to slower RTs to angry faces compared to
+ANP in DID patients and EP in controls (seeFig. 2). This face- and disso-
+ciative part-speciﬁc effect could also be observed in the direct compar-
+ison between RTs related to neutral and angry faces. This comparison
+yielded a signi ﬁcant longer RT in the neutral face condition in EP of
+DID patients only.
+Emotionally neutral faces may be threatening to them for a variety
+of reasons. First, it can be hard to disambiguate these expressions
+(“what does this face mean? ”), particularly following emotional ne-
+glect (“this person may not care about me ”) and abuse ( “this person
+seems calm, but for how long, what emotion will he or she show
+next?”). Consistent with this interpretation, patients with borderline
+personality disorder (BPD) regarded neutral faces as threatening,
+and demonstrated a hyperactivated amygdala when supraliminally
+confronted with these faces ( Donegan et al., 2003 ). BPD, DID, and dis-
+sociative symptoms are all intimately related to a context of unstable
+and disrupted interpersonal relationships ( Benjamin, 1993; Dutra et
+al., 2009; Kelley et al., 2002; Korol, 2008; Linehan, 1993; Ogawa
+et al., 1997 ). As the type of dissociative part of the personality
+that is ﬁxed in the traumatic past, EP may regard neutral faces as
+untrustworthy and threatening, and thus become hypervigilant
+when confronted with them, and prepare motor defensive reactions.
+Neutral faces can also express affective unavailability (of caretakers),
+a condition that all DID patients in the study reported (neglect
+and abuse by family members). The quality of the early caregiving
+relationship is linked to dissociation in that affective parental
+unavailability and disorganized attachment in childhood are major
+predictors of dissociative symptoms in adulthood ( Dutra et al.,
+2009; Ogawa et al., 1997 ). Our results ﬁt ﬁndings of grave effects of
+still faces on children ( Mesman et al., 2009; Tronick et al., 1978 ), par-
+ticularly in individuals who are neglected, abused, and insecurely
+attached. They generally add to the evidence for a pivotal role of
+emotional neglect and emotional unavailability of caretakers in DID.
+Our data contrast with the ﬁndings of Hermans et al. (2006) , who
+reported longer RTs to angry compared to neutral faces in EP of DID
+patients. This con ﬂicting ﬁnding might be related to several method-
+ological differences between these studies in relation to stimulation,
+such as the facial and masking stimuli, the design of the subliminal
+presentation, and the presentation time. While our study presented
+facial stimuli for 16.7 ms, Hermans et al. presented these stimuli for
+25 ms. Cognitive theories of anxiety maintain that the attentional
+bias toward threatening material occurs at a preconscious level
+(Cisler and Koster, 2010 ). The stage of sensory reactivity at which
+this bias emerges in DID has not been investigated systematically to
+date. There is neurophysiological evidence showing that the signals
+transmitted by neurons in the visual cortex increase as a function of
+stimulus length ( Rolls et al., 1999 ). In other words, the shorter the
+presentation time, the less sensory signals for the discrimination of
+a face are provided. Neutral faces have an uncertain emotional va-
+lence and, therefore, require deeper processing demands. It might
+be speculated that the slightly shorter presentation time in our
+study particularly increased preconscious ﬁxation in EP on neutral fa-
+cial expressions, as EP is focused on threat or potential threat cues
+Table 5
+Dissociative-part effects between groups in response to masked neutral faces as com-
+pared to scrambled faces (N-S).
+Brain area Side MNI coordinates
+a kET value
+xyz
+Condition N-S
+DIDep– CONep Brainstem L −12 −26 −18 42 5.44 ⁎
+Middle frontal gyrus R 40 32 32 35 5.26 ⁎
+Middle frontal gyrus L −28 32 48 9 5.26 ⁎
+Lingual gyrus L −26 −54 −6 37 5.20 ⁎
+R/L, left or right hemisphere; k E, cluster-size in voxels (one voxel is 2 × 2 × 2 mm);
+DIDep, EP DID group; CONep, EP control group.
+a MNI coordinates (in mm) refer to the maximum of signal change in each region.
+⁎ FWE correction for whole-brain multiple comparisons, p b .05 (k E = 7).
+Table 4
+ANP/EP effects between groups in response to masked angry and neutral faces as compared to scrambled faces (A-S, N-S).
+Brain area Side MNI coordinates a kET value
+xyz
+Condition A-S
+DIDanp– CONanp n.s.
+CONanp– DIDanp n.s
+DIDep– CONep Precentral gyrus (primary motor cortex) L −36 −14 40 21 4.31
+CONep– DIDep n.s.
+Condition N-S
+DIDanp– CONanp n.s.
+CONanp– DIDanp n.s.
+DIDep– CONep Brainstem (dorsal part) c L −12 −26 −18 1729 5.44 ⁎
+Parahippocampal gyrus (anterior part) R 16 −10 −24 35 5.29
+Middle frontal gyrus R 40 32 32 267 5.26 ⁎
+Middle frontal gyrus L −28 32 48 136 5.26 ⁎
+Middle temporal gyrus R 62 −38 −8 81 4.86 ⁎
+Pre-SMA L −2 4 62 159 4.85 ⁎
+Precentral gyrus (primary motor cortex) R 42 −10 44 386 4.83 ⁎
+pMCC/dPCC 0 −26 32 274 4.74 ⁎
+DMPFC R 2 56 24 166 4.53 ⁎
+Middle temporal gyrus b R6 0 −22 −12 54 4.50
+Precentral gyrus (primary/premotor cortex) L −36 −14 42 46 4.34
+STS L −58 −16 −6 13 4.32
+Lateral occipital cortex (inferior part) R 54 −68 0 24 4.21
+Occipital pole (peristriate cortex) R 28 −96 −2 7 4.12
+CONep– DIDep n.s.
+R/L, left or right hemisphere; k E, cluster-size in voxels (one voxel is 2 × 2 × 2 mm); n.s., not signi ﬁcant; DIDanp, ANP DID group; DIDep, EP DID group; CONanp, ANP control group;
+CONep, EP control group; Pre-SMA, pre-supplementary motor area; pMCC, posterior midcingulate cortex; dPCC, dorsal posterior cingulate cortex; DM PFC, dorsomedial prefrontal
+cortex; STS, sulcus temporalis superior.
+a MNI coordinates (in mm) refer to the maximum of signal change in each region.
+b Ventral bank of the sulcus temporalis superior.
+c Cluster includes Brainstem R, Parahippocampal gyrus L, Lingual gyrus R/L, Temporal occipital fusiform gyrus L, Occipital fusiform gyrus L.
+⁎ Corrected for multiple comparisons using cluster-level statistics, p b .05.
+61Y.R. Schlumpf et al. / NeuroImage: Clinical 3 (2013) 54 –64
+===== PAGE 9 =====
+(Van der Hart et al., 2006 ). Future studies are needed to test this
+hypothesis.
+Our ﬁfth and last hypothesis was that the identi ﬁed behavioral
+and neural differences for ANP and EP in DID patients would not be
+matched by controls, who were instructed and motivated to simulate
+ANP and EP. Controls showed a tendency to inverse RTs and neural
+activation patterns for these different prototypical parts. That is, as
+ANP, the actors tended to react like EP in DID patients, and as EP
+like ANP in these patients. The actors were thus unable to simulate
+DID with respect to behavioral and neural reactivity, which contra-
+dicts the sociocognitive model of DID. Compared to EP, as ANP, con-
+trols had amygdala activity in the neutral face condition (see
+Table 3 ), but neither brainstem activity nor a longer RT. Whereas
+the neutral faces were thus salient ( Davis and Whalen, 2001;
+LeDoux, 1998 ) for ANP-simulating controls, they did not arouse
+them or attract much preconscious attention, as happened for au-
+thentic EP. The current ﬁndings add to the psychobiological evidence
+(Hermans et al., 2006; Reinders et al., 2012 ) that DID is neither an ef-
+fect of suggestion and fantasy, nor of role-playing.
+The ﬁndings have strong implications for the clinical context in deal-
+ing with DID patients and suggest that therapists of DID patients must be
+emotionally and behaviorally engaged. Therapeutic neutrality will prob-
+ably scare them, particularly as EP, triggering and reinforcing condi-
+tioned emotional and defensive reactions. As EP, these patients will
+tend to perceive an emotionally neutral therapist as an emotionally
+unavailable caretaker. These effects may not be immediately visible
+when an ANP is dominant due to ANP's mental avoidance and
+under-engagement. However, ANP and EP can be activated in parallel
+(Van der Hart et al., 2006), so that the therapist's neutrality can nonethe-
+less affect the patient as one or more EPs. This interpretation is consis-
+tent with clinical observations (Van der Hart et al., 2006). For example,
+ANP may report that EP is negatively affected by the therapist's neutral-
+ity. It may also happen that ANP does not notice or report this emotion-
+ality in an EP, but that EP responds in the described emotional sense in a
+later stage, while expressing that she/he felt rejected, confused, or afraid
+when the therapist was emotionally un(der)engaged.
+This study has several limitations. Our sample size was relatively
+small, which was due to the dif ﬁculty in ﬁnding DID patients who
+are able to alternate between ANP and EP at request and to remain ac-
+tivated, particularly as EP, for a substantial period of time in an fMRI
+environment. Patients who can perform this feat are the ones who
+have been in treatment for at least several years. Because treatment
+of DID fosters integration between the different dissociative parts
+and integration of traumatic memories, studies such as ours are
+prone to underestimate naturally existing biopsychosocial differences
+between these subsystems of the personality. In order to check if the
+actors had understood and followed the instructions to simulate an
+ANP and EP, patients and controls completed as ANP and EP the
+STAI-S ( Laux et al., 1981 ) immediately after the fMRI measurement.
+Explorative data analysis revealed that, in contrast to the behavioral
+and neural data, no inverse simulation pattern could be observed
+(see Table 1 ). That is, as ANP, the actors tended to react like ANP in
+DID patients, and as EP like EP in these patients. However, no signi ﬁ-
+cant differences were observed between and within groups. There-
+fore, the STAI-S does not seem to be an appropriate measurement to
+examine adherence to simulation instructions. In future studies,
+other assessments such as self-report should be included. DID pa-
+tients have considerable comorbidity ( Ellason et al., 1996 ). Future
+studies will need to evaluate axis I and axis II comorbidity and ad-
+dress covariations between this comorbidity and patterns of neural
+activation. Another limitation of the study is that only two of our pa-
+tients were free of medication. Medication washout is not feasible
+with DID patients. However, medication does not explain the ob-
+served differences between ANP and EP in DID patients.
+In conclusion, the current study shows that two prototypical parts
+of the personality in DID patients, ANP and EP, have different
+biopsychosocial reaction patterns to backward masked neutral and
+angry faces that controls were unable to simulate. Fixed in active de-
+fense, as EP, DID patients engage in early and automatic scanning of fa-
+cial expressions. Avoiding threat cues, as ANP, they are underinvolved
+in the faces. These results and interpretations are consistent with clini-
+cal observations and TSDP, but inconsistent with the sociocognitive
+model of DID.
+Acknowledgments
+This research was supported by the Forschungskredit of the
+University of Zurich. A.A.T. Simone Reinders is supported by the
+Netherlands Organization for Scienti ﬁc Research ( www.nwo.nl),
+NWO-VENI grant no. 451-07-009. We would like to thank the col-
+leagues of Prof. Jäncke's lab for their helpful comments and Franz
+Liem and Thomas Reber for their technical support. Special thanks
+go to the patients and their therapists for participating in the study.
+Competing interests
+None declared.
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at http://
+dx.doi.org/10.1016/j.nicl.2013.07.002.
+References
+Amaral, D.G., Price, J.L., Pitkanen, A., Carmichael, S.T., 1992. Anatomical organization
+of primate amygdaloid complex. In: Aggleton, W. (Ed.), The Amygdala: Neurobio-
+logical Aspects of Emotion, Memory and Mental Dysfunction. Wiley-Liss,
+New York, pp. 1 – 66.
+Fig. 4. Brain regions showing signi ﬁcantly higher activation during preconscious exposure to neutral faces as compared to scrambled faces in DIDep compared to CONep (DIDep –
+CONep, N-S). The sagittal view depicts areas in the dorsal brainstem, occipitotemporal junction, and parahippocampal gyrus. Activation in the visu al cortex can be seen in the cor-
+onal view. Corresponding regions, cluster-sizes, MNI coordinates, and T-values can be found in Table 4 .
+62 Y.R. Schlumpf et al. / NeuroImage: Clinical 3 (2013) 54 –64
+===== PAGE 10 =====
+American Psychiatric Association, 1994. Diagnostic and Statistical Manual of Mental
+Disorders DSM-IV, 4th ed. American Psychiatric Association, Washington, DC.
+Armony, J.L., Corbo, V., Clement, M.H., Brunet, A., 2005.Amygdala response in patients with
+acute PTSD to masked and unmasked emotional facial expressions. The American
+Journal of Psychiatry 162, 1961–1963.
+Ashburner, J., Friston, K.J., 2005. Uniﬁed segmentation. NeuroImage 26, 839 – 851.
+Bakvis, P., Roelofs, K., Kuyk, J., Edelbroek, P.M., Swinkels, W.A., Spinhoven, P., 2009.
+Trauma, stress, and preconscious threat processing in patients with psychogenic
+nonepileptic seizures. Epilepsia 50, 1001 – 1011.
+Baumgartner, T., Willi, M., Jancke, L., 2007. Modulation of corticospinal activity by
+strong emotions evoked by pictures and classical music: a transcranial magnetic
+stimulation study. Neuroreport 18, 261 – 265.
+Benjamin, L.S., 1993. Interpersonal Diagnosis and Treatment of Personality Disorders,
+2nd ed. Guilford, New York.
+Bishop, S.J., 2007. Neurocognitive mechanisms of anxiety: an integrative account.
+Trends in Cognitive Sciences 11, 307 – 316.
+Blackford, J.U., Buckholtz, J.W., Avery, S.N., Zald, D.H., 2010. A unique role for the
+human amygdala in novelty detection. NeuroImage 50, 1188 – 1193.
+Breiter, H.C., Etcoff, N.L., Whalen, P.J., Kennedy, W.A., Rauch, S.L., Buckner, R.L., Strauss,
+M.M., Hyman, S.E., Rosen, B.R., 1996. Response and habituation of the human
+amygdala during visual processing of facial expression. Neuron 17, 875 – 887.
+Bremner, J.D., Narayan, M., Staib, L.H., Southwick, S.M., McGlashan, T., Charney, D.S.,
+1999a. Neural correlates of memories of childhood sexual abuse in women with
+and without posttraumatic stress disorder. The American Journal of Psychiatry
+156, 1787 – 1795.
+Bremner, J.D., Staib, L.H., Kaloupek, D., Southwick, S.M., Soufer, R., Charney, D.S., 1999b.
+Neural correlates of exposure to traumatic pictures and sound in Vietnam combat
+veterans with and without posttraumatic stress disorder: a positron emission to-
+mography study. Biological Psychiatry 45, 806 – 816.
+Brühl, A.B., Rufer, M., Delsignore, A., Kaffenberger, T., Jancke, L., Herwig, U., 2011. Neu-
+ral correlates of altered general emotion processing in social anxiety disorder.
+Brain Research 1378, 72 – 83.
+Büchel, C., Morris, J., Dolan, R.J., Friston, K.J., 1998. Brain systems mediating aversive
+conditioning: an event-related fMRI study. Neuron 20, 947 – 957.
+Cheesman, J., Merikle, P.M., 1984. Priming with and without awareness. Perception &
+Psychophysics 36, 387 – 395.
+Cisler, J.M., Koster, E.H., 2010. Mechanisms of attentional biases towards threat in anx-
+iety disorders: an integrative review. Clinical Psychology Review 30, 203 – 216.
+Dalenberg, C.J., Brand, B.L., Gleaves, D.H., Dorahy, M.J., Loewenstein, R.J., Cardena, E.,
+Frewen, P.A., Carlson, E.B., Spiegel, D., 2012.Evaluation of the evidence for the trauma
+and fantasy models of dissociation. Psychological Bulletin 138, 550– 588.
+Davis, M., Whalen, P.J., 2001. The amygdala: vigilance and emotion. Molecular Psychi-
+atry 6, 13 – 34.
+Desikan, R.S., Segonne, F., Fischl, B., Quinn, B.T., Dickerson, B.C., Blacker, D., Buckner,
+R.L., Dale, A.M., Maguire, R.P., Hyman, B.T., Albert, M.S., Killiany, R.J., 2006. An auto-
+mated labeling system for subdividing the human cerebral cortex on MRI scans
+into gyral based regions of interest. NeuroImage 31, 968 – 980.
+Diseth, T.H., 2006. Dissociation following traumatic medical treatment procedures in
+childhood: a longitudinal follow-up. Development and Psychopathology 18, 233–251.
+Donegan, N.H., Sanislow, C.A., Blumberg, H.P., Fulbright, R.K., Lacadie, C., Skudlarski, P.,
+Gore, J.C., Olson, I.R., McGlashan, T.H., Wexler, B.E., 2003. Amygdala hyperreactivity
+in borderline personality disorder: implications for emotional dysregulation. Bio-
+logical Psychiatry 54, 1284 – 1293.
+Dutra, L., Bureau, J.F., Holmes, B., Lyubchik, A., Lyons-Ruth, K., 2009. Quality of early
+care and childhood trauma: a prospective study of developmental pathways to dis-
+sociation. The Journal of Nervous and Mental Disease 197, 383 – 390.
+Ehlers, A., Steil, R., Winter, H., Foa, E.B., 1996. Deutsche Übersetzung der Posttraumatic
+Diagnostic Scale (PDS). University, Warneford Hospital, Oxford.
+Ellason, J.W., Ross, C.A., Fuchs, D.L., 1996. Lifetime axis I and II comorbidity and child-
+hood trauma history in dissociative identity disorder. Psychiatry 59, 255 – 266.
+Eysenck, M.W., Mogg, K., May, J., Richards, A., Mathews, A., 1991. Bias in interpretation
+of ambiguous sentences related to threat in anxiety. Journal of Abnormal Psychol-
+ogy 100, 144 – 150.
+Felmingham, K., Kemp, A.H., Williams, L., Falconer, E., Olivieri, G., Peduto, A., Bryant, R.,
+2008. Dissociative responses to conscious and non-conscious fear impact underly-
+ing brain function in post-traumatic stress disorder. Psychological Medicine 38,
+1771– 1780.
+Fink, G.R., Markowitsch, H.J., Reinkemeier, M., Bruckbauer, T., Kessler, J., Heiss, W.D.,
+1996. Cerebral representation of one's own past: neural networks involved in au-
+tobiographical memory. Journal of Neuroscience 16, 4275 – 4282.
+Fischer, H., Wright, C.I., Whalen, P.J., McInerney, S.C., Shin, L.M., Rauch, S.L., 2003. Brain
+habituation during repeated exposure to fearful and neutral faces: a functional MRI
+study. Brain Research Bulletin 59, 387 – 392.
+Friston, K.J., Worsley, K.J., Frackowiak, R.S.J., Mazziotta, J.C., Evans, A.C., 1994. Assessing
+the signi ﬁcance of focal activations using their spatial extent. Human Brain Map-
+ping 1, 210 – 220.
+Friston, K.J., Holmes, A., Poline, J.B., Price, C.J., Frith, C.D., 1996. Detecting activations in
+PET and fMRI: levels of inference and power. NeuroImage 4, 223 – 235.
+Fusar-Poli, P., Placentino, A., Carletti, F., Landi, P., Allen, P., Surguladze, S., Benedetti, F.,
+Abbamonte, M., Gasparotti, R., Barale, F., Perez, J., McGuire, P., Politi, P., 2009. Func-
+tional atlas of emotional faces processing: a voxel-based meta-analysis of 105
+functional magnetic resonance imaging studies. Journal of Psychiatry & Neurosci-
+ence 34, 418 – 432.
+Gast, U., Hofmann, A., Oswald, T., Zündorf, F., 2000. Das Strukturierte Klinische Inter-
+view für DSM-IV Dissoziative Störungen (SKID-D). Deutsche Fassung. Manual
+und Interviewheft. Hogrefe, Göttingen.
+Giesbrecht, T., Lynn, S.J., Lilienfeld, S.O., Merckelbach, H., 2008. Cognitive processes in
+dissociation: an analysis of core theoretical assumptions. Psychological Bulletin
+134, 617 – 647.
+Gorno-Tempini, M.L., Pradelli, S., Sera ﬁni, M., Pagnoni, G., Baraldi, P., Porro, C., Nicoletti,
+R., Umita, C., Nichelli, P., 2001. Explicit and incidental facial expression processing:
+an fMRI study. NeuroImage 14, 465 – 473.
+Greenwald, A.G., Draine, S.C., Abrams, R.L., 1996. Semantic activation without con-
+scious identi ﬁcation in dichotic listening, parafoveal vision, and visual masking: a
+survey and appraisal. Science 273, 1699 – 1702.
+Grillon, C., Lissek, S., Rabin, S., McDowell, D., Dvir, S., Pine, D.S., 2008. Increased anxiety
+during anticipation of unpredictable but not predictable aversive stimuli as a psy-
+chophysiologic marker of panic disorder. The American Journal of Psychiatry 165,
+898– 904.
+Hajcak, G., Molnar, C., George, M.S., Bolger, K., Koola, J., Nahas, Z., 2007. Emotion facil-
+itates action: a transcranial magnetic stimulation study of motor cortex excitability
+during picture viewing. Psychophysiology 44, 91 – 97.
+Hautzinger, M., Keller, F., Kühner, C., 2006. Beck Depressions-Inventar (BDI-II). Revi-
+sion Harcourt Test Services, Frankfurt a. M.
+Haxby, J.V., Hoffman, E.A., Gobbini, M.I., 2000. The distributed human neural system for
+face perception. Trends in Cognitive Sciences 4, 223 – 233.
+Hendler, T., Rotshtein, P., Yeshurun, Y., Weizmann, T., Kahn, I., Ben-Bashat, D., Malach,
+R., Bleich, A., 2003. Sensing the invisible: differential sensitivity of visual cortex and
+amygdala to traumatic context. NeuroImage 19, 587 – 600.
+Henke, K., Landis, T., Markowitsch, H.J., 1994. Subliminal perception of words and faces.
+International Journal of Neuroscience 75, 181 – 187.
+Henke, K., Mondadori, C.R., Treyer, V., Nitsch, R.M., Buck, A., Hock, C., 2003a.
+Nonconscious formation and reactivation of semantic associations by way of the
+medial temporal lobe. Neuropsychologia 41, 863 – 876.
+Henke, K., Treyer, V., Nagy, E.T., Kneifel, S., Dursteler, M., Nitsch, R.M., Buck, A., 2003b.
+Active hippocampus during nonconscious memories. Consciousness and Cognition
+12, 31 – 48.
+Hermans, E.J., Nijenhuis, E.R., Van Honk, J., Huntjens, R.J., Van der Hart, O., 2006.
+Identity state-dependent attentional bias for facial threat in dissociative identity
+disorder. Psychiatry Research 141, 233 – 236.
+Holaway, R.M., Heimberg, R.G., Coles, M.E., 2006. A comparison of intolerance of uncer-
+tainty in analogue obsessive – compulsive disorder and generalized anxiety disor-
+der. Journal of Anxiety Disorders 20, 158 – 174.
+Holender, D., 1986. Semantic activation without conscious identi ﬁcation in dichotic lis-
+tening, parafoveal vision, and visual masking: a survey and appraisal. The Behav-
+ioral and Brain Sciences 9, 1 – 23.
+Jones, B.E., 2003. Arousal systems. Frontiers in Bioscience 8, s438 – s451.
+Kelley, W.M., Macrae, C.N., Wyland, C.L., Caglar, S., Inati, S., Heatherton, T.F., 2002. Find-
+ing the self? An event-related fMRI study. Journal of Cognitive Neuroscience 14,
+785– 794.
+Korol, S., 2008. Familial and social support as protective factors against the develop-
+ment of dissociative identity disorder. Journal of Trauma & Dissociation 9,
+249– 267.
+Lanius, R.A., Williamson, P.C., Densmore, M., Boksman, K., Gupta, M.A., Neufeld, R.W.,
+Gati, J.S., Menon, R.S., 2001. Neural correlates of traumatic memories in
+posttraumatic stress disorder: a functional MRI investigation. The American Jour-
+nal of Psychiatry 158, 1920 – 1922.
+Lanius, R.A., Williamson, P.C., Boksman, K., Densmore, M., Gupta, M., Neufeld, R.W.,
+Gati, J.S., Menon, R.S., 2002. Brain activation during script-driven imagery induced
+dissociative responses in PTSD: a functional magnetic resonance imaging investi-
+gation. Biological Psychiatry 52, 305 – 311.
+Lanius, R.A., Bluhm, R., Lanius, U., Pain, C., 2006. A review of neuroimaging studies in
+PTSD: heterogeneity of response to symptom provocation. Journal of Psychiatric
+Research 40, 709 – 729.
+Laux, L., Glanzmann, P., Schaffner, P., Spielberger, C.D., 1981. Das State-Trait-
+Angstinventar. Theoretische Grundlagen und Handanweisung. Beltz Test GmbH,
+Weinheim.
+LeDoux, J.E., 1998. The Emotional Brain: The Mysterious Underpinnings of Emotional
+Life. Touchstone, New York.
+Lilienfeld, S.O., Lynn, S.J., Kirsch, I., Chaves, J.F., Sarbin, T.R., Ganaway, G.K., Powell, R.A.,
+1999. Dissociative identity disorder and the sociocognitive model: recalling the
+lessons of the past. Psychological Bulletin 125, 507 – 523.
+Linehan, M.M., 1993. Cognitive-behavioral Treatment of Borderline Personality Disor-
+der. Guilford Press, New York, N.Y.
+Lundquist, D., Flykt, A., Öhman, A., 1998. The Karolinska Directed Emotional Faces —
+KDEF, CD ROM from Department of Clinical Neuroscience, Psychology section,
+Karolinska Institute. 91-630-7164-9.
+Merckelbach, H., Muris, P., 2001. The causal link between self-reported trauma and dis-
+sociation: a critical review. Behaviour Research and Therapy 39, 245 – 254.
+Merckelbach, H., Devilly, G.J., Rassin, E., 2002. Alters in dissociative identity disorder.
+Metaphors or genuine entities? Clinical Psychology Review 22, 481 – 497.
+Merskey, H., 1992. The manufacture of personalities. The production of multiple per-
+sonality disorder. The British Journal of Psychiatry 160, 327 – 340.
+Mesman, J., Van IJzendoorn, M.H., Bakermans-Kranenburg, M.J., 2009. The many faces
+of the Still-Face Paradigm: a review and meta-analysis. Developmental Review
+29, 120 – 162.
+Morris, J.S., Ohman, A., Dolan, R.J., 1998. Conscious and unconscious emotional learning
+in the human amygdala. Nature 393, 467 – 470.
+Nakamura, K., Kawashima, R., Sato, N., Nakamura, A., Sugiura, M., Kato, T., Hatano, K.,
+Ito, K., Fukuda, H., Schormann, T., Zilles, K., 2000. Functional delineation of the
+human occipito-temporal areas related to face and scene processing. A PET
+study. Brain 123 (Pt 9), 1903 – 1912.
+63Y.R. Schlumpf et al. / NeuroImage: Clinical 3 (2013) 54 –64
+===== PAGE 11 =====
+Nijenhuis, E.R.S., Den Boer, J.A., 2009. Psychobiology of traumatisation and trauma-
+related structural dissociation of the personality. In: Dell, P.F., O'Neil, J.A. (Eds.),
+Dissociation and the Dissociative Disorders: DSM-V and Beyond. Routledge,
+New York, pp. 337 – 367.
+Nijenhuis, E.R.S., Van der Hart, O., Steele, K., 2002. The emerging psychobiology of
+trauma-related dissociation and dissociative disorders. In: D'Haenen, H., Den
+Boer, J.A., Willner, P. (Eds.), Biological Psychiatry. Wiley, London, pp. 1079 – 1098.
+Nitschke, J.B., Sarinopoulos, I., Oathes, D.J., Johnstone, T., Whalen, P.J., Davidson, R.J.,
+Kalin, N.H., 2009. Anticipatory activation in the amygdala and anterior cingulate
+in generalized anxiety disorder and prediction of treatment response. The American
+Journal of Psychiatry 166, 302– 310.
+Ogawa, J.R., Sroufe, L.A., Wein ﬁeld, N.S., Carlson, E.A., Egeland, B., 1997. Development
+and the fragmented self: longitudinal study of dissociative symptomatology in a
+nonclinical sample. Development and Psychopathology 9, 855 – 879.
+Öhman, A., 2005. The role of the amygdala in human fear: automatic detection of
+threat. Psychoneuroendocrinology 30, 953 – 958.
+Oliveri, M., Babiloni, C., Filippi, M.M., Caltagirone, C., Babiloni, F., Cicinelli, P., Traversa,
+R., Palmieri, M.G., Rossini, P.M., 2003. Inﬂuence of the supplementary motor area
+on primary motor cortex excitability during movements triggered by neutral or
+emotionally unpleasant visual cues. Experimental Brain Research 149, 214 – 221.
+Osuch, E.A., Benson, B., Geraci, M., Podell, D., Herscovitch, P., McCann, U.D., Post, R.M.,
+2001. Regional cerebral blood ﬂow correlated with ﬂashback intensity in patients
+with posttraumatic stress disorder. Biological Psychiatry 50, 246 – 253.
+Phan, K.L., Wager, T., Taylor, S.F., Liberzon, I., 2002.Functional neuroanatomy of emotion:
+a meta-analysis of emotion activation studies in PET and fMRI. NeuroImage 16,
+331–348.
+Phelps, E.A., O'Connor, K.J., Gatenby, J.C., Gore, J.C., Grillon, C., Davis, M., 2001. Activa-
+tion of the left amygdala to a cognitive representation of fear. Nature Neuroscience
+4, 437 – 441.
+Pitcher, D., Walsh, V., Yovel, G., Duchaine, B., 2007. TMS evidence for the involvement of
+the right occipital face area in early face processing. Current Biology 17, 1568 – 1573.
+Putman, P., Hermans, E., Van Honk, J., 2004. Emotional stroop performance for masked
+angry faces: it's BAS, not BIS. Emotion 4, 305 – 311.
+Rainer, G., Augath, M., Trinath, T., Logothetis, N.K., 2001. Nonmonotonic noise tuning of
+BOLD fMRI signal to natural images in the visual cortex of the anesthetized mon-
+key. Current Biology 11, 846 – 854.
+Rauch, S.L., Van der Kolk, B.A., Fisler, R.E., Alpert, N.M., Orr, S.P., Savage, C.R., Fischman,
+A.J., Jenike, M.A., Pitman, R.K., 1996. A symptom provocation study of
+posttraumatic stress disorder using positron emission tomography and script-
+driven imagery. Archives of General Psychiatry 53, 380 – 387.
+R a u c h ,S . L . ,W h a l e n ,P . J . ,S h i n ,L . M . ,M c I n e r n e y ,S . C . ,M a c k l i n ,M . L . ,L a s k o ,N . B . ,O r r ,S . P . ,
+Pitman, R.K., 2000. Exaggerated amygdala response to masked facial stimuli in
+posttraumatic stress disorder: a functional MRI study. Biological Psychiatry 47, 769–776.
+Reinders, A.A.T.S., Nijenhuis, E.R.S., Paans, A.M., Korf, J., Willemsen, A.T., Den Boer, J.A.,
+2003. One brain, two selves. NeuroImage 20, 2119 – 2125.
+Reinders, A.A.T.S., Den Boer, J.A., Buchel, C., 2005.The robustness of perception. European
+Journal of Neuroscience 22, 524
+– 530.
+Reinders, A.A.T.S., Glascher, J., De Jong, J.R., Willemsen, A.T., Den Boer, J.A., Buchel, C.,
+2006a. Detecting fearful and neutral faces: BOLD latency differences in amygdala-
+hippocampal junction. NeuroImage 33, 805– 814.
+Reinders, A.A.T.S., Nijenhuis, E.R.S., Quak, J., Korf, J., Haaksma, J., Paans, A.M., Willemsen,
+A.T., Den Boer, J.A., 2006b. Psychobiological characteristics of dissociative identity
+disorder: a symptom provocation study. Biological Psychiatry 60, 730 – 740.
+Reinders, A.A.T.S., Willemsen, A.T.M., Vos, H.P.J., Den Boer, J.A., Nijenhuis, E.R.S., 2012.
+Fact or factitious? A psychobiological study of authentic and simulated dissociative
+identity states. PLoS One 6, e39279.
+Rolls, E.T., Tovee, M.J., Panzeri, S., 1999. The neurophysiology of backward visual
+masking: information analysis. Journal of Cognitive Neuroscience 11, 300 – 311.
+Sakamoto, H., Fukuda, R., Okuaki, T., Rogers, M., Kasai, K., Machida, T., Shirouzu, I.,
+Yamasue, H., Akiyama, T., Kato, N., 2005. Parahippocampal activation evoked by
+masked traumatic images in posttraumatic stress disorder: a functional MRI
+study. NeuroImage 26, 813 – 821.
+Sander, D., Grafman, J., Zalla, T., 2003. The human amygdala: an evolved system for
+relevance detection. Reviews in the Neurosciences 14, 303 – 316.
+Schwartz, C.E., Wright, C.I., Shin, L.M., Kagan, J., Whalen, P.J., McMullin, K.G., Rauch, S.L.,
+2003. Differential amygdalar response to novel versus newly familiar neutral faces:
+a functional MRI probe developed for studying inhibited temperament. Biological
+Psychiatry 53, 854 – 862.
+Shin, L.M., Kosslyn, S.M., McNally, R.J., Alpert, N.M., Thompson, W.L., Rauch, S.L., Macklin,
+M.L., Pitman, R.K., 1997.Visual imagery and perception in posttraumatic stress disor-
+der. A positron emission tomographic investigation. Archives of General Psychiatry
+54, 233– 241.
+Shin, L.M., McNally, R.J., Kosslyn, S.M., Thompson, W.L., Rauch, S.L., Alpert, N.M.,
+Metzger, L.J., Lasko, N.B., Orr, S.P., Pitman, R.K., 1999. Regional cerebral blood
+ﬂow during script-driven imagery in childhood sexual abuse-related PTSD: A PET
+investigation. The American Journal of Psychiatry 156, 575 – 584.
+Shin, L.M., Whalen, P.J., Pitman, R.K., Bush, G., Macklin, M.L., Lasko, N.B., Orr, S.P.,
+McInerney, S.C., Rauch, S.L., 2001. An fMRI study of anterior cingulate function in
+posttraumatic stress disorder. Biological Psychiatry 50, 932 – 942.
+Shin, L.M., Orr, S.P., Carson, M.A., Rauch, S.L., Macklin, M.L., Lasko, N.B., Peters, P.M.,
+Metzger, L.J., Dougherty, D.D., Cannistraro, P.A., Alpert, N.M., Fischman, A.J.,
+Pitman, R.K., 2004. Regional cerebral blood ﬂow in the amygdala and medial pre-
+frontal cortex during traumatic imagery in male and female Vietnam veterans
+with PTSD. Archives of General Psychiatry 61, 168 – 176.
+Simeon, D., Guralnik, O., Hazlett, E.A., Spiegel-Cohen, J., Hollander, E., Buchsbaum, M.S.,
+2000. Feeling unreal: a PET study of depersonalization disorder. The American
+Journal of Psychiatry 157, 1782 – 1788.
+Spanos, N.P., 1994. Multiple identity enactments and multiple personality disorder: a
+sociocognitive perspective. Psychological Bulletin 116, 143 – 165.
+Spanos, N.P., 1996. Multiple Identities & False Memories: A Sociocognitive Perspective.
+American Psychological Association, Washington.
+Steele, K., Van der Hart, O., Nijenhuis, E.R., 2005. Phase-oriented treatment of structural
+dissociation in complex traumatization: overcoming trauma-related phobias. Journal
+of Trauma & Dissociation 6, 11 – 53.
+Steinberg, M., 1993. Structured Clinical Interview for DSM-IV Dissociative Disorders
+(SCID-D). American Psychiatric Press, Washington, DC.
+Trickett, P.K., Noll, J.G., Putnam, F.W., 2011. The impact of sexual abuse on female
+development: lessons from a multigenerational, longitudinal research study. De-
+velopment and Psychopathology 23, 453 – 476.
+Tronick, E., Als, H., Adamson, L., Wise, S., Brazelton, T.B., 1978. The infant's response to
+entrapment between contradictory messages in face-to-face interaction. Journal of
+the American Academy of Child Psychiatry 17, 1 – 13.
+Tulving, E., Kapur, S., Craik, F.I., Moscovitch, M., Houle, S., 1994. Hemispheric encoding/
+retrieval asymmetry in episodic memory: positron emission tomography ﬁndings.
+Proceedings of the National Academy of Sciences of the United States of America
+91, 2016 – 2020.
+Van Balen, L., 2005. Activation and Localization of the Emotional Circuits in the Brain:
+An fMRI Study in Patients with Schizophrenia and Healthy Volunteers.
+Rijksuniversiteit Groningen, Groningen.
+Van der Hart, O., Nijenhuis, E.R.S., Steele, K., 2006. The Haunted Self: Structural Disso-
+ciation and the Treatment of Chronic Traumatization. W.W. Norton & Company,
+New York, London.
+Van Honk, J., Tuiten, A., Van den Hout, M., Koppeschaar, H., Thijssen, J., De Haan, E.,
+Verbaten, R., 1998. Baseline salivary cortisol levels and preconscious selective at-
+tention for threat. A pilot study. Psychoneuroendocrinology 23, 741 – 747.
+Van Honk, J., Tuiten, A., Van den Hout, M., Koppeschaar, H., Thijssen, J., De Haan, E.,
+Verbaten, R., 2000. Conscious and preconscious selective attention to social threat:
+different neuroendocrine response patterns. Psychoneuroendocrinology 25,
+577– 591.
+Vogt, B.A., 2005. Pain and emotion interactions in subregions of the cingulate gyrus.
+Nature Reviews. Neuroscience 6, 533 – 544.
+Vuilleumier, P., 2005. How brains beware: neural mechanisms of emotional attention.
+Trends in Cognitive Sciences 9, 585 – 594.
+Vuilleumier, P., Pourtois, G., 2007. Distributed and interactive brain mechanisms during
+emotion face perception: evidence from functional neuroimaging. Neuropsychologia
+45, 174– 194.
+Whalen, P.J., Rauch, S.L., Etcoff, N.L., McInerney, S.C., Lee, M.B., Jenike, M.A., 1998.
+Masked presentations of emotional facial expressions modulate amygdala activity
+without explicit knowledge. Journal of Neuroscience 18, 411 – 418.
+Wright, C.I., Fischer, H., Whalen, P.J., McInerney, S.C., Shin, L.M., Rauch, S.L., 2001. Dif-
+ferential prefrontal cortex and amygdala habituation to repeatedly presented emo-
+tional stimuli. Neuroreport 12, 379 – 383.
+64 Y.R. Schlumpf et al. / NeuroImage: Clinical 3 (2013) 54 –64

@@ -1,0 +1,923 @@
+
+===== PAGE 1 =====
+Aiding the diagnosis of dissociative identity
+disorder: pattern recognition study of
+brain biomarkers
+Antje A. T. S. Reinders *, Andre F. Marquand *, Yolanda R. Schlumpf †, Sima Chalavi †, Eline M. Vissia,
+Ellert R. S. Nijenhuis, Paola Dazzan, Lutz Jäncke and Dick J. Veltman
+Background
+A diagnosis of dissociative identity disorder (DID) is controversial
+and prone to under- and misdiagnosis. From the moment of
+seeking treatment for symptoms to the time of an accurate
+diagnosis of DID individuals received an average of four prior
+other diagnoses and spent 7 years, with reports of up to 12 years,
+in mental health services.
+Aim
+To investigate whether data-driven pattern recognition meth-
+odologies applied to structural brain images can provide bio-
+markers to aid DID diagnosis.
+Method
+Structural brain images of 75 participants were included: 32
+female individuals with DID and 43 matched healthy controls.
+Individuals with DID were recruited from psychiatry and psy-
+chotherapy out-patient clinics. Probabilistic pattern classifiers
+were trained to discriminate cohorts based on measures of brain
+morphology.
+Results
+The pattern classifiers were able to accurately discriminate
+between individuals with DID and healthy controls with high
+sensitivity (72%) and specificity (74%) on the basis of brain
+structure. These findings provide evidence for a biological basis
+for distinguishing between DID-affected and healthy individuals.
+Conclusions
+We propose a pattern of neuroimaging biomarkers that could be
+used to inform the identification of individuals with DID from
+healthy controls at the individual level. This is important and
+clinically relevant because the DID diagnosis is controversial and
+individuals with DID are often misdiagnosed. Ultimately, the
+application of pattern recognition methodologies could prevent
+unnecessary suffering of individuals with DID because of an
+earlier accurate diagnosis, which will facilitate faster and
+targeted interventions.
+Declaration of interest
+The authors declare no competing financial interests.
+Keywords
+Magnetic resonance imaging (MRI); childhood trauma;
+post-traumatic stress disorder (PTSD); dissociation.
+Copyright and usage
+© The Royal College of Psychiatrists 2018.
+Dissociative identity disorder (DID) 1 is probably the most dis-
+puted psychiatric disorder. 2,3 DID is the most severe of the dis-
+sociative disorders and involves two or more dissociative
+personality states as well as recurrent gaps in the recall of every-
+day events, important personal information and/or traumatic
+events that are inconsistent with ordinary forgetting and is not
+related to substance misuse or general medication. For decades
+the disorder has been officially recognised in the DSM (in the
+DSM-III (1980) as Multiple Personality Disorder), but many
+patients with DID share a history of years of misdiagnoses, inef-
+ficient pharmacological treatment and several admissions to hos-
+pital.
+4 To date, many clinicians and scientists still question the
+validity and even the very existence of DID. 5,6 Unfamiliarity
+with the spectrum of dissociative disorders, lack of knowledge
+and appreciation of its epidemiology,
+7 the existence of imitative
+DID as well as the reluctance of individuals with DID to
+present their dissociative symptoms, often due to feelings of
+shame, may lead to the validity concerns and under- and misdiag-
+nosis of DID. Years of incorrect treatment results in protracted
+personal suffering and high direct and indirect societal costs.
+8,9
+Structural brain imaging holds promise to aid disease diagnosis
+by providing objective biomarkers at the single-subject level, 10
+thereby paving the way for a fast and correct diagnosis of indivi-
+duals with DID. The current study presents a first step towards an
+automated classification of individuals with DID by investigating
+whether individuals with DID can be separated from healthy con-
+trols on the basis of neuroimaging markers, thus informing DID ’s
+neuroanatomical basis in terms of grey and white matter of the
+brain.
+Sceptics of DID assume that dissociative symptoms can easily be
+simulated by normal healthy individuals, which comprises the
+Fantasy Model of DID.
+11 Several pioneering functional brain
+imaging studies from our group have shown that individuals with
+genuine DID can be distinguished from healthy controls simulating
+DID,
+12–14 but critics could still argue that people can manipulate
+their brain activity. 15,16 As neuroanatomical data is unlikely to be
+subject to cognitive manipulation, in this study we investigate
+whether people with DID can be separated from healthy controls
+at the individual level on the basis of neuroanatomical biomarkers
+by employing a multivariate data-driven pattern recognition
+approach. We used a probabilistic pattern recognition approach
+10
+that allowed us to investigate the diagnostic value of grey and
+white matter of the brain in a comparatively large sample of indivi-
+duals with DID as compared with healthy controls, and to quantify
+the degree to which the brain phenotype of people with DID can be
+distinguished from those of healthy people. This study is important
+in two ways: (a) it provides evidence as to whether genuine DID
+can be distinguished from normal healthy individuals on the basis
+of their brain morphology, thereby addressing the core of the
+Fantasy Model for DID; and (b) it provides neuroanatomical bio-
+markers that could support the development of pattern recognition
+methodologies to be used as a clinically useful aid for the diagnostic
+accuracy of DID.
+* These authors contributed equally to this article.
+† These authors contributed equally to this article.
+The British Journal of Psychiatry (2019)
+215, 536–544. doi: 10.1192/bjp.2018.255
+536
+https://doi.org/10.1192/bjp.2018.255 Published online by Cambridge University Press
+===== PAGE 2 =====
+Method
+Participants
+Magnetic resonance imaging (MRI) data from 75 participants were
+obtained in the Netherlands in the University Medical Centre in
+Groningen (UMCG) and the Amsterdam Medical Centre (AMC),
+and in Switzerland at the University Hospital in Zurich. Details of
+these two samples have previously been published elsewhere:
+Chalavi et al
+17,18 (Dutch sample), Schlumpf et al 12,13 (Swiss/
+German sample) and Reinders et al19 (combined). All participants
+gave informed written consent in accordance with the Declaration
+of Helsinki and as dictated by ethics approval which was obtained
+from the Medical Ethical Committees of UMCG (Reference
+number: METC2008.211) and the AMC (Reference number:
+MEC09/155), and by the cantonal ethical commission of Zurich
+(Kantonale Ethikkommission Zürich; reference number: E-13/2008).
+Overall, 32 women with DID were recruited from private prac-
+titioners of psychiatry and psychotherapy and psychiatric out-
+patient departments. They were initially diagnosed according to
+DSM-IV criteria for DID.
+20 The clinical diagnosis was subsequently
+confirmed by independent expert clinicians using the Structural
+Clinical Interview for DSM-IV Dissociative Disorders (SCID-D),
+21,22
+specifically to avoid the inclusion of imitative DID. 23 DID is
+known to be highly comorbid. 24,25 In the current study post-
+traumatic stress disorder (PTSD) comorbidity was debriefed using
+the SCID-D and it was found that out of the 32 DID individuals,
+29 had comorbid PTSD and 3 had PTSD in remission. The follow-
+ing information concerning other comorbid disorders was obtained
+based on DSM-IV (1994) classification from the participants and/or
+their personal therapists ( N = 29): no other comorbid disorders
+(N = 13), somatoform disorder ( N = 2), depression (chronic N =1 ,
+recurrent N = 10), dysthymic disorder ( N = 1), specific phobias
+(N = 3), panic disorder ( N = 3), anxiety disorder ( N = 1), obses-
+sive–compulsive disorder ( N = 1), personality disorders (not other-
+wise specified ( N = 2), mixed ( N = 2), borderline personality
+disorder (N = 5), dependent and histrionic ( N = 1)), eating disorder
+(N = 3), sleeping disorder ( N = 2), catalepsy ( N = 1), psychogenic
+seizures ( N = 1) and attention deficit disorder ( N = 1). Of note,
+since approximately half of the DID participants did not have any
+other comorbidities apart from PTSD and other comorbidities
+were more randomly distributed across the sample, it is unlikely
+that these contribute to the classification in a systematic manner.
+Nevertheless, if this were to influence classification then our
+results are likely to represent an underestimation of classification
+strength and a more homogeneous sample would increase the sen-
+sitivity and specificity.
+The DID and healthy control group were carefully matched for
+demographics including age, gender (all female), years of education
+and Western European ancestry. As previously shown,
+19 we did not
+find any significant differences between patients and healthy con-
+trols with respect to age or education (see Supplementary Table 1
+available at https:/ /doi.org/10.1192/bjp.2018.255). As part of the
+inclusion criteria, it was confirmed that all healthy controls were
+free of medication and psychiatric disorders. Furthermore,
+they scored below a critical cut-off of 25 on the Dissociative
+Experiences Scale
+26 and 29 on the Somatoform Dissociation
+Questionnaire.27 Depersonalisation symptoms were assessed using
+the Cambridge Depersonalisation Scale. 28 Traumatic experiences
+were measured with the Traumatic Experience Checklist. 29 As
+expected and previously reported, 19 psychoform and somatoform
+dissociative symptoms and depersonalisation scores were signifi-
+cantly higher in the DID group as compared with healthy controls
+(all P-values <0.001). Individuals with DID also scored significantly
+higher compared with the controls for traumatic experiences (all
+P-values <0.001) on all five adverse life event categories, namely
+emotional neglect, emotional abuse, physical abuse, sexual abuse
+and sexual harassment (see Supplementary Table 1).
+MRI
+Data acquisition
+All data were obtained on 3-T Philips whole-body MRI scanners
+(Philips Medical Systems, Best, Netherlands) in one of the three
+participating centres. An optimised structural MRI protocol
+30 with
+high reproducibility between centres was used at all three centres
+and T1-weighted anatomical MR scans were acquired (3D
+MPRAGE, repetition time 9.95 ms, echo time 5.6 ms, flip-angle 8°,
+1×1×1m m
+3 voxels, number of slices 160, total scan time 10 m 14 s).
+DID patients and healthy controls were scanned interleaved (i.e.
+alternating between patients and healthy controls) within a short
+time interval. Final samples were distributed relatively equally
+over the three centres, with 10 patients and 17 healthy controls
+included from the UMCG, 7 patients and 11 healthy controls
+from the AMC and 15 patients and 15 healthy controls from
+Zurich. The number of participants in each group also did not
+differ across centres ( χ
+2 = 1.01, P = 0.603).
+Image preprocessing
+After quality control checks, structural images were preprocessed
+using the SPM8 software ( http:/ /www.fil.ion.ucl.ac.uk/spm/,
+release 4667). They were first segmented into different tissue
+types via the ‘new segment ’ tool,
+31 which is part of the voxel
+based morphology (VBM) processing pipeline. Rigidly aligned
+grey and white matter maps, down-sampled to 1.5 mm isotropic
+voxel size, were then used to diffeomorphically register all partici-
+pants to their common average (i.e. study-specific template) by
+using a matching term that assumed a multinomial distribution.
+32
+Registration involved estimating a set of initial velocities from
+which the deformations were computed by a geodesic shooting pro-
+cedure.
+33 Classification was based on a set of ‘scalar momentum ’
+image features derived from this registration, which describe ana-
+tomical variability among participants.
+34 These images contain all
+information necessary to reconstruct the original images (in add-
+ition to the template) and therefore provide a parsimonious
+representation of shape difference. The scalar momentum images
+for grey and white matter were spatially smoothed with an isotropic
+10 mm Gaussian kernel and concatenated prior to classification.
+This choice of feature construction method and smoothing level
+was based on previous work, where smoothed scalar momentum
+images yielded greater accuracy than a range of alternative features
+(including Jacobian determinants, rigidly aligned grey matter, spa-
+tially normalised grey matter and Jacobian scaled spatially normal-
+ised grey matter) for predicting participant age and gender in a
+publicly available data set
+35 and for discriminating neurological dis-
+orders from structural MRI. 35
+Pattern recognition
+Binary Gaussian process classifiers (GPCs 36) were used as the
+primary analytical approach for this study. GPCs are a supervised
+pattern recognition approach that assigns a predictive probability
+of group membership to each individual based on a set of ‘training’
+data. They are kernel classifiers similar to the widely used Support
+Vector Machines and have shown high levels of performance for
+neuroimaging data.
+37–39 Moreover, GPCs have advantages over
+Support Vector Machines in that the probabilistic predictions
+they provide encode a measure of predictive confidence that quan-
+tifies diagnostic uncertainty and can capture variability within clin-
+ical groups. More importantly, probabilistic predictions can be
+Aiding the diagnosis of dissociative identity disorder using brain biomarkers
+537
+https://doi.org/10.1192/bjp.2018.255 Published online by Cambridge University Press
+===== PAGE 3 =====
+easily adjusted to compensate for the prior frequency of diagnostic
+classes in experimental populations. This means that inference
+remains coherent in classification scenarios where the frequency
+of each class in the test set is different from the frequencies observed
+in the training set and is useful to accommodate variations in disease
+prevalence
+40 and to compensate for unbalanced training data sets 41
+as outlined below. These properties are particularly important for
+the present study because the classes are unbalanced and the
+number of samples available for training is small.
+Linear binary GPCs were used to discriminate people with DID
+from healthy controls. Technical details surrounding GPC inference
+have been presented elsewhere. A leave-one-participant-out cross-
+validation approach was used to assess classifier generalisability,
+whereby a single participant was excluded to comprise the test set,
+and all parameters were inferred from the remaining data (training
+set), before applying this classifier to predict the labels for the test
+samples. Prior to classification, a t-test was used to select a set of dis-
+criminant voxels, using a fixed threshold of P < 0.001. This was
+repeated, excluding each participant once. Importantly, feature
+selection was performed using the training data only, which
+ensures the classifier remains unbiased.
+Classifier performance was evaluated using receiver operating
+characteristic curves derived from the probabilistic predictions
+and classification accuracy, which measures the classifier perform-
+ance in a categorical sense. To derive categorical predictions from
+the probabilistic predictions obtained from the GPC, a threshold
+according to the frequency of classes in the training set was
+applied to the probabilistic predictions (i.e. 0.5 if the classes are
+balanced). Classifier assessment metrics included the sensitivity
+and specificity in addition to the positive and negative predictive
+value. Finally, the (balanced) accuracy was computed as the mean
+of sensitivity and specificity, which quantifies the overall categorical
+classification performance of the classifier in a way that accommo-
+dates potential class imbalance in the data.
+Forward maps of regional class differences
+To understand the relative importance of different brain regions
+underlying the classification decision, we employed a forward
+mapping strategy.
+42 This has advantages over the more commonly
+used strategy of directly mapping the weight vector. 43 Specifically, a
+voxel may have a high weight because of an association with the
+class labels or as a result of high collinearity between voxels,
+where the high weight may help to cancel out noise or mismatch
+in other voxels. In contrast, the coefficients from the forward mod-
+elling approach proposed by Haufe and colleagues
+42 represent the
+group differences between classes, which are more often of interest
+when interpreting a trained classifier. In this case, stronger positive
+values in a forward map indicate a stronger association of a region
+with the DID (‘favouring DID’), i.e. increased volume of a brain area
+in DID; whereas negative values indicate a stronger association with
+healthy controls ( ‘favouring healthy controls ’), i.e. decreased
+volume of a brain area in DID. Note that only voxels surviving
+the univariate feature selection step are included in the map and
+that the GPC discriminates data on the basis of the whole pattern.
+Hence, local inferences based on these approaches should be
+made with caution. To report results in standard Montreal
+Neurological Institute (MNI) coordinates, the DARTEL group
+tissue template (grey matter [GM], white matter [WM] and cerebro-
+spinal fluid [CSF]) was coregistered to an SPM8 new_segment seg-
+mentation of the FSL MNI152_T1_1 mm template brain. Advanced
+normalisation tools (ANTS version 2.1.0
+44) were used to calculate a
+non-linear transformation employing the SyN algorithm
+(antsRegistrationSyN.sh, default parameters) using multimodal
+information from the three channels (CSF, GM and WM). The
+results of the registration were visually inspected and it appeared
+to be a significant improvement on a simple affine registration.
+We selected the cluster peaks of the forward maps in terms of x-,
+y- and z-coordinates on the basis of the maximum (absolute) coef-
+ficient. Anatomical labels were derived by A.A.T.S.R., S.C. and Y.R.
+S. from a consensus of different atlases.
+Results
+Classification
+Using the imaging data, the classifier discriminated between the
+DID and healthy control groups with high sensitivity (71.88%)
+and specificity (73.81%), yielding an overall balanced accuracy of
+72.84%, which was significantly higher than the accuracy expected
+by chance ( P < 0.01, permutation test). Receiver operating charac-
+teristic analysis (see Fig. 1) further demonstrated that classification
+performance was above chance across all decision thresholds and
+yielded an area under the curve of 0.74. The forward maps for the
+grey and white matter components are displayed in Fig. 2 . Brain
+areas contributing to the classification are listed in Table 1.
+Relative decrease in regional volume in the DID group
+For grey matter, the pattern of voxels favouring healthy controls, i.e.
+a relative increase for the healthy control group or a relative decrease
+in the DID group, included bilateral middle, superior and dorsolat-
+eral frontal gyrus; left medial and right orbito-frontal gyrus; bilateral
+anterior cingulate gyrus; bilateral middle temporal gyrus; bilateral
+fusiform gyrus; right inferior temporal gyrus; left inferior parietal
+lobule and supramarginal gyrus and bilateral superior occipital gyrus.
+For white matter, the pattern of voxels favouring healthy con-
+trols included the bilateral inferior fronto-occipital tract, the left
+corticospinal tract, and the right superior and left inferior longitu-
+dinal fasciculus. In addition, the white matter of the right inferior,
+bilateral middle and superior frontal regions; bilateral temporal,
+cerebellar and lateral occipital regions; the left amygdala –hippo-
+campal junction and (anterior) cingulate were also included in the
+distinguishing pattern.
+Relative increase in regional volume for the DID group
+For grey matter, the pattern of voxels favouring DID was found to be
+far less pronounced than that of favouring healthy controls, and
+included left superior frontal gyrus, left medial parietal lobule and
+bilateral cerebellum.
+The pattern of voxels in the white matter of the brain favouring
+DID included left inferior and superior longitudinal fasciculus, the
+left inferior fronto-occipital fasciculus and the right corticospinal
+tract. In addition, the white matter of bilateral (anterior) cingulate
+and insula regions, bilateral inferior, medial and superior frontal
+regions, left parietal regions and putamen, right inferior and
+middle temporal regions and bilateral cerebellum were included.
+Discussion
+Main findings
+This is the first study to demonstrate that individuals with DID and
+healthy controls can be differentiated at the individual level with a
+high level of accuracy on the basis of their neuroanatomical
+markers. This discrimination was based on neuroanatomical data
+in the largest sample of individuals with DID included in a brain
+imaging study to date. We found widespread grey and white
+matter spatially dependent patterns of abnormal brain morphology
+in individuals with DID as compared with healthy controls. These
+Reinders et al
+538
+https://doi.org/10.1192/bjp.2018.255 Published online by Cambridge University Press
+===== PAGE 4 =====
+findings are important because they provide evidence for a bio-
+logical basis for distinguishing between genuine DID and healthy
+controls. The current study also provides support for the develop-
+ment of pattern recognition methodologies as a clinically useful
+diagnostic tool in DID, thereby paving the way for future studies
+with a diagnostic aim in distinguishing between genuine DID and
+other psychopathologies.
+Applying pattern recognition methods to brain imaging data of
+people with DID offers a biomarker approach that can complement,
+aid and improve clinical decision making. This could reduce mis-
+diagnoses, treatment time, treatment costs and ultimately improve
+the patient’s quality of life.
+Comparison to other studies
+Despite the reported high prevalence of DID of approximately 6% in
+psychiatric out-patients
+45 and 1 –3% of the general population, 46
+neurobiological studies on DID are scarce 17,19,47 and depend on
+mass univariate data-analysis approaches, which provide inferences
+at the group level. Mass univariate data-analyses ignore information
+encoded by spatially distributed patterns of morphological abnor-
+malities throughout the brain and have limited ability to provide
+inferences at the level of the individual. In contrast, multivariate
+data-analysis techniques using pattern classification methodology
+allow for the study of underlying patterns of effects and the distri-
+bution across brain regions and, more importantly, they provide
+predictions that quantify group separation at the individual level
+on the basis of patterns of abnormality in the data, which may be
+clinically useful.
+10
+Pattern recognition methods are becoming widely used for
+neuroimaging-based psychiatric diagnostics. 10 Our study shows
+that people with DID can be distinguished from healthy
+controls at an individual level with a sensitivity of 71.88% and spe-
+cificity of 73.81%. This level of accuracy is comparable to what has
+been demonstrated for most psychiatric disorders,
+10 including
+psychosis.48
+Neuroanatomical biomarkers
+According to the Trauma Model, 11 DID is an early-onset form of
+PTSD.11,17,18 Early life stressors may have long-lasting detrimental
+effects on neurobiology due to altered stress reactivity following
+childhood trauma.
+19 Earlier neuroanatomical studies in DID have
+found a smaller hippocampal volume, which seems to be the
+result of exposure to stress hormones due to antecedent traumatisa-
+tion. Although it is currently unknown how early traumatisation
+affects the development of the brain,
+19 it is not surprising that
+long-lasting trauma results in widespread patterns of affected grey
+and white matter brain regions. We found affected brain regions
+in different lobules in the brain, but most prominently in the
+frontal grey and white matter regions, supporting findings from pre-
+vious studies using univariate data-analysis approaches to investi-
+gate the neuroanatomical correlates of dissociative symptoms
+across disorders.
+17,49–51 Interestingly, the pattern of affected grey
+matter structural regions in the current study shows overlap with
+regions found in functional brain imaging studies involving dissoci-
+ation, which included different patient samples and different para-
+digms – such as resting state in dissociative PTSD,
+52 script-driven
+imagery in DID 14 or emotion processing in depersonalisation dis-
+order53 – but consistently reported functional aberrations in
+frontal regions of the brain. Models of trauma-related dissoci-
+ation
+14,52 propose important roles for the cingulate gyrus, medial
+prefrontal cortex and superior frontal regions in emotion under-/
+overregulation and dissociation. The current multivariate study in
+the most severe form of dissociative disorders found that structural
+aberrations of these brain regions are part of the identified spatially
+distributed pattern. We therefore propose that future research into
+dissociation and DID focuses on these specific prefrontal areas, as
+1
+0.9
+0.8
+0.7
+0.6
+0.5
+0.4 True positive rate
+False positive rate
+Receiver operating characteristic. AUC = 0.74
+0.3
+0.2
+0.1
+0
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1
+Fig. 1 Receiver operating characteristic curve for discriminating between people with dissociative identify disorder (DID) and healthy controls.
+The dotted line indicates chance level and the solid line is constructed by varying the decision threshold smoothly between 0 and 1, plotting true-
+positive rate (sensitivity) against false-positive rate (1 − specificity). Points northwest of the dotted line indicate above chance discrimination. The
+area under the curve (AUC) summarises classifier performance across all decision thresholds.
+Aiding the diagnosis of dissociative identity disorder using brain biomarkers
+539
+https://doi.org/10.1192/bjp.2018.255 Published online by Cambridge University Press
+===== PAGE 5 =====
+well as the middle and dorsolateral prefrontal cortex, as important
+candidate regions for identifying neurobiomarkers of dissociation
+and specifically of DID.
+Limitations
+Our study has several strengths and limitations. First, although the
+findings show that a person with DID can be distinguished from
+healthy controls at an individual level with a high sensitivity and
+specificity, future studies are needed to unravel how individuals
+with DID differ from their most common misdiagnosed psycho-
+pathologies, such as borderline personality disorder and schizo-
+phrenia. We recommend that such future studies carefully debrief
+past psychiatric and neurological history, including depressive
+and/or psychotic episodes, history of epilepsy and duration of treat-
+ment, because these factors are likely to improve the ability for
+differential diagnostics of the classifier. The validation of the
+complex pattern recognition system with respect to these factors
+is important for clinical use and will need large patient samples of
+a wide variety of psychopathology. Furthermore, we recommend
+that future studies include a PTSD group without dissociative symp-
+toms to investigate how PTSD comorbidity affects the classification,
+both at the level of the clinical presentation and biology. However, it
+is important to note that there is negligible overlap between results
+from the only multivariate study in PTSD
+54 and our results, indicat-
+ing that the multivariate patterns found in the current study are
+likely to be dissociation-specific neuroanatomical biomarkers.
+Second, we employed a multicentre acquisition protocol to over-
+come single-site recruitment limitations, but carefully matched
+MRI acquisition parameters across sites using a study-optimised
+scanning sequence.
+30 We further accounted for inter-site effects
+during the data analyses by standardising the data within each site
+Z = 42mm
+(a)
+(b)
+Z = 32mm Z = 21mm Z =10mm
++1 DID
+–1 DID
+0
++1 DID
+–1 DID
+0
+Z = 42mm Z = 32mm Z = 21mm Z =10mm
+Z = 0mm Z = –10mm Z = –21mm Z =–32mm
+Z = 0mm Z = –10mm Z = –21mm Z =–32mm
+Fig. 2 Forward map showing the underlying pattern of abnormality differentiating people with dissociative identity disorder (DID) from normal
+healthy controls for (a) grey and (b) white matter. Coefficient images are overlaid on the study-specific anatomical templates in axial views.
+Images are scaled such that the maximum value in each image was equal to one, and only regions surviving the feature selection step are shown.
+Positive coefficients indicate a positive association in favour of DID, whereas negative coefficients indicate a positive association in favour of
+healthy controls.
+Reinders et al
+540
+https://doi.org/10.1192/bjp.2018.255 Published online by Cambridge University Press
+===== PAGE 6 =====
+Table 1 Grey and white matter patterns of affected brain regions
+L/R BA xyz Volume Max
+DID < healthy controls a
+Grey matter
+Frontal
+I. frontal gyrus L 47 −27.3 25.0 −16.7 1889 20 300
+M. frontal gyrus L 10 −25.0 63.5 10.5 50 14 900
+M. frontal gyrus R 10 37.4 58.2 16.4 324 16 800
+M. frontal gyrus R 8 45.0 14.7 52.7 366 19 000
+M. frontal gyrus/orbito-frontal gyrus R 11 23.0 16.5 −14.5 319 18 400
+Medial frontal gyrus L 10 −4.5 64.0 −13.5 112 15 200
+Medial frontal gyrus L 9 −4.5 56.0 40.5 98 17 800
+S./medial frontal gyrus L 10 −6.0 65.5 22.5 31 15 900
+S. frontal gyrus L 6 −6.7 1.5 73.3 40 14 900
+S. frontal sulcus L 6 −23.0 17.3 66.3 18 13 400
+S. frontal sulcus R 6 26.5 5.5 70.0 188 16 000
+S. frontal gyrus R 9 8.0 53.0 45.0 172 19 700
+S. frontal gyrus R 8 7.5 42.0 56.0 25 11 900
+Dorsolateral prefrontal cortex/M. frontal gyrus L 9/46 −51.0 23.5 33.5 814 18 600
+Dorsolateral prefrontal cortex/M. frontal gyrus L 9/46 −40.5 41.0 2.5 75 15 700
+Dorsolateral prefrontal cortex/M. frontal gyrus R 9/46 44.5 30.3 15.7 324 16 300
+Cingulate gyrus L 24 −9.0 3.0 35.0 70 17 100
+Anterior cingulate gyrus L 24 −6.5 37.5 5.5 105 16 400
+Anterior cingulate gyrus R 24/32 20.0 36.3 21.3 444 17 100
+Precentral gyrus L 4 −55.0 −9.5 51.5 126 16 700
+Parietal
+I. parietal lobule L 40 −50.5 −54.0 54.0 25 15 000
+I. parietal lobule L 40 −59.0 −33.5 50.5 18 13 900
+Supramarginal gyrus L 40 −63.0 −47.3 33.3 16 17 000
+Occipital
+I. occipital gyrus L 18 −38.3 −89.7 −15.7 50 15 400
+M. occipital gyrus L 19 −55.5 −71.0 −9.5 306 18 500
+S. occipital sulcus L 19 −36.0 −87.0 32.5 47 16 300
+S. occipital gyrus R 19 42.0 −83.0 32.0 30 15 700
+Temporal
+I. temporal gyrus R 20 45.3 1.5 −43.8 99 18 700
+I. temporal gyrus/fusiform gyrus R 37 49.5 −72.0 −4.5 135 14 200
+I. temporal gyrus/fusiform gyrus R 20 49.8 −18.4 −23.4 10 14 400
+M. temporal gyrus R 21 61.3 −35.0 −5.3 259 17 500
+M./S. temporal gyrus L 21/38 −52.6 5.2 −13.4 26 13 200
+M./S. temporal gyrus R 21/38 38.0 13.5 −41.5 140 16 000
+Fusiform gyrus L 37 −40.0 −46.5 −6.5 171 15 100
+Other None
+White matter
+Tracts
+I. longitudinal fasciculus L −38.7 −45.7 −15.3 70 0.0669
+S. longitudinal fasciculus (temporal part) R 62.6 −37.4 −12.4 181 0.1720
+Corticospinal tract L −21.0 −17.5 9.5 24 0.0807
+I. frontal-occipital fasciculus L −26.0 24.5 16.5 101 0.1190
+I. frontal-occipital fasciculus L −27.0 37.0 3.0 38 0.0686
+I. frontal-occipital fasciculus R 23.0 34.5 25.5 214 0.1120
+Frontal
+I. frontal white matter R 23.0 14.5 −19.5 179 0.1150
+M. frontal white matter R 58.0 32.3 18.3 73 0.0481
+M. frontal white matter L −53.0 17.0 41.5 488 0.1880
+M. frontal white matter R 49.5 12.0 52.5 183 0.1060
+M./S. frontal white matter R 44.7 48.7 25.5 61 0.0900
+S. frontal white matter L −11.5 70.5 0.0 76 0.1170
+S. frontal white matter L −4.5 47.0 52.5 56 0.1350
+S. frontal white matter L −24.0 33.0 56.0 37 0.1160
+S. frontal white matter L −6.0 68.3 22.3 31 0.1060
+S. frontal white matter L −23.0 17.3 66.3 18 0.0938
+S. frontal white matter L −25.5 65.5 7.5 12 0.0207
+S. frontal white matter R 24.3 1.0 72.3 111 0.2170
+S. frontal white matter R 9.0 50.0 50.0 103 0.1920
+S. frontal white matter R 23.4 68.8 10.4 27 0.0898
+S. frontal white matter R 9.3 38.0 59.7 25 0.2630
+S. frontal/premotor white matter R 8.0 17.0 70.0 54 0.1580
+S. frontal/premotor white matter L −6.5 1.5 76.0 40 0.1990
+Anterior cingulate white matter L −5.6 34.2 4.4 73 0.0713
+Cingulate white matter L −7.5 −0.5 33.5 12 0.0112
+Precentral white matter L −47.6 1.6 52.6 85 0.0771
+Insular white matter R 29.0 21.5 13.5 36 0.0686
+(
+Continued )
+Aiding the diagnosis of dissociative identity disorder using brain biomarkers
+541
+https://doi.org/10.1192/bjp.2018.255 Published online by Cambridge University Press
+===== PAGE 7 =====
+Table 1 (Continued )
+L/R BA xyz Volume Max
+Parietal
+I. parietal lobule L −57.0 −33.5 53.5 13 0.0844
+Occipital
+Lateral occipital white matter L −53.0 −70.0 −10.5 268 0.1300
+Lateral occipital white matter (I. division) L −40.5 −89.5 −11.5 50 0.1430
+Lateral occipital white matter (S. division) L −36.5 −83.0 34.5 47 0.1130
+Lateral occipital white matter (S. division) R 40.3 −75.3 46.0 30 0.1050
+Lateral occipital white matter R 52.0 −74.0 −11.0 124 0.1760
+Temporal
+I. temporal gyrus (anterior division) R 47.0 −8.5 −45.0 40 0.0444
+Temporal pole L −42.0 17.5 −34.0 98 0.0890
+Temporal pole L −54.0 13.0 −19.0 21 0.1090
+Temporal pole R 31.5 13.3 −41.7 140 0.2670
+Other
+Amygdala/hippocampus L −26.5 −7.0 −20.5 1286 0.2750
+Cerebellum (crus I) L −32.8 −71.6 −33.0 61 0.0792
+Cerebellum (crus I) R 37.5 −63.5 −34.0 85 0.0857
+DID > healthy controls b
+Grey matter
+Frontal
+S. frontal sulcus L 4/6 −19.5 −13.0 58.5 19 10 600
+Parietal
+Medial posterior parietal L 7 −14.7 −58.0 57.7 16 14 700
+Medial posterior parietal/precuneus L 7 −14.5 −71.0 57.0 14 15 200
+Occipital None
+Temporal None
+Other
+Cerebellum (crus I) L −37.5 −72.0 −33.0 686 15 500
+Cerebellum (crus I) R 42.5 −63.5 −37.0 285 16 900
+Periaqueductal grey L −2.5 −30.5 −11.0 58 15 000
+White matter
+Tracts
+I. longitudinal fasciculus L −41.5 −47.0 −4.5 98 0.1060
+I. longitudinal fasciculus L −42.5 −5.0 −20.5 14 0.0369
+S. longitudinal fasciculus L −50.5 −52.5 54.0 22 0.0608
+S. longitudinal fasciculus L −19.5 −14.4 61.0 19 0.3820
+Corticospinal tract R 16.3 −2.7 9.5 438 0.2030
+I. fronto-occipital fasciculus L −39.9 40.6 0.6 37 0.1390
+Frontal
+I. frontal white matter L −32.5 23.7 −19.7 58 0.0835
+I. frontal white matter L −21.7 12.0 −18.3 37 0.0399
+I. frontal white matter (pars triangularis) R 56.7 28.7 13.5 250 0.1070
+M. frontal white matter R 44.0 17.7 51.7 174 0.1520
+Medial frontal white matter L −4.6 54.6 40.6 42 0.0950
+Medial frontal/forceps minor L −7.8 62.6 −11.6 35 0.0564
+Medial frontal/forceps minor R 6.5 54.7 37.7 65 0.1820
+S. frontal white matter L −33.7 29.0 48.7 274 0.1390
+S. frontal white matter L −25.5 64.0 14.5 37 0.0903
+S. frontal white matter R 36.0 55.7 19.7 233 0.1720
+S. frontal/premotor white matter R 22.3 9.5 65.5 18 0.0396
+Precentral/premotor white matter L −46.5 2.5 46.5 27 0.1040
+Precentral/premotor white matter L −56.4 −7.8 49.4 14 0.0527
+Cingulate white matter L −11.0 8.0 36.5 57 0.1240
+Anterior cingulate white matter L −7.8 38.4 0.6 31 0.0572
+Cingulate white matter/forceps minor R 15.4 31.4 25.8 207 0.1120
+Insula white matter L −31.5 23.5 11.0 172 0.1480
+Insula white matter R 33.5 29.5 9.0 97 0.1210
+Parietal
+S. parietal lobule L −15.0 −55.5 53.5 16 0.2130
+Supramarginal white matter (posterior division) L −63.0 −47.3 33.3 16 0.0923
+Precuneus white matter L −14.0 −69.5 53.5 14 0.1860
+Occipital
+M. occipital white matter R 45.4 −70.4 −4.3 9 0.0510
+Temporal
+Temporal pole L −33.4 14.4 −38.6 98 0.0626
+I. Temporal white matter (anterior division) R 46.6 1.4 −45.4 56 0.0755
+M. Temporal white matter R 49.0 −34.0 −8.0 77 0.1490
+Fusiform white matter L −49.2 −66.6 −17.4 36 0.0401
+Other
+Cerebellum (crus I) L −45.5 −55.0 −28.0 624 0.3260
+Cerebellum (crus I) R 44.5 −65.3 −41.3 195 0.1170
+(Continued )
+Reinders et al
+542
+https://doi.org/10.1192/bjp.2018.255 Published online by Cambridge University Press
+===== PAGE 8 =====
+separately prior to classification, which speaks against the possibility
+that inter-site effects can be fully attributed to site effects. Third,
+only women volunteered to participate in the study and therefore
+the results cannot be extended to all people with DID. Most of
+these women were currently using medication or had used medica-
+tion in the past (see Supplementary Table 1). However, because
+medication use was highly variable across participants it is unlikely
+that the effects on grey and white matter will be consistent, as pre-
+viously reported in a separate study of our group.
+17 Nevertheless, it
+is recommended that future studies systematically investigate
+whether neuroanatomical changes are related to psychotropic
+medication.
+Antje A. T. S. Reinders , PhD , Senior Research Associate with Lecturer status,
+Department of Psychological Medicine, Institute of Psychiatry, Psychology and
+Neuroscience, King’s College London, UK and Department of Neuroscience, University
+Medical Center Groningen, University of Groningen, The Netherlands; Andre
+F. Marquand, PhD, Assistant Professor, Donders Institute for Brain Cognition and
+Behaviour, Radboud University, The Netherlands and Honorary Lecturer, Department of
+Clinical Neuroscience, Centre for Neuroimaging Sciences, Institute of Psychiatry,
+Psychology and Neuroscience, King ’s College London, UK; Yolanda R. Schlumpf , PhD,
+Postdoctoral Assistant, Division of Neuropsychology, Department of Psychology,
+University of Zurich and Clienia Littenheid AG, Private Clinic for Psychiatry and
+Psychotherapy, Switzerland; Sima Chalavi, PhD, Postdoctoral Researcher, Department
+of Neuroscience, University Medical Center Groningen, University of Groningen, The
+Netherlands and Research Center for Movement Control and Neuroplasticity,
+Department of Movement Sciences, Katholieke Universiteit Leuven, Belgium; Eline
+M. Vissia, PhD, Mental Healthcare Psychologist, Department of Neuroscience,
+University Medical Center Groningen, University of Groningen and Top Referent Trauma
+Centrum, GGz Centraal, The Netherlands; Ellert R. S. Nijenhuis , PhD, Psychologist/
+Psychotherapist, Clienia Littenheid AG, Private Clinic for Psychiatry and Psychotherapy,
+Switzerland; Paola Dazzan, PhD, Professor of Neurobiology of Psychosis, Vice Dean
+International, Honorary Consultant Psychiatrist, Department of Psychosis Studies,
+Institute of Psychiatry, King ’s College London, UK; Lutz Jäncke, PhD, Professor of
+Neuropsychology, Scientific Director, Clienia Littenheid AG, Private Clinic for Psychiatry
+and Psychotherapy and Research Unit for Plasticity and Learning of the Healthy Aging
+Brain, University of Zurich, Switzerland; Dick J. Veltman , PhD, Professor of
+Neuroimaging in Psychiatry, Department of Psychiatry, VU University Medical Center, The
+Netherlands.
+Correspondence: Antje A. T. S. Reinders, Department of Psychological Medicine,
+Institute of Psychiatry, Psychology and Neuroscience, King ’s College London, De
+Crespigny Park, London SE5 8AZ, UK. Email: a.a.t.s.reinders@kcl.ac.uk
+First received 16 Jan 2018, final revision 24 Sep 2018, accepted 14 Oct 2018
+Supplementary material
+Supplementary material is available online at https:/ /doi.org/10.1192/bjp.2018.255.
+Funding
+This article represents independent research part funded by the National Institute for Health
+Research Biomedical Research Centre at South London and Maudsley National Health
+Service Foundation Trust and King ’s College London. The views expressed are those of the
+author(s) and not necessarily those of the National Health Service, the National Institute for
+Health Research or the Department of Health. A.A.T.S.R. was supported by the Netherlands
+Organisation for Scientific Research ( www.nwo.nl), NWO-VENI grant number 451-07-009. S.C.
+is supported by a David Caul graduate research grant from the International Society for the
+Study of Trauma and Dissociation ( http:/ /www.isst-d.org/about/awards.htm). A.F.M. gratefully
+acknowledges support from the King ’s College London Centre of Excellence in Medical
+Engineering, funded by the Wellcome Trust and Engineering and Physical Sciences Research
+Council and from a VIDI fellowship from the Netherlands Organisation for Scientific Research
+(grant number 016.156.415). Y.R.S. was supported by the Forschungskredit of the University
+of Zurich.
+Acknowledgements
+The authors thank all the participants and their therapists. We thank Nel Draijer, Mechteld
+Giesen, Ekaterina Weder and Eva Zimmermann for participant inclusion and scanning, as
+well as Andrew Lawrence for coordinate transformation into MNI space and for preparing
+the Tables. References
+1 Gillig PM. Dissociative identity disorder: a controversial diagnosis. Psychiatry
+2009; 6:2 4–9.
+2 Dalenberg CJ, Brand BL, Loewenstein RJ, Gleaves DH, Dorahy MJ, Cardeña E,
+et al. Reality versus fantasy: reply to Lynn et al. (2014). Psychol Bull 2014; 140:
+911–20.
+3 Brand BL, Vissia EM, Chalavi S, Nijenhuis ERS, Webermann AR, Draijer N, et al.
+DID is trauma based: further evidence supporting the trauma model of DID.
+Acta Psychiatr Scand 2016; 134: 560–3.
+4 International Society for the Study of Trauma and Dissociation. Guidelines for
+treating dissociative identity disorder in adults, third revision. J Trauma
+Dissociation 2011; 12: 115–87.
+5 Piper A, Merskey H. The persistence of folly: a critical examination of dis-
+sociative identity disorder. Part I. The excesses of an improbable concept.
+Can J Psychiatry 2004; 49: 592–600.
+6 Pope HG, Barry S, Bodkin A, Hudson JI. Tracking scientific interest in the dis-
+sociative disorders: a study of scientific publication output 1984-2003.
+Psychother Psychosom 2006; 75:1 9–24.
+7 Sar V. Epidemiology of dissociative disorders: an overview. Epidemiol Res Int
+2011; 1:1 –8.
+8 Lloyd M. Reducing the cost of dissociative identity disorder: measuring the
+effectiveness of specialized treatment by frequency of contacts with mental
+health services. J Trauma Dissociation 2016; 17: 362–70.
+9 Myrick AC, Webermann AR, Langeland W, Putnam FW, Brand BL. Treatment of
+dissociative disorders and reported changes in inpatient and outpatient cost
+estimates. Eur J Psychotraumatol 2017; 8: 1375829.
+10 Wolfers T, Buitelaar JK, Beckmann C, Franke B, Marquand AF. From estimating
+activation locality to predicting disorder: a review of pattern recognition for
+neuroimaging-based psychiatric diagnostics. Neurosci Biobehav Rev 2015; 57:
+328–49.
+11 Vissia EM, Giesen ME, Chalavi S, Nijenhuis ERS, Draijer N, Brand BL, et al. Is it
+Trauma- or Fantasy-based? Comparing dissociative identity disorder, post-
+traumatic stress disorder, simulators, and controls. Acta Psychiatr Scand 2016;
+134: 111–28.
+12 Schlumpf YR, Nijenhuis ERS, Chalavi S, Weder EV, Zimmermann E,
+Luechinger R, et al. Dissociative part-dependent biopsychosocial reactions to
+backward masked angry and neutral faces: an fMRI study of dissociative
+identity disorder. NeuroImage Clin 2013; 3:5 4–64.
+13 Schlumpf YR, Reinders AATS, Nijenhuis ERS, Luechinger R, van Osch MJP,
+Jäncke L. Dissociative part-dependent resting-state activity in dissociative
+identity disorder: a controlled FMRI perfusion study. PLoS One 2014; 9: e98795.
+14 Reinders AATS, Willemsen ATM, Vissia EM, Vos HPJ, den Boer JA, Nijenhuis ERS.
+The psychobiology of authentic and simulated dissociative personality states:
+the full Monty. J Nerv Ment Dis 2016; 204: 445–57.
+15 Zotev V, Phillips R, Young KD, Drevets WC, Bodurka J. Prefrontal control of the
+amygdala during real-time fMRI neurofeedback training of emotion regulation.
+PLoS One 2013; 8: e79184.
+16 Kim S, Birbaumer N. Real-time functional MRI neurofeedback: a tool for
+psychiatry. Curr Opin Psychiatry 2014; 27: 332–6.
+17 Chalavi S, Vissia EM, Giesen ME, Nijenhuis ERS, Draijer N, Barker GJ, et al.
+Similar cortical but not subcortical gray matter abnormalities in women with
+posttraumatic stress disorder with versus without dissociative identity
+disorder. Psychiatry Res 2015; 231: 308–19.
+Table 1 (Continued )
+L/R BA xyz Volume Max
+Putamen L −31.0 −12.0 1.0 312 0.2000
+Brainstem (midbrain) L −7.0 −29.0 −9.5 58 0.1650
+Only clusters larger than an arbitrary threshold of eight voxels 14 are shown. L, left; R, right; BA, Brodmann area; x, y, z, coordinates in MNI space; DID, dissociative identity disorder; Max,
+weight vector score; I., inferior; M., middle; S., superior.
+a. Favouring healthy controls: negative values in a forward map indicate a stronger association with healthy controls, i.e. a relative decreased vol ume of a brain area in DID.
+b. Favouring DID: positive values in a forward map indicate a stronger association of a region with the DID, i.e. relative increased volume of a brain ar ea in DID.
+Aiding the diagnosis of dissociative identity disorder using brain biomarkers
+543
+https://doi.org/10.1192/bjp.2018.255 Published online by Cambridge University Press
+===== PAGE 9 =====
+18 Chalavi S, Vissia EM, Giesen ME, Nijenhuis ERS, Draijer N, Cole JH, et al.
+Abnormal hippocampal morphology in dissociative identity disorder and post-
+traumatic stress disorder correlates with childhood trauma and dissociative
+symptoms. Hum Brain Mapp 2015; 36: 1692–704.
+19 Reinders AATS, Chalavi S, Schlumpf YR, Vissia EM, Nijenhuis ERS, Jäncke L, et al.
+Neurodevelopmental origins of abnormal cortical morphology in dissociative
+identity disorder. Acta Psychiatr Scand 2018; 137: 157–70.
+20 American Psychiatric Association. Diagnostic and Statistical Manual of Mental
+Disorders, DSM-5 (5th edn). American Psychiatric Association, 2013.
+21 Boon S, Draijer N. Multiple personality disorder in The Netherlands: a clinical
+investigation of 71 patients. Am J Psychiatry 1993; 150: 489–94.
+22 Steinberg M. Structured Clinical Interview for DSM-IV Dissociative Disorders
+(SCID-D). American Psychiatric Press, 1993.
+23 Draijer N, Boon S. The imitation of dissociative identity disorder: patients at risk,
+therapists at risk. J Psychiatry Law 1999; 27: 423–58.
+24 Rodewald F, Wilhelm-Göling C, Emrich HM, Reddemann L, Gast U. Axis-I
+comorbidity in female patients with dissociative identity disorder and dis-
+sociative identity disorder not otherwise specified. J Nerv Ment Dis 2011; 199:
+122–31.
+25 Bozkurt H, Duzman Mutluer T, Kose C, Zoroglu S. High psychiatric comorbidity
+in adolescents with dissociative disorders. Psychiatry Clin Neurosci 2015; 69:
+369–74.
+26 Bernstein EM, Putnam FW. Development, reliability, and validity of a dissoci-
+ation scale. J Nerv Ment Dis 1986; 174: 727–35.
+27 Nijenhuis ERS, Spinhoven P, Van Dyck R, Van der Hart O, Vanderlinden J. The
+development and psychometric characteristics of the Somatoform
+Dissociation Questionnaire (SDQ-20). J Nerv Ment Dis 1996; 184: 688–94.
+28 Sierra M, Berrios GE. The Cambridge Depersonalization Scale: a new instru-
+ment for the measurement of depersonalization. Psychiatry Res 2000; 93:
+153–64.
+29 Nijenhuis ERS, Van der Hart O, Kruger K. The psychometric characteristics of
+the Traumatic Experiences Checklist (TEC): first findings among psychiatric
+outpatients. Clin Psychol Psychother 2002;
+9: 200–10.
+30 Chalavi S, Simmons A, Dijkstra H, Barker GJ, Reinders AA. Quantitative and
+qualitative assessment of structural magnetic resonance imaging data in a
+two-center study. BMC Med Imaging 2012; 12: 27.
+31 Ashburner J, Friston KJ. Unified segmentation. Neuroimage 2005; 26: 839–51.
+32 Ashburner J, Friston KJ. Computing average shaped tissue probability tem-
+plates. Neuroimage 2009; 45: 333–41.
+33 Ashburner J, Friston KJ. Diffeomorphic registration using geodesic shooting and
+Gauss-Newton optimisation. Neuroimage 2011; 55: 954–67.
+34 Singh N, Fletcher PT, Preston JS, Ha L, King R, Marron JS, et al. Multivariate
+Statistical Analysis of Deformation Momenta Relating Anatomical Shape to
+Neuropsychological Measures. In 13th International Conference on Medical
+Image Computing and Computer-Assisted Intervention, MICCAI, 2010: 529–37.
+35 Marquand AF, Filippone M, Ashburner J, Girolami M, Mourao-Miranda J,
+Barker GJ, et al. Automated, high accuracy classification of parkinsonian
+disorders: a pattern recognition approach. PLoS One 2013; 8: e69237.
+36 Rasmussen CE, Williams CKI. Gaussian Processes for Machine Learning .
+University Press Group Limited, 2006.
+37 Marquand A, Howard M, Brammer M, Chu C, Coen S, Mourão-Miranda J.
+Quantitative prediction of subjective pain intensity from whole-brain fMRI data
+using Gaussian processes. Neuroimage 2010; 49: 2178–89.
+38 Orrù G, Pettersson-Yeo W, Marquand AF, Sartori G, Mechelli A. Using Support
+Vector Machine to identify imaging biomarkers of neurological and psychiatric
+disease: a critical review. Neurosci Biobehav Rev 2012; 36: 1140–52.
+39 Schrouff J, Rosa MJ, Rondina JM, Marquand AF, Chu C, Ashburner J, et al.
+PRoNTo: pattern recognition for neuroimaging toolbox. Neuroinformatics 2013;
+11: 319.
+40 Hahn T, Marquand AF, Plichta MM, Ehlis A-C, Schecklmann MW, Dresler T, et al.
+A novel approach to probabilistic biomarker-based classification using func-
+tional near-infrared spectroscopy. Hum Brain Mapp 2013; 34: 1102.
+41 Lim HK, Jung WS, Ahn KJ, Won WY, Hahn C, Lee SY, et al. Regional cortical
+thickness and subcortical volume changes are associated with cognitive
+impairments in the drug-naive patients with late-onset depression.
+Neuropsychopharmacology 2012; 37: 838–49.
+42 Haufe S, Meinecke F, Gorgen K, Dahne S, Haynes J-D, Blankertz B, et al. On the
+interpretation of weight vectors of linear models in multivariate neuroimaging.
+Neuroimage 2014; 87:9 6–110.
+43 Mourão-Miranda J, Bokde ALW, Born C, Hampel H, Stetter M. Classifying brain
+states and determining the discriminating activation patterns: support Vector
+Machine on functional MRI data. Neuroimage 2005; 28: 980–95.
+44 Avants BB, Tustison NJ, Song G, Cook PA, Klein A, Gee JC. A reproducible
+evaluation of ANTs similarity metric performance in brain image registration.
+Neuroimage 2011; 54: 2033–44.
+45 Foote B, Smolin Y, Kaplan M, Legatt ME, Lipschitz D. Prevalence of dissociative
+disorders in psychiatric outpatients. Am J Psychiatry 2006; 163: 623–9.
+46 Sar V, Akyüz G, Doğan O. Prevalence of dissociative disorders among women in
+the general population. Psychiatry Res 2007; 149: 169–76.
+47 Dorahy MJ, Brand BL, Sar V, Krüger C, Stavropoulos P, Martínez-Taboas A, et al.
+Dissociative identity disorder: an empirical overview. Aust N Z J Psychiatry
+2014; 48: 402–17.
+48 Mourao-Miranda J, Reinders AATS, Rocha-Rego V, Lappin J, Rondina J,
+Morgan C, et al. Individualized prediction of illness course at the first psychotic
+episode: a support vector machine MRI study. Psychol Med 2012; 42: 1037–47.
+49 Nardo D, Högberg G, Lanius RA, Jacobsson H, Jonsson C, Hällström T, et al. Gray
+matter volume alterations related to trait dissociation in PTSD and traumatized
+controls. Acta Psychiatr Scand 2013; 128: 222–33.
+50 Sierra M, Nestler S, Jay E-L, Ecker C, Feng Y, David AS. A structural MRI study of
+cortical thickness in depersonalisation disorder. Psychiatry Res Neuroimaging
+2014; 224:1 –7.
+51 Daniels JK, Frewen P, Theberge J, Lanius RA. Structural brain aberrations
+associated with the dissociative subtype of post-traumatic stress disorder.
+Acta Psychiatr Scand 2016; 133: 232–40.
+52 Lanius RA, Vermetten E, Loewenstein RJ, Brand B, Schmahl C, Bremner JD, et al.
+Emotion modulation in PTSD: clinical and neurobiological evidence for a dis-
+sociative subtype. Am J Psychiatry 2010; 167: 640–7.
+53 Lemche E, Anilkumar A, Giampietro VP, Brammer MJ, Surguladze SA,
+Lawrence NS, et al. Cerebral and autonomic responses to emotional facial
+expressions in depersonalisation disorder. Br J Psychiatry
+2008; 193: 222–8.
+54 Gong Q, Li L, Tognin S, Wu Q, Pettersson-Yeo W, Lui S, et al. Using structural
+neuroanatomy to identify trauma survivors with and without post-traumatic
+stress disorder at the individual level. Psychol Med 2014; 44: 195–203.
+Reinders et al
+544
+https://doi.org/10.1192/bjp.2018.255 Published online by Cambridge University Press

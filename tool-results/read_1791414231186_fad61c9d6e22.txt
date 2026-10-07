@@ -1,0 +1,391 @@
+   801→the neutral faces were thus salient ( Davis and Whalen, 2001;
+   802→LeDoux, 1998 ) for ANP-simulating controls, they did not arouse
+   803→them or attract much preconscious attention, as happened for au-
+   804→thentic EP. The current ﬁndings add to the psychobiological evidence
+   805→(Hermans et al., 2006; Reinders et al., 2012 ) that DID is neither an ef-
+   806→fect of suggestion and fantasy, nor of role-playing.
+   807→The ﬁndings have strong implications for the clinical context in deal-
+   808→ing with DID patients and suggest that therapists of DID patients must be
+   809→emotionally and behaviorally engaged. Therapeutic neutrality will prob-
+   810→ably scare them, particularly as EP, triggering and reinforcing condi-
+   811→tioned emotional and defensive reactions. As EP, these patients will
+   812→tend to perceive an emotionally neutral therapist as an emotionally
+   813→unavailable caretaker. These effects may not be immediately visible
+   814→when an ANP is dominant due to ANP's mental avoidance and
+   815→under-engagement. However, ANP and EP can be activated in parallel
+   816→(Van der Hart et al., 2006), so that the therapist's neutrality can nonethe-
+   817→less affect the patient as one or more EPs. This interpretation is consis-
+   818→tent with clinical observations (Van der Hart et al., 2006). For example,
+   819→ANP may report that EP is negatively affected by the therapist's neutral-
+   820→ity. It may also happen that ANP does not notice or report this emotion-
+   821→ality in an EP, but that EP responds in the described emotional sense in a
+   822→later stage, while expressing that she/he felt rejected, confused, or afraid
+   823→when the therapist was emotionally un(der)engaged.
+   824→This study has several limitations. Our sample size was relatively
+   825→small, which was due to the dif ﬁculty in ﬁnding DID patients who
+   826→are able to alternate between ANP and EP at request and to remain ac-
+   827→tivated, particularly as EP, for a substantial period of time in an fMRI
+   828→environment. Patients who can perform this feat are the ones who
+   829→have been in treatment for at least several years. Because treatment
+   830→of DID fosters integration between the different dissociative parts
+   831→and integration of traumatic memories, studies such as ours are
+   832→prone to underestimate naturally existing biopsychosocial differences
+   833→between these subsystems of the personality. In order to check if the
+   834→actors had understood and followed the instructions to simulate an
+   835→ANP and EP, patients and controls completed as ANP and EP the
+   836→STAI-S ( Laux et al., 1981 ) immediately after the fMRI measurement.
+   837→Explorative data analysis revealed that, in contrast to the behavioral
+   838→and neural data, no inverse simulation pattern could be observed
+   839→(see Table 1 ). That is, as ANP, the actors tended to react like ANP in
+   840→DID patients, and as EP like EP in these patients. However, no signi ﬁ-
+   841→cant differences were observed between and within groups. There-
+   842→fore, the STAI-S does not seem to be an appropriate measurement to
+   843→examine adherence to simulation instructions. In future studies,
+   844→other assessments such as self-report should be included. DID pa-
+   845→tients have considerable comorbidity ( Ellason et al., 1996 ). Future
+   846→studies will need to evaluate axis I and axis II comorbidity and ad-
+   847→dress covariations between this comorbidity and patterns of neural
+   848→activation. Another limitation of the study is that only two of our pa-
+   849→tients were free of medication. Medication washout is not feasible
+   850→with DID patients. However, medication does not explain the ob-
+   851→served differences between ANP and EP in DID patients.
+   852→In conclusion, the current study shows that two prototypical parts
+   853→of the personality in DID patients, ANP and EP, have different
+   854→biopsychosocial reaction patterns to backward masked neutral and
+   855→angry faces that controls were unable to simulate. Fixed in active de-
+   856→fense, as EP, DID patients engage in early and automatic scanning of fa-
+   857→cial expressions. Avoiding threat cues, as ANP, they are underinvolved
+   858→in the faces. These results and interpretations are consistent with clini-
+   859→cal observations and TSDP, but inconsistent with the sociocognitive
+   860→model of DID.
+   861→Acknowledgments
+   862→This research was supported by the Forschungskredit of the
+   863→University of Zurich. A.A.T. Simone Reinders is supported by the
+   864→Netherlands Organization for Scienti ﬁc Research ( www.nwo.nl),
+   865→NWO-VENI grant no. 451-07-009. We would like to thank the col-
+   866→leagues of Prof. Jäncke's lab for their helpful comments and Franz
+   867→Liem and Thomas Reber for their technical support. Special thanks
+   868→go to the patients and their therapists for participating in the study.
+   869→Competing interests
+   870→None declared.
+   871→Appendix A. Supplementary data
+   872→Supplementary data to this article can be found online at http://
+   873→dx.doi.org/10.1016/j.nicl.2013.07.002.
+   874→References
+   875→Amaral, D.G., Price, J.L., Pitkanen, A., Carmichael, S.T., 1992. Anatomical organization
+   876→of primate amygdaloid complex. In: Aggleton, W. (Ed.), The Amygdala: Neurobio-
+   877→logical Aspects of Emotion, Memory and Mental Dysfunction. Wiley-Liss,
+   878→New York, pp. 1 – 66.
+   879→Fig. 4. Brain regions showing signi ﬁcantly higher activation during preconscious exposure to neutral faces as compared to scrambled faces in DIDep compared to CONep (DIDep –
+   880→CONep, N-S). The sagittal view depicts areas in the dorsal brainstem, occipitotemporal junction, and parahippocampal gyrus. Activation in the visu al cortex can be seen in the cor-
+   881→onal view. Corresponding regions, cluster-sizes, MNI coordinates, and T-values can be found in Table 4 .
+   882→62 Y.R. Schlumpf et al. / NeuroImage: Clinical 3 (2013) 54 –64
+   883→===== PAGE 10 =====
+   884→American Psychiatric Association, 1994. Diagnostic and Statistical Manual of Mental
+   885→Disorders DSM-IV, 4th ed. American Psychiatric Association, Washington, DC.
+   886→Armony, J.L., Corbo, V., Clement, M.H., Brunet, A., 2005.Amygdala response in patients with
+   887→acute PTSD to masked and unmasked emotional facial expressions. The American
+   888→Journal of Psychiatry 162, 1961–1963.
+   889→Ashburner, J., Friston, K.J., 2005. Uniﬁed segmentation. NeuroImage 26, 839 – 851.
+   890→Bakvis, P., Roelofs, K., Kuyk, J., Edelbroek, P.M., Swinkels, W.A., Spinhoven, P., 2009.
+   891→Trauma, stress, and preconscious threat processing in patients with psychogenic
+   892→nonepileptic seizures. Epilepsia 50, 1001 – 1011.
+   893→Baumgartner, T., Willi, M., Jancke, L., 2007. Modulation of corticospinal activity by
+   894→strong emotions evoked by pictures and classical music: a transcranial magnetic
+   895→stimulation study. Neuroreport 18, 261 – 265.
+   896→Benjamin, L.S., 1993. Interpersonal Diagnosis and Treatment of Personality Disorders,
+   897→2nd ed. Guilford, New York.
+   898→Bishop, S.J., 2007. Neurocognitive mechanisms of anxiety: an integrative account.
+   899→Trends in Cognitive Sciences 11, 307 – 316.
+   900→Blackford, J.U., Buckholtz, J.W., Avery, S.N., Zald, D.H., 2010. A unique role for the
+   901→human amygdala in novelty detection. NeuroImage 50, 1188 – 1193.
+   902→Breiter, H.C., Etcoff, N.L., Whalen, P.J., Kennedy, W.A., Rauch, S.L., Buckner, R.L., Strauss,
+   903→M.M., Hyman, S.E., Rosen, B.R., 1996. Response and habituation of the human
+   904→amygdala during visual processing of facial expression. Neuron 17, 875 – 887.
+   905→Bremner, J.D., Narayan, M., Staib, L.H., Southwick, S.M., McGlashan, T., Charney, D.S.,
+   906→1999a. Neural correlates of memories of childhood sexual abuse in women with
+   907→and without posttraumatic stress disorder. The American Journal of Psychiatry
+   908→156, 1787 – 1795.
+   909→Bremner, J.D., Staib, L.H., Kaloupek, D., Southwick, S.M., Soufer, R., Charney, D.S., 1999b.
+   910→Neural correlates of exposure to traumatic pictures and sound in Vietnam combat
+   911→veterans with and without posttraumatic stress disorder: a positron emission to-
+   912→mography study. Biological Psychiatry 45, 806 – 816.
+   913→Brühl, A.B., Rufer, M., Delsignore, A., Kaffenberger, T., Jancke, L., Herwig, U., 2011. Neu-
+   914→ral correlates of altered general emotion processing in social anxiety disorder.
+   915→Brain Research 1378, 72 – 83.
+   916→Büchel, C., Morris, J., Dolan, R.J., Friston, K.J., 1998. Brain systems mediating aversive
+   917→conditioning: an event-related fMRI study. Neuron 20, 947 – 957.
+   918→Cheesman, J., Merikle, P.M., 1984. Priming with and without awareness. Perception &
+   919→Psychophysics 36, 387 – 395.
+   920→Cisler, J.M., Koster, E.H., 2010. Mechanisms of attentional biases towards threat in anx-
+   921→iety disorders: an integrative review. Clinical Psychology Review 30, 203 – 216.
+   922→Dalenberg, C.J., Brand, B.L., Gleaves, D.H., Dorahy, M.J., Loewenstein, R.J., Cardena, E.,
+   923→Frewen, P.A., Carlson, E.B., Spiegel, D., 2012.Evaluation of the evidence for the trauma
+   924→and fantasy models of dissociation. Psychological Bulletin 138, 550– 588.
+   925→Davis, M., Whalen, P.J., 2001. The amygdala: vigilance and emotion. Molecular Psychi-
+   926→atry 6, 13 – 34.
+   927→Desikan, R.S., Segonne, F., Fischl, B., Quinn, B.T., Dickerson, B.C., Blacker, D., Buckner,
+   928→R.L., Dale, A.M., Maguire, R.P., Hyman, B.T., Albert, M.S., Killiany, R.J., 2006. An auto-
+   929→mated labeling system for subdividing the human cerebral cortex on MRI scans
+   930→into gyral based regions of interest. NeuroImage 31, 968 – 980.
+   931→Diseth, T.H., 2006. Dissociation following traumatic medical treatment procedures in
+   932→childhood: a longitudinal follow-up. Development and Psychopathology 18, 233–251.
+   933→Donegan, N.H., Sanislow, C.A., Blumberg, H.P., Fulbright, R.K., Lacadie, C., Skudlarski, P.,
+   934→Gore, J.C., Olson, I.R., McGlashan, T.H., Wexler, B.E., 2003. Amygdala hyperreactivity
+   935→in borderline personality disorder: implications for emotional dysregulation. Bio-
+   936→logical Psychiatry 54, 1284 – 1293.
+   937→Dutra, L., Bureau, J.F., Holmes, B., Lyubchik, A., Lyons-Ruth, K., 2009. Quality of early
+   938→care and childhood trauma: a prospective study of developmental pathways to dis-
+   939→sociation. The Journal of Nervous and Mental Disease 197, 383 – 390.
+   940→Ehlers, A., Steil, R., Winter, H., Foa, E.B., 1996. Deutsche Übersetzung der Posttraumatic
+   941→Diagnostic Scale (PDS). University, Warneford Hospital, Oxford.
+   942→Ellason, J.W., Ross, C.A., Fuchs, D.L., 1996. Lifetime axis I and II comorbidity and child-
+   943→hood trauma history in dissociative identity disorder. Psychiatry 59, 255 – 266.
+   944→Eysenck, M.W., Mogg, K., May, J., Richards, A., Mathews, A., 1991. Bias in interpretation
+   945→of ambiguous sentences related to threat in anxiety. Journal of Abnormal Psychol-
+   946→ogy 100, 144 – 150.
+   947→Felmingham, K., Kemp, A.H., Williams, L., Falconer, E., Olivieri, G., Peduto, A., Bryant, R.,
+   948→2008. Dissociative responses to conscious and non-conscious fear impact underly-
+   949→ing brain function in post-traumatic stress disorder. Psychological Medicine 38,
+   950→1771– 1780.
+   951→Fink, G.R., Markowitsch, H.J., Reinkemeier, M., Bruckbauer, T., Kessler, J., Heiss, W.D.,
+   952→1996. Cerebral representation of one's own past: neural networks involved in au-
+   953→tobiographical memory. Journal of Neuroscience 16, 4275 – 4282.
+   954→Fischer, H., Wright, C.I., Whalen, P.J., McInerney, S.C., Shin, L.M., Rauch, S.L., 2003. Brain
+   955→habituation during repeated exposure to fearful and neutral faces: a functional MRI
+   956→study. Brain Research Bulletin 59, 387 – 392.
+   957→Friston, K.J., Worsley, K.J., Frackowiak, R.S.J., Mazziotta, J.C., Evans, A.C., 1994. Assessing
+   958→the signi ﬁcance of focal activations using their spatial extent. Human Brain Map-
+   959→ping 1, 210 – 220.
+   960→Friston, K.J., Holmes, A., Poline, J.B., Price, C.J., Frith, C.D., 1996. Detecting activations in
+   961→PET and fMRI: levels of inference and power. NeuroImage 4, 223 – 235.
+   962→Fusar-Poli, P., Placentino, A., Carletti, F., Landi, P., Allen, P., Surguladze, S., Benedetti, F.,
+   963→Abbamonte, M., Gasparotti, R., Barale, F., Perez, J., McGuire, P., Politi, P., 2009. Func-
+   964→tional atlas of emotional faces processing: a voxel-based meta-analysis of 105
+   965→functional magnetic resonance imaging studies. Journal of Psychiatry & Neurosci-
+   966→ence 34, 418 – 432.
+   967→Gast, U., Hofmann, A., Oswald, T., Zündorf, F., 2000. Das Strukturierte Klinische Inter-
+   968→view für DSM-IV Dissoziative Störungen (SKID-D). Deutsche Fassung. Manual
+   969→und Interviewheft. Hogrefe, Göttingen.
+   970→Giesbrecht, T., Lynn, S.J., Lilienfeld, S.O., Merckelbach, H., 2008. Cognitive processes in
+   971→dissociation: an analysis of core theoretical assumptions. Psychological Bulletin
+   972→134, 617 – 647.
+   973→Gorno-Tempini, M.L., Pradelli, S., Sera ﬁni, M., Pagnoni, G., Baraldi, P., Porro, C., Nicoletti,
+   974→R., Umita, C., Nichelli, P., 2001. Explicit and incidental facial expression processing:
+   975→an fMRI study. NeuroImage 14, 465 – 473.
+   976→Greenwald, A.G., Draine, S.C., Abrams, R.L., 1996. Semantic activation without con-
+   977→scious identi ﬁcation in dichotic listening, parafoveal vision, and visual masking: a
+   978→survey and appraisal. Science 273, 1699 – 1702.
+   979→Grillon, C., Lissek, S., Rabin, S., McDowell, D., Dvir, S., Pine, D.S., 2008. Increased anxiety
+   980→during anticipation of unpredictable but not predictable aversive stimuli as a psy-
+   981→chophysiologic marker of panic disorder. The American Journal of Psychiatry 165,
+   982→898– 904.
+   983→Hajcak, G., Molnar, C., George, M.S., Bolger, K., Koola, J., Nahas, Z., 2007. Emotion facil-
+   984→itates action: a transcranial magnetic stimulation study of motor cortex excitability
+   985→during picture viewing. Psychophysiology 44, 91 – 97.
+   986→Hautzinger, M., Keller, F., Kühner, C., 2006. Beck Depressions-Inventar (BDI-II). Revi-
+   987→sion Harcourt Test Services, Frankfurt a. M.
+   988→Haxby, J.V., Hoffman, E.A., Gobbini, M.I., 2000. The distributed human neural system for
+   989→face perception. Trends in Cognitive Sciences 4, 223 – 233.
+   990→Hendler, T., Rotshtein, P., Yeshurun, Y., Weizmann, T., Kahn, I., Ben-Bashat, D., Malach,
+   991→R., Bleich, A., 2003. Sensing the invisible: differential sensitivity of visual cortex and
+   992→amygdala to traumatic context. NeuroImage 19, 587 – 600.
+   993→Henke, K., Landis, T., Markowitsch, H.J., 1994. Subliminal perception of words and faces.
+   994→International Journal of Neuroscience 75, 181 – 187.
+   995→Henke, K., Mondadori, C.R., Treyer, V., Nitsch, R.M., Buck, A., Hock, C., 2003a.
+   996→Nonconscious formation and reactivation of semantic associations by way of the
+   997→medial temporal lobe. Neuropsychologia 41, 863 – 876.
+   998→Henke, K., Treyer, V., Nagy, E.T., Kneifel, S., Dursteler, M., Nitsch, R.M., Buck, A., 2003b.
+   999→Active hippocampus during nonconscious memories. Consciousness and Cognition
+  1000→12, 31 – 48.
+  1001→Hermans, E.J., Nijenhuis, E.R., Van Honk, J., Huntjens, R.J., Van der Hart, O., 2006.
+  1002→Identity state-dependent attentional bias for facial threat in dissociative identity
+  1003→disorder. Psychiatry Research 141, 233 – 236.
+  1004→Holaway, R.M., Heimberg, R.G., Coles, M.E., 2006. A comparison of intolerance of uncer-
+  1005→tainty in analogue obsessive – compulsive disorder and generalized anxiety disor-
+  1006→der. Journal of Anxiety Disorders 20, 158 – 174.
+  1007→Holender, D., 1986. Semantic activation without conscious identi ﬁcation in dichotic lis-
+  1008→tening, parafoveal vision, and visual masking: a survey and appraisal. The Behav-
+  1009→ioral and Brain Sciences 9, 1 – 23.
+  1010→Jones, B.E., 2003. Arousal systems. Frontiers in Bioscience 8, s438 – s451.
+  1011→Kelley, W.M., Macrae, C.N., Wyland, C.L., Caglar, S., Inati, S., Heatherton, T.F., 2002. Find-
+  1012→ing the self? An event-related fMRI study. Journal of Cognitive Neuroscience 14,
+  1013→785– 794.
+  1014→Korol, S., 2008. Familial and social support as protective factors against the develop-
+  1015→ment of dissociative identity disorder. Journal of Trauma & Dissociation 9,
+  1016→249– 267.
+  1017→Lanius, R.A., Williamson, P.C., Densmore, M., Boksman, K., Gupta, M.A., Neufeld, R.W.,
+  1018→Gati, J.S., Menon, R.S., 2001. Neural correlates of traumatic memories in
+  1019→posttraumatic stress disorder: a functional MRI investigation. The American Jour-
+  1020→nal of Psychiatry 158, 1920 – 1922.
+  1021→Lanius, R.A., Williamson, P.C., Boksman, K., Densmore, M., Gupta, M., Neufeld, R.W.,
+  1022→Gati, J.S., Menon, R.S., 2002. Brain activation during script-driven imagery induced
+  1023→dissociative responses in PTSD: a functional magnetic resonance imaging investi-
+  1024→gation. Biological Psychiatry 52, 305 – 311.
+  1025→Lanius, R.A., Bluhm, R., Lanius, U., Pain, C., 2006. A review of neuroimaging studies in
+  1026→PTSD: heterogeneity of response to symptom provocation. Journal of Psychiatric
+  1027→Research 40, 709 – 729.
+  1028→Laux, L., Glanzmann, P., Schaffner, P., Spielberger, C.D., 1981. Das State-Trait-
+  1029→Angstinventar. Theoretische Grundlagen und Handanweisung. Beltz Test GmbH,
+  1030→Weinheim.
+  1031→LeDoux, J.E., 1998. The Emotional Brain: The Mysterious Underpinnings of Emotional
+  1032→Life. Touchstone, New York.
+  1033→Lilienfeld, S.O., Lynn, S.J., Kirsch, I., Chaves, J.F., Sarbin, T.R., Ganaway, G.K., Powell, R.A.,
+  1034→1999. Dissociative identity disorder and the sociocognitive model: recalling the
+  1035→lessons of the past. Psychological Bulletin 125, 507 – 523.
+  1036→Linehan, M.M., 1993. Cognitive-behavioral Treatment of Borderline Personality Disor-
+  1037→der. Guilford Press, New York, N.Y.
+  1038→Lundquist, D., Flykt, A., Öhman, A., 1998. The Karolinska Directed Emotional Faces —
+  1039→KDEF, CD ROM from Department of Clinical Neuroscience, Psychology section,
+  1040→Karolinska Institute. 91-630-7164-9.
+  1041→Merckelbach, H., Muris, P., 2001. The causal link between self-reported trauma and dis-
+  1042→sociation: a critical review. Behaviour Research and Therapy 39, 245 – 254.
+  1043→Merckelbach, H., Devilly, G.J., Rassin, E., 2002. Alters in dissociative identity disorder.
+  1044→Metaphors or genuine entities? Clinical Psychology Review 22, 481 – 497.
+  1045→Merskey, H., 1992. The manufacture of personalities. The production of multiple per-
+  1046→sonality disorder. The British Journal of Psychiatry 160, 327 – 340.
+  1047→Mesman, J., Van IJzendoorn, M.H., Bakermans-Kranenburg, M.J., 2009. The many faces
+  1048→of the Still-Face Paradigm: a review and meta-analysis. Developmental Review
+  1049→29, 120 – 162.
+  1050→Morris, J.S., Ohman, A., Dolan, R.J., 1998. Conscious and unconscious emotional learning
+  1051→in the human amygdala. Nature 393, 467 – 470.
+  1052→Nakamura, K., Kawashima, R., Sato, N., Nakamura, A., Sugiura, M., Kato, T., Hatano, K.,
+  1053→Ito, K., Fukuda, H., Schormann, T., Zilles, K., 2000. Functional delineation of the
+  1054→human occipito-temporal areas related to face and scene processing. A PET
+  1055→study. Brain 123 (Pt 9), 1903 – 1912.
+  1056→63Y.R. Schlumpf et al. / NeuroImage: Clinical 3 (2013) 54 –64
+  1057→===== PAGE 11 =====
+  1058→Nijenhuis, E.R.S., Den Boer, J.A., 2009. Psychobiology of traumatisation and trauma-
+  1059→related structural dissociation of the personality. In: Dell, P.F., O'Neil, J.A. (Eds.),
+  1060→Dissociation and the Dissociative Disorders: DSM-V and Beyond. Routledge,
+  1061→New York, pp. 337 – 367.
+  1062→Nijenhuis, E.R.S., Van der Hart, O., Steele, K., 2002. The emerging psychobiology of
+  1063→trauma-related dissociation and dissociative disorders. In: D'Haenen, H., Den
+  1064→Boer, J.A., Willner, P. (Eds.), Biological Psychiatry. Wiley, London, pp. 1079 – 1098.
+  1065→Nitschke, J.B., Sarinopoulos, I., Oathes, D.J., Johnstone, T., Whalen, P.J., Davidson, R.J.,
+  1066→Kalin, N.H., 2009. Anticipatory activation in the amygdala and anterior cingulate
+  1067→in generalized anxiety disorder and prediction of treatment response. The American
+  1068→Journal of Psychiatry 166, 302– 310.
+  1069→Ogawa, J.R., Sroufe, L.A., Wein ﬁeld, N.S., Carlson, E.A., Egeland, B., 1997. Development
+  1070→and the fragmented self: longitudinal study of dissociative symptomatology in a
+  1071→nonclinical sample. Development and Psychopathology 9, 855 – 879.
+  1072→Öhman, A., 2005. The role of the amygdala in human fear: automatic detection of
+  1073→threat. Psychoneuroendocrinology 30, 953 – 958.
+  1074→Oliveri, M., Babiloni, C., Filippi, M.M., Caltagirone, C., Babiloni, F., Cicinelli, P., Traversa,
+  1075→R., Palmieri, M.G., Rossini, P.M., 2003. Inﬂuence of the supplementary motor area
+  1076→on primary motor cortex excitability during movements triggered by neutral or
+  1077→emotionally unpleasant visual cues. Experimental Brain Research 149, 214 – 221.
+  1078→Osuch, E.A., Benson, B., Geraci, M., Podell, D., Herscovitch, P., McCann, U.D., Post, R.M.,
+  1079→2001. Regional cerebral blood ﬂow correlated with ﬂashback intensity in patients
+  1080→with posttraumatic stress disorder. Biological Psychiatry 50, 246 – 253.
+  1081→Phan, K.L., Wager, T., Taylor, S.F., Liberzon, I., 2002.Functional neuroanatomy of emotion:
+  1082→a meta-analysis of emotion activation studies in PET and fMRI. NeuroImage 16,
+  1083→331–348.
+  1084→Phelps, E.A., O'Connor, K.J., Gatenby, J.C., Gore, J.C., Grillon, C., Davis, M., 2001. Activa-
+  1085→tion of the left amygdala to a cognitive representation of fear. Nature Neuroscience
+  1086→4, 437 – 441.
+  1087→Pitcher, D., Walsh, V., Yovel, G., Duchaine, B., 2007. TMS evidence for the involvement of
+  1088→the right occipital face area in early face processing. Current Biology 17, 1568 – 1573.
+  1089→Putman, P., Hermans, E., Van Honk, J., 2004. Emotional stroop performance for masked
+  1090→angry faces: it's BAS, not BIS. Emotion 4, 305 – 311.
+  1091→Rainer, G., Augath, M., Trinath, T., Logothetis, N.K., 2001. Nonmonotonic noise tuning of
+  1092→BOLD fMRI signal to natural images in the visual cortex of the anesthetized mon-
+  1093→key. Current Biology 11, 846 – 854.
+  1094→Rauch, S.L., Van der Kolk, B.A., Fisler, R.E., Alpert, N.M., Orr, S.P., Savage, C.R., Fischman,
+  1095→A.J., Jenike, M.A., Pitman, R.K., 1996. A symptom provocation study of
+  1096→posttraumatic stress disorder using positron emission tomography and script-
+  1097→driven imagery. Archives of General Psychiatry 53, 380 – 387.
+  1098→R a u c h ,S . L . ,W h a l e n ,P . J . ,S h i n ,L . M . ,M c I n e r n e y ,S . C . ,M a c k l i n ,M . L . ,L a s k o ,N . B . ,O r r ,S . P . ,
+  1099→Pitman, R.K., 2000. Exaggerated amygdala response to masked facial stimuli in
+  1100→posttraumatic stress disorder: a functional MRI study. Biological Psychiatry 47, 769–776.
+  1101→Reinders, A.A.T.S., Nijenhuis, E.R.S., Paans, A.M., Korf, J., Willemsen, A.T., Den Boer, J.A.,
+  1102→2003. One brain, two selves. NeuroImage 20, 2119 – 2125.
+  1103→Reinders, A.A.T.S., Den Boer, J.A., Buchel, C., 2005.The robustness of perception. European
+  1104→Journal of Neuroscience 22, 524
+  1105→– 530.
+  1106→Reinders, A.A.T.S., Glascher, J., De Jong, J.R., Willemsen, A.T., Den Boer, J.A., Buchel, C.,
+  1107→2006a. Detecting fearful and neutral faces: BOLD latency differences in amygdala-
+  1108→hippocampal junction. NeuroImage 33, 805– 814.
+  1109→Reinders, A.A.T.S., Nijenhuis, E.R.S., Quak, J., Korf, J., Haaksma, J., Paans, A.M., Willemsen,
+  1110→A.T., Den Boer, J.A., 2006b. Psychobiological characteristics of dissociative identity
+  1111→disorder: a symptom provocation study. Biological Psychiatry 60, 730 – 740.
+  1112→Reinders, A.A.T.S., Willemsen, A.T.M., Vos, H.P.J., Den Boer, J.A., Nijenhuis, E.R.S., 2012.
+  1113→Fact or factitious? A psychobiological study of authentic and simulated dissociative
+  1114→identity states. PLoS One 6, e39279.
+  1115→Rolls, E.T., Tovee, M.J., Panzeri, S., 1999. The neurophysiology of backward visual
+  1116→masking: information analysis. Journal of Cognitive Neuroscience 11, 300 – 311.
+  1117→Sakamoto, H., Fukuda, R., Okuaki, T., Rogers, M., Kasai, K., Machida, T., Shirouzu, I.,
+  1118→Yamasue, H., Akiyama, T., Kato, N., 2005. Parahippocampal activation evoked by
+  1119→masked traumatic images in posttraumatic stress disorder: a functional MRI
+  1120→study. NeuroImage 26, 813 – 821.
+  1121→Sander, D., Grafman, J., Zalla, T., 2003. The human amygdala: an evolved system for
+  1122→relevance detection. Reviews in the Neurosciences 14, 303 – 316.
+  1123→Schwartz, C.E., Wright, C.I., Shin, L.M., Kagan, J., Whalen, P.J., McMullin, K.G., Rauch, S.L.,
+  1124→2003. Differential amygdalar response to novel versus newly familiar neutral faces:
+  1125→a functional MRI probe developed for studying inhibited temperament. Biological
+  1126→Psychiatry 53, 854 – 862.
+  1127→Shin, L.M., Kosslyn, S.M., McNally, R.J., Alpert, N.M., Thompson, W.L., Rauch, S.L., Macklin,
+  1128→M.L., Pitman, R.K., 1997.Visual imagery and perception in posttraumatic stress disor-
+  1129→der. A positron emission tomographic investigation. Archives of General Psychiatry
+  1130→54, 233– 241.
+  1131→Shin, L.M., McNally, R.J., Kosslyn, S.M., Thompson, W.L., Rauch, S.L., Alpert, N.M.,
+  1132→Metzger, L.J., Lasko, N.B., Orr, S.P., Pitman, R.K., 1999. Regional cerebral blood
+  1133→ﬂow during script-driven imagery in childhood sexual abuse-related PTSD: A PET
+  1134→investigation. The American Journal of Psychiatry 156, 575 – 584.
+  1135→Shin, L.M., Whalen, P.J., Pitman, R.K., Bush, G., Macklin, M.L., Lasko, N.B., Orr, S.P.,
+  1136→McInerney, S.C., Rauch, S.L., 2001. An fMRI study of anterior cingulate function in
+  1137→posttraumatic stress disorder. Biological Psychiatry 50, 932 – 942.
+  1138→Shin, L.M., Orr, S.P., Carson, M.A., Rauch, S.L., Macklin, M.L., Lasko, N.B., Peters, P.M.,
+  1139→Metzger, L.J., Dougherty, D.D., Cannistraro, P.A., Alpert, N.M., Fischman, A.J.,
+  1140→Pitman, R.K., 2004. Regional cerebral blood ﬂow in the amygdala and medial pre-
+  1141→frontal cortex during traumatic imagery in male and female Vietnam veterans
+  1142→with PTSD. Archives of General Psychiatry 61, 168 – 176.
+  1143→Simeon, D., Guralnik, O., Hazlett, E.A., Spiegel-Cohen, J., Hollander, E., Buchsbaum, M.S.,
+  1144→2000. Feeling unreal: a PET study of depersonalization disorder. The American
+  1145→Journal of Psychiatry 157, 1782 – 1788.
+  1146→Spanos, N.P., 1994. Multiple identity enactments and multiple personality disorder: a
+  1147→sociocognitive perspective. Psychological Bulletin 116, 143 – 165.
+  1148→Spanos, N.P., 1996. Multiple Identities & False Memories: A Sociocognitive Perspective.
+  1149→American Psychological Association, Washington.
+  1150→Steele, K., Van der Hart, O., Nijenhuis, E.R., 2005. Phase-oriented treatment of structural
+  1151→dissociation in complex traumatization: overcoming trauma-related phobias. Journal
+  1152→of Trauma & Dissociation 6, 11 – 53.
+  1153→Steinberg, M., 1993. Structured Clinical Interview for DSM-IV Dissociative Disorders
+  1154→(SCID-D). American Psychiatric Press, Washington, DC.
+  1155→Trickett, P.K., Noll, J.G., Putnam, F.W., 2011. The impact of sexual abuse on female
+  1156→development: lessons from a multigenerational, longitudinal research study. De-
+  1157→velopment and Psychopathology 23, 453 – 476.
+  1158→Tronick, E., Als, H., Adamson, L., Wise, S., Brazelton, T.B., 1978. The infant's response to
+  1159→entrapment between contradictory messages in face-to-face interaction. Journal of
+  1160→the American Academy of Child Psychiatry 17, 1 – 13.
+  1161→Tulving, E., Kapur, S., Craik, F.I., Moscovitch, M., Houle, S., 1994. Hemispheric encoding/
+  1162→retrieval asymmetry in episodic memory: positron emission tomography ﬁndings.
+  1163→Proceedings of the National Academy of Sciences of the United States of America
+  1164→91, 2016 – 2020.
+  1165→Van Balen, L., 2005. Activation and Localization of the Emotional Circuits in the Brain:
+  1166→An fMRI Study in Patients with Schizophrenia and Healthy Volunteers.
+  1167→Rijksuniversiteit Groningen, Groningen.
+  1168→Van der Hart, O., Nijenhuis, E.R.S., Steele, K., 2006. The Haunted Self: Structural Disso-
+  1169→ciation and the Treatment of Chronic Traumatization. W.W. Norton & Company,
+  1170→New York, London.
+  1171→Van Honk, J., Tuiten, A., Van den Hout, M., Koppeschaar, H., Thijssen, J., De Haan, E.,
+  1172→Verbaten, R., 1998. Baseline salivary cortisol levels and preconscious selective at-
+  1173→tention for threat. A pilot study. Psychoneuroendocrinology 23, 741 – 747.
+  1174→Van Honk, J., Tuiten, A., Van den Hout, M., Koppeschaar, H., Thijssen, J., De Haan, E.,
+  1175→Verbaten, R., 2000. Conscious and preconscious selective attention to social threat:
+  1176→different neuroendocrine response patterns. Psychoneuroendocrinology 25,
+  1177→577– 591.
+  1178→Vogt, B.A., 2005. Pain and emotion interactions in subregions of the cingulate gyrus.
+  1179→Nature Reviews. Neuroscience 6, 533 – 544.
+  1180→Vuilleumier, P., 2005. How brains beware: neural mechanisms of emotional attention.
+  1181→Trends in Cognitive Sciences 9, 585 – 594.
+  1182→Vuilleumier, P., Pourtois, G., 2007. Distributed and interactive brain mechanisms during
+  1183→emotion face perception: evidence from functional neuroimaging. Neuropsychologia
+  1184→45, 174– 194.
+  1185→Whalen, P.J., Rauch, S.L., Etcoff, N.L., McInerney, S.C., Lee, M.B., Jenike, M.A., 1998.
+  1186→Masked presentations of emotional facial expressions modulate amygdala activity
+  1187→without explicit knowledge. Journal of Neuroscience 18, 411 – 418.
+  1188→Wright, C.I., Fischer, H., Whalen, P.J., McInerney, S.C., Shin, L.M., Rauch, S.L., 2001. Dif-
+  1189→ferential prefrontal cortex and amygdala habituation to repeatedly presented emo-
+  1190→tional stimuli. Neuroreport 12, 379 – 383.
+  1191→64 Y.R. Schlumpf et al. / NeuroImage: Clinical 3 (2013) 54 –64
