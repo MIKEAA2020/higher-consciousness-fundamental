@@ -37,5 +37,5 @@ else
 fi
 
 echo "[4/4] Pushing to higher-consciousness-fundamental..."
-git push hcf main
+git push origin main
 echo "DONE: https://github.com/MIKEAA2020/higher-consciousness-fundamental"
