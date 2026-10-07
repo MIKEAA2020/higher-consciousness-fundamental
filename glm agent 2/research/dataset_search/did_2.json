@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://openneuro.org",
+    "name": "Search All Datasets",
+    "snippet": "This dataset contains preprocessed resting-state EEG recordings from individuals with genetically confirmed CLN3 disease and NIH healthy volunteers.",
+    "host_name": "openneuro.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov",
+    "name": "Functional Neuroimaging in Dissociative Disorders - PMC - NIH",
+    "snippet": "by MN Modesti · 2022 · Cited by 39 — DID patients showed hyperactivation of the prefrontal cortex during resting state , particularly in the dorsomedial area, During an identity traumatic state in ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://zenodo.org",
+    "name": "NFED-fmri",
+    "snippet": "Sep 14, 2024 — NFED offers researchers fMRI data that enables them to investigate the neural mechanisms involved in processing emotional information ... Read more",
+    "host_name": "zenodo.org",
+    "rank": 2,
+    "date": "Sep 14, 2024",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fieldtriptoolbox.org",
+    "name": "Where can I find open access MEG/EEG data?",
+    "snippet": "Oct 17, 2025 — On the Donders Repository, OpenNeuro , DataDryad and on Zenodo you can find many publicly accessible EEG , MEG and fMRI datasets.",
+    "host_name": "www.fieldtriptoolbox.org",
+    "rank": 3,
+    "date": "Oct 17, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.biorxiv.org",
+    "name": "Non-traumatic fMRI of identity-state expression and",
+    "snippet": "Apr 23, 2026 — Dissociative part-dependent resting - state activity in dissociative identity disorder : a controlled fMRI perfusion study.",
+    "host_name": "www.biorxiv.org",
+    "rank": 4,
+    "date": "Apr 23, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://repository.ubn.ru.nl",
+    "name": "Aiding the diagnosis of dissociative identity disorder",
+    "snippet": "Dissociative part-dependent resting - state activity in dissociative identity disorder : a controlled FMRI perfusion study. fMRI data using Gaussian processes.",
+    "host_name": "repository.ubn.ru.nl",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://brain.labsolver.org",
+    "name": "OpenNeuro Preprocessed Data | Brain Image Data",
+    "snippet": "OpenNeuro is a free, open platform and a BRAIN Initiative designated data archive for sharing human and non-human brain imaging data . diffusion MRI, EEG , and ...",
+    "host_name": "brain.labsolver.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://openlists.github.io",
+    "name": "Data",
+    "snippet": "OpenNeuro is a platform for analyzing and sharing neuroimaging data. Resting State fMRI/EEG (n=8):",
+    "host_name": "openlists.github.io",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.research-collection.ethz.ch",
+    "name": "An fMRI study of dissociative identity disorder",
+    "snippet": "by YR Schlumpf · 2013 · Cited by 129 — Dissociative Identity Disorder (DID) is the most complex of dissocia- tive disorders (American Psychiatric Association, 1994). According to the Theory of ... Read more",
+    "host_name": "www.research-collection.ethz.ch",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  }
+]

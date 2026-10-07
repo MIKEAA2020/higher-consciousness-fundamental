@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://github.com",
+    "name": "A list of openly available software tools for (mostly human)",
+    "snippet": "This is a list of openly available software and code for working with electrophysiological data , including EEG, MEG, ECoG/iEEG, and LFP.",
+    "host_name": "github.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net",
+    "name": "Any good resting-state EEG datasets?",
+    "snippet": "Sep 28, 2019 — Also, there is a Github entry regarding public data on EEG , where you can find two dataset for rsEEG: https:// github .com/meagmohit/ EEG - Datasets . Read more",
+    "host_name": "www.researchgate.net",
+    "rank": 1,
+    "date": "Sep 28, 2019",
+    "favicon": ""
+  },
+  {
+    "url": "https://bionichaos.com",
+    "name": "Welcome to Our EEG Datasets and Resources Page",
+    "snippet": "Explore a curated collection of electroencephalography (EEG) datasets , open-access repositories, research challenges, publications, and neuroinformatics ...",
+    "host_name": "bionichaos.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://bdsp.io",
+    "name": "Harvard Electroencephalography Database v4.1",
+    "snippet": "Feb 10, 2025 — This repository contains over 280,000 clinical EEG recordings from over 100,000 patients. 284,343 EEG studies conducted on 109,178 distinct ...",
+    "host_name": "bdsp.io",
+    "rank": 3,
+    "date": "Feb 10, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fieldtriptoolbox.org",
+    "name": "Where can I find open access MEG/EEG data?",
+    "snippet": "Oct 17, 2025 — On the Donders Repository, OpenNeuro, DataDryad and on Zenodo you can find many publicly accessible EEG , MEG and fMRI datasets . On DataCite, ... Read more",
+    "host_name": "www.fieldtriptoolbox.org",
+    "rank": 4,
+    "date": "Oct 17, 2025",
+    "favicon": ""
+  }
+]

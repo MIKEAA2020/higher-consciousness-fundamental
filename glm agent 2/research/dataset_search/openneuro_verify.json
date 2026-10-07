@@ -1,0 +1,98 @@
+{
+ "ds006072": {
+  "exists": true,
+  "name": "Psilocybin Precision Functional Mapping (data from Psilocybin desynchronizes the human brain)",
+  "public": true,
+  "snapshot": [
+   "1.2.0"
+  ]
+ },
+ "ds006110": {
+  "exists": true,
+  "name": "PsiConnect",
+  "public": true,
+  "snapshot": [
+   "1.2.2"
+  ]
+ },
+ "ds003059": {
+  "exists": true,
+  "name": "Neural correlates of the LSD experience revealed by multimodal neuroimaging",
+  "public": true,
+  "snapshot": [
+   "1.0.0"
+  ]
+ },
+ "ds006644": {
+  "exists": true,
+  "name": "DMT-HAR-MED: Effects of DMT and harmine during meditation: Functional MRI dataset",
+  "public": true,
+  "snapshot": [
+   "1.0.1"
+  ]
+ },
+ "ds007768": {
+  "exists": true,
+  "name": "HaD-PET: Effects of DMT and harmine on cerebral glucose metabolism: FDG-PET dataset",
+  "public": true,
+  "snapshot": [
+   "1.0.0"
+  ]
+ },
+ "ds005917": {
+  "exists": true,
+  "name": "NIMH Ketamine Mechanism of Action Study",
+  "public": true,
+  "snapshot": [
+   "1.1.0"
+  ]
+ },
+ "ds006623": {
+  "exists": true,
+  "name": "Michigan Human Anesthesia fMRI Dataset-1",
+  "public": true,
+  "snapshot": [
+   "1.0.0"
+  ]
+ },
+ "ds005620": {
+  "exists": true,
+  "name": "A repeated awakening study exploring the capacity of complexity measures to capture dreaming du",
+  "public": true,
+  "snapshot": [
+   "1.0.0"
+  ]
+ },
+ "ds003171": {
+  "exists": true,
+  "name": "Using anesthesia-induced loss of consciousness to identify biomarkers of conscious awareness in",
+  "public": true,
+  "snapshot": [
+   "2.0.1"
+  ]
+ },
+ "ds004541": {
+  "exists": true,
+  "name": "Multimodal EEG-fNIRS data from patients undergoing general anesthesia",
+  "public": true,
+  "snapshot": [
+   "1.0.0"
+  ]
+ },
+ "ds005602": {
+  "exists": true,
+  "name": "The Imaging Database for Epilepsy And Surgery (IDEAS)",
+  "public": true,
+  "snapshot": [
+   "1.0.0"
+  ]
+ },
+ "ds007401": {
+  "exists": true,
+  "name": "Open diffusion MRI and connectivity data for epilepsy and surgery: The IDEAS II release",
+  "public": true,
+  "snapshot": [
+   "1.0.0"
+  ]
+ }
+}

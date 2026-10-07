@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov",
+    "name": "Residual functional connectivity in the split-brain revealed with",
+    "snippet": "by LQ Uddin · 2008 · Cited by 204 — Here we used resting - state functional connectivity to establish the degree to which coordination of processing between the cerebral hemispheres can be supported ... Read more",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://openlists.github.io",
+    "name": "Data",
+    "snippet": "Brain Imaging Data Structure, or BIDS, is a set of data , including MRI, OpenNeuro is a platform for analyzing and sharing neuroimaging data . Resting State fMRI ...",
+    "host_name": "openlists.github.io",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.frontiersin.org",
+    "name": "Dynamic mode decomposition of resting-state fMRI",
+    "snippet": "by Y Wang · 2025 · Cited by 1 — This study employed DMD on resting - state fMRI data to extract the mean amplitudes of full-band and split -band dynamic modes as brain region features.",
+    "host_name": "www.frontiersin.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://openfmri.org",
+    "name": "Datasets",
+    "snippet": "OpenfMRI has been deprecated. For new and up to date datasets please use openneuro.org. Old dataset pages are available at legacy.openfmri.org.",
+    "host_name": "openfmri.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://exhibits.stanford.edu",
+    "name": "OpenfMRI Datasets | Research from Stanford University",
+    "snippet": "The OpenfMRI database (https:// openfmri .org) is a repository of human brain imaging data collected using MRI and EEG techniques. It has been accepting data ... Read more",
+    "host_name": "exhibits.stanford.edu",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.opensourceimaging.org",
+    "name": "Open fMRI – Sharing brain MRI data",
+    "snippet": "It is a repository of human brain imaging data collected using MRI and EEG techniques. The OpenfMRI project differs from other successful data sharing ... Read more",
+    "host_name": "www.opensourceimaging.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://brain.labsolver.org",
+    "name": "Brain MRI Collections (after 2020) - Fiber Data Hub",
+    "snippet": "Curated external human brain diffusion MRI datasets released after ~2020, sourced from public archives. Includes multiecho resting - state fMRI , DWI, corrected ...",
+    "host_name": "brain.labsolver.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://rfmri.org",
+    "name": "Resting-State fMRI Data Analysis Toolkit V1.8",
+    "snippet": "Resting-State fMRI Data Analysis Toolkit (REST) is a convenient toolkit to calculate Functional Connectivity (FC), Regional Homogeneity (ReHo), Amplitude of ...",
+    "host_name": "rfmri.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

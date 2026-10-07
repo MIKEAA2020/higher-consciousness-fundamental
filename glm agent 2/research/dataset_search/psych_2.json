@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://openneuro.org/datasets/ds006644/versions/1.0.1",
+    "name": "MRI DMT-HAR-MED: Effects of DMT and harmine during",
+    "snippet": "View and analyze this dataset on the NEMAR OpenNeuro portal for MEG, iEEG, and EEG data. View on CBRAIN. CBRAIN is a web-based distributed computing platform ...",
+    "host_name": "openneuro.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://openneuro.org",
+    "name": "OpenNeuro",
+    "snippet": "A free and open platform for validating and sharing BIDS-compliant MRI, PET, MEG, EEG, and iEEG data. 90,040 Participants. 1,903 Public Datasets. Browse by ...",
+    "host_name": "openneuro.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10068756",
+    "name": "Human brain effects of DMT assessed via EEG-fMRI - PMC - NIH",
+    "snippet": "by C Timmermann · 2023 · Cited by 300 — It assessed N,N-Dimethyltryptamine (DMT), a psychedelic that generates immersive altered conscious experience with no diminishment of ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://neurosity.co/guides/what-is-openneuro-repository",
+    "name": "What Is the OpenNeuro Repository?",
+    "snippet": "OpenNeuro is a free, BIDS-compatible repository hosting thousands of brain imaging datasets, including EEG, fMRI, and MEG, available for anyone to download ...",
+    "host_name": "neurosity.co",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://brain.labsolver.org/mds/data-openneuro/brain.html",
+    "name": "OpenNeuro Preprocessed Data | Brain Image Data",
+    "snippet": "OpenNeuro is a free, open platform and a BRAIN Initiative designated data archive for sharing human and non-human brain imaging data. Hosted by the Stanford ...",
+    "host_name": "brain.labsolver.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fieldtriptoolbox.org/faq/other/open_data",
+    "name": "Where can I find open access MEG/EEG data?",
+    "snippet": "Wakeman and Henson have shared A multi-subject, multi-modal human neuroimaging dataset that includes raw MEG and EEG data from 16 subjects.",
+    "host_name": "www.fieldtriptoolbox.org",
+    "rank": 5,
+    "date": "Oct 17, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://openneuro.org/datasets/ds003059/versions/1.0.0",
+    "name": "Neural correlates of the LSD experience revealed by",
+    "snippet": "View and analyze this dataset on the NEMAR OpenNeuro portal for MEG, iEEG, and EEG data. View on CBRAIN. CBRAIN is a web-based distributed computing platform ...",
+    "host_name": "openneuro.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.1101/2025.03.09.642197v3.full-text",
+    "name": "Psychedelics Align Brain Activity with Context",
+    "snippet": "Abstract. Psychedelics can profoundly alter consciousness by reorganising brain connectivity; however, their effects are context-sensitive.",
+    "host_name": "www.biorxiv.org",
+    "rank": 7,
+    "date": "May 5, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12319965",
+    "name": "LSD flattens the hierarchy of directed information flow in fast",
+    "snippet": "by K Shinozuka · 2025 · Cited by 20 — We measure properties of directed functional hierarchy in a magnetoencephalography (MEG) dataset of 16 healthy human participants who were administered a ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://nemar.org/dataset/on006110",
+    "name": "PsiConnect - NEMAR",
+    "snippet": "PsiConnect is a multimodal neuroimaging dataset examining context-dependent neural and subjective effects of psilocybin in 62 participants ...",
+    "host_name": "nemar.org",
+    "rank": 9,
+    "date": "Jun 21, 2026",
+    "favicon": ""
+  }
+]

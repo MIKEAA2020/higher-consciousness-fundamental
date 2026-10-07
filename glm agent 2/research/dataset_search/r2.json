@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://physionet.org",
+    "name": "Resources",
+    "snippet": "The PTB-XL ECG dataset is a large dataset of 21801 clinical 12-lead ECGs from 18869 patients of 10 second length. The raw signal data has been annotated by ... Read more",
+    "host_name": "physionet.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.physionet.org",
+    "name": "Resources",
+    "snippet": "The dataset is composed of long-lasting surface electromyographic (sEMG) signals recorded from ten muscles during ground walking of 31 young able-bodied ... Read more",
+    "host_name": "www.physionet.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://physionet.org",
+    "name": "Electroencephalogram dynamics during unconsciousness",
+    "snippet": "Jul 21, 2023 — This dataset of electroencephalogram ( EEG ) activity was collected from subjects undergoing general anesthesia using GABAergic agents. Read more",
+    "host_name": "physionet.org",
+    "rank": 0,
+    "date": "Jul 21, 2023",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov",
+    "name": "Neurophysiologic Correlates of Ketamine Sedation and  - PMC",
+    "snippet": "by PE Vlisides · 2017 · Cited by 149 — Neurophysiologic Correlates of Ketamine Sedation and Anesthesia : a High-Density Electroencephalography Study in Healthy Volunteers. Phillip E Vlisides ... Read more",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mdpi.com",
+    "name": "Electroencephalographic Patterns Associated with the",
+    "snippet": "by A Girombelli · 2026 — Ketamine administration during stable propofol –remifentanil anesthesia produces a characteristic shift towards a beta–delta DSA pattern, which may increase ...",
+    "host_name": "www.mdpi.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.frontiersin.org",
+    "name": "Divergent periodic and aperiodic EEG signatures of",
+    "snippet": "by P Shen · 2026 — The EEG data utilized in this study were obtained from the GABAergic Anesthetic-Induced Unconsciousness and Recovery database on PhysioNet ( 23 ).",
+    "host_name": "www.frontiersin.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://clinicaltrials.gov",
+    "name": "EEG Studies of Sevoflurane-Induced General Anesthesia",
+    "snippet": "During this research study, participants will receive sevoflurane , and sevoflurane and ketamine together, at a high enough dose to induce general anesthesia ( ... Read more",
+    "host_name": "clinicaltrials.gov",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  }
+]

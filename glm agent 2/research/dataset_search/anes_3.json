@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://openneuro.org",
+    "name": "A repeated awakening study exploring the capacity of",
+    "snippet": "Nov 6, 2024 — This dataset contains EEG data from a study investigating the effects of propofol sedation on dreaming and the applicability of complexity ...",
+    "host_name": "openneuro.org",
+    "rank": 0,
+    "date": "Nov 6, 2024",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com",
+    "name": "OpenNeuro dataset - Effects of propofol anesthesia on",
+    "snippet": "OpenNeuro dataset - Effects of propofol anesthesia on rates of cerebral protein synthesis. In this dataset all subjects males between the ages of 20 and 24 ...",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov",
+    "name": "An open fMRI resource for studying human brain function and",
+    "snippet": "by Z Huang · 2026 · Cited by 4 — The dataset captures brain activity across varying sedation levels, including instances of volitional mental imagery despite behavioral unresponsiveness. Prior ... Read more",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://experts.umich.edu",
+    "name": "George A. Mashour | Scholarly activities - Michigan Experts",
+    "snippet": "The dataset captures brain activity across varying sedation levels, including instances of volitional mental imagery despite behavioral unresponsiveness. Prior ... Read more",
+    "host_name": "experts.umich.edu",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.nature.com",
+    "name": "Measuring the dynamic balance of integration and",
+    "snippet": "by H Jang · 2024 · Cited by 59 — Datasets 1 to 4 involve intravenous infusions of propofol at various doses . Experimental conditions included conscious baseline, light and deep ...",
+    "host_name": "www.nature.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  }
+]

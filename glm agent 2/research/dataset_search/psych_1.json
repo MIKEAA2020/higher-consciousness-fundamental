@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://openneuro.org/datasets/ds006072/versions/1.2.0",
+    "name": "Psilocybin Precision Functional Mapping (data from",
+    "snippet": "Here, we present a randomized cross-over study using precision functional mapping to characterize acute and persistent effects of psilocybin (PSIL) or ...",
+    "host_name": "openneuro.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://nemar.org/dataset/on006110",
+    "name": "PsiConnect - NEMAR",
+    "snippet": "PsiConnect is a multimodal neuroimaging dataset examining context-dependent neural and subjective effects of psilocybin in 62 participants ...",
+    "host_name": "nemar.org",
+    "rank": 1,
+    "date": "Jun 21, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://openneuro.org/datasets/ds006110/versions/1.2.0",
+    "name": "PsiConnect",
+    "snippet": "PsiConnect is a large-scale neuroimaging study designed to investigate context-dependent neural and subjective effects of psilocybin using ...",
+    "host_name": "openneuro.org",
+    "rank": 2,
+    "date": "May 29, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.1101/2025.04.11.643415v1.full-text",
+    "name": "PsiConnect: A Multimodal Neuroimaging Study of",
+    "snippet": "PsiConnect is a large-scale neuroimaging study designed to investigate the neural and subjective effects of psilocybin using multimodal ...",
+    "host_name": "www.biorxiv.org",
+    "rank": 3,
+    "date": "Apr 14, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5640601",
+    "name": "Psilocybin for treatment-resistant depression: fMRI-measured",
+    "snippet": "by RL Carhart-Harris · 2017 · Cited by 874 — These data fill an important knowledge gap regarding the post-treatment brain effects of psilocybin, and are the first in depressed patients.",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.nature.com/articles/s41586-026-10910-z",
+    "name": "Psychedelics align brain activity with context",
+    "snippet": "by D Stoliker · 2026 · Cited by 16 — Our analyses show that psilocybin redistributes integration, increasing global functional connectivity in associative regions while reducing it ...",
+    "host_name": "www.nature.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/390788353_PsiConnect_A_Multimodal_Neuroimaging_Study_of_Psilocybin-Induced_Changes_in_Brain_and_Behaviour",
+    "name": "(PDF) PsiConnect: A Multimodal Neuroimaging Study of",
+    "snippet": "PsiConnect is a large-scale neuroimaging study designed to investigate the neural and subjective effects of psilocybin using multimodal ...",
+    "host_name": "www.researchgate.net",
+    "rank": 6,
+    "date": "Apr 14, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://data.mendeley.com/datasets/zxt5zsfhjr/1",
+    "name": "Serotonergic Psychedelics LSD \\& Psilocybin Increase the",
+    "snippet": "Data for: Serotonergic Psychedelics LSD \\& Psilocybin Increase the Fractal Dimension of Cortical Brain Activity in Spatial and Temporal Domains.",
+    "host_name": "data.mendeley.com",
+    "rank": 7,
+    "date": "Apr 26, 2021",
+    "favicon": ""
+  },
+  {
+    "url": "https://link.springer.com/article/10.1007/s44192-026-00384-w",
+    "name": "Psilocybin effects on brain functional connectivity: a systematic",
+    "snippet": "by À Farré-Colomés · 2026 · Cited by 1 — This review aims to comprehensively gather all the evidence reported in psilocybin studies using fMRI techniques. Independent extraction of ...",
+    "host_name": "link.springer.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0149763425002398",
+    "name": "Neurocognitive effects of psilocybin: A systematic and",
+    "snippet": "by L Berkovitch · 2025 · Cited by 17 — We conducted a systematic and comprehensive review of all neuroimaging studies involving psilocybin intake in humans. · Psilocybin changes brain activity, ...",
+    "host_name": "www.sciencedirect.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

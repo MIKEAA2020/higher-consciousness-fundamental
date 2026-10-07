@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://zenodo.org/records/13759829",
+    "name": "NFED-fmri",
+    "snippet": "NFED offers researchers fMRI data that enables them to investigate the neural mechanisms involved in processing emotional information ...",
+    "host_name": "zenodo.org",
+    "rank": 0,
+    "date": "Sep 14, 2024",
+    "favicon": ""
+  },
+  {
+    "url": "https://openneuro.org/datasets/ds005047/versions/1.0.7",
+    "name": "An fMRI dataset in response to large-scale short natural",
+    "snippet": "NFED provides researchers with fMRI data for understanding of the visual processing of large number of natural facial expression videos.",
+    "host_name": "openneuro.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9502311",
+    "name": "Functional Neuroimaging in Dissociative Disorders - PMC - NIH",
+    "snippet": "by MN Modesti · 2022 · Cited by 39 — The aim of this review is to identify the main functional neuroimaging correlates of dissociative disorders.",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/chenpanp/NFED-fmri",
+    "name": "chenpanp/NFED-fmri",
+    "snippet": "A fMRI dataset in response to large number of short naturalistic facial expression videos. Naturalistic facial expressions dataset (NFED),a large-scale dataset ...",
+    "host_name": "github.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://whitfield-gabrieli.sites.northeastern.edu/real-time-fmri-neurofeedback",
+    "name": "Real-time fMRI Neurofeedback - EPIC Brain Lab",
+    "snippet": "Clemens will discuss a novel real-time neurofeedback system that is personalized and can enhance mental training and reconfigure brain function.",
+    "host_name": "whitfield-gabrieli.sites.northeastern.edu",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://nhahealth.com/ai-and-fmri-decoding-brain-dynamics-underlying-neurofeedback",
+    "name": "AI and fMRI Decoding Brain Dynamics Underlying",
+    "snippet": "DecNef is a form of closed-loop fMRI neurofeedback combined with machine learning approaches. It aims to alter brain dynamics. DecNef leverages multivoxel ...",
+    "host_name": "nhahealth.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://bicr-resource.atr.jp/drmd",
+    "name": "DecNef Realtime MRI Dataset - BICR Resource",
+    "snippet": "Data from 5 realtime decoded neurofeedback experiments. ri (reference scan, functional scans), Differential Activation Patterns",
+    "host_name": "bicr-resource.atr.jp",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.eeginfo.com/research/dissociative_main.jsp",
+    "name": "Dissociative Disorders Research - neurofeedback,",
+    "snippet": "The efficacy of integrating Neurofeedback techniques with internal self-exploration was evaluated as a procedure for the treatment of Dissociative Identity ...",
+    "host_name": "www.eeginfo.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

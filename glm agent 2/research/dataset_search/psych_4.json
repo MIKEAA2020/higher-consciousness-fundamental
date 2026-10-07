@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://openneuro.org",
+    "name": "NIMH Ketamine Mechanism of Action Study",
+    "snippet": "It is a double-blind placebo cross-over trial of a single infusion of ketamine or saline placebo which included both patients and healthy volunteers. Patients ... Read more",
+    "host_name": "openneuro.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov",
+    "name": "High-order brain interactions in ketamine during rest and task",
+    "snippet": "by R Herzog · 2024 · Cited by 26 — Increased signal diversity/complexity of spontaneous EEG , but not evoked EEG responses, in ketamine -induced psychedelic state in humans. Read more",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.nature.com",
+    "name": "Neural complexity EEG biomarkers of rapid and post",
+    "snippet": "by N Murphy · 2023 · Cited by 28 — Previous work in healthy subjects has shown that associations of ketamine with increased signal diversity correlate with altered states of ... Read more",
+    "host_name": "www.nature.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fieldtriptoolbox.org",
+    "name": "Where can I find open access MEG/EEG data?",
+    "snippet": "Oct 17, 2025 — The Human Connectome Project contains MEG data from close to 100 subjects , which were scanned on the 248-channel 4D/BTi MEG system at SLU, St ... Read more",
+    "host_name": "www.fieldtriptoolbox.org",
+    "rank": 3,
+    "date": "Oct 17, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com",
+    "name": "Spectral signatures of psilocybin, lysergic acid",
+    "snippet": "by GH Le · 2024 · Cited by 32 — Extant literature evaluating EEG and MEG spectral signatures indicate that ketamine and SPs have reproducible effects in keeping with disease models of network ... Read more",
+    "host_name": "www.sciencedirect.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://data.mendeley.com",
+    "name": "EEG correlates of psychoactive ketamine",
+    "snippet": "Feb 24, 2026 — Data and scripts for analyzing and visualizing spectral power and complexity of spontaneous EEG signals in normal waking and psychoactive ...",
+    "host_name": "data.mendeley.com",
+    "rank": 5,
+    "date": "Feb 24, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com",
+    "name": "openlists/ElectrophysiologyData: A list of openly available",
+    "snippet": "The CHBMP is an open dataset from 282 young and middle age healthy participants, including resting state EEG , and during hyperventilation. Data - Paper ... Read more",
+    "host_name": "github.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://bdsp.io",
+    "name": "Harvard Electroencephalography Database v4.1",
+    "snippet": "Feb 10, 2025 — This repository contains over 280,000 clinical EEG recordings from over 100,000 patients . Complementing the EEG recordings, the database ... Read more",
+    "host_name": "bdsp.io",
+    "rank": 7,
+    "date": "Feb 10, 2025",
+    "favicon": ""
+  }
+]
