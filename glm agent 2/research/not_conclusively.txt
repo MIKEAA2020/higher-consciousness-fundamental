@@ -1,0 +1,62 @@
+**Not conclusively.** It is a recognisable **contingency argument**, but the conclusion does not follow unless several controversial premises and hidden assumptions are defended.
+
+## Where the reasoning is vulnerable
+
+1. **Premise 1 assumes a strong Principle of Sufficient Reason.**  
+   “Everything dependent needs a ground” is plausible, but “dependent” and “ground” need precise definitions. Is the dependence causal, ontological, explanatory, modal, or topological? “Topological” appears misplaced unless you mean a specific spatial or mathematical relation.
+
+2. **Premise 2 presents a questionable dichotomy.**  
+   A ground being “within” something does not imply that it is self-existent, while an “outside” ground need not itself be dependent. The relevant distinction is more likely:
+   - the explanation is another dependent reality;
+   - the totality is brute or self-explanatory; or
+   - the explanation terminates in a necessary reality.
+
+3. **Premise 3 largely assumes what the argument needs to prove.**  
+   Why can explanation not end in a brute fact? Why can there not be an infinite explanatory regress? Critics may find either option unsatisfying, but dissatisfaction is not a contradiction. You need an argument showing that brute facts and infinite regresses are impossible—or at least explanatorily inferior.
+
+4. **“Self-existent” does not automatically mean “essence entails existence.”**  
+   Even if an ultimate ground must be independent, it does not immediately follow that it exists by metaphysical necessity or that its essence entails existence. That stronger Thomistic or Avicennian claim needs additional modal premises.
+
+5. **Premise 5 moves from physics to physical reality too quickly.**  
+   Physics describes structures, relations and dynamics, but a physicalist could answer that **concrete physical reality itself**, rather than its description by physics, is necessary or brute. A theory’s failure to entail the existence of its subject matter does not show that the subject matter cannot exist necessarily.
+
+6. **Premise 6 depends on a disputed philosophy of mathematics.**  
+   Mathematical Platonists may regard mathematical objects as abstract and causally inert; nominalists deny that such objects exist independently. Either way, ruling out mathematical truth as a sufficient concrete cause is plausible, but it does not identify what the ultimate ground must be.
+
+7. **Premise 7 adds unsupported properties.**  
+   The earlier premises might support, at most, a **necessary ground**. They do not yet establish that it is:
+   - concrete;
+   - non-physical;
+   - simple;
+   - causal rather than merely explanatory;
+   - unique;
+   - a mind, God, or Aristotelian prime mover.
+
+   Each property requires a separate argument.
+
+## Validity versus soundness
+
+In simplified form, the argument says:
+
+1. Every contingent reality requires an explanation.  
+2. The totality of contingent reality cannot be explained by brute fact or only by further contingent realities.  
+3. Therefore it is ultimately explained by a non-contingent reality.
+
+That inference can be made reasonably valid. But the expanded conclusion—**a concrete, simple, non-physical reality whose essence is existence**—goes substantially beyond those premises.
+
+There is also a category issue in the conclusion: **physicalism is a doctrine**, not an entity, so it is not itself the sort of thing that could be self-existent. Better wording would be: “Physical reality cannot be the ultimate self-existent ground.”
+
+## A stronger formulation
+
+You could present the core argument as:
+
+1. Contingent concrete reality exists.  
+2. Every contingent concrete reality has a sufficient explanation, either in another reality or in a necessary ground.  
+3. The totality of contingent concrete reality cannot be sufficiently explained solely by members of that same contingent totality.  
+4. Therefore, contingent concrete reality has a necessary ground.  
+5. This ground cannot depend on physical reality if physical reality belongs to the contingent totality.  
+6. Therefore, the necessary ground is not physical **in the same dependent sense** as the realities it grounds.
+
+This is clearer, but premises 2, 3 and 5 remain philosophically contestable. Further arguments are needed to establish **simplicity**, **pure actuality**, **causal power**, **intellect**, or **divinity**.
+
+**Verdict:** the argument is philosophically serious, but as written it is **not deductively sufficient** for its full conclusion. It establishes that conclusion only if one accepts a strong Principle of Sufficient Reason, rejects brute facts and infinite explanatory regresses, treats physical reality as contingent, and supplies additional arguments connecting necessary existence to concreteness, non-physicality and simplicity.

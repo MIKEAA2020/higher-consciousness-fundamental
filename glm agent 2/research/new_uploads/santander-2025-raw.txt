@@ -1,0 +1,1163 @@
+RESEARCH ARTICLE
+
+NEUROSCIENCE
+
+OPEN ACCESS
+
+Full interhemispheric integration sustained by a fraction of
+posterior callosal fibers
+Tyler Santandera,b,1 ID , Selin Bekirb , Theresa Paulc , Jessica M. Simonsona,b , Valerie M. Wiemerc , Henri Etel Skinnerb , Johanna L. Hopfd , Anna Radad ,
+Friedrich G. Woermannd,e , Thilo Kalbhennd,f ID , Barry Giesbrechta,b ID , Christian G. Biend , Olaf Spornsg , Michael S. Gazzanigab,1 ID , Lukas J. Volzc,2 ID ,
+and Michael B. Millera,b,2
+Affiliations are included on p. 9.
+Contributed by Michael S. Gazzaniga; received July 25, 2025; accepted September 12, 2025; reviewed by Steven A. Hillyard and Christof Koch
+
+Downloaded from https://www.pnas.org by 46.229.243.203 on October 7, 2026 from IP address 46.229.243.203.
+
+The dynamic integration of the lateralized and specialized capacities of the two
+cerebral hemispheres constitutes a hallmark feature of human brain function. This
+interhemispheric exchange of information critically depends upon the corpus callosum.
+Classical anatomical descriptions of callosal organization outline a topographic gradient
+from front to back, such that specific transcallosal fibers support distinct aspects
+of integrated brain function. Here, we present a challenge to this conventional
+model. Using neuroimaging data obtained from a new cohort of adult corpus
+callosotomy patients, we leverage modern network neuroscience techniques to show
+that full interhemispheric integration can be achieved via a small proportion of
+posterior callosal fibers. Partial callosotomy patients with spared callosal fibers retained
+widespread patterns of interhemispheric functional connectivity and showed no
+signs of behavioral disconnection, even with only 1 cm of the splenium intact.
+Conversely, only complete callosotomy patients demonstrated sweeping disruptions of
+interhemispheric network architectures, aligning with disconnection syndromes longthought to reflect diminished information propagation and communication across the
+brain. These findings motivate an evolving mechanistic understanding of synchronized
+interhemispheric neural activity for large-scale human brain function and behavior.
+resting-state | functional connectivity | split-brain | brain networks | corpus callosum
+
+In recent decades, network neuroscience has emerged as a powerful analysis framework
+for modeling functional interactions between remote neural systems. A foundational
+assumption of this approach is that anatomical links between brain regions constrain
+neuronal dynamics and support the emergence of large-scale functional networks, which
+in turn enable the efficient integration of perceptual, motor, and higher-order cognitive
+information necessary for human behavior (1–6). The corpus callosum (CC) is thought
+to be the central conduit through which specialized processing nodes in each cerebral
+hemisphere coordinate and synchronize function, with 200 to 250 million axons affording
+direct, long-range communication across the brain. Classical topographic models of
+CC projections have revealed a well-defined anterior-to-posterior anatomical gradient,
+corresponding to the spatial organization of canonical brain networks supporting various
+sensorimotor and cognitive functions (7, 8). One consequence of this view is the
+prediction that damage to the CC should result in drastic functional disconnections
+between hemispheres—with disruptions following the localization of lesioned fibers
+along the aforementioned anatomical gradient.
+Split-brain patients, in whom the CC has been severed in an effort to treat medically
+intractable epilepsy, offer a powerful means of testing this core conceit of structure–
+function correspondence. However, neural data on these patients remain scarce—
+callosotomy was largely discontinued around the turn of the 21st century, coinciding with
+the rise of network neuroscience. Extant data largely stem from anesthetized pediatric
+patients (9–12). Taken together, these studies support the hypothesis that full versus
+partial callosotomy confer differential effects with respect to the location and extent of
+functional disconnections. At the same time, however, they have provided contradictory
+findings regarding recovery of function postoperatively (9, 11, 12), and various other
+methodological factors obfuscate more straightforward interpretations. Thus, to date, it
+remains unknown how severing the largest fiber bundle of the human brain affects the
+topological organization and intrinsic dynamics of large-scale functional networks.
+To address this fundamental question, we present an investigation aimed at
+characterizing the impacts of full and partial callosotomy on the adult human brain using
+
+PNAS
+
+2025
+
+Vol. 122
+
+No. 43
+
+e2520190122
+
+Significance
+Network neuroscience is
+predicated on the assumption
+that structural brain connectivity
+enables long-range
+communication between
+specialized information
+processing systems, known as
+functional networks. The corpus
+callosum plays a central role in
+orchestrating activity between the
+left and right hemispheres,
+supporting a unified cognitive
+experience of the world. Here, we
+assessed the consequences of
+surgically severing that
+connection in the adult human
+brain. We found that complete
+transection of the corpus
+callosum largely isolated
+functional networks to within
+each hemisphere, while networks
+in patients who underwent a
+partial transection remained
+completely integrated—even if
+the vast majority was severed.
+This contradicts classical views on
+structure-function
+correspondence and suggests the
+essential mechanisms for
+interhemispheric integration are
+more adaptable than previously
+imagined.
+
+Copyright © 2025 the Author(s). Published by PNAS.
+This open access article is distributed under Creative
+Commons
+Attribution-NonCommercial-NoDerivatives
+License 4.0 (CC BY-NC-ND).
+1 To whom correspondence may be addressed. Email:
+
+tsantander@ucsb.edu or mgazzaniga@ucsb.edu.
+2 L.J.V. and M.B.M contributed equally to this work.
+
+This article contains supporting information online
+at https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.
+2520190122/-/DCSupplemental.
+Published October 21, 2025.
+
+https://doi.org/10.1073/pnas.2520190122
+
+1 of 10
+
+Downloaded from https://www.pnas.org by 46.229.243.203 on October 7, 2026 from IP address 46.229.243.203.
+
+Fig. 1. Patient anatomical scans. Postoperative T1 - and diffusion-weighted MRI scans collected for all six patients at time of testing. White arrows/ellipses for
+patients EM and BT highlight intact CC (i.e., partial splits). The remaining four patients were fully sectioned. Note that a series of clinical observations suggested
+behavioral disconnection syndromes in all full splits, but not in partial splits.
+
+multiple network neuroscience methods. We hypothesized that
+full callosotomy would wholly disrupt functional synchrony
+across the cerebral hemispheres, while the spatial distribution of
+functional disconnections following partial callosotomy would
+unveil the anatomical gradient of the CC. As predicted, we
+found that complete sectioning of the CC broadly obliterated
+both typical interhemispheric network topologies and dynamic
+patterns of interhemispheric temporal synchrony. More strikingly, however, we also found that a small proportion of intact
+posterior CC fibers (a case of partial callosotomy) was sufficient
+to support widespread interhemispheric coupling. These findings
+challenge our conventional understanding of the CC’s functional
+topography and shed light on the critical mechanisms for
+interhemispheric information integration.
+
+This contradicts classical models of callosal organization and
+function, which posit specific deficits depending upon which
+portions of the CC were severed. The splenium, for example, is
+commonly believed to integrate visual information alone (17, 18).
+However, BT was also capable of transferring tactile information,
+as shown when asked to verbally name objects placed in his
+left hand that he could not see (requiring information to be
+sent from the nonspeaking right hemisphere to the speaking
+left hemisphere). Full splits were incapable of performing this
+transfer, and indeed for BT, such successful interhemispheric
+communication was evident across a range of tasks spanning
+various cognitive domains and sensorimotor modalities (16).
+Consequently, a small proportion of posterior callosal fibers may
+be sufficient to support extensive information integration across
+large-scale interhemispheric brain networks.
+
+Results
+
+Interhemispheric Functional Connectivity after Callosotomy.
+
+Six adult callosotomy patients (5 men, 1 woman; aged 19 to 60;
+all right-handed; Fig. 1 and Table 1) were tested postoperatively
+at the Bethel Epilepsy Center (Bielefeld, Germany). The time
+between surgery and testing varied between one and six years
+(Table 1). In two patients (EM and BT), surgery did not result
+in a complete callosal transection; they are hereafter referred to
+as “partial splits”. In patient EM, the surgery was stopped after
+sectioning the anterior CC (roughly, ∼38% of the CC’s crosssectional area in the mid-sagittal plane); patient BT was spared
+approximately 1 cm of splenium (losing ∼90% of the CC’s
+cross-sectional area). The remaining four patients (HY, DT, TJ,
+and LJ) were completely sectioned and are hereafter referred to
+as “full splits”. All patients have intact anterior and posterior
+commissures regardless of the extent of the callosal section.
+Callosotomy is not commonly associated with postoperative
+neuropsychiatric or neurological disorders. Rather, split-brain
+patients often demonstrate disconnection syndromes, such that
+they appear to have two hemispheres operating independently,
+unable to communicate information from one half of the
+brain to the other (13–15). Here, behavioral disconnection
+syndromes were clinically observed using simple, lateralized
+bedside testing protocols. Comprehensive descriptions of these
+tests are described elsewhere (16). In brief, all four complete
+callosotomy patients clearly indicated behavioral disconnections.
+Partial splits, in contrast, did not show any signs of disconnection
+syndromes—including, remarkably, patient BT (with a mere
+1 cm of splenium).
+
+2 of 10
+
+https://doi.org/10.1073/pnas.2520190122
+
+All patients underwent resting-state functional MRI without sedation, affording whole-brain analyses of resting-state functional
+connectivity (FC) and quantification of interhemispheric FC
+(IFC). To benchmark patients against “neurotypical” patterns
+of IFC, we used data from the Human Connectome Project
+100 Unrelated Subjects (HCP100) cohort. All HCP100 subjects
+and callosotomy patients underwent an identical preprocessing
+pipeline, including conservative corrections for mitigating head
+motion artifacts (19, 20) (see SI Appendix, Fig. S1 for a
+quantitative summary of patient head motion). Whole-brain FC
+in the range of 0.01 to 0.08 Hz was assessed by parcellating
+the brain into 400 cortical regions and 32 subcortical regions
+(according to the Schaefer (21, 22) and Tian (23) atlases,
+respectively; Fig. 2A) and correlating all pairs of regional time
+series (Fig. 2 B and C).
+
+Table 1.
+Patient
+EM
+BT
+HY
+DT
+TJ
+LJ
+
+General overview of callosotomy patients
+Age
+(surgery)
+
+Age
+(testing)
+
+Sex
+
+Extent
+
+Disconnection
+syndrome
+
+17
+22
+21
+15
+49
+57
+
+19
+28
+22
+20
+52
+60
+
+M
+M
+M
+M
+F
+M
+
+Partial
+Partial
+Full
+Full
+Full
+Full
+
+Absent
+Absent
+Present
+Present
+Present
+Present
+
+pnas.org
+
+Downloaded from https://www.pnas.org by 46.229.243.203 on October 7, 2026 from IP address 46.229.243.203.
+
+All full splits demonstrated marked reductions in IFC relative
+to both neurotypical controls and partial splits (Fig. 2 B and
+C). Spatial patterns of intrahemispheric FC, by contrast, were
+generally better-matched to controls (SI Appendix, Fig. S2),
+suggesting that callosotomy primarily impaired interhemispheric
+functional coupling with full splits suffering the greatest disruptions. Curiously, however, while gross IFC was reduced in
+full splits, inspection of individual FC matrices suggested that
+visual network connectivity was partially preserved (Fig. 2C).
+This may be due to synchronized perceptual inputs (scans were
+acquired with eyes open), driving apparent IFC despite the lack
+of transcallosal connectivity between visual regions and evidence
+for behavioral disconnections.
+We therefore sought to assess differences in the magnitude of
+IFC between functional homologues to determine whether any
+preserved IFC was unique to sensory systems. Here, we computed
+a series of network laterality indices, where a value of zero
+indicates a perfect balance between inter- and intrahemispheric
+FC, and values closer to −1 or +1 indicate relatively more interor intrahemispheric FC, respectively (see Materials and Methods,
+Eq. 1). Note that we focus here on the distribution of positively
+coupled regions (anticorrelated regions are shown in SI Appendix,
+Fig. S3).
+Consistent with observed behavioral disconnections, all full
+splits demonstrated more lateralized patterns of FC relative to
+healthy controls and partial splits, who typically fell within the
+control distributions (Fig. 3). This was evident in both higherorder, transmodal systems (e.g., the default mode and dorsal
+attention networks) and in somatosensory networks (with the
+exception of patient TJ, who fell within the upper tail of the
+control distribution in the somatomotor network). Patient EM
+was more lateralized across frontoparietal control nodes, which
+include a number of regions likely to be structurally disconnected
+given the extent of their callosotomy; however, BT generally
+showed degrees of network bilaterality equivalent to healthy
+adults, despite having a mere fraction of splenium intact. Finally,
+full splits appeared to show conserved bilateral FC across limbic
+regions like the orbitofrontal cortex and temporal poles, which are
+known to be structurally coupled through the preserved anterior
+commissure as well as the CC (24–26). In sum, these results
+highlight the dependence of interhemispheric networks on CC
+connectivity—yet, neurotypical levels of functional integration
+were possible even when only the splenium was left intact.
+Lateralized Expressions of Functional Modules. To further elu-
+
+cidate whole-brain differences in functional network topology
+(agnostic to any a priori assignment of individual brain regions to
+canonical functional systems) we employed data-driven community detection techniques to cluster whole-brain patterns of FC
+into functional modules (Fig. 4). The modular organization of
+both structural and functional brain networks is thought to enable
+specialized information processing while retaining the ability
+to efficiently integrate information between disparate neural
+systems (27, 28). Thus, we hypothesized that the breakdown of
+IFC in full splits would produce lateralized network topologies,
+predominantly self-organized within one hemisphere or the
+other.
+Here, we computed laterality indices for the estimated partitions according to prior work (29): where a value of zero,
+for example, indicates that all functional modules are perfectly
+bilateral (i.e., the number of brain regions constituting each
+community are equally balanced between the left and right
+hemispheres), and values closer to one indicate progressively
+
+PNAS
+
+2025
+
+Vol. 122
+
+No. 43
+
+e2520190122
+
+more lateralized topologies. Importantly, we note that modularity
+maximization is sensitive to spatial scale, subject to a resolution
+parameter, 𝛾 (30). We describe results using a “default” 𝛾 = 1
+below but provide further consideration of these issues in
+Materials and Methods and SI Appendix, Fig. S4.
+As predicted, we observed much greater degrees of modular laterality in all full splits (Fig. 5). Communities with bihemispheric
+representations primarily spanned visual and somatomotor
+regions—reflecting a mechanism through which synchronized,
+external sensory inputs can drive apparent functional integration.
+With respect to partial splits, patient EM with the most CC
+showed bilateral patterns of network organization mirroring
+neurotypical controls. Patient BT also fell within the control
+distribution of laterality but showed a strikingly different pattern
+of modular topology (Fig. 4). Here, functional communities
+appeared to dissociate along the Sylvian fissure, with dorsal
+modules and ventral modules spanning the anteroposterior axis
+of the brain. This individual had the longest gap between surgery
+and testing (∼6 y), which may have allowed for widespread
+network reorganization affording optimal utilization of the
+minimal callosal fibers left intact. These findings underscore the
+importance of transcallosal connections for the emergence of
+coherent interhemispheric systems, while further highlighting a
+role for sensory inputs enabling apparent preservation of bilateral
+sensorimotor modules.
+Interhemispheric Synchrony in Network Dynamics. The mod-
+
+ular organization of the brain plays a critical role in governing
+large-scale functional dynamics, such that structural architectures
+orchestrate widespread cofluctuations in whole-brain activity
+over time (31). Such patterns of coordinated network dynamics
+have recently been elucidated using edge time series (ETS): In
+brief, the ETS approach constitutes a temporal unwrapping
+of the zero-order Pearson correlation between any given pair
+of brain regions (i.e., an “edge” in classical graph theoretic
+descriptions of brain networks), capturing moment-to-moment
+changes in the extent to which regional pairs cofluctuate in
+activity (32). Taking the root-sum-of-squares (RSS) across all
+ETS at each timepoint yields summary estimates of multivariate
+cofluctuations in functional network dynamics over the course
+of a scan (33) (Fig. 6A).
+Here, we sought to test the hypothesis that structural connectivity via the CC is necessary for large-scale coordination of
+function. To that end, we separated edges within the left and right
+hemispheres and derived an RSS time course for each. We then
+computed correlations between left and right RSS to assess the
+degree to which dynamic cofluctuations in brain function were
+synchronized across hemispheres. Among neurotypical controls,
+we observed tight temporal coupling between left and right hemisphere dynamics (Median Spearman r = 0.82, MAD = 0.08). In
+contrast, all four full splits demonstrated significant reductions in
+interhemispheric synchrony, suggesting that network dynamics
+were more functionally independent (Fig. 6B; see SI Appendix,
+Fig. S5 for individual networks). This is consistent with the
+overall attenuation of interhemispheric FC and further indicates
+that brief moments of high-amplitude cofluctuations (which
+normally encompass regions in both hemispheres and are thought
+to be structurally mediated (31)) occur separately in each.
+Notably, both patients EM and BT (partial splits) fell within
+the standard range of the HCP subjects. These results therefore
+strongly suggest a mechanistic role for CC structural connections
+in supporting widespread synchronization of interhemispheric
+network dynamics. This may even be achieved with a mere
+
+https://doi.org/10.1073/pnas.2520190122
+
+3 of 10
+
+A
+
+B
+
+Downloaded from https://www.pnas.org by 46.229.243.203 on October 7, 2026 from IP address 46.229.243.203.
+
+C
+
+Fig. 2. Interhemispheric functional connectivity is broadly diminished in full (but not partial) splits. (A) Whole-brain functional parcellation composed of seven
+canonical resting-state networks (21, 22) and subcortical nodes (23). (B) A standard reference for neurotypical whole-brain functional connectivity (FC), given
+as the median over HCP100 subjects. FC was estimated by correlating low-frequency brain activity (0.01 to 0.08 Hz) between all pairs of regions in (A). The large
+boxes outlining the Upper Left and Lower Right quadrants denote intrahemispheric FC; the Upper Right and Lower Left quadrants thus capture interhemispheric FC
+(IFC). Note that the main diagonal (representing self-connections) was blanked as these are irrelevant for subsequent analyses. (C) Whole-brain FC estimates for
+each callosotomy patient, thresholded at P < 0.001 (uncorrected for multiple comparisons). Typical patterns of IFC were largely abolished in full splits (HY, DT,
+TJ, LJ), while partial splits (EM, BT) were more similar to healthy controls. Abbreviations: SomMot, SomatoMotor Network; DorsAttn, Dorsal Attention Network;
+SalVentAttn, Salience/Ventral Attention Network; LH, Left Hemisphere; and RH, Right Hemisphere.
+
+fraction of intact fibers through the splenium and thus might
+be largely independent of the presence of direct cortico-cortical
+connections.
+Discussion
+We observed distinct disruptions of interhemispheric functional
+connectivity following complete versus partial transection of
+the corpus callosum. Full splits demonstrated more lateralized
+network topologies and desynchronized network dynamics,
+
+4 of 10
+
+https://doi.org/10.1073/pnas.2520190122
+
+aligning with classical behavioral disconnection syndromes.
+Given that all patients had intact anterior and posterior commissures (along with other subcortical routes of interhemispheric
+communication), these findings underscore the notion that
+transcallosal connections are the essential pathways through
+which large-scale interhemispheric functional networks emerge.
+Contrary to our expectations, however, interhemispheric functional coupling among partial splits remained intact. These
+patients also showed no signs of behavioral disconnection, even
+when the vast majority of the callosum was severed (16). Thus,
+
+pnas.org
+
+Downloaded from https://www.pnas.org by 46.229.243.203 on October 7, 2026 from IP address 46.229.243.203.
+
+Fig. 3. Full callosotomy is associated with more lateralized functional connectivity. Network laterality indices are shown across seven canonical resting-state
+systems (21, 22) and subcortical regions (23). Values closer to zero indicate an equal balance between intra- and interhemispheric FC, while values closer to one
+indicate more intrahemispheric FC relative to interhemispheric FC. Note that each subplot captures a unique range of values, given differences in variability
+observed across neurotypical adults (colored distributions), patients, and networks. Full splits generally demonstrated more strongly lateralized FC compared
+to partials, who fell within the control distributions. Point intervals for each control distribution give the HCP100 median (black dot) and the 80 to 95% quantiles
+around the median (thick black lines and thin black lines, respectively). Abbreviations: SomMot, SomatoMotor Network; DorsAttn, Dorsal Attention Network;
+SalVentAttn, Salience/Ventral Attention Network.
+
+a fraction of callosal fibers in the splenium may be sufficient to
+orchestrate interhemispheric functional synchrony and integrate
+behavior. This poses a stark challenge to our classical topographic
+models of callosal connectivity and function, motivating an evolving view of interhemispheric structure-function relationships:
+namely, that robust interhemispheric synchrony and information
+transfer can be achieved via polysynaptic connectivity through a
+relatively small proportion of posterior transcallosal connections,
+rather than direct structural connectivity between functional
+homologues.
+Complete Callosotomy and Structure–Function Relationships.
+
+Split-brain patients present a unique opportunity to draw causal
+inferences regarding the role of transcallosal structural connections and the extent to which interhemispheric functional synchrony depends upon such connections. Previous investigations
+of pediatric callosotomy patients have provided an initial perspective on this question (9–12). However, these patients often suffer
+from severe cognitive and developmental deficits, requiring scans
+to be completed under sedation—which reduces dynamical complexity in brain activity and produces functional connectomes
+more rigidly tied to direct anatomical pathways (34). It is further
+known that functional and structural brain networks undergo
+
+PNAS
+
+2025
+
+Vol. 122
+
+No. 43
+
+e2520190122
+
+profound developmental changes early in life (35–38). In other
+words, neural plasticity in these young individuals may still
+afford the long-term establishment of alternate interhemispheric
+pathways (perhaps akin to callosal agenesis patients (39)), and
+indeed, it is well documented that disconnection syndromes in
+pediatric patients resolve over time (40, 41). This likely accounts
+for differential reports of recovery in interhemispheric FC among
+these individuals (9, 11, 12).
+The adult brain also retains neuroplastic potential (42).
+However, given the enormity of the structural disconnection,
+adult callosotomy patients may lack the capacity to adapt their
+functional architectures in such a way that allows complete
+recovery of communication between the two hemispheres.
+Our results clearly underscore this hypothesis. Whole-brain
+patterns of FC appeared highly lateralized, both with respect to
+canonical network definitions (Figs. 2 and 3) and the topological
+organization of functional modules (Figs. 4 and 5). Furthermore,
+we observed considerable reductions in the extent to which
+multivariate cofluctuations in activity were synchronized between
+hemispheres (Fig. 6), underscoring a role for the CC in orchestrating whole-brain network dynamics. Importantly, however,
+there were some exceptions to these effects, which follow
+anatomical predictions. Limbic and subcortical regions—the
+
+https://doi.org/10.1073/pnas.2520190122
+
+5 of 10
+
+Downloaded from https://www.pnas.org by 46.229.243.203 on October 7, 2026 from IP address 46.229.243.203.
+
+Fig. 4. Modular decomposition of whole-brain functional connectivity. Spatial maps of optimal, consensus community assignments derived via datadriven modularity maximization are shown at a default level of resolution
+(𝛾 = 1). Regional coloring thus indicates the assignment to a given functional
+module (unrelated to the “canonical” coloring of regions/networks in Fig. 2A).
+Because this decomposition is dependent upon individual-specific patterns
+of FC, individual patients may exhibit different numbers/organizations of
+modules, and therefore not all colors appear for all patients. Full splits
+generally exhibited more lateralized clustering of regions into modules
+relative to partial splits and healthy adult controls (see Fig. 5 for quantification
+of module laterality).
+
+in the range of neurotypical controls (Figs. 2–6). This was
+even observed for patient BT, in whom only 1 cm of posterior
+callosal fibers (roughly ∼10% of the CC’s cross-sectional area)
+were spared. It has become increasingly evident that structure–
+function relationships are highly complex and generally do not
+reflect simple, one-to-one interactions between directly coupled
+areas (51–53). Still, these remarkable results imply that the
+functional topography of the CC may be much more flexible
+than previously imagined. In particular, there may be a critical
+threshold at which full functional integration can be sustained
+given a sufficient proportion of intact fibers—even if the vast
+majority of the callosum has been severed.
+An intriguing extension of this hypothesis is that the location
+of the spared callosal fibers may be critical. Previous cytological
+work has shown that anterior portions of the CC are primarily
+populated by thin fibers, while fibers in the tail locally vary in
+diameter (54–56). Such differences in fiber size and myelination
+along the CC have been associated with differences in conduction
+velocity (56) and, when considered alongside the topographic
+organization of the CC, may account for the “fast” versus
+“slow” action of primary sensorimotor and association cortices,
+respectively. Spared posterior fibers as in BT could therefore be
+more beneficial than spared anterior fibers. However, from a sheer
+bandwidth perspective, it is difficult to imagine how such a small
+proportion of fibers could account for widespread integration of
+function and cognitive processing.
+It appears likely that functional systems in BT dramatically
+reorganized in the six years following surgery. In brains that
+develop normally with the support of the CC, multisensory
+integration zones in the parietal cortex may serve as interhemispheric hubs (57, 58). By taking advantage of spared posterior
+callosal pathways connecting these regions, the processing of
+various intrahemispheric brain regions can still be integrated
+
+former of which are known to be connected through the anterior
+commissure (AC) as well as the CC (24–26)—showed conserved
+bilateral FC (Fig. 3). Nevertheless, noncallosal pathways were
+insufficient to support widespread interhemispheric synchrony,
+contrary to previous proposals both in humans (43–45) and
+nonhuman primates (where AC fibers are sufficient to sustain
+interhemispheric FC) (46). Finally, visual and sensorimotor areas
+also appeared to remain somewhat integrated. We cannot fully
+discount the possibility that subcortical information transfer
+contributed to this preserved synchrony; however, an alternative
+hypothesis may lie in the fact that visual and somatosensory inputs
+to each hemisphere were synchronized during the resting-state
+scan—producing apparent functional coherence despite observed
+behavioral disconnections.
+Preserved Interhemispheric Integration in Partial Splits. While
+our observations in full splits clearly emphasize the importance
+of CC connectivity in orchestrating interhemispheric synchrony,
+partial splits revealed something much more surprising. We
+predicted that partial splits would show specific deficits in
+interhemispheric FC along an anterior-to-posterior gradient
+localized to the extent of the callosal transection, following
+both previous characterizations of CC topography (7, 8) and
+prior behavioral studies (47–50). However, both partial splits
+consistently demonstrated levels of interhemispheric integration
+
+6 of 10
+
+https://doi.org/10.1073/pnas.2520190122
+
+Fig. 5. Functional modules are more strongly lateralized in full splits. The
+modular laterality index quantifies the extent to which functional communities exhibit bihemispheric representations (values closer to zero) or are
+restricted to one hemisphere or the other (values closer to one). At a default
+level of resolution (𝛾 = 1), partial splits demonstrated bilateral network
+topologies similar to healthy controls, whereas full splits were consistently
+more lateralized. Point intervals under the control distribution give the
+HCP100 median (black dot) and the 80 to 95% quantiles around the median
+(thick black lines and thin black lines, respectively).
+
+pnas.org
+
+A
+
+B
+
+Downloaded from https://www.pnas.org by 46.229.243.203 on October 7, 2026 from IP address 46.229.243.203.
+
+Fig. 6. Large-scale functional network dynamics are desynchronized in full splits. (A) An illustration of edge time series (ETS) in the left and right hemispheres
+for patient BT (a partial split with 1 cm of intact splenium) and patient TJ (a full split). Each row of an ETS matrix denotes an individual pair of cofluctuating
+brain regions (i.e., an “edge”), while columns capture individual image volumes over time. By taking the root-sum-of-squares (RSS) across all edges at each
+timepoint (i.e., within each column), we derived summary estimates of the total amplitude of cofluctuating brain activity within each hemisphere. Note the
+bursty, high-amplitude cofluctuations in each hemisphere that often coincide in time for BT, but not in TJ. (B) All four full splits exhibited reduced temporal
+synchrony (i.e., temporal correlations) between left/right hemisphere RSS time courses. Partial splits, by contrast, fell within the range of healthy adult controls.
+Point intervals under the control distribution give the HCP100 median (black dot) and the 80 to 95% quantiles around the median (thick black lines and thin
+black lines, respectively). Abbreviations: LH, Left Hemisphere; RH, Right Hemisphere.
+
+and exchanged along polysynaptic routes running between
+hemispheres. The striking differences in functional network
+topology observed in BT, with large modules spanning the
+anterior–posterior axis of the brain (Fig. 4), are one potential
+consequence of this reorganization, reflecting greater functional
+dependencies between frontal and posterior areas affording more
+optimal usage of the spared splenial fibers. The fundamental
+importance of these posterior interhemispheric connections also
+aligns with and may further inform neuroscientific theories of
+consciousness (59, 60). While our results are not suited to
+evaluate or endorse any particular theory, it is nevertheless curious
+that the temporal-parietal-occipital “hot zone” of regions recently
+proposed to maximize the singular “here-and-now” qualia of
+consciousness (59, 61) are likely dependent (in part) upon CC
+connections through the splenium. This may explain why BT
+maintains an integrated conscious experience while full splits
+demonstrate interhemispheric disintegration (16).
+Limitations. We acknowledge the small number of patients
+
+included in this study, each of whom have limited postoperative
+data. While previous pediatric studies have recruited larger
+samples, the availability of patients who underwent callosotomy
+in adulthood is extremely scarce. It is often difficult to draw
+robust and reliable statistical inferences from neuroimaging
+data acquired on such small samples. However, the marked
+differences observed between full splits and healthy controls
+suggest that we are not parsing trivial effects on the scale of
+traditional neuroimaging—rather, they reflect outcomes drawn
+from fundamentally unique sampling distributions. Furthermore, relative to other lesion studies (often hampered by
+variability in spatial localization/extent), callosotomy is a highly
+selective intervention. By severing a single white matter structure
+in the brain without any damage to gray matter, callosotomy
+
+PNAS
+
+2025
+
+Vol. 122
+
+No. 43
+
+e2520190122
+
+may afford more homogeneous outcomes. It will be critical for
+future studies to include larger samples with more imaging data to
+better characterize the extent of neural variability in callosotomy
+patients, especially as network architectures reorganize over
+time.
+Conclusion. Following more than a half-century of behavioral
+
+neuroscience, split-brain patients continue to provide startling
+insights into the fundamental nature of the human brain.
+The rise of network neuroscience has further transformed our
+understanding of large-scale brain systems, tracing the pathways
+relating brain structure to function and behavior. Our findings
+reveal a unique type of criticality in brain function—such that
+a small proportion of posterior callosal fibers may be sufficient
+to support the integration of interhemispheric functional brain
+networks and unified cognitive processing. It has long been
+celebrated that the human brain is a remarkably adaptable
+complex system. These findings challenge us to rethink our
+conventional assumptions about structure–function relationships
+and the means through which the brain enables the mind.
+Materials and Methods
+Patient Recruitment. Six adult callosotomy patients (5 men, 1 woman; aged
+
+19 to 60; all right-handed; Fig. 1 and Table 1) were recruited during routine
+postoperative follow-up visits to the Bethel Epilepsy Center (Bielefeld, Germany).
+The study was approved by the Ethics Committee of the University of Münster,
+Germany (2021-523-f-S). The patients or their legal representatives provided
+written informed consent.
+Callosotomy Procedure. Callosotomies were performed with the assistance of
+
+intraoperative neuronavigation, with patients in a supine position and the head
+inclined by roughly 30◦ (fixed in the Mayfield clamp). A straight skin incision
+
+https://doi.org/10.1073/pnas.2520190122
+
+7 of 10
+
+was made running slightly next to the midline on the nonlanguage dominant
+hemisphere. Craniotomy was then performed by making one drill hole in the
+midline at approximately the level of the precentral sulcus. A bone flap was
+sawn out with an outline of 3 cm × 5 cm. The dura was incised longitudinally
+and then opened with two wings under microneurosurgical conditions—access
+to the interhemispheric fissure was successively created while preserving the
+cortical bridging veins. Next, using a self-retaining retractor to carefully shift the
+frontal lobe, the level of the corpus callosum was gradually exposed under sharp
+dissection with microscissors.
+Dissection is often made considerably more difficult by the course of the
+pericallosal arteries, which run parallel to the corpus callosum but are often
+tightly intertwined and twisted in the interhemispheric fissure. In cases where
+the risk of vascular damage is too great, the surgery may be halted short of a
+full disconnection (resulting in partial splits). However, under most conditions,
+the interhemispheric fissure may be opened along the entire length of the
+knee of the corpus callosum. The corpus callosum was then perforated into the
+lateral ventricle of the ipsilateral hemisphere. Next, following the pericallosal
+artery and the anterior cerebral artery down to the frontal base, the knee of the
+callosum was split in the midline, continuing backward to about the level of
+the foramen of Monroi. From this point, it is critical to protect the fornix of the
+language-dominant hemisphere: To mitigate the risk of postoperative functional
+impairment, we carefully ensure that the self-retaining retractor is not placed on
+the precentral gyrus within the interhemispheric fissure. The disconnection can
+now be carried out completely into the splenium—the severing of the splenium
+was performed subpially to protect all the cisternal vessels. Extensive hemostasis
+is not usually necessary, and thus, a ventricular drainage is not used. To conclude,
+the dura mater was closed and the bone flap reinserted and fixed with titanium
+plates and screws. Finally, a subgaleal drainage was inserted and the skin closed
+in two layers.
+
+Downloaded from https://www.pnas.org by 46.229.243.203 on October 7, 2026 from IP address 46.229.243.203.
+
+Healthy Adult Controls. We
+
+used open-access data from the Human
+Connectome Project 100 Unrelated Subjects (HCP100) cohort (46 men, 54
+women; MAge = 29.11, SD = 3.68) as a robust benchmark for various
+network features estimated in callosotomy patients. Participant recruitment
+and imaging procedures have previously been detailed elsewhere (62, 63).
+In brief, data were collected over two sessions on a custom 3T Siemens
+Skyra with a 32-channel head coil. T1 -weighted structural scans were acquired
+using a 3D magnetization prepared rapid gradient echo (MPRAGE) sequence
+(TR = 2,400 ms, TE = 2.14 ms, TI = 1,000 ms, flip angle = 8◦ , voxel size =
+0.7 mm3 ). Resting-state fMRI was collected with eyes open over four 14.5-min
+scans, using a multiband echo-planar imaging (EPI) sequence sensitive to the
+blood-oxygen-level-dependent (BOLD) contrast (TR = 720 ms, TE = 33.1 ms,
+flip angle = 52◦ , voxel size = 2 mm3 , multiband factor = 8). All participants
+gave written informed consent for a protocol approved by the Washington
+University Institutional Review Board. All imaging data were downloaded in
+their raw (unprocessed) state.
+Patient Neuroimaging Procedures. Patient data were collected on a 3T
+
+Siemens Vida at the Bethel Epilepsy Center using a 32-channel head coil.
+T1 -weighted structural scans were acquired using a 3D MPRAGE sequence
+(TR = 1,900 ms, TE = 2.47 ms, TI = 900 ms, flip angle = 8◦ , voxel size =
+0.8 mm3 ). Resting-state fMRI was collected with eyes open using a single-shot
+EPI sequence sensitive to the BOLD contrast (TR = 2,000 ms, TE = 30 ms, flip
+angle = 75◦ , voxel size = 3 × 3 × 3.30 mm, iPAT/GRAPPA factor = 2).
+We note that each patient varied somewhat in the amount of resting-state
+data obtained (from 8 to 20 min total) due to differences in clinical scheduling
+and other imaging protocols not relevant to the current analysis. This information
+is detailed in SI Appendix, Fig. S1.
+fMRI Preprocessing. All data (from both patients and healthy controls) were
+
+run through a unified preprocessing pipeline. Initial preprocessing relied
+on functions from the Statistical Parametric Mapping 12 software (SPM12,
+Wellcome Trust Centre for Neuroimaging, London) in Matlab and Advanced
+Normalization Tools (ANTs) (64). Resting-state fMRI data were realigned and
+unwarped to correct for head motion and motion × susceptibility artifact
+
+8 of 10
+
+https://doi.org/10.1073/pnas.2520190122
+
+as well as slice-time corrected. Anatomical images were denoised (ANTs’
+DenoiseImage with a spatially adaptive Gaussian filter) and submitted to
+ANTs’ cortical thickness pipeline, which includes N4 bias field correction
+and high-quality image segmentation and brain extraction (65). For some
+patients, the brain extraction mask included extracerebral components: This
+was corrected by manually eroding the extraction mask and reapplying it to
+the anatomical scan when necessary. Image coregistration parameters were
+subsequently estimated between an N3 bias-corrected mean BOLD reference
+and the skull-stripped T1 image via antsRegistration (including both linear and
+nonlinear transformations to minimize residual signal deformations, cf. “SyN
+distortion correction” as implemented by the widely used fMRIPrep and QSIPrep
+pipelines).
+Subsequent spatial normalization to a standard stereotaxic space presented a
+nontrivial problem for patient data. In the absence of a corpus callosum, generic
+registration routines (with both linear and nonlinear stages) will frequently pull
+structures such as the cingulate gyrus into the space occupied by the CC in the
+MNI template image, which misaligns brain regions relative to their location
+in our functional parcellation. We mitigated this problem in two ways. First,
+we implemented cost-function masking during the nonlinear step to minimize
+the influence of callosal regions that were transected by the surgery: These
+masks were specified in the fixed image space (i.e., the MNI152NLin6Asym
+template, as provided by the FMRIB Software Library, FSL) (66, 67) because we
+lacked preoperative data for each patient, and CC segments were defined by the
+JHU-DTI white matter atlas (68, 69) (also provided in FSL). For patient EM, the
+genu was masked out; for patient BT, all but the splenium was masked out; and
+for all full splits, the entire cross-section of the callosum was masked out. Second,
+in addition to these masks, we specified a series of registration metric objectives
+at the nonlinear step. As is typical for antsRegistration, we estimated similarity
+between the MNI template and T1 images using both ANTs’ neighborhood crosscorrelation and Mattes mutual information similarity metrics. We also provided
+smoothed segmentation posteriors derived from the ANTs cortical thickness
+pipeline (six in total: white matter, cortical gray matter, CSF, deep/subcortical
+gray matter, brainstem, and cerebellum) and estimated similarity between the
+MNI template segments and patient segments using a mean-squares objective,
+with cortical white matter and CSF segments downweighted in importance
+relative to the other four segments (by a factor of one third). Thus, the nonlinear
+step was composed of eight similarity metrics. The transformation was estimated
+using BSplineSyN to allow for smoother deformations without sacrificing
+accuracy.
+Ultimately, we concatenated and applied the estimated coregistration and
+spatial normalization parameters to all fMRI data in a single interpolation
+via antsApplyTransforms, resampled into 2 mm3 isotropic voxels. Registration
+quality was visually assessed to ensure appropriate mapping to MNI space.
+Functional images were then smoothed using a 3D Gaussian kernel with
+FWHM = 5 mm3 . Prior to functional connectivity estimation, several additional
+preprocessing steps were performed using in-house Matlab code: This included
+global signal scaling (median = 1,000), linear detrending, and nuisance
+regression. The nuisance regression model followed a “36-parameter” (36P)
+approach including the six motion regressors from realignment, the first
+eigenvariate of white matter signal, the first eigenvariate of CSF signal, and
+mean global signal—along with their squares, their first derivatives (via backward
+differentiation), and the squares of the derivatives. All nuisance regressors were
+detrended to match the BOLD data. We further augmented the design matrix
+of the nuisance model with a series of binary spike regressors: one for each
+image volume where the relative framewise displacement in head motion
+(accounting for both translation and rotation) was ≥0.50 mm. This “36P +
+spike regression” model has importantly been shown to outperform alternative
+confound regression strategies (e.g., motion scrubbing and ICA-based methods)
+and provide the best control for motion artifact in functional connectivity
+analyses (19, 20). Patients generally showed no more head motion than HCP
+subjects; for reference, we provide a summary of head motion parameters and
+the frequency of motion spikes for each patient in SI Appendix, Fig. S1.
+Functional Connectivity Estimation and Network Laterality. Functional
+
+network nodes were defined by parcellating the brain into 400 cortical regions
+and 32 subcortical regions, according to the Schaefer (22) and Tian (23) atlases,
+
+pnas.org
+
+Downloaded from https://www.pnas.org by 46.229.243.203 on October 7, 2026 from IP address 46.229.243.203.
+
+respectively. We extracted a summary time course from each parcel by taking
+the first eigenvariate over time (70). These regional time series were bandpassfiltered to the range of 0.01 to 0.08 Hz. We then constructed 432 × 432 FC
+matrices by estimating the zero-order Pearson correlation between all pairs
+of regional time series. For both HCP100 subjects and callosotomy patients
+with more than one resting-state scan, runs were concatenated prior to FC
+estimation.
+We sought to quantify differences in interhemispheric functional connectivity
+(IFC) between callosotomy patients and healthy controls from a number of
+network neuroscience perspectives. Pursuant to this, we began with an initial,
+breadth-first assessment of IFC within each of the seven canonical restingstate networks (21) defined by our cortical parcellation, as well as regions
+spanning the subcortex. Similarly to studies of functional lateralization in
+task-based fMRI, we derived a network laterality index as a simple means
+of summarizing and quantifying the relative magnitude of IFC as compared to
+the magnitude of intrahemispheric FC. Each FC matrix was first thresholded
+at an uncorrected level of P < 0.001 to avoid overly conservative and highly
+nonlinear effects of multiple comparisons correction on the distribution of edge
+weights, while simultaneously minimizing the influence of weak (potentially
+spurious) connections. We then Fisher-Z transformed the thresholded FC
+matrices and, for each individual and for each network, estimated a laterality
+index, LI, as
+P
+P
+P
+( zFCIntraLH + zFCIntraRH ) − zFCInter
+P
+P
+[1]
+LI = P
+zFCIntraLH + zFCIntraRH + zFCInter
+Intrahemispheric connections within the left and right hemispheres are
+necessarily summed in the numerator given that there are, by definition, twice
+as many interhemispheric connections as each hemisphere alone. The result is a
+ratio on the interval of [−1, +1] that captures the extent to which each canonical
+resting-state network is predominantly connected intra- or interhemispherically:
+In the limit, a value of −1 would suggest that there is no intrahemispheric FC and
+the network is solely composed of interhemispheric connections, while a value
+of +1 would indicate the reverse. A value of 0 therefore represents a network
+that is perfectly balanced in the magnitude of intra- versus interhemispheric
+connections. Note that the results presented in Fig. 3 are with respect to
+positively correlated edges only; we provide a comparison of anticorrelated
+edge lateralization in SI Appendix, Fig. S3.
+Community Detection and Modularity. While the above approach is useful
+for considering differences among canonical functional networks, these systems
+were defined in healthy adult brains—it is therefore perhaps dubious to
+assume that these networks follow a similar spatial organization in callosotomy
+patients. Data-driven community detection techniques afford assessments of
+functional network topology unbeholden to prior assumptions about specific
+brain regions and their canonical network memberships (28, 71). This is achieved
+via decomposition of FC matrices using modularity maximization algorithms,
+which group regions into functional modules: These represent regions that are
+generally more functionally coupled to each other than they are connected to
+other regions. The optimization objective is subject to a quality metric, Q—unlike
+our previous laterality analysis (which required separating out positive and
+negative edges), this can be estimated over FC matrices composed of both
+positive and negative correlations (72). We performed this decomposition
+using the community_louvain function from the Brain Connectivity Toolbox
+(https://sites.google.com/site/bctnet/) with asymmetric treatment of negative
+edge weights (72, 73). Importantly, modularity maximization is sensitive to
+spatial scale, subject to a resolution parameter, 𝛾 (30). Small values of 𝛾
+typically yield coarse partitions with a small number of large communities;
+larger values of 𝛾, by contrast, afford more fine-grained partitions. Because
+the solution of this decomposition is dependent upon one’s choice for the
+resolution parameter, we tested a range of values from 𝛾 = [0.10, 2] (in steps
+of 0.10). To further account for variability in community assignments (e.g., due
+to algorithmic stochasticity arising from random initializations), we estimated
+modularity 1,000 times for each value of 𝛾—optimal consensus partitions were
+obtained using the consensus_similarity function from the Network Community
+Toolbox (https://commdetect.weebly.com/).
+
+PNAS
+
+2025
+
+Vol. 122
+
+No. 43
+
+e2520190122
+
+Insimilarfashiontothe networklateralityindicesdescribedabove, we derived
+a modular laterality index for the resulting partitions according to prior work (29).
+This metric is limited to the [0, 1] interval, where a value of 0, for example,
+indicates that all functional communities are perfectly bilateral (i.e., the number
+of brain regions constituting each community are equally balanced between the
+left and right hemispheres), and values closer to 1 indicate progressively more
+lateralized topologies. We note that in this case, more fine-grained partitions
+may be beneficial for assessing modular laterality. Nevertheless, the results
+shown in Figs. 4 and 5 reflect a “default” 𝛾 = 1 and we further illustrate in SI
+Appendix, Fig. S4 that full splits rapidly diverge from controls even at smaller
+values of 𝛾 (while partial splits and healthy controls remain relatively consistent,
+regardless of 𝛾).
+Interhemispheric Network Dynamics. Finally, we used ETS (32) to assess
+the extent to which many brain regions in the left and right hemispheres
+dynamically cofluctuate in synchrony. The ETS approach has been used to
+obtain moment-to-moment, time-resolved estimates of FC and characterize
+the nature of high-amplitude events (33) that occur when multivariate BOLD
+signals simultaneously fluctuate together over brief intervals of time—these
+bursts of synchronized network dynamics are sufficient to recapitulate “static”
+FC estimates over the course of a scan (33), and importantly, they are
+independent of head motion (32). Current evidence instead suggests these highamplitude cofluctuations are governed, in part, by the modular organization
+of the brain and its underlying structural architecture (31). An ETS can be
+computed by taking a pair of regional BOLD time series, Z-scoring them, and
+taking the elementwise product of the signals at each timepoint—the mean
+of an ETS is equivalent to the zero-order Pearson correlation between the
+two time series, and thus ETS constitute a temporal-unwrapping of FC over
+the scan.
+Here, we first separated out all regions in the left hemisphere and all regions
+in the right hemisphere. We constructed a 23,220 × T ETS matrix for each
+hemisphere, where T gives the number of timepoints and 23,220 gives the total
+number of edges within each hemisphere. A summary time course quantifying
+the total amplitude of intrahemispheric cofluctuations at any given moment
+(i.e., across all edges) was obtained by taking the RSS at each timepoint (33).
+We then computed the Spearman correlation between the left hemisphere RSS
+and right hemisphere RSS time series to capture the extent to which network
+dynamics in each hemisphere were synchronized.
+Data, Materials, and Software Availability. Patient data will be made
+
+available upon reasonable request to the corresponding authors; all relevant
+processing and analysis code may be found on GitHub (https://github.com/
+tsantander/splitBrainNetworks) (74).
+T.S., S.B., J.M.S., H.E.S., B.G., and M.B.M. were
+sponsored by the Army Research Office under contract W911NF-19-D-0001
+for the Institute for Collaborative Biotechnologies. T.P. and L.J.V. were funded
+by the German Research Foundation (CRC-1451, Project 431549029).
+ACKNOWLEDGMENTS.
+
+Author affiliations: a Institute for Collaborative Biotechnologies, University of California,
+Santa Barbara, CA 93106; b Department of Psychological & Brain Sciences, University
+of California, Santa Barbara, CA 93106; c Department of Neurology, Medical Faculty,
+University of Cologne, University Hospital Cologne, Cologne 50937, Germany;
+d Department of Epileptology, Krankenhaus Mara, Bethel Epilepsy Center, Medical School
+OWL, Bielefeld University, Bielefeld 33617, Germany; e Magnetic Resonance Imaging
+Department, Society for Epilepsy Research, Krankenhaus Mara, Bethel Epilepsy Center,
+Bielefeld 33617, Germany; f Department of Neurosurgery, Evangelisches Klinikum
+Bethel, Medical School OWL, Bielefeld University, Bielefeld 33617, Germany; and
+g Department of Psychological & Brain Sciences, Indiana University, Bloomington,
+IN 47405
+Author contributions: T.S., S.B., T.P., J.M.S., V.M.W., H.E.S., J.L.H., A.R., F.G.W., B.G., C.G.B.,
+O.S., M.S.G., L.J.V., and M.B.M. designed research; T.S., T.P., V.M.W., J.L.H., A.R., F.G.W.,
+T.K., and L.J.V. performed research; T.S., J.M.S., and O.S. analyzed data; B.G., L.J.V., and
+M.B.M. secured funding; A.R. and C.G.B. oversaw patient recruitment; A.R., C.G.B., L.J.V.,
+and M.B.M. supervised all research activities; and T.S., T.K., O.S., M.S.G., L.J.V., and M.B.M.
+wrote the paper.
+Reviewers: S.A.H., University of California San Diego; and C.K., Allen Institute for Brain
+Science.
+The authors declare no competing interest.
+
+https://doi.org/10.1073/pnas.2520190122
+
+9 of 10
+
+Downloaded from https://www.pnas.org by 46.229.243.203 on October 7, 2026 from IP address 46.229.243.203.
+
+1.
+2.
+
+D. S. Bassett, O. Sporns, Network neuroscience. Nat. Neurosci. 20, 353–364 (2017).
+C. J. Honey et al., Predicting human resting-state functional connectivity from structural
+connectivity. Proc. Natl. Acad. Sci. U.S.A. 106, 2035–2040 (2009).
+3. M. P. van den Heuvel, R. C. Mandl, R. S. Kahn, H. E. Hulshoff Pol, Functionally linked resting-state
+networks reflect the underlying structural connectivity architecture of the human brain. Hum. Brain
+Mapp. 30, 3127–3141 (2009).
+4. M. Fukushima et al., Structure-function relationships during segregated and integrated network
+states of human brain functional connectivity. Brain Struct. Funct. 223, 1091–1106 (2018).
+5. A. M. Hermundstad et al., Structural foundations of resting-state and task-based functional
+connectivity in the human brain. Proc. Natl. Acad. Sci. U.S.A. 110, 6169–6174 (2013).
+6. A. M. Hermundstad et al., Structurally-constrained relationships between cognitive states in the
+human brain. PLoS Comput. Biol. 10, e1003591 (2014).
+7. S. Hofer, J. Frahm, Topography of the human corpus callosum revisited-comprehensive fiber
+tractography using diffusion tensor magnetic resonance imaging. Neuroimage 32, 989–994
+(2006).
+8. Y. Liu et al., Connectivity-based topographical changes of the corpus callosum during aging. Front.
+Aging Neurosci. 13, 753236 (2021).
+9. S. C. Hung et al., Early recovery of interhemispheric functional connectivity after corpus
+callosotomy. Epilepsia 60, 1126–1136 (2019).
+10. J. M. Johnston et al., Loss of resting interhemispheric functional connectivity after complete section
+of the corpus callosum. J. Neurosci. 28, 6453–6458 (2008).
+11. J. L. Roland et al., On the role of the corpus callosum in interhemispheric functional connectivity in
+humans. Proc. Natl. Acad. Sci. U.S.A. 114, 13278–13283 (2017).
+12. C. E. Pizoli et al., Resting-state activity in development and maintenance of normal brain function.
+Proc. Natl. Acad. Sci. U.S.A. 108, 11638–11643 (2011).
+13. M. S. Gazzaniga, Forty-five years of split-brain research and still going strong. Nat. Rev. Neurosci. 6,
+653–659 (2005).
+14. L. J. Volz, M. S. Gazzaniga, Interaction in isolation: 50 years of insights from split-brain research.
+Brain 140, 2051–2060 (2017).
+15. M. Miller, L. Volz, J. Simonson, M. Gazzaniga, Split-Brain Patients: A Clinical versus Experimental
+Perspective, C. Papagno, P. Corballis, Eds. (Elsevier BV, San Diego, 2025).
+16. S. Bekir et al., No disconnection syndrome after near-complete callosotomy. bioRxiv [Preprint]
+(2025). https://doi.org/10.1101/2025.02.16.638524 (Accessed 28 April 2025).
+17. M. Fabri et al., Posterior corpus callosum and interhemispheric transfer of somatosensory
+information: An fMRI and neuropsychological study of a partially callosotomized patient.
+Neuroimage 13, 1071–1079 (2001).
+18. M. Saenz, I. Fine, Topographic organization of v1 projections through the corpus callosum in
+humans. Neuroimage 52, 1224–1229 (2010).
+19. R. Ciric et al., Benchmarking of participant-level confound regression strategies for the control of
+motion artifact in studies of functional connectivity. Neuroimage 154, 174–187 (2017).
+20. L. Parkes, B. Fulcher, M. Yucel, A. Fornito, An evaluation of the efficacy, reliability, and sensitivity
+of motion correction strategies for resting-state functional MRI. Neuroimage 171, 415–436
+(2018).
+21. B. T. Yeo et al., The organization of the human cerebral cortex estimated by intrinsic functional
+connectivity. J. Neurophysiol. 106, 1125–1165 (2011).
+22. A. Schaefer et al., Local-global parcellation of the human cerebral cortex from intrinsic functional
+connectivity MRI. Cereb. Cortex 28, 3095–3114 (2018).
+23. Y. Tian, D. S. Margulies, M. Breakspear, A. Zalesky, Topographic organization of the human
+subcortex unveiled with functional connectivity gradients. Nat. Neurosci. 23, 1421–1432 (2020).
+24. M. Catani, M. Schotten, Atlas of Human Brain Connections (Oxford University Press, Oxford, UK,
+2012).
+25. M. D. Patel, N. Toussaint, G. D. Charles-Edwards, J. P. Lin, P. G. Batchelor, Distribution and fibre
+field similarity mapping of the human anterior commissure fibres by diffusion tensor imaging.
+MAGMA 23, 399–408 (2010).
+26. G. Di Virgilio, S. Clarke, G. Pizzolato, T. Schaffner, Cortical regions contributing to the anterior
+commissure in man. Exp. Brain Res. 124, 1–7 (1999).
+27. D. S. Bassett, M. S. Gazzaniga, Understanding complexity in the human brain. Trends Cogn. Sci. 15,
+200–209 (2011).
+28. O. Sporns, R. F. Betzel, Modular brain networks. Annu. Rev. Psychol. 67, 613–640 (2016).
+29. K. W. Doron, D. S. Bassett, M. S. Gazzaniga, Dynamic network structure of interhemispheric
+coordination. Proc. Natl. Acad. Sci. U.S.A. 109, 18661–18668 (2012).
+30. S. Fortunato, M. Barthelemy, Resolution limit in community detection. Proc. Natl. Acad. Sci. U.S.A.
+104, 36–41 (2007).
+31. M. Pope, M. Fukushima, R. F. Betzel, O. Sporns, Modular origins of high-amplitude cofluctuations
+in fine-scale functional connectivity dynamics. Proc. Natl. Acad. Sci. U.S.A. 118, e2109380118
+(2021).
+32. J. Faskowitz, F. Z. Esfahlani, Y. Jo, O. Sporns, R. F. Betzel, Edge-centric functional network
+representations of human cerebral cortex reveal overlapping system-level architecture. Nat.
+Neurosci. 23, 1644–1654 (2020).
+33. F. Zamani Esfahlani et al., High-amplitude cofluctuations in cortical activity drive functional
+connectivity. Proc. Natl. Acad. Sci. U.S.A. 117, 28393–28401 (2020).
+34. P. Barttfeld et al., Signature of consciousness in the dynamics of resting-state brain activity. Proc.
+Natl. Acad. Sci. U.S.A. 112, 887–892 (2015).
+35. V. J. Sydnor et al., Neurodevelopment of the association cortices: Patterns, mechanisms, and
+implications for psychopathology. Neuron 109, 2820–2846 (2021).
+36. J. E. Reynolds, M. N. Grohs, D. Dewey, C. Lebel, Global and regional white matter development in
+early childhood. Neuroimage 196, 49–58 (2019).
+37. U. A. Tooley et al., The age of reason: Functional brain network development during childhood.
+J. Neurosci. 42, 8237–8251 (2022).
+
+10 of 10
+
+https://doi.org/10.1073/pnas.2520190122
+
+38. K. J. Whitaker et al., Adolescence is associated with genomically patterned consolidation of the
+hubs of the human brain connectome. Proc. Natl. Acad. Sci. U.S.A. 113, 9105–9110 (2016).
+39. J. M. Tyszka, D. P. Kennedy, R. Adolphs, L. K. Paul, Intact bilateral resting-state networks in the
+absence of the corpus callosum. J. Neurosci. 31, 15154–15162 (2011).
+40. M. Lassonde, H. Sauerwein, A. J. Chicoine, G. Geoffroy, Absence of disconnexion syndrome in
+callosal agenesis and early callosotomy: Brain reorganization or lack of structural specificity during
+ontogeny? Neuropsychologia 29, 481–495 (1991).
+41. D. Graham, M. M. Tisdall, D. Gill, Corpus callosotomy outcomes in pediatric patients: A systematic
+review. Epilepsia 57, 1053–1068 (2016).
+42. E. Fuchs, G. Flugge, Adult neuroplasticity: More than 40 years of research. Neural Plast 2014,
+541870 (2014).
+43. J. S. Nomi et al., Diffusion weighted imaging evidence of extra-callosal pathways for
+interhemispheric communication after complete commissurotomy. Brain Struct. Funct. 224,
+1897–1909 (2019).
+44. L. Q. Uddin et al., Residual functional connectivity in the split-brain revealed with resting-state
+functional MRI. Neuroreport 19, 703–709 (2008).
+45. I. Marcantoni et al., Interhemispheric functional connectivity: An fMRI study in callosotomized
+patients. Front. Hum. Neurosci. 18, 1363098 (2024).
+46. J. X. O’Reilly et al., Causal effect of disconnection lesions on interhemispheric functional
+connectivity in rhesus monkeys. Proc. Natl. Acad. Sci. U.S.A. 110, 13982–13987 (2013).
+47. M. G. Funnell, P. M. Corballis, M. S. Gazzaniga, Cortical and subcortical interhemispheric
+interactions following partial and complete callosotomy. Arch. Neurol. 57, 185–189 (2000).
+48. M. S. Gazzaniga, H. Freedman, Observations on visual processes after posterior callosal section.
+Neurology 23, 1126–1130 (1973).
+49. G. L. Risse, J. Gates, G. Lund, R. Maxwell, A. Rubens, Interhemispheric transfer in patients with
+incomplete section of the corpus callosum. Anatomic verification with magnetic resonance
+imaging. Arch. Neurol. 46, 437–443 (1989).
+50. M. S. Gazzaniga, Interhemispheric Integration, P. Rakic, W. Singer, Eds. (John Wiley & Sons,
+New York, 1988), pp. 385–405.
+51. C. Seguin, L. S. Mansour, O. Sporns, A. Zalesky, F. Calamante, Network communication models
+narrow the gap between the modular organization of structural and functional brain networks.
+Neuroimage 257, 119323 (2022).
+52. L. E. Suarez, R. D. Markello, R. F. Betzel, B. Misic, Linking structure and function in macroscale brain
+networks. Trends Cogn. Sci. 24, 302–315 (2020).
+53. B. Misic et al., Network-level structure-function relationships in human neocortex. Cereb. Cortex 26,
+3285–3296 (2016).
+54. F. Aboitiz, A. B. Scheibel, R. S. Fisher, E. Zaidel, Fiber composition of the human corpus callosum.
+Brain Res. 598, 143–153 (1992).
+55. F. Aboitiz, J. Lopez, J. Montiel, Long distance communication in the human brain: Timing
+constraints for inter-hemispheric synchrony and the origin of brain lateralization. Biol. Res. 36,
+89–99 (2003).
+56. A. Horowitz et al., In vivo correlation between axon diameter and conduction velocity in the human
+brain. Brain Struct. Funct. 220, 1777–1788 (2015).
+57. M. P. van den Heuvel, O. Sporns, Rich-club organization of the human connectome. J. Neurosci. 31,
+15775–15786 (2011).
+58. P. Hagmann et al., Mapping the structural core of human cerebral cortex. PLoS Biol. 6, e159
+(2008).
+59. C. Koch, M. Massimini, M. Boly, G. Tononi, Neural correlates of consciousness: Progress and
+problems. Nat. Rev. Neurosci. 17, 307–321 (2016).
+60. L. Melloni et al., An adversarial collaboration protocol for testing contrasting predictions of global
+neuronal workspace and integrated information theory. PLoS One 18, e0268577 (2023).
+61. C. Koch, M. Massimini, M. Boly, G. Tononi, Posterior and anterior cortex - where is the difference
+that makes the difference? Nat. Rev. Neurosci. 17, 666 (2016).
+62. D. C. Van Essen et al., The human connectome project: A data acquisition perspective. Neuroimage
+62, 2222–2231 (2012).
+63. D. C. Van Essen et al., The Wu-Minn human connectome project: An overview. Neuroimage 80,
+62–79 (2013).
+64. N. J. Tustison et al., The ANTsX ecosystem for quantitative biological and medical imaging. Sci. Rep.
+11, 9068 (2021).
+65. N. J. Tustison et al., Large-scale evaluation of ants and freesurfer cortical thickness measurements.
+Neuroimage 99, 166–179 (2014).
+66. A. C. Evans, A. L. Janke, D. L. Collins, S. Baillet, Brain templates and atlases. Neuroimage 62,
+911–922 (2012).
+67. M. Jenkinson, C. F. Beckmann, T. E. Behrens, M. W. Woolrich, S. M. Smith, FSL. Neuroimage 62,
+782–790 (2012).
+68. K. Hua et al., Tract probability maps in stereotaxic spaces: Analyses of white matter anatomy and
+tract-specific quantification. Neuroimage 39, 336–347 (2008).
+69. S. Wakana et al., Reproducibility of quantitative tractography methods applied to cerebral white
+matter. Neuroimage 36, 630–644 (2007).
+70. K. J. Friston, P. Rotshtein, J. J. Geng, P. Sterzer, R. N. Henson, A critique of functional localisers.
+Neuroimage 30, 1077–1087 (2006).
+71. F. Zamani Esfahlani et al., Modularity maximization as a flexible and generic framework for brain
+network exploratory analysis. Neuroimage 244, 118607 (2021).
+72. M. Rubinov, O. Sporns, Weight-conserving characterization of complex functional brain networks.
+Neuroimage 56, 2068–2079 (2011).
+73. M. Rubinov, O. Sporns, Complex network measures of brain connectivity: Uses and interpretations.
+Neuroimage 52, 1059–1069 (2010).
+74. T. Santander et al., SplitBrainNetworks. Github. https://github.com/tsantander/splitBrainNetworks.
+Deposited 29 September 2025.
+
+pnas.org
+
+

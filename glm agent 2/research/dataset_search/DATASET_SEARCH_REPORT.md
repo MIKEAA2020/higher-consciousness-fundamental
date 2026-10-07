@@ -71,17 +71,32 @@ Zenodo REST API + Mendeley internal API probe + link-by-link curl fetch test (31
 
 | Link | Symptom | Notes |
 |------|---------|-------|
-| https://pmc.ncbi.nlm.nih.gov/articles/PMC9502311/ | HTTP 200 but reCAPTCHA bot-wall ("Checking your browser"); headless browser also blocked | PerimeterX-style protection; Europe PMC mirror https://europepmc.org/article/PMC/PMC9502311 → 403 Cloudflare "Just a moment…" |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC9502311/ | HTTP 200 but reCAPTCHA bot-wall ("Checking your browser"); headless browser also blocked | PerimeterX-style protection; Europe PMC mirror https://europepmc.org/article/PMC/PMC9502311 → 403 Cloudflare "Just a moment…" — **RESOLVED 2026-10-08: user supplied the PDF (upload/jpm-12-01405-v2.pdf), read in full** |
 | https://physionet.org/content/eda-rest-sedation/1.0.0/ | 404 | Wrong version path — corrected URL https://physionet.org/content/eda-rest-sedation/1.0/ works (200) |
-| (unresolved) "EEG correlates of psychoactive ketamine" (Mendeley) | Search backend returns domain-only URL; Mendeley internal API ignores query params | Dataset exists per search snippet but full URL not resolvable from here |
-| (unresolved) PNAS "Full interhemispheric integration sustained by a fraction of callosal fibers" | Search backend returns domain-only URL | Resolve via PubMed from a normal browser |
-| (unresolved) ETH research-collection DID fMRI study; KCL DID news item | Search backend returns domain-only URLs | Same limitation |
+| https://www.research-collection.ethz.ch/handle/20.500.11850/78314 | 403 "Access Restricted — high volume of automated traffic" via curl; same block in headless browser; DSpace REST API also 403 | ETH Zurich Research Collection is IP-range-blocked here. Record = Schlumpf et al. 2013 DID fMRI study (see §8). Full text IS fetchable from this environment at https://pmc.ncbi.nlm.nih.gov/articles/PMC3791283/ (browser-verified rendering) |
+| https://pubmed.ncbi.nlm.nih.gov/24179849/ (and 30523772) | HTTP 203 + Cloudflare-style challenge title | Content not retrievable from this client; citations pinned via OpenAlex/Cambridge instead |
+| https://europepmc.org/articles/PMC3791283 | 403 Cloudflare "Just a moment…" | Same block class as round 11 |
+| https://www.pnas.org/doi/10.1073/pnas.2520190122 | 403 for curl | **RESOLVED: user supplied the PDF (upload/santander-et-al-2025-...pdf), read in full** |
+| https://www.mdpi.com/1424-8247/12/9/1405 | 403 for curl | **RESOLVED: user supplied the PDF (upload/jpm-12-01405-v2.pdf), read in full** |
+
+### 5a. RESOLUTIONS (2026-10-08 round 12) — the four previously-unresolved items
+
+| Item | Resolution | Fetch status |
+|------|-----------|--------------|
+| "EEG correlates of psychoactive ketamine" (Mendeley) | **https://data.mendeley.com/datasets/dmk2dmzzwn** — "EEG correlates of psychoactive ketamine: Comparing spectral power and complexity", Brandon Reynante, v2 (24 Feb 2026), DOI 10.17632/dmk2dmzzwn.2, CC BY 4.0. Underlying source data: **Farnes, N., et al. (2020) "Increased signal diversity/complexity of spontaneous EEG, but not evoked EEG responses, in ketamine-induced psychedelic state in humans", PLOS ONE 15(11):e0242056**; raw EEG on Dryad: https://datadryad.org/dataset/doi:10.5061/dryad.j9kd51c9q | Mendeley 200 ✓ (browser); PLOS ONE 200 ✓; Dryad 200 ✓. User-supplied zip read in full (11 files; note: raw .fdt/.set EEG NOT in the zip — must be pulled from Dryad) |
+| PNAS "Full interhemispheric integration sustained by a fraction of callosal fibers" | **Santander, T., et al. (2025) PNAS 122(43):e2520190122, doi 10.1073/pnas.2520190122** (contributed by M. S. Gazzaniga; 6 adult callosotomy patients, Bethel Epilepsy Center) | pnas.org 403 for curl — user-supplied PDF read in full. Analysis code openly available: https://github.com/tsantander/splitBrainNetworks |
+| ETH research-collection DID fMRI study | **Schlumpf, Y.R., et al. (2013) "Dissociative part-dependent biopsychosocial reactions to backward masked angry and neutral faces: An fMRI study of dissociative identity disorder", NeuroImage: Clinical 3:54–64, doi 10.1016/j.nicl.2013.07.002** — ETH record: handle 20.500.11850/78314 / DOI 10.3929/ethz-b-000078314 | ETH site blocked (403) from this environment; full text at PMC3791283 (browser-verified ✓); also on ZORA (UZH), KCL Pure, Groningen |
+| KCL DID news item | **"Computers can 'spot the difference' between healthy brains and the brains of people with Dissociative Identity Disorder"** — KCL IoPPN news archive, December 2018: https://www.kcl.ac.uk/archive/news/ioppn/records/2018/december/computers-can-'spot-the-difference'-between-healthy-brains-and-the-brains-of-people-with-dissociative-identity-disorder. Underlying paper: **Reinders, A.A.T.S., et al. (2019) "Aiding the diagnosis of dissociative identity disorder: pattern recognition study of brain biomarkers", British Journal of Psychiatry 215(3):536–544** (75 female participants: 32 DID vs 43 HC; sMRI machine-learning, 73% accuracy) | KCL news 200 ✓ (content read in browser); Cambridge BJPS 200 ✓; PubMed 30523772 → 203 challenge |
 
 Search-tool limitation recorded: the z-ai web_search backend persistently truncates many
 result URLs to bare domains (e.g., `https://github.com`, `https://www.pnas.org`), which is
 why some paper/dataset links above could not be pinned to full URLs. All links that WERE
 pinned were fetch-tested: 31/31 returned HTTP 200 with correct content after the one
-version-path correction; the only content-level block is the PMC bot-wall.
+version-path correction. Round-12 resolution: the four unresolved items above were pinned
+via OpenAlex API (repository locations), Mendeley in-browser search, and targeted queries;
+all four now carry full URLs, and the only remaining content-level blocks are the ETH
+Research Collection (IP-range block), PubMed challenge pages, europepmc.org, and the
+PMC bot-wall on PMC9502311 (moot — user supplied the PDF).
 
 ## 6. Cross-domain aggregators (all fetchable)
 

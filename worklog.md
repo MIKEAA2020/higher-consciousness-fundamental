@@ -270,3 +270,26 @@ Stage Summary:
 - decombination.txt + elevation_cost.txt now read in full from source; the Fourth Edition's decombination/S1-S4 account is confirmed accurate to the file's final consolidated spec (including the conjectural status of the four-domain predictions)
 - Deliverable artifacts: glm agent 2/research/decombination.txt, elevation_cost.txt, dataset_search/ (search JSONs, DATASET_SEARCH_REPORT.md, fetch_test_results.json, openneuro_datasets/verify JSONs); scripts/extract_ds_files.py, extract_ds_files_content.py, fetch_test_datasets.py, openneuro_search.py, openneuro_verify.py
 - Fetch-status verdict for the user: only 1 of 31 pinned links is content-blocked (PMC9502311 reCAPTCHA); 1 version-path 404 corrected; several paper links unresolvable to full URLs because the search backend truncates URLs to bare domains
+
+---
+Task ID: 12
+Agent: Super Z (main)
+Task: Round 12 — (1) honest audit: any remaining unread links/files across the entire chat history; (2) read the three new user uploads (jpm-12-01405-v2.pdf; Santander et al. 2025 PNAS PDF; EEG ketamine zip); (3) pin titles/links for the ETH DID fMRI study and the KCL DID news item; (4) report fetch failures.
+
+Work Log:
+- Pulled the three new uploads from the remote (user pushed them to upload/)
+- AUDIT FINDING: the ds2 share payload (d56jfcwyyw3flhzrt1) contains THREE file attachments — msg[26] "Not conclusively. It is a recognisable.txt" (4,855 B), msg[42] "It is substantially stronger, but it still.txt" (12,505 B), msg[162] decombination.txt; the first two were NEVER read (they also appear in the ds1/ei9y81lsr98ujftn91 damaged payload, which round 8 had logged as "two empty file attachments")
+- REMEDY: opened the ds2 share in agent-browser (WAF transient on first load, rendered on reload); in-page fetch of files.deepseeksvc.com/api/file?file_id=...&state=...&ty=r for both unread files; extracted via eval (not_conclusively.txt 4,811 chars; substantially_stronger.txt 12,389 chars) into glm agent 2/research/; read both fully
+- VERIFICATION: also fetched the ds2 copy of decombination.txt (45,213 chars) — sha256 byte-identical to the ds3 copy read in full in round 11
+- Read upload/jpm-12-01405-v2.pdf in full (964-line extraction): Modesti et al. 2022, "Functional Neuroimaging in Dissociative Disorders: A Systematic Review", J. Pers. Med. 12:1405 — this IS the PMC9502311 paper that was bot-walled in the round-11 dataset search (13 studies; DID n=51; prefrontal + caudate-switch + ACC findings)
+- Read upload/santander-et-al-2025-...pdf in full (1,162-line extraction): Santander et al. 2025 PNAS 122(43):e2520190122 — 6 adult callosotomy patients; patient BT retained ~1cm splenium (~10% CC) with FULL interhemispheric integration and no disconnection syndrome; "a unique type of criticality... a small proportion of posterior callosal fibers may be sufficient"; analysis code open on GitHub (tsantander/splitBrainNetworks); patient data on request only
+- Read upload/EEG correlates of psychoactive ketamine Comparing.zip in full (11 files: 4 analysis scripts + lzw/lzwNormalised + 11D-ASC.csv + channel/topography .mat): Brandon Reynante's re-analysis code; source data = Farnes et al. 2020 PLOS ONE e0242056 (Dryad); raw .fdt/.set NOT in the zip; 10 subjects awake vs psychoactive ketamine, 9 channels, Hilbert+LZ complexity, spectral power, 11D-ASC phenomenology correlations
+- WEB SEARCHES: pinned all four previously-unresolved items — Mendeley https://data.mendeley.com/datasets/dmk2dmzzwn (DOI 10.17632/dmk2dmzzwn.2) via in-browser search box; PNAS doi 10.1073/pnas.2520190122; ETH record via OpenAlex API (hdl 20.500.11850/78314 / doi 10.3929/ethz-b-000078314 = Schlumpf et al. 2013 NeuroImage: Clinical 3:54-64); KCL news full archive URL (Dec 2018 IoPPN) + underlying Reinders et al. 2019 BJPS 215(3):536-544 paper
+- FETCH TESTS: Farnes PLOS ONE 200 ✓; Dryad 200 ✓; Mendeley 200 ✓ (browser); Cambridge BJPS 200 ✓; KCL news 200 ✓ (content read); PMC3791283 renders in browser ✓; BLOCKED: research-collection.ethz.ch (403 IP-range block, curl + browser + DSpace API), pubmed.ncbi.nlm.nih.gov (203 challenge), europepmc.org (403), pnas.org (403 curl — moot, PDF supplied), mdpi.com (403 curl — moot, PDF supplied)
+- Updated glm agent 2/research/dataset_search/DATASET_SEARCH_REPORT.md: §5 revised + new §5a resolutions table
+
+Stage Summary:
+- Honest audit answer: exactly TWO chat-attached files had never been read (the ds1/ds2 .txt pair); both now extracted and read in full; decombination.txt verified identical across both share copies; remaining unread: msg-64 response of ei9y81lsr98ujftn91 (unrecoverable server-side) and DeepSeek reasoning traces (superseded by the direct file reads)
+- New corpus items read in full: Modesti 2022 DID review (= the blocked PMC9502311), Santander 2025 PNAS split-brain criticality study, Reynante ketamine EEG toolkit (with Farnes 2020 source chain pinned)
+- Split-brain domain now has a direct empirical anchor: the Santander critical-threshold finding parallels the decombination spec's J vs J_c structure; split-brain raw data remains closed (request-only) but analysis code is open
+- All four round-11 unresolved dataset links now carry full URLs; only environment-level blocks remain (ETH collection, PubMed, EuropePMC, PNAS/MDPI curl blocks — the latter two moot via user-supplied PDFs)

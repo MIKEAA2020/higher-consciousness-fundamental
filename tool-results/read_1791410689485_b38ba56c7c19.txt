@@ -1,0 +1,152 @@
+     1→                                                                                                                                           RESEARCH ARTICLE          NEUROSCIENCE                                                                     OPEN ACCESS
+     2→
+     3→
+     4→
+     5→
+     6→                                                                                                            Full interhemispheric integration sustained by a fraction of
+     7→                                                                                                            posterior callosal fibers
+     8→                                                                                                            Tyler Santandera,b,1 ID , Selin Bekirb , Theresa Paulc , Jessica M. Simonsona,b , Valerie M. Wiemerc , Henri Etel Skinnerb , Johanna L. Hopfd , Anna Radad ,
+     9→                                                                                                            Friedrich G. Woermannd,e , Thilo Kalbhennd,f ID , Barry Giesbrechta,b ID , Christian G. Biend , Olaf Spornsg , Michael S. Gazzanigab,1 ID , Lukas J. Volzc,2 ID ,
+    10→                                                                                                            and Michael B. Millera,b,2
+    11→
+    12→                                                                                                            Affiliations are included on p. 9.
+    13→
+    14→                                                                                                            Contributed by Michael S. Gazzaniga; received July 25, 2025; accepted September 12, 2025; reviewed by Steven A. Hillyard and Christof Koch
+    15→
+    16→
+    17→                                                                                                            The dynamic integration of the lateralized and specialized capacities of the two
+    18→                                                                                                            cerebral hemispheres constitutes a hallmark feature of human brain function. This                                       Significance
+    19→                                                                                                            interhemispheric exchange of information critically depends upon the corpus callosum.
+    20→                                                                                                            Classical anatomical descriptions of callosal organization outline a topographic gradient                               Network neuroscience is
+    21→                                                                                                            from front to back, such that specific transcallosal fibers support distinct aspects                                    predicated on the assumption
+    22→                                                                                                            of integrated brain function. Here, we present a challenge to this conventional                                         that structural brain connectivity
+    23→                                                                                                            model. Using neuroimaging data obtained from a new cohort of adult corpus                                               enables long-range
+    24→                                                                                                            callosotomy patients, we leverage modern network neuroscience techniques to show                                        communication between
+    25→                                                                                                            that full interhemispheric integration can be achieved via a small proportion of                                        specialized information
+    26→                                                                                                            posterior callosal fibers. Partial callosotomy patients with spared callosal fibers retained                            processing systems, known as
+    27→                                                                                                            widespread patterns of interhemispheric functional connectivity and showed no                                           functional networks. The corpus
+    28→                                                                                                            signs of behavioral disconnection, even with only 1 cm of the splenium intact.
+    29→                                                                                                                                                                                                                                    callosum plays a central role in
+    30→                                                                                                            Conversely, only complete callosotomy patients demonstrated sweeping disruptions of
+    31→                                                                                                            interhemispheric network architectures, aligning with disconnection syndromes long-                                     orchestrating activity between the
+    32→                                                                                                            thought to reflect diminished information propagation and communication across the                                      left and right hemispheres,
+    33→                                                                                                            brain. These findings motivate an evolving mechanistic understanding of synchronized                                    supporting a unified cognitive
+    34→                                                                                                            interhemispheric neural activity for large-scale human brain function and behavior.                                     experience of the world. Here, we
+    35→Downloaded from https://www.pnas.org by 46.229.243.203 on October 7, 2026 from IP address 46.229.243.203.
+    36→
+    37→
+    38→
+    39→
+    40→                                                                                                                                                                                                                                    assessed the consequences of
+    41→                                                                                                            resting-state | functional connectivity | split-brain | brain networks | corpus callosum                                surgically severing that
+    42→                                                                                                                                                                                                                                    connection in the adult human
+    43→                                                                                                            In recent decades, network neuroscience has emerged as a powerful analysis framework                                    brain. We found that complete
+    44→                                                                                                            for modeling functional interactions between remote neural systems. A foundational                                      transection of the corpus
+    45→                                                                                                            assumption of this approach is that anatomical links between brain regions constrain                                    callosum largely isolated
+    46→                                                                                                            neuronal dynamics and support the emergence of large-scale functional networks, which                                   functional networks to within
+    47→                                                                                                            in turn enable the efficient integration of perceptual, motor, and higher-order cognitive                               each hemisphere, while networks
+    48→                                                                                                            information necessary for human behavior (1–6). The corpus callosum (CC) is thought
+    49→                                                                                                                                                                                                                                    in patients who underwent a
+    50→                                                                                                            to be the central conduit through which specialized processing nodes in each cerebral
+    51→                                                                                                            hemisphere coordinate and synchronize function, with 200 to 250 million axons affording                                 partial transection remained
+    52→                                                                                                            direct, long-range communication across the brain. Classical topographic models of                                      completely integrated—even if
+    53→                                                                                                            CC projections have revealed a well-defined anterior-to-posterior anatomical gradient,                                  the vast majority was severed.
+    54→                                                                                                            corresponding to the spatial organization of canonical brain networks supporting various                                This contradicts classical views on
+    55→                                                                                                            sensorimotor and cognitive functions (7, 8). One consequence of this view is the                                        structure-function
+    56→                                                                                                            prediction that damage to the CC should result in drastic functional disconnections                                     correspondence and suggests the
+    57→                                                                                                            between hemispheres—with disruptions following the localization of lesioned fibers                                      essential mechanisms for
+    58→                                                                                                            along the aforementioned anatomical gradient.                                                                           interhemispheric integration are
+    59→                                                                                                               Split-brain patients, in whom the CC has been severed in an effort to treat medically                                more adaptable than previously
+    60→                                                                                                            intractable epilepsy, offer a powerful means of testing this core conceit of structure–
+    61→                                                                                                                                                                                                                                    imagined.
+    62→                                                                                                            function correspondence. However, neural data on these patients remain scarce—
+    63→                                                                                                            callosotomy was largely discontinued around the turn of the 21st century, coinciding with
+    64→                                                                                                            the rise of network neuroscience. Extant data largely stem from anesthetized pediatric
+    65→                                                                                                            patients (9–12). Taken together, these studies support the hypothesis that full versus                              Copyright © 2025 the Author(s). Published by PNAS.
+    66→                                                                                                            partial callosotomy confer differential effects with respect to the location and extent of                          This open access article is distributed under Creative
+    67→                                                                                                                                                                                                                                Commons       Attribution-NonCommercial-NoDerivatives
+    68→                                                                                                            functional disconnections. At the same time, however, they have provided contradictory                              License 4.0 (CC BY-NC-ND).
+    69→                                                                                                            findings regarding recovery of function postoperatively (9, 11, 12), and various other                              1 To whom correspondence may be addressed. Email:
+    70→
+    71→                                                                                                            methodological factors obfuscate more straightforward interpretations. Thus, to date, it                            tsantander@ucsb.edu or mgazzaniga@ucsb.edu.
+    72→                                                                                                            remains unknown how severing the largest fiber bundle of the human brain affects the                                2 L.J.V. and M.B.M contributed equally to this work.
+    73→
+    74→                                                                                                            topological organization and intrinsic dynamics of large-scale functional networks.                                 This article contains supporting information online
+    75→                                                                                                                                                                                                                                at https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.
+    76→                                                                                                               To address this fundamental question, we present an investigation aimed at                                       2520190122/-/DCSupplemental.
+    77→                                                                                                            characterizing the impacts of full and partial callosotomy on the adult human brain using                           Published October 21, 2025.
+    78→
+    79→
+    80→
+    81→
+    82→                                                                                                            PNAS      2025     Vol. 122     No. 43      e2520190122                                                        https://doi.org/10.1073/pnas.2520190122                     1 of 10
+    83→                                                                                                               Fig. 1. Patient anatomical scans. Postoperative T1 - and diffusion-weighted MRI scans collected for all six patients at time of testing. White arrows/ellipses for
+    84→                                                                                                               patients EM and BT highlight intact CC (i.e., partial splits). The remaining four patients were fully sectioned. Note that a series of clinical observations suggested
+    85→                                                                                                               behavioral disconnection syndromes in all full splits, but not in partial splits.
+    86→
+    87→
+    88→
+    89→                                                                                                               multiple network neuroscience methods. We hypothesized that                             This contradicts classical models of callosal organization and
+    90→                                                                                                               full callosotomy would wholly disrupt functional synchrony                           function, which posit specific deficits depending upon which
+    91→                                                                                                               across the cerebral hemispheres, while the spatial distribution of                   portions of the CC were severed. The splenium, for example, is
+    92→                                                                                                               functional disconnections following partial callosotomy would                        commonly believed to integrate visual information alone (17, 18).
+    93→                                                                                                               unveil the anatomical gradient of the CC. As predicted, we                           However, BT was also capable of transferring tactile information,
+    94→                                                                                                               found that complete sectioning of the CC broadly obliterated                         as shown when asked to verbally name objects placed in his
+    95→                                                                                                               both typical interhemispheric network topologies and dynamic                         left hand that he could not see (requiring information to be
+    96→                                                                                                               patterns of interhemispheric temporal synchrony. More strik-                         sent from the nonspeaking right hemisphere to the speaking
+    97→                                                                                                               ingly, however, we also found that a small proportion of intact                      left hemisphere). Full splits were incapable of performing this
+    98→                                                                                                               posterior CC fibers (a case of partial callosotomy) was sufficient                   transfer, and indeed for BT, such successful interhemispheric
+    99→                                                                                                               to support widespread interhemispheric coupling. These findings                      communication was evident across a range of tasks spanning
+   100→                                                                                                               challenge our conventional understanding of the CC’s functional                      various cognitive domains and sensorimotor modalities (16).
+   101→                                                                                                               topography and shed light on the critical mechanisms for                             Consequently, a small proportion of posterior callosal fibers may
+   102→Downloaded from https://www.pnas.org by 46.229.243.203 on October 7, 2026 from IP address 46.229.243.203.
+   103→
+   104→
+   105→
+   106→
+   107→                                                                                                               interhemispheric information integration.                                            be sufficient to support extensive information integration across
+   108→                                                                                                                                                                                                    large-scale interhemispheric brain networks.
+   109→
+   110→
+   111→                                                                                                               Results                                                                              Interhemispheric Functional Connectivity after Callosotomy.
+   112→                                                                                                                                                                                                    All patients underwent resting-state functional MRI without se-
+   113→                                                                                                               Six adult callosotomy patients (5 men, 1 woman; aged 19 to 60;
+   114→                                                                                                                                                                                                    dation, affording whole-brain analyses of resting-state functional
+   115→                                                                                                               all right-handed; Fig. 1 and Table 1) were tested postoperatively
+   116→                                                                                                                                                                                                    connectivity (FC) and quantification of interhemispheric FC
+   117→                                                                                                               at the Bethel Epilepsy Center (Bielefeld, Germany). The time
+   118→                                                                                                                                                                                                    (IFC). To benchmark patients against “neurotypical” patterns
+   119→                                                                                                               between surgery and testing varied between one and six years
+   120→                                                                                                                                                                                                    of IFC, we used data from the Human Connectome Project
+   121→                                                                                                               (Table 1). In two patients (EM and BT), surgery did not result
+   122→                                                                                                                                                                                                    100 Unrelated Subjects (HCP100) cohort. All HCP100 subjects
+   123→                                                                                                               in a complete callosal transection; they are hereafter referred to
+   124→                                                                                                                                                                                                    and callosotomy patients underwent an identical preprocessing
+   125→                                                                                                               as “partial splits”. In patient EM, the surgery was stopped after
+   126→                                                                                                                                                                                                    pipeline, including conservative corrections for mitigating head
+   127→                                                                                                               sectioning the anterior CC (roughly, ∼38% of the CC’s cross-
+   128→                                                                                                                                                                                                    motion artifacts (19, 20) (see SI Appendix, Fig. S1 for a
+   129→                                                                                                               sectional area in the mid-sagittal plane); patient BT was spared
+   130→                                                                                                                                                                                                    quantitative summary of patient head motion). Whole-brain FC
+   131→                                                                                                               approximately 1 cm of splenium (losing ∼90% of the CC’s
+   132→                                                                                                                                                                                                    in the range of 0.01 to 0.08 Hz was assessed by parcellating
+   133→                                                                                                               cross-sectional area). The remaining four patients (HY, DT, TJ,
+   134→                                                                                                                                                                                                    the brain into 400 cortical regions and 32 subcortical regions
+   135→                                                                                                               and LJ) were completely sectioned and are hereafter referred to
+   136→                                                                                                                                                                                                    (according to the Schaefer (21, 22) and Tian (23) atlases,
+   137→                                                                                                               as “full splits”. All patients have intact anterior and posterior
+   138→                                                                                                                                                                                                    respectively; Fig. 2A) and correlating all pairs of regional time
+   139→                                                                                                               commissures regardless of the extent of the callosal section.
+   140→                                                                                                                                                                                                    series (Fig. 2 B and C).
+   141→                                                                                                                  Callosotomy is not commonly associated with postoperative
+   142→                                                                                                               neuropsychiatric or neurological disorders. Rather, split-brain
+   143→                                                                                                               patients often demonstrate disconnection syndromes, such that
+   144→                                                                                                               they appear to have two hemispheres operating independently,                         Table 1.       General overview of callosotomy patients
+   145→                                                                                                               unable to communicate information from one half of the                                               Age            Age                            Disconnection
+   146→                                                                                                               brain to the other (13–15). Here, behavioral disconnection                           Patient      (surgery)      (testing)     Sex     Extent        syndrome
+   147→                                                                                                               syndromes were clinically observed using simple, lateralized
+   148→                                                                                                               bedside testing protocols. Comprehensive descriptions of these                       EM               17             19         M      Partial         Absent
+   149→                                                                                                               tests are described elsewhere (16). In brief, all four complete                      BT               22             28         M      Partial         Absent
+   150→                                                                                                               callosotomy patients clearly indicated behavioral disconnections.                    HY               21             22         M       Full           Present
+
+[showing lines 1-150 of 698; use offset=151 with limit to continue reading]

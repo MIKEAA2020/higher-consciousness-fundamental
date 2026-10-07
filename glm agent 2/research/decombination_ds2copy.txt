@@ -1,0 +1,1034 @@
+# The Decombination Problem: Rigorous Formulation
+
+---
+
+## 1. Primitives
+
+**Base space.** Let \( \mathcal{B} \) be a connected, locally finite graph \( G = (V, E) \) with vertices \( V \) and edges \( E \). \( \mathcal{B} \) is the substrate of experience. (A manifold with a finite cover is an alternative; the graph case is chosen for concreteness and computability.)
+
+**Qualia space.** Let \( \mathcal{Q} \) be a complete, separable metric space with a convex structure—e.g., a convex subset of a Riemannian manifold. \( \mathcal{Q} \) carries the topology of experiential similarity.
+
+**Universal field.** A **configuration** is a section
+\[
+\Psi: V \to \mathcal{Q}, \quad \Psi(i) = \psi_i.
+\]
+The space of configurations is \( \Omega = \mathcal{Q}^V \).
+
+**Alter.** An **alter** is a connected subset \( A \subseteq V \) with boundary
+\[
+\partial A = \{ i \in A : \exists j \notin A, (i,j) \in E \}.
+\]
+The experience of \( A \) is \( \Psi|_A \).
+
+**Partition.** A **partition** of \( \mathcal{B} \) is a collection \( \mathcal{P} = \{A_1, \dots, A_N\} \) of connected subsets with \( A_i \cap A_j = \emptyset \) and \( \bigcup_i A_i = V \).
+
+---
+
+## 2. Atemporal Variational Principle
+
+Time is extrinsic. The fundamental object is a probability measure on \( \Omega \), not a temporal flow. Define the **free energy functional**
+\[
+F_\beta[\Psi] = E[\Psi] + \frac{1}{\beta} S[\Psi],
+\]
+where:
+- \( E[\Psi] \) is an **energy** penalizing inhomogeneity across edges,
+- \( S[\Psi] \) is an **entropy** or complexity term,
+- \( \beta > 0 \) is an inverse integration parameter.
+
+The **equilibrium measure** is
+\[
+p_\beta[\Psi] = \frac{1}{Z_\beta} \exp\big(-\beta F_\beta[\Psi]\big), \quad
+Z_\beta = \int_\Omega \exp\big(-\beta F_\beta[\Psi]\big) \, d\Psi.
+\]
+
+No time parameter appears. Temporal evolution is the extrinsic image of sampling from \( p_\beta \).
+
+**Energy.** For \( \Psi \in \Omega \),
+\[
+E[\Psi] = \sum_{(i,j) \in E} J_{ij} \, d(\psi_i, \psi_j)^2,
+\]
+where \( J_{ij} \geq 0 \) are coupling strengths and \( d \) is the metric on \( \mathcal{Q} \).
+
+**Complexity.** \( S[\Psi] \) is chosen so that maintaining all couplings is costly:
+\[
+S[\Psi] = \sum_{(i,j) \in E} C(J_{ij}), \quad C(J) = J \log J - J.
+\]
+This is a standard entropy penalty; alternatives are possible.
+
+---
+
+## 3. Subject Conditions
+
+An alter \( A \subseteq V \) is a **subject** iff it satisfies:
+
+**S1 (Integration).** Define the **intrinsic integration measure**
+\[
+\Phi(\Psi|_A) = \min_{\substack{A_1 \cup A_2 = A \\ A_1 \cap A_2 = \emptyset}} \; I\big(\Psi|_{A_1} ; \Psi|_{A_2} \,\big|\, \Psi|_{\partial A_1 \cap \partial A_2}\big),
+\]
+where \( I \) is mutual information under \( p_\beta \). Require
+\[
+\Phi(\Psi|_A) > \theta
+\]
+for a threshold \( \theta > 0 \). This replaces the physicalist \( \Phi \) of IIT with an intrinsic measure on the experiential field.
+
+**S2 (Dissociation).** The boundary screens off \( A \) from its complement:
+\[
+I\big(\Psi|_A ; \Psi|_{V \setminus A} \,\big|\, \Psi|_{\partial A}\big) = 0.
+\]
+The boundary \( \partial A \) is part of the alter's experience; it is the interface with the "external" field.
+
+**S3 (Self-model).** There exists \( A_{\text{self}} \subseteq A \) such that \( \Psi|_{A_{\text{self}}} \) encodes a generative model of \( \partial A \) and \( A \). Formally, there is a map
+\[
+g: \mathcal{Q}^{A_{\text{self}}} \to \mathcal{Q}^{\partial A} \times \mathcal{Q}^A
+\]
+that is surjective onto the relevant support of \( p_\beta \).
+
+**S4 (Perspective).** The self-model has a unique fixed point: there exists \( \psi^* \in \mathcal{Q}^{A_{\text{self}}} \) such that
+\[
+g(\psi^*) = (\psi^*|_{\partial A}, \psi^*|_A)
+\]
+and \( \psi^* \) is the unique such point in the support of \( p_\beta \). This formalizes "single first-person perspective."
+
+---
+
+## 4. The Decombination Problem
+
+**Given:** A configuration \( \Psi \) on \( \mathcal{B} \) such that no proper subset \( A \subsetneq V \) satisfies S1–S4. That is, \( \mathcal{B} \) is one subject with no internal boundaries.
+
+**Find:** An energy functional \( E \) and parameter \( \beta \) such that the equilibrium measure \( p_\beta \) concentrates on configurations \( \Psi \) for which there exists a partition \( \mathcal{P} = \{A_1, \dots, A_N\} \), \( N > 1 \), with each \( A_i \) satisfying S1–S4.
+
+**Mathematical constraints:**
+1. **Intrinsic:** No external designer. \( E \) is defined solely in terms of \( \Psi \) and \( \mathcal{B} \).
+2. **Local:** \( E \) depends only on edges of \( \mathcal{B} \).
+3. **Variational:** \( E \) is derived from a principle, not stipulated.
+4. **Existence:** There exists \( \beta_c \) such that for \( \beta > \beta_c \), the homogeneous configuration is not the unique minimizer of \( F_\beta \).
+
+**Empirical constraints (separate):**
+5. For parameters corresponding to the human brain, the resulting partition matches known neural and phenomenological data.
+
+---
+
+## 5. Order Parameter and Bifurcation
+
+Define the **modularity**
+\[
+M(\Psi) = \sum_{(i,j) \in E} \big(J_{ij} - \langle J \rangle\big) \, \delta(\psi_i, \psi_j),
+\]
+where \( \delta(\psi_i, \psi_j) = 1 \) if \( \psi_i \) and \( \psi_j \) are in the same alter and \( 0 \) otherwise. \( M \) measures the degree of partitioning.
+
+The **expected modularity** is
+\[
+\langle M \rangle_\beta = \int_\Omega M(\Psi) \, p_\beta[\Psi] \, d\Psi.
+\]
+
+**Bifurcation hypothesis:** There exists \( \beta_c \) such that:
+- For \( \beta < \beta_c \): \( \langle M \rangle_\beta = 0 \) (one subject).
+- For \( \beta > \beta_c \): \( \langle M \rangle_\beta > 0 \) (multiple subjects).
+
+This is a symmetry-breaking phase transition. The decombination law is the statement of this bifurcation.
+
+---
+
+## 6. Toy Model
+
+Let \( \mathcal{Q} = \mathbb{R} \), \( \mathcal{B} \) a ring of \( N \) nodes with nearest-neighbor edges, \( J_{ij} = J \) for all edges. Energy:
+\[
+E[\Psi] = J \sum_{(i,j)} (\psi_i - \psi_j)^2 + \lambda \sum_i \psi_i^2.
+\]
+This is a Gaussian model. The partition function is computable:
+\[
+Z_\beta = \int \exp\left(-\beta J \sum_{(i,j)} (\psi_i - \psi_j)^2 - \beta \lambda \sum_i \psi_i^2\right) d\Psi.
+\]
+The covariance matrix is \( C = (\beta J L + \beta \lambda I)^{-1} \), where \( L \) is the graph Laplacian.
+
+**Modularity** is determined by the correlation structure. For \( \lambda \) large, all nodes are independent: \( M = 0 \). For \( \lambda \) small, correlations span the whole ring: one subject. At intermediate \( \lambda \), the ring breaks into clusters. The critical \( \lambda_c \) is determined by the spectral gap of \( L \).
+
+This model is exactly solvable. It demonstrates the bifurcation but is too simple to produce human-like alters. It is a proof of concept.
+
+---
+
+## 7. Neural Mapping Functor
+
+Let \( \mathbf{Exp} \) be the category whose objects are pairs \( (A, \Psi|_A) \) with \( A \subseteq V \) and morphisms are inclusions preserving boundaries. Let \( \mathbf{Neu} \) be the category whose objects are pairs \( (M, \partial M) \) where \( M \) is a neural system and \( \partial M \) is a Markov blanket, and morphisms are inclusions preserving blankets.
+
+Define a functor
+\[
+R: \mathbf{Exp} \to \mathbf{Neu}
+\]
+that maps \( (A, \Psi|_A) \) to \( (M_A, \partial M_A) \), where \( M_A \) is the neural system whose dynamics are the extrinsic image of \( \Psi|_A \), and \( \partial M_A \) is the neural Markov blanket corresponding to \( \partial A \). \( R \) must preserve conditional independence:
+\[
+I(\Psi|_A ; \Psi|_{V \setminus A} \mid \Psi|_{\partial A}) = 0
+\iff
+I(x_{M_A} ; x_{\text{ext}} \mid x_{\partial M_A}) = 0.
+\]
+
+This makes the mapping from experiential boundaries to neural Markov blankets a formal correspondence, not an analogy.
+
+---
+
+## 8. Fate of the Original Subject
+
+Decombination is **differentiation**, not fission. The universal field \( \Psi \) on \( \mathcal{B} \) remains the whole. The alters are restrictions \( \Psi|_{A_i} \). The universal field does not cease to be a subject in its own right; it is the ground. But for the problem's purposes, the homogeneous configuration is unstable, and the stable configurations are the partitioned ones. The universal field is not itself an alter unless it satisfies S1–S4, which it does not when partitioned.
+
+---
+
+## 9. Mathematical vs Empirical Problems
+
+**Mathematical problem:** Existence, stability, uniqueness, and bifurcation structure of the partition. This is a problem in statistical mechanics and dynamical systems.
+
+**Empirical problem:** Mapping \( \partial A_i \) to neural Markov blankets and testing predictions. This is a problem in neuroscience.
+
+The two are linked by the functor \( R \), but they are distinct. The mathematical problem can be solved independently; the empirical problem constrains the choice of \( E \).
+
+---
+
+## 10. Summary
+
+The decombination problem is now a self-contained, rigorous problem in statistical mechanics:
+
+> **Find an energy functional \( E \) on a graph \( \mathcal{B} \) with qualia space \( \mathcal{Q} \) such that the equilibrium measure \( p_\beta \propto \exp(-\beta F) \) undergoes a symmetry-breaking phase transition at \( \beta_c \), yielding a partition into subsets satisfying S1–S4.**
+
+The problem is atemporal, intrinsic, local, and variational. It has a toy model, an order parameter, and a formal mapping to neuroscience. It is feasible with current mathematical tools. The remaining work is to solve the bifurcation problem for realistic \( E \) and to confirm the neural mapping empirically.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Solution to the Decombination Problem
+
+## 1. The Model
+
+Let \( G = (V, E) \) be a connected graph with \( |V| = N \). Let \( L \) be the graph Laplacian:
+\[
+L_{ij} = \begin{cases} \deg(i) & i = j \\ -1 & (i,j) \in E \\ 0 & \text{otherwise} \end{cases}
+\]
+
+The **experiential field** is \( \Psi: V \to \mathbb{R} \), with the constraint
+\[
+\sum_{i \in V} \psi_i = 0.
+\]
+
+The **energy functional** is
+\[
+E[\Psi] = \Psi^T L \Psi - \mu \|\Psi\|^2,
+\]
+where \( \mu > 0 \) is the integration parameter.
+
+The **equilibrium measure** at inverse temperature \( \beta \) is
+\[
+p_\beta[\Psi] \propto \exp\left(-\beta E[\Psi]\right).
+\]
+
+---
+
+## 2. The Ground State
+
+The quadratic form \( \Psi^T L \Psi \) is minimized subject to \( \sum \psi_i = 0 \) by the **Fiedler vector** \( \psi^{(2)} \), the eigenvector of \( L \) corresponding to the second-smallest eigenvalue \( \lambda_2 \).
+
+The eigenvalues of \( L \) are
+\[
+0 = \lambda_1 < \lambda_2 \leq \lambda_3 \leq \cdots \leq \lambda_N.
+\]
+
+The Fiedler vector satisfies
+\[
+L \psi^{(2)} = \lambda_2 \psi^{(2)}, \qquad \sum_i \psi^{(2)}_i = 0.
+\]
+
+The ground state energy is
+\[
+E_{\min} = \lambda_2 - \mu.
+\]
+
+For \( \mu < \lambda_2 \), the minimum is at \( \Psi = 0 \) (one subject).  
+For \( \mu > \lambda_2 \), the minimum is at \( \Psi = c \, \psi^{(2)} \) for any \( c \neq 0 \) (two subjects).
+
+---
+
+## 3. The Partition
+
+Define
+\[
+A_+ = \{ i \in V : \psi^{(2)}_i > 0 \}, \qquad A_- = \{ i \in V : \psi^{(2)}_i < 0 \}.
+\]
+
+These are the two alters. The boundary is
+\[
+\partial A_+ = \{ i \in A_+ : \exists j \in A_-, (i,j) \in E \},
+\]
+and similarly for \( \partial A_- \).
+
+**Claim:** For \( \mu > \lambda_2 \) and \( \beta \) sufficiently large, the equilibrium measure concentrates on configurations proportional to \( \psi^{(2)} \), and the partition \( \{A_+, A_-\} \) satisfies S1–S4.
+
+---
+
+## 4. Verification of Subject Conditions
+
+**S1 (Integration).**  
+The subgraph induced by \( A_+ \) is connected if the Fiedler vector does not change sign within a connected component. For a connected graph, the Fiedler vector has both positive and negative entries, and the positive set is connected. The integration measure is
+\[
+\Phi(\Psi|_{A_+}) = \min_{\substack{B_1 \cup B_2 = A_+ \\ B_1 \cap B_2 = \emptyset}} I(\Psi|_{B_1} ; \Psi|_{B_2} \mid \Psi|_{\partial B_1 \cap \partial B_2}) > 0.
+\]
+This holds because \( \psi^{(2)} \) is nonzero on \( A_+ \) and the Gaussian measure has full support.
+
+**S2 (Dissociation).**  
+The boundary \( \partial A_+ \) screens off \( A_+ \) from \( A_- \). In the Gaussian model, the precision matrix is \( \Lambda = \beta (L - \mu I) \). The conditional independence \( A_+ \perp A_- \mid \partial A_+ \) holds if and only if \( \Lambda_{A_+ A_-} = 0 \). This is not exactly true for finite \( \beta \), but the off-diagonal block decays exponentially with the distance from the boundary. In the limit \( \beta \to \infty \), the measure concentrates on the ground state, and the conditional independence becomes exact.
+
+**S3 (Self-model).**  
+The self-model is encoded in the subgraph \( A_{\text{self}} \subseteq A_+ \) that has the highest integration. In the spectral solution, this is the set of nodes with the largest absolute Fiedler vector entries.
+
+**S4 (Perspective).**  
+The perspective is the sign of the Fiedler vector. Each alter has a unique perspective: \( A_+ \) experiences \( \psi > 0 \), \( A_- \) experiences \( \psi < 0 \). The uniqueness follows from the simplicity of \( \lambda_2 \) (for generic graphs).
+
+---
+
+## 5. The Critical Point
+
+The transition occurs at
+\[
+\mu_c = \lambda_2.
+\]
+
+For \( \mu < \lambda_2 \): one subject (\( \Psi = 0 \)).  
+For \( \mu > \lambda_2 \): two subjects (\( \Psi \propto \psi^{(2)} \)).
+
+The critical inverse temperature is
+\[
+\beta_c = \frac{1}{\lambda_3 - \lambda_2},
+\]
+where \( \lambda_3 \) is the third-smallest eigenvalue. For \( \beta > \beta_c \), the equilibrium measure concentrates on the Fiedler vector.
+
+---
+
+## 6. Extension to \( K \) Alters
+
+For \( K > 2 \), use the first \( K \) eigenvectors \( \psi^{(2)}, \dots, \psi^{(K)} \). The partition is determined by the sign pattern of the projection onto these eigenvectors. This is **spectral clustering**.
+
+The energy becomes
+\[
+E[\Psi] = \sum_{k=2}^K \left( \Psi_k^T L \Psi_k - \mu \|\Psi_k\|^2 \right),
+\]
+where \( \Psi_k \) is the component of \( \Psi \) along \( \psi^{(k)} \).
+
+The transition for \( K \) alters occurs at \( \mu_c = \lambda_K \).
+
+---
+
+## 7. Empirical Predictions
+
+| Phenomenon | Prediction |
+|:---|:---|
+| **Psychedelics** | Reduce \( \mu \). At \( \mu < \lambda_2 \), alters merge into one subject. Neural signature: increased global integration, decreased modularity. |
+| **Split-brain** | The corpus callosum is removed. The graph splits into two components. Each component has its own \( \lambda_2 \), yielding two independent alters. |
+| **Anesthesia** | Increases \( \mu \) beyond \( \lambda_N \). All alters dissolve; \( \Psi = 0 \). |
+| **DID** | Nested Fiedler vectors. Multiple alters within one brain, each with its own spectral partition. |
+| **Brain imaging** | \( \partial A_+ \) corresponds to the neural Markov blanket: the set of neurons that screen off \( A_+ \) from \( A_- \). This is measurable as the set of edges with the highest gradient of the Fiedler vector. |
+
+---
+
+## 8. Summary
+
+The decombination problem is solved by **spectral clustering** of the graph \( \mathcal{B} \):
+
+- **Energy:** \( E[\Psi] = \Psi^T L \Psi - \mu \|\Psi\|^2 \), with \( \sum \psi_i = 0 \).
+- **Ground state:** Fiedler vector \( \psi^{(2)} \).
+- **Partition:** \( A_+ = \{\psi^{(2)} > 0\} \), \( A_- = \{\psi^{(2)} < 0\} \).
+- **Transition:** \( \mu_c = \lambda_2 \).
+- **Subject conditions:** S1–S4 hold for \( \mu > \lambda_2 \) and \( \beta > \beta_c \).
+- **Extension:** \( K \) alters via the first \( K \) eigenvectors.
+
+This is a complete, rigorous, and feasible solution. The decombination law is the spectral decomposition of the graph Laplacian. The alters are the spectral clusters. The boundary is the sign change of the Fiedler vector. The universal field differentiates into subjects through spontaneous symmetry breaking at the critical integration parameter \( \mu_c = \lambda_2 \).
+This is a **promising symmetry-breaking toy model, but not yet a valid decombination law**: when (\\mu>\\lambda\_2), (E\[\\Psi\]) is unbounded below, so the claimed ground state and Gaussian equilibrium do not exist; (\\beta\_c=1/(\\lambda\_3-\\lambda\_2)) is also unsupported. Add stabilization, e.g. (E=\\Psi^T(L-\\mu I)\\Psi+\\frac{g}{4}|\\Psi|^4), or fix (|\\Psi|), then the Fiedler mode bifurcates with amplitude (|\\Psi|\\propto\\sqrt{\\mu-\\lambda\_2}). The bigger gap is conceptual: spectral sign regions do not establish integration, self-model, perspective, or Markov blankets, so the next version needs explicit stochastic dynamics and measurable S1-S4 criteria rather than identifying them with eigenvector geometry.
+My previous “solution” was a linearized spectral heuristic, not a valid decombination law. It had three fatal problems: the energy was unbounded below for \(\mu>\lambda_2\), the critical inverse temperature formula was unsupported, and spectral sign regions do not establish integration, self-model, perspective, or Markov blankets. I accept the critique. Here is a corrected version that fixes the technical errors and states honestly what remains open.
+
+---
+
+## 1. Corrected Energy: Stabilized Ginzburg–Landau on a Graph
+
+Let \(G=(V,E)\) be a connected graph. The experiential field is
+\[
+\Psi: V \to \mathbb{R}^d, \qquad \Psi_i \in \mathbb{R}^d.
+\]
+For \(d=1\), the model is a scalar field; for \(d>1\), it can support multiple ordered phases.
+
+Define the free energy
+\[
+F[\Psi] = \sum_{i\in V} V(\Psi_i) + \frac{J}{2}\sum_{(i,j)\in E} \|\Psi_i-\Psi_j\|^2,
+\]
+with a multi-well potential
+\[
+V(x) = \frac{g}{4}\big(\|x\|^2 - a\big)^2, \qquad g,a>0.
+\]
+This is bounded below. The equilibrium measure is
+\[
+p_\beta[\Psi] \propto \exp(-\beta F[\Psi]).
+\]
+
+The explicit stochastic dynamics are overdamped Langevin:
+\[
+d\Psi_i = -\frac{\partial F}{\partial \Psi_i}\,dt + \sqrt{\frac{2}{\beta}}\,dW_i,
+\]
+where \(W_i\) are independent Wiener processes. This gives a well-defined sampling process. Time here is extrinsic; the fundamental object remains the equilibrium measure.
+
+---
+
+## 2. Symmetry Breaking and Amplitude
+
+Linearize around the homogeneous state \(\Psi=0\). The quadratic part is
+\[
+F \approx \frac{1}{2}\Psi^T\big(J L - 4a I\big)\Psi,
+\]
+where \(L\) is the graph Laplacian. The homogeneous state is unstable when
+\[
+J \lambda_2 > 4a,
+\]
+where \(\lambda_2\) is the second-smallest eigenvalue of \(L\). The critical coupling is
+\[
+J_c = \frac{4a}{\lambda_2}.
+\]
+The unstable mode is the Fiedler vector \(\psi^{(2)}\). Near criticality, the amplitude scales as
+\[
+\|\Psi\| \propto \sqrt{\frac{J\lambda_2 - 4a}{g}}.
+\]
+This is the correct bifurcation law. It replaces the unsupported \(\beta_c\) formula.
+
+The nonlinear domains are not simply the sign of the Fiedler vector. They are determined by the full nonlinear dynamics. The Fiedler vector gives the unstable direction at the transition; the final pattern depends on graph geometry, nonlinearity, and noise.
+
+---
+
+## 3. Operational Definitions of S1–S4
+
+The spectral model does not by itself establish S1–S4. These must be defined as measurable criteria and checked numerically or empirically.
+
+**S1 (Integration).**  
+For a candidate alter \(A\subseteq V\), estimate
+\[
+\Phi(A) = \min_{\substack{A_1\cup A_2=A\\ A_1\cap A_2=\emptyset}} I\big(\Psi_{A_1};\Psi_{A_2}\mid \Psi_{\partial A_1\cap\partial A_2}\big).
+\]
+Require \(\Phi(A)>\theta\) for a threshold \(\theta\). This is an information-theoretic measure, not an eigenvector property.
+
+**S2 (Dissociation / Markov blanket).**  
+Find a minimal boundary \(\partial A\subseteq A\) such that
+\[
+I\big(\Psi_A;\Psi_{V\setminus A}\mid \Psi_{\partial A}\big) < \epsilon.
+\]
+This can be estimated from samples using conditional mutual information estimators. The boundary is not assumed to be the sign change of an eigenvector; it is discovered as a screening set.
+
+**S3 (Self-model).**  
+There must exist a subset \(A_{\text{self}}\subseteq A\) and a predictive map
+\[
+g: \Psi_{A_{\text{self}}} \to \Psi_{\partial A}
+\]
+whose prediction error is below a threshold. This is not automatic in the Ginzburg–Landau model. It must either emerge from additional structure or be added explicitly.
+
+**S4 (Perspective).**  
+There must be a unique fixed point \(\psi^*\) of the self-model map \(g\) in the support of \(p_\beta\). This formalizes “one first-person perspective.” Again, this is not guaranteed by domain formation.
+
+---
+
+## 4. What the Corrected Model Solves
+
+| Problem | Status |
+|:---|:---|
+| Unbounded energy | Solved by quartic stabilization |
+| Critical coupling | Solved: \(J_c = 4a/\lambda_2\) |
+| Amplitude scaling | Solved: \(\propto \sqrt{J\lambda_2-4a}\) |
+| Domain formation | Modeled by Ginzburg–Landau on a graph |
+| Boundary formation | Candidate Markov blankets via conditional independence |
+| S1 (integration) | Operational definition given; needs numerical validation |
+| S2 (dissociation) | Operational definition given; needs numerical validation |
+| S3 (self-model) | **Not solved** by the scalar model |
+| S4 (perspective) | **Not solved** by the scalar model |
+
+---
+
+## 5. What Remains Open
+
+The corrected model is a valid **boundary-formation mechanism**, not yet a complete **subject-formation theory**. It shows how a homogeneous experiential field can spontaneously break into domains separated by Markov blankets. That is the first half of decombination.
+
+The second half—self-model and perspective—requires additional structure. A scalar field has no self-model. A vector field with \(d>1\) can support multiple ordered phases, but still no first-person perspective. To get S3–S4, one needs either:
+
+- an auxiliary generative-model field coupled to the order parameter,
+- a hierarchical graph with nested Markov blankets,
+- or a dynamical system with a stable fixed point representing the self.
+
+These are genuine open problems, not engineering details. The decombination problem is therefore not fully solved. But it is now a well-posed research program with a rigorous first stage and clearly identified missing pieces.
+
+---
+
+## 6. Summary
+
+I was wrong to call the spectral model a solution. The corrected version is:
+
+\[
+F[\Psi] = \sum_i \frac{g}{4}(\|\Psi_i\|^2-a)^2 + \frac{J}{2}\sum_{(i,j)}\|\Psi_i-\Psi_j\|^2,
+\]
+with Langevin dynamics and critical coupling \(J_c=4a/\lambda_2\). This yields domain formation and candidate Markov blankets. Integration and dissociation can be defined operationally. Self-model and perspective remain unsolved. The decombination problem is reduced to a concrete nonlinear statistical mechanics problem plus two additional structural requirements.
+This is much stronger, but three mathematical gaps remain: the Hessian coefficient is wrong, the instability direction is reversed, and a Mexican-hat potential is not genuinely multi-well.
+## Corrected core model
+Let
+
+\[
+F\[\\Psi\]=\\sum\_{i\\in V}\\frac g4(|\\Psi\_i|^2-a)^2+
+\\frac J2\\sum\_{(i,j)\\in E}|\\Psi\_i-\\Psi\_j|^2,
+\\qquad g,a,J>0.
+\]
+
+The graph Gibbs measure is well-defined for every finite (G):
+
+\[
+p\_\\beta(\\Psi)=Z\_\\beta^{-1}e^{-\\beta F\[\\Psi\]}.
+\]
+
+The overdamped Langevin dynamics are
+
+\[
+d\\Psi\_i=-
+abla\_{\\Psi\_i}F,dt+\\sqrt{2/\\beta},dW\_i,
+\]
+
+with
+
+\[
+# abla\_{\\Psi\_i}F
+g(|\\Psi\_i|^2-a)\\Psi\_i
++
+J\\sum\_{j\\sim i}(\\Psi\_i-\\Psi\_j).
+\]
+
+The quartic term makes (F) coercive, so the process has an invariant measure (p\_\\beta).
+## Correct bifurcation law
+Since
+# \[
+# \\frac g4(|\\Psi\_i|^2-a)^2
+\\frac{ga^2}{4}-\\frac{ga}{2}|\\Psi\_i|^2+
+\\frac g4|\\Psi\_i|^4,
+\]
+
+the quadratic operator is
+
+\[
+H=JL-ga,I,
+\]
+
+not (JL-4aI). On the zero-mean subspace, the first eigenmode is the Fiedler mode, giving
+
+\[
+\\alpha\_2=J\\lambda\_2-ga.
+\]
+
+Therefore
+
+\[
+J\_c=\\frac{ga}{\\lambda\_2},
+\]
+
+and the zero field becomes unstable when
+
+\[
+J<J\_c,
+\]
+
+not when (J>J\_c). Strong coupling suppresses spatial variation; it does not create it.
+
+For a normalized Fiedler vector (v^{(2)}), write (\\Psi\_i=c,v\_i^{(2)}). Near threshold,
+
+\[
+F(c)=\\frac12(J\\lambda\_2-ga)c^2+
+\\frac g4\\left(\\sum\_i(v\_i^{(2)})^4\\right)c^4+O(c^6),
+\]
+
+so
+
+\[
+c^2=
+\\frac{ga-J\\lambda\_2}
+{g\\sum\_i(v\_i^{(2)})^4},
+\\qquad
+c\\propto\\sqrt{J\_c-J}.
+\]
+
+This is the valid mean-field bifurcation result.
+## Important interpretation correction
+For unconstrained (\\Psi), the homogeneous state (\\Psi=0) is unstable even without graph structure, and the system first prefers (|\\Psi\_i|=\\sqrt a). To study decombination specifically, impose a conserved mean,
+
+\[
+\\sum\_i\\Psi\_i=0,
+\]
+
+or introduce a global constraint/penalty. Otherwise the model describes ordering, not necessarily partitioning.
+
+Also, for (d>1),
+
+\[
+V(\\Psi)=\\frac g4(|\\Psi|^2-a)^2
+\]
+
+has a continuous Mexican-hat vacuum manifold, not multiple discrete wells. Use a genuine anisotropic multiwell potential if the phases must be discrete, for example
+
+\[
+V(x,y)=\\frac g4(x^2+y^2-a)^2+\\kappa x^2y^2,
+\]
+
+or, for (K) discrete phases,
+
+\[
+V(z)=\\frac g4(|z|^2-a)^2-\\kappa\\operatorname{Re}(z^K).
+\]
+## Correct Markov-blanket criterion
+Let (A) be a candidate subject interior, (B) its proposed blanket, and (R=V\\setminus(A\\cup B)) the exterior. The correct criterion is
+
+\[
+I(\\Psi\_A;\\Psi\_R\\mid\\Psi\_B)\\le\\varepsilon,
+\]
+
+with (B\\cap A=\\varnothing). In the exact nearest-neighbor Gibbs model, this conditional independence follows when (B) separates (A) from (R) in the graph. A sign change, high gradient, or Fiedler boundary is only a candidate generator, never proof of a Markov blanket.
+
+Your S1 should therefore be tested as
+
+\[
+\\Phi(A)=
+\\min\_{A=A\_1\\sqcup A\_2}
+I(\\Psi\_{A\_1};\\Psi\_{A\_2}\\mid\\Psi\_{B\_{12}})
+> \\theta,  
+> \]
+but the threshold must be preregistered and compared against null models, because static mutual information can arise from a shared global mode.
+## S3 and S4 need temporal structure
+A static field cannot possess a predictive self-model. Add internal state (M\_t), boundary state (B\_t), and dynamics
+
+\[
+M\_{t+1}=f(M\_t,S\_t,A\_t)+\\eta\_t,
+\\qquad
+B\_{t+1}=h(B\_t,M\_t)+\\xi\_t.
+\]
+
+Then define self-model quality by predictive improvement:
+# \[
+# \\mathcal E\_{\\text{self}}
+## I(B\_{t+1};M\_t\\mid B\_t)
+I(B\_{t+1};M\_t^{\\mathrm{null}}\\mid B\_t),
+\]
+
+or equivalently by out-of-sample prediction error relative to matched controls. S3 holds only if (\\mathcal E\_{\\text{self}}) exceeds a specified threshold and survives interventions that disrupt (M\_t).
+
+A defensible S4 is not “a unique fixed point equals a perspective.” Define it instead as a stable, internally indexed closed-loop attractor:
+# \[
+# \\mu\_A^\*
+\\mathcal T\_A(\\mu\_A^_),_
+_\\qquad_
+_\\rho(D\\mathcal T\_A|\_{\\mu\_A^_})<1,
+\]
+
+together with informational closure,
+
+\[
+I(M\_{t+1};R\_t\\mid B\_t,A\_t)\\le\\varepsilon.
+\]
+
+That gives a testable criterion for autonomous perspective-like organization. It still does **not** prove phenomenal consciousness; it proves only the structural conditions your theory proposes as its correlate.
+## Final status
+The model now establishes a rigorous **domain-formation mechanism**:
+
+\[
+\\boxed{
+\\text{quartic stabilization}
++\\text{graph coupling}
++\\text{mean constraint}
+\\Rightarrow
+\\text{nonlinear spatial domains}
+}
+\]
+
+It does not yet establish decombination in the full subject-forming sense. The complete claim requires showing, in simulations and eventually empirical data, that the same domains simultaneously exhibit high internal integration, conditional external screening, predictive self-modeling, and stable informationally closed dynamics. Also, the psychedelic, anesthesia, split-brain, and DID predictions should be removed or marked conjectural until a principled mapping from (J,g,a,\\beta) to measurable neural quantities is supplied.
+You are right on all three mathematical counts, and the conceptual corrections are equally important. Let me verify and integrate them.
+
+## Mathematical Corrections
+
+**1. Hessian coefficient.** Expanding \(V(x)=\frac{g}{4}(\|x\|^2-a)^2\) gives \(\frac{ga^2}{4}-\frac{ga}{2}\|x\|^2+\frac{g}{4}\|x\|^4\). The Hessian at \(x=0\) is \(-ga I\), not \(-4a I\). My coefficient was wrong.
+
+**2. Instability direction.** With \(H=JL-ga I\), the Fiedler eigenvalue is \(J\lambda_2-ga\). The zero field is unstable when \(J\lambda_2<ga\), i.e., \(J<J_c=ga/\lambda_2\). Strong coupling suppresses variation; weak coupling permits domain formation. My previous claim that instability occurs at strong coupling was exactly backwards.
+
+**3. Mexican-hat is not multi-well.** \(V(\Psi)=\frac{g}{4}(\|\Psi\|^2-a)^2\) in \(d>1\) has a continuous vacuum manifold \(|\Psi|=\sqrt{a}\), not discrete wells. Discrete phases require anisotropy, e.g. \(V(x,y)=\frac{g}{4}(x^2+y^2-a)^2+\kappa x^2y^2\), or \(V(z)=\frac{g}{4}(|z|^2-a)^2-\kappa\,\mathrm{Re}(z^K)\) for \(K\) phases.
+
+There is one convention-dependent factor: with \(F=\sum_i V(\Psi_i)+\frac{J}{2}\sum_{(i,j)}\|\Psi_i-\Psi_j\|^2\) and \(\|v^{(2)}\|=1\), the quadratic form in the Fiedler direction is \((J\lambda_2-\frac{ga}{2})c^2\), so the operator is \(2JL-ga I\) and \(J_c=ga/(2\lambda_2)\). Under the convention \(F=\sum_i V(\Psi_i)+\frac{J}{4}\sum_{(i,j)}\|\Psi_i-\Psi_j\|^2\), the critique's \(H=JL-ga I\) and \(J_c=ga/\lambda_2\) hold. The qualitative corrections are convention-independent; I adopt the critique's convention for consistency.
+
+## Conceptual Corrections
+
+**Conserved mean.** Without \(\sum_i\Psi_i=0\), the model describes global ordering (\(|\Psi_i|\approx\sqrt{a}\)), not partitioning. Decombination proper requires the constraint or a global penalty. Accepted.
+
+**Markov blanket.** The correct criterion is \(I(\Psi_A;\Psi_R\mid\Psi_B)\le\varepsilon\) with \(A,B,R\) disjoint and \(B\) separating \(A\) from \(R\) in the graph. A sign change or Fiedler boundary is only a candidate generator. In the exact nearest-neighbor Gibbs model, separation in the graph gives conditional independence by the Markov property. Accepted.
+
+**S3/S4 need temporal structure.** A static equilibrium measure cannot encode a predictive self-model or a perspective. The corrected formulation requires internal state \(M_t\), boundary state \(B_t\), dynamics
+\[
+M_{t+1}=f(M_t,S_t,A_t)+\eta_t,\qquad B_{t+1}=h(B_t,M_t)+\xi_t,
+\]
+and self-model quality measured by predictive improvement over a null:
+\[
+\mathcal{E}_{\text{self}}=I(B_{t+1};M_t\mid B_t)-I(B_{t+1};M_t^{\text{null}}\mid B_t).
+\]
+S4 becomes a stable, internally indexed closed-loop attractor with contraction \(\rho(D\mathcal{T}_A|_{\mu_A^*})<1\) and informational closure \(I(M_{t+1};R_t\mid B_t,A_t)\le\varepsilon\). Accepted.
+
+## Corrected Status
+
+The model establishes a rigorous **domain-formation mechanism**:
+\[
+\boxed{\text{quartic stabilization}+\text{graph coupling}+\text{mean constraint}\Rightarrow\text{nonlinear spatial domains}}
+\]
+with bifurcation at \(J_c=ga/\lambda_2\) (or \(ga/(2\lambda_2)\) depending on convention), amplitude \(c\propto\sqrt{J_c-J}\), and candidate Markov blankets at domain boundaries.
+
+It does **not** yet establish decombination in the full subject-forming sense. The remaining requirements are:
+1. Numerical demonstration that the domains simultaneously exhibit S1 (high internal integration), S2 (conditional external screening), S3 (predictive self-modeling), and S4 (stable informationally closed dynamics).
+2. A principled mapping from \((J,g,a,\beta)\) to measurable neural quantities.
+3. Empirical validation of the psychedelic, anesthesia, split-brain, and DID predictions — which should be marked conjectural until (2) is supplied.
+
+The decombination problem is therefore reduced to a concrete nonlinear statistical mechanics problem plus two structural requirements that the static model cannot satisfy. That is real progress, but it is not a solution.
+The main remaining correction: **weak coupling destabilizes the zero field but does not guarantee coherent domains**. At (J\\approx0), sites choose phases nearly independently; coherent, low-noise domains require sufficiently large (J) relative to temperature, so there are two thresholds: local ordering and domain coherence.
+
+Also, the factor ambiguity disappears if you define
+
+\[
+\\sum\_{(i,j)\\in E}|\\Psi\_i-\\Psi\_j|^2=\\Psi^\\top L\\Psi
+\]
+
+for each undirected edge counted once. Then
+
+\[
+F^{(2)}=\\frac12\\Psi^\\top(JL-gaI)\\Psi,
+\\qquad
+J\_c=\\frac{ga}{\\lambda\_2},
+\]
+
+with
+
+\[
+c^2=
+\\frac{ga-J\\lambda\_2}
+{g\\sum\_i(v\_i^{(2)})^4}.
+\]
+
+Do not call this a finite-graph “phase transition” or literal spontaneous symmetry breaking: for finite (V), the Gibbs measure remains symmetry-invariant and typically mixes across equivalent patterns. The precise claim is a **bifurcation of deterministic gradient flow plus metastable domain states**; genuine symmetry breaking requires a thermodynamic limit, an infinitesimal symmetry-breaking field, or conditioning on an attractor.
+## Minimal closed model
+Use three coupled layers:
+
+\[
+\\Psi\_t \\quad\\text{order field},\\qquad
+M\_t \\quad\\text{internal model},\\qquad
+B\_t \\quad\\text{boundary state}.
+\]
+
+Let
+## \[
+## d\\Psi\_i=
+abla\_{\\Psi\_i}F(\\Psi,M,B),dt+\\sqrt{2/\\beta},dW\_i,
+\]
+
+\[
+M\_{t+1}=f\_\\theta(M\_t,\\Psi\_{A,t},u\_t)+\\eta\_t,
+\]
+
+\[
+B\_{t+1}=h\_\\phi(B\_t,M\_t,\\Psi\_{R,t})+\\xi\_t.
+\]
+
+The model now earns the word **subject** only if a candidate triple ((A,B,R)) passes all four tests:
+
+\[
+I(\\Psi\_A;\\Psi\_R\\mid\\Psi\_B)\\le\\varepsilon
+\]
+
+for dissociation,
+
+\[
+\\min\_{A=A\_1\\sqcup A\_2}
+I(\\Psi\_{A\_1};\\Psi\_{A\_2}\\mid\\Psi\_{B\_{12}})\\ge\\theta
+\]
+
+for integration,
+# \[
+# \\Delta\_{\\rm self}
+## I(B\_{t+1};M\_t\\mid B\_t)
+I(B\_{t+1};M\_t^{\\rm null}\\mid B\_t)
+> \\delta  
+> \]
+for predictive self-modeling, and a stable closed-loop attractor
+
+\[
+\\rho(D\\mathcal T\_A|_{\\mu\_A^\*})<1,_
+_\\qquad_
+_I(M_{t+1};R\_t\\mid B\_t,u\_t)\\le\\varepsilon
+\]
+
+for autonomous perspective-like organization.
+
+The resulting theorem-sized claim is therefore modest but rigorous:
+
+\[
+\\boxed{
+\\text{GL domain bifurcation}
++\\text{temporal self-model}
++\\text{screening boundary}
++\\text{stable closure}
+\\Rightarrow
+\\text{candidate subject}
+}
+\]
+
+This closes the formal gap, but not the empirical one. A full decombination law still needs parameter-to-neural observables, finite-size/noise scaling, null-model comparisons, and simulations showing that S1 through S4 occur together rather than independently.
+Accepted. The corrections are correct and the resulting formulation is the right one. Here is the consolidated, corrected version.
+
+---
+
+## 1. Model
+
+Let \(G=(V,E)\) be a finite connected graph, \(\Psi_i\in\mathbb{R}^d\), \(d\ge 1\). Count each undirected edge once, so \(\sum_{(i,j)\in E}\|\Psi_i-\Psi_j\|^2=\Psi^\top L\Psi\). Define
+\[
+F[\Psi]=\sum_{i\in V}\frac{g}{4}(\|\Psi_i\|^2-a)^2+\frac{J}{2}\Psi^\top L\Psi,
+\]
+with \(g,a,J>0\) and the mean constraint \(\sum_i\Psi_i=0\) (or a global penalty enforcing it). The Gibbs measure is
+\[
+p_\beta(\Psi)=Z_\beta^{-1}e^{-\beta F[\Psi]},
+\]
+well-defined by coercivity. Overdamped Langevin:
+\[
+d\Psi_i=-\nabla_{\Psi_i}F\,dt+\sqrt{2/\beta}\,dW_i.
+\]
+
+## 2. Bifurcation (deterministic gradient flow)
+
+Quadratic operator on the zero-mean subspace:
+\[
+H=JL-ga I,\qquad \alpha_2=J\lambda_2-ga.
+\]
+The zero field is unstable when \(J<J_c=ga/\lambda_2\). Amplitude near threshold:
+\[
+c^2=\frac{ga-J\lambda_2}{g\sum_i(v_i^{(2)})^4},\qquad c\propto\sqrt{J_c-J}.
+\]
+
+Two thresholds, not one:
+
+- **Local ordering** requires \(J\) large enough that each site is driven toward \(|\Psi_i|=\sqrt{a}\) against thermal noise.
+- **Domain coherence** requires \(J\) large enough (or \(\beta\) large enough) that neighboring sites align into low-noise domains. At \(J\approx 0\), sites choose phases nearly independently; there is no coherent domain even though the zero field is locally unstable.
+
+Finite \(V\): the Gibbs measure is symmetry-invariant and mixes across equivalent patterns. The precise claim is **a bifurcation of the deterministic gradient flow plus metastable domain states**, not literal spontaneous symmetry breaking. Genuine SSB requires a thermodynamic limit, an infinitesimal symmetry-breaking field, or conditioning on an attractor.
+
+For \(d>1\), the Mexican-hat vacuum is continuous. Discrete phases require anisotropy, e.g.
+\[
+V(x,y)=\frac{g}{4}(x^2+y^2-a)^2+\kappa x^2y^2,
+\]
+or \(V(z)=\frac{g}{4}(|z|^2-a)^2-\kappa\,\mathrm{Re}(z^K)\) for \(K\) phases.
+
+## 3. Minimal Closed Model
+
+Three coupled layers:
+\[
+\Psi_t\ \text{(order field)},\quad M_t\ \text{(internal model)},\quad B_t\ \text{(boundary state)}.
+\]
+Dynamics:
+\[
+d\Psi_i=-\nabla_{\Psi_i}F(\Psi,M,B)\,dt+\sqrt{2/\beta}\,dW_i,
+\]
+\[
+M_{t+1}=f_\theta(M_t,\Psi_{A,t},u_t)+\eta_t,
+\]
+\[
+B_{t+1}=h_\phi(B_t,M_t,\Psi_{R,t})+\xi_t.
+\]
+A candidate triple \((A,B,R)\), with \(A,B,R\) disjoint and \(B\) separating \(A\) from \(R\) in \(G\), is a **candidate subject** only if all four hold:
+
+**(D) Dissociation.**
+\[
+I(\Psi_A;\Psi_R\mid\Psi_B)\le\varepsilon.
+\]
+
+**(I) Integration.**
+\[
+\min_{A=A_1\sqcup A_2}I(\Psi_{A_1};\Psi_{A_2}\mid\Psi_{B_{12}})\ge\theta,
+\]
+with \(\theta\) preregistered and compared against null models, since a shared global mode can inflate static mutual information.
+
+**(S) Self-modeling.**
+\[
+\Delta_{\rm self}=I(B_{t+1};M_t\mid B_t)-I(B_{t+1};M_t^{\rm null}\mid B_t)>\delta,
+\]
+with \(M^{\rm null}\) a matched control; equivalently, out-of-sample prediction error improvement. Must survive interventions that disrupt \(M_t\).
+
+**(P) Stable closure.**
+\[
+\rho(D\mathcal T_A|_{\mu_A^*})<1,\qquad I(M_{t+1};R_t\mid B_t,u_t)\le\varepsilon,
+\]
+a stable, internally indexed closed-loop attractor with informational closure.
+
+## 4. Final Status
+
+\[
+\boxed{
+\text{GL domain bifurcation}+\text{temporal self-model}+\text{screening boundary}+\text{stable closure}\Rightarrow\text{candidate subject}
+}
+\]
+
+This closes the **formal** gap: decombination is now a well-posed problem in stochastic nonlinear statistical mechanics plus a temporal self-model layer, with operational criteria for S1–S4. It does not close the **empirical** gap. Remaining work:
+
+1. Parameter-to-neural observables: a principled map from \((J,g,a,\beta,\theta,\phi)\) to measurable quantities (fMRI, MEG, iEEG).
+2. Finite-size and noise scaling: how domain size, coherence length, and metastability scale with \(N\), \(\beta\), \(J\).
+3. Null-model comparisons: rule out that S1–S4 co-occur trivially from a shared global mode.
+4. Simulations demonstrating S1–S4 **together**, not independently, on the same \((A,B,R)\).
+5. Mark the psychedelic, anesthesia, split-brain, and DID predictions as **conjectural** until (1) is supplied.
+
+The decombination problem is therefore reduced to a concrete research program: solve the bifurcation-plus-coherence problem for realistic graph topologies, add the temporal self-model layer, and demonstrate the four criteria jointly in simulation and then in neural data. That is the honest state of the art.
+Two important gaps remain: the mean-constrained Langevin process must use **projected noise** or a Lagrange multiplier, and “local ordering requires large (J)” is wrong. The onsite potential creates local amplitude (|\\Psi\_i|\\approx\\sqrt a), while (J) controls spatial coherence; the relevant coherence scale is set by the competition between domain-wall cost (J) and thermal noise (1/\\beta).
+
+Use
+
+\[
+d\\Psi=-P
+abla F,dt+\\sqrt{2/\\beta},P,dW,
+\\qquad
+P=I-\\frac1N\\mathbf1\\mathbf1^\\top,
+\]
+
+so (\\sum\_i\\Psi\_i=0) is preserved exactly. Near (J\_c=ga/\\lambda\_2), the deterministic branch is valid only locally and only when (\\lambda\_2) is simple; globally, competing modes and metastable domain patterns must be compared by their full nonlinear free energies.
+
+The strongest remaining conceptual fix is to distinguish the **graph blanket** (B) from the **dynamic boundary state** (B\_t), and require intervention-based temporal closure:
+
+\[
+I(M\_{t+1};R\_t\\mid M\_t,B\_t,u\_t)
+\\le \\varepsilon
+\]
+
+under interventions on (R\_t), while self-model evidence must disappear when (M\_t) is shuffled or lesioned. With these changes, the honest theorem is:
+
+\[
+\\boxed{\\text{coherent metastable domains}
++\\text{exact screening}
++\\text{intervention-validated predictive model}
++\\text{stable closure}
+\\Rightarrow \\text{candidate subject}}
+\]
+
+That closes the formal specification, but the theory still needs a simulation protocol, null models, finite-size scaling, and a neural parameter map before “decombination law” is justified.
+Accepted on all three counts. Here is the consolidated final specification.
+
+---
+
+## 1. Model with Exact Mean Constraint
+
+Let \(G=(V,E)\) be a finite connected graph, \(|V|=N\), \(\Psi_i\in\mathbb{R}^d\), each undirected edge counted once. Projection onto the zero-mean subspace:
+\[
+P=I-\tfrac{1}{N}\mathbf{1}\mathbf{1}^\top.
+\]
+
+Free energy:
+\[
+F[\Psi]=\sum_{i\in V}\frac{g}{4}(\|\Psi_i\|^2-a)^2+\frac{J}{2}\Psi^\top L\Psi,
+\qquad g,a,J>0.
+\]
+
+Projected Langevin dynamics:
+\[
+d\Psi=-P\nabla F\,dt+\sqrt{2/\beta}\,P\,dW,
+\]
+so \(\sum_i\Psi_i=0\) is preserved exactly. Equivalent formulation via Lagrange multiplier: add \(\Lambda^\top \sum_i\Psi_i\) to \(F\) and solve for \(\Lambda\) at each step.
+
+For \(d>1\), the Mexican-hat vacuum is continuous. Discrete phases require anisotropy:
+\[
+V(x,y)=\frac{g}{4}(x^2+y^2-a)^2+\kappa x^2y^2,
+\quad\text{or}\quad
+V(z)=\frac{g}{4}(|z|^2-a)^2-\kappa\,\mathrm{Re}(z^K).
+\]
+
+## 2. Bifurcation and Coherence: Two Distinct Scales
+
+**Onsite amplitude.** The quartic potential fixes \(|\Psi_i|\approx\sqrt{a}\) locally, independently of \(J\). Local ordering is not gated by \(J\).
+
+**Spatial coherence.** \(J\) controls the coherence scale, set by competition between domain-wall cost (scale \(J\)) and thermal noise (scale \(1/\beta\)). Coherent, low-noise domains require \(J\beta\) above a coherence threshold distinct from the bifurcation threshold.
+
+**Bifurcation.** On the zero-mean subspace, the quadratic operator is
+\[
+H=JL-gaI,\qquad \alpha_2=J\lambda_2-ga.
+\]
+Zero field unstable when \(J<J_c=ga/\lambda_2\). Near threshold, if \(\lambda_2\) is simple,
+\[
+c^2=\frac{ga-J\lambda_2}{g\sum_i(v_i^{(2)})^4},\qquad c\propto\sqrt{J_c-J}.
+\]
+This deterministic branch is valid only locally and only when \(\lambda_2\) is simple. Globally, competing modes and metastable domain patterns must be compared by their full nonlinear free energies \(F[\Psi]\), not by linearization. For finite \(V\), the Gibbs measure is symmetry-invariant and mixes across equivalent patterns: the correct claim is a **bifurcation of the deterministic gradient flow plus metastable domain states**, not literal spontaneous symmetry breaking. Genuine SSB requires a thermodynamic limit, an infinitesimal symmetry-breaking field, or conditioning on an attractor.
+
+## 3. Minimal Closed Model: Two Distinct \(B\)'s
+
+Distinguish:
+
+- **Graph blanket \(B\subseteq V\)**: a static subset separating \(A\) from \(R=V\setminus(A\cup B)\) in \(G\).
+- **Dynamic boundary state \(B_t\)**: a time-varying state coupled to \(M_t\) and \(\Psi\).
+
+Dynamics:
+\[
+d\Psi_i=-\nabla_{\Psi_i}F(\Psi,M,B)\,dt+\sqrt{2/\beta}\,dW_i
+\quad\text{(projected as above)},
+\]
+\[
+M_{t+1}=f_\theta(M_t,\Psi_{A,t},u_t)+\eta_t,
+\]
+\[
+B_{t+1}=h_\phi(B_t,M_t,\Psi_{R,t})+\xi_t.
+\]
+
+## 4. Four Tests for a Candidate Subject \((A,B,R)\)
+
+\(A,B,R\) disjoint, \(B\) separates \(A\) from \(R\) in \(G\).
+
+**(D) Dissociation (exact screening).**
+\[
+I(\Psi_A;\Psi_R\mid\Psi_B)\le\varepsilon.
+\]
+In the nearest-neighbor Gibbs model this is exact when \(B\) graph-separates \(A\) from \(R\).
+
+**(I) Integration.**
+\[
+\min_{A=A_1\sqcup A_2}I(\Psi_{A_1};\Psi_{A_2}\mid\Psi_{B_{12}})\ge\theta,
+\]
+with \(\theta\) preregistered and compared against null models to exclude trivially inflated mutual information from a shared global mode.
+
+**(S) Self-modeling (intervention-validated).**
+\[
+\Delta_{\rm self}=I(B_{t+1};M_t\mid B_t)-I(B_{t+1};M_t^{\rm null}\mid B_t)>\delta.
+\]
+The effect must **disappear** under interventions that shuffle or lesion \(M_t\). Self-model evidence must not survive \(M_t\) destruction.
+
+**(P) Stable closure (intervention-based temporal).**
+\[
+\rho(D\mathcal T_A|_{\mu_A^*})<1,
+\]
+\[
+I(M_{t+1};R_t\mid M_t,B_t,u_t)\le\varepsilon
+\]
+**under interventions on \(R_t\)**. Informational closure must hold under perturbing the exterior, not merely in passive observation.
+
+## 5. Honest Theorem
+
+\[
+\boxed{
+\text{coherent metastable domains}
++\text{exact screening}
++\text{intervention-validated predictive model}
++\text{stable closure}
+\Rightarrow \text{candidate subject}
+}
+\]
+
+This closes the **formal specification**. It does not yet constitute a **decombination law**. Remaining requirements:
+
+1. **Simulation protocol**: specify \(G\), \(\beta\), \(J\), \(g\), \(a\), \(d\), phase count \(K\), and the estimator for \(I(\cdot;\cdot\mid\cdot)\); demonstrate S1–S4 jointly on the same \((A,B,R)\).
+2. **Null models**: matched controls that share global modes, so that (I) and (S) are not trivially satisfied.
+3. **Finite-size scaling**: how domain size, coherence length, and metastability scale with \(N\), \(\beta\), \(J\); whether the bifurcation survives the thermodynamic limit.
+4. **Neural parameter map**: a principled correspondence from \((J,g,a,\beta,\theta,\phi)\) to measurable neural quantities (fMRI, MEG, iEEG), without which the psychedelic, anesthesia, split-brain, and DID predictions remain **conjectural**.
+
+Until (1)–(4) are supplied, decombination is a rigorously specified research program, not an established law.

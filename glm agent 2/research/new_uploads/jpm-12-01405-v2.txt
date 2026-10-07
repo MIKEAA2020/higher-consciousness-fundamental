@@ -1,0 +1,965 @@
+             Journal of
+             Personalized
+             Medicine
+
+Systematic Review
+Functional Neuroimaging in Dissociative Disorders:
+A Systematic Review
+Martina Nicole Modesti 1 , Ludovica Rapisarda 1 , Gabriela Capriotti 2 and Antonio Del Casale 3, *
+
+                                          1   Faculty of Medicine and Psychology, Sapienza University of Rome, Via di Grottarossa 1035, 00189 Rome, Italy
+                                          2   Unit of Nuclear Medicine, Department of Medical-Surgical Sciences and Translational Medicine,
+                                              Faculty of Medicine and Psychology, Sant’Andrea University Hospital, Sapienza University of Rome,
+                                              Via di Grottarossa 1035, 00189 Rome, Italy
+                                          3   Unit of Psychiatry, Department of Dynamic and Clinical Psychology, Faculty of Medicine and Psychology,
+                                              Sant’Andrea University Hospital, Sapienza University of Rome, Via di Grottarossa 1035, 00189 Rome, Italy
+                                          *   Correspondence: antonio.delcasale@uniroma1.it
+
+
+                                          Abstract: Background: Dissociative disorders encompass loss of integration in essential functions
+                                          such as memory, consciousness, perception, motor control, and identity. Nevertheless, neuroimaging
+                                          studies, albeit scarce, have suggested the existence of particular brain activation patterns in patients
+                                          belonging to this diagnostic category. The aim of this review is to identify the main functional
+                                          neuroimaging correlates of dissociative disorders. Methods: we searched the PubMed database to
+                                          identify functional neuroimaging studies conducted on subjects with a diagnosis of a dissociative
+                                          disorder, following the PRISMA guidelines. In the end, we included 13 studies in this systematic
+                                          review, conducted on 51 patients with dissociative identity disorder (DID), 28 subjects affected by
+                                          depersonalization disorder, 24 with dissociative amnesia, and 6 with other or not specified dissociative
+                                          disorders. Results: Prefrontal cortex dysfunction seems prominent. In addition, changes in the
+                                          functional neural network of the caudate are related to alterations of identity state and maintenance
+Citation: Modesti, M.N.;                  of an altered mental status in DID. Another role in DID seems to be played by a dysfunction of
+Rapisarda, L.; Capriotti, G.; Del         the anterior cingulate gyrus. Other regions, including parietal, temporal, and insular cortices, and
+Casale, A. Functional Neuroimaging        subcortical areas were reported to be dysfunctional in dissociative disorders. Conclusions: Prefrontal
+in Dissociative Disorders: A              dysfunction is frequently reported in dissociative disorders. Functional changes in other cortical and
+Systematic Review. J. Pers. Med. 2022,    subcortical areas can be correlated with these diagnoses. Further studies are needed to clarify the
+12, 1405. https://doi.org/10.3390/        neurofunctional correlations of each dissociative disorder in affected patients, in order to identify
+jpm12091405                               better tailored treatments.
+Academic Editors: Lu-Ting Kuo and
+Abel Po-Hao Huang                         Keywords: dissociative disorders; dissociative identity disorder; depersonalization disorder; dissociative
+                                          amnesia; fMRI; PET; functional neuroimaging
+Received: 9 August 2022
+Accepted: 26 August 2022
+Published: 29 August 2022
+
+Publisher’s Note: MDPI stays neutral      1. Introduction
+with regard to jurisdictional claims in
+                                                Dissociation encompasses loss of integration in essential functions such as memory,
+published maps and institutional affil-
+                                          consciousness, perception, motor control, and identity [1]. Although these are estab-
+iations.
+                                          lished conclusions, the classification of dissociative disorders has undergone many changes
+                                          through the decades, being initially assimilated to what are nowadays called somatoform
+                                          disorders, and that were once defined as neuroses. The DSM-II [2] included two categories
+Copyright: © 2022 by the authors.
+                                          of hysterical neurosis (conversion type and dissociative type) and a hysterical (histrionic)
+Licensee MDPI, Basel, Switzerland.        personality disorder, but the atheoretically-oriented DSM-III [3] omitted the term “neurosis”
+This article is an open access article    and initially conserved the term “hysterical” only in brackets, splitting hysterical neurosis
+distributed under the terms and           conversion type into conversion disorder and psychogenic pain disorder in the context of
+conditions of the Creative Commons        somatoform disorders, and hysterical neurosis dissociative type into psychogenic amne-
+Attribution (CC BY) license (https://     sia, psychogenic fugue, and multiple personality disorder in the context of dissociative
+creativecommons.org/licenses/by/          disorders (sleepwalking disorder was placed among childhood disorders). This trend was
+4.0/).                                    confirmed in the subsequent revisions up to DSM-IV-TR [4]. DSM-5 has maintained the
+
+
+
+J. Pers. Med. 2022, 12, 1405. https://doi.org/10.3390/jpm12091405                                                 https://www.mdpi.com/journal/jpm
+J. Pers. Med. 2022, 12, 1405                                                                                           2 of 14
+
+
+
+
+                               Dissociative Disorders, somehow renaming the disorders included and adding new ones
+                               (Dissociative Identity Disorder, Dissociative Amnesia, Depersonalization/Derealization
+                               Disorder, Other Specified Dissociative Disorder, and Unspecified Dissociative Disorder).
+                               Dissociative identity disorder in DSM-5 now refers to possession and/or identity fragmen-
+                               tation, in order to be more aligned with possible cultural differences. Dissociative amnesia
+                               includes dissociative fugue as a subtype, since fugue is a rare disorder that always involves
+                               amnesia but does not always include confused wandering or loss of personality identity [5].
+                               Depersonalization disorder also includes derealization, since the two often co-occur. As far
+                               as single symptoms are concerned, severe dissociation has been associated with childhood
+                               trauma exposure [6,7] and meta-analyses have proved that all forms of childhood traumas
+                               are directly associated with dissociation in patients with mental disorders [6]. In fact, pa-
+                               tients affected by dissociative identity disorder (DID) report severe childhood traumas [8,9],
+                               while patients suffering from depersonalization disorder (DPD) report lower childhood
+                               trauma exposure, also compared to patients with depressive disorders [10,11]. It is unclear
+                               whether similar disorders with different severity may share neural correlates and etiology,
+                               but findings on neural alterations may help solve this puzzle.
+                                     In the last four decades, neuroimaging studies have focused on dissociative disorders,
+                               suggesting the existence of particular brain activation patterns in patients belonging to
+                               this diagnostic category. These studies have shown regional cerebral blood flow (rCBF) or
+                               glucose metabolism (CMRglu) changes in the temporal, parietal (implicated in dissociative
+                               and conversion phenomena), and orbitofrontal (likely involved in the integration of the
+                               self) cortices, in the hippocampus (involved in memory and in the removal of traumatic
+                               events), in the basal ganglia, and in other areas. However, they have reached different,
+                               and at times conflicting, conclusions, finding out hyperactivation of brain areas in some
+                               cases [12–14], and hypoactivation in others [15]. It is also unclear whether these changes
+                               involve more often the left or right hemisphere, albeit recent evidence suggests greater
+                               damage of the former. Furthermore, most of these studies are limited by low sample size,
+                               heterogeneity of diagnosis and comorbidity, and stage of disease (onset, acute, or chronic).
+                                     Established models have linked dissociation with increased recruitment in regions
+                               involved in executive control [16,17], such as the ventromedial prefrontal cortex, anterior
+                               cingulate cortex, and inferior frontal gyri, resulting in dampened activation of the amygdala.
+                               Attention has also been focused on the connectivity of temporal cortices, specifically the
+                               temporoparietal junctions, because of its involvement in the neurophysiology of multisen-
+                               sory integration [18], whose processing can be altered in case of out of body experiences
+                               during brain stimulation and lesion studies [19,20].
+                                     We hypothesized that there could be common functional changes in patients with a
+                               DSM diagnosis of dissociative disorders across different brain regions during task execution
+                               and/or during resting state, and that these alterations would match impaired performance
+                               of neurocognitive tasks. Considering the low prevalence of dissociative disorders, the
+                               low number of functional neuroimaging studies and their mostly inconsistent results, we
+                               aimed to clarify the main neural functional pattern associated with these diagnoses. This
+                               review aimed to identify alterations in functional neuroimaging techniques reports, and to
+                               correlate them with impaired neurocognitive performance and psychopathology of patients
+                               with DDs.
+
+                               2. Materials and Methods
+                                    A search was conducted using the international scientific database PubMed (http://
+                               www.pubmed.gov; accessed on 2 August 2022) to identify functional neuroimaging studies
+                               conducted on subjects with a diagnosis of dissociative disorder (i.e., dissociative identity
+                               disorder, depersonalization disorder, dissociative amnesia, and other or not specified
+                               dissociative disorders). We followed the methods of the Preferred Reporting Items for
+                               Systematic Reviews and Meta-Analyses (PRISMA Statement) [21]. First, we searched the
+                               database PubMed with the title/abstract filter, using the keywords “dissociative disord*”,
+                               “dissociative amnesia”, “identity disorder”, “PET”, “MRI”, “positron emission”, “functional
+J. Pers. Med. 2022, 12, 1405                                                                                            3 of 14
+
+
+
+
+                               magnetic”, and “spectroscopy.” Second, we collected further studies by examining the
+                               bibliographies of relevant articles in the first step or through the “related article” function
+                               of the PubMed database, and bibliographies of reviews on the topic.
+                                     We included articles on functional neuroimaging studies in samples of patients diag-
+                               nosed with dissociative disorders (Dissociative Identity Disorder, Dissociative Amnesia,
+                               Depersonalization/Derealization Disorder, Other Specified Dissociative Disorder, and Un-
+                               specified Dissociative Disorder) according to the DSM criteria, regardless of the presence
+                               of healthy controls in the study. We excluded case reports, case studies, pharmacological
+                               trials, reviews, studies on children, studies employing techniques other than functional
+                               neuroimaging, and studies involving patients with other psychiatric diagnoses. Three
+                               reviewers screened each record and each report reviewed, and collected reported data,
+                               working independently from each other, and subsequently verifying together the appropri-
+                               ateness of the procedure, and proofreading the included data and results. Two reviewers
+                               independently assessed the risk of bias in each included study, considering the sample
+                               number, the inclusion/exclusion criteria of participants, the consistency of the sample, and
+                               the methods employed, and used the Scottish Intercollegiate Guidelines Network (SIGN)
+                               quality assessment tool [22]. We did not register and prepare this study on the basis of a
+                               pre-established protocol. We did not use automation tools in our methodological processes.
+                                     Based on these criteria, we analyzed 61 studies, from which we excluded 48 studies, of
+                               which 26 were unrelated to the subject, 6 were case reports/case studies [15,23–27], 1 was
+                               focused on schizophrenia [28], 1 was conducted on adolescents with post-traumatic stress
+                               disorder [29], 1 was conducted on healthy subjects [30], 7 used structural neuroimaging
+                               techniques [31–37], and 3 were not focused on dissociative disorders [38–40]. We finally
+                               included 13 studies published between 2006 and 2022 [14,33,34,41–50]. We grouped the
+                               studies in our discussion on the basis of the most consistently reported dysfunctional brain
+                               areas in affected patients.
+                                     The main study outcomes for which data were sought were changes in neural cortical
+                               and subcortical activation patterns and changes in neural metabolism correlated with the
+                               diagnosis of a dissociative disorder and/or with symptom severity in patients with a
+                               dissociative disorder.
+
+                               Quality Assessment Tool and Risk of Bias
+                                    The potential methodological quality of the study and risk of bias were examined
+                               through the SIGN quality assessment tool [22]. All studies addressed an appropriate and
+                               clearly focused question. Two studies had a high risk of bias in terms of study subjects,
+                               because they included two different diagnoses in the sample (view Table 1). In all 13 studies,
+                               nevertheless, the two groups being analyzed are selected from source populations that
+                               are comparable in all respects other than the factor under investigation. Even when rare
+                               differences were present (i.e., age), they were not statistically significant. There were
+                               no dropouts in the studies assessed, but no study specified how many of the people
+                               asked to take part did so, in each of the groups being studied. The outcomes are clearly
+                               defined in every study, the method of assessment of diagnosis is very reliable in each case
+                               (DSM), and all psychiatric diagnoses are established through these criteria worldwide.
+                               Confidence intervals have always been provided when analyzing brain functional changes
+                               in subjects. In conclusion, the biggest risk of bias lies only in the low sample of the
+                               studies, which could exaggerate the significance of the results [51]; nevertheless, given
+                               the low incidence of dissociative disorders in the general population, the results can be
+                               considered reliable. Taking into account clinical considerations, the evaluation of the
+                               methodology used, and the statistical power of the study, there is evidence of association
+                               between the disease and certain brain functional changes. In addition, according to the
+                               Grading of Recommendations Assessment, Development, and Evaluation (GRADE) system
+                               of rating the quality of evidence and grading strength of recommendations in systematic
+                               reviews [52], also taking into considerations the two aforementioned studies (view Table 1)
+                               which included two different diagnoses in the subject group, and therefore have a higher
+J. Pers. Med. 2022, 12, 1405                                                                                                                              4 of 14
+
+
+
+
+                                      risk of selection bias, all included studies show consistent findings with no publication
+                                      bias, no imprecisions, no serious limitations, and no serious indirectness. Ultimately,
+                                      considering all the studies, their appropriateness of diagnosis as well as appropriate control
+                                      of confounding, other aspects of design, conduct, and analysis that influence the risk of
+                                      bias, we can conclude that the quality of evidence is high. Ideally, future systematic reviews
+                                      on this topic will comprehensively summarize evidence on all important functional brain
+                                      changes in dissociative disorders.
+
+                                      Table 1. Main characteristics and results of functional neuroimaging studies on dissociative disorders.
+
+         Article            Tech        Participants                 Age               Medications           Comorbidity               General Findings
+                                   -Patients: 14 (11 males
+                                   and 4 females) with       -Patients’ mean age:                                                  Compared to controls,
+ Brand et al., 2009                                                                                      -1 headache, migraine
+                                   Dissociative Amnesia      36.57 years                                                           dissociative patients
+                                   (DSM-IV)                                                                                        showed a significantly
+                                                                                                         -1 closed head injury     decreased glucose
+                                                                                                         with headache, ataxia,    utilization in the right
+                                                                                                         right arm hemiparesis,    inferolateral prefrontal
+ Functional brain           PET    -Control group:                                                       diagnosis of              cortex.
+                                                             -Controls’ mean age:                        conversion hysteria,
+ imaging in 14 patients            19 healthy individuals
+                                                             45.32 years                                 diffuse abdominal and
+ with dissociative                 (13 males and
+ amnesia reveals right             6 females) without                                                    chest pain without
+ inferolateral prefrontal          neurological or                                                       organic causation
+ hypometabolism                    psychiatric history                                                   -1 motor symptoms
+                                                                                                         (potential mild
+                                                                                                         apoplexy)
+                                                                                                         -1 hypothyroidism
+                                   All participants                                 -1 mirtazapine                                 Both patients and controls
+                                                             -Patients’ mean age:                        Patients’ co-morbid
+ Elzinga et al., 2007              were female                                      (30 mg/day) and
+                                                             40.8 (±10.7)                                diagnoses:                activated brain regions
+                                   -Patients: 7 diagnosed                           venlafaxine                                    involved in working
+                                   with DID; 6 diagnosed                            (75 mg/day)                                    memory (anterior,
+                                   with Dissociative                                                                               dorsolateral, and
+                                   Disorder NOS                                                                                    ventrolateral prefrontal
+                                   (DSM-IV, SCID-D)                                                                                cortex and parietal cortex).
+                                   -Controls: 16 healthy
+                                   subjects without                                 -1 citalopram
+ Neural correlates                                                                                       -12 PTSD
+                            fMRI   psychiatric                                      70 mg/day                                      Dissociative patients
+ of enhanced
+                                   disorder history                                                                                showed more engagement
+ working-memory
+                                                             -Controls’ mean age:                        -2 Major depressive       of left anterior prefrontal
+ performance in                    RoB: high
+                                                             34.6 (±10.9)                                Disorder                  cortex, dorsolateral
+ dissociative disorder:
+                                                                                    All other            -4 Dysthymia              prefrontal cortex, and
+ a functional                      Possible cause of
+                                                                                    participants were    Patients’ history:        parietal cortex.
+ MRI study.                        heterogeneity: two
+                                                                                    free of medication   -10 Major depressive
+                                   different diagnoses in
+                                                                                                         disorder
+                                   the study sample
+                                                                                                         -6 Alcohol abuse
+                                                                                                         -3 Substance abuse
+                                   -9 participants with
+ Ketay et al., 2014                Depersonalization                                                     Participants were         Compared to controls,
+                                                             Participants’ age:                          medically and
+                                   Disorder diagnosis                                                                              dissociative patients
+                                                             18–55 years                                 neurologically healthy
+                                   (SCID-I/P, SCID-II,                                                                             showed significantly more
+ Face processing in
+                                   SCID-D)                                                               subjects, besides their   activation in right anterior
+ depersonalization: An      fMRI   -10 control                                                           psychiatric diagnosis     cingulate cortex, bilateral
+ fMRI study of the
+                                   participants                                                                                    medial prefrontal cortex,
+ unfamiliar self
+                                   (Dissociative                                                                                   and left middle frontal
+                                   Experiences Scale’s                                                                             gyrus in response to self vs.
+                                   score < 10)                                                                                     stranger faces.
+                                                                                    -3 paroxetine,
+                                   -9 patients (4 female,
+                                                                                    fluoxetine,                                    When exposed to happy
+                                   5 male) with
+                                                             -Patients:             olanzapine           6 patients had a          and sad facial expressions,
+ Lemche et al., 2007               Depersonalization
+                                                             36.1 ± 2.3 years       (medicated with      secondary                 patients showed lower
+                                   diagnosis
+                                                                                    lowest effective     comorbidity of anxiety    subcortical limbic activity
+                            fMRI   (DSM-IV criteria)
+                                                                                    doses)               or depression             and negative correlations
+ Limbic and prefrontal                                                                                   (psychotic symptoms       between skin conductance
+ responses to facial               -12 healthy subjects      -Controls:                                  had been excluded)        measures in bilateral
+                                                                                    - 6 no medication
+ emotion expressions               (5 female, 7 male)        27.3 ± 1.9 years                                                      dorsal prefrontal cortices.
+ in depersonalization
+J. Pers. Med. 2022, 12, 1405                                                                                                                           5 of 14
+
+
+
+
+                                     Table 1. Cont.
+
+         Article           Tech        Participants                 Age                Medications         Comorbidity              General Findings
+                                  -9 patients with
+                                  diagnosis of
+ Lemche et al., 2016              Depersonalization         -Patients: mean age                                                Patients showed slight
+                                  Derealization             36.11 (±2.34) years                                                neuropsychological deficits
+                                  Disorder                                                                                     in terms of reduced
+                                                                                                                               short-term memory,
+                                                                                                                               distractibility, and inability
+                                                                                                                               to suppress stress-related
+                                                                                                                               arousal states under
+                          fMRI                                                                                                 cognitive task, but
+ Cognitive load and               (DSM-V criteria)                                                                             selective attention,
+ autonomic response                                                                                                            cognitive inhibition and
+ patterns under                                                                                                                working memory were not
+ negative priming                                                                                                              impaired overall.
+ demand in
+ depersonalization                -12 healthy control       -Controls: mean age
+ derealization disorder           subjects                  27.25 (±1.95) years
+                                  -10 patients (9 male, 1
+                                  female with diagnosis     Patients:                                                          Dissociative patients
+                                                                                    -2 fluoxetine
+ Medford et al., 2006             of Depersonalization      23–50 years (mean                                                  showed stronger
+                                                                                    (40 mg/day)
+                                  Disorder (DSM-IV          age 31.2, SD = 9.3)                                                recognition for clearly
+                                  criteria)                                                                                    emotive words, but not for
+ Emotional memory in      fMRI                                                      -3 lamotrigine                             neutral words encoded in
+                                                            Controls:
+ depersonalization                -12 healthy male                                  (250 mg/day)                               an emotive context.
+                                                            22–34 years (mean
+ disorder: A functional           controls                                          -1 lamotrigine                             Furthermore, patients did
+                                                            age 27.8, SD = 3.6)
+ MRI study                                                                          (50 mg/day) and                            not show activation of
+                                                                                    paroxetine                                 emotional processing areas
+                                                                                    (40 mg/day)                                during encoding process.
+                                                                                    -4 no medication
+
+                                                                                                       Exclusion criteria:     PET data revealed different
+ Reinders et al., 2006            11 female patients        Patients’ age:                             pregnancy, traumatic    neural networks to be
+                                  with DID (according       27–48 years                                experiences in a        associated with different
+ Psychobiological                 to DSM-IV criteria                                                   hospital setting,       processing of the neutral
+ Characteristics of       PET     and SCID-D)                                                                                  and trauma-related
+                                                                                                       systemic or
+ Dissociative Identity                                                                                 neurological illness,   memory script by
+ Disorder: A Symptom                                                                                   and no command of       neutral-related state and
+ Provocation Study                                                                                     the Dutch language      trauma-related state.
+                                  -11 patients (all
+                                                                                                                               DID patients showed
+                                  female) with diagnosis    -Patients’ mean                            Exclusion criteria:
+ Reinders et al., 2014                                                                                                         similar pattern of
+                                  of DID (DSM-IV,           age = 41.0, SD = 6.1)                      pregnancy, traumatic    activation to PTSD model.
+                                  SCID-D)                                                              experiences in a
+ Opposite brain                   -16 healthy control       -Controls’ mean                                                    The hypo-aroused identity
+                                                                                                       hospital setting,
+ emotion-regulation               subjects (all female)     age = 41.1,                                                        state activates the
+                                                                                                       systemic or
+ patterns in identity             without psychiatric       SD = 10.7)                                                         prefrontal cortex, cingulate,
+                                                                                                       neurological illness,
+ states of dissociative           disease or current or                                                                        posterior association areas,
+                                                                                                       and no command of
+ identity disorder: A     PET     past trauma-related                                                                          and parahippocampal gyri
+                                                                                                       the Dutch language.
+ PET study and                    problems, instructed                                                                         (overmodulating emotion
+ neurobiological model            to simulate                                                                                  regulation), whereas the
+                                  dissociative identity                                                                        hyper-aroused identity
+                                  states                                                                                       state activates the
+                                                                                                                               amygdala,
+                                                                                                                               the insula, and the dorsal
+                                                                                                                               striatum,
+                                                                                                                               (undermodulating emotion
+                                                                                                                               regulation).
+J. Pers. Med. 2022, 12, 1405                                                                                                                          6 of 14
+
+
+
+
+                                     Table 1. Cont.
+
+         Article           Tech        Participants                Age               Medications            Comorbidity             General Findings
+                                                                                                                                Prefrontal hyperactivation
+                                                                                                                                during neutral personality
+                                                           -Patients: mean age
+ Reinders et al., 2016            29 subjects:                                                                                  state in response to
+                                                           41.0 (SD = 6.1)
+                                                                                                                                trauma-related words vs.
+                                                                                                                                neutral words.
+                                                                                                                                Right hippocampus and
+ The Psychobiology of             -11 patients with DID                                                                         left amygdala different
+ Authentic and                    (DSM-IV)                                                                                      activation patterns have
+ Simulated                                                                                                                      been associated with DID.
+ Dissociative                     -18 mentally healthy
+ Personality States:              control individuals
+ The Full Monty                   (all female): 10
+                                                           -High-fantasy-
+                                  high-fantasy-prone
+                                                           prone
+                          PET     DID-simulating, 8                                                                             Involvement of the caudate
+                                                           DID-simulating
+                                  low-fantasy-prone                                                                             nucleus both in the switch
+                                                           controls: mean age
+                                  DID-simulating                                                                                between identity states and
+                                                           38.2 (SD = 10.9)
+                                  (without history                                                                              in the maintenance of the
+                                  potentially                                                                                   altered identity state.
+                                  traumatizing events)
+                                  Controls were
+                                  instructed to simulate
+                                  different dissociative
+                                                           -Low-fantasy-prone
+                                  personality states and
+                                                           DID-simulating
+                                  write the
+                                                           controls: mean age
+                                  autobiographical
+                                                           42.5 (SD = 10.1)
+                                  analog “neutral” and
+                                  “trauma” memory
+                                  scripts.
+                                  -Patients: 15 females
+                                                                                                                                Compared to DID-ANP,
+                                  with Dissociative
+                                                                                                                                DID-EP showed longest
+                                  Identity Disorder
+                                                           -DID group mean                                                      reaction times when
+                                  diagnosis (DSM-IV                              -13 patients: mainly
+ Schlumpf et al., 2013                                     age: 43.3 years                              Exclusion criteria:     exposed to neutral faces
+                                  criteria and SCID-D),                          antidepressant
+                                                           (SD = 9.1)                                                           and more involvement of
+                                  considering the ANP
+                                                                                                                                the parahippocampal
+                                  and EP prototypes of
+                                                                                                                                gyrus.
+                                  DID.
+                                                                                                                                When compared to
+                          fMRI                                                                                                  EP-simulating subjects,
+                                                                                                                                DID-EP showed more
+ Dissociative                     -DID simulating          -Simulating control   -2 patients: no        -comorbid psychosis,    involvement in the
+ part-dependent                   control group: 15        group mean age:       medication             drug abuse or           brainstem, face-sensitive
+ biopsychosocial                  female actors, who       43.2 years                                   addiction, antisocial   regions, and motor-related
+ reactions to backward            were instructed to       (SD = 10.4)                                  or histrionic           areas.
+ masked angry and                 simulate DID-ANP                                                      personality disorder,   DID-ENP, when exposed
+ neutral faces: An fMRI           and DID-EP.                                                           neurological or         to neutral and angry faces,
+ study of dissociative                                                                                  organic brain disease   showed a decreased
+ identity disorder.                                                                                                             activation all over the
+                                                                                                                                brain.
+                                                                                                                                ANP-EP comparison: ANP
+                                  -Patients: 15 females                                                                         perfusion patterns showed
+                                  with Dissociative                                                                             elevated involvement of
+                                  Identity Disorder                                                                             bilateral thalamus, EP
+                                                           -DID group mean
+                                  diagnosis (DSM-IV                              -13 patients: mainly   Exclusion criteria:     showed increased
+ Schlumpf et al., 2014                                     age: 43.3 years
+                                  criteria and SCID-D),                          antidepressant         comorbid psychosis,     perfusion in the
+                                                           (SD =9.1)
+                                  considering the ANP                                                   drug abuse or           dorsomedial prefrontal
+                                  and EP prototypes                                                     addiction, antisocial   cortex, primary
+                          fMRI    of DID.                                                                                       somatosensory cortex, and
+                                                                                                        or histrionic
+                                                                                                        personality disorder,   motor-related areas.
+ Dissociative                                              -Simulating control                          neurological or         ANP and EP- simulating
+ Part-Dependent                   -DID simulating          group mean age:                                                      controls fitted their
+                                                                                 -2 patients: no        organic brain disease
+ Resting-State Activity           control group: 15        43.2 years                                                           role-play strategies,
+ in Dissociative                  female actors, who       (SD = 10.4)           medication
+                                                                                                                                activating brain structures
+ Identity Disorder: A             were instructed to       (The sample was                                                      involved in visual mental
+ Controlled fMRI                  simulate DID-ANP         part of a larger                                                     images and empathizing
+ Perfusion Study                  and DID-EP.              study)                                                               feelings.
+J. Pers. Med. 2022, 12, 1405                                                                                                                          7 of 14
+
+
+
+
+                                     Table 1. Cont.
+
+         Article           Tech        Participants                 Age             Medications             Comorbidity              General Findings
+                                                                                                                                 Results showed the
+                                                                                                                                 activation of prefrontal
+ Vissia et al., 2022              62 female participants:                                                                        parietal network, main
+                                                            The sample was
+                                                            part of a larger                                                     working memory in the
+                                  -14 patients diagnosed    multicenter study                                                    left frontal pole and
+ Dissociative identity            with Dissociative                                                                              ventrolateral prefrontal
+ state-dependent                  Identity Disorder                                                                              cortex in all three
+ working memory in         fMRI   -16 DID-simulating                                                                             simulated neutral states
+ dissociative identity            healthy controls                                                                               and in trauma-related
+ disorder: a controlled           -a paired of control                                                                           identity states of
+ functional magnetic              group: 16 subjects                                                                             DID-simulators, but not in
+ resonance imaging                with PTSD and 16                                                                               trauma-related identity
+ study                            healthy controls                                                                               state of DID-patients and
+                                  (control group                                                                                 PTSD-patients, which did
+                                  consisting of NIS and                                                                          not activate parietal
+                                  TIS)                                                                                           regions.
+
+                                                                                -7 patients were
+                                  -Patients: 14 female                          medicated with
+                                  inpatients with history                       antidepressant:
+                                  of childhood abuse                            doxepine,
+                                                            -Patients’ age:                             -10 Dissociative         Compared to controls,
+ Weniger et al., 2013             and a diagnoses of                            mirtazapine,
+                                                            24–50 years                                 Amnesia                  dissociative patients
+                                  Dissociative Amnesia                          fluoxetine,
+                                  or DID (DSM-IV,                               paroxetine,                                      showed a similar (although
+                                  SCID-D)                                       venlafaxine,                                     weaker) pattern of activity
+                                                                                duloxetine                                       changes during egocentric
+                                  -Controls: 14 healthy                                                                          learning. Dissociative
+                                                                                -4 patients were                                 disorder severity was
+                                  females (no
+                                                                                medicated with                                   associated to better
+ Egocentric virtual               neurological or
+                                                            -Controls’ age:     antipsychotics          -10 DID                  performance and to
+ maze learning in adult    fMRI   psychiatric history, no
+                                                                                (aripiprazole,                                   stronger activity in
+ survivors of                     traumatic exposure
+                                                                                quetiapine)                                      cingulate gyrus and
+ childhood abuse with             history)
+                                                                                                        -4 Depersonalization     precuneus. Attentional and
+ dissociative disorders:          RoB: high
+                                                                                                        Disorder                 visuospatial mnemonic
+ Evidence from                                                                  -3 patients were free   -12 Borderline           functioning were
+ functional magnetic              Possible cause of         21–48 years         of psychotropic         Personality Disorder     preserved in individuals
+ resonance imaging                heterogeneity: two                            medications             -6 Major Depression      with dissociative disorder.
+                                  different diagnoses in
+                                                                                                        -9 Anxiety Disorder
+                                  the study sample
+                                                                                                        Exclusion criteria:
+                                                                                                        history of PTSD,
+                                                                                                        psychotic disorder,
+                                                                                                        neurological disorder,
+                                                                                                        current substance use
+                                     Legend. ANP: Apparently Normal Part; DID: Dissociative Identity Disorder; DSM: Diagnostic and Statistical
+                                     Manual of mental disorders; EP: Emotional Part; fMRI: functional Magnetic Resonance Imaging; NIS: neutral
+                                     identity state; NOS: Not Otherwise Specified; PET: Positron Emission Tomography; PTSD: Post-Traumatic Stress
+                                     Disorder; RoB: Risk of Bias; SCID: Structured Clinical Interview for DSM; TIS: trauma-related identity state.
+
+
+                                     3. Results
+                                          We summarized the search procedure in Figure 1, the main results in Table 1 below,
+                                     and the PRISMA 2020 checklist in the Supplementary Table S1.
+                               3. Results
+J. Pers. Med. 2022, 12, 1405        We summarized the search procedure in Figure 1, the main results in Table81ofbelow,
+                                                                                                                  14
+                               and the PRISMA 2020 checklist in the Supplementary table S1.
+
+
+
+
+                               Figure      PRISMAsearch
+                                Figure1.1.PRISMA  searchstrategy onon
+                                                          strategy  functional neuroimaging
+                                                                      functional            studies
+                                                                                 neuroimaging       in dissociative
+                                                                                               studies              disorders.
+                                                                                                        in dissociative disorders.
+                               4. Discussion
+                                4. Discussion
+                               4.1. Functional Changes in the Limbic/Paralimbic System
+                                4.1. Functional Changes in the Limbic/Paralimbic System
+                                     The most prominent functional changes have been found across the limbic system of
+                               subjects,   most prominent
+                                      Themostly                  functionalparticular
+                                                   when they performed       changes have
+                                                                                       tasksbeen
+                                                                                              whose found   across
+                                                                                                      execution  may    limbic
+                                                                                                                    thebe           by of
+                                                                                                                                system
+                                                                                                                          affected
+                                subjects,
+                               the         mostly when they performed particular tasks whose execution may be affected
+                                    disease.
+                                by the  disease.
+                                     Different   functional neuroimaging studies were based on the Theory of Structural
+                               Dissociation   of the
+                                      Different        Personality
+                                                   functional       in DID, according
+                                                                neuroimaging            to which
+                                                                                  studies          patients
+                                                                                            were based    onretain traumatic
+                                                                                                              the Theory    of memo-
+                                                                                                                               Structural
+                               ries fixed in  the  emotional   part  (EP), while  some   personality   parts are apparently
+                                Dissociation of the Personality in DID, according to which patients retain traumatic mem-     normal
+                               (ANP),   in order
+                                ories fixed  in theto emotional
+                                                      mentally avoid    traumatic
+                                                                   part (EP),  whilememories    [41]. The parts
+                                                                                     some personality     EP parts
+                                                                                                                 areof DID patients,
+                                                                                                                     apparently    normal
+                               when
+                                (ANP),showed
+                                         in orderhuman     faces expressing
+                                                     to mentally              certain emotions
+                                                                   avoid traumatic    memories(neutrality     andparts
+                                                                                                   [41]. The EP    anger),  had apatients,
+                                                                                                                         of DID    hy-
+                               peractivation    of  the right parahippocampal      gyrus,  in comparison    with  the
+                                when showed human faces expressing certain emotions (neutrality and anger), had a hy- ANP    part and
+                               with  the EP partofofthe
+                                peractivation         controls
+                                                          right (female  actresses). This
+                                                                parahippocampal           result
+                                                                                      gyrus,  in can
+                                                                                                 comparison     withwith
+                                                                                                      be associated   the the
+                                                                                                                           ANPclinical
+                                                                                                                                 part and
+                               characteristics of EP (fixation on traumatic memories and tendency to reactivate traumatic
+                                with the EP part of controls (female actresses). This result can be associated with the clin-
+                               memories with specific triggers). Thus, it can correlate to the fact that the parahippocampal
+                                ical characteristics of EP (fixation on traumatic memories and tendency to reactivate trau-
+                               gyrus are physiologically involved in the retaining of autobiographic memory, specifically
+                                matic memories with specific triggers). Thus, it can correlate to the fact that the parahip-
+                               the right one [53,54]. The ANP part of DID patients had a whole-brain decreased activity
+                                pocampal
+                               when    showedgyrus
+                                                 both are physiologically
+                                                        neutral   and angryinvolved    ininsula
+                                                                              faces. The   the retaining
+                                                                                                  showedofmetabolic
+                                                                                                              autobiographic
+                                                                                                                        changesmemory,
+                                                                                                                                  in a
+                               PET study during traumatic re-evocation in a traumatic state of identity (TIS) in patients
+                               affected by DID [44], confirming the impaired response to emotions, interoception, and
+J. Pers. Med. 2022, 12, 1405                                                                                            9 of 14
+
+
+
+
+                               physiological response to alarm [55]. Indeed, the insula seems to hyperactivate during
+                               egocentric learning in these patients [46]. Nevertheless, some peculiar tasks seem to be re-
+                               tained, if not improved, in dissociative disorders. Women with dissociative amnesia or DID
+                               during an egocentric virtual maze learning task showed preserved attentional visuospatial
+                               mnemonic functioning compared with controls [46]. Notwithstanding, higher severity
+                               of the clinical picture directly correlated with better performance, and was accompanied
+                               with the hyperactivation of the cingulate gyrus and the precuneus [47] This is consistent
+                               with the findings of another study in which DPD patients exhibited greater activation of
+                               the anterior cingulate during self-related processing [45], leading to the hypothesis that
+                               egocentric learning and egocentric tasks may be better in dissociative disorders than in
+                               healthy controls, due to the fact that dissociative defenses have improved and worked
+                               in avoiding the development of PTSD [46], or more severe psychiatric disorders. In fact,
+                               the cingulate gyrus, right anterior, and middle cingulate cortex seem to hypoactivate in
+                               traumatic vs. neutral identity states, as well as during within-identity state assessments [34]
+                               in patients with DID.
+                                    DPD patients have also shown anomalies in the neural function of some parts of
+                               the paralimbic system. The right anterior cingulate cortex (ACC) hyperactivates during
+                               face processing (self vs. stranger), which has been interpreted as a correlate of conflict
+                               between the conscious and unconscious aspects of self-processing in DPD [48]. It has been
+                               hypothesized that DPD patients’ problem lies not in consciously recognizing their own face,
+                               but in doing it unconsciously [45,56], associating this phenomenon with the hyperactivation
+                               of the ACC for conflict detection and resolution, thus explaining the presence of anguish
+                               in patients in acute depersonalization states. In addition, DPD patients also showed
+                               reduced activation of the amygdala in response to faces expressing emotions [48], a finding
+                               that could be associated with a response to traumatic events, as had previously been
+                               hypothesized in other studies on the matter, particularly on PTSD [57–59]. Different
+                               activation patterns in the right hippocampus and left amygdala have been associated with
+                               DID [50] due to the role of the former in the Papez memory circuit and its involvement in
+                               autobiographical memory. A neurobiological model of DID speculates that acute stress
+                               can be associated with a shift from hippocampal involvement to caudate involvement [50],
+                               which will be explained later to hyperactivate during traumatic identity state condition
+                               (see section below on subcortical areas)
+
+                               4.2. Functional Changes in Frontal and Prefrontal Cortices
+                                    Changes in frontal and prefrontal cortices are an important finding of the review, and
+                               they particularly correlate with specific tasks or states of identity explained below.
+                                    DID patients showed hyperactivation of the prefrontal cortex during resting state,
+                               particularly in the dorsomedial area, and other areas of the default mode network (DMN),
+                               in comparison with healthy controls (actors) [33]. This suggests that DID patients are
+                               more involved when they need to concentrate on self. The same happened during the
+                               neutral personality state in response to trauma-related vs. neutral words [50], such as if
+                               their hyperarousal state triggered by trauma re-evocation could be lowered by prefrontal
+                               activation. On the contrary, healthy controls showed hypoactivation of the middle frontal
+                               gyrus during resting state [33].
+                                    A PET study has shown reduced resting state metabolism of the right inferolateral
+                               prefrontal cortex in patients with autobiographical memory loss due to dissociative amnesia,
+                               compared with healthy controls [42]. This region plays many roles, being specifically
+                               involved in self-awareness [60], self-regulatory processes [61], emotion regulation [62], and
+                               higher order control mechanisms [63], including active memory retrieval.
+                                    During an identity traumatic state in patients affected by DID, a reduced activation of
+                               the ventromedial prefrontal cortex and left frontal pole has been observed at fMRI during
+                               an n-back working memory task [43]. In addition, reduced memory performance has
+                               been found in correlation with this reduced activation, together with a higher number of
+                               mistakes during the task. These results can be related with symptoms such as flashback,
+J. Pers. Med. 2022, 12, 1405                                                                                          10 of 14
+
+
+
+
+                               re-experiencing traumatic events, anxiety, and other symptoms of DID. In fact, another
+                               study has demonstrated that patients with DID in an identity traumatic state, as well
+                               as during within-identity state assessment, compared to a neutral identity state, show
+                               a hypoactivation of the frontal cortex [34]. On the other hand, instead, since trauma
+                               revival is mostly sensorimotor- and anxiety-associated, it could also be related to reduced
+                               mentalization capacity (prefrontal deactivation), considering the essential role of this area
+                               in related functions [64]. These dysfunctions in the frontal cortex in traumatic states of
+                               identity can also relate with the presence of a retracted field of consciousness in patients
+                               with DID [43].
+                                    Other prefrontal areas (left anterior and dorsolateral cortices) have been found to
+                               hyperactivate during verbal working memory tasks in patients with DID or not specified
+                               dissociative disorder, when compared to healthy controls, and the same seems to happen in
+                               the left parietal lobe [14]. The same conclusions also apply to DPD patients [47,49]. These
+                               functional changes at fMRI are consistent with a working memory performance improve-
+                               ment in the same group of patients, when exposed to neutral memories. This finding can
+                               correlate with a different style of cognitive processing that these patients develop along
+                               the way. It is important to underline that hyperactivation in these areas occurs in response
+                               to neutral memories, because, as we have already seen, in traumatic states of identity, the
+                               frontoparietal activation is reduced [43]. The opposite, i.e., hypoactivation in the inferior
+                               parietal lobe, happens when these patients are instead employed in egocentric tasks [46].
+                               This finding needs further clarification regarding whether it depends on the task or is a
+                               diagnostic correlate.
+                                    Various studies have also confirmed the presence of neurofunctional changes in the
+                               prefrontal cortex of DPD patients. In fact, during face processing (self vs. stranger faces),
+                               these patients had hyperactivation of the bilateral medial prefrontal cortices (PFCs) and left
+                               middle frontal gyrus (MFG), as well as the right anterior cingulate cortex [45,49]. Severity
+                               of depersonalization directly correlated with the increased activation of medial PFCs. This
+                               is consistent with a deficit in implicit self-processing [45].
+
+                               4.3. Functional Changes in Other Cortical Areas
+                                     In addition to what has already been underlined above, other scattered cortical areas
+                               seem to undergo changes in dissociative disorders.
+                                     The left occipito-temporal junction was hyperactivated in the EP parts of DID patients,
+                               compared to the EP of controls, correlating with the role of this part of the cortex in face-
+                               sensitivity [41]. In addition, the primary somatosensory cortex was hyperactivated in the
+                               EP of DID patients during resting state, together with motor related areas [33]. This finding
+                               may be due to the fact that the EP of DID patients is more resting-state concentrated on the
+                               self and somatosensory feelings, and therefore self-awareness, together with an increased
+                               tendency to engage in motor reactions, such as if they are in an alert state due to previous
+                               traumas. Functional changes in numerous other cortical areas have been demonstrated in
+                               the studies we included, indicating that dissociative phenomena are complex and require
+                               further clarification in their neurophysiopathological correlates.
+
+                               4.4. Subcortical Functional Changes
+                                    Changes in subcortical activation patterns have been found in dissociative disorder
+                               cases, mostly in the thalamic regions.
+                                    Compared to the EP part of controls (female actresses), those of DID patients, when
+                               showed neutral human faces, had a hyperactivation in the brainstem area, in correlation
+                               with clinical aspects of DID, for example hyperarousal [41].
+                                    The ANP of DID patients, compared to the EP, showed bilateral thalamus hyperactiva-
+                               tion during resting state, and the same happens in healthy controls simulating ANP com-
+                               pared to when they simulate EP [33]. This finding is also confirmed by Weniger et al. [46],
+                               who found that the thalamus hyperactivates in healthy controls with respect to females with
+                               dissociative disorders and childhood abuse history. Thalamic hyperactivation correlates
+J. Pers. Med. 2022, 12, 1405                                                                                               11 of 14
+
+
+
+
+                               with the first biological models of dissociation in trauma survivors, in which the thalamus
+                               plays a fundamental role. [65] Another explanation for this thalamic hyperactivation lies in
+                               dysfunctional fear extinction processes in response to traumas [66]. Another PET study has
+                               shown that during a trauma re-evocation in a TIS in patients affected by DID, metabolic
+                               changes of the bilateral caudate nucleus were found, thus probably correlating with the role
+                               of the latter in the neurophysiology of anxiety disorders, obsessive–compulsive disorders
+                               (OCD), and generally in fear processing dysfunction [67–70]. The hypoactivation of the
+                               caudate in dissociative disorders during egocentric tasks has been confirmed by fMRI find-
+                               ings [46], whilst DID patients’ caudate nucleus hyperactivates during traumatic identity
+                               state condition, in response to personal trauma scripts [34]. The latter can be explained by
+                               the fact that the dorsal striatum i.e., caudate nucleus is involved both in the switch between
+                               identity states and in the maintenance of the altered identity state [15,41,50,71].
+
+                               4.5. Limitations
+                                    The main limitation of this systematic review are related to the small number of
+                               functional neuroimaging studies in dissociative disorders. Because of this we have focused
+                               on the entire spectrum of dissociative disorders, and for this reason the eligibility criteria
+                               were heterogeneous. Another limitation is the use of only one database (PubMed), although
+                               we performed a further search by examining the bibliographies of relevant articles. The
+                               results of our systematic review should be taken with caution, since most of the included
+                               studies had samples with less than 45 patients, which may involve a significant risk of
+                               bias [51]; furthermore, two studies had mixed diagnoses in their samples that may have
+                               led to a high risk of bias.
+
+                               5. Conclusions
+                                     In conclusion, few functional neuroimaging studies currently concentrate on disso-
+                               ciative disorders. Nevertheless, it is possible to underline some consistent evidence on
+                               the cerebral functioning correlates of these diseases. Prefrontal cortex dysfunction seems
+                               prominent and can correlate with both traumatic identity states and neutral identity states
+                               in DID, and with the phenomena of depersonalization in DPD. In addition, changes in the
+                               functional neural network of the caudate were related to alterations of identity state and
+                               maintenance of an altered mental status in DID patients. Another role in DID seems to be
+                               played by a dysfunction of the anterior cingulate gyrus. Other areas involved in proprio-
+                               ception, interoception, self-awareness, and theory of mind, including parietal, temporal,
+                               and insular cortices, were reported to be dysfunctional in dissociative disorders. Further
+                               studies are needed to clarify the neurofunctional correlates of single dissociative disorders
+                               in affected patients, in order to identify better tailored treatments.
+
+                               Supplementary Materials: The following supporting information can be downloaded at: https:
+                               //www.mdpi.com/article/10.3390/jpm12091405/s1. Table S1: PRISMA 2020 checklist.
+                               Author Contributions: Conceptualization, M.N.M. and A.D.C.; methodology, M.N.M. and L.R.;
+                               validation, G.C. and A.D.C.; formal analysis, A.D.C.; investigation, M.N.M. and L.R.; data curation,
+                               M.N.M. and L.R.; writing—original draft preparation, M.N.M. and A.D.C.; writing—review and
+                               editing, M.N.M. and A.D.C.; visualization, A.D.C.; supervision, G.C. and A.D.C. All authors have
+                               read and agreed to the published version of the manuscript.
+                               Funding: This research received no external funding.
+                               Institutional Review Board Statement: Not applicable.
+                               Informed Consent Statement: Not applicable.
+                               Data Availability Statement: Not applicable.
+                               Conflicts of Interest: The authors declare no conflict of interest.
+J. Pers. Med. 2022, 12, 1405                                                                                                          12 of 14
+
+
+
+
+References
+1.    American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders V; American Psychiatric Association
+      Publishing: Arlington, VA, USA, 2022; ISBN 0-89042-575-2.
+2.    American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders II; American Psychiatric Association
+      Publishing: Arlington, VA, USA, 1968.
+3.    American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders III; American Psychiatric Association:
+      Arlington, VA, USA, 1980.
+4.    American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders-IV-TR; American Psychiatric Association:
+      Arlington, VA, USA, 2000; ISBN 0-89042-024-6.
+5.    Spiegel, D.; Lewis-Ferńandez, R.; Lanius, R.; Vermetten, E.; Simeon, D.; Friedman, M. Dissociative disorders in DSM-5. Annu. Rev.
+      Clin. Psychol. 2013, 9, 299–326. [CrossRef] [PubMed]
+6.    Rafiq, S.; Campodonico, C.; Varese, F. The relationship between childhood adversities and dissociation in severe mental illness: A
+      meta-analytic review. Acta Psychiatr. Scand. 2018, 138, 509–525. [CrossRef] [PubMed]
+7.    Vonderlin, R.; Kleindienst, N.; Alpers, G.W.; Bohus, M.; Lyssenko, L.; Schmahl, C. Dissociation in victims of childhood abuse or
+      neglect: A meta-analytic review. Psychol. Med. 2018, 48, 2467–2476. [CrossRef] [PubMed]
+8.    Putnam, F.W.; Guroff, J.J.; Silberman, E.K.; Barban, L.; Post, R.M. The clinical phenomenology of multiple personality disorder:
+      Review of 100 recent cases. J. Clin. Psychiatry 1986, 47, 285–293.
+9.    Schultz, R.; Braun, B.G.; Kluft, R.P. Multiple personality disorder: Phenomenology of selected variables in comparison to major
+      depression. Dissociation Prog. Dissociative Disord. 1989, 2, 45–51.
+10.   Baker, D.; Hunter, E.; Lawrence, E.; Medford, N.; Patel, M.; Senior, C.; Sierra, M.; Lambert, M.V.; Phillips, M.L.; David, A.S.
+      Depersonalisation disorder: Clinical features of 204 cases. Br. J. Psychiatry 2003, 182, 428–433. [CrossRef]
+11.   Michal, M.; Adler, J.; Wiltink, J.; Reiner, I.; Tschan, R.; Wölfling, K.; Weimert, S.; Tuin, I.; Subic-Wrana, C.; Beutel, M.E.; et al. A
+      case series of 223 patients with depersonalization-derealization syndrome. BMC Psychiatry 2016, 16, 203. [CrossRef]
+12.   Mathew, R.J.; Jack, R.A.; West, W.S. Regional cerebral blood flow in a patient with multiple personality. Am. J. Psychiatry 1985,
+      142, 504–505. [CrossRef]
+13.   Saxe, G.N.; Vasile, R.G.; Hill, T.C.; Bloomingdale, K.; Van Der Kolk, B.A. SPECT imaging and multiple personality disorder.
+      J. Nerv. Ment. Dis. 1992, 180, 662–663. [CrossRef]
+14.   Elzinga, B.M.; Ardon, A.M.; Heijnis, M.K.; De Ruiter, M.B.; Van Dyck, R.; Veltman, D.J. Neural correlates of enhanced working-
+      memory performance in dissociative disorder: A functional MRI study. Psychol. Med. 2007, 37, 235–245. [CrossRef]
+15.   Tsai, G.E.; Condie, D.; Wu, M.T.; Chang, I.W. Functional magnetic resonance imaging of personality switches in a woman with
+      dissociative identity disorder. Harv. Rev. Psychiatry 1999, 7, 119–122. [CrossRef] [PubMed]
+16.   Lanius, R.A.; Vermetten, E.; Loewenstein, R.J.; Brand, B.; Schmahl, C.; Bremner, J.D.; Spiegel, D. Emotion Modulation in PTSD:
+      Clinical and Neurobiological Evidence for a Dissociative Subtype. Am. J. Psychiatry 2010, 167, 640–647. [CrossRef] [PubMed]
+17.   Sierra, M.; Berrios, G. Depersonalization: Neurobiological perspectives. Biol. Psychiatry 1998, 4, 898–908. [CrossRef]
+18.   Eddy, C.M. The junction between self and other? Temporo-parietal dysfunction in neuropsychiatry. Neuropsychologia 2016, 89,
+      465–477. [CrossRef] [PubMed]
+19.   Blanke, O.; Ortigue, S.; Landis, T.; Seeck, M. Stimulating illusory own-body perceptions. Nature 2002, 419, 269–270. [CrossRef]
+20.   Blanke, O.; Mohr, C.; Michel, C.M.; Pascual-Leone, A.; Brugger, P.; Seeck, M.; Landis, T.; Thut, G. Linking out-of-body experience
+      and self processing to mental own-body imagery at the temporoparietal junction. J. Neurosci. 2005, 25, 550–557. [CrossRef]
+21.   Page, M.J.; McKenzie, J.E.; Bossuyt, P.M.; Boutron, I.; Hoffmann, T.C.; Mulrow, C.D.; Shamseer, L.; Tetzlaff, J.M.; Akl, E.A.;
+      Brennan, S.E.; et al. The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. BMJ 2021, 372, n71.
+      [CrossRef]
+22.   Scottish Intercollegiate Guidelines Network SIGN Assessment Tool. Available online: https://www.sign.ac.uk/what-we-do/
+      methodology/checklists/ (accessed on 21 August 2022).
+23.   Chechko, N.; Stickel, S.; Kellermann, T.; Kirner, A.; Habel, U.; Fernández, G.; Schneider, F.; Kohn, N. Progressively analogous
+      evidence of covert face recognition from functional magnetic resonance imaging and skin conductance responses studies involving
+      a patient with dissociative amnesia. Eur. J. Neurosci. 2018, 48, 1964–1975. [CrossRef]
+24.   Savoy, R.L.; Frederick, B.B.; Keuroghlian, A.S.; Wolk, P.C. Voluntary switching between identities in dissociative identity disorder:
+      A functional MRI case study. Cogn. Neurosci. 2012, 3, 112–119. [CrossRef]
+25.   Thomas-Antérion, C.; Dubas, F.; Decousus, M.; Jeanguillaume, C.; Guedj, E. Clinical characteristics and brain PET findings
+      in 3 cases of dissociative amnesia: Disproportionate retrograde deficit and posterior middle temporal gyrus hypometabolism.
+      Neurophysiol. Clin. 2014, 44, 355–362. [CrossRef]
+26.   Kitamura, S.; Yasuno, F.; Inoue, M.; Kosaka, J.; Kiuchi, K.; Matsuoka, K.; Kishimoto, T.; Suhara, T. Increased binding of 5-HT1A
+      receptors in a dissociative amnesic patient after the recovery process. Psychiatry Res. 2014, 224, 67–71. [CrossRef] [PubMed]
+27.   Back, T.; Haag, C.; Buchberger, A.; Mayer, T. [Diffusion-weighted MR imaging in a case of dissociative amnesia]. Nervenarzt 1998,
+      69, 909–912. [CrossRef] [PubMed]
+28.   Comparelli, A.; Kotzalidis, G.D.; Di Pietro, S.; Del Casale, A.; De Carolis, A. A case of rapid conversion to psychosis of delusional
+      misidentification associated with derealisation, verbal memory impairment and FDG-PET imaging abnormalities. Eur. Child
+      Adolesc. Psychiatry 2014, 23, 53–55. [CrossRef] [PubMed]
+J. Pers. Med. 2022, 12, 1405                                                                                                           13 of 14
+
+
+
+
+29.   Mutluer, T.; Şar, V.; Kose-Demiray, Ç.; Arslan, H.; Tamer, S.; Inal, S.; Kaçar, A.Ş. Lateralization of Neurobiological Response in
+      Adolescents with Post-Traumatic Stress Disorder Related to Severe Childhood Sexual Abuse: The Tri-Modal Reaction (T-MR)
+      Model of Protection. J. Trauma Dissociation 2018, 19, 108–125. [CrossRef]
+30.   Veltman, D.J.; de Ruiter, M.B.; Rombouts, S.A.R.B.; Lazeron, R.H.C.; Barkhof, F.; Van Dyck, R.; Dolan, R.J.; Phaf, R.H. Neurophysi-
+      ological correlates of increased verbal working memory in high-dissociative participants: A functional MRI study. Psychol. Med.
+      2005, 35, 175–185. [CrossRef]
+31.   Reinders, A.A.T.S.; Chalavi, S.; Schlumpf, Y.R.; Vissia, E.M.; Nijenhuis, E.R.S.; Jäncke, L.; Veltman, D.J.; Ecker, C. Neurodevel-
+      opmental origins of abnormal cortical morphology in dissociative identity disorder. Acta Psychiatr. Scand. 2018, 137, 157–170.
+      [CrossRef] [PubMed]
+32.   Dimitrova, L.I.; Dean, S.L.; Schlumpf, Y.R.; Vissia, E.M.; Nijenhuis, E.R.S.; Chatzi, V.; Jäncke, L.; Veltman, D.J.; Chalavi, S.;
+      Reinders, A.A.T.S. A neurostructural biomarker of dissociative amnesia: A hippocampal study in dissociative identity disorder.
+      Psychol. Med. 2021, 1–9. [CrossRef]
+33.   Schlumpf, Y.R.; Reinders, A.A.T.S.; Nijenhuis, E.R.S.; Luechinger, R.; van Osch, M.J.P.; Jäncke, L. Dissociative part-dependent
+      resting-state activity in dissociative identity disorder: A controlled FMRI perfusion study. PLoS ONE 2014, 9, e98795. [CrossRef]
+34.   Reinders, A.A.T.S.; Willemsen, A.T.M.; den Boer, J.A.; Vos, H.P.J.; Veltman, D.J.; Loewenstein, R.J. Opposite brain emotion-
+      regulation patterns in identity states of dissociative identity disorder: A PET study and neurobiological model. Psychiatry Res.
+      2014, 223, 236–243. [CrossRef] [PubMed]
+35.   Chalavi, S.; Vissia, E.M.; Giesen, M.E.; Nijenhuis, E.R.S.; Draijer, N.; Barker, G.J.; Veltman, D.J.; Reinders, A.A.T.S. Similar cortical
+      but not subcortical gray matter abnormalities in women with posttraumatic stress disorder with versus without dissociative
+      identity disorder. Psychiatry Res. 2015, 231, 308–319. [CrossRef]
+36.   Daniels, J.K.; Gaebler, M.; Lamke, J.-P.; Walter, H. Grey matter alterations in patients with depersonalization disorder: A
+      voxel-based morphometry study. J. Psychiatry Neurosci. 2015, 40, 19–27. [CrossRef]
+37.   Irle, E.; Lange, C.; Weniger, G.; Sachsse, U. Size abnormalities of the superior parietal cortices are related to dissociation in
+      borderline personality disorder. Psychiatry Res. 2007, 156, 139–149. [CrossRef] [PubMed]
+38.   Paul, E.R.; Farmer, M.; Kämpe, R.; Cremers, H.R.; Hamilton, J.P. Functional Connectivity Between Extrastriate Body Area
+      and Default Mode Network Predicts Depersonalization Symptoms in Major Depression: Findings From an A Priori Specified
+      Multinetwork Comparison. Biol. Psychiatry. Cogn. Neurosci. Neuroimaging 2019, 4, 627–635. [CrossRef] [PubMed]
+39.   Oda, K.; Matsushima, E.; Okubo, Y.; Ohta, K.; Murata, Y.; Koike, R.; Miyasaka, N.; Kato, M. Abnormal regional cerebral blood
+      flow in systemic lupus erythematosus patients with psychiatric symptoms. J. Clin. Psychiatry 2005, 66, 907–913. [CrossRef]
+40.   Fauvé, P.; Tyvaert, L.; Husson, C.; Hologne, E.; Gao, X.; Maillard, L.; Schwan, R.; Banasiak, C.; El-Hage, W.; Hossu, G.; et al.
+      Functional MRI-based study of emotional experience in patients with psychogenic non-epileptic seizures: Protocol for an
+      observational case-control study-EMOCRISES study. PLoS ONE 2022, 17, e0262216. [CrossRef] [PubMed]
+41.   Schlumpf, Y.R.; Nijenhuis, E.R.S.; Chalavi, S.; Weder, E.V.; Zimmermann, E.; Luechinger, R.; La Marca, R.; Reinders, A.A.T.S.;
+      Jäncke, L. Dissociative part-dependent biopsychosocial reactions to backward masked angry and neutral faces: An fMRI study of
+      dissociative identity disorder. NeuroImage. Clin. 2013, 3, 54–64. [CrossRef] [PubMed]
+42.   Brand, M.; Eggers, C.; Reinhold, N.; Fujiwara, E.; Kessler, J.; Heiss, W.-D.; Markowitsch, H.J. Functional brain imaging in
+      14 patients with dissociative amnesia reveals right inferolateral prefrontal hypometabolism. Psychiatry Res. 2009, 174, 32–39.
+      [CrossRef] [PubMed]
+43.   Vissia, E.M.; Lawrence, A.J.; Chalavi, S.; Giesen, M.E.; Draijer, N.; Nijenhuis, E.R.S.; Aleman, A.; Veltman, D.J.; Reinders, A.A.T.S.
+      Dissociative identity state-dependent working memory in dissociative identity disorder: A controlled functional magnetic
+      resonance imaging study. BJPsych Open 2022, 8, e82. [CrossRef]
+44.   Reinders, A.A.T.S.; Nijenhuis, E.R.S.; Quak, J.; Korf, J.; Haaksma, J.; Paans, A.M.J.; Willemsen, A.T.M.; den Boer, J.A. Psy-
+      chobiological characteristics of dissociative identity disorder: A symptom provocation study. Biol. Psychiatry 2006, 60, 730–740.
+      [CrossRef]
+45.   Ketay, S.; Hamilton, H.K.; Haas, B.W.; Simeon, D. Face processing in depersonalization: An fMRI study of the unfamiliar self.
+      Psychiatry Res. 2014, 222, 107–110. [CrossRef]
+46.   Weniger, G.; Siemerkus, J.; Barke, A.; Lange, C.; Ruhleder, M.; Sachsse, U.; Schmidt-Samoa, C.; Dechent, P.; Irle, E. Egocentric
+      virtual maze learning in adult survivors of childhood abuse with dissociative disorders: Evidence from functional magnetic
+      resonance imaging. Psychiatry Res. 2013, 212, 116–124. [CrossRef] [PubMed]
+47.   Medford, N.; Brierley, B.; Brammer, M.; Bullmore, E.T.; David, A.S.; Phillips, M.L. Emotional memory in depersonalization
+      disorder: A functional MRI study. Psychiatry Res. 2006, 148, 93–102. [CrossRef]
+48.   Lemche, E.; Surguladze, S.A.; Giampietro, V.P.; Anilkumar, A.; Brammer, M.J.; Sierra, M.; Chitnis, X.; Williams, S.C.R.; Gasston,
+      D.; Joraschky, P.; et al. Limbic and prefrontal responses to facial emotion expressions in depersonalization. Neuroreport 2007, 18,
+      473–477. [CrossRef] [PubMed]
+49.   Lemche, E.; Sierra-Siegert, M.; David, A.S.; Phillips, M.L.; Gasston, D.; Williams, S.C.R.; Giampietro, V.P. Cognitive load and
+      autonomic response patterns under negative priming demand in depersonalization-derealization disorder. Eur. J. Neurosci. 2016,
+      43, 971–978. [CrossRef] [PubMed]
+50.   Reinders, A.A.T.S.; Willemsen, A.T.M.; Vissia, E.M.; Vos, H.P.J.; den Boer, J.A.; Nijenhuis, E.R.S. The Psychobiology of Authentic
+      and Simulated Dissociative Personality States: The Full Monty. J. Nerv. Ment. Dis. 2016, 204, 445–457. [CrossRef]
+J. Pers. Med. 2022, 12, 1405                                                                                                             14 of 14
+
+
+
+
+51.   David, S.P.; Ware, J.J.; Chu, I.M.; Loftus, P.D.; Fusar-Poli, P.; Radua, J.; Munafò, M.R.; Ioannidis, J.P.A. Potential reporting bias in
+      fMRI studies of the brain. PLoS ONE 2013, 8, e70104. [CrossRef]
+52.   Guyatt, G.; Oxman, A.D.; Akl, E.A.; Kunz, R.; Vist, G.; Brozek, J.; Norris, S.; Falck-Ytter, Y.; Glasziou, P.; DeBeer, H. GRADE
+      guidelines: 1. Introduction—GRADE evidence profiles and summary of findings tables. J. Clin. Epidemiol. 2011, 64, 383–394.
+      [CrossRef]
+53.   Fink, G.R.; Markowitsch, H.J.; Reinkemeier, M.; Bruckbauer, T.; Kessler, J.; Heiss, W.-D. Cerebral Representation of One’s Own
+      Past: Neural Networks Involved in Autobiographical Memory. J. Neurosci. 1996, 16, 4275–4282. [CrossRef]
+54.   Tulving, E.; Kapur, S.; Craik, F.I.M.; Moscovitch, M.; Houle, S. Hemispheric encoding/retrieval asymmetry in episodic memory:
+      Positron emission tomography findings. Proc. Natl. Acad. Sci. USA 1994, 91, 2016–2020. [CrossRef]
+55.   Del Casale, A.; Kotzalidis, G.D.; Rapinesi, C.; Janiri, D.; Aragona, M.; Puzella, A.; Spinazzola, E.; Maggiora, M.; Giuseppin, G.;
+      Tamorri, S.M.; et al. Neural functional correlates of empathic face processing. Neurosci. Lett. 2017, 655, 68–75. [CrossRef]
+56.   Botvinick, M.M.; Cohen, J.D.; Carter, C.S. Conflict monitoring and anterior cingulate cortex: An update. Trends Cogn. Sci. 2004, 8,
+      539–546. [CrossRef]
+57.   Del Casale, A.; Ferracuti, S.; Barbetti, A.S.; Bargagna, P.; Zega, P.; Iannuccelli, A.; Caggese, F.; Zoppi, T.; De Luca, G.P.; Parmigiani,
+      G.; et al. Grey Matter Volume Reductions of the Left Hippocampus and Amygdala in PTSD: A Coordinate-Based Meta-Analysis
+      of Magnetic Resonance Imaging Studies. Neuropsychobiology 2022, 81, 257–264. [CrossRef] [PubMed]
+58.   Serova, L.I.; Nwokafor, C.; Van Bockstaele, E.J.; Reyes, B.A.S.; Lin, X.; Sabban, E.L. Single prolonged stress PTSD model triggers
+      progressive severity of anxiety, altered gene expression in locus coeruleus and hypothalamus and effected sensitivity to NPY. Eur.
+      Neuropsychopharmacol. 2019, 29, 482–492. [CrossRef] [PubMed]
+59.   Serova, L.; Mulhall, H.; Sabban, E. NPY1 Receptor Agonist Modulates Development of Depressive-Like Behavior and Gene
+      Expression in Hypothalamus in SPS Rodent PTSD Model. Front. Neurosci. 2017, 11, 203. [CrossRef]
+60.   Schmitz, T.W.; Johnson, S.C. Self-appraisal decisions evoke dissociated dorsal-ventral aMPFC networks. Neuroimage 2006, 30,
+      1050–1058. [CrossRef]
+61.   Marsh, R.; Zhu, H.; Schultz, R.T.; Quackenbush, G.; Royal, J.; Skudlarski, P.; Peterson, B.S. A developmental fMRI study of
+      self-regulatory control. Hum. Brain Mapp. 2006, 27, 848–863. [CrossRef] [PubMed]
+62.   Phillips, M.L.; Drevets, W.C.; Rauch, S.L.; Lane, R. Neurobiology of emotion perception I: The neural basis of normal emotion
+      perception. Biol. Psychiatry 2003, 54, 504–514. [CrossRef]
+63.   Kostopoulos, P.; Petrides, M. The mid-ventrolateral prefrontal cortex: Insights into its role in memory retrieval. Eur. J. Neurosci.
+      2003, 17, 1489–1497. [CrossRef]
+64.   Hiser, J.; Koenigs, M. The Multifaceted Role of the Ventromedial Prefrontal Cortex in Emotion, Decision Making, Social Cognition,
+      and Psychopathology. Biol. Psychiatry 2018, 83, 638–647. [CrossRef]
+65.   Krystal, J.; Bennett, A.; Bremner, J.; Southwitck, S.; Charney, D. Toward a cognitive neuroscience of dissociation and altered
+      memory functions in post-traumatic stress disorder. In Neurobiological and Clinical Consequences of Stress: From Normal Adaptions to
+      PTSD; Raven Press: New York, NY, USA, 1995; pp. 239–268.
+66.   Steuber, E.R.; Seligowski, A.V.; Roeckner, A.R.; Reda, M.; Lebois, L.A.M.; van Rooij, S.J.H.; Murty, V.P.; Ely, T.D.; Bruce, S.E.;
+      House, S.L.; et al. Thalamic volume and fear extinction interact to predict acute posttraumatic stress severity. J. Psychiatr. Res.
+      2021, 141, 325–332. [CrossRef]
+67.   Del Casale, A.; Kotzalidis, G.D.; Rapinesi, C.; Serata, D.; Ambrosi, E.; Simonetti, A.; Pompili, M.; Ferracuti, S.; Tatarelli, R.; Girardi,
+      P. Functional neuroimaging in obsessive-compulsive disorder. Neuropsychobiology 2011, 64, 61–85. [CrossRef] [PubMed]
+68.   Del Casale, A.; Rapinesi, C.; Kotzalidis, G.D.; De Rossi, P.; Curto, M.; Janiri, D.; Criscuolo, S.; Alessi, M.C.; Ferri, V.R.; De Giorgi,
+      R.; et al. Executive functions in obsessive–compulsive disorder: An activation likelihood estimate meta-analysis of fMRI studies.
+      World J. Biol. Psychiatry 2016, 17, 378–393. [CrossRef] [PubMed]
+69.   LeDoux, J.E. Emotion circuits in the brain. Annu. Rev. Neurosci. 2000, 23, 155–184. [CrossRef] [PubMed]
+70.   Reiman, E.M. The application of positron emission tomography to the study of normal and pathologic emotions. J. Clin. Psychiatry
+      1997, 58, 4–12. [PubMed]
+71.   Reinders, A.A.T.S.; Willemsen, A.T.M.; Vos, H.P.J.; den Boer, J.A.; Nijenhuis, E.R.S. Fact or factitious? A psychobiological study of
+      authentic and simulated dissociative identity States. PLoS ONE 2012, 7, e39279. [CrossRef]
+
