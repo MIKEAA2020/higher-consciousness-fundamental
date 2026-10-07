@@ -9,3 +9,4 @@ node_modules/
 .secrets/
 .hcf_wt/
 glm agent 2/research/ds_chunks/b64_*.txt
+.env
