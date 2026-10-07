@@ -191,3 +191,23 @@ Stage Summary:
 - Corrected 2nd-Ed: download/Fundamental-Higher-Consciousness-Premise_Audit-and-Consolidation_2nd-Ed.pdf (page 13 phrase corrected in place)
 - Key adjudications: treatise's "necessary self-expression" rejected (forced-shadow contradiction) in favor of the two-level split (worldhood expressively necessary; this world not); GNS + superselection sectors merged; three-tier axiomatics adopted from external audits; jewel capstone corrected; ethics clause added
 - Research artifacts: glm agent 2/research/ (recovered exchange transcripts, 2nd-Ed extraction, ds_share_content.json evidence)
+
+---
+Task ID: 9
+Agent: Super Z (main)
+Task: Consolidate all three Qwen conversations' findings — including the corrected arc-test verdicts — into v2 of "The Dream That Must Be" PDF.
+
+Work Log:
+- ENVIRONMENT RECOVERY: found the workspace rolled back to the round-3 snapshot (worklog at 3 tasks, v2/v3 transcripts + readings + PAT files missing, local git at the old single commit); fetched the canonical remote (now containing the parallel glm-agent-2 FHCP audit line + Revised-Ed 45pp) and reset local main to cc18ec3; verified the corrected line_level_reading_a6629bde.md (with section 6 arc-test) is intact on disk
+- Loaded the full pdf skill chain (SKILL.md, fonts.md, report.md complete, cover.md, palette.md, overflow.md, pagination.md, typography.md, fill-engine.md, cover-backgrounds.md, geometry.md, charts.md); re-read all four source analyses (v1 critique MD, conv-2 reading, FEP inversion critique, corrected conv-3 reading)
+- Wrote the consolidated v2 content as four part modules (critique_content_v2a-d.py) + aggregator: 10 sections, 8 tables, ~10.1k source words (~12.0k rendered); citation convention v1L/v2L/v3L + C1/C2/C3[n]; structure: provenance+arc-test method / trilogy map / reconstructed target / Critique I (core contradiction tracked) / Critique II (arc-test ledger — centerpiece) / Critique III (FEP inversion + two uncollected promissory notes) / steelman + convergence record (4 convergences, 2 divergences) / five survival tests re-run / consolidated verdict + refutation conditions / updated lineage
+- Verified every load-bearing message marker against the transcripts (fixed C3 [235]->[236] Born rule, [237]-[239]->[237]-[240] Valentini); PASS warnings fixed (line-start em-dash cell)
+- Built via build_pdf_v2.py (TocDocTemplate+multiBuild, cascade seed-42 palette, FreeSerif family, install_font_fallback); cover_v2.html (Template 03, series-consistent dark #121210 + #d5c080, edition line added); poster_validate + cover_validate both pass; html2poster --width 794px; merge_finalize_v2.py
+- QA: font.check 0 issues; toc.check pass; pages.clean 0 blank; pdf_qa --skip-cover 13/13 PASS (Helvetica entry = phantom resource with zero rendered text, same signature as shipped v1); spot-checks via PyMuPDF confirm arc-test ledger, RETRACTED row, convergence table, all 8 tables present
+- Deliverables: download/The_Dream_That_Must_Be_v2_Trilogy_Edition.pdf (28pp), download/the_dream_that_must_be_v2_trilogy_edition.md (companion, 10,954 words), download/the_dream_that_must_be_v2_cover.html
+- Push BLOCKED: the workspace rollback wiped all five PAT locations (RULES.md section 2); unauthenticated push rejected — user must re-provide the PAT to complete the per-round push protocol
+
+Stage Summary:
+- v2 trilogy edition complete and QA-passed; the arc-test verdicts (1 retraction, 1 folding, 2 downgrades, 4 survivors) are the document's centerpiece; two verdict-changes vs the first edition, both documented in-text
+- Standing verdict: the framework converged on the steelman's repaired positions in 4 of 6 audited repairs and declined 2 (Layer-2 re-fusion; the epistemic wall) — the two declensions coincide with the two strongest surviving tensions (immunization; intervention dilemma)
+- Local commit ready; push awaits PAT re-provision (all five protocol locations empty)
