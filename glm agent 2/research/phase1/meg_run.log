@@ -1,0 +1,9 @@
+/home/z/my-project/scripts/phase1_meg.py:112: DeprecationWarning: 
+The `fooof` package is being deprecated and replaced by the `specparam` (spectral parameterization) package.
+This version of `fooof` (1.1) is fully functional, but will not be further updated.
+New projects are recommended to update to using `specparam` (see Changelog for details).
+  from fooof import FOOOF
+run1: {'alpha_peak_hz': 8.12, 'n_peaks_3_30': 5, 'dfa_median': 0.632, 'dfa_mean': 0.617, 'dfa_pct_gt_065': 0.412, 'wpli_mean': 0.51, 'cc_mean': 0.0, 'cc_vs_dist_rho': -0.415, 'n_ch': 272, 'n_t_50hz': 30000}
+run2: {'alpha_peak_hz': 7.91, 'n_peaks_3_30': 3, 'dfa_median': 0.686, 'dfa_mean': 0.68, 'dfa_pct_gt_065': 0.625, 'wpli_mean': 0.522, 'cc_mean': 0.001, 'cc_vs_dist_rho': -0.44, 'n_ch': 272, 'n_t_50hz': 30000}
+surrogate DFA p95: 0.535 | median: 0.499
+saved: /home/z/my-project/glm agent 2/research/phase1/meg_obs.npz

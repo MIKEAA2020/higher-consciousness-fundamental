@@ -1,0 +1,1261 @@
+                                                            Journal of Neuroscience Methods 435 (2026) 110859
+
+
+                                                                  Contents lists available at ScienceDirect
+
+
+                                                      Journal of Neuroscience Methods
+                                                       journal homepage: www.elsevier.com/locate/jneumeth
+
+
+
+
+Neurochemistry and post-mortem neurotransmitters: Toward the study of
+neurochemical connectivity
+Jasmine J Butler a,b,1 , Chloé Aman a,b,1 , Rahul Bharatiya a,b, Adeline Cathala a,c,
+Abdeslam Chagraoui d,e, Philippe De Deurwaerdère a,b,*
+a
+  Université de Bordeaux, 146 rue Léo Saignat, Bordeaux F-33000, France
+b
+  Centre National de la Recherche Scientifique (Unité Mixte de Recherche 5287), 146 rue Léo Saignat, Bordeaux F-33000, France
+c
+  INSERM Neurocentre François Magendie, 146 rue Léo Saignat, Bordeaux F-33000, France
+d
+  Laboratory Nordic: Neuroendocrine, endocrine and germinal differentiation communication - UMR 1239 (Inserm), Normandy University, UNIROUEN, Institute for
+Research and Innovation in Biomedicine of Normandy (IRIB), Rouen, France
+e
+  Department of Medical Biochemistry, Rouen University Hospital, CHU de Rouen, Rouen 76000, France
+
+
+
+
+A R T I C L E I N F O                                    A B S T R A C T
+
+Keywords:                                                Background: Monoaminergic systems, as some other neuromodulators, exert modulatory influences across the
+Monoamines                                               entire central nervous system (CNS), participating in basic neurobiological processes, behavioural traits,
+Correlative analysis                                     neuropsychiatric diseases, and responses to psychotropic drugs. Their activity is supposedly balanced across the
+Variability
+                                                         CNS i.e. a change of input in one region could alter their activities at distal regions. Unfortunately, there are a few
+Neurochemistry
+Brain
+                                                         attempts to determine the neurochemical relationships between local or distal regions.
+Graph theory                                             New method: In this review article, we present the technical requirements for performing complex analysis of
+                                                         neurochemical, postmortem, quantitative data on neurotransmitter systems. We explore new types of neuro­
+                                                         chemical analysis beyond quantitative differences to approximate neurochemical connectivity.
+                                                         Results: Although the lack of temporality and unclear meaning of neurotransmitter tissue content are limitations
+                                                         of this approach, postmortem measurement offers the possibility of quantitatively and qualitatively assessing the
+                                                         content of monoamines and/or metabolites in multiple parts of the CNS. This form of neurochemical connectivity
+                                                         is distinct from anatomical connection and brain functional connectivity.
+                                                         Comparison with existing methods: This expands the study of neurotransmitter systems beyond a specific/limited
+                                                         set of brain regions and allows for the description of possible inter-regional influences within a neurotransmitter
+                                                         system and between neurotransmitter systems across the CNS.
+                                                         Conclusion: Through this unprecedented discussion, this article advances the use of neurochemical data towards
+                                                         multiple dimensions of analysis, primarily based on monoaminergic systems and their neurochemical
+                                                         connectivity.
+
+
+
+
+1. Introduction                                                                               monoaminergic modifications are not clear. The benefit derived from
+                                                                                              monoaminergic-based treatments such as in depression, anxiety,
+    Monoaminergic systems, including dopamine (DA), serotonin (5-                             schizophrenia, or Parkinson’s disease, suggests that defects of mono­
+HT), and noradrenaline (NA), play a key role in virtually all cerebral                        aminergic systems are causally involved in these pathologies. This is an
+functions. Their extensive innervation across the central nervous system                      oversimplified view of monoaminergic systems, as monoaminergic dis­
+(CNS), especially by 5-HT and NA neurons, implies multiple actions in                         turbances in other diseases, including Alzheimer’s disease, addiction,
+partnership with other neurotransmitter systems. Modification of their                        and epilepsy, have not yet resulted in approved monoamine-based
+activity has been identified in most, if not all, neuropsychiatric and                        treatments (De Deurwaerdere and Di Giovanni, 2017; De
+neurological diseases (Di Giovanni et al., 2016), such as in depression,                      Deurwaerdère and Di Giovanni, 2020; Di Giovanni et al., 2016; Simic
+anxiety, schizophrenia, or substance abuse, although the nature of these                      et al., 2017; Svob Strac et al., 2016; Tomkins and Sellers, 2001). The
+
+
+    * Correspondence to: Centre National de la Recherche Scientifique (Unité Mixte de Recherche 5287), Bordeaux, France.
+      E-mail address: deurwaer@u-bordeaux.fr (P. De Deurwaerdère).
+    1
+      similar contribution
+
+https://doi.org/10.1016/j.jneumeth.2026.110859
+Received 8 January 2026; Received in revised form 23 June 2026; Accepted 7 July 2026
+Available online 8 July 2026
+0165-0270/© 2026 The Author(s). Published by Elsevier B.V. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+J.J. Butler et al.                                                                                                Journal of Neuroscience Methods 435 (2026) 110859
+
+
+reality is that we still do not entirely understand the function of               2.1. Dopaminergic system
+monoaminergic systems.
+    There are several ways to study the activity of monoaminergic sys­                DA neurons are a heterogeneous group of cells localized in the
+tems including electrophysiology, anatomy, behaviour, and biochem­                mesencephalic, diencephalic and olfactory bulb regions of the brain.
+istry. Post-mortem measurements of monoamines and their metabolites               However, most DA cells reside in the ventral part of the mesencephalon
+have been used for several years to approximate the function of mono­             (Bjorklund and Dunnett, 2007). The major DA pathways are the
+aminergic neurons. These measures have provided a means to determine              nigrostriatal and the mesolimbic that originate from mesodiencephalic
+the functional dynamics of monoaminergic systems in various physio­               DA neurons corresponding to A8, A9 and A10 cell groups. The nigros­
+logical conditions, environmental and pharmacological contexts, pa­               triatal pathway corresponds to DA neurons originating from the lateral
+thologies, drug mechanisms, and animal models of brain diseases. This             SNpc (A9 cell group) that project into the striatum (caudate nucleus and
+kind of measurement can be performed in vertebrates and invertebrates,            putamen). These neurons are widely studied because their degeneration
+as the function of monoaminergic systems (mostly DA and 5-HT) is                  is involved in the development of Parkinson’s disease (Cenci and
+largely conserved across the animal kingdom (Bacque-Cazenave et al.,              Björklund, 2020; Grace and Bunney, 1985). The VTA DA cell bodies
+2020; Cenci and Björklund, 2020; Jacobs and Azmitia, 1992; Smidt and             (A10 cell group) send projections to the nucleus accumbens (NAc), the
+Burbach, 2009). There are differences in monoamine metabolism across              ventromedial striatum, and extend towards structures closely associated
+species, and even strong regional differences within a given species.             with the limbic system (Deutch et al., 1987; Di Giovanni et al., 2009;
+However, the general idea of their functioning remains the same: vol­             Gerfen et al., 1987; Kalivas, 1993; White, 1996). The mesocortical DA
+ume transmission, a balance between gland and neuron-like function                pathway, also originating from VTA, innervates cortical regions (Bannon
+(Descarries and Mechawar, 2000). These tissue parameters are used to              and Roth, 1983; Deutch, 1993; Tassin et al., 1976).
+infer neuronal electrical activity or neurotransmitter release (Aby et al.,           The substantia nigra (SN) also comprises the pars reticulata (SNpr)
+2022; Shannon et al., 1986). Nonetheless, the links between the elec­             area which mainly contains γ-amino-butyric acid (GABA)-ergic neurons,
+trical activity, neurotransmitter release, and tissue quantity are still          constituting the major efferent projections of the basal ganglia. None­
+enigmatic, and interpretation between these parameters is always                  theless, the SNpr also contains some DA neurons that project to the
+speculative. Currently, post-mortem tissue measurements are not widely            striatum (Bjorklund and Dunnett, 2007; Matsuda et al., 2009). There are
+used as they only give a static measure of monoaminergic parameters, in           also less defined DA neurons in the A11 nucleus that are responsible for a
+contrast to electrophysiology, push-pull cannula, intracerebral micro­            sparce DA innervation of the spinal cord (Barraud et al., 2010; Koblinger
+dialysis, and more recently, biosensor techniques. Conversely, the                et al., 2014). Other DA centers are found in the hypothalamus (A12
+aforementioned in vivo approaches cannot offer a widespread picture of            nucleus), playing a role in neuroendocrine processes via projection to
+monoaminergic function in the CNS due to their invasive nature, and the           the pituitary gland (tuberoinfundibular pathway) (Bjorklund and
+inherent reduction of sampled brain regions. Considering that regional            Dunnett, 2007). Some DA neurons have been reported in the DRN
+changes in monoamine tissue markers are frequently observed in animal             (Halberstadt and Balaban, 2008; Stratford and Wirtshafter, 1990).
+models under specific conditions, the balance of monoamines within
+and between regions appears to be a critical characteristic of mono­              2.2. Serotonergic system
+aminergic systems (Bharatiya et al., 2020; Fitoussi et al., 2013; Mlost
+et al., 2024). Being quantitative and offering the possibility to span                5-HT innervation in the CNS is widespread, with most CNS territories
+multiple regions, post-mortem parameters are interesting markers for              receiving projections to varying degrees. This widespread distribution
+exploring regional links within and between neurotransmitter systems              originates from 5-HT cell bodies in the MRN and DRN (Azmitia and
+across the CNS using correlative and multivariate analyses. These links           Segal, 1978; Steinbusch, 1984). The DRN is the brain region housing the
+would correspond neither to anatomical connectivity nor functional                highest proportion of 5-HT neurons, corresponding to 30–56% of 5-HT
+connectivity, and will be thus termed neurochemical connectivity.                 neurons in the CNS, depending on the species (Jacobs and Azmitia,
+    In this review, we explore the diverse conditions under which tissue          1992). 5-HT neurons may co-express and release other neurotransmit­
+monoamines and related compounds are measured, with a focus on the                ters, such as GABA, glutamate, and nitric oxide, in addition to neuro­
+analysis and interpretation of these indices. Taking into account the             peptides, such as corticotropin-releasing factor, substance P, or
+widespread innervation, morphology and regulation of monoaminergic                cholecystokinin (De Deurwaerdere and Di Giovanni, 2017; Jacobs and
+systems, and capitalizing on 15 years of in-house data, we broaden                Azmitia, 1992; Ren et al., 2019). Regarding glutamate, it has been well
+classical region-specific quantitative analysis, to evaluate monoamine            described that 5-HT neurons express the glutamate vesicular transporter
+tissue content across the brain, leveraging multiple correlations within          Vglut3 (Amilhon et al., 2010). The 5-HT-containing neurons of the DRN
+and between monoaminergic systems and other neurochemical systems.                send projections to DA neurons in both the VTA and SNpc, with their
+We believe this is one way to approximate neurochemical connectivity              terminal fields including the NAc, mPFC, amygdala, and striatum (De
+within and between neurotransmitter systems - before conceiving other             Deurwaerdere and Di Giovanni, 2017). They also innervate midbrain
+types of analyses including multivariate analysis and deep learning,              regions housing NA neurons, including the locus coeruleus (LC)
+discussed elsewhere (Parrot, 2025). These studies are still a comple­             (Aston-Jones et al., 1991; Muzerelle et al., 2016; Steinbusch, 1984).
+mentary analysis of the quantitative analysis before being considered as              DRN 5-HT neurons are heterogeneous and variably express proteins
+a true hypothesis-generating framework.                                           such as vGlut3 (Commons, 2020; Okaty et al., 2020, 2015; Ren et al.,
+                                                                                  2019). These data are consistent with previous anatomical studies
+2. Gross anatomy of monoaminergic neurons                                         describing at least six distinct pathways from the DRN (Hale and Lowry,
+                                                                                  2011): the dorsal part projects to the central and basolateral nuclei of the
+    Monoaminergic neurons project from brainstem nuclei throughout                amygdala, the dorsal hypothalamic area, and the mPFC. The ventral
+the brain and spinal cord. These projections include DA neurons located           DRN projects to the sensorimotor cortex and caudate putamen; the
+in the ventral tegmental area (VTA) and the substantia nigra pars                 lateral DRN projects to the lateral hypothalamus or superior colliculus;
+compacta (SNpc), NA neurons arising at least from locus coeruleus (LC),           the rostral DRN projects to the caudate putamen and SN; and the caudal
+and 5-HT neurons originating from the median and dorsal raphe nuclei              DRN projects to the amygdala, ventral hippocampus, and thalamic
+(MRN and DRN) (Aston-Jones, 2004; Bjorklund and Dunnett, 2007;                    nuclei (Lowry et al., 2008; Steinbusch, 1984).
+Gerfen et al., 1987; Hale and Lowry, 2011; Steinbusch, 1984). Yet, the                The MRN contains fewer 5-HT cell bodies than the DRN, approxi­
+monoaminergic innervation of the CNS is more complex, and it condi­               mately 5% of which project to the hippocampus (Ren et al., 2019;
+tions their quantities and metabolism.                                            Steinbusch, 1984, 1981). Although the MRN innervates several brain
+
+                                                                              2
+J.J. Butler et al.                                                                                                 Journal of Neuroscience Methods 435 (2026) 110859
+
+
+regions, the projections from the MRN to at least the basal ganglia or              and GABA as neurotransmitters. These interactions, both
+mPFC presumably do not release 5-HT (De Deurwaerdere and Di Gio­                    inter-neurotransmitter and inter-regional, are labile and are influenced
+vanni, 2017; Jacobs and Azmitia, 1992). MRN 5-HT projections are                    by specific stimuli and tasks engaged (Butler et al., 2025a,b).
+primarily responsible for 5-HT innervation in brain regions such as the                 Another level of complexity could be attributed to their modulatory
+dorsal hippocampus and lateral septum. Other 5-HT cell bodies from the              action on executive systems (Fig. 1). The influence of monoamines on
+nucleus reticularis tegmenti pontis, raphe pontis, and raphe magnus can             these systems occurs at different anatomical levels within and between
+innervate the medial septum (Köhler et al., 1982). 5-HT projections                functional networks. Conversely, these executive networks could
+could also originate from the raphe obscurus (Vertes and Martin, 1988),             directly interact with the monoaminergic systems in targeted regions or
+although the 5-HT-ergic nature of these neurons has not been clearly                acting on neurotransmitter release via feedback to the monoaminergic
+established, as suggested in opossums (Martin et al., 1985).                        nuclei. This distributed modulatory action has been largely overlooked,
+    Considering this distribution, the measurement of 5-HT and its me­              even though it looks to be the main functional property of mono­
+tabolites in a piece of tissue corresponds to the overlap of fibres origi­          aminergic neurons.
+nating from the DRN and MRN in several brain regions.                                   Monoamines are rarely used to elaborate anatomo-functional models
+                                                                                    of brain operations. An exception is the case of DA neurons from the
+2.3. Noradrenergic system                                                           midbrain and their receptors that entered the anatomo-functional model
+                                                                                    of basal ganglia (Albin et al., 1989; DeLong, 1990). This is in part due to
+    NA cell bodies are distributed across 7 distinct nuclei in the brain­           the distribution of DA receptors on the direct (D1 receptors) and the
+stem (A1–7) and innervate almost all brain regions. The NA system                   indirect pathways (D2 receptors), and the pathophysiology of the basal
+primarily corresponds to LC (A6). A1, A5, and A7 clusters are respon­               ganglia and L-DOPA-induced dyskinesia. This model, that is still taught,
+sible for some ascending and ventral NA projections to the septum, bed              was strongly discussed soon after its publication, as there are several
+nucleus of the stria terminalis, and hypothalamus (HY). The LC, which               reasons to take distance from the model. For instance, the segregation of
+contains approximately 50% of adrenergic neurons, is present in all                 DA receptors was not clearly evident (Gerfen and Surmeier, 2011), and
+mammalian species and is located in the dorsal pons. It is mainly                   the pathophysiological aspects of these models were based on the
+responsible for adrenergic innervation of the telencephalon and repre­              assumption that L-DOPA-induced dyskinesia was associated with
+sents the main source of NA within the CNS (Aston-Jones, 2004). The                 excessive DA release in the striatum, although the opposite may be true
+widespread network of LC-derived adrenergic projections exerts a                    (De Deurwaerdère et al., 2017; De La Fuente-Fernandez, 2004; Porras
+powerful modulatory influence on both cortical and subcortical circuits             et al., 2014). Meanwhile, as far as DA could be integrated in the models,
+(Chandler et al., 2019). Conversely, adrenergic innervation of the                  the striatal part was incorporated into the integrated actions of DA in the
+striatum and globus pallidus is sparse (Aston-Jones, 2004), consistent              whole basal ganglia and the cortex (Obeso et al., 2000). This approach
+with lower tissue NA levels in these regions (Fitoussi et al., 2013).               remains unsatisfactory, but highlights the difficulty in integrating neu­
+                                                                                    romodulatory systems into defined frameworks.
+2.4. Morphology of monoaminergic neurons                                                The use of other techniques is essential for better understanding this
+                                                                                    matrix of interactions and its dysregulation. Post-mortem measurements
+    Beyond the number of cell bodies located in each monoaminergic                  of monoamines across a plethora of regions, using validated and cali­
+centre, there is the issue of axonal branches and the shape of the fibres. It       brated techniques, offer an approach to overcome this challenge.
+is now well demonstrated that monoaminergic fibres have an extremely
+broad axonal development, with numerous “en passant” synapses that                  3. Biochemistry of monoaminergic systems
+serve as potential sites of uptake and release (Descarries et al., 1991;
+Descarries and Mechawar, 2000). Matsuda et al. (2009) successfully                  3.1. Biochemical organization of monoaminergic neurons
+labelled one dopaminergic neuron from the SN pars reticulata projecting
+to the striatum (Matsuda et al., 2009). It is remarkable that a single                  Like other systems of neurotransmission, the biochemical organiza­
+neuron can project to a large portion of the striatum, spanning func­               tion of monoaminergic neurons remains complex, despite receiving
+tionally distinct territories, such as the matrix and striosome. The                considerable attention. The first layer of complexity arises from the
+reconstruction of individual DRN 5-HT neurons has demonstrated more                 conception of neurons as polarized cells, from the somatodendritic re­
+extensive axonal projections throughout the brain than previously                   gions to axons. But when addressing the biochemical function of the
+thought (Ren et al., 2019, 2018).                                                   neurons, this polarization vanishes towards compartments capable of
+    During the late 1960’s and 1970’s, neurochemists identified distal              both synthesizing and releasing the neurotransmitter to varying degrees
+pools of neurotransmitter release located away from traditional sites               (Ludwig et al., 2016). Somatodendritic release of monoamines was
+using pharmacological compounds (Glowinski, 1975). The anatomical                   shown in vivo in 1981 for DA (Cheramy et al., 1981), and later for all
+counterpart to these neurochemical data came years later with evidence              monoaminergic neurons (Adell et al., 1993; Adell and Artigas, 1998;
+that certain varicosities, despite housing vesicles of exocytosis, cannot           Hery and Ternaux, 1981; Pudovkina and Westerink, 2005; Quentin
+release their contents (Liu et al., 2018). This has only been described for         et al., 2018; Westerink et al., 1987). This represents a fundamental
+DA axons in the striatum, which could explain the relatively low DA                 mechanism participating in the regulation of neuronal activity and
+metabolism in the striatum compared to other brain regions (see below).             neurotransmission.
+Whether the findings of Liu et al. (2018) apply to DA neurons in                        The second layer of complexity arises from the multiple enzymes and
+extrastriatal territories and 5-HT and NA neurons remains unknown.                  transporters maintaining the biochemical activity of neuronal com­
+                                                                                    partments in a steady state of non-equilibrium, which could correspond
+2.5. Influence of monoaminergic systems on executive neurotransmission              to homeostasis (Justice, 1993). Fig. 2 reports the general organization of
+                                                                                    the anabolic and catabolic pathways of monoaminergic neurons. The
+    Monoaminergic systems are strongly interconnected at various                    metabolism involves monoaminergic and non-monoaminergic neurons,
+levels, from the soma to the distal projections across the brain (De                and glial cells. The catecholamines - DA and NA share the initial
+Deurwaerdère and Di Giovanni, 2017). Although most quantitative                    involvement of cytosolic tyrosine hydroxylase (TH) in the biosynthesis
+studies show the effects of drugs on monoaminergic systems in various               of endogenous L-DOPA. L-DOPA is then decarboxylated into DA by ar­
+brain regions, they do not explain how these monoaminergic modifi­                  omatic amino acid decarboxylase (AADC) in the cytosol of catechol­
+cations influence each other or the regional and global executive sys­              aminergic neurons. DA enters the vesicles of exocytosis via the vesicular
+tems that compose the functional networks using glutamate, aspartate,               monoamine transporter type 2 (VMAT2), facilitated by the acidic
+
+                                                                                3
+J.J. Butler et al.                                                                                                  Journal of Neuroscience Methods 435 (2026) 110859
+
+
+
+
+Fig. 1. Interaction between monoamines and executive neurotransmitter systems. Monoaminergic neurons originate is in the brainstem and innervate in a diffuse
+manner numerous interconnected brain regions. These axonal projections are depicted as dashed lines from the dorsal and median raphe nucleus (DR and MR; 5-HT
+axons yellow); locus coeruleus (LC; NA axons teal); substantia nigra and ventral tegmental area (SN and VTA; DA axons purple). The nodes in each region are scaled
+relative to the known, distinct abundance of each monoamine in that region. The loops connecting these regions represent established cortico-subcortical-thalamic
+loops, highlighting monoaminergic regulation occurring in the brainstem, striatum, thalamus and finally the cortex feeding back in a top-down regulation of
+monoaminergic nuclei. The ‘?’ represents the yet uncharacterised interregional neurochemical regulation in the brain.
+
+
+gradient maintained by an ATPase pump (Justice, 1993). The acidic pH                Such a mechanism has been largely underestimated in the treatment of
+of the vesicles protects catecholamines from auto-oxidation (Mosharov               Parkinson’s disease where the striatum could not be the main site of the
+et al., 2009; Umek et al., 2018). In NA neurons, the cytosolic synthesis of         therapeutic efficacy of L-DOPA and L-DOPA-induced dyskinesia as far as
+NA is presumably minimal and mediated by soluble DA-β-hydroxylase                   DA is involved in L-DOPA’s action (De Deurwaerdere et al., 2017). Even
+(DBH) (Issidorides et al., 2004; Olschowka et al., 1981). Rather, NA                without the injection of exogenous amino acid precursors, the blockade
+synthesis mainly occurs in the exocytotic vesicles, with a higher pres­             of key enzymes involved in the degradation of monoamines (see below)
+ence of soluble and membrane-bound DBH (Rush and Geffen, 1980) and                  can lead to an accumulation of 5-HT in DA terminals, which can be
+DA itself. Thus, NA neurons could release DA, as demonstrated in                    released by striatal DA terminals upon stimulation (Zhou et al., 2005).
+numerous in vivo studies (Devoto et al., 2014, 2005; Kempadoo et al.,                   The degradation of biogenic amines is also complex, involving
+2016). The synthesis of 5-HT occurs from the mono-oxygenation of                    several enzymes and cell types. Among these, monoamine oxidase
+tryptophan into 5-hydroxy-tryptophan (5-HTP) by tryptophan hydrox­                  (MAO) plays a central role in regulating amine levels within the brain.
+ylase 2 (TPH2) and its decarboxylation into 5-HT by AADC, both                      The enzyme exists in two isoforms, MAOA and MAOB, which catalyse
+occurring in the cytosol (Mosienko et al., 2015). 5-HT is then trans­               oxidative deamination and produce hydrogen peroxide, ammonia and
+ported into exocytotic vesicles via VMAT2. Monoaminergic neurons lack               the corresponding aldehyde. Catecholaminergic neurons mainly contain
+distinct biochemical identities, as they share the AADC and VMAT2 in                MAOA, whereas 5-HT neurons are rich in MAOB at their terminals. DA,
+their anabolic pathways.                                                            NA, and 5-HT are degraded by MAOA and to a lesser extent DA by MAOB
+    One of the main consequences of this overlap of enzymatic/transport             (Di Giovanni et al., 2016; Ramsay, 2013). Another enzyme
+pathways between monoaminergic pathway occurs when precursors of                    catechol-O-methyltransferase (COMT) can also metabolize DA and NA
+these monoamines are exogenously administered. It is well documented                (Eisenhofer et al., 2004). COMT is not present in the DA terminals of
+that the exogenous administration of the precursors 5-HTP or L-DOPA -               rodents (Kaenmaki et al., 2009; Myohanen et al., 2010; Schendzielorz
+aromatic amino acids that enter the CNS and all cells via L-amino acid              et al., 2013), implying that glial cells or other neurons uptake extra­
+transporter 1 promote the synthesis and release of 5-HT from cate­                  cellular DA in tissues where the DA clearance is low (Fig. 2). COMT is
+cholaminergic and DA from 5-HTergic neurons (De Deurwaerdere et al.,                also involved in the degradation of metabolites generated by MAO. The
+2017; Jackson and Wightman, 1995; Navailles et al., 2010; Stamford                  final product from these two distinct catabolic pathways is homovanillic
+et al., 1990). Consequently, the ability of 5-HTP and L-DOPA to release             acid (HVA) for DA metabolism and vanillylmandelic acid (VMA) for NA
+5-HT and DA, respectively follows the catecholaminergic innervation for             metabolism (Eisenhofer et al., 2004).
+5-HTP and serotonergic innervation for L-DOPA towards ectopic release                   In catecholaminergic neurons, DA is metabolized to DOPAL by the
+in unexpected CNS regions (Barrière et al., 2025; Navailles et al., 2011).         activity of MAOA and to 3,4-dihydroxyphenylacetic acid (DOPAC) by
+
+                                                                                4
+J.J. Butler et al.                                                                                                 Journal of Neuroscience Methods 435 (2026) 110859
+
+
+
+
+Fig. 2. Metabolic pathways of monoaminergic neurons. This drawing represents terminals of dopamine (DA) (top left), noradrenaline (NA) (top right) and serotonin
+(5-HT) neurons surrounding a glial cell and non-catecholaminergic neurons. L-amino acid decarboxylase (AADC); L− 3,4-dihydroxyphenylalanine (L-DOPA) tyrosine
+hydroxylase (TH); tryptophan hydroxylase 2 (THP2); Monoamine oxidase A and B (MAOA, MAOB); 3,4-Dihydroxyphenylacetaldehyde (DOPAL); Aldehyde dehy­
+drogenase and reductase (AD, AR); 3,4-Dihydroxyphenylacetic acid (DOPAC); Catechol-o-methyltransferase (COMT), 3-Methoxytyramine (3-MT); homovanillic acid
+(HVA); dopamine beta-hydroxylase (DBH). 3,4-methoxyphenylacetaldehyde, (DOPEGAL); 3,4-dihydroxyphenylglycol (DHPG); 3-Methoxy− 4-hydroxyphenylglycol
+(MHPG); vanillylmandelic acid (VMA); 5-hydroxytryptophan (5-HTP); 5-hydroxyindole acetaldehyde (5-HIAL); 5-hydroxyindoleacetic acid (5-HIAA); vesicular
+monoamine transporter 2 (VMAT2); DA transporter (DAT); 5-HT transporter (SERT); NA transporter (NET); plasma membrane monoamine transporter (PMAT);
+organic cation transporter 2 and 3 (OCT− 2, OCT− 3). (VMAT2); DA transporter (DAT); 5-HT transporter (SERT); NA transporter (NET); plasma membrane mono­
+amine transporter (PMAT); organic cation transporter 2 and 3 (OCT− 2, OCT− 3).
+
+
+aldehyde dehydrogenase (AD) enzymes (Goldstein et al., 2015, 2013;                 3.2. The biochemical index of monoamines: raw data and indirect indexes
+Liu et al., 2014). It is then converted to HVA by COMT, outside of                 of turnovers
+catecholaminergic neurons at least in rodents. Likewise, NA is metabo­
+lized to VMA by MAO, AD, and COMT. The NA metabolites 3-methox­                        Depending on the analytical conditions, monoamines, their pre­
+y− 4-hydroxyphenyl ethylene glycol (MHPG) and 3,4-dihydroxyphenyl                  cursors, and their metabolites can be measured, and the ratios between
+ethylene glycol (DHPG) are produced from the activity of MAOA fol­                 them can be calculated. One may wonder what the meaning is of these
+lowed by aldehyde reductase (AR) (Eisenhofer et al., 2004). 5-HT is                indices measured using different biochemical approaches. The extra­
+metabolized to 5-hydroxyindole acetic acid (5-HIAA) by MAOA and AD.                cellular levels, corresponding to release from terminals, are minimal.
+    A third layer of complexity, already evoked above, is that terminals           Even though extracellular DA is relatively high in the striatum, high
+of monoaminergic neurons, and particularly the DA ones, do not have                sensitivity is required to measure it in dialysates. The contribution of
+the same biochemical organization in different CNS regions. It is also             these extracellular levels to the whole measurement of DA in post-
+important to consider that the regulations reported here, mostly from              mortem striatal tissue is considered negligible (Pregeljc et al., 2019).
+rodents, are different in primates, vertebrates, and invertebrates (see            The proportion of DA in the cytosol corresponds to approximately 3%,
+below).                                                                            whereas the main contribution to the DA tissue content likely comes
+
+
+                                                                               5
+J.J. Butler et al.                                                                                                    Journal of Neuroscience Methods 435 (2026) 110859
+
+
+from exocytic vesicles. This research again focuses on DA in striatal                 modulated by these partners (heterologous controls) and autoregulatory
+tissue, although it is likely different in extrastriatal territories as well as       mechanisms (homologous controls) that maintain an activity set point
+for 5-HT and NA, as their metabolism (turnover) is higher compared to                 for varicosities originating at the neuronal level. Biochemical modula­
+DA in the striatum. Extracellular levels of DA are extremely low in the               tion of terminal activity can be independent of the electrical activity of
+prefrontal cortex when compared to extracellular levels of DA in the                  cell bodies, as exemplified by the ability of synaptosomes to synthesize
+striatum (factor 10) (Gobert and Millan, 1998; Gobert et al., 2000). In               and release neurotransmitters in exocytotic and non-exocytotic manners
+addition to faster cortical metabolism compared to the striatum,                      (de Belleroche and Bradford, 1980). These considerations are important
+regional monoamine differences are related to the possible participation              when correlating the tissue content of neurotransmitters between brain
+of NA terminals (Devoto et al., 2005) and the lower density of DA re­                 regions. While homologous controls maintain activity at similar levels,
+uptake sites, including the norepinephrine transporter (NET) and the DA               heterologous controls can change according to the conditions. It is
+transporter (DAT, negligible in the cortex) (Holloway et al., 2018). The              possible that changes in the correlation profiles between brain regions
+extracellular levels of NA and 5-HT are also low in numerous brain re­                we will describe later correspond to subtle variations in heterologous
+gions (Devroye et al., 2017; Gobert et al., 2000; Navailles et al., 2011;             controls rather than gross changes in homologous controls that would
+Sharp et al., 1989). The values are in the femtomole/sample range.                    modify neurotransmitter or metabolite quantities across regions. It is
+    One advantage of postmortem analysis is to address the heteroge­                  remarkable that the full lesion of DRN/MRN 5-HT neurons does not
+neity of monoamines quantity across multiple brain regions without                    change the striatal tissue content of DA three weeks after the lesion (De
+addressing the specific biochemical regulations in the different brain                Deurwaerdere et al., 1998, 1995), despite the multitude of evidence
+regions. Table 1 reports values in ng/mg for NA, DA, and 5-HT in                      showing that 5-HT modulates the activity of DA neurons (Alex and
+numerous brain regions from different rat and mouse strains (mostly                   Pehek, 2007; De Deurwaerdere and Di Giovanni, 2017; Kapur and
+males) for naïve, wild type, or animals receiving saline (i.e. control                Remington, 1996; Soubrie et al., 1984). In fact, the electrolytic lesions
+groups). These differences could be attributed to species, strain, age, or            (MRN, DRN, or both) modified the indirect index of the turnover of DA
+sex, but are also related to the precise location of the punch. The gross             (DOPAC/DA) sometimes in an opposite manner between the cortex and
+distribution of tissue content for monoamines indicates high levels of DA             the NAc (Herve et al., 1981; Hervé et al., 1979a). Thus, numerous ho­
+in the striatum (often > 1 ng/mg), lower levels in the mesencephalon                  meostatic processes occur to maintain tissue DA levels, with distinct
+and amygdala (approximately 0.1–0.3 ng/mg), and low levels in most                    mechanisms between brain regions. The corollary would be that similar
+cortical regions and the hippocampus. The 5-HT concentrations were                    tissue levels in various conditions do not imply that the parameter has
+higher in the VTA, SN, DRN, and MRN. The concentrations of NA were                    not changed qualitatively. For this reason, correlative approaches could
+higher in the hypothalamus, thalamus, DRN, and VTA. The concentra­                    add information beyond classical quantification, and are seen as a
+tions of NA in the hypothalamus are among the most variable parame­                   complementary analysis in this schema However, it is important to
+ters between studies. The noradrenergic innervation of the                            address some technical issues to ensure that the biological variability is
+hypothalamus is extremely heterogeneous (Kvetǹanskỳ et al., 1983),                    relevant because the correlative analyses are still not associated with a
+which could explain the large variability between studies.                            hypothesis-driven framework.
+    Monoamine metabolism also varies between brain regions, as
+exemplified by the DOPAC/DA [sometimes (HVA + DOPAC/DA)] and 5-                       4. Practical and technical measurements of post-mortem data,
+HIAA/5-HT ratios (Bannon et al., 1981; Commissiong, 1985; Ebinger                     with possible caveats
+et al., 1987; Fitoussi et al., 2013; Johnston and Moore, 1983; Shannon
+et al., 1986), whose functional value for assessing metabolic activity is                  In quantitative approaches, variability can be attributed to multiple
+greater than that of the tissue neurotransmitter itself (Eisenhofer et al.,           factors, including analytical devices. Therefore, analytical procedures
+2004). This statement may not be as evident when performing correla­                  are extremely rigorous whenever quantification is required for tissue
+tive analyses, which is, in part, the purpose of this review. These                   content or in vivo extracellular dialysate levels. Variability in these
+metabolic indices are often termed turnover, a biological process that                quantitative data also arises from biological factors, some of which can
+includes the balance between the synthesis and catabolism of mono­                    be controlled (e.g., circadian rhythm), whereas others remain inherently
+amines (Eisenhofer et al., 2004; Glowinski, 1975). Turnover stricto                   uncontrollable (inter-individual variability).
+sensu has been less studied ex vivo or in vivo, as it requires specific an­                The expression of group data as a mean or median masks the vari­
+alyses that mainly rely on radiolabelled compounds. Therefore, the ra­                ability of individual values, whereas correlative and multivariate ap­
+tios are indirect indexes of turnover only. Again, the same index, such as            proaches give more importance to each individual value within the
+DOPAC/DA, likely has a different meaning in the striatum than in                      group (Butler et al., 2025a). Therefore, the number of animals in each
+extrastriatal tissue. In the striatum, the origin of DOPAC would be pri­              group must be sufficient to address the scientific question. If the ques­
+mary related to DA terminals themselves in basal conditions in rodents                tion is simply the validation and the extent of the ablation of seroto­
+(Justice, 1993; Sharp et al., 1986; Zetterström et al., 1988). The reason            nergic neurons, for instance, n = 5 may be sufficient. However, the
+for less knowledge in extrastriatal tissue is related to the difficulty in            characterisation of correlative networks between genetic or behavioural
+reliably measuring low quantities of DA and its metabolites. Moreover,                phenotypes, or pharmacological treatments warrants an n sufficient to
+DA-based pharmacology (psychostimulants, DA agonists, and DA an­                      meaningfully capture inter individual variability. We set a somewhat
+tagonists), which has enabled researchers to better understand striatal               arbitrary minimum of n = 8 for this purpose. Although, attributing
+DA terminal function and activity, is less relevant in several extrastriatal          biological meaning to a correlation becomes problematic if the observed
+tissues due to the low levels of DAT and D2 autoreceptors (Jiao et al.,               variability arises from factors such as injection errors or aberrant sam­
+2003). This argument alone should justify broader analyses of tissue                  pling locations.
+content for neurotransmitters and metabolites across the CNS, as the                       A rigorous approach is crucial in quantitative and semi-quantitative
+regulatory mechanisms operating on the activity of monoaminergic                      methods because quantification is relative, not absolute. Since multi­
+neurons in the CNS are likely to vary across brain regions.                           variate analysis emerges from this type of quantitative data, there are
+                                                                                      still no clear expected profiles of neurochemical connectivity. Thus, the
+3.3. The neuron and the gland                                                         recommendations reported in Fig. 3 are rigorously followed to avoid
+                                                                                      pitfalls that would introduce unwanted variability in a dataset at the
+   Varicosities along the axons of monoaminergic neurons interact with                expense of biological variability.
+local partners, including cell bodies, glial cells, and afferent neurons/                  A first source of variability is the experimental design (Fig. 3A). It is
+dendrites. The biochemical activity of monoaminergic terminals is                     essential to manage the various biases that could influence the dataset
+
+                                                                                  6
+J.J. Butler et al.                                                                                                           Journal of Neuroscience Methods 435 (2026) 110859
+
+
+Table 1
+Tissue concentrations of monoamines across the rodent brain. Data compiled from the control groups of various studies are referenced in the table.
+  Brain region         Tissue concentration (ng/mg)
+
+                       NA                 DA                5-HT          ref
+
+  Orbital Cortex       0.12–0.24     ​    0.01–0.06     ​   0.16–0.22     (Bharatiya et al., 2020; Butler et al., 2025b; Gros et al., 2021; Marty et al., 2023)
+  medial               0.09–0.19     ​    0.03–0.14     ​   0.05–0.156    (Chagraoui et al., 2019; De Deurwaerdere et al., 2020; Fitoussi et al., 2013)
+  lateral              0.01–0.132    ​    0.005–0.02    ​   0.05–0.144    (Chagraoui et al., 2019; De Deurwaerdere et al., 2020; Fitoussi et al., 2013)
+  dorsolateral         0.07–0.182    ​    nd− 0.005     ​   0.05–0.205    (Chagraoui et al., 2019; De Deurwaerdere et al., 2020; Fitoussi et al., 2013)
+  Frontal Cortex       ​             ​    ​             ​   ​             ​
+  Prelimbic            0.04–0.26     ​    0.02–0.06     ​   0.05–0.16     (Bharatiya et al., 2020; Butler et al., 2025b; Chagraoui et al., 2019; De Deurwaerdere et al., 2020;
+                                                                          Fitoussi et al., 2013; Gros et al., 2021; Marty et al., 2023)
+  Infralimbic          0.05–0.305    ​    0.03–0.123    ​   0.07–0.14     (Bharatiya et al., 2020; Chagraoui et al., 2019; De Deurwaerdere et al., 2020; Fitoussi et al., 2013;
+                                                                          Gros et al., 2021)
+  Cingular anterior    0.06–0.58     ​    0.016–0.08    ​   0.05–0.23     (Bharatiya et al., 2020; Butler et al., 2025b; Chagraoui et al., 2019; De Deurwaerdere et al., 2020;
+                                                                          Fitoussi et al., 2013; Gros et al., 2021; Marty et al., 2023)
+  Cingular posterior   0.09–0.24     ​    0.015–0.05    ​   0.07–0.11     (Chagraoui et al., 2019; De Deurwaerdere et al., 2020; Fitoussi et al., 2013)
+  M2                   0.07–0.287    ​    0.015–0.036   ​   0.04–0.13     (Bharatiya et al., 2020; Chagraoui et al., 2019; De Deurwaerdere et al., 2020; Fitoussi et al., 2013)
+  M1                   0.17–0.17     ​    0.01–0.013    ​   0.165–0.21    (Butler et al., 2025b; De Deurwaerdère et al., 2022)
+  Insular anterior     0.1–0.33      ​    0.013–0.062   ​   0.06–0.18     (Bharatiya et al., 2020; Chagraoui et al., 2019; De Deurwaerdere et al., 2020; Fitoussi et al., 2013)
+  Insular posterior    0.09–0.312    ​    0.006–0.04    ​   0.1–0.18      (Chagraoui et al., 2019; De Deurwaerdere et al., 2020; Fitoussi et al., 2013)
+  Cortex               ​             ​    ​             ​   ​             ​
+  Somesthesic          0.18–0.23     ​    0.005–0.018   ​   0.05–0.08     (Butler et al., 2025b; De Deurwaerdère et al., 2022; Gros et al., 2021)
+  Auditory             0.15–0.16     ​    0.009–0.013   ​   0.07–0.08     (Aman et al., 2025; Butler et al., 2025b)
+  Visual               0.14–0.19     ​    0.008–0.009   ​   0.046–0.055   (Butler et al., 2025b; De Deurwaerdère et al., 2022)
+  Retrosplenial        0.12          ​    0.015         ​   0.14          (Gros et al., 2021)
+  Entorhinal           0.2           ​    0.01          ​   0.12          (A. Gros et al., 2021)
+  Basal Ganglia        ​             ​    ​             ​   ​             ​
+  Nucleus              0.09–0.13     ​    1,6–3,5       ​   0.13–0.3      (Aman et al., 2025; Butler et al., 2025b; Gros et al., 2021)
+    accumbens
+  Accumbens Shell      0.06–0.32     ​    1,1–3,8       ​   0.11–0.311    (Bharatiya et al., 2020; Chagraoui et al., 2019; De Deurwaerdere et al., 2020; Fitoussi et al., 2013)
+  Accumbens core       0.03–0.34     ​    0.84–4,1      ​   0.06–0.14     (Bharatiya et al., 2020; Chagraoui et al., 2019; De Deurwaerdere et al., 2020; Fitoussi et al., 2013)
+  Striatum             0.09          ​    10,565        ​   0.35          (Aman et al., 2025)
+  Dorsomedial          nd− 0.23      ​    2,8–10        ​   0.006–0.2     (Bharatiya et al., 2020; Butler et al., 2025b; Chagraoui et al., 2019; De Deurwaerdere et al., 2020;
+                                                                          Fitoussi et al., 2013; Gros et al., 2021; Marty et al., 2023)
+  Ventromedial         nd− 0.2       ​    2,6–7,5       ​   0.11–0.26     (Bharatiya et al., 2020; Butler et al., 2025b; Chagraoui et al., 2019; De Deurwaerdere et al., 2020;
+                                                                          Fitoussi et al., 2013; Gros et al., 2021; Marty et al., 2023)
+  Dorsolateral         nd− 0.08      ​    2,8–10        ​   0.07–0.17     (Bharatiya et al., 2020; Butler et al., 2025b; Chagraoui et al., 2019; De Deurwaerdere et al., 2020;
+                                                                          Fitoussi et al., 2013; Gros et al., 2021; Marty et al., 2023)
+  Ventrolateral        nd− 0.22      ​    2–14          ​   0.07–0.26     (Bharatiya et al., 2020; Butler et al., 2025b; Chagraoui et al., 2019; De Deurwaerdere et al., 2020;
+                                                                          Fitoussi et al., 2013; Gros et al., 2021; Marty et al., 2023)
+  Globus Pallidus      nd            ​    0.06          ​   0.2           (De Deurwaerdère et al., 2022)
+  STN                  0.1–0.3       ​    0.04–0.1      ​   0.04–0.36     (Bharatiya et al., 2020; Chagraoui et al., 2019; De Deurwaerdere et al., 2020; Fitoussi et al., 2013)
+                                                                          Fit, Dede, Chag, Bar
+  EPN                  0.1–0.3       ​    0.05–0.1      ​   0.12–0.23     (Bharatiya et al., 2020; Chagraoui et al., 2019; De Deurwaerdere et al., 2020; De Deurwaerdère
+                                                                          et al., 2022)
+  Hippocampus          ​             ​    ​             ​   ​             ​
+  dorsal               0.05–0.25     ​    nd− 0.03      ​   0.03–0.33     (Aman et al., 2025;Bharatiya et al., 2020; Butler et al., 2025b; Chagraoui et al., 2019; De
+                                                                          Deurwaerdere et al., 2020; De Deurwaerdère et al., 2022; Fitoussi et al., 2013; Gros et al., 2021;
+                                                                          Marty et al., 2023)
+  ventral              0.13–0.34     ​    0.004–0.019   ​   0.08–0.24     (Aman et al., 2025; Bharatiya et al., 2020; Butler et al., 2025b; Chagraoui et al., 2019; De
+                                                                          Deurwaerdere et al., 2020; Fitoussi et al., 2013; Gros et al., 2021; Marty et al., 2023)
+  Amygdala             0.14–0.8      ​    0.1–0.24      ​   0.19–0.45     (Aman et al., 2025; Butler et al., 2025b; Gros et al., 2021; Marty et al., 2023)
+  Basolateral          0.1–0.36      ​    0.09–0.6      ​   0.09–0.25     (Bharatiya et al., 2020; Chagraoui et al., 2019; De Deurwaerdere et al., 2020; Fitoussi et al., 2013)
+  Central              0.12–0.25     ​    0.06–0.185    ​   0.09–0.25     (Bharatiya et al., 2020; Chagraoui et al., 2019; De Deurwaerdere et al., 2020; Fitoussi et al., 2013)
+  Diencephalon         ​             ​    ​             ​   ​             ​
+  Thalamus             0.17–0.4      ​    0.009–0.012   ​   0.1–0.12      (Aman et al., 2025; Bharatiya et al., 2020; Gros et al., 2021; Marty et al., 2023)
+  mediodorsal          0.08–0.55     ​    0.015–0.05    ​   0.02–0.15     (Butler et al., 2025b; Gros et al., 2021)
+  ventrolateral        0.07          ​    0.006         ​   0.11          (Butler et al., 2025b)
+  Anterior dorsal      0.133         ​    0.022         ​   0.076         (De Deurwaerdère et al., 2022)
+  n. reticularis       0.141         ​    0.056         ​   0.114         (De Deurwaerdère et al., 2022)
+  posterior            0.375         ​    0.082         ​   0.28          (De Deurwaerdère et al., 2022)
+  ventrobasal          0.136         ​    0.042         ​   0.07          (De Deurwaerdère et al., 2022)
+  dLGN                 0.18–0.2      ​    0.005–0.034   ​   0.134–0.2     (Butler et al., 2025b; De Deurwaerdère et al., 2022)
+  Habenula             0.06–0.08     ​    0.06–0.015    ​   0.04–0.13     (Bharatiya et al., 2020; De Deurwaerdere et al., 2020)
+  Hypothalamus         0.3–2         ​    0.04–0.08     ​   0.15–0.2      (Aman et al., 2025; Butler et al., 2025b; Gros et al., 2021)
+  dorsal               0.04–0.7      ​    0.02–0.07     ​   0.05–0.2      (Bharatiya et al., 2020; Chagraoui et al., 2019; De Deurwaerdere et al., 2020)
+  ventral              0.15–0.64     ​    0.02–0.15     ​   0.02–0.72     (Bharatiya et al., 2020; Chagraoui et al., 2019; De Deurwaerdere et al., 2020; Marty et al., 2023)
+  Mesencephalon        ​             ​    ​             ​   ​             ​
+  Sup Colliculus       0.16–0.17     ​    0.04–0.08     ​   0.18–0.35     (Butler et al., 2025b; De Deurwaerdere et al., 2020)
+  VTA                  0.24–0.47     ​    0.22–0.5      ​   0.23–0.7      (Bharatiya et al., 2020; Butler et al., 2025b; Chagraoui et al., 2019; De Deurwaerdere et al., 2020;
+                                                                          Fitoussi et al., 2013; Gros et al., 2021; Marty et al., 2023)
+  SN                   0.1–0.26      ​    0.2–0.4       ​   0.32–1        (Bharatiya et al., 2020; Butler et al., 2025b; Chagraoui et al., 2019; De Deurwaerdere et al., 2020;
+                                                                          Fitoussi et al., 2013; Gros et al., 2021; Marty et al., 2023)
+  Red nucleus          0.24          ​    0.1           ​   0.22          (Gros et al., 2021)
+  DRN                  0.23–1,2      ​    0.05–0.08     ​   0.23–1,15     (Bharatiya et al., 2020; Chagraoui et al., 2019; De Deurwaerdere et al., 2020; Fitoussi et al., 2013;
+                                                                          Gros et al., 2021)
+                                                                                                                                                        (continued on next page)
+
+
+
+
+                                                                                  7
+J.J. Butler et al.                                                                                                              Journal of Neuroscience Methods 435 (2026) 110859
+
+
+Table 1 (continued )
+  Brain region             Tissue concentration (ng/mg)
+
+                           NA                 DA                5-HT          ref
+
+  MRN                      0.25–0.32     ​    0.015–0.08   ​    0.1–1,2       (Bharatiya et al., 2020; Chagraoui et al., 2019; De Deurwaerdere et al., 2020; Fitoussi et al., 2013;
+                                                                              Gros et al., 2021)
+  Pons - Medulla           ​             ​    ​            ​    ​             ​
+  Inferior olive           0.24          ​    0.01         ​    0.1           (Gros et al., 2021)
+  Locus coeruleus          1,8           ​    0.13         ​    0.18          (Gros et al., 2021)
+  Cerebellum               0.14–0.28     ​    0.01–0.035   ​    0.02–0.06     (Butler et al., 2025b; Gros et al., 2021)
+
+The data were obtained from studies performed on rodents. This corresponds mostly to male rats, except for Aman et al., (2025) and Butler et al., (2025b), which were
+performed in female and male C57Bl6/J mice. Rat strains were Wistar-Han (Fitoussi et al., 2013), Long Evans (Gros et al., 2021) or Sprague-Dawley (the other studies).
+
+
+
+
+                     Fig. 3. – Practices to minimise non-biological variability at each experimental stage for post-mortem neurochemical quantification.
+
+
+such as sex, age, strain, or life conditions are among the evident con­                   interest can be dissected directly after removal. In this case, the pieces of
+ditions that are classically managed. The time of sacrifice is another                    tissue are usually quite large (several mg), which allows for their direct
+possible bias, as the concentration of monoamines can vary during the                     weighing before freezing. The main limitation of this approach is the risk
+circadian cycle (Cagampang et al., 1993; Hery et al., 1977; Menon et al.,                 of damaging neighbouring structures and the limited number of brain
+2019; Rueter and Jacobs, 1996). Thus, choosing a short time window for                    regions that can be dissected. This is likely the cause of the regularly
+sacrifice limits the impact of the circadian rhythm on the dataset. In any                reported elevated levels of DA in the cortex (above 100 pg/mg of tissue)
+case, a random and balanced design should be adopted. The metabolism                      and sometimes in the hippocampus, likely from the presence of striatal
+of monoamines and classical neurotransmitters is rapid and sensitive to                   or mesencephalic tissue in the sample. Thus, even 1% of striatal tissue
+anesthetics (Müller et al., 2011). Thus, the sacrifice of the animals                     can compromise the determination of cortical or hippocampal DA
+should occur without anesthesia if subtle changes in monoamine                            quantity (Table 1). Since this type of regional contamination is unex­
+quantities are to be assessed. The experimenter should be blind to the                    pected, it can vary between samples in the same experiment without
+experimental groups from animal manipulation through dissection to                        necessarily implying outliers but inducing non-biological variability.
+sample handling (injection and analysis). The number of animals should                    Alternatively, the frozen whole brain can be dissected using a cryostat or
+be determined before the experiment. Increasing the number of obser­                      frozen microtome at approximately − 24◦ C (Fitoussi et al., 2013; Saa­
+vations (n) after several weeks or months is rarely satisfactory, as the                  vedra, 1977). This method offers several advantages: precise control
+added values could differ by 10–20% compared to the initial controls.                     over the size of the tissue 'punches', smaller tissue samples, larger
+Such variability arises from all steps of the procedure (life conditions,                 number of brain regions, picture of extracted regions. In the hands of a
+sampling      procedures,     and     other    chromatographic/detection                  trained manipulator, this technique limits the punching of neighbouring
+conditions).                                                                              regions. This approach has also some limits as regards the tissue
+    A second source of variability comes from the selection of tissues. To                conditioning.
+further adhere to a rigorous scientific method, the same experimenter                         The third source of variability is tissue conditioning (Fig. 3 C). Tis­
+should dissect the CNS regions of interest (Fig. 3B). The CNS regions of                  sues should be stored in labelled tubes at − 80◦ C. The tissue samples
+
+
+                                                                                      8
+J.J. Butler et al.                                                                                              Journal of Neuroscience Methods 435 (2026) 110859
+
+
+must then undergo a process of compound extraction (Fig. 3 C).                    5. Correlative and multivariate analyses of CNS
+Whenever small pieces of tissues are taken from the frozen brain in a             neurotransmitters
+cryostat (punches), there are two issues to consider with this method of
+sampling. The tissue weight, low (1–3 mg), is determined by the dif­              5.1. Rational to change paradigms
+ference between filled and empty tubes with specific procedures
+(Dellu-Hagedorn et al., 2017). The second point is related to the multiple            Monoaminergic systems exhibit biological responses through their
+steps of tissue handling before processing. At variance with peripheral           actions across the CNS (De Deurwaerdère and Di Giovanni, 2017;
+tissues, the extraction of monoamines from CNS tissues can be achieved            Fitoussi et al., 2013; Hensler et al., 2013). Knowledge of the biological
+using perchloric acid (HCLO4, 0.1 N), without absorption/filtration,              functions and complex interactions between monoamine systems is
+after sonication. All procedures, including subsequent centrifugation,            limited and does not sufficiently consider the widespread nature of their
+were performed at 4◦ C. The procedures should be homogenous and                   axonal branches. It is postulated that changes in monoamine tone in one
+reproducible for all tissues.                                                     brain region can have effects on the activity of the other monoamines,
+    The last source of variability comes from the analytical devices              both locally and distally, directly or indirectly via other neurotrans­
+(Fig. 3D). The sensitivity and stability of the analytical devices are            mission systems (Fig. 1). This has been exemplified in numerous dy­
+checked daily using standard solutions. Stability also implies a repro­           namic, in vivo studies without providing a wide-brain overview (De
+ducible injection procedure, minimizing the injection volume error and            Deurwaerdere and Di Giovanni, 2017; Guiard et al., 2008; Hensler et al.,
+dispersion of the sample before the HPLC column. A more complicated               2013).
+source of variability is confounding peaks in the chromatogram. The                   Quantitative neurochemical data from post-mortem tissue offers the
+quality and purity of each constituent is important to minimize con­              possibility to approximate interaction between neurotransmitters and/
+taminations of different origins. Contaminants can also be compounds              or their metabolism in distinct CNS regions, sometimes in brain regions
+present in tissue samples. In fact, most HPLC conditions can detect               that are never considered. As indicated above, the a correlative
+several compounds that are not measured because their endogenous                  approach provides qualitative insights into neurochemical tissue con­
+concentrations are low or negligible. When measuring DA, DOPAC, or                tents that can occur independently from quantitative changes and
+HVA tissue content in regions with low endogenous levels, such as the             whenever quantitative changes occur, it can reveal the qualitative as­
+hippocampus or cortex (Table 1), a higher gain is required (i.e., the             pects accompanying these changes that may be obscured when
+detector amplification factor applied to the electrochemical signal).             expressed as mean + /- SD (Butler et al., 2025a). Brain-wide correlative
+Particularly at higher gains, negligible concentrations of electrochemi­          approaches are being used for a variety of non-quantitative data in
+cally sensitive compounds can induce a signal, in addition to a higher            neuroscience. Functional magnetic resonance imaging (fMRI), magne­
+background than the baseline. Therefore, caution is required to ensure            toencephalography (MEG), and multielectrode array (MEA) data are
+that the peak of the target compound does not coincide with that of a             analysed using correlative approaches between brain regions, furthered
+tissue ‘contaminant’. For instance, under our conditions, L-DOPA, 5-              by the application of graph theory to describe network properties
+HTP, and adrenaline, among others, induce strong electrochemical sig­             (Bullmore and Sporns, 2009; Wang, 2010). These works often describe
+nals in standards, but their concentrations are low or negligible                 ‘functional connectivity’ that is, regions whose signals correlate over
+(adrenaline in the brain). At a higher gain, we can measure low but               time. It has resulted in the description of several ‘brain networks’, re­
+reproducible quantities of L-DOPA or 5-HTP (5–50 pg/mg of tissue).                gions whose fMRI signal tends to correlate in given states, notably the
+Therefore, the correct separation of a sample under the initial conditions        Default Mode Network (DMN), active during rest or internally directed
+should include the determination of the elution time of other com­                cognition (Raichle, 2015). To conceive neurochemical networks a
+pounds in the sample, whether measured or not (Marty et al., 2023). The           Pearson/Spearman correlation, according to normality testing, is per­
+concentration of the pairing ion (for instance sodium octyl sulfate) or the       formed between two sets of data from the same animals, significant
+modification of the pH of the mobile phase should allow for adjusting             (p < 0.05) r values are included in a correlogram usually without
+the elution time of the compounds to achieve a clear separation between           correction for multiple compassions, discussed in 5.7.2. Fig. 9 shows a
+peaks (Chagraoui et al., 2019). Once the chromatographic conditions               graphical depiction of the representation of correlations within a
+are satisfactory, calibration curves are performed with 3–5 distinct              correlogram.
+concentrations in the expected range of tissue concentrations for each
+compound (Table 1). These curves enable the determination of detection            5.2. Is there a default mode neurochemical network?
+limits, quantification limits, and saturation points.
+    The tissue quantities of compounds of interest vary between brain                 We have performed several studies using a correlative approach to
+regions; therefore, it is preferable to study the samples by region for all       study tissue neurotransmitter content. The pattern of correlations be­
+experimental groups. Each brain region should be analysed using the               tween monoamines and their metabolites has mostly been studied at
+same analytical device and from the same batch of dissected regions.              rest, comparing pharmacological or genetic manipulations. In our
+    Once the chromatographic conditions are satisfactory, calibration             experience, there are few significant correlations across the brain in
+curves are performed with 3–5 distinct concentrations in the expected             vehicle-treated/naive rodents under resting conditions (Bharatiya et al.,
+range of tissue concentrations for each compound (Table 1). These                 2020; De Deurwaerdere et al., 2020, 2020; Dellu-Hagedorn et al., 2017;
+curves enable the determination of detection limits, quantification               Fitoussi et al., 2013; Marty et al., 2023; Puginier et al., 2019). Other
+limits, and saturation points.                                                    groups conducting similar analyses have also reported sparse correla­
+    Thus, the recommendations reported in Fig. 3 are rigorously fol­              tions across a limited number of brain regions in control animals
+lowed to avoid pitfalls that would introduce unwanted variability in a            (Midzyanovskaya et al., 2020; Mlost et al., 2024). Even in invertebrates,
+dataset at the expense of biological variability. Since multivariate              we found relatively few monoamines correlations between the cerebroid
+analysis emerges from this type of quantitative data, there are still no          ganglion, pedal ganglion, and gonads in Perna perna taken along the
+clear expected profiles of neurochemical connectivity.                            Moroccan Atlantic coast (Fig. 5)(Klouche et al., 2015). Consistently, the
+                                                                                  density of correlations in resting conditions was ≤10% for any mono­
+                                                                                  amine or metabolite. The organization of these correlations is not
+                                                                                  reproducible between experiments; therefore, this approach would be
+                                                                                  devoid of quality control, except for the quantitative values. For
+                                                                                  instance, in the two experiments concerning the effects of the 5-HT2 C
+                                                                                  receptor agonists WAY− 163,909 and lorcaserin, the experimental
+
+                                                                              9
+J.J. Butler et al.                                                                                                      Journal of Neuroscience Methods 435 (2026) 110859
+
+
+conditions were similar (Chagraoui et al., 2019; De Deurwaerdere et al.,                correlative links may not be clearly expected. Thus, full maps reporting
+2020; Di Giovanni et al., 2020; Whitestone et al., 2019). In both ex­                   the coefficients of correlations that are statistically significant are likely
+periments, vehicle-treated rats had ~7% density of correlations, but the                to be more representative. As discussed above, the maps are, in most
+organization of these “basal” correlations was distinct for all neuro­                  cases, full of blank boxes for monoamines under resting conditions. We
+transmitters (see Fig. 4).                                                              take this as a criterion of resting states, even though the inter-regional
+   The lack of a ‘default’ set of inter-regional correlations (correlation              correlations are not reproducible.
+stability across different cohorts) in resting conditions may be due to the                 There are two other possible control criteria, although they do not
+variability in ‘resting conditions’ prior to sacrifice.                                 constitute a proof of concept. First, correlations between neurotrans­
+                                                                                        mitters and their metabolites (s) in the same region can often occur.
+                                                                                        These are never full positive correlations for all CNS regions, but the
+5.3. Expression of the data and quality controls                                        proportion of significant correlations between parent neurotransmitter
+                                                                                        and metabolite in individual region can reach up to 50% of brain regions
+    Before discussing the validity of a correlative neurochemical                       (Dellu-Hagedorn et al., 2017; Marty et al., 2023). Second, when
+approach, we address the data representation. In the initial submission                 combining the correlations between neurotransmitters, the proportion
+of the first article that utilized correlative analysis (Fitoussi et al., 2013),        of correlations tends to be higher within a specific brain region than
+we drew figures reporting only significant Pearson correlations for all                 across brain regions (Chagraoui et al., 2019; Fitoussi et al., 2013). The
+three monoamines, alone or in combination, between regions, as seen in                  occurrence of correlations between monoamines in a single region has
+a recent article (Mlost et al., 2024). Nonetheless, as raised by one                    also been reported in the human striatum (Hortnagl et al., 2020)
+reviewer at that time, these systems are chaotic in essence, and the
+
+
+
+
+Fig. 4. – Neurochemical correlations of monoamines in resting conditioning in vehicle-treated rats from two distinct experiments relative to lorcaserin (Di Giovanni
+et al., 2020) and WAY− 163909 (Chagraoui et al., 2019). Approximate punches localization for the 30 and 29 brain regions. (B, D) Correlative maps reporting
+existing, significant correlations (Pearson’s r coefficient) for the tissue content of dopamine, serotonin, and noradrenaline (pg/mg) between the different brain
+regions sampled in vehicle-treated rats. Each colored box corresponds to a significant correlation (p < 0.05; red, positive; blue, negative), and the color intensity
+represents the strength of the correlation (r values). The percentages of significant correlations for each system are indicated below the correlation maps. Orbito­
+frontal cortical regions (OF): medial orbital cortex (MO), lateral orbital cortex (LO), Dorsolateral orbital cortex (DLO); Motor cortex M2; Prelimbic cortex: PL;
+Infralimbic cortex (IL); Anterior cingulate cortex (aCg); Posterior cingulate cortex (pCg); Anterior insular cortex (ains), Posterior insular cortex (pins); Nucleus
+acumbens (Nac): shell and core; Striatal regions (STR): Dorsomedial striatum (DMS), Dorsolateral striatum (DLS), Ventrolateral striatum (VLS), Ventrocaudal
+striatum (VCS); Amygdala (Am): Basolateral nucleus (BLA), Central nucleus (CE); Habenula (Hb); Mediodorsal thalamic nucleus (MD); Entopeduncular nucleus
+(EPN); Subthalamic nucleus (STN); Hypothalamus (HY): dorsal parts (dHY), ventral parts (vHY); Hippocampus (HP): dorsal anterior parts (dHP), ventral posterior
+parts (vHP); Substantia nigra (SN); Ventral tegmental area (VTA); Dorsal raphe nucleus (DR); Median raphe nucleus (MR).
+
+                                                                                   10
+J.J. Butler et al.                                                                                                     Journal of Neuroscience Methods 435 (2026) 110859
+
+
+hippocampus, or dorsolateral prefrontal cortex (Di Maio et al., 2026), an             5.4. Connection or connectivity?
+interesting finding that could anticipate possible correlations between
+extracellular levels whenever multiple neurotransmitters are measured.                    Beyond compounds relationships within a region the benefit of a
+A recent study has shown that in the cortex of the rhesus macaque,                    brain-wide approach would be to assess the relationship between neu­
+extracellular levels of neurotransmitters monitored by microdialysis and              rochemicals in distinct regions, where significant correlations could be
+tandem mass spectrometry correlate differently according to cognitive                 considered a form of connectivity. Similar to the ‘functional connectiv­
+demand (Mayer et al., 2025). These two points are not strict criteria, as a           ity’ described in fMRI datasets when the signal in two regions correlates
+correlative link may emerge depending on the physiological status of the              temporally in a single subject, we could conceive a ‘neurochemical
+animals.                                                                              connectivity’ where within a cohort a neurochemical or pair of neuro­
+    The distinct neurotransmitter correlations in macaque monkeys,                    chemicals correlate between regions.
+depending on cognitive status, is important information to suggest that                   The neurochemical connectivity would be distinct from anatomical
+the links between neurotransmitters can vary as a function of brain state             connection. It would be tempting to speculate that the physical link
+and organism-environment interactions. The correlation between parent                 between the SN and the striatum would favour the occurrence of cor­
+compounds and their metabolites is also modulated by environmental                    relations for DA and its metabolites between the two brain regions
+and genetic factors, as previously reported (Aman et al., 2025; Gros                  (originating from the same group of DA neurons). Such correlations are
+et al., 2021; Marty et al., 2023). In the human prefrontal cortex, there              not reported. In fact, it has been shown for a long time that the regu­
+was no quantitative difference in post-mortem quantities of mono­                     latory mechanisms operating at the level of the striatum and the SN on
+amines in patients with schizophrenia compared to age-matched con­                    DA content and metabolites, marked by a distinct ratio DOPAC/DA, are
+trols; however, there were qualitative changes, as revealed by a                      different despite corresponding to the same group of neurons (Argiolas
+correlative analysis (Di Maio et al., 2026).                                          et al., 1982). Thus, the correlative link of biochemical parameters
+
+
+
+
+Fig. 5. Tissue monoamine connectivity in Perna perna. Correlation analysis of NA (left), DA (middle), and 5-HT (right) content between organs at different stages of
+the sexual cycle of Perna perna at the Moroccan sites of Bouknadel, Mohammedia, and Hay El Fath. The different stages (Resting; StI + II; St IIIA and egg-laying) are
+approximate. The Spearman’s rank order correlation test was used to establish correlations (p < 0.05) between individual measures. These correlations were either
+positive (red) or negative (blue); adapted from (Klouche et al., 2015).
+
+                                                                                 11
+J.J. Butler et al.                                                                                                     Journal of Neuroscience Methods 435 (2026) 110859
+
+
+between the regions housing cell bodies and their terminal fields is not a            description of what was supposedly occurring for monoamines, from the
+valid criterion, additionally exemplified by the usual lack of correlations           control of gonad NA function at rest to the control of gonad 5-HT
+between 5-HT in the DRN and the numerous brain regions it innervates                  function for the release of gametes (Klouche et al., 2015). The mean­
+(Figs. 4–6). Of note, as acknowledged in subsection 2.2 (serotonergic                 ing of some negative correlations could also be coherent with the
+neurons), measured 5-HT and its metabolite can come from at least two                 endocrine controls of NA or 5-HT content in the gonads (Fig. 5). The
+distinct nuclei in several brain regions, which could challenge the                   dramatic changes in the reproductive cycle and the profile of correla­
+expectation that 5-HT content at terminal regions could correlate with                tions at polluted sites could be attributed to an alteration in monoamine
+5-HT content in the DRN or MRN. More recently, we also found a lack of                function, together with the inclusion of mussels at different reproductive
+specific correlations for NA between punches encompassing the LC and                  stages, as the distribution of mussels at different reproductive stages was
+other parts of the brain (Gros et al., 2021). A refinement of this approach           less clear at polluted sites (Klouche et al., 2015).
+would be to study the left and right hemispheres separately, as in most                   Thus, more than physical connections, correlative analysis would
+cases, lateralized regions have been combined. This combination could                 inform on neurochemical connectivity/coherence, a connectivity at rest
+limit the occurrence of correlations if lateralized regulation occurs, as             that is still elusive for neurotransmitters, and potentially more infor­
+suggested by studies separating the left and right sides (Butler et al.,              mative for the ratios DOPAC/DA and 5-HIAA/5-HT in rodents. It is still
+2025b; Mlost et al., 2024).                                                           based on the data obtained from individuals composing the cohort.
+    Therefore, correlating neurotransmitter content across the brain
+could correspond to the characterization of connectivity within a
+neurotransmitter system or between neurotransmitter systems, rather                   5.5. Lack of clear correlation profile: inter-individual differences?
+than anatomical connections. As an example of functional neurochem­
+ical connectivity between brain regions, we could evoke the presumably                    Correlative approaches, and multivariate analyses rely on individual
+opposite role of cortical DA on subcortical DA function (Deutch, 1993;                values. Apart from the variability coming from non-biological sources,
+Latagliata et al., 2023; Louilot et al., 1989; Tassin et al., 1978). We               as discussed above, individual differences in a cohort likely play a role in
+previously reported negative correlations between the infralimbic cor­                the lack of a systematic profile of correlations at rest. Although this has
+tex and the shell of the nucleus accumbens in a cohort of 35 Wistar rats              not been specifically addressed, our database indicates that the
+(Fitoussi et al., 2013), but this negative correlation was not systemati­             composition of the cohort is a factor conditioning the pattern of corre­
+cally found in other experiments. We could also address the ascending                 lations. In a cohort of 35 Wistar male rats, animals were characterized by
+loop pathways linking the shell of the nucleus accumbens to the                       their behavioral performances in six tests addressing impulsive/
+dorsolateral striatum (Haber et al., 2000), which has no functional                   compulsive dimensions of behavior (Dellu-Hagedorn et al., 2018). For
+counterpart. We reported a few correlations of the DOPAC/DA ratio                     each test, three groups were composed a posteriori: performant, inter­
+between striatal quadrants in some datasets (Dellu-Hagedorn et al.,                   mediate, and non-performant. The intermediate group was discarded
+2017). This organization was lost in young R6/1 mice, a mouse model                   and the monoamine profiles between performant and non-performant
+of Huntington’s disease when compared to wildtype littermates                         rats were compared, i.e. the extreme phenotypes within the cohort.
+(Puginier et al., 2019). Yet, the correlative links for DOPAC/DA between              The composition of the performant and non-performant groups was
+striatal quadrants are not systematic between experiments.                            distinct for each of the 6 tests, indirectly showing that a maladaptive
+    The question of what is behind an identified correlation in terms of              response in one test does not imply a maladaptive response in all tests
+biological meaning remains presently elusive. The study of tissue                     (Dellu-Hagedorn et al., 2018). We reported changes in tissue 5-HIA­
+monoamines in Perna perna throughout different stages of the repro­                   A/5-HT, 5-HT, DOPAC/DA, and DA between performant and
+ductive cycle was very interesting on that matter (Fig. 5). Indeed, the               non-performant rats for each test, sacrificed one month after the last
+organization of the pattern of correlations between NA, 5-HT, and DA                  behavioural test. We are still processing these data, but the preliminary
+levels in the cerebroid ganglia, pedal ganglia, and gonads has been                   analysis indicates that the pattern of the correlations for the ratios is
+studied throughout the reproductive cycle. The data corresponded to the               completely distinct between the two cohorts in the “risk taking” test
+                                                                                      (Butler et al., 2025a). Acknowledging that all the data from these
+
+
+
+
+Fig. 6. Neurochemical connectivity of monoamines following exploratory behaviour in vehicle-treated mice, data adapted from previous work (Butler et al., 2025b).
+OF (orbitofrontal cortex), PL (prelimbic cortex), aCC (anterior cingulate cortex), M1 (primary motor cortex), SJ (somatosensory cortex jaw), S1L/R (left/right
+primary somatosensory cortex), AC (auditory cortex), V1 (primary visual cortex), A (amygdala), dH/vH (dorsal/ventral hippocampus), NAc (nucleus accumbens),
+DM/DL (dorsomedial/dorsolateral striatum), VM/VL (ventromedial/ventrolateral striatum), MD (medial dorsal nucleus), VPL/R (left/right ventral posteromedial
+nucleus), DLG (lateral geniculate nucleus), Y (lateral hypothalamus), SC (superior colliculus), SN (substantia nigra), VTA (ventral tegmental area), DR (dorsal raphe
+nucleus), MR (median raphe nucleus), CB (cerebellum). The percentages below correlation matrices report the density of correlations over the entire matrix.
+
+                                                                                 12
+J.J. Butler et al.                                                                                                    Journal of Neuroscience Methods 435 (2026) 110859
+
+
+animals were initially combined to study correlations for monoamines                 sacrificed immediately following forced exposure to new environment.
+(Fitoussi et al., 2013) or their metabolism (Dellu-Hagedorn et al., 2017),           We studied the effect of the 5-HT2AR agonist TCB− 2 and the role of
+this suggests that inter-individual differences play an important role in            5-HT2AR in its effect using the 5-HT2AR antagonist MDL− 100,907. After
+the outcome of correlation profiles. Consequently, under resting con­                having monitored the head twitches to determine if the treatments were
+ditions, a specific profile cannot be expected.                                      efficacious, we changed the flooring for the 10 last minutes of the
+    Because there is no specific profile of correlations characteristic of           experimentation. We substituted a classical Perspex floor for a novel
+vehicle-treated animals, correlation profiles obtained between two or                flooring made up of different textures and colours to promote ‘forced’
+three cohorts, such as transgenic mice versus wild type or drug versus               exploratory behaviour in mice. We were surprised to discover that the
+vehicle, require cautious interpretation. In two independent experi­                 number of correlations, mostly positive, in vehicle-treated mice was
+ments, the 5-HT2 CR agonists lorcaserin and WAY− 163909 reduced the                  tremendously high for 5-HT content across the brain, with a density of
+number of correlations for DA tissue content and increased the number                almost 50% (Fig. 6). This was also true for DA and NA which addi­
+of correlations for NA and 5-HT (Chagraoui et al., 2019; De Deurwaer­                tionally showed a clear regional organization. We also found extremely
+dere et al., 2020; Di Giovanni et al., 2020). In contrast, the number of             high level of positive correlations for amino acids including GABA,
+correlations for the DOPAC/DA ratio was dramatically reduced by lor­                 aspartate, and glutamate with the highest density of correlations for
+caserin and slightly increased by WAY− 163,909 (De Deurwaerdere                      glutamate (>60%) (unpublished data). When combining pairs of neu­
+et al., 2020; Whitestone et al., 2019). Both 5-HT2 CR agonists had a few             rotransmitters across the brain, the profile obtained was organized
+but distinct quantitative effects, except for an increase in tissue DA in the        whenever DA or NA were included, suggesting that these two systems
+central amygdala.                                                                    play an important role in organising neurotransmitter responses to the
+                                                                                     novel environment.
+5.6. Resting conditions or activated conditions?                                         TCB− 2 dose-dependently reduced the number of correlations for all
+                                                                                     neurotransmitters and suppressed the organized pattern of correlations
+    It has been shown for years that mice subjected to open field or                 whenever DA and NA were included. MDL− 100,907 alone also
+electric foot shock stress exhibit an increase in the cortical ratio DOPAC/          dramatically reduced the number of correlations. With TCB− 2 (high
+DA (more DOPAC, less DA) immediately after exposure (Hervé et al.,                  doses) or MDL− 1009,07, there was an increased occurrence of negative
+1979b; Tassin et al., 1980). It has been shown that it corresponds to an             correlations (see Fig. 7A). In contrast to TCB− 2, MDL− 100,907 did not
+increase in extracellular levels of DA and NA (Abercrombie et al., 1989;             induce major quantitative effects on the tissue concentrations of neu­
+Feenstra, 2000; Gresch et al., 1994). Regardless of the existence of this            rotransmitters, as expected from previous studies (De Deurwaerdère
+robust effect in rodents, one may wonder what the consequences of this               et al., 2021; De Deurwaerdere and Di Giovanni, 2017). The dramatic
+effect are in other parts of the brain. This line of questioning is one              decrease in neurochemical connectivity within and between neuro­
+proposed purpose of correlative analysis. Instead of considering exclu­              transmitter systems with 5-HT2AR ligands suggests that 5-HT2AR plays a
+sively resting conditions, it would be interesting to study correlative              role in the organization of neurotransmitter systems in response to a
+maps of neurotransmitters under conditions of behavioural demands,                   novel environment. However, the quantitative analyses still indicated
+here referred to as “activated” conditions.                                          that TCB− 2 did not selectively act on 5-HT2AR because some of its ef­
+    We have only one example in which a transient exposure to a new                  fects were not altered by MDL− 100907. Thus, other receptors are likely
+environment was used to address the mechanism of action of one psy­                  involved in the reduction of correlations induced by TCB− 2 (Butler
+chedelic drug, the new environment favouring unconditioned explor­                   et al., 2025b).
+atory behaviour (Halberstadt and Geyer, 2018). Such a situation was                      In another, unpublished experiment, we studied the effect of the
+interesting for us to determine the extent to which the correlative maps             typical antipsychotic haloperidol on monoamine tissue content. How­
+of neurotransmitters are sensitive to the environment of the animal,                 ever, the density of correlations was extremely low in vehicle-treated
+
+
+
+
+Fig. 7. – Variable methods of correlation selection. All correlograms show inter-regional 5-HT networks in vehicle (top) or 3 mg/kg TCB− 2 (bottom) treated animals.
+A shows all significant correlations (p < 0.05), B significant correlations after Benjamini-Hochberg correction for multiple comparisons with a false discovery rate
+(FDR) of 0.05. Columns C, D and E with density thresholds of 10%, 50% and 100% applied. Pearson r is indicated by the colour bar.
+
+                                                                                13
+J.J. Butler et al.                                                                                                  Journal of Neuroscience Methods 435 (2026) 110859
+
+
+animals, masking any loss of organized correlations. Therefore, it seems            nature of this neurochemical network topology metrics, the primary
+pertinent to address the effect of potential antipsychotic drugs (halo­             objective is to characterise how basic network properties (density, node
+peridol, 5-HT2 CR agonists) and probably other classes of medicines in              degree, and cautiously global efficiency) are altered by different
+more complex experimental settings rather than ‘resting’ states.                    experimental conditions in efforts to understand their significance at the
+                                                                                    physiological and behavioural levels.
+5.7. Extension of connectivity: graph theory and neurochemical networks                 These network metrics provide a quantitative method to compare
+                                                                                    networks across treatments, moving beyond a visual inspection of cor­
+    To better investigate and eventually characterize the neurochemical             relograms. This is particularly useful in neurochemistry, where multiple
+connectivity after forced exploratory behaviour and 5-HT2AR ligands,                networks can be generated from relatively few compounds, allowing
+we expanded our correlative analysis into graph theory. The application             analysis both within and between the neurochemical systems.
+of graph theory to correlative approaches in neuroscience is not new and
+is well-suited to conceptualizing the relationships between brain regions           5.7.2. Filtering relevant correlations: handling multiple comparisons
+(Bullmore and Sporns, 2009).                                                            The main caveat with this approach is the selection of correlations to
+    The output of the correlation analysis is a matrix of r values (Pearson         include. Within the same neurochemical experiment each treatment
+or Spearman), which can be filtered for significance i.e. p < 0.05. Most            group should have the same brain regions, and therefore the same nodes.
+commonly, this is represented as a heatmap (correlogram) and                        However, this is not necessarily true for the number of significant cor­
+compared visually (Figs. 4 and 6) or by making a heatmap of the dif­                relations, which can be altered pharmacologically as shown in Fig. 7 A
+ference between two correlograms. Differential correlograms are most                (Butler et al., 2025b). This article compared networks of significant
+common in the field of neuroimaging, highlighting altered brain regions             (p < 0.05) correlations, without a correction for multiple correlations,
+(Carhart-Harris et al., 2016, 2012), although they are limited to the               revealing a dose dependant reduction in correlations (density) with
+comparison between two conditions, often pre- and post-condition                    TCB− 2. When Benjamini-Hochberg correction for multiple comparisons
+within a subject. Rather than a direct comparison between the two                   was applied (FDR=0.05) there were almost no remaining correlations
+states, the characteristics of one state may be of particular interest. From        outside of the vehicle-treated mice (Fig. 7B), and for DA and NA no
+the application of graph theory we have seen the characterisation of                treatment with a density < 2%. As the general loss of strong positive
+specific regions or subsets of regions whose fMRI signal correlates in              correlations remains evident when looking at all correlations (100%
+particular experimental contexts, i.e. the DMN (Raichle, 2015). Graph               density; Fig. 7E), supporting the disorganisation of neurochemical net­
+theory allows the construction of networks from inter-regional correla­             works regardless of significance handling, we understood that an FDR
+tive analysis to display, analyse and characterise functional ‘brain-net­           correction may remove biologically relevant correlations (type− 2 er­
+works’ (in contrast to anatomical) in different experimental contexts,              rors) and is likely not the best handling of this data.
+across different data types.
+                                                                                    5.7.3. Density normalisation and meaningful network parameters
+5.7.1. Graph theory and networks for post-mortem neurochemical data                     To characterize the visually apparent regional organization of cor­
+    A network or graph, is a mathematical structure used to model re­               relations between neurotransmitters, we assessed the variability of the
+lations between objects (nodes). In the case of post-mortem neuro­                  node degree. Visually organized systems (vehicles) exhibited a greater
+chemistry, we are modelling the relation between any two brain regions’             standard deviation of the node degree and strength when significant
+tissue content of a compound or pair of compounds. Each brain region                correlations were observed (Fig. 8A). This means that some regions had
+sampled is a node in the network, which is connected to other nodes via             a high number of correlations (hubs), while others exhibited little or
+edges, correlations. Additional information can also be represented in              none. However, the SD of the node degree is biased by network density,
+different types of networks. Weighted networks have a value ascribed to             warranting cautious interpretation when density varies between treat­
+each edge, often the r value of a correlation. In the case of neurochemical         ments. This is evident when we look at density threshold networks
+networks, correlations between pairs of neurotransmitters may be rep­               where this decrease is not consistently significant (Fig. 8A 100%
+resented in directed multi-graphs. The use of directed multi-graphs is to           density).
+maintain information in the absence of reciprocal correlations. For                     Indeed, many network or graph theory metrics are influenced by
+instance, DA in region 1 may correlate with 5-HT region 2, but the                  network density; thus, to directly compare metrics, a normalization of
+reverse is not true. Therefore there would be a directed edge from the              network density is required. The concern here is the dismissal of bio­
+node of region 1 to region 2 but not the reverse (Fig. 9B). Once created            logically relevant correlations, as filtering on p or r values may not be an
+these networks have various graph-theoretical metrics that can be                   apt measure of biological significance. The most widely used normali­
+compared, the simplest of which is network density, the percentage of               zation is density-matched thresholding, which sets a fixed, arbitrary
+edges present out of all possible edges, previously referred to as the              density or ‘cost (i.e., 20%) and includes edges corresponding to the top
+density of significant correlations. Additionally, node degree, or node             20% of r values (Bullmore and Bassett, 2011). To avoid biases, it is best
+strength for weighted graphs, assigns a value to each node relative to its          to assess parameters across a range of density thresholds, focusing on
+degree of connectivity, therefore nodes (regions) with more correlations            findings that persist across several densities.
+have a higher node degree. This allows the identification of hubs, highly               The two network parameters shown in Fig. 8 exemplify this point.
+correlated or ‘connected’ brain regions, and peripheral regions, regions            The left panel ‘p < 0.05’ will be biased by variable network density
+whose neurotransmitter systems do not correlate with others, acting in              while in the right ‘100% density’ each network has equal density.
+isolation. There are more complex topological network parameters, such              Looking at these two network parameters, only the global efficiency
+as clustering coefficient, small-worldness, or global and local efficiency          remains significant when we normalize treatment network density (at
+that can be extracted; however, a key challenge will be determining                 25%, 50%, and 100% density). Global efficiency, defined by the average
+which graph-theoretical metrics can be meaningfully applied to correl­              inverse shortest path length, is a measure of network integration often
+ative networks, given that many graph-theoretical metrics were not                  used in functional connectivity networks. In our neurochemical net­
+originally designed for correlative networks.                                       works global efficiency was significantly reduced by TCB− 2 across all
+    Network analysis of quantitative regional neurochemistry is a novel             density thresholds, as shown in Fig. 7. Therefore, the neurochemical
+field, and the physiological underpinnings of these neurochemical net­              network changes induced by TCB− 2 would be best described as a loss of
+works are yet to be understood. As neurochemical network analysis                   significant correlations (network density when using p < 0.05) and a
+continues to develop, a key challenge will be determining which graph-              reduction in global efficiency or any network parameter altered by
+theoretical metrics can be meaningfully extracted. Given the exploratory            treatment across a range of density thresholds.
+
+                                                                               14
+J.J. Butler et al.                                                                                                  Journal of Neuroscience Methods 435 (2026) 110859
+
+
+5.7.4. Idiosyncratic features of neurochemical networks                             meaning or biological underpinning of negative correlations. This
+    Networks derived from post-mortem neurochemical data are unique                 negative correlation is a difficult question to address beyond the
+compared to the conventional applications of graph theory in neuro­                 conception that the parameters in the two regions either act in concert
+science, such as fMRI and other imaging techniques.                                 with each other, resulting in a positive correlation, or in opposition,
+    First, it is quantitative, so edges reflect first-order biological mean­        resulting in a negative correlation. We previously found that a specific
+ing. Starting with a ng/mg neurochemical topology facilitates: inter-               correlation for a parameter between two regions was positive in controls
+species analysis, metanalysis, and a new perspective to study biochem­              and negative after treatment or conditions and vice versa (Gros et al.,
+ical organisation across the brain. Secondly, we are able to collect                2021). It was also puzzling to see in the control group of the TCB− 2
+several parameters (neurochemicals) in any given region, in contrast to             experiment (thus only exposed to a new environment) that VTA DA
+neuroimaging, where network analysis is applied to a single pretreated              could positively correlate with DA, 5-HT, and NA in several territories,
+signal across the brain. This facilitated the analysis of several inter- and        whereas DA in the SN negatively correlated with DA, 5-HT, and NA in
+intra-compound networks, allowing statistical comparison of several                 various regions (Butler et al., 2025b; Fig. 6). It would suggest that the
+networks per treatment, as exemplified in Fig. 8.                                   exploratory behaviour favours motivation and cognition at the expense
+    Additionally, we can begin to explore the relationships between                 of procedural memory. This would be functional connectivity, but it is
+parameters, i.e. inter-monoamine correlations, such as 5-HT – DA in­                purely speculative. Correlations do not represent causality, and these
+teractions across the brain. To address the inter-compound analysis, we             curious situations recall that the interpretation of one correlation is still
+implemented directed networks, as depicted in Fig. 9B. These networks               elusive.
+have been included in Fig. 8; however, their handling, that is, the                     Finally, we could aggregate networks into a multilayer network of
+calculation of network parameters (i.e., global efficiency), is modified            neurotransmitters within an experiment, intra- or inter-compound, to
+because of the possibility of multiple edges between nodes. The analysis            identify recurrent regions and/or networks of interest. This would allow
+of the interaction between systems in this way is relatively new and                us to address how different neurotransmitter systems are organised and
+warrants development. The inter-neurotransmitter networks form the                  affected by treatment via indirect and direct correlations, the latter
+TCB− 2 project revealed a clear organisation of correlations when 5-HT,             using partial correlations / inverse covariance (precision) matrix. This
+glutamate, GABA, aspartate and glycine were paired with either cate­                becomes particularly interesting with the development and availability
+cholamine DA or NA (Butler et al., 2025b) (unpublished data). This                  of a neurochemical database upon which meta-analysis may be per­
+organisation may suggest a topological hierarchy of neurotransmitter                formed (Butler et al., 2025c). An indirect analysis has already been
+systems in a specific experimental context, something previously rela­              performed on all sampled regions. However, network parameters may
+tively unexplored. This dataset reports a dose-dependent increase in the            also be calculated for subsets of regions to investigate more specific
+percentage of negative edges (correlations) between regions, while the              pathways such as somatosensory or basal ganglia functions. This would
+vehicles of this cohort (in a forced exploratory paradigm) had sparse and           be akin to frequently described alterations in the DMN in fMRI datasets,
+highly specific negative correlations. This raises the question of the              i.e. a defined subset of regions of interest whose connectivity is
+
+
+
+
+Fig. 8. – Correlation selection influences network metrics. Two network parameters were compared between treatments using either a significance threshold of
+p < 0.05 (left) or 100% density threshold (right), see Fig. 6 A and E, although was done for all conditions. The standard deviation of node strength and weighted
+global efficiency are shown in panels A and B, respectively, for networks within and between monoamines across the whole brain. Significance is indicated by *
+p < 0.05, Tukey’s post-hoc test, following a significant one-way ANOVA.
+
+                                                                               15
+J.J. Butler et al.                                                                                                       Journal of Neuroscience Methods 435 (2026) 110859
+
+
+consistently altered across conditions or states Fig. 9.
+    As the application of graph theory in neuroscience continues to
+expand, we are likely to see the refinement of approaches tailored to
+different data types (Bullmore and Sporns, 2009; Fornito and Bullmore,
+2015). However, linking network parameters to physiological or
+phenomenological processes remains a challenge in post-mortem
+neurochemistry. As whole-brain graph analysis evolves, standardized
+practices will inevitably emerge; however, it will be important to remain
+open-minded and adaptive, particularly when applying these methods
+across diverse modalities.
+
+6. Conclusion
+
+     In this article, we addressed the possibility of using postmortem
+quantification of neurotransmitters and their metabolites to study the
+brain-wide connectivity of neurotransmitter systems. These studies are
+sensitive to the variability of the individual values composing a cohort,
+and we have cited several sources of technical variability that could
+impact correlations without biological significance. This approach offers
+a unique characterization of the structure and relationship of neuro­
+transmitter systems under various conditions.
+     At rest, neurochemical characterization may reveal the organization
+of specific behavioural traits. To study the mechanism of action of drugs,
+it is valuable to determine altered neurotransmitter connectivity, espe­          Fig. 9. – Network construction from neurochemical post-mortem data. For the
+cially in the absence of quantitative modifications. Our recent work              three brain regions R1− 3, panel A depicts an intra-compound matrix/correlo­
+indicates that specific environmental conditions may be appropriate for           gram of r values (top) and the corresponding undirected weighted network
+further studying the mechanism of action of drugs, as a mobilized                 (bottom). B shows the equivalence between compounds 1 and 2, resulting in a
+                                                                                  directed weighted multigraph (network).
+neurochemical system may be more sensitive to pharmacological
+manipulation. Furthermore, this suggests that the environment before
+death can have consequences on the connectivity of neurotransmitters,             Declaration of Competing Interest
+which may allow for the characterization of neurochemical systems
+mobilized for different tasks or environmental demands in the brain. The              All the authors declare that they have no established conflicting
+limitation of this approach is that there are no specific correlation pro­        financial interests or personal relationships that may have influenced
+files under resting conditions, acknowledging that the number of cor­             the research presented in this paper.
+relations is usually low. As far as biological explanations are concerned
+and the lack of reproducibility, we posit that the inter-individual dif­          Acknowledgements
+ferences among animals composing a group largely influence the
+outcome of correlative links, particularly at rest.                                   This work was supported by grants from the University of Bordeaux,
+     Given that analytical precision is applied at all the steps discussed        and the French research organism CNRS. J.J.B. and C.A. were fellowship
+above, postmortem neurochemical analysis results in a dataset with                recipient from the Ministère de la Recherche et de l’Enseignement
+meaningful variability, permitting the conceptualization of neuro­                Supérieur. The authors wish to thank the GPR brain of the University of
+chemical connectivity and the construction of neurochemical networks              Bordeaux and notably the subgroups Adapsy and Inhibition for their
+(Hamed and Kursa, 2018; 2020). As has been the case with ‘functional              support. The authors acknowledge the support of the COST action
+connectivity’ and functional brain networks established in fMRI                   CA24130 (PSY-NET).
+research, we posit that this analysis offers a valuable lens for assessing
+brain-wide neurochemical states under various conditions. Correlated              Data availability
+network analysis is exploratory in neurochemistry and requires further
+replication and validation. However, we believe that it could provide a               No data was used for the research described in the article.
+complementary exploratory tool over classical quantitative analysis.
+With development a hypothesis generating framework, it could high­                References
+light regions whose neurochemical natures are linked under certain
+                                                                                  Abercrombie, E.D., Keefe, K.A., DiFrischia, D.S., Zigmond, M.J., 1989. Differential effect
+conditions. These descriptive approaches still need to be improved to                 of stress on in vivo dopamine release in striatum, nucleus accumbens, and medial
+potentially include other neurochemicals like amino acids (Hamed and                  frontal cortex. J. Neurochem. 52, 1655–1658. https://doi.org/10.1111/j.1471-
+Kursa, 2018; 2020; Parrot et al., 2025; Pifl et al., 2026) and implement              4159.1989.tb09224.x.
+                                                                                  Aby, F., Lorenzo, L.-E., Grivet, Z., Bouali-Benazzouz, R., Martin, H., Valerio, S.,
+brain wide neurotransmitters/metabolism organization.                                 Whitestone, S., Isabel, D., Idi, W., Bouchatta, O., De Deurwaerdere, P., Godin, A.G.,
+                                                                                      Herry, C., Fioramonti, X., Landry, M., De Koninck, Y., Fossat, P., 2022. Switch of
+CRediT authorship contribution statement                                              serotonergic descending inhibition into facilitation by a spinal chloride imbalance in
+                                                                                      neuropathic pain. Sci. Adv. 8, eabo0689. https://doi.org/10.1126/sciadv.abo0689.
+                                                                                  Adell, A., Artigas, F., 1998. A microdialysis study of the in vivo release of 5-HT in the
+   Chloé Aman: Writing – original draft, Visualization, Validation,                  median raphe nucleus of the rat. Br. J. Pharmacol. 125, 1361–1367. https://doi.org/
+Methodology, Data curation. Jasmine J Butler: Writing – review &                      10.1038/sj.bjp.0702206.
+                                                                                  Adell, A., Carceller, A., Artigas, F., 1993. vivo brain dialysis study of the somatodendritic
+editing, Writing – original draft, Visualization, Data curation, Concep­              release of serotonin in the Raphe nuclei of the rat: effects of 8-hydroxy-2-(di-n-
+tualization. Rahul Bharatiya: Writing – review & editing. Philippe De                 propylamino)tetralin. J. Neurochem. 60, 1673–1681.
+Deurwaerdère: Writing – review & editing, Writing – original draft,              Albin, R.L., Young, A.B., Penney, J.B., 1989. The functional anatomy of basal ganglia
+                                                                                      disorders. Trends Neurosci. 12, 366–375. https://doi.org/10.1016/0166-2236(89)
+Supervision, Methodology, Data curation, Conceptualization. Abde­
+                                                                                      90074-X.
+slam Chagraoui: Writing – review & editing, Data curation. Adeline
+Cathala: Writing – review & editing.
+
+                                                                             16
+J.J. Butler et al.                                                                                                                           Journal of Neuroscience Methods 435 (2026) 110859
+
+Alex, K.D., Pehek, E.A., 2007. Pharmacologic mechanisms of serotonergic regulation of                     WAY-163909 on monoamine tissue content in the rat brain. Neurochem. Int. 124,
+    dopamine neurotransmission. Pharmacol. Ther. 113, 296–320. https://doi.org/                           245–255. https://doi.org/10.1016/j.neuint.2019.01.019.
+    10.1016/j.pharmthera.2006.08.004.                                                                 Chagraoui, A., Whitestone, S., Baassiri, L., Manem, J., Di Giovanni, G., De
+Aman, C., Gréa, H., Rousseau, A., Allain, A.-E., Pietropaolo, S., De Deurwaerdère, P.,                  Deurwaerdere, P., 2019. Neurochemical impact of the 5-HT2C receptor agonist
+    Lemaire, V., 2025. Brain monoamine deficits in the CD mouse model of                                  WAY-163909 on monoamine tissue content in the rat brain. Neurochem. Int. 124,
+    Williams–Beuren syndrome. Biomolecules 15, 1382. https://doi.org/10.3390/                             245–255. https://doi.org/10.1016/j.neuint.2019.01.019.
+    biom15101382.                                                                                     Chandler, D.J., Jensen, P., McCall, J.G., Pickering, A.E., Schwarz, L.A., Totah, N.K., 2019.
+Amilhon, B., Lepicard, E., Renoir, T., Mongeau, R., Popa, D., Poirel, O., Miot, S., Gras, C.,             Redefining Noradrenergic Neuromodulation of Behavior: Impacts of a Modular
+    Gardier, A.M., Gallego, J., Hamon, M., Lanfumey, L., Gasnier, B., Giros, B., El                       Locus Coeruleus Architecture. J. Neurosci. Off. J. Soc. Neurosci. 39, 8239–8249.
+    Mestikawy, S., 2010. VGLUT3 (vesicular glutamate transporter type 3) contribution                     https://doi.org/10.1523/JNEUROSCI.1164-19.2019.
+    to the regulation of serotonergic transmission and anxiety. J. Neurosci. 30,                      Cheramy, A., Leviel, V., Glowinski, J., 1981. Dendritic release of dopamine in the
+    2198–2210.                                                                                            substantia nigra. Nature 289, 537–542.
+Argiolas, A., Melis, M.R., Fadda, F., Serra, G., Gessa, G.L., 1982. Effect of dopamine                Commissiong, J.W., 1985. Monoamine metabolites: their relationship and lack of
+    agonists and antagonists on DOPA formation in the substantia nigra. J. Neurochem.                     relationship to monoaminergic neuronal activity. Biochem. Pharmacol. 34,
+    38, 75–79. https://doi.org/10.1111/j.1471-4159.1982.tb10855.x.                                        1127–1131.
+Aston-Jones, G., 2004. Locus Coeruleus, A5 and A7 noradrenergic cell groups. Rat. Nerv.               Commons, K.G., 2020. Dorsal raphe organization. J. Chem. Neuroanat. 110, 101868.
+    Syst. 259–284 (third edition).                                                                        https://doi.org/10.1016/j.jchemneu.2020.101868.
+Aston-Jones, G., Shipley, M.T., Chouvet, G., Ennis, M., van Bockstaele, E., Pieribone, V.,            de Belleroche, J.S., Bradford, H.F., 1980. Presynaptic control of the synthesis and release
+    Shiekhattar, R., Akaoka, H., Drolet, G., Astier, B., 1991. Afferent regulation of locus               of dopamine from striatal synaptosomes: a comparison between the effects of 5-
+    coeruleus neurons: anatomy, physiology and pharmacology. Prog. Brain Res. 88,                         hydroxytryptamine, acetylcholine, and glutamate. J. Neurochem. 35, 1227–1234.
+    47–75. https://doi.org/10.1016/s0079-6123(08)63799-1.                                             De Deurwaerdere, P., Bonhomme, N., Le Moal, M., Spampinato, U., 1995. d-fenfluramine
+Azmitia, E.C., Segal, M., 1978. An autoradiographic analysis of the differential ascending                increases striatal extracellular dopamine in vivo independently of serotonergic
+    projections of the dorsal and median raphe nuclei in the rat. J. Comp. Neurol. 179,                   terminals or dopamine uptake sites. J. Neurochem. 65, 1100–1108.
+    641–667.                                                                                          De Deurwaerdere, P., Di Giovanni, G., Millan, M.J., 2017. Expanding the repertoire of L-
+Bacque-Cazenave, J., Bharatiya, R., Barriere, G., Delbecque, J.P., Bouguiyoud, N., Di                     DOPA’s actions: A comprehensive review of its functional neurochemistry. Prog.
+    Giovanni, G., Cattaert, D., De Deurwaerdere, P., 2020. Serotonin in Animal                            Neurobiol. 151, 57–100. https://doi.org/10.1016/j.pneurobio.2016.07.002.
+    Cognition and Behavior. Int. J. Mol. Sci. 21. https://doi.org/10.3390/                            De Deurwaerdere, P., Di Giovanni, G., 2017. Serotonergic modulation of the activity of
+    ijms21051649.                                                                                         mesencephalic dopaminergic systems: Therapeutic implications. Prog. Neurobiol.
+Bannon, M.J., Bunney, E.B., Roth, R.H., 1981. Mesocortical dopamine neurons: rapid                        151, 175–236. https://doi.org/10.1016/j.pneurobio.2016.03.004.
+    transmitter turnover compared to other brain catecholamine systems. Brain Res.                    De Deurwaerdere, P., Ramos, M., Bharatiya, R., Puginier, E., Chagraoui, A., Manem, J.,
+    218, 376–382.                                                                                         Cuboni, E., Pierucci, M., Deidda, G., Casarrubea, M., Di Giovanni, G., 2020.
+Bannon, M.J., Roth, R.H., 1983. Pharmacology of mesocortical dopamine neurons.                            Lorcaserin bidirectionally regulates dopaminergic function site-dependently and
+    Pharmacol. Rev. 35, 53–68.                                                                            disrupts dopamine brain area correlations in rats. Neuropharmacology 166, 107915.
+Barraud, Q., Obeid, I., Aubert, I., Barrière, G., Contamin, H., McGuire, S., Ravenscroft, P.,            https://doi.org/10.1016/j.neuropharm.2019.107915.
+    Porras, G., Tison, F., Bezard, E., Ghorayeb, I., 2010. Neuroanatomical study of the               De Deurwaerdere, P., Stinus, L., Spampinato, U., 1998. Opposite change of in vivo
+    A11 diencephalospinal pathway in the non-human primate. PloS One 5, e13306.                           dopamine release in the rat nucleus accumbens and striatum that follows electrical
+    https://doi.org/10.1371/journal.pone.0013306.                                                         stimulation of dorsal raphe nucleus: role of 5-HT3 receptors. J. Neurosci. 18,
+Barrière, G., Pelloquin-Mvogo, Z., Boulain, M., Khsime, I., Bharatiya, R., Riquier, M.-A.,               6528–6538.
+    Morin, D., Allain, A.-E., Chagraoui, A., Juvin, L., De Deurwaerdere, P., 2025.                    De Deurwaerdère, P., Casarrubea, M., Cassar, D., Radic, M., Puginier, E., Chagraoui, A.,
+    Widespread and Heterologous Effects of L-DOPA on Monoaminergic Tissue                                 Crescimanno, G., Crunelli, V., Di Giovanni, G., 2022. Cannabinoid 1/2 Receptor
+    Metabolism in Newborn Rats Expressing Air-Stepping. Int. J. Mol. Sci. 26, 2298.                       Activation Induces Strain-Dependent Behavioral and Neurochemical Changes in
+    https://doi.org/10.3390/ijms26052298.                                                                 Genetic Absence Epilepsy Rats From Strasbourg and Non-epileptic Control Rats.
+Bharatiya, R., Chagraoui, A., De Deurwaerdere, S., Argiolas, A., Melis, M.R., Sanna, F., De               Front. Cell. Neurosci. 16, 886033. https://doi.org/10.3389/fncel.2022.886033.
+    Deurwaerdere, P., 2020. Chronic administration of fipronil heterogeneously alters                 De Deurwaerdère, P., Chagraoui, A., Di Giovanni, G., 2021. Serotonin/dopamine
+    the neurochemistry of monoaminergic systems in the rat brain. Int. J. Mol. Sci. 21.                   interaction: Electrophysiological and neurochemical evidence. Prog. Brain Res. 261,
+    https://doi.org/10.3390/ijms21165711.                                                                 161–264. https://doi.org/10.1016/bs.pbr.2021.02.001.
+Bjorklund, A., Dunnett, S.B., 2007. Dopamine neuron systems in the brain: an update.                  De Deurwaerdère, P., Di Giovanni, G., 2017. Serotonergic modulation of the activity of
+    Trends Neurosci. 30, 194–202. https://doi.org/10.1016/j.tins.2007.03.006.                             mesencephalic dopaminergic systems: Therapeutic implications. Prog. Neurobiol.
+Bullmore, E.T., Bassett, D.S., 2011. Brain Graphs: Graphical Models of the Human Brain                    151, 175–236. https://doi.org/10.1016/j.pneurobio.2016.03.004.
+    Connectome. Annu. Rev. Clin. Psychol. 7, 113–140. https://doi.org/10.1146/                        De Deurwaerdère, P., Di Giovanni, G., Millan, M.J., 2017. Expanding the repertoire of L-
+    annurev-clinpsy-040510-143934.                                                                        DOPA’s actions: A comprehensive review of its functional neurochemistry. Prog.
+Bullmore, E., Sporns, O., 2009. Complex brain networks: graph theoretical analysis of                     Neurobiol. 151, 57–100. https://doi.org/10.1016/j.pneurobio.2016.07.002.
+    structural and functional systems. Nat. Rev. Neurosci. 10, 186–198. https://doi.org/              De Deurwaerdère, P., Di Giovanni, G., 2020. Serotonin in Health and Disease. Int. J. Mol.
+    10.1038/nrn2575.                                                                                      Sci. 21, 3500. https://doi.org/10.3390/ijms21103500.
+Butler, J.J., Aman, C., Rivalan, M., Fitoussi, A., Parrot, S., Dellu-Hagedorn, F., De                 De La Fuente-Fernandez, R., 2004. Levodopa-induced changes in synaptic dopamine
+    Deurwaerdère, P., 2025a. Neurochemical Assessment of Tissue Levels of                                levels increase with progression of Parkinson’s disease: implications for dyskinesias.
+    Neurotransmitters for Approximating Neurotransmitter System Connectivity. ACS                         Brain 127, 2747–2754. https://doi.org/10.1093/brain/awh290.
+    Chem. Neurosci. 16, 1243–1246. https://doi.org/10.1021/acschemneuro.5c00060.                      Dellu-Hagedorn, F., Fitoussi, A., De Deurwaerdere, P., 2017. Correlative analysis of
+Butler, J.J., Parrot, S., Aman, C., De Deurwaerdère, P., 2025c. Neurochemical databases:                 dopaminergic and serotonergic metabolism across the brain to study monoaminergic
+    purpose and expectations. ACS Chem. Neurosci. 16, 108–110. https://doi.org/                           function and interaction. J. Neurosci. Methods 280, 54–63. https://doi.org/
+    10.1021/acschemneuro.4c00812.                                                                         10.1016/j.jneumeth.2017.01.020.
+Butler, J.J., Virgili, M., Di Giovanni, G., Chagraoui, A., Beyeler, A., De Deurwaerdère, P.,         Dellu-Hagedorn, F., Rivalan, M., Fitoussi, A., De Deurwaerdere, P., 2018. Inter-individual
+    2025b. 5-HT2A receptors shape whole-brain monoaminergic coherence in male                             differences in the impulsive/compulsive dimension: deciphering related
+    mice. Prog. Neuropsychopharmacol. Biol. Psychiatry, 111437. https://doi.org/                          dopaminergic and serotonergic metabolisms at rest. Philos. Trans. R. Soc. Lond. B
+    10.1016/j.pnpbp.2025.111437.                                                                          Biol. Sci. 373. https://doi.org/10.1098/rstb.2017.0154.
+Cagampang, F.R., Yamazaki, S., Otori, Y., Inouye, S.I., 1993. Serotonin in the raphe                  DeLong, M.R., 1990. Primate models of movement disorders of basal ganglia origin.
+    nuclei: regulation by light and an endogenous pacemaker. Neuroreport 5, 49–52.                        Trends Neurosci. 13, 281–285. https://doi.org/10.1016/0166-2236(90)90110-V.
+    https://doi.org/10.1097/00001756-199310000-00012.                                                 Descarries, L., Mechawar, N., 2000. Ultrastructural evidence for diffuse transmission by
+Carhart-Harris, R.L., Erritzoe, D., Williams, T., Stone, J.M., Reed, L.J., Colasanti, A.,                 monoamine and acetylcholine neurons of the central nervous system. Prog. Brain
+    Tyacke, R.J., Leech, R., Malizia, A.L., Murphy, K., Hobden, P., Evans, J., Feilding, A.,              Res. 125, 27–47. https://doi.org/10.1016/s0079-6123(00)25005-x.
+    Wise, R.G., Nutt, D.J., 2012. Neural correlates of the psychedelic state as determined            Descarries, L., Seguela, P., Watkins, K.C., 1991. Nonjunctional relationships of
+    by fMRI studies with psilocybin. Proc. Natl. Acad. Sci. U. S. A. 109, 2138–2143.                      monoamine axon terminals in the cerebral cortex of adult rat. In: Fuxe, K., Agnati, L.
+    https://doi.org/10.1073/pnas.1119598109.                                                              F. (Eds.), Transmission in the Brain: Novel Mechanisms for Neural Transmission.
+Carhart-Harris, R.L., Muthukumaraswamy, S., Roseman, L., Kaelen, M., Droog, W.,                           Raven Press, New York, pp. 53–62.
+    Murphy, K., Tagliazucchi, E., Schenberg, E.E., Nest, T., Orban, C., Leech, R.,                    Deutch, A.Y., 1993. Prefrontal cortical dopamine systems and the elaboration of
+    Williams, L.T., Williams, T.M., Bolstridge, M., Sessa, B., McGonigle, J., Sereno, M.I.,               functional corticostriatal circuits: implications for schizophrenia and Parkinson’s
+    Nichols, D., Hellyer, P.J., Hobden, P., Evans, J., Singh, K.D., Wise, R.G., Curran, H.                disease. J. Neural Transm. Gen. Sect. 91, 197–221.
+    V., Feilding, A., Nutt, D.J., 2016. Neural correlates of the LSD experience revealed by           Deutch, A.Y., Tam, S.Y., Freeman, A.S., Bowers, M.B., Roth, R.H., 1987. Mesolimbic and
+    multimodal neuroimaging. Proc. Natl. Acad. Sci. U. S. A. 113, 4853–4858. https://                     mesocortical dopamine activation induced by phencyclidine: contrasting pattern to
+    doi.org/10.1073/pnas.1518377113.                                                                      striatal response. Eur. J. Pharmacol. 134, 257–264.
+Cenci, M.A., Björklund, A., 2020. Animal models for preclinical Parkinson’s research: An             Devoto, P., Flore, G., Saba, P., Fa, M., Gessa, G.L., 2005. Co-release of noradrenaline and
+    update and critical appraisal. Prog. Brain Res. 252, 27–59. https://doi.org/10.1016/                  dopamine in the cerebral cortex elicited by single train and repeated train
+    bs.pbr.2020.02.003.                                                                                   stimulation of the locus coeruleus. BMC Neurosci. 6, 31. https://doi.org/10.1186/
+Chagraoui, Abdeslam, Whitestone, S., Baassiri, L., Manem, J., Di Giovanni, G., De                         1471-2202-6-31.
+    Deurwaerdère, P., 2019. Neurochemical impact of the 5-HT2C receptor agonist                      Devoto, P., Flore, G., Saba, P., Bini, V., Gessa, G.L., 2014. The dopamine beta-
+                                                                                                          hydroxylase inhibitor nepicastat increases dopamine release and potentiates
+
+
+                                                                                                 17
+J.J. Butler et al.                                                                                                                          Journal of Neuroscience Methods 435 (2026) 110859
+
+    psychostimulant-induced dopamine release in the prefrontal cortex. Addict. Biol. 19,                  J. Chem. Neuroanat. 35, 317–325. https://doi.org/10.1016/j.
+    612–622. https://doi.org/10.1111/adb.12026.                                                           jchemneu.2008.02.006.
+Devroye, C., Haddjeri, N., Cathala, A., Rovera, R., Drago, F., Piazza, P.V., Artigas, F.,            Halberstadt, A.L., Geyer, M.A., 2018. Effect of Hallucinogens on Unconditioned
+    Spampinato, U., 2017. Opposite control of mesocortical and mesoaccumbal                               Behavior. Curr. Top. Behav. Neurosci. 36, 159–199. https://doi.org/10.1007/7854_
+    dopamine pathways by serotonin2B receptor blockade: Involvement of medial                             2016_466.
+    prefrontal cortex serotonin1A receptors. Neuropharmacology 119, 91–99. https://                  Hale, M.W., Lowry, C.A., 2011. Functional topography of midbrain and pontine
+    doi.org/10.1016/j.neuropharm.2017.04.001.                                                             serotonergic systems: implications for synaptic regulation of serotonergic circuits.
+Di Giovanni, G., Bharatiya, R., Puginier, E., Ramos, M., De Deurwaerdère, S.,                            Psychopharmacol. Berl. 213, 243–264. https://doi.org/10.1007/s00213-010-2089-
+    Chagraoui, A., De Deurwaerdère, P., 2020. Lorcaserin Alters Serotonin and                            z.
+    Noradrenaline Tissue Content and Their Interaction With Dopamine in the Rat Brain.               Hamed, A., Kursa, M.B., 2018. Inter-individual differences in serotonin and glutamate co-
+    Front. Pharmacol. 11, 962. https://doi.org/10.3389/fphar.2020.00962.                                  transmission reflect differentiation in context-induced conditioned 50-kHz USVs
+Di Giovanni, G., Di Matteo, V., Esposito, E.., 2009. Birth, life and death of dopaminergic                response after morphine withdrawal. Brain Struct. Funct. 223 (7), 3149–3167.
+    neurons in the substantia nigra. J Neural Transm 1 p preceeding table of contents.                    https://doi.org/10.1007/s00429-018-1683-4.
+Di Giovanni, G., Svob Strac, D., Sole, M., Unzeta, M., Tipton, K.F., Muck-Seler, D.,                 Hamed, A., Kursa, M.B., 2020. Social deprivation substantially changes multi-structural
+    Bolea, I., Della Corte, L., Nikolac Perkovic, M., Pivac, N., Smolders, I.J., Stasiak, A.,             neurotransmitter signature of social interaction: Glutamate concentration in
+    Fogel, W.A., De Deurwaerdere, P., 2016. Monoaminergic and Histaminergic                               amygdala and VTA as a key factor in social encounter-induced 50-kHz ultrasonic
+    Strategies and Treatments in Brain Diseases. Front. Neurosci. 10, 541. https://doi.                   vocalization. Eur. Neuropsychopharmacol. 37, 82–99. https://doi.org/10.1016/j.
+    org/10.3389/fnins.2016.00541.                                                                         euroneuro.2020.06.010.
+Di Maio, A., Bassareo, V., De Simone, G., Hassan, A., Bertolino, A., Errico, F.,                     Hensler, J.G., Artigas, F., Bortolozzi, A., Daws, L.C., De Deurwaerdere, P., Milan, L.,
+    Rampino, A., De Bartolomeis, A., Usiello, A., 2026. Post-mortem brain analysis                        Navailles, S., Koek, W., 2013. Catecholamine/Serotonin interactions. Syst. Think.
+    reveals altered monoaminergic system in the dorsolateral prefrontal cortex and                        brain Funct. Dis. Adv. Pharmacol. 68, 167–197. https://doi.org/10.1016/B978-0-
+    hippocampus in chronic schizophrenia. Schizophrenia 12, 17. https://doi.org/                          12-411512-5.00009-9.
+    10.1038/s41537-025-00722-x.                                                                      Herve, D., Simon, H., Blanc, G., Lemoal, M., Glowinski, J., Tassin, J.P., 1981. Opposite
+Ebinger, G., Michotte, Y., Herregodts, P., 1987. The significance of homovanillic acid and                changes in dopamine utilization in the nucleus accumbens and the frontal cortex
+    3,4-dihydroxyphenylacetic acid concentrations in human lumbar cerebrospinal                           after electrolytic lesion of the median raphe in the rat. Brain Res. 216, 422–428.
+    fluid. J. Neurochem. 48, 1725–1729.                                                                   https://doi.org/10.1016/0006-8993(81)90144-x.
+Eisenhofer, G., Kopin, I.J., Goldstein, D.S., 2004. Catecholamine metabolism: a                      Hervé, D., Simon, H., Blanc, G., Lisoprawski, A., Le Moal, M., Glowinski, J., Tassin, J.P.,
+    contemporary view with implications for physiology and medicine. Pharmacol. Rev.                      1979a. Increased utilization of dopamine in the nucleus accumbens but not in the
+    56, 331–349. https://doi.org/10.1124/pr.56.3.1.                                                       cerebral cortex after dorsal raphe lesion in the rat. Neurosci. Lett. 15, 127–133.
+Feenstra, M.G., 2000. Dopamine and noradrenaline release in the prefrontal cortex in                      https://doi.org/10.1016/0304-3940(79)96101-9.
+    relation to unconditioned and conditioned stress and reward. Prog. Brain Res. 126,               Hervé, D., Tassin, J.P., Barthelemy, C., Blanc, G., Lavielle, S., Glowinski, J., 1979b.
+    133–163. https://doi.org/10.1016/S0079-6123(00)26012-3.                                               Difference in the reactivity of the mesocortical dopaminergic neurons to stress in the
+Fitoussi, A., Dellu-Hagedorn, F., De Deurwaerdère, P., 2013. Monoamines tissue content                   balb/c and C57 BL/6 mice. Life Sci. 25, 1659–1664. https://doi.org/10.1016/0024-
+    analysis reveals restricted and site-specific correlations in brain regions involved in               3205(79)90407-7.
+    cognition. Neuroscience 255, 233–245. https://doi.org/10.1016/j.                                 Hery, F., Chouvet, G., Kan, J.P., Pujol, J.F., Glowinski, J., 1977. Daily variations of
+    neuroscience.2013.09.059.                                                                             various parameters of serotonin metabolism in the rat brain. II. Circadian variations
+Fornito, A., Bullmore, E.T., 2015. Connectomics: A new paradigm for understanding                         in serum and cerebral tryptophan levels: lack of correlation with 5-HT turnover.
+    brain disease. Eur. Neuropsychopharmacol. 25, 733–748. https://doi.org/10.1016/j.                     Brain Res. 123, 137–145. https://doi.org/10.1016/0006-8993(77)90648-5.
+    euroneuro.2014.02.011.                                                                           Hery, F., Ternaux, J.P., 1981. Regulation of release processes in central serotoninergic
+Gerfen, C.R., Herkenham, M., Thibault, J., 1987. The neostriatal mosaic: II. Patch- and                   neurons. J. Physiol. Paris. 77, 287–301.
+    matrix-directed mesostriatal dopaminergic and non-dopaminergic systems.                          Holloway, Z.R., Freels, T.G., Comstock, J.F., Nolen, H.G., Sable, H.J., Lester, D.B., 2018.
+    J. Neurosci. 7, 3915–3934.                                                                            Comparing phasic dopamine dynamics in the striatum, nucleus accumbens,
+Gerfen, C.R., Surmeier, D.J., 2011. Modulation of Striatal Projection Systems by                          amygdala, and medial prefrontal cortex. Synap. N. Y. N., e22074 https://doi.org/
+    Dopamine. Annu. Rev. Neurosci. 34, 441–466. https://doi.org/10.1146/annurev-                          10.1002/syn.22074.
+    neuro-061010-113641.                                                                             Hortnagl, H., Pifl, C., Hortnagl, E., Reiner, A., Sperk, G., 2020. Distinct gradients of
+Glowinski, J., 1975. Properties and functions of intraneuronal monoamine compartments                     various neurotransmitter markers in caudate nucleus and putamen of the human
+    in central aminergic neurons. In: Leslie, L., Iversen, S.D.I. (Eds.), Handbook of                     brain. J. Neurochem. 152, 650–662. https://doi.org/10.1111/jnc.14897.
+    Psychopharmacology. Plenum Press, New York, pp. 139–167.                                         Issidorides, M.R., Havaki, S., Arvanitis, D.L., Chrysanthou-Piterou, M., 2004.
+Gobert, A., Millan, M.J., 1998. Serotonin (5-HT)2A receptor activation enhances                           Noradrenaline storage function of species-specific protein bodies, markers of
+    dialysate levels of dopamine and noradrenaline, but not 5-HT, in the frontal cortex of                monoamine neurons in human locus coeruleus demonstrated by dopamine-beta-
+    freely-moving rats. Neuropharmacology 38 (2), 315–317. https://doi.org/10.1016/                       hydroxylase immunogold localization. Prog. Neuropsychopharmacol. Biol.
+    S0028-3908(98)00188-9.                                                                                Psychiatry 28, 829–847. https://doi.org/10.1016/j.pnpbp.2004.05.034.
+Gobert, A., Rivet, J.-M., Lejeune, F., Newman-Tancredi, A., Adhumeau-Auclair, A.,                    Jackson, B.P., Wightman, R.M., 1995. Dynamics of 5-hydroxytryptamine released from
+    Nicolas, J.-P., Cistarelli, L., Melon, C., Millan, M.J., 2000. Serotonin2C receptors                  dopamine neurons in the caudate putamen of the rat. Brain Res. 674, 163–166.
+    tonically suppress the activity of mesocortical dopaminergic and adrenergic, but not                  https://doi.org/10.1016/0006-8993(95)00019-m.
+    serotonergic, pathways: A combined dialysis and electrophysiological analysis in the             Jacobs, B.L., Azmitia, E.C., 1992. Structure and function of the brain serotonin system.
+    rat. Synapse 36 (3), 205–221. https://doi.org/10.1002/(SICI)1098-2396(20000601)                       Physiol. Rev. 72, 165–229.
+    36:3%253C205::AID-SYN5%253E3.0.CO;2-D.                                                           Jiao, X., Paré, W.P., Tejani-Butt, S., 2003. Strain differences in the distribution of
+Goldstein, D.S., Sullivan, P., Holmes, C., Miller, G.W., Alter, S., Strong, R., Mash, D.C.,               dopamine transporter sites in rat brain. Prog. Neuropsychopharmacol. Biol.
+    Kopin, I.J., Sharabi, Y., 2013. Determinants of buildup of the toxic dopamine                         Psychiatry 27, 913–919. https://doi.org/10.1016/S0278-5846(03)00150-7.
+    metabolite DOPAL in Parkinson’s disease. J. Neurochem. 126, 591–603. https://doi.                Johnston, C.A., Moore, K.E., 1983. Measurement of 5-hydroxytryptamine synthesis and
+    org/10.1111/jnc.12345.                                                                                metabolism in selected discrete regions of the rat brain using high performance
+Goldstein, D.S., Sullivan, P., Holmes, C., Kopin, I.J., Sharabi, Y., Mash, D.C., 2015.                    liquid chromatography and electrochemical detection: pharmacological
+    Decreased vesicular storage and aldehyde dehydrogenase activity in multiple system                    manipulations. J. Neural Transm. 57, 49–63.
+    atrophy. Park. Relat. Disord. 21, 567–572. https://doi.org/10.1016/j.                            Justice, J.B., 1993. Quantitative microdialysis of neurotransmitters. J. Neurosci. Methods
+    parkreldis.2015.03.006.                                                                               48, 263–276.
+Grace, A.A., Bunney, B.S., 1985. Opposing effects of striatonigral feedback pathways on              Kaenmaki, M., Tammimaki, A., Garcia-Horsman, J.A., Myohanen, T., Schendzielorz, N.,
+    midbrain dopamine cell activity. Brain Res. 333, 271–284.                                             Karayiorgou, M., Gogos, J.A., Mannisto, P.T., 2009. Importance of membrane-bound
+Gresch, P.J., Sved, A.F., Zigmond, M.J., Finlay, J.M., 1994. Stress-induced sensitization                 catechol-O-methyltransferase in L-DOPA metabolism: a pharmacokinetic study in
+    of dopamine and norepinephrine efflux in medial prefrontal cortex of the rat.                         two types of Comt gene modified mice. Br. J. Pharmacol. 158, 1884–1894. https://
+    J. Neurochem. 63, 575–583. https://doi.org/10.1046/j.1471-4159.1994.63020575.                         doi.org/10.1111/j.1476-5381.2009.00494.x.
+    x.                                                                                               Kalivas, P.W., 1993. Neurotransmitter regulation of dopamine neurons in the ventral
+Gros, A., Lavenu, L., Morel, J.L., De Deurwaerdère, P., 2021. Simulated microgravity                     tegmental area. Brain Res. Brain Res. Rev. 18, 75–113.
+    subtlety changes monoamine function across the rat brain. Int. J. Mol. Sci. 22,                  Kapur, S., Remington, G., 1996. Serotonin-dopamine interaction and its relevance to
+    11759. https://doi.org/10.3390/ijms222111759.                                                         schizophrenia. Am. J. Psychiatry 153, 466–476.
+Guiard, B.P., El Mansari, M., Merali, Z., Blier, P., 2008. Functional interactions between           Kempadoo, K.A., Mosharov, E.V., Choi, S.J., Sulzer, D., Kandel, E.R., 2016. Dopamine
+    dopamine, serotonin and norepinephrine neurons: an in-vivo electrophysiological                       release from the locus coeruleus to the dorsal hippocampus promotes spatial
+    study in rats with monoaminergic lesions. Int. J. Neuropsychopharmacol. 11,                           learning and memory. Proc. Natl. Acad. Sci. U A 113, 14835–14840. https://doi.org/
+    625–639. https://doi.org/10.1017/S1461145707008383.                                                   10.1073/pnas.1616515114.
+Haber, S.N., Fudge, J.L., McFarland, N.R., 2000. Striatonigrostriatal Pathways in                    Klouche, M.S., De Deurwaerdere, P., Dellu-Hagedorn, F., Lakhdar-Ghazal, N.,
+    Primates Form an Ascending Spiral from the Shell to the Dorsolateral Striatum.                        Benomar, S., 2015. Monoamine content during the reproductive cycle of Perna perna
+    J. Neurosci. 20, 2369–2382. https://doi.org/10.1523/JNEUROSCI.20-06-                                  depends on site of origin on the Atlantic Coast of Morocco. Sci. Rep. 5, 13715.
+    02369.2000.                                                                                           https://doi.org/10.1038/srep13715.
+Halberstadt, A.L., Balaban, C.D., 2008. Selective anterograde tracing of nonserotonergic             Koblinger, K., Füzesi, T., Ejdrygiewicz, J., Krajacic, A., Bains, J.S., Whelan, P.J., 2014.
+    projections from dorsal raphe nucleus to the basal forebrain and extended amygdala.                   Characterization of A11 neurons projecting to the spinal cord of mice. PloS. One 9,
+                                                                                                          e109636. https://doi.org/10.1371/journal.pone.0109636.
+
+
+                                                                                                18
+J.J. Butler et al.                                                                                                                          Journal of Neuroscience Methods 435 (2026) 110859
+
+Köhler, C., Chan-Palay, V., Steinbusch, H., 1982. The distribution and origin of                    Obeso, J.A., Rodriguez-Oroz, M.C., Rodriguez, M., Lanciego, J.L., Artieda, J.,
+     serotonin-containing fibers in the septal area: a combined immunohistochemical and                   Gonzalo, N., Olanow, C.W., 2000. Pathophysiology of the basal ganglia in
+     fluorescent retrograde tracing study in the rat. J. Comp. Neurol. 209, 91–111.                       Parkinson’s disease. Trends Neurosci. 23, S8–S19. https://doi.org/10.1016/S1471-
+     https://doi.org/10.1002/cne.902090109.                                                               1931(00)00028-8.
+Kvetǹanskỳ, R., Čulman, J., Serova, L.V., Tigranjan, R.A., Torda, T., Macho, L., 1983.              Okaty, B.W., Freret, M.E., Rood, B.D., Brust, R.D., Hennessy, M.L., deBairos, D., Kim, J.
+     Catecholamines and their enzymes in discrete brain areas of rats after space flight on               C., Cook, M.N., Dymecki, S.M., 2015. Multi-Scale Molecular Deconstruction of the
+     biosatellites Cosmos. Acta Astronaut. 10, 295–300. https://doi.org/10.1016/0094-                     Serotonin Neuron System. Neuron 88, 774–791. https://doi.org/10.1016/j.
+     5765(83)90080-2.                                                                                     neuron.2015.10.007.
+Latagliata, E.C., Orsini, C., Cabib, S., Biagioni, F., Fornai, F., Puglisi-Allegra, S., 2023.        Okaty, B.W., Sturrock, N., Escobedo Lozoya, Y., Chang, Y., Senft, R.A., Lyon, K.A.,
+     Prefrontal Dopamine in Flexible Adaptation to Environmental Changes: A Game for                      Alekseyenko, O.V., Dymecki, S.M., 2020. A single-cell transcriptomic and anatomic
+     Two Players. Biomedicines 11, 3189. https://doi.org/10.3390/                                         atlas of mouse dorsal raphe Pet1 neurons. Elife 9. https://doi.org/10.7554/
+     biomedicines11123189.                                                                                eLife.55523.
+Liu, C., Kershberg, L., Wang, J., Schneeberger, S., Kaeser, P.S., 2018. Dopamine Secretion           Olschowka, J.A., Molliver, M.E., Grzanna, R., Rice, F.L., Coyle, J.T., 1981. Ultrastructural
+     Is Mediated by Sparse Active Zone-like Release Sites. Cell 172, 706–718.e15. https://                demonstration of noradrenergic synapses in the rat central nervous system by
+     doi.org/10.1016/j.cell.2018.01.008.                                                                  dopamine-beta-hydroxylase immunocytochemistry. J. Histochem. Cytochem. Off. J.
+Liu, G., Yu, J., Ding, J., Xie, C., Sun, L., Rudenko, I., Zheng, W., Sastry, N., Luo, J.,                 Histochem. Soc. 29, 271–280. https://doi.org/10.1177/29.2.7019303.
+     Rudow, G., Troncoso, J.C., Cai, H., 2014. Aldehyde dehydrogenase 1 defines and                  Parrot, S., 2025. Do Neurochemicals Reflect Psychophysiological Dimensions in
+     protects a nigrostriatal dopaminergic neuron subpopulation. J. Clin. Invest. 124,                    Behaviors? A Transdisciplinary Perspective Based on Analogy with Maslow’s Needs
+     3032–3046. https://doi.org/10.1172/jci72176.                                                         Pyramid. ACS Chem. Neurosci. 16, 753–760. https://doi.org/10.1021/
+Louilot, A., Le Moal, M., Simon, H., 1989. Opposite influences of dopaminergic pathways                   acschemneuro.4c00566.
+     to the prefrontal cortex or the septum on the dopaminergic transmission in the                  Parrot, S., Crehan, J., Aman, C., De Deurwaerdère, P., Thimgan, M., Seugnet, L., 2025.
+     nucleus accumbens. An in vivo voltammetric study. Neuroscience 29, 45–56.                            Circadian and age-related variations of amino acids levels in Drosophila brains:
+     https://doi.org/10.1016/0306-4522(89)90331-x.                                                        correlations and descriptive dimensions. ACS Chem. Neurosci. 16, 2564–2571.
+Lowry, C.A., Hale, M.W., Evans, A.K., Heerkens, J., Staub, D.R., Gasser, P.J., Shekhar, A.,               https://doi.org/10.1021/acschemneuro.5c00052.
+     2008. Serotonergic systems, anxiety, and affective disorder: focus on the                       Pifl, C., Wolf, A., Cavada, C., Blesa, J., Obeso, J.A., 2026. Taurine and MAO B binding
+     dorsomedial part of the dorsal raphe nucleus. Ann. N. Acad. Sci. 1148, 86–94.                        sites in the brain of monkeys determine differing responses to MPTP administration.
+     https://doi.org/10.1196/annals.1410.004.                                                             J. Neurosci. Methods 433, 110788. https://doi.org/10.1016/j.
+Ludwig, M., Apps, D., Menzies, J., Patel, J.C., Rice, M.E., 2016. Dendritic Release of                    jneumeth.2026.110788.
+     Neurotransmitters. Compr. Physiol. 7, 235–252. https://doi.org/10.1002/cphy.                    Porras, G., De Deurwaerdere, P., Li, Q., Marti, M., Morgenstern, R., Sohr, R., Bezard, E.,
+     c160007.                                                                                             Morari, M., Meissner, W.G., 2014. L-dopa-induced dyskinesia: beyond an excessive
+Martin, G.F., DeLorenzo, G., Ho, R.H., Humbertson, A.O., Waltzer, R., 1985. Serotonergic                  dopamine tone in the striatum. Sci. Rep. 4, 3730. https://doi.org/10.1038/
+     innervation of the forebrain in the North American opossum. Brain. Behav. Evol. 26,                  srep03730.
+     196–228. https://doi.org/10.1159/000118776.                                                     Pregeljc, D., Teodorescu-Perijoc, D., Vianello, R., Umek, N., Mavri, J., 2019. How
+Marty, V., Butler, J.J., Coutens, B., Chargui, O., Chagraoui, A., Guiard, B.P., De                        important is the use of cocaine and amphetamines in the development of Parkinson
+     Deurwaerdère, P., Cavaillé, J., 2023. Deleting Snord115 genes in mice remodels                     disease? A computational study. Neurotox. Res. https://doi.org/10.1007/s12640-
+     monoaminergic systems activity in the brain toward cortico-subcortical imbalances.                   019-00149-0.
+     Hum. Mol. Genet. 32, 244–261. https://doi.org/10.1093/hmg/ddac139.                              Pudovkina, O.L., Westerink, B.H., 2005. Functional role of alpha1-adrenoceptors in the
+Matsuda, W., Furuta, T., Nakamura, K.C., Hioki, H., Fujiyama, F., Arai, R., Kaneko, T.,                   locus coeruleus: a microdialysis study. Brain Res. 1061, 50–56. https://doi.org/
+     2009. Single nigrostriatal dopaminergic neurons form widely spread and highly                        10.1016/j.brainres.2005.08.049.
+     dense axonal arborizations in the neostriatum. J. Neurosci. 29, 444–453. https://doi.           Puginier, E., Bharatiya, R., Chagraoui, A., Manem, J., Cho, Y.H., Garret, M., De
+     org/10.1523/jneurosci.4029-08.2009.                                                                  Deurwaerdere, P., 2019. Early neurochemical modifications of monoaminergic
+Mayer, S., Saxena, P., Crayen, M.A., Treue, S., 2025. Establishing In-vivo brain                          systems in the R6/1 mouse model of Huntington’s disease. Neurochem. Int. 128,
+     microdialysis for comparing concentrations of a variety of cortical neurotransmitters                186–195. https://doi.org/10.1016/j.neuint.2019.05.001.
+     in the awake rhesus macaque between different cognitive states. J. Neurosci.                    Quentin, E., Belmer, A., Maroteaux, L., 2018. Somato-dendritic regulation of raphe
+     Methods 415, 110361. https://doi.org/10.1016/j.jneumeth.2025.110361.                                 serotonin neurons; A key to antidepressant action. Front. Neurosci. 12, 982. https://
+Menon, J.M.L., Nolten, C., Achterberg, E.J.M., Joosten, R.N.J.M.A., Dematteis, M.,                        doi.org/10.3389/fnins.2018.00982.
+     Feenstra, M.G.P., Drinkenburg, W.H.P., Leenaars, C.H.C., 2019. Brain microdialysate             Raichle, M.E., 2015. The brain’s default mode network. Annu. Rev. Neurosci. 38,
+     monoamines in relation to circadian rhythms, sleep, and sleep deprivation - a                        433–447. https://doi.org/10.1146/annurev-neuro-071013-014030.
+     systematic review, network meta-analysis, and new primary data. J. Circadian                    Ramsay, R.R., 2013. Inhibitor design for monoamine oxidases. Curr. Pharm. Des. 19,
+     Rhythms 17 (1). https://doi.org/10.5334/jcr.174.                                                     2529–2539.
+Midzyanovskaya, I.S., Shatskova, A.B., MacDonald, E., Luijtelaar, G.V., Tuomisto, L.,                Ren, J., Friedmann, D., Xiong, J., Liu, C.D., Ferguson, B.R., Weerakkody, T., DeLoach, K.
+     2020. Brain Aminergic Deficiency in Absence Epileptic Rats: Dependency on Seizure                    E., Ran, C., Pun, A., Sun, Y., Weissbourd, B., Neve, R.L., Huguenard, J., Horowitz, M.
+     Severity and Their Functional Coupling at Rest. J. Behav. Brain Sci. 10, 29–45.                      A., Luo, L., 2018. Anatomically Defined and Functionally Distinct Dorsal Raphe
+     https://doi.org/10.4236/jbbs.2020.101003.                                                            Serotonin Sub-systems. Cell 175, 472–487.e20. https://doi.org/10.1016/j.
+Mlost, J., Białoń, M., Kędziora, M., Wąsik, A., Michalec, Ż., Starowicz, K., 2024. Network              cell.2018.07.043.
+     analysis of monoamines involved in anxiety-like behavior in a rat model of                      Ren, J., Isakova, A., Friedmann, D., Zeng, J., Grutzner, S.M., Pun, A., Zhao, G.Q.,
+     osteoarthritis. Pharmacol. Rep. PR 76, 72–85. https://doi.org/10.1007/s43440-023-                    Kolluru, S.S., Wang, R., Lin, R., Li, P., Li, A., Raymond, J.L., Luo, Q., Luo, M.,
+     00562-5.                                                                                             Quake, S.R., Luo, L., 2019. Single-cell transcriptomes and whole-brain projections of
+Mosharov, E.V., Larsen, K.E., Kanter, E., Phillips, K.A., Wilson, K., Schmitz, Y., Krantz, D.             serotonin neurons in the mouse dorsal and median raphe nuclei. eLife 8, e49424.
+     E., Kobayashi, K., Edwards, R.H., Sulzer, D., 2009. Interplay between cytosolic                      https://doi.org/10.7554/eLife.49424.
+     dopamine, calcium, and alpha-synuclein causes selective death of substantia nigra               Rueter, L.E., Jacobs, B.L., 1996. Changes in forebrain serotonin at the light-dark
+     neurons. Neuron 62, 218–229. https://doi.org/10.1016/j.neuron.2009.01.033.                           transition: correlation with behaviour. Neuroreport 7, 1107–1111. https://doi.org/
+Mosienko, V., Beis, D., Pasqualetti, M., Waider, J., Matthes, S., Qadri, F., Bader, M.,                   10.1097/00001756-199604100-00031.
+     Alenina, N., 2015. Life without brain serotonin: reevaluation of serotonin function             Rush, R.A., Geffen, L.B., 1980. Dopamine beta-hydroxylase in health and disease. Crit.
+     with mice deficient in brain serotonin synthesis. Behav. Brain Res. 277, 78–88.                      Rev. Clin. Lab. Sci, 12, 241–277. https://doi.org/10.3109/10408368009108731.
+     https://doi.org/10.1016/j.bbr.2014.06.005.                                                      Saavedra, J.M., 1977. Distribution of serotonin and synthesizing enzymes in discrete
+Müller, C.P., Pum, M.E., Amato, D., Schüttler, J., Huston, J.P., De Souza Silva, M.A.,                    areas of the brain. Fed. Proc. 36, 2134–2141.
+     2011. The in vivo neurochemistry of the brain during general anesthesia.                        Schendzielorz, N., Oinas, J.P., Myohanen, T.T., Reenila, I., Raasmaja, A., Mannisto, P.T.,
+     J. Neurochem. 119, 419–446. https://doi.org/10.1111/j.1471-4159.2011.07445.x.                        2013. Catechol-O-methyltransferase (COMT) protein expression and activity after
+Muzerelle, A., Scotto-Lomassese, S., Bernard, J.F., Soiza-Reilly, M., Gaspar, P., 2016.                   dopaminergic and noradrenergic lesions of the rat brain. PLoS. One 8, e61392.
+     Conditional anterograde tracing reveals distinct targeting of individual serotonin cell              https://doi.org/10.1371/journal.pone.0061392.
+     groups (B5–B9) to the forebrain and brainstem. Brain Struct. Funct. 221, 535–561.               Shannon, N.J., Gunnet, J.W., Moore, K.E., 1986. A comparison of biochemical indices of
+     https://doi.org/10.1007/s00429-014-0924-4.                                                           5-hydroxytryptaminergic neuronal activity following electrical stimulation of the
+Myohanen, T.T., Schendzielorz, N., Mannisto, P.T., 2010. Distribution of catechol-O-                      dorsal raphe nucleus. J. Neurochem. 47, 958–965.
+     methyltransferase (COMT) proteins and enzymatic activities in wild-type and soluble             Sharp, T., Bramwell, S.R., Clark, D., Grahame-Smith, D.G., 1989. In vivo measurement of
+     COMT deficient mice. J. Neurochem. 113, 1632–1643. https://doi.org/10.1111/                          extracellular 5-hydroxytryptamine in hippocampus of the anaesthetized rat using
+     j.1471-4159.2010.06723.x.                                                                            microdialysis: changes in relation to 5-hydroxytryptaminergic neuronal activity.
+Navailles, S., Bioulac, B., Gross, C., De Deurwaerdere, P., 2010. Serotonergic neurons                    J. Neurochem. 53, 234–240. https://doi.org/10.1111/j.1471-4159.1989.tb07319.x.
+     mediate ectopic release of dopamine induced by L-DOPA in a rat model of                         Sharp, T., Zetterstrom, T., Ungerstedt, U., 1986. An in vivo study of dopamine release
+     Parkinson’s disease. Neurobiol. Dis. 38, 136–143. https://doi.org/10.1016/j.                         and metabolism in rat brain regions using intracerebral dialysis. J. Neurochem. 47,
+     nbd.2010.01.012.                                                                                     113–122.
+Navailles, S., Bioulac, B., Gross, C., De Deurwaerdère, P., 2011. Chronic L-DOPA therapy            Simic, G., Babic Leko, M., Wray, S., Harrington, C.R., Delalle, I., Jovanov-Milosevic, N.,
+     alters central serotonergic function and L-DOPA-induced dopamine release in a                        Bazadona, D., Buee, L., de Silva, R., Di Giovanni, G., Wischik, C.M., Hof, P.R., 2017.
+     region-dependent manner in a rat model of Parkinson’s disease. Neurobiol. Dis. 41,                   Monoaminergic neuropathology in Alzheimer’s disease. Prog. Neurobiol. https://
+     585–590. https://doi.org/10.1016/j.nbd.2010.11.007.                                                  doi.org/10.1016/j.pneurobio.2016.04.001.
+
+
+
+
+                                                                                                19
+J.J. Butler et al.                                                                                                                         Journal of Neuroscience Methods 435 (2026) 110859
+
+Smidt, M.P., Burbach, J.P.H., 2009. A passport to neurotransmitter identity. Genome                      A10 lesions and the destruction of the fronto-cortical dopaminergic innervation in
+    Biol. 10, 229. https://doi.org/10.1186/gb-2009-10-7-229.                                             the rat. Brain Res. 141, 267–281. https://doi.org/10.1016/0006-8993(78)90197-x.
+Soubrie, P., Reisine, T.D., Glowinski, J., 1984. Functional aspects of serotonin                     Tomkins, D.M., Sellers, E.M., 2001. Addiction and the brain: the role of
+    transmission in the basal ganglia: a review and an in vivo approach using the push-                  neurotransmitters in the cause and treatment of drug dependence. CMAJ 164,
+    pull cannula technique. Neuroscience 13, 605–625.                                                    817–821.
+Stamford, J.A., Kruk, Z.L., Millar, J., 1990. Striatal dopamine terminals release serotonin          Umek, N., Gersak, B., Vintar, N., Sostaric, M., Mavri, J., 2018. Dopamine autoxidation is
+    after 5-HTP pretreatment: in vivo voltammetric data. Brain Res. 515, 173–180.                        controlled by acidic pH. Front. Mol. Neurosci. 11, 467. https://doi.org/10.3389/
+Steinbusch, H.W., 1981. Distribution of serotonin-immunoreactivity in the central                        fnmol.2018.00467.
+    nervous system of the rat-cell bodies and terminals. Neuroscience 6, 557–618                     Vertes, R.P., Martin, G.F., 1988. Autoradiographic analysis of ascending projections from
+    https://doi.org/0306-4522(81)90146-9%20%5Bpii%5D.                                                    the pontine and mesencephalic reticular formation and the median raphe nucleus in
+Steinbusch, H.W., 1984. Serotonin-immunoreactive neurons and their projections in the                    the rat. J. Comp. Neurol. 275, 511–541. https://doi.org/10.1002/cne.902750404.
+    CNS. In: Björklund, A.H. (Ed.), Handbook of Chemical Neuroanatomy – Classical                   Wang, J., 2010. Graph-based network analysis of resting-state functional MRI. Front.
+    Transmitters and Transmitters Receptors in the CNS Part II, 3. Elsevier, pp. 68–125.                 Syst. Neurosci. https://doi.org/10.3389/fnsys.2010.00016.
+Stratford, T.R., Wirtshafter, D., 1990. Ascending dopaminergic projections from the                  Westerink, B.H., Damsma, G., De Vries, J.B., Koning, H., 1987. Dopamine re-uptake
+    dorsal raphe nucleus in the rat. Brain Res. 511, 173–176. https://doi.org/10.1016/                   inhibitors show inconsistent effects on the in vivo release of dopamine as measured
+    0006-8993(90)90239-8.                                                                                by intracerebral dialysis in the rat. Eur. J. Pharmacol. 135, 123–128.
+Svob Strac, D., Pivac, N., Smolders, I.J., Fogel, W.A., De Deurwaerdere, P., Di                      White, F.J., 1996. Synaptic regulation of mesocorticolimbic dopamine neurons. Annu.
+    Giovanni, G., 2016b. Monoaminergic mechanisms in epilepsy may offer innovative                       Rev. Neurosci. 19, 405–436. https://doi.org/10.1146/annurev.
+    therapeutic opportunity for monoaminergic multi-target drugs. Front. Neurosci. 10,                   ne.19.030196.002201.
+    492. https://doi.org/10.3389/fnins.2016.00492.                                                   Whitestone, S., Deurwaerdere, P., Baassiri, L., Manem, J., Anouar, Y., Di Giovanni, G.,
+Tassin, J.P., Cheramy, A., Blanc, G., Thierry, A.M., Glowinski, J., 1976. Topographical                  Bharatiya, R., Chagraoui, A., 2019. Effect of the 5-HT2C receptor agonist WAY-
+    distribution of dopaminergic innervation and of dopaminergic receptors in the rat                    163909 on serotonin and dopamine metabolism across the rat brain: a quantitative
+    striatum. I. Mictoestimation of [3H] dopamine uptake and dopamine content in                         and qualitative neurochemical study. Int. J. Mol. Sci. 20. https://doi.org/10.3390/
+    microdiscs. Brain Res. 107, 291–301.                                                                 ijms20122925.
+Tassin, J.P., Herve, D., Blanc, G., Glowinski, J., 1980. Differential effects of a two-minute        Zetterström, T., Sharp, T., Collin, A.K., Ungerstedt, U., 1988. In vivo measurement of
+    open-field session on dopamine utilization in the frontal cortices of BALB/C and C57                 extracellular dopamine and DOPAC in rat striatum after various dopamine-releasing
+    BL/6 mice. Neurosci. Lett. 17, 67–71. https://doi.org/10.1016/0304-3940(80)                          drugs; implications for the origin of extracellular DOPAC. Eur. J. Pharmacol. 148,
+    90063-4.                                                                                             327–334. https://doi.org/10.1016/0014-2999(88)90110-0.
+Tassin, J.P., Stinus, L., Simon, H., Blanc, G., Thierry, A.M., Le Moal, M., Cardo, B.,               Zhou, F.-M., Liang, Y., Salas, R., Zhang, L., De Biasi, M., Dani, J.A., 2005. Corelease of
+    Glowinski, J., 1978. Relationship between the locomotor hyperactivity induced by                     dopamine and serotonin from striatal dopamine terminals. Neuron 46, 65–74.
+                                                                                                         https://doi.org/10.1016/j.neuron.2005.02.010.
+
+
+
+
+                                                                                                20
+

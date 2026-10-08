@@ -1,0 +1,213 @@
+{
+ "grid": "K,L in {0..40} rad/s, 9x9, sigma0=3.0 (sweep)",
+ "meg": {
+  "alpha_peak_hz": 8.12,
+  "dfa_median": 0.632,
+  "dfa_mean": 0.617,
+  "dfa_pct_gt_065": 0.412,
+  "wpli_mean": 0.51,
+  "cc_mean": 0.0,
+  "cc_vs_dist_rho": -0.415
+ },
+ "meg_run2": {
+  "alpha_peak_hz": 7.91,
+  "dfa_median": 0.686,
+  "wpli_mean": 0.522
+ },
+ "surrogate_dfa_p95": 0.535,
+ "fit": {
+  "criterion": "composite = |med DFA - MEG med|/0.1 + |peak-8.12Hz|/1Hz + (1 - r_shape); sensor-space instantiation",
+  "r_raw_best": 0.8201879582537646,
+  "r_shape_best": 0.7102274078864069,
+  "r_periodic_best": -0.3422312859716279,
+  "score_best": 0.9705225441784231
+ },
+ "operating_point": {
+  "K_star": 25.0,
+  "L_star": 40.0,
+  "composite_score": 0.9705225441784231,
+  "components": {
+   "d_dfa": 0.5397636385126747,
+   "d_peak": 0.08312500000000078,
+   "d_shape": 0.3476339056657476
+  },
+  "r_raw": 0.4923518815130795,
+  "r_shape": 0.6523660943342524,
+  "r_periodic": -0.4559423264569257,
+  "model_alpha_peak": 8.203125,
+  "meg_alpha_peak": 8.12,
+  "peak_distance_hz": 0.08312500000000078,
+  "mean_order": 0.49765515415788264,
+  "mean_dfa": 0.5809964805560234,
+  "frac065": 0.19148936170212766,
+  "frac_p95": 0.6808510638297872,
+  "mean_plv": 0.009783726826285262,
+  "mean_cc": 0.011205270494189866,
+  "sf": {
+   "order_strength_rho": -0.03114546833796915,
+   "dfa_strength_rho": -0.003778492215439078,
+   "plv_edge_rho": -0.034419116004729355,
+   "cc_edge_rho": 0.0457128563236657
+  }
+ },
+ "critical_regime": {
+  "L_band_at_Kstar": [
+   0.0,
+   40.0
+  ],
+  "L_star_inside_band": true,
+  "distance_L_norm": 0.0,
+  "side_L": "inside the extended critical regime (band spans L)",
+  "K_band_at_Lstar": [
+   15.0,
+   35.0
+  ],
+  "K_star_inside_band": true,
+  "distance_K_norm": 0.0,
+  "side_K": "inside the extended critical regime",
+  "margin_to_subcritical_edge": 0.6666666666666666,
+  "margin_to_supercritical_edge": 0.2857142857142857,
+  "note": "In this parameterization the DFA-defined critical regime is a K-band extended across L (as in Myrov et al. Fig. 2); the K axis is the transition axis, the L axis the inter-node (J-analog) coupling."
+ },
+ "beta": {
+  "sigma_star": 3.0,
+  "K_star": 25.0,
+  "beta_hat": 0.12,
+  "definition": "beta = sigma*/K* (noise amplitude / local coupling at the MEG-matched operating point)",
+  "dfa_median_curve": [
+   0.453368162225825,
+   0.4998811878504702,
+   0.5397251034130517,
+   0.5615923919233292,
+   0.5496326547498722,
+   0.5056390933661847,
+   0.5017975831561848
+  ],
+  "sigma_grid": [
+   0.5,
+   1.0,
+   2.0,
+   3.0,
+   5.0,
+   8.0,
+   12.0
+  ],
+  "meg_dfa_median": 0.632
+ },
+ "nulls": {
+  "real": {
+   "order_strength_rho": -0.032315861720189284,
+   "dfa_strength_rho": 0.03253260123541524,
+   "plv_edge_rho": 0.011387057835597379,
+   "cc_edge_rho": 0.03549572292952058,
+   "order": 0.4967892645027467,
+   "dfa": 0.5750661155128174,
+   "frac065": 0.20212765957446807
+  },
+  "shuffled": {
+   "order_strength_rho": 0.05455333598237185,
+   "dfa_strength_rho": 0.22658671386771664,
+   "plv_edge_rho": -0.002458453969692991,
+   "cc_edge_rho": 0.03670964175382571,
+   "order": 0.5117863107119318,
+   "dfa": 0.5649562951668726,
+   "frac065": 0.13829787234042554
+  },
+  "random": {
+   "order_strength_rho": 0.09157244518296428,
+   "dfa_strength_rho": 0.20322219412635914,
+   "plv_edge_rho": -0.007582702795726362,
+   "cc_edge_rho": 5.3668154926757365e-05,
+   "order": 0.4347791024155428,
+   "dfa": 0.5930247151148267,
+   "frac065": 0.22340425531914893
+  },
+  "order_perm_p": 0.767,
+  "dfa_perm_p": 0.97,
+  "plv_perm_p": 0.019,
+  "cc_perm_p": 0.005,
+  "K_star": 25.0,
+  "L_star": 40.0,
+  "sigma": 3.0
+ },
+ "subjects": {
+  "102311": {
+   "K_op": 35.0,
+   "L_op": 40.0,
+   "composite_score": 1.4569965407574226,
+   "r_raw": 0.46756836334899293,
+   "model_peak": 8.203125,
+   "Kband_at_Lstar": [
+    10.0,
+    30.0
+   ],
+   "distance_K_norm": -0.16666666666666666,
+   "frac065_at_op": 0.05319148936170213
+  },
+  "102816": {
+   "K_op": 35.0,
+   "L_op": 40.0,
+   "composite_score": 1.5020182063804328,
+   "r_raw": 0.4658336996066728,
+   "model_peak": 8.203125,
+   "Kband_at_Lstar": [
+    10.0,
+    30.0
+   ],
+   "distance_K_norm": -0.16666666666666666,
+   "frac065_at_op": 0.05319148936170213
+  },
+  "131217": {
+   "K_op": 40.0,
+   "L_op": 40.0,
+   "composite_score": 1.5084292576897855,
+   "r_raw": 0.4363815172134376,
+   "model_peak": 8.203125,
+   "Kband_at_Lstar": [
+    10.0,
+    20.0
+   ],
+   "distance_K_norm": -1.0,
+   "frac065_at_op": 0.05319148936170213
+  },
+  "211619": {
+   "K_op": 35.0,
+   "L_op": 40.0,
+   "composite_score": 1.3122012888584096,
+   "r_raw": 0.46233994052917265,
+   "model_peak": 8.203125,
+   "Kband_at_Lstar": [
+    10.0,
+    30.0
+   ],
+   "distance_K_norm": -0.16666666666666666,
+   "frac065_at_op": 0.06382978723404255
+  },
+  "213522": {
+   "K_op": 35.0,
+   "L_op": 40.0,
+   "composite_score": 1.4761870779847608,
+   "r_raw": 0.47051070955139446,
+   "model_peak": 8.203125,
+   "Kband_at_Lstar": [
+    10.0,
+    25.0
+   ],
+   "distance_K_norm": -0.4,
+   "frac065_at_op": 0.05319148936170213
+  },
+  "377451": {
+   "K_op": 35.0,
+   "L_op": 40.0,
+   "composite_score": 1.6008808593464725,
+   "r_raw": 0.4716398367358426,
+   "model_peak": 8.203125,
+   "Kband_at_Lstar": [
+    10.0,
+    20.0
+   ],
+   "distance_K_norm": -0.75,
+   "frac065_at_op": 0.0425531914893617
+  }
+ }
+}

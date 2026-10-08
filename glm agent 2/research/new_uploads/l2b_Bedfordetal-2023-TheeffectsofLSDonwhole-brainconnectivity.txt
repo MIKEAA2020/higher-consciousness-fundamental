@@ -1,0 +1,541 @@
+                                                                                                                                                                        www.nature.com/npp
+
+
+
+
+                  ARTICLE                  OPEN
+
+                  The effect of lysergic acid diethylamide (LSD) on whole-brain
+                  functional and effective connectivity
+                                                            ✉
+                  Peter Bedford1,10, Daniel J. Hauke 2,10 , Zheng Wang1, Volker Roth3, Monika Nagy-Huber 3, Friederike Holze                                               4
+                                                                                                                                                                               , Laura Ley4,
+                                 4                       4
+                  Patrick Vizeli   , Matthias E. Liechti   , Stefan Borgwardt 5, Felix Müller6,11 and Andreea O. Diaconescu1,7,8,9,11
+
+                  © The Author(s) 2023
+
+
+
+                      Psychedelics have emerged as promising candidate treatments for various psychiatric conditions, and given their clinical potential,
+                      there is a need to identify biomarkers that underlie their effects. Here, we investigate the neural mechanisms of lysergic acid
+                      diethylamide (LSD) using regression dynamic causal modelling (rDCM), a novel technique that assesses whole-brain effective
+                      connectivity (EC) during resting-state functional magnetic resonance imaging (fMRI). We modelled data from two randomised,
+                      placebo-controlled, double-blind, cross-over trials, in which 45 participants were administered 100 μg LSD and placebo in two
+                      resting-state fMRI sessions. We compared EC against whole-brain functional connectivity (FC) using classical statistics and machine
+                      learning methods. Multivariate analyses of EC parameters revealed predominantly stronger interregional connectivity and reduced
+                      self-inhibition under LSD compared to placebo, with the notable exception of weakened interregional connectivity and increased
+1234567890();,:
+
+
+
+
+                      self-inhibition in occipital brain regions as well as subcortical regions. Together, these ﬁndings suggests that LSD perturbs the
+                      Excitation/Inhibition balance of the brain. Notably, whole-brain EC did not only provide additional mechanistic insight into the
+                      effects of LSD on the Excitation/Inhibition balance of the brain, but EC also correlated with global subjective effects of LSD and
+                      discriminated experimental conditions in a machine learning-based analysis with high accuracy (91.11%), highlighting the potential
+                      of using whole-brain EC to decode or predict subjective effects of LSD in the future.
+
+                      Neuropsychopharmacology; https://doi.org/10.1038/s41386-023-01574-8
+
+
+
+
+                  INTRODUCTION                                                                               represents the proportion of one signal’s variance, which can be
+                  Psychedelics like psilocybin and lysergic acid diethylamide (LSD)                          explained by another signal, and vice versa. Though much of the
+                  have emerged as promising new treatment candidates for a                                   research investigating FC changes under LSD suggests that FC is a
+                  variety of psychiatric conditions including substance dependence                           promising candidate for a clinically-relevant biomarker [10–18], FC
+                  [1–3], major depression [4], anxiety disorders [5], and adjustment                         can be limited in terms of its interpretability.
+                  disorders [6–8]. Since both LSD and psilocybin primarily act on                               Firstly, FC is an undirected measure of connectivity, because
+                  5-HT2A receptors, an increasing number of clinical trials using                            computation of the correlation coefﬁcient is commutative.
+                  psychedelics have been registered to evaluate their efﬁcacy for                            Secondly, it ignores two important organisational principles of
+                  treatment of depressive disorders and other psychiatric conditions                         the cortex: (1) the asymmetry of connections [21, 22] and (2) the
+                  [9]. Given this clinical potential and growing interest in precision                       presence of gain regulation within a cortical region or ’self-
+                  psychiatry, we sought to examine the neural mechanisms that                                connections’. In contrast to FC, EC rests on a mechanistic model of
+                  underpin whole-brain effects of LSD by employing computational                             how the data were generated [23] and estimates both, asymmetry
+                  modelling and machine learning.                                                            and the gain within a cortical region. Here, we adopt a
+                     Functional connectivity (FC) [10–18] and effective connectivity                         mechanistic perspective and examine LSD-driven changes in
+                  (EC) [19, 20] have already shown promise in providing a                                    directed inﬂuences between nodes, as well as asymmetry and self-
+                  framework for uncovering the neural mechanisms underlying                                  inhibition across the brain.
+                  LSD. Both connectivity measures are widely used, but are                                      In this exploratory analysis, we estimated whole-brain EC using
+                  interpretatively distinct: FC is commonly assessed using Pearson                           regression dynamic causal modelling (rDCM; [24]), a recently
+                  correlation coefﬁcients—a measure of the linear relationship—                              developed variant of dynamic causal modelling (DCM; [25]). rDCM
+                  between the BOLD signal time series of two distinct brain regions.                         allows estimation of whole-brain EC by applying several modiﬁca-
+                  In a general linear model, the squared correlation coefﬁcient                              tions and simpliﬁcations to the original DCM framework by
+
+
+                  1
+                   Krembil Centre for Neuroinformatics, Centre for Addiction and Mental Health (CAMH), Toronto, ON, Canada. 2Centre for Medical Image Computing, Department of Computer
+                  Science, University College London, London, UK. 3Department of Mathematics and Computer Science, University of Basel, Basel, Switzerland. 4Division of Clinical Pharmacology
+                  and Toxicology, Department of Biomedicine and Department of Clinical Research, University Hospital Basel, University of Basel, Basel, Switzerland. 5Department of Psychiatry and
+                  Psychotherapy, Translational Psychiatry, Lübeck, Germany. 6Department of Psychiatry (UPK), University of Basel, Basel, Switzerland. 7Department of Psychiatry, University of
+                  Toronto, Toronto, ON, Canada. 8Institute of Medical Sciences, University of Toronto, Toronto, ON, Canada. 9Department of Psychology, University of Toronto, Toronto, ON, Canada.
+                  10
+                    These authors contributed equally: Peter Bedford, Daniel J. Hauke. 11These authors jointly supervised this work: Felix Müller, Andreea O. Diaconescu. ✉email: d.hauke@ucl.ac.uk
+
+                  Received: 14 November 2022 Revised: 22 March 2023 Accepted: 23 March 2023
+                                                                P. Bedford et al.
+2
+    reformulating a linear DCM in the time domain as a linear Bayesian              the scope of this paper and will be investigated in future studies. Singular
+    regression in the frequency domain [26]. Furthermore, this model                value decomposition (SVD) was applied to the mean-centred matrix of FC,
+    has been recently extended to allow modelling of task-free or                   EC, and self-connections separately. SVD re-expresses this matrix as a set of
+    resting-state magnetic resonance imaging (rs-MRI) data [24, 27],                orthogonal singular vectors or latent variables (LVs), the number of which
+    enabling us to study—for the ﬁrst time—how whole-brain                          is equivalent to the total number of conditions for mean-centred task PLSC
+                                                                                    and one LV for the behavioral PLSC. The LVs can be understood analogous
+    effective connectivity is altered under LSD. Modelling asymmetry                to principal components in principal component analsis and account for
+    of directed inﬂuences and within-region gain can potentially                    the covariance of the original mean-centred matrix in decreasing order of
+    provide additional useful information about the neural mechan-                  magnitude. Statistical signiﬁcance of LVs and reliability of region loadings
+    isms underlying LSD effects.                                                    on the LVs were assessed using permutation tests with 2000 permutations
+       To assess this, we also compared FC and EC in terms of their                 and bootstrapping with 2000 samples, respectively. To account for inter-
+    ability to distinguish LSD from placebo at the individual level. In             individual variability in baseline physiology (Table S2), connectivity
+    future studies, these computationally-informed biomarkers could                 features were ﬁrst explained by baseline heart rate, diastolic and systolic
+    potentially be leveraged to predict the subjective effects of                   blood pressure, and body temperature and PLSC was performed on the
+                                                                                    residuals that could not be explained by physiological effects (Supple-
+    psychedelics.
+                                                                                    ment).
+                                                                                       Machine learning analysis. We trained random forest classiﬁers [35] on
+                                                                                    either whole-brain FC or EC as features to classify conditions (LSD versus
+    MATERIALS AND METHODS                                                           placebo; Supplement, Fig. S1). Feature preprocessing consisted of pruning
+    Participants                                                                    and covariate correction for physiological variables (Supplement) and was
+    Data from two randomised, placebo-controlled, double-blind, cross-over          embedded in a 5-fold cross-validation. We report cross-validated balanced
+    trials were aggregated comprising 20 healthy participants (10 male, 10          accuracy (BAC) to estimate generalisibility of the classiﬁers, which was
+    female; age 32 ± 11 [mean ± SD]; range 25 − 60 years; body weight,              tested against chance performance using permutation tests with 1000
+    68.8 ± 7.7 kg; trial A: NCT02308969 [28, 29]) and 25 healthy participants (12   label permutations. We further compared FC against EC classiﬁers using
+    men, 13 women; age 28 ± 4.3; range 25 − 45 years; body weight,                  McNemar’s tests. Lastly, we report mean decrease in accuracy on permuted
+    70.2 ± 11.2 kg; trial B: NCT03019822 [30]). More details including previous     out-of-bag samples for each connection to measure feature importance.
+    use of hallucinogens and in- and exclusion criteria are provided in the
+    Supplement. Both studies were approved by the Ethics Committee for
+    Northwest/Central Switzerland and by the Federal Ofﬁce of Public Health.        RESULTS
+    All participants provided written consent and received monetary
+    compensation.                                                                   The effect of LSD on functional connectivity
+                                                                                    Mass-univariate tests suggested that about 23% (1993/8646)
+                                                                                    unique correlation coefﬁcients signiﬁcantly differed across LSD
+    Experimental procedure                                                          and placebo conditions (p < 0.05). Among these connections, we
+    Participants were administered 100 μg LSD orally in capsules (trial A) or
+                                                                                    observed mostly stronger FC under LSD (Fig. 1A–C, Fig. S2).
+    vials (trial (B) and identical mannitol and ethanol-ﬁlled placebo capsules/
+    vials in a cross-over design across two separate experimental sessions with
+    a time between sessions of at least 7 days (17 ± 35.3 days [median ± SD],       Partial least squares correlation analysis. PLSC analysis of FC
+    range: 7−182 days). Each session included an assessment of brain activity       showed a signiﬁcant condition effect on the ﬁrst LV (LSD condition
+    during rest using fMRI, which was acquired 140.5 ± 10.9 min [median ± SD]       score:      4.442     [3.785, 5.076],    placebo:      −4.442[−5.076,
+    (range: 121−200 min) after administration of LSD or placebo. (see               −3.785], p < 0.001), but not on the second LV (p = 1.000). LV
+    Supplement for data acquisition parameters and preprocessing proce-             loadings indicated that FC was stronger under LSD compared to
+    dure). Participants were instructed to close their eyes and remain awake        placebo across a large number of regions. The most reliable
+    during the scan. Subjective effects were assessed with the 5 Dimensions of      effects were observed for the following regions connections:
+    Altered States of Consciousness (5D-ASC) scale [31, 32] 11h after drug          bilateral lingual gyrus and bilateral inferior frontal gurys (pars
+    administration. Participants were asked to retrospectively rate the drug
+    effects.                                                                        opercularis), right inferior frontal gyrus and right lingual gyrus, left
+                                                                                    cuneus and right middle frontal gyrus (MFG), and left temporo-
+                                                                                    occipital middle temporal gyrus (MTG) and left intracalcerine
+    Data analysis                                                                   cortex (bootstrap ratios (BSR) > 6.3). Conversely, weaker FC under
+    Functional connectivity. We computed FC using Pearson correlations              LSD was found between several occipital regions, including left
+    between the BOLD signal time series of each pair of the 132 distinct brain
+    regions derived from the Harvard-Oxford atlas, yielding 8648 unique             fusiform gyrus and right inferior lateral occipital cortex (LOC),
+    correlation coefﬁcients. Please, see Table S1 in the Supplement for details     supracalcarine cortex, occipital pole, and between bilateral puta-
+    on software for all subsequent analyses.                                        men and cerebellum (BSR ≤ −5.0; Fig. 2). Behavioural PLSC
+                                                                                    revealed a signiﬁcant correlation between FC measures and
+    Effective connectivity. EC for fully connected whole-brain networks was         subjective effects (r = 0.775 [0.069, 0.858], p = 0.031, Fig. S4B).
+    estimated from the raw time series of all 132 regions of interest (ROIs)        Most reliable, positive loadings were observed for several cortical
+    using rDCM [24, 26, 27] (Supplement).                                           regions including inferior frontal gyrus (pars opercularis) and
+                                                                                    postcentral gyrus (Fig. S4A). Conversely, most reliable negative
+    Statistical analysis. Connectivity changes under LSD were investigated          loadings were observed for connections between occipital and
+    using two complementary approaches: (1) linear multivariate tests and (2)       cerebellar regions (Fig. S4A).
+    machine learning, which allowed us to assess multi-variate, non-linear
+    changes and quantify how well we were able to distinguish LSD from
+    placebo at the single-participant level. This second analysis served as an      Machine learning analysis. The random forest trained on FC as
+    additional test to gauge the potential of using connectivity features to        features (FC model) discriminated between LSD and placebo
+    decode or predict subjective effects in future studies. We supplement           with a BAC of 86% (p < 0.001; Table S3, Figure S3). Feature
+    these results with mass-univariate (paired-sample) t-tests with Benjamini       importance measures suggested that connections involving at
+    and Hochberg [33] correction for multiple testing to control the false          least one occipital region (38 of the top 50 regions ranked by
+    discovery rate (FDR; α < 0.05).                                                 feature importance or at least one prefrontal region (14/50) were
+       Partial least squares correlation analysis. Mean-centred task or beha-       most relevant for this classiﬁcation performance. Of the twelve
+    vioural partial least squares correlation (PLSC) analysis was used to capture   connections that did not involve occipital regions, four connected
+    FC or EC that maximally represented differences between LSD and placebo
+                                                                                    frontal and parietal regions, and the remaining temporal and
+    conditions or that maximally correlated with subjective effects (5D-ASC
+    global score), respectively [34]. A detailed investigation of subjective
+                                                                                    parietal regions (Fig. S2C). The connections remaining in the top
+    effects (including subscales and pleasant vs unpleasant effects) is beyond      10 involved connections between occipital brain regions as well as
+
+
+                                                                                                                                    Neuropsychopharmacology
+                                                                           P. Bedford et al.
+                                                                                                                                                     3
+
+
+
+
+Fig. 1 Connectogram views of differences in functional (FC) and effective connectivity (EC) between LSD and placebo conditions.
+A Across-participant average FC in the LSD condition. B Across-participant average FC in the placebo condition. C Across-participant t-statistic
+values of difference between FC in LSD and placebo conditions. D Feature importance estimates for the FC classiﬁcation model. See ’Statistical
+analysis’ for a detailed deﬁnition of feature importance. E Across-participant average EC in the LSD condition. F Across-participant average EC
+in the placebo condition. G Across-participant t-statistic values of difference between EC in LSD and placebo conditions. H Feature importance
+estimates for the EC classiﬁcation model. Differences in magnitudes of connectivity are indicated in each connectogram by both line width
+and opacity. In (C) (FC) and (G) (EC), orange and blue lines indicate stronger and weaker connectivity, respectively, in connectivity in the LSD
+condition. Note that for (E)–(H), both directional EC values between each pair of regions have been averaged for display. To maintain visibility,
+only the top 250 connections have been displayed. PFr Prefrontal cortex. Fr Frontal cortex. Ins Insular cortex. Tem Temporal cortex. Par Parietal
+cortex. Occ Occipital cortex. SbC Subcortical regions. CeB Cerebellum. Ver Vermis. Bstem Brainstem.
+
+connections from occipital regions to prefrontal and temporal              cortex, intracalcarine cortex, and fusiform gyrus (BSR < − 6.0;
+regions (Fig. S2D).                                                        Fig. 2). Behavioural PLSC revealed a signiﬁcant correlation
+                                                                           between        FC     measures         and      subjective      effects
+The effect of LSD on effective connectivity                                (r = 0.932[0.906, 0.957], p = 0.047, Fig. S4E). Most reliable, positive
+Mass-univariate tests suggested that about 13% (2184/17424)                loadings were observed for connections between several cortical
+effective connections coefﬁcients signiﬁcantly differed across             areas, such as angular gyrus and inferior frontal gyrus (pars
+conditions (p < 0.05). As with LSD-induced changes in FC, we               triangularis) as well as amygdala (Fig. S4D). Conversely, most
+observed mostly stronger EC under LSD (Fig. 1E–G, Fig. S2).                reliable negative loadings were observed for connections between
+However, surprisingly, among the most prominent differences was            occipital and cerebellar regions (Fig. S4D).
+weaker EC between occipital brain regions under LSD. We further
+investigated how LSD impacted thalamic connectivity speciﬁcally.           Machine learning analysis. The random forest trained on EC as
+We found that connectivity from thalamus to other brain areas,             features (EC model) performed with a BAC of 91.1% (p < 0.001;
+but also from other cortical regions to thalamus was stronger              Table S3, Fig. S3). As with the mass-univariate and PLSC analysis,
+(Fig. 3).                                                                  connections involving occipital regions were the most predomi-
+                                                                           nant features driving the classiﬁcation performance (Fig. S2G, H).
+Partial least squares correlation analysis. PLSC analysis of EC            Of the top 50 connections (ranked by feature importance), the
+showed a statistically signiﬁcant condition effect on the ﬁrst LV          majority (39/50) represented connections between pairs of
+(LSD condition score: 0.060 [0.067, 0.052], placebo: −0.060                occipital regions. The highest-ranked connection involving a
+[−0.053, −0.067], p < 0.001), but not on the second LV                     non-occipital region included right dorsolateral PFC to right
+(p = 1.000). Similar to the PLSC results based on FC data, we              lingual gyrus and left dorsolateral PFC to left cerebellum. This
+found that EC was primarily stronger under LSD. Reliable loadings          ﬁnding suggests that these connections were not only signiﬁ-
+were observed for connections between occipital and prefrontal             cantly different under LSD (Fig. 1G), but also contributed
+regions, including inferior frontal gyrus (pars opercularis) and           substantially to highly-accurate individual-level discrimination
+bilateral lingual gyrus, anterior cingulate cortex and right occipital     performance.
+pole, anterior cingulate cortex and right fusiform gyrus, left
+cuneus and right MFG, left intracalcarine cortex and left MTG, right       Comparing functional vs effective connectivity changes under
+lingual gyrus, and superior frontal gyrus, anterior cingulate cortex       LSD
+and right intracalcalcarine cortex, and right precentral gryus and         The effect of LSD on inhibitory self-connections. As pointed out in
+left superior LOC (BSR > 5.5). The reverse pattern showing weaker          the Introduction, an advantage of using EC over FC is that
+EC under LSD was observed exclusively between several occipital            rDCM allows estimation of inhibitory self-connections (see
+regions, including the occipital pole, lingual gyrus, supracalacarine      Supplement). These all-negative values can be interpreted as
+
+
+Neuropsychopharmacology
+                                                          P. Bedford et al.
+4
+
+
+
+
+    Fig. 2 Graphical and anatomical visualisations of partial least squares (PLS) correlation analysis results. A Bootstrap ratios (BSRs) of whole-
+    brain EC reﬂecting condition differences. BSRs are the ratios of the loadings on the latent variable and the standard errors estimated from
+    bootstrapping. The larger the magnitude of a BSR, the larger the weight (i.e., the loading on the latent variable) and the smaller the standard
+    error (i.e., higher stability; [55, 56]). BSRs can be understood analogous to z-scores if bootstrap distributions are approximately normal [57].
+    B Leading Eigenvector reﬂecting condition differences in whole-brain EC across brain regions. C Brain region saliences reﬂecting condition
+    differences across self-connections. D Brain region BSRs reﬂecting condition differences across self-connections. For (A)-(D): Orange and blue
+    areas indicate stronger and weaker connectivity respectively, respectively, under LSD compared to placebo. PFr: Prefrontal cortex. Fr: Frontal
+    cortex. Ins: Insular cortex. Tem: Temporal cortex. Par: Parietal cortex. Occ: Occipital cortex. SbC: Subcortical regions. CeB: Cerebellum. Ver:
+    Vermis. Bstem: Brainstem.
+
+    ‘decay-rate’ coefﬁcients (in view of the DCM state equation)              largest disinhibition under LSD was noted in the cerebellum,
+    since they capture the tendency of different regions to return to         bilateral pallidum, parahippocampal gyri, and inferior temporal
+    baseline, rather than increasing activity indeﬁnitely. Also note          gyrus (Fig. 2D).
+    that these values reﬂect local as opposed to global (inter-                  Note that all self-connections are negative. Disinhibition in
+    regional) dynamics.                                                       any individual brain area suggests that this area becomes less
+       Mass-univariate tests suggested that about 30% (39/132)                stable under LSD from a dynamic system viewpoint, since the
+    inhibitory self-connections signiﬁcantly differed across condi-           system moves closer to a critical point as self-connections
+    tions (p < 0.05). Occipital regions once again displayed the              approach zero.
+    greatest effects showing more negative local connectivity under              Machine learning analysis Restricting the feature rankings of
+    LSD (Fig. 4, Fig. S2).                                                    the EC model (see ‘Machine learning analysis’) to self-connec-
+       Partial least squares correlation analysis. LSC analysis per-          tions, we found again that many of the most important
+    formed on self-con-nections showed a signiﬁcant condition                 connections were occipital. Among the top 10 self-connections
+    effect on the ﬁrst LV (LSD condition score: 0.0004 [0.00003,              ranked by feature importance were two non-occipital connec-
+    0.00005], placebo: −0.0004 [−0.0005, −0.0003], p < 0.001), but            tions, namely Vermis 8 and right Cerebellum 8 (Fig. 4).
+    not on the second LV (p = 1.000). Self-connections were more
+    inhibitory (i.e., became more negative) under LSD primarily in            Asymmetry in directed connectivity. Recall that while FC provides
+    occipital, parietal, and prefrontal regions (Fig. 2C4). Stronger self-    a measure of the correlation between the activities of each pair of
+    inhibition under LSD occurred in the bilateral lingual gyri,              brain regions, EC provides an estimate of directed effects between
+    intracalcarine cortex, fusiform gyri, occipital pole, cuneus,             pairs of regions, which may be asymmetrical. We tested for the
+    posterior supramarginal gyrus and supracalcarine cortex                   presence of asymmetry (by mass-univariate comparison) in each
+    (Fig. 2D). Conversely, disinhibition under LSD was observed in            condition (LSD and placebo), and tested whether asymmetry was
+    temporal, subcortical and brainstem regions (Fig. 2D). The                affected by LSD (drug-by-asymmetry interaction). The number of
+
+
+                                                                                                                          Neuropsychopharmacology
+                                                                         P. Bedford et al.
+                                                                                                                                                  5
+
+
+
+
+Fig. 3 Connectogram views of thalamic effective connectivity (EC). Across-participant t-statistic values of the difference between LSD and
+placebo conditions in outgoing (A) or incoming (B) thalamic connections (thresholded at p < 0.05, whole-brain FDR-corrected). Differences in
+magnitudes of connectivity are indicated by both line width and opacity. Orange lines indicate stronger connectivity under LSD. Please, see
+Supplement for region abbreviation key.
+
+
+
+
+Fig. 4 Effect of LSD on inhibitory self-connections. A t-statistic of the difference between LSD and placebo conditions in self-connections.
+B Top 10 self-connections ranked by t-statistic of the difference between LSD and placebo conditions. C Anatomical colourmap of t-statistic of
+the difference between LSD and placebo conditions in self-connections. D Estimates of feature importance of self-connections in EC
+classiﬁcation model. E Top 10 self-connections by feature importance in the EC classiﬁcation model. F Anatomical colourmap displaying
+feature importance of self-connections in the EC classiﬁcation model. For (A), (C): Orange and blue areas indicate stronger and weaker
+connectivity under LSD, respectively. For (B), errorbars represent the across-participant standard deviation of the differences in connectivity
+between conditions. In (B) and (E), abbreviations indicate the ROIs forming each connection. For (E), errorbars represent the across-fold
+standard deviation of the feature importance estimates. PFr Prefrontal cortex, Fr Frontal cortex, Ins Insular cortex, Tem Temporal cortex, Par
+Parietal cortex, Occ Occipital cortex, SbC Subcortical regions, CeB Cerebellum, Ver Vermis, Bstem Brainstem.
+
+forward-backward pairs of endogenous connectivity coefﬁcients            Comparing functional and effective connectivity classiﬁers. Lastly,
+that were signiﬁcantly different (p < 0.05) was 868 out of 8648          we compared the performances of classiﬁers trained on either FC
+(10%) under LSD, 1202 (14%) in the placebo condition, and 120            or EC to test whether modelling additional physiological details
+(1.4%) for the drug-by-asymmetry interaction (Fig. 5).                   (i.e., self-inhibition and asymmetry) translated into a better
+
+
+Neuropsychopharmacology
+                                                          P. Bedford et al.
+6
+
+
+
+
+    Fig. 5 Connectogram views of asymmetries in effective connectivity (EC). A Across-participant t-statistic of the difference in EC between the
+    two directions of inﬂuence between each pair of regions, for the LSD condition. B Across-participant t-statistic of the difference in EC between
+    the two directions of inﬂuence between each pair of regions, for the placebo condition. C Across-participant t-statistic of the difference in EC
+    between the two directions of inﬂuence between each pair of regions, and between the LSD and placebo conditions. Differences in
+    magnitudes of connectivity and connectivity changes are indicated in each connectogram by both line width and opacity. To maintain
+    visibility, only the top 250 connections have been displayed. PFr Prefrontal cortex, Fr Frontal cortex, Ins Insular cortex, Tem Temporal cortex,
+    Par Parietal cortex, Occ Occipital cortex, SbC Subcortical regions, CeB Cerebellum, Ver Vermis, Bstem Brainstem.
+
+    classiﬁcation performance of drug condition. While BACs differed             Comparing all connections, we found that FC and EC measures
+    numerically between the FC and EC classiﬁcation models (86% vs            were broadly in agreement with one another as both indicated
+    91% BAC), a McNemar’s test comparing the models’ performances             generally stronger connectivity under LSD, with some notably
+    suggested that these differences were not signiﬁcantly different          weaker connectivity between bilateral occipital areas, though this
+    (p > 0.074), indicating that both FC and EC may be promising              effect was more pronounced in the EC measure. Feature
+    biomarkers for individual-level predictions.                              importance also suggested that the EC classiﬁcation relied more
+                                                                              heavily on the bilateral occipital connections than the FC
+                                                                              classiﬁcation, wherein connections involving more varied areas
+    DISCUSSION                                                                were represented among the highlighted ‘important` features
+    The goal of this study was to investigate the effects of LSD on           (Figure S2).
+    whole-brain EC and gauge its potential as a biomarker to decode
+    or predict subjective effects in the future. To this end, we studied      Comparison with other studies investigating directed
+    LSD-induced effects on whole-brain EC through multivariate, and           connectivity
+    machine-learning analyses and compared EC to FC. Multivariate             Unlike another study that investigated directed connectivity using
+    PLSC analyses revealed stronger EC between parietal, temporal             Granger causality based on magnetoencephalography (MEG)
+    and inferior frontal regions under LSD, but weaker EC between             recordings [16], we found predominantly stronger EC mirroring
+    regions in occipital cortices. When comparing FC to EC, we found          stronger FC patterns across the brain with the exception of the
+    notable changes in self-inhibition in around 30% of the brain             aforementioned occipital connections. This difference may be
+    regions under LSD, indicating that LSD may perturb the excitation/        explained by the different methods used (Granger causality
+    inhibition (E/I) balance of the brain. Moreover, our results suggest      measuring directed FC vs rDCM measuring EC) or the measure-
+    that—while EC was asymmetric (10–14% of connections)—                     ment modalities and resulting differences in temporal resolution
+    asymmetry was largely unaffected by LSD (1.4% of connections).            (MEG vs fMRI).
+    Lastly, our behavioural PLS and machine learning analyses showed             Moreover, [20] investigated EC in cortico-striato-thalamo-
+    that both FC and EC constitute promising biomarkers for future            cortical feedback loops in a sparse network to test the thalamic
+    individual-level predictions of subjective effects. These analyses        gating hypothesis using spectral DCM. Their chosen network
+    revealed that changes in FC and EC between several regions                consisted of the thalamus, ventral striatum (VS), posterior
+    including angular gyrus and inferior frontal gyrus as well as             cingulate cortex (pCC), and temporal cortex. The authors reported
+    connections between occipital and cerebellar regions correlated           stronger 5-HT2A-receptor-dependent thalamus → pCC connectiv-
+    with global subjective effects of LSD and classiﬁers trained on           ity and weaker 5-HT2A-receptor-independent VS → thalamus con-
+    either FC or EC could discriminate between LSD and placebo with           nectivity under LSD. In line with their results, we also found
+    high accuracy of 86% and 91%, respectively.                               stronger thalamus → pCC connectivity under LSD, while weaker
+                                                                              VS → thalamus connectivity was not reproduced in our study. In
+    Face validity of whole-brain effective connectivity                       our data, the right accumbens → right thalamus connection was
+    To assess the face validity of EC measures, we compared thalamic          stronger under LSD. However, weaker VS → thalamus was
+    connections and found that the effects (sign and signiﬁcance)             independent of 5-HT2A-receptor antagonist Ketanserin adminis-
+    were consistent across FC and EC, although a recent study argued          tration in [20], while stronger thalamus → pCC connectivity was
+    that this does not necessarily need to be the case [16]. Indeed,          observed when the 5-HT2A was not blocked—perhaps pointing to
+    changes in thalamic connectivity across conditions were also in           differing mechanisms of action.
+    perfect agreement with those of a previous FC analysis based on a
+    subset of participants [14]. Together with the highly accurate            Implications for the thalamic gating hypothesis and brain
+    classiﬁcation performance, these ﬁndings reassured us that EC             entropy accounts
+    estimates appeared to show face validity, i.e. EC estimates were          Our results are in line with the thalamic gating hypothesis, which
+    consistent with previous results and affected by LSD.                     postulates that psychedelics may temporally reduce thalamic
+
+
+                                                                                                                          Neuropsychopharmacology
+                                                                        P. Bedford et al.
+                                                                                                                                                               7
+gating leading to excessive information ﬂow from thalamus to            exclude that participants fell asleep during placebo scans. Further
+cortical regions [36]. As previous analyses investigating FC [10, 14]   limitations are the single post-drug scan design and the small
+and EC [20] changes under LSD, we found stronger connectivity           sample size.
+from thalamus to a widespread network of cortical regions Fig. 3.          Moreover, LSD is known to affect heart rate, blood pressure and
+Interestingly, connectivity from cortex to thalamus was also            body temperature [52, 53]. Here, we controlled for physiological
+stronger under LSD, which possibly suggests the presence of             effects using baseline measures. Nonetheless, these effects are
+positive feedback loops between thalamus and cortex.                    likely still impacting connectivity estimates and may partially
+   Brain entropy accounts of psychedelics propose that altered          account for the effects. Future studies should include concurrent
+states of consciousness observed following administration of            physiological measurements during MRI acquisition to allow for
+psychedelics result from increased entropy in the brain [37–39].        more detailed physiological noise modelling (e.g., see [54]).
+Even though testing these accounts was not the goal of this study,         Due to the salient subjective effects of LSD, blinding is
+we note that overall our results are in agreement with this             inherently difﬁcult. Thus, knowledge about the condition could
+proposal. Speciﬁcally, we found changes in self-connections or          have impacted neural effects and future studies should include
+within-region dynamics suggesting widespread disinhibition              active control conditions. Although do note that one of the studies
+across most of the cortex. From a dynamic system perspective,           included an active control [30], rendering it less likely that
+this disinhibtion renders the system more unstable since it             participants correctly identiﬁed the condition in part of the data. A
+approaches a critical point as self-connection values approach          limitation of the behavioural PLSC analysis is that subjective
+zero. However, it is worth noting that we found the opposite            effects were rated retrospectively and not restricted to the time
+pattern in occipital regions, where local inhibition increased under    window of the fMRI measurements.
+LSD rendering dynamics in these areas more stable. While our               Finally, while classiﬁcation performances in this study were
+results are generally in line with the proposal that psychedelics       promising, they should be taken as preliminary until replicated in
+like LSD increase brain entropy (on average), this whole-brain          an external sample.
+analysis revealed that a more ﬁne-grained assessment of entropy
+across different regions may be warranted in future studies to          Future directions
+reﬁne these accounts.                                                   Our results suggest that local gain is changed under LSD
+   It is interesting to note that connections between occipital         implicating disturbances of the E/I balance as a neural mechanism
+regions appear to dominate EC under placebo (Fig. 1F), whereas          underlying LSD effects. Because rDCM summarises region-speciﬁc
+the difference between visual and other regions is reduced under        E/I balance by a single parameter per region, we cannot determine
+LSD (Fig. 1E). This result aligns with a recent study [40], which       whether excitation, inhibition, or both are impacted. Future studies
+showed that the principal gradient of cortical connectivity ﬂattens     should employ more detailed models that allow to pinpoint these
+under LSD. Our results support the authors’ interpretation of a         changes and compare them empirically to other conditions in
+decrease in functional differentiation between sensory and              which the E/I balance is affected, for example psychosis [49, 50].
+abstract cognitive processing under LSD.                                   Furthermore, our results suggest that visual regions may be
+                                                                        impacted quite differently both in terms of between-region
+Does LSD perturb the excitation/inhibition (E/I) balance?               connectivity as well as in terms of local gain compared to the
+Recent studies have begun to investigate the impact of                  rest of the cortex warranting further investigation. The physiolo-
+psychedelics on glutamate-mediated excitation of the cortex. At         gical basis of these changes and the relationship with subjective
+least two different pathways for glutamatergic effects have been        effects—visual hallucinations in particular—should be examined
+proposed: (1) Agonism at 5-HT2A receptors on pyramidal cells may        in future studies. A comparison of eyes-open vs eyes-closed
+lead to increased glutamate release [41, 42] and (2) agonism at         resting states would be valuable to determine whether the EC
+postsynaptic, inhibitory 5-HT1A receptors may result in reduced         changes observed here are a reﬂection of eyes-open-like
+excitation in certain regions, for example in hippocampus [43, 44].     behaviour of the visual system.
+While we cannot directly speak to these pathways, widespread               Finally, we found that both whole-brain FC and EC were equally
+increases in self-connections or local disinhibition as identiﬁed in    capable of discriminating between LSD and placebo with high
+this study may relate to 5-HT2A-mediated glutamate release.             accuracy suggesting that both are promising candidates for more
+Conversely, increased inhibition could be mediated via the 5-HT1A       challenging prediction targets. More research is needed to assess
+pathway, although this receptor is not strongly expressed in            whether machine learning models trained on either FC and EC
+occipital regions [45]. Rather, 5-HT1B expression is increased in       estimates are able to predict subjective effects of LSD at an
+these regions [45] and may be a candidate mechanism requiring           individual level or from baseline EC measured before LSD intake.
+further investigation.
+   Our results along with preclinical studies [42, 46, 47] and recent   Conclusions
+magnetic resonance spectroscopy results [44] suggest that LSD           To the best of our knowledge, this is the ﬁrst study to examine the
+may perturb the E/I balance of the brain. This is especially relevant   impact of LSD on whole-brain EC. We found that compared to
+because disturbances in the E/I balance have been discussed in          placebo, LSD impacted local gain and was associated with
+the context of psychosis [48, 49] and more recently in the context      primarily stronger FC and EC with the notable exception of
+of psychedelic-induced hallucinations and synaesthesia [50].            connections involving occipital and subcortical regions. Moreover,
+Comparing LSD-induced changes in E/I balance to other                   EC correlated with global subjective effects and discriminated
+psychedelics and those associated with clinical psychosis will be       experimental conditions with high accuracy (91.11%) highlighting
+an interesting avenue for future research.                              that EC preserved classiﬁcation accuracy while providing addi-
+                                                                        tional mechanistic information pointing towards LSD-induced
+Limitations                                                             disturbances of the E/I balance. This result suggests that EC is a
+A few limitations of this study merit attention. Despite a washout      promising candidate biomarker to decode or predict subjective
+period of at least two weeks, we cannot fully exclude carry-over        effects of LSD in the future.
+effects due to potential long-term effects of psychedelics [51]. An
+additional limitation in this context is the variable time between
+placebo and LSD sessions, which was owed to constraints in              REFERENCES
+scheduling participants, since the study required participants to        1. Rucker JJ, Iliff J, Nutt DJ. Psychiatry & the psychedelic drugs. past, present &
+spend 24h under supervision on each study day. We also cannot               future. Neuropharmacology. 2018;142:200–18.
+
+
+Neuropsychopharmacology
+                                                                        P. Bedford et al.
+8
+     2. Krebs TS, Johansen P-Ø. Lysergic acid diethylamide (LSD) for alcoholism:               32. Studerus E, Gamma A, Vollenweider FX. Psychometric evaluation of the altered
+        meta-analysis of randomized controlled trials. J Psychopharmacol.                          states of consciousness rating scale (OAV). PloS One. 2010;5:e12412.
+        2012;26:994–1002.                                                                      33. Benjamini Y, Hochberg Y. Controlling the false discovery rate: a practical and
+     3. Bogenschutz MP, et al. Percentage of heavy drinking days following                         powerful approach to multiple testing. J R Stat Soc, Ser B (Method).
+        psilocybin-assisted psychotherapy vs placebo in the treatment of adult patients            1995;57:289–300.
+        with alcohol use disorder: a randomized clinical trial. JAMA Psychiatry.               34. Krishnan A, Williams LJ, McIntosh AR, Abdi H. Partial Least Squares (PLS) methods
+        2022;79:953–62.                                                                            for neuroimaging: a tutorial and review. NeuroImage. 2011;56:455–75.
+     4. Goodwin GM, et al. Single-dose psilocybin for a treatment-resistant episode of         35. Breiman L. Random forests. Mach Learn. 2001;45:5–32.
+        major depression. N Engl J Med. 2022;387:1637–48.                                      36. Vollenweider FX, Geyer MA. A systems model of altered consciousness:
+     5. Holze F, Gasser P, Müller F, Dolder PC, Liechti ME. Lysergic acid diethylamide-            integrating natural and drug-induced psychoses. Brain Research Bulletin.
+        assisted therapy in patients with anxiety with and without a life-threatening              2001;56:495–507.
+        illness a randomized, double-blind, placebo-controlled Phase II study. Biol Psy-       37. Carhart-Harris R. L. et al. The entropic brain: a theory of conscious states
+        chiatry. 2022;95:215–23.                                                                   informed by neuroimaging research with psychedelic drugs. Front Hum Neurosci.
+     6. Grifﬁths RR, et al. Psilocybin produces substantial and sustained decreases in             2014;8.
+        depression and anxiety in patients with life-threatening cancer: a randomized          38. Carhart-Harris RL. The entropic brain-revisited. Neuropharmacology. 2018;142:167–78.
+        double-blind trial. J Psychopharmacol. 2016;30:1181–97.                                39. Carhart-Harris RL, Friston KJ. Rebus and the anarchic brain: toward a uniﬁed
+     7. Ross S, et al. Rapid and sustained symptom reduction following psilocybin                  model of the brain action of psychedelics. Pharmacol Rev. 2019;71:316–44.
+        treatment for anxiety and depression in patients with life-threatening cancer: a       40. Girn M. et al. Serotonergic psychedelic drugs LSD and psilocybin reduce the
+        randomized controlled trial. J Psychopharmacol. 2016;30:1165–80.                           hierarchical differentiation of unimodal and transmodal cortex. NeuroImage.
+     8. Gasser P, Kirchner K, Passie T. LSD-assisted psychotherapy for anxiety associated          2022;256:119220.
+        with a life-threatening disease: a qualitative study of acute and sustained sub-       41. Nichols DE. Psychedelics. Pharmacol Rev. 2016;68:264–355.
+        jective effects. J Psychopharmacol. 2015;29:57–68.                                     42. Aghajanian GK, Marek GJ. Serotonin, via 5-HT2A receptors, increases EPSCs in
+     9. Nutt D, Carhart-Harris R. The current status of psychedelics in psychiatry. JAMA           layer V pyramidal cells of prefrontal cortex by an asynchronous mode of gluta-
+        Psychiatry. 2021;78:121–2.                                                                 mate release. Brain Res. 1999;825:161–71.
+    10. Tagliazucchi E, et al. Increased global functional connectivity correlates with LSD-   43. Lewis CR, et al. Two dose investigation of the 5-HT-agonist psilocybin on relative
+        induced ego dissolution. Curr Biol. 2016;26:1043–50.                                       and global cerebral blood ﬂow. NeuroImage. 2017;159:70–8.
+    11. Roseman L, et al. LSD alters eyes-closed functional connectivity within the early      44. Mason N, et al. Me, myself, bye: regional alterations in glutamate and the
+        visual cortex in a retinotopic fashion. Hum Brain Mapp. 2016;37:3031–40.                   experience of ego dissolution with psilocybin. Neuropsychopharmacology.
+    12. Kaelen M, et al. LSD modulates music-induced imagery via changes in para-                  2020;45:2003–11.
+        hippocampal connectivity. Eur Neuropsychopharmacol: J Eur Coll Neuropsycho-            45. Beliveau V, et al. A high-resolution in vivo atlas of the human brain’s serotonin
+        pharmacol. 2016;26:1099–109.                                                               system. J Neurosci. 2017;37:120–8.
+    13. Carhart-Harris RL, et al. Neural correlates of the LSD experience revealed by          46. Scruggs JL, Patel S, Bubser M, Deutch AY. DOI-induced activation of the cortex:
+        multimodal neuroimaging. Proc Natl Acad Sci USA. 2016;113:4853–8.                          dependence on 5-HT2A heteroceptors on thalamocortical glutamatergic neu-
+    14. Müller F, et al. Increased thalamic resting-state connectivity as a core driver of         rons. J Neurosci. 2000;20:8846–52.
+        LSD-induced hallucinations. Acta Psychiatr Scand. 2017;136:648–57.                     47. Scruggs JL, Schmidt D, Deutch AY. The hallucinogen 1-[2, 5-dimethoxy-4-iodo-
+    15. Preller K. et al. Changes in global and thalamic brain connectivity in LSD-induced         phenyl]-2-aminopropane (DOI) increases cortical extracellular glutamate levels in
+        altered states of consciousness are attributable to the 5-HT2A receptor. eLife.            rats. Neurosci Lett. 2003;346:137–40.
+        2018;7:e35082.                                                                         48. Jardri R, Deneve S. Circular inferences in schizophrenia. Brain. 2013;136:3227–41.
+    16. Barnett L., Muthukumaraswamy S. D., Carhart-Harris R. L. & Seth A. K.                  49. Jardri R, Duverne S, Litvinova AS, Denève S. Experimental evidence for circular
+        Decreased directed functional connectivity in the psychedelic state. NeuroImage.           inference in schizophrenia. Nat Commun. 2017;8:1–13.
+        2020;209.                                                                              50. Leptourgos P., Bouttier V., Denève S. & Jardri R. From hallucinations to synaes-
+    17. Bershad AK, et al. Preliminary report on the effects of a low dose of LSD on               thesia: a circular inference account of unimodal and multimodal erroneous
+        resting-state amygdala functional connectivity. Cognitive Neurosci Neuroima-               percepts in clinical and drug-induced psychosis. Neurosci Biobehav Rev.
+        ging. 2020;5:461–7.                                                                        2022;104593.
+    18. Luppi A. I. et al. LSD alters dynamic integration and segregation in the human         51. McCulloch DE-W, et al. Psychedelic resting-state neuroimaging: a review and
+        brain. NeuroImage. 2021;227:17653.                                                         perspective on balancing replication and novel analyses. Neurosci Biobehav Rev.
+    19. Timmermann C, et al. LSD modulates effective connectivity and neural adapta-               2022;138:104689.
+        tion mechanisms in an auditory oddball paradigm. Neuropharmacology.                    52. Schmid Y, et al. Acute effects of lysergic acid diethylamide in healthy subjects.
+        2018;142:251–62.                                                                           Biol Psychiatry. 2015;78:544–53.
+    20. Preller K, et al. Effective connectivity changes in LSD-induced altered states of      53. Dolder PC, Liechti ME, Rentsch KM. Development and validation of an LC-MS/MS
+        consciousness in humans. Proc Natl Acad Sci USA. 2019;116:2743–8.                          method to quantify lysergic acid diethylamide (LSD), iso-LSD, 2-oxo-3-hydroxy-
+    21. Felleman DJ, Van Essen DC. Distributed hierarchical processing in the primate              LSD, and nor-LSD and identify novel metabolites in plasma samples in a con-
+        cerebral cortex. Cerebral Cortex. 1991;1:1–47.                                             trolled clinical trial. J Clin Lab Aanal. 2018;32:e22265.
+    22. Markov NT, et al. A weighted and directed interareal connectivity matrix for           54. Kasper L, et al. The PhysIO toolbox for modeling physiological noise in fMRI data.
+        macaque cerebral cortex. Cerebral Cortex. 2014;24:17–36.                                   J Neurosci Methods. 2017;276:56–72.
+    23. Friston K. Functional and effective connectivity in neuroimaging: a synthesis.         55. McIntosh A, Lobaugh N. Partial least squares analysis of neuroimaging data:
+        Hum Brain Mapp. 1994;2:56–78.                                                              applications and advances. NeuroImage. 2004;23:S250–63.
+    24. Frässle S, et al. Regression DCM for fMRI. NeuroImage. 2017;155:406–21.                56. Mišić B, et al. Network-level structure-function relationships in human neocortex.
+    25. Friston KJ, Harrison L, Penny W. Dynamic causal modelling. NeuroImage.                     Cerebral Cortex. 2016;26:3285–96.
+        2003;19:1273–302.                                                                      57. Efron B. & Tibshirani R. Bootstrap methods for standard errors, conﬁdence
+    26. Frässle S. et al. A generative model of whole-brain effective connectivity. Neu-           intervals, and other measures of statistical accuracy. Stat Sci. 1986;1:54–75.
+        roImage. 2018;179:505–29.
+    27. Frässle S, et al. Regression dynamic causal modeling for resting-state fMRI.
+        Human Brain Mapping. 2021;42:2159–80.
+    28. Dolder PC, Schmid Y, Müller F, Borgwardt S, Liechti ME. LSD acutely impairs fear
+                                                                                               AUTHOR CONTRIBUTIONS
+        recognition and enhances emotional empathy and sociality. Neuropsycho-
+                                                                                               FM had full access to all of the data in the study and takes responsibility for the
+        pharmacology. 2016;41:2638–46.
+                                                                                               integrity of the data and the accuracy of the data analysis. All authors contributed
+    29. Müller F, Dolder PC, Schmidt A, Liechti ME, Borgwardt S. Altered network hub
+                                                                                               substantially to this work as outlined below: Concept and design: SB, DJH, MEL,
+        connectivity after acute LSD administration. NeuroImage Clinical.
+                                                                                               FM. Acquisition, analysis, or interpretation of data: All authors. Drafting of the
+        2018;18:694–701.
+                                                                                               manuscript: PB, DJH. Critical revision of the manuscript for important intellectual
+    30. Holze F, et al. Distinct acute effects of LSD, MDMA and D-amphetamine in healthy
+                                                                                               content: All authors. Obtained funding for the original studies: SB, MEL.
+        subjects. Neuropsychopharmacology. 2020;45:462–71.
+                                                                                               Administrative, technical, or material support: SB, AOD, MEL, FM, VR, ZW.
+    31. Dittrich A. The standardized psychometric assessment of altered states of con-
+                                                                                               Supervision: SB, AOD, MEL, FM, VR.
+        sciousness (ASCs) in humans. Pharmacopsychiatry. 1998;31:80–4.
+
+
+
+
+                                                                                                                                                      Neuropsychopharmacology
+                                                                                         P. Bedford et al.
+                                                                                                                                                                                       9
+FUNDING                                                                                  Reprints and permission information is available at http://www.nature.com/
+We are grateful for support from the Swiss National Science Foundation (trial A: SNF     reprints
+project grant, 320030_1449493 to MEL, trial B: SNF project grant, 320030_170249 to
+SB and MEL, Doc.Mobility, P1BSP3_200054 to DJH, Ambizione, PZ00P3_167952 to              Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims
+AOD) and the Krembil Foundation (to AOD).                                                in published maps and institutional afﬁliations.
+
+
+
+COMPETING INTERESTS
+ML is a consultant for Mind Medicine, Inc. The other authors report no ﬁnancial
+interests or potential conﬂicts of interest. Knowhow and data associated with this                          Open Access This article is licensed under a Creative Commons
+work and owned by the University Hospital Basel were licensed by Mind Medicine,                             Attribution 4.0 International License, which permits use, sharing,
+Inc. Mind Medicine, Inc., had no role in ﬁnancing, planning, or conducting the present   adaptation, distribution and reproduction in any medium or format, as long as you give
+study or the present publication. While Mindmed, Inc., has a collaboration with the      appropriate credit to the original author(s) and the source, provide a link to the Creative
+University Hospital including a licence for using clinical data exclusively for          Commons license, and indicate if changes were made. The images or other third party
+medication development and regulatory purposes, none of the present data or              material in this article are included in the article’s Creative Commons license, unless
+other fMRI data has been shared with Mindmed, Inc.                                       indicated otherwise in a credit line to the material. If material is not included in the
+                                                                                         article’s Creative Commons license and your intended use is not permitted by statutory
+                                                                                         regulation or exceeds the permitted use, you will need to obtain permission directly
+                                                                                         from the copyright holder. To view a copy of this license, visit http://
+ADDITIONAL INFORMATION
+                                                                                         creativecommons.org/licenses/by/4.0/.
+Supplementary information The online version contains supplementary material
+available at https://doi.org/10.1038/s41386-023-01574-8.
+                                                                                         © The Author(s) 2023
+Correspondence and requests for materials should be addressed to Daniel J. Hauke.
+
+
+
+
+Neuropsychopharmacology
+

@@ -1,0 +1,9 @@
+per-node omega std (Hz-units): 2.62
+K=1.0 L=4.0 sigma=0.2: order=0.262 dfa_med=0.779 frac065=0.798 ord~str=+0.306 dfa~str=-0.073 plv~W=+0.022 cc~W=+0.046
+K=2.0 L=4.0 sigma=0.2: order=0.428 dfa_med=0.739 frac065=0.691 ord~str=+0.244 dfa~str=-0.123 plv~W=+0.083 cc~W=+0.029
+K=3.0 L=4.0 sigma=0.2: order=0.553 dfa_med=0.734 frac065=0.585 ord~str=+0.207 dfa~str=+0.040 plv~W=+0.043 cc~W=+0.013
+K=3.0 L=8.0 sigma=0.2: order=0.642 dfa_med=0.732 frac065=0.670 ord~str=+0.364 dfa~str=-0.023 plv~W=+0.057 cc~W=-0.003
+K=5.0 L=8.0 sigma=0.2: order=0.763 dfa_med=0.673 frac065=0.564 ord~str=+0.259 dfa~str=-0.058 plv~W=+0.001 cc~W=-0.008
+K=6.0 L=8.0 sigma=0.2: order=0.803 dfa_med=0.681 frac065=0.596 ord~str=+0.212 dfa~str=-0.053 plv~W=+0.131 cc~W=-0.015
+K=7.0 L=8.0 sigma=0.2: order=0.833 dfa_med=0.669 frac065=0.553 ord~str=+0.194 dfa~str=-0.121 plv~W=+0.112 cc~W=+0.009
+K=8.0 L=8.0 sigma=0.2: order=0.866 dfa_med=0.649 frac065=0.500 ord~str=+0.175 dfa~str=-0.083 plv~W=+0.175 cc~W=+0.021

@@ -1,0 +1,332 @@
+     1→Biological
+     2→Psychiatry:
+     3→CNNI                Archival Report
+     4→
+     5→              Effective Connectivity of Thalamocortical
+     6→              Interactions Following d-Amphetamine, LSD, and
+     7→              MDMA Administration
+     8→              Mihai Avram, Felix Müller, Katrin H. Preller, Adeel Razi, Helena Rogg, Alexandra Korda,
+     9→              Friederike Holze, Patrick Vizeli, Laura Ley, Matthias E. Liechti, and Stefan Borgwardt
+    10→
+    11→
+    12→                 ABSTRACT
+    13→                 BACKGROUND: While the exploration of serotonergic psychedelics as psychiatric medicines deepens, so does the
+    14→                 pressure to better understand how these compounds act on the brain.
+    15→                 METHODS: We used a double-blind, placebo-controlled, crossover design and administered lysergic acid
+    16→                 diethylamide (LSD), 3,4-methylenedioxymethamphetamine (MDMA), and d-amphetamine in 25 healthy participants.
+    17→                 By using spectral dynamic causal modeling, we mapped substance-induced changes in effective connectivity
+    18→                 between the thalamus and different cortex types (unimodal vs. transmodal) derived from a previous study with
+    19→                 resting-state functional magnetic resonance imaging data. Due to the distinct pharmacological modes of action of
+    20→                 the 3 substances, we were able to investigate speciﬁc effects mainly driven by different neurotransmitter systems
+    21→                 on thalamocortical and corticothalamic interactions.
+    22→                 RESULTS: Compared with placebo, all 3 substances increased the effective connectivity from the thalamus to
+    23→                 speciﬁc unimodal cortices, whereas the inﬂuence of these cortices on the thalamus was reduced. These results
+    24→                 indicate increased bottom-up and decreased top-down information ﬂow between the thalamus and some unimodal
+    25→                 cortices. However, for the amphetamines, we found the opposite effects when examining the effective connectivity
+    26→                 with transmodal cortices, including parts of the salience network. Intriguingly, LSD increased the effective
+    27→                 connectivity from the thalamus to both unimodal and transmodal cortices, indicating a breach in the hierarchical
+    28→                 organization of ongoing brain activity.
+    29→                 CONCLUSIONS: The results advance our knowledge about the action of psychedelics on the brain and reﬁne current
+    30→                 models aiming to explain the underlying neurobiological processes.
+    31→                 https://doi.org/10.1016/j.bpsc.2023.07.010
+    32→
+    33→
+    34→
+    35→              The renewed interest in psychedelics builds on the apparent                and serotonin (9,10). In this framework, thalamocortical pro-
+    36→              efﬁcacy that these compounds have in relieving symptoms of                 jections represent the last part of the circuit, which provides
+    37→              distinct psychiatric disorders, including depression, anxiety,             the cortex with feedback. The disrupted thalamic ﬁlter model
+    38→              and addiction (1–6). However, the mechanism(s) through which               (TFM) hypothesizes that changes in some aspects of neuro-
+    39→              therapeutic efﬁcacy is elicited remains elusive. While some                transmission (e.g., increases in dopaminergic tone) can
+    40→              aspects of psychedelic action on the brain have been                       potentially lead to disruptions of the thalamic ﬁlter function,
+    41→              demonstrated, e.g., via (partial) agonism at the serotonin 2A (5-          resulting in cortical ﬂooding, which is thought to underlie
+    42→              HT2A) receptors, the impact and consequences of activating                 altered mental phenomena (11–13). In its original conception,
+    43→              these receptors remain incompletely understood. Several                    this model aimed to explain the action of not only psyche-
+    44→              biological models, not necessarily mutually exclusive, have                delics but also other substances (e.g., ketamine) and
+    45→              been proposed to explain how psychedelic phenomena are                     endogenous psychosis (11). In support of such a hypothesis,
+    46→              generated in the brain (7). Some of these models suggest that              a link between dopamine synthesis capacity and thalamo-
+    47→              an interplay between the cortex and distinct subcortical                   cortical dysconnectivity has been reported in patients with
+    48→              structures is relevant for the mode of action of psychedelics.             schizophrenia (14). Regarding the speciﬁc mechanism of
+    49→                  Herein, we focus on one of these models, which enunciates              psychedelics, the model is supported by several lines of ev-
+    50→              the role of thalamocortical interactions. Thalamocortical in-              idence, including human in vivo neuroimaging (7,12). Thala-
+    51→              teractions are part of larger, topographically organized cir-              mocortical interactions have been investigated in several
+    52→              cuits involving corticostriatal and striato-pallidal connections           studies by quantifying intrinsic functional connectivity (iFC)
+    53→              (8). These subcortical structures and their connections are                derived from resting-state functional magnetic resonance
+    54→              modulated by distinct neurotransmitters, including dopamine                imaging (fMRI) [for a review, see (15)]. Consistent ﬁndings
+    55→
+    56→
+    57→
+    58→
+    59→              522     ª 2023 Society of Biological Psychiatry. Published by Elsevier Inc. This is an open access article under the
+    60→                      CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+    61→              Biological Psychiatry: Cognitive Neuroscience and Neuroimaging May 2024; 9:522–532 www.sobp.org/BPCNNI                    ISSN: 2451-9022
+    62→                                                                                                                                  Biological
+    63→                                                                                                                                  Psychiatry:
+    64→Substance-Induced Effective Connectivity                                                                                          CNNI
+    65→
+    66→
+    67→
+    68→
+    69→indicate an increase in thalamocortical iFC following psy-         description and procedures, see the Supplement and (27).
+    70→chedelics, which is consistent with the prediction that dis-       Brieﬂy, we studied the effects of 0.1 mg LSD, 125 mg MDMA,
+    71→rupted thalamic ﬁltering would be accompanied by an                40 mg d-amphetamine, and placebo (ethanol/mannitol) in the
+    72→increase in thalamic activity and inﬂuence on the cortex           same group of participants using a double-blind, placebo-
+    73→(16–19). More recent studies have reﬁned these ﬁndings by          controlled, crossover design with 4 sessions in a random and
+    74→demonstrating that thalamocortical dysconnectivity is mainly       counterbalanced order.
+    75→localized in nuclei containing (or more susceptible to the            The neuroimaging data from these 25 participants were
+    76→activation of) 5-HT2A receptors (20,21).                           analyzed previously (21). The participants had excellent quality
+    77→    However, based on the predictions of TFM, an initial           neuroimaging data, and there were no differences between
+    78→question arises: Are these effects speciﬁc to psychedelics or      sessions in head motion (i.e., mean framewise displacement
+    79→do other substances (affecting neurotransmitters known to          F3,72 = 1.80, p = .15).
+    80→modulate cortico-striato-thalamo-cortical circuitry) generate         Subjective effects relevant for the current study were
+    81→similar phenomena? We recently demonstrated that                   derived from visual analog scales (VASs), which were admin-
+    82→beyond lysergic acid diethylamide (LSD), substances broadly        istered immediately before and after the fMRI scan; i.e.,
+    83→releasing monoamines—but producing less pronounced                 average values were computed for the 2 measurements
+    84→perceptual effects than LSD, namely d-amphetamine and 3,4-         (21,27).
+    85→methylenedioxymethamphetamine (MDMA)—also elicit thala-
+    86→mocortical dysconnectivity (21). Interestingly, all 3 substances   Data Acquisition and Preprocessing
+    87→induced hyperconnectivity between the thalamus and senso-
+    88→                                                                   Across all conditions, structural and functional fMRI data were
+    89→rimotor/unimodal cortices despite their distinct pharmacolog-
+    90→                                                                   acquired on a 3T MRI system (Magnetom Prisma, Siemens
+    91→ical modes of action and subjective effects. However, only
+    92→                                                                   Healthcare) with a 20-channel phased array radio-frequency
+    93→LSD increased iFC between the thalamus and associative/
+    94→                                                                   head coil. For imaging parameters, see the Supplement.
+    95→transmodal cortices, whereas the amphetamines reduced iFC
+    96→                                                                      Data were analyzed with SPM12 (Wellcome Department of
+    97→between these regions. While the latter ﬁnding is inconsistent
+    98→                                                                   Cognitive Neurology) in MATLAB (The MathWorks, Inc.). Pre-
+    99→with the predictions of undifferentiated increases in thalamo-
+   100→                                                                   processing steps included slice-timing correction, realignment,
+   101→cortical interactions, iFC does not assess causality/direction
+   102→                                                                   and spatial normalization to a 3-mm3 standard template
+   103→but rather statistical dependencies (22,23). Therefore, it re-
+   104→                                                                   (Montreal Neurological Institute). Finally, normalized images
+   105→mains unclear whether substance-induced thalamic dyscon-
+   106→                                                                   were smoothed with a 6 mm full width at half maximum
+   107→nectivity is driven by the thalamus. This issue can be overcome
+   108→                                                                   isotropic Gaussian kernel.
+   109→by using effective connectivity, which assesses directed
+   110→causal inﬂuences between regions and can be estimated from
+   111→fMRI data with dynamic causal modeling (DCM) (24). This leads      Dynamic Causal Modeling
+   112→to a second question: Is substance-induced thalamocortical         Regions of Interest: Selection and Time-Series
+   113→dysconnectivity driven by the thalamus or the cortex, and are      Extraction. First, we aimed to determine whether thalamo-
+   114→different types of cortex relevant?                                cortical dysconnectivity was driven by the thalamus. Second,
+   115→    To address these questions, we investigated substance-         we investigated whether changes in thalamocortical/cortico-
+   116→induced changes in effective connectivity between the thal-        thalamic effective connectivity differed between the sub-
+   117→amus and unimodal and transmodal regions derived from (21).        stances. Therefore, we were interested in regions that
+   118→Effective connectivity allows for the assessment of activity       contributed to thalamocortical dysconnectivity across all
+   119→change in one region as a function of activity change in another   substances and cortical regions. Cortical regions were
+   120→region (22,24,25). The primary aim was to investigate the ef-      selected from the original auditory-sensorimotor network–
+   121→fects of d-amphetamine, LSD, and MDMA on the interactions          thalamic and salience network (SAL)–thalamic seed-based
+   122→between cortical and thalamic areas that were shown to             iFC analyses, respectively (21). Brieﬂy, 6 sets of coordinates
+   123→contribute to substance-induced thalamocortical dysconnec-         were derived from additional thalamic–whole-brain seed-
+   124→tivity in our previous study (21). Consistent with TFM and our     based analyses (see Supplemental Methods), which were
+   125→previous iFC ﬁndings, we hypothesized that LSD, d-amphet-          used to deﬁne regions of interest (ROIs) for the DCM analysis
+   126→amine, and MDMA would increase the effective connectivity          (Table S1; Figure 1 and Figure S1). Because these ROIs were
+   127→from the thalamus to the unimodal cortices. Similarly, we ex-      involved in all conditions and networks, the DCM analysis
+   128→pected LSD to increase the effective connectivity from the         allowed comparisons in effective connectivity between all
+   129→thalamus to the transmodal regions, consistent with previous       conditions in one model. However, this approach only gener-
+   130→reports (13,26). In contrast, we hypothesized that d-amphet-       ated ROIs centered in unimodal regions (auditory cortex and
+   131→amine and MDMA would decrease the effective connectivity           postcentral gyrus, overlapping with the auditory-sensorimotor
+   132→from the thalamus to the transmodal areas, following our           network template, as well as visual regions, i.e., lingual gyrus
+   133→previous ﬁndings of thalamocortical hypoconnectivity.              and cuneus). Because some of the investigated substances
+   134→                                                                   elicited both thalamocortical hyper- and hypoconnectivity for
+   135→METHODS AND MATERIALS                                              distinct cortex types, we also studied thalamic effective con-
+   136→                                                                   nectivity with transmodal areas derived from the SAL (see
+   137→Participants and Procedures                                        Supplemental Methods) (Table S1 and Figure 2). Notably, for
+   138→We investigated 25 healthy volunteers for this study (12 fe-       this second model, thalamic ROIs were deﬁned separately for
+   139→male, mean age 28.2 6 4.35 years). For detailed participant        each substance, with thalamic coordinates derived from the
+   140→
+   141→
+   142→
+   143→                     Biological Psychiatry: Cognitive Neuroscience and Neuroimaging May 2024; 9:522–532 www.sobp.org/BPCNNI    523
+   144→Biological
+   145→Psychiatry:
+   146→CNNI                                                                                            Substance-Induced Effective Connectivity
+   147→
+   148→
+   149→
+   150→
+   151→                                                                                                    Figure 1. Depicted on the left are axial slices
+   152→                                                                                                    containing the nodes of the DCM model that was
+   153→                                                                                                    used to investigate substance-induced effective
+   154→                                                                                                    connectivity changes between the thalamus and
+   155→                                                                                                    unimodal cortices. Shown on the right are all
+   156→                                                                                                    possible connections between the DCM nodes in
+   157→                                                                                                    light gray. Self-connections are depicted as circular
+   158→                                                                                                    arrows around each region. DCM, dynamic causal
+   159→                                                                                                    modeling; lAU, left auditory cortex; lCU, left cuneus;
+   160→                                                                                                    rCU, right cuneus; rLN, right lingual gyrus; rPoC,
+   161→                                                                                                    right postcentral cortex; TH, thalamus.
+   162→
+   163→
+   164→
+   165→
+   166→              peak differences in SAL-thalamic iFC generated by the 3            best explained each subject’s observed cross-spectral
+   167→              substances against placebo.                                        density. We repeated the procedure for each substance.
+   168→                 For both models, we masked the ROIs with spheres of 8-          The amount of mean explained variance after model ﬁtting
+   169→              mm radius. All ROI time series were computed as the ﬁrst           was high for every condition (d-amphetamine: 89%, LSD:
+   170→              principal component of the voxel activity within these spheres.    89%, MDMA: 90%, placebo: 90%), indicating that the DCM
+   171→              The ROI time series were corrected for head motion (6 pa-          explained the data very well. For the transmodal areas, we
+   172→              rameters) and physiological noise (i.e., signals from cerebro-     speciﬁed the fully connected DCM using the 6 ROIs
+   173→              spinal ﬂuid and white matter extracted from a 4-mm sphere of       covering the SAL and the thalamus (Figure 2). We followed
+   174→              the left ventricle and a 4-mm sphere from the pons, respec-        the same procedures as above. Unlike the previous model
+   175→              tively). Low-frequency signal drifts were also ﬁltered out by      (i.e., in which all ROIs were involved in all conditions), the
+   176→              using a 128-second high-pass ﬁlter.                                placebo condition for the SAL was speciﬁc for every
+   177→                                                                                 contrast. The amount of mean explained variance was also
+   178→              Model Space Selection. The extracted time series were              high for this model (d-amphetamine: 89%, placebo A: 91%;
+   179→              used to specify fully connected DCM models for every subject       LSD: 91%, placebo: 91%; MDMA: 91%, placeboM: 91%).
+   180→              and compare all possible nested models of interactions be-         We did not observe any case showing ,75% explained
+   181→              tween regions. Both models (i.e., unimodal and SAL-                variance.
+   182→              transmodal regions) were estimated with spectral DCM in
+   183→              SPM12 (version 7771, DCM12.5), which uses a power law              Group-Level Analyses Using Parametric Empirical
+   184→              model of endogenous neural ﬂuctuations to ﬁt the cross-            Bayes. We estimated between-subject variability by taking
+   185→              spectral density (22). For the unimodal regions, we speciﬁed       the subject-speciﬁc effective connectivity values inferred by
+   186→              the fully connected DCM using the 6 ROIs (Figure 1) without        spectral DCM to a group-level (Bayesian) general linear model
+   187→              exogenous inputs. Each participant’s DCM was then inverted         implemented in the parametric empirical Bayes framework.
+   188→              using spectral DCM to identify the effective connectivity that     Next, Bayesian model reduction was used to perform an
+   189→
+   190→
+   191→                                                                                                    Figure 2. Depicted on the left are axial slices
+   192→                                                                                                    containing the nodes of the DCM model that was
+   193→                                                                                                    used to investigate substance-induced effective
+   194→                                                                                                    connectivity changes between the thalamus and
+   195→                                                                                                    salience network–derived transmodal cortices.
+   196→                                                                                                    Shown on the right are all possible connections
+   197→                                                                                                    between the DCM nodes in light gray. Self-
+   198→                                                                                                    connections are depicted as circular arrows around
+   199→                                                                                                    each region. ACC, anterior cingulate cortex; DCM,
+   200→                                                                                                    dynamic causal modeling; lIN, left insula; lSG, left
+   201→                                                                                                    supramarginal gyrus; rIN, right insula; rSG, right
+   202→                                                                                                    supramarginal gyrus; TH, thalamus; THA, thalamus
+   203→                                                                                                    region identiﬁed from the contrast d-amphetamine
+   204→                                                                                                    vs. placebo.
+   205→
+   206→
+   207→
+   208→
+   209→              524    Biological Psychiatry: Cognitive Neuroscience and Neuroimaging May 2024; 9:522–532 www.sobp.org/BPCNNI
+   210→                                                                                                                                                               Biological
+   211→                                                                                                                                                               Psychiatry:
+   212→Substance-Induced Effective Connectivity                                                                                                                       CNNI
+   213→
+   214→
+   215→
+   216→
+   217→automatic search for more plausible reduced models nested                         RESULTS
+   218→within the full model (28). For more details on parametric
+   219→empirical Bayes, see Supplemental Methods. Based on                               Effective Connectivity Changes Between the
+   220→model evidence, distinct thresholds have been developed                           Thalamus and Unimodal Cortices
+   221→(29). For informative reasons, we report connectivity changes                     All substances elicited changes in effective connectivity,
+   222→reﬂecting weaker effects (i.e., posterior probability . .5 and                    mainly between the unimodal regions and the thalamus
+   223→effect sizes , 0.1 Hz) in addition to connectivity changes                        (Figure 3 and Table 1).
+   224→reﬂecting strong effects (posterior probability of . .99 and                          Compared with placebo, both d-amphetamine and MDMA
+   225→effect sizes of . 0.1 Hz). Beyond effective connectivity be-                      reduced the effective connectivity from the left auditory cortex,
+   226→tween regions, we also report self-connections, which are log                     right postcentral cortex, and left cuneus (weaker effect for
+   227→scaled, reﬂecting inhibitory activity decay. Reduced self-                        d-amphetamine) and right cuneus to the thalamus. In contrast,
+   228→inhibition is indicated by a negative sign and reﬂects disin-                     the thalamus increased effective connectivity to the left audi-
+   229→hibition, whereas increased self-inhibition is indicated by a                     tory cortex and right lingual gyrus. Both substances elicited
+   230→positive sign.                                                                    increased self-inhibition in the right lingual gyrus, decreased
+   231→                                                                                  self-inhibition in the right postcentral cortex (weaker effect for
+   232→Associations Between Effective Connectivity and                                   MDMA), and decreased effective connectivity from the right
+   233→Subjective Effects. To determine whether changes in                               postcentral cortex to the left auditory cortex and from the right
+   234→effective connectivity were functionally relevant, we investi-                    lingual gyrus to the left auditory cortex (weaker effect for
+   235→gated the relationships between VAS items and the inferred                        d-amphetamine). In addition, d-amphetamine speciﬁcally
+   236→DCM coupling parameters. The VAS contained the following                          increased thalamic self-inhibition (weaker effect). MDMA also
+   237→items: “any drug effect,” “good drug effect,” “bad drug ef-                       induced speciﬁc but weaker effects, including increased
+   238→fect,” “drug liking,” “drug high,” “stimulated,” “ego dissolu-                    effective connectivity from the thalamus to the right cuneus
+   239→tion,” “talkative,” “open,” “concentration,” “sense of time,”                     and right postcentral gyrus and decreased effective connec-
+   240→and “speed of thinking” (27). We used multiple linear                             tivity between the left cuneus and the left auditory cortex.
+   241→regression analysis to examine whether the VAS items,                                 LSD decreased effective connectivity from the left auditory
+   242→examined separately, were predicted by either cortico-                            cortex and right postcentral cortex to the thalamus but also
+   243→thalamic (i.e., all connections from cortical regions to the                      increased effective connectivity from the right lingual gyrus to
+   244→thalamus) or thalamocortical (i.e., all connections from the                      the thalamus. The thalamus increased its self-inhibition and
+   245→thalamus to cortical regions) effective connectivity showing                      also effective connectivity to the left auditory cortex and the
+   246→strong effects for both DCM models. If the main regression                        right lingual gyrus, although the latter effects were weaker.
+   247→model was signiﬁcant, we further examined the relationship                        Finally, LSD reduced self-inhibition in the right postcentral
+   248→between the corresponding VAS item and every cortico-                             cortex and, with a weaker effect, also reduced the effective
+   249→thalamic/thalamocortical coupling parameter. Because these                        connectivity from the left cuneus to the left auditory cortex.
+   250→analyses were exploratory, we did not correct for multiple                            Taken together, these ﬁndings mainly indicate decreased
+   251→comparisons.                                                                      effective connectivity from speciﬁc unimodal regions to the
+   252→
+   253→
+   254→
+   255→
+   256→Figure 3. Differences in effective connectivity between the thalamus and unimodal cortices are shown between d-amphetamine, LSD, and MDMA against
+   257→placebo. Red arrows indicate increased excitatory inﬂuence of a substance vs. placebo, whereas blue arrows indicate inhibitory inﬂuence. Increased self-
+   258→inhibition is shown in red circular arrows, and reduced self-inhibition is shown in blue. Gray arrows indicate connections that were not different between
+   259→substance and placebo. Dashed arrows and transparent circular arrows indicate weaker effects (i.e., surpassing a posterior probability threshold of .5 but , .99
+   260→and/or with an effect size of , 0.1 Hz). DCM, dynamic causal modeling; lAU, left auditory cortex; lCU, left cuneus; LSD, lysergic acid diethylamide; MDMA,
+   261→3,4-methylenedioxymethamphetamine; rCU, right cuneus; rLN, right lingual gyrus; rPoC, right postcentral cortex; TH, thalamus.
+   262→
+   263→
+   264→
+   265→
+   266→                          Biological Psychiatry: Cognitive Neuroscience and Neuroimaging May 2024; 9:522–532 www.sobp.org/BPCNNI                           525
+   267→Biological
+   268→Psychiatry:
+   269→CNNI                                                                                                             Substance-Induced Effective Connectivity
+   270→
+   271→
+   272→
+   273→
+   274→              Table  1. Substance-Induced   Effective  Connectivity                                  Compared with d-amphetamine, LSD increased effective
+   275→              Changes Between the Thalamus and Unimodal Cortices                                 connectivity from the right postcentral cortex (weaker effect),
+   276→                                Substance-       Substance-                                      right lingual gyrus, and right cuneus to the thalamus and
+   277→                                  Induced         Induced        Effect Size,     Posterior      reduced effective connectivity from the thalamus to the right
+   278→              Connection        EC Changes       EC Valence          Hz          Probability     lingual gyrus. In addition, LSD reduced the self-inhibition in the
+   279→              d-Amphetamine vs. Placebo                                                          right lingual gyrus. Furthermore, the right postcentral cortex
+   280→              lAU / TH                2                 I            0.24            ..99        and right lingual gyrus increased effective connectivity to the
+   281→              rLN / lAU               2                 I            0.08a             .8a       left auditory cortex, although these effects were weaker.
+   282→              rLN / rLN               1                E             0.14            ..99        Similarly, the right lingual gyrus increased the effective con-
+   283→              rCU / TH                2                 I            0.15            ..99
+   284→                                                                                                 nectivity on the right cuneus.
+   285→                                                                                                     Compared with MDMA, LSD increased effective connec-
+   286→              lCU / TH                2                 I            0.10              .9a
+   287→                                                                                                 tivity from the right postcentral cortex, right lingual gyrus
+   288→              rPoC / lAU              2                 I            0.13            ..99
+   289→                                                                                                 (weaker effect), and right cuneus (weaker effect) to the thal-
+   290→              rPoC / rPoC             2                 I            0.15            ..99
+   291→                                                                                                 amus, as for d-amphetamine. In addition, LSD increased
+   292→              rPoC / TH               2                 I            0.24            ..99        effective connectivity from the right postcentral cortex and
+   293→              TH / lAU                1                E             0.17            ..99        right lingual gyrus (weaker effect) to the left auditory cortex.
+   294→              TH / rLN                1                E             0.20            ..99        Furthermore, LSD reduced the self-inhibition in the right lingual
+   295→              TH / TH                 1                E             0.04a             .5a       gyrus, as for d-amphetamine.
+   296→              LSD vs. Placebo                                                                        The differences between d-amphetamine and MDMA were
+   297→              lAU / TH                2                 I            0.24            ..99        less pronounced. d-Amphetamine increased the self-inhibition
+   298→              rLN / TH                1                E             0.12            ..99        in the left auditory cortex, in contrast to MDMA (weaker effect).
+   299→              lCU / lAU               2                 I            0.06a             .6a
+   300→              rPoC / rLN              2                 I            0.06   a
+   301→                                                                                       .6a       Effective Connectivity Changes Between the
+   302→              rPoC / rPoC             2                 I            0.15            ..99        Thalamus and Transmodal Cortices
+   303→              rPoC / TH               2                 I            0.13            ..99        All substances elicited changes in effective connectivity be-
+   304→              TH / lAU                1                E             0.07a             .7a       tween the SAL-derived transmodal cortices and the thalamus
+   305→              TH / rLN                1                E             0.05a             .6a       (Figure 5 and Table 3). Compared with placebo, d-amphet-
+   306→              TH / TH                 1                E             0.12            ..99        amine and MDMA increased effective connectivity from the left
+   307→                                                                                                 and right insula (weaker effect for MDMA) and left supra-
+   308→              MDMA vs. Placebo
+   309→                                                                                                 marginal gyrus to the thalamus. Furthermore, both the left and
+   310→              lAU / TH                2                 I            0.19            ..99
+   311→                                                                                                 right insula increased effective connectivity to the anterior
+   312→              rLN / lAU               2                 I            0.12            ..99
+   313→                                                                                                 cingulate cortex (ACC) (weaker effects for both substances)
+   314→              rLN / rLN               1                E             0.12            ..99        and right supramarginal gyrus (weaker effect for d-amphet-
+   315→              rCU / TH                2                 I            0.10            ..99        amine), while the thalamus decreased effective connectivity to
+   316→              lCU / lAU               2                 I            0.06a             .7a       both the left and right insula (weaker effects for the latter). We
+   317→              lCU / TH                2                 I            0.12            ..99        also observed increased effective connectivity from the left
+   318→              rPoC / lAU              2                 I            0.15            ..99        supramarginal gyrus to the ACC (weaker effects for both am-
+   319→              rPoC / rPoC             2                 I            0.05a             .6a       phetamines) and greater thalamic self-inhibition (weaker effect
+   320→              rPoC / TH               2                 I            0.30            ..99        for MDMA). Speciﬁc d-amphetamine–induced changes
+   321→              TH / lAU                1                E             0.11            ..99        included reduced effective connectivity from the thalamus to
+   322→              TH / rLN                1                E             0.14            ..99        the left supramarginal gyrus and increased self-inhibition of the
+   323→              TH / rCU                1                E             0.04a             .5a
+   324→                                                                                                 left insula, although both effects were weaker. Speciﬁc MDMA-
+   325→                                                                            a                    induced changes included decreased effective connectivity
+   326→              TH / rPoC               1                E             0.04              .5a
+   327→                                                                                                 from the ACC to the left and right insula (weaker effect). Other
+   328→                  Connections surpassing a posterior probability threshold of .5 are shown.
+   329→                                                                                                 weaker effects included increased effective connectivity from
+   330→                  2, decreased; 1, increased; E, excitatory; EC, effective connectivity; I,
+
+[showing lines 1-330 of 767; use offset=331 with limit to continue reading]

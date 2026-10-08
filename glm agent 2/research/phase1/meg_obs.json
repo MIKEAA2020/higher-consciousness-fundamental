@@ -1,0 +1,45 @@
+{
+ "run1": {
+  "alpha_peak_hz": 8.12,
+  "n_peaks_3_30": 5,
+  "peaks_cf_hz": [
+   3.86,
+   6.53,
+   8.12,
+   18.02,
+   22.61
+  ],
+  "dfa_median": 0.632,
+  "dfa_mean": 0.617,
+  "dfa_pct_gt_065": 0.412,
+  "wpli_mean": 0.51,
+  "cc_mean": 0.0,
+  "cc_vs_dist_rho": -0.415,
+  "n_ch": 272,
+  "n_t_50hz": 30000
+ },
+ "run2": {
+  "alpha_peak_hz": 7.91,
+  "n_peaks_3_30": 3,
+  "peaks_cf_hz": [
+   7.91,
+   17.93,
+   23.0
+  ],
+  "dfa_median": 0.686,
+  "dfa_mean": 0.68,
+  "dfa_pct_gt_065": 0.625,
+  "wpli_mean": 0.522,
+  "cc_mean": 0.001,
+  "cc_vs_dist_rho": -0.44,
+  "n_ch": 272,
+  "n_t_50hz": 30000
+ },
+ "wn_dfa_p95": 0.535,
+ "wn_dfa_median": 0.499,
+ "analysis": {
+  "dataset": "Brainstorm bst_resting subj002, eyes-closed rest, 2x600 s, 272 CTF mags",
+  "pipeline": "1-45 Hz FIR (chunked, in place); Welch 4 s Hann 50% ov; narrowband peak+-2 Hz Hilbert; envelope/phase at 50 Hz",
+  "dfa": "windows 1-30 s (~10 geom sizes), robust log-log fit"
+ }
+}

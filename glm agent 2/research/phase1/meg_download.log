@@ -1,0 +1,21 @@
+Using default location ~/mne_data for bst_resting...
+Creating /home/z/mne_data
+
+License
+-------
+This tutorial dataset (EEG and MRI data) remains a property of the MEG Lab,
+McConnell Brain Imaging Center, Montreal Neurological Institute,
+McGill University, Canada. Its use and transfer outside the Brainstorm
+tutorial, e.g. for research purposes, is prohibited without written consent
+from the MEG Lab.
+
+If you reference this dataset in your publications, please:
+
+    1) acknowledge its authors: Elizabeth Bock, Esther Florin, Francois Tadel
+       and Sylvain Baillet, and
+    2) cite Brainstorm as indicated on the website:
+       http://neuroimage.usc.edu/brainstorm
+
+For questions, please contact Francois Tadel (francois.tadel@mcgill.ca).
+Agree (y/[n])? Downloading file 'bst_resting.tar.gz' from 'https://osf.io/download/m7bd3?version=3' to '/home/z/mne_data'.
+Failed to download 'bst_resting.tar.gz'. Will attempt the download again 2 more times.

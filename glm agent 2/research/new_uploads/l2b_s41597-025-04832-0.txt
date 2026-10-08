@@ -1,0 +1,350 @@
+                                                                                                       www.nature.com/scientificdata
+
+
+
+
+                Single-cell light-sheet fluorescence
+               OPEN
+
+Data Descriptor 3D images of tumour-stroma
+
+                spheroid multicultures
+                               Akos Diosdi 1,2,3, Filippo Piccinini 4,5, Timea Boroczky1,6,7, Gabriella Dobra1,
+                                                                                                                                        1✉
+                               Gastone Castellani 5,8, Krisztina Buzas1,6, Peter Horvath 1,2,9,10 & Maria Harmati
+
+                               Spheroids are widely used in oncology for testing drugs, but models composed of a single cell line do
+                               not fully capture the complexity of the in vivo tumours targeted by chemotherapy. Developing 3D in
+                               vitro models that better mimic tumour architecture is a crucial step for the scientific community. To
+                               enable more reliable drug testing, we generated multiculture spheroids and analysed cell morphology
+                               and distribution over time. This dataset is the first publicly available single-cell light-sheet fluorescence
+                               microscopy image collection of 3D multiculture tumour models comprising of three different cell
+                               lines analysed at different time points. Specifically, we created models composed of one cancer cell
+                               line (melanoma, breast cancer, or osteosarcoma) alongside two stromal cell lines (fibroblasts and
+                               endothelial cells). Then, we acquired single-cell resolution light-sheet fluorescence 3D images of the
+                               spheroids to analyse spheroid morphology after 24, 48, and 96 hours. The image collection, whole
+                               spheroid annotations, and extracted features are publicly available for further research and can support
+                               the development of automated analysis models.
+
+
+
+                               Background & Summary
+                               Three-dimensional (3D) cell cultures are of increasing interest in research as they provide an intermediate model
+                               system between 2D cultures and animal models1. They overcome the limitations of 2D cell cultures, such as (i)
+                               the lack of natural structures or cell-to-cell and cell-matrix interactions of native tissues, (ii) the unrestricted
+                               access to oxygen, nutrients, metabolites, and signal molecules, and (iii) altered cell morphology, polarity and
+                               functions, e.g., differentiation, proliferation, vitality, gene expression patterns and responsiveness to stimuli2.
+                               As 3D cultures closely resemble native tissues, they have become an essential model system in a wide range of
+                               research areas, including regenerative medicine3 and cancer research4.
+                                   In particular, the so-called multiculture 3D tumour spheroids mimic solid tumours in many aspects, such as
+                               the heterogeneous architecture, growth kinetics, physical interactions or complex communication5. Unlike 2D
+                               mono-cultures, they also represent the tumour microenvironment (TME), which is an active participant of all
+                               stages of cancer development6,7. However, today, even the classic 3D single-culture spheroids seem too simple
+                               for reliable high-content screening (HCS) analysis for predicting in vivo effects of chemotherapy treatments8.
+                               Current technology allows co-culturing tumour cells with healthy stromal cells, e.g., fibroblasts, mesenchymal
+                               stem cells, endothelial cells or immune cells, for obtaining advanced but reproducible preclinical tumour mod-
+                               els for a wide variety of uses, ranging from basic research for the development of therapeutic approaches to
+                               advanced HCSs of chemotherapy drugs9,10. In this scenario, 3D multiculture spheroids seem to offer the current
+                               best trade-off for drug HCS, providing advantages over both classical 3D single-culture spheroids6,7 and the
+                               more complex yet less reproducible patient-derived tumour organoids11. While organoids possess self-renewal
+
+
+                               1
+                                Synthetic and Systems Biology Unit, HUN-REN Biological Research Centre, Szeged, Hungary. 2Single-Cell
+                               Technologies Ltd, Szeged, Hungary. 3Doctoral School of Biology, University of Szeged, Szeged, Hungary. 4IRCCS
+                               Istituto Romagnolo per lo Studio dei Tumori (IRST) “Dino Amadori”, Meldola, (FC), Italy. 5Department of Medical and
+                               Surgical Sciences (DIMEC), University of Bologna, Bologna, Italy. 6Department of Immunology, University of Szeged,
+                               Szeged, Hungary. 7Doctoral School of Interdisciplinary Medicine, University of Szeged, Szeged, Hungary. 8IRCCS
+                               Azienda Ospedaliero-Universitaria di Bologna S.Orsola, Bologna, Italy. 9Institute of AI for Health, Helmholtz Zentrum
+                               München, Neuherberg, Germany. 10Institute for Molecular Medicine Finland, University of Helsinki, Helsinki, Finland.
+                               ✉e-mail: harmati.maria@brc.hu
+
+
+  Scientific Data |   (2025) 12:492 | https://doi.org/10.1038/s41597-025-04832-0                                                                  1
+www.nature.com/scientificdata/                                                                      www.nature.com/scientificdata
+
+
+
+
+                             Fig. 1 Representative Maximum Intensity Projection (MIP) images of a 3D tumour multiculture spheroid of
+                             the A375 cell line imaged 24 hours after seeding. Four channels were acquired for visualisation, precisely Blue
+                             - Nucleus (Hoechst 33342), White - MRC-5 (Deep Red), Green - EA.hy926 (Green CMFDA), and Red – A375
+                             (Orange CMTMR). The scale bar represents 50 µm for all the images. Images were taken and visualised using
+                             Leica LAS X software.
+
+
+                             and self-organization capacities recapitulating the original tumour characteristics, their clinical application is
+                             hampered by technical difficulties11,12.
+                                 Once the model has been defined, comprehending the complex nature of the tumour microenvironment is
+                             essential in order to gain an in-depth knowledge of cancer biology at a single-cell level13. Current high-resolution
+                             imaging systems can be used to understand cell-cell interactions within spheroids. For instance, light-sheet flu-
+                             orescence microscopes (LSFMs) provide better imaging depth, faster imaging, less phototoxicity, and less pho-
+                             tobleaching compared to wide-field or confocal microscopes. Furthermore, the optical sectioning results in less
+                             light-scattering and provides high-resolution plane-by-plane imaging, allowing the visualisation of single cells
+                             even in a dense 3D microenvironment14.
+                                 In this work, we created 3D tumour multiculture spheroids composed of three different fluorescently labelled
+                             cell lines analysed at different time points. In particular, we created three different tumour models composed
+                             of one cancer cell line (i.e., melanoma, breast cancer, or osteosarcoma), labelled with CellTracker (CT) Orange
+                             CMTMR dye, and two stromal cell lines, i.e., fibroblasts and endothelial cells, stained with CT DeepRed and
+                             CT Green CMFDA, respectively. To mimic chemotherapeutic stress, we applied low-dose doxorubicin (dox),
+                             which is a widely used antineoplastic drug in a myriad of malignancies15. Then, using the Leica True Confocal
+                             Scanning (TCS) SP8 Digital LightSheet (DLS) microscope, we acquired single-cell light-sheet fluorescence 3D
+                             images of the generated spheroids to analyse the cellular distribution after 24, 48, and 96 hours. While tracking
+                             structural changes in spheroids over an extended period can be informative, the high level of cell-to-cell com-
+                             munication led to the exchange of cytoplasmic dyes between different cell types, making it challenging to dis-
+                             tinguish them. Finally, an expert microscope operator performed the segmentation of the entire spheroids and
+                             extracted morphological features using publicly available tools, i.e. AnaSP16,17 and ReViSP18.
+                                 The acquired LSFM 3D images of multiculture spheroids, the obtained segmentation masks and the extracted
+                             morphological features are freely available at figshare19. They can be used for further biological investigations
+                             on the cell distribution in 3D environments, for instance to investigate the position of the cancer cells over time
+                             when co-cultured with healthy stromal cells20. In addition, the 3D data can be exploited by the research commu-
+                             nity to compare various computational metrics quantitatively to assess image quality21, or to generate training
+                             sets for deep learning and machine learning techniques22, as well as to validate other segmentation approaches23.
+
+
+
+Scientific Data |   (2025) 12:492 | https://doi.org/10.1038/s41597-025-04832-0                                                                 2
+www.nature.com/scientificdata/                                                                              www.nature.com/scientificdata
+
+
+                                                  24 h                       48 h                      96 h                      Total
+                              Multiculture        N. of        Total n. of   N. of       Total n. of   N. of       Total n. of   N. of       N. of
+                              spheroids           spheroids    z-layers      spheroids   z-layers      spheroids   z-layers      spheroids   z-layers
+                              T-47D (A)           5            285           5           309           5           315           15          909
+                              dox-T-47D (A+)      5            266           5           259           5           250           15          775
+                              A375 (B)            5            284           5           286           5           269           15          839
+                              dox-A375 (B+)       5            280           5           319           5           242           15          841
+                              MG-63 (C)           5            293           5           281           5           287           15          861
+                              dox-MG-63 (C+)      5           236            5           270           5           264           15          770
+                              Total n.            30          1644           30          1724          30          1627          90          4995
+
+                             Table 1. Collection statistics: number (n.) of spheroids and layers for each condition considered.
+
+
+                             Methods
+                             Cell lines description. In this work, we used five different commercial human cell lines obtained from the
+                             American Type Culture Collection (ATCC, Manassas, Virginia, USA); three cancer cell lines, i.e. T-47D ductal
+                             carcinoma (ATCC, HTB-133, Lot: 63542749), A375 melanoma (ATCC, CRL-1619, Lot: 63905420), MG-63 oste-
+                             osarcoma (ATCC, CRL1427, Lot: 70054704), and two stromal cell lines, i.e. MRC-5 fibroblasts (ATCC, CCL-171,
+                             Lot: 63405646), and EA.hy926 endothelial cells (ATCC, CRL-2922, Lot: 70030244). They were maintained follow-
+                             ing the corresponding ATCC guidelines.
+
+                             Spheroid generation and staining. Multiculture tumour spheroids were generated by co-culturing
+                             three cell lines, specifically MRC-5, EA.hy926, and one type of tumour cell, either T-47D, A375, or MG-63.
+                             They were co-cultured in 384-well ultra-low attachment U-bottom plates (Greiner Bio-One, Kremsmünster,
+                             Austria), in DMEM supplemented with 10% Opticlone FBS (EuroClone, Milan, Italy), 2 mM L-glutamine and 1%
+                             Penicillin-Streptomycin-Amphotericin B mixture (all from Lonza, Basel, Switzerland). Before seeding, cells were
+                             stained with CellTracker dyes based on the manufacturer’s instructions (Invitrogen, Thermo Fisher Scientific,
+                             Waltham, Massachusetts, USA). Precisely, MRC-5, EA.hy926, and the tumour cells were stained with 1 µM Deep
+                             Red, 25 µM Green CMFDA, and 25 µM Orange CMTMR dyes, respectively. Then, the cells were mixed to generate
+                             tri-culture spheroids; we used 40% MRC-5, 40% EA.hy926, and 20% tumour cells. Spheroids were incubated for
+                             24, 48, or 96 hours at 37 °C and 5% CO2 in the control medium or 0.6 µM dox-containing medium. Before live-cell
+                             imaging nuclei were stained with 1.5 µM Hoechst 33342 in DMEM for 60 min.
+
+                             Image acquisition. The imaging setup and all imaging parameters were previously described in Diosdi et al.24,25.
+                             Briefly, for each spheroid, fluorescent 16-bit images were produced using a Leica TCS SP8 DLS microscope with a
+                             sCMOS DFC9000 camera (Leica Microsystems, Wetzlar, Germany). The images were acquired at three different
+                             time points (i.e., 24, 48, and 96 hours after seeding) using a 200 ms exposure time and a 25x/0.95 detection objec-
+                             tive with a 2.5 mm mirror device on the objective. The laser intensity was adjusted for each channel at 405, 488,
+                             552, and 638 nm (maximum laser intensity 350 mW). For imaging, DPBS mounting medium was used for every
+                             spheroid. The resolution of the images is 2048 × 2048 pixels, with a pixel size of 0.14370117 µm and a distance
+                             of 3.7 µm between each image in z-stack. The Leica Application Suite X (LAS X) software produced Maximum
+                             Intensity Projection (MIP) 8-bit images with a pixel resolution of 1683 × 1683 and a pixel size of 0.17486631 µm.
+
+                             Image analysis. Morphological features have been extracted by analysing the MIP of each spheroid reported
+                             in the collection using AnaSP version 3.017. Briefly, MIP images were obtained by merging all the fluorescent
+                             channels and these were manually segmented by an expert microscope operator for obtaining binary masks, with
+                             the foreground in white over a black background. Several morphological features (e.g., Diameter, Perimeter, Area,
+                             Circularity, and Sphericity) have been extracted, including the Volume, which was reconstructed using ReViSP.
+                             The mathematical equations describing the features are available in the AnaSP’s user manual and Supplementary
+                             File 1.
+
+                             Data Records
+                             The dataset is available at figshare19, with this section being the primary source of information on the availa-
+                             bility and content of the data being described. The collection includes images of spheroids acquired at three
+                             time points from the generation of the multiculture 3D tumour models. The images are single-cell light-sheet
+                             fluorescence 3D data saved in a multi-tiff file format. Each spheroid was stained with the same four fluorescent
+                             dyes. For each staining, a 3D stack is provided for each spheroid. Figure 1 reports the MIP for the four channels
+                             (Nuclei - ch001, EA.hy926 - ch002, tumour - ch003, and MRC-5 - ch004) available in the collection for a ran-
+                             dom spheroid shown as an example. All spheroids are acquired from top to down and each layer of the tiff file
+                             corresponds to a different z-section. The number of layers ranges from 38 to 90 sections, and the z-step between
+                             subsequent layers is the same for all the spheroids. In a separate folder MIP images are also provided for each
+                             spheroid and all of the four channels and a merged one.
+                                 For each tumour cell line and time point, images of 5 spheroids have been acquired for both the control
+                             and the drug-treated condition. The three different tumour types were labelled as A - T-47D, B - A375, and
+                             C - MG-63, and dox-treated samples were differentiated with “+” symbol. In total, 90 spheroids are included
+                             in the collection according to the scheme reported in Table 1. All the data are freely available at figshare19. The
+
+
+Scientific Data |   (2025) 12:492 | https://doi.org/10.1038/s41597-025-04832-0                                                                          3
+www.nature.com/scientificdata/                                                                       www.nature.com/scientificdata
+
+
+
+
+                             Fig. 2 Representative Maximum Intensity Projection (MIP) images of the 3D tumour multiculture spheroid
+                             dataset. The three different tumour types were labelled as A - T-47D, B - A375, and C - MG-63, and dox- treated
+                             samples were differentiated with “+” symbol. For visualisation, three channels were merged, precisely White -
+                             MRC-5 (Deep Red), Green - EA.hy926 (Green CMFDA), and Red - Tumour (Orange CMTMR dyes). The scale
+                             bar represents 50 µm. The images were taken and visualised using Leica LAS X software.
+
+
+                             uploaded files follow the naming convention: “TumourType_ + _TimePoint_SpheroidID_channelID.tif ” where
+                             (+) labels doxorubicin treated samples. Figure 2 shows a random spheroid for each condition obtained using
+                             the different fluorescence channels, excluding the nuclei signal for a better understanding of the cell distribution.
+                                For each spheroid included in the collection, several morphological features have been extracted using
+                             merged MIP images. The MIP images and related binary masks are freely available at figshare19. For each
+
+
+Scientific Data |   (2025) 12:492 | https://doi.org/10.1038/s41597-025-04832-0                                                                  4
+www.nature.com/scientificdata/                                                                                       www.nature.com/scientificdata
+
+
+                           Time point Multiculture spheroids       Diameter [µm] Perimeter [µm]         Area [µm2] Volume [µm3]        Circularity [−]    Sphericity [−]
+                           24 h         T-47D (A)                  174               713                24376         2574743          0.85               0.77
+                           48 h         T-47D (A)                  162               734                20564         1733780          0.76               0.69
+                           96 h         T-47D (A)                  167               680                21842         2218002          0.83               0.77
+                           24 h         dox-T-47D (A+)             174               815                24412         2146463          0.74               0.68
+                           48 h         dox-T-47D (A+)             161               673                20818         1830226          0.79               0.76
+                           96 h         dox-T-47D (A+)             141               604                15758         1034803          0.76               0.74
+                           24 h         A375 (B)                   185               882                24376         2328160          0.72               0.66
+                           48 h         A375 (B)                   187               827                20564         2834749          0.78               0.72
+                           96 h         A375 (B)                   161               689                21842         1932300          0.79               0.74
+                           24 h         dox-A375 (B+)              147               728                16989         1005072          0.69               0.64
+                           48 h         dox-A375 (B+)              146               679                16828         1210798          0.73               0.68
+                           96 h         dox-A375 (B+)              137               610                15004         1143153          0.75               0.72
+                           24 h         MG-63 (C)                  171               791                27817         1873964          0.78               0.71
+                           48 h         MG-63 (C)                  178               767                27848         1989199          0.79               0.73
+                           96 h         MG-63 (C)                  178               730                20451         2523054          0.82               0.77
+                           24 h         dox-MG-63 (C+)             146               631                16991         1408364          0.81               0.75
+                           48 h         dox-MG-63 (C+)             143               583                16171         1315481          0.81               0.78
+                           96 h         dox-MG-63 (C+)             140               556                15461         1220975          0.83               0.79
+
+                             Table 2. Average values of selected morphological features for each group of five spheroids considered for each
+                             condition.
+
+
+                             spheroid analysed, Supplementary Table 1 reports values for selected features, Also, a table reporting all the
+                             values for the different extracted features is available in a .csv and .xls format at figshare19. The average values are
+                             reported in Table 2. The single values are reported in µm in the case of Diameter and Perimeter, in µm2 for Area,
+                             in µm3 for Volume, and dimensionless (i.e. [−]) for Circularity and Sphericity.
+                             Technical Validation
+                             All images were collected as part of routine wet-lab analyses using a commercial microscope. Accordingly, qual-
+                             ity assurance was performed just with daily calibrations done on the system. The raw images were uploaded
+                             without editing to figshare. Two expert microscopists carefully checked the uploaded data in blind.
+
+                             Code availability
+                             For spheroid feature analysis the open-source tools AnaSP16,17 and ReViSP18 were used. Custom codes have not
+                             been designed and used for this study.
+
+                             Received: 25 July 2024; Accepted: 14 March 2025;
+                             Published: xx xx xxxx
+
+                             References
+                              1. Jensen, C. & Teng, Y. Is it time to start transitioning from 2D to 3D cell culture? Frontiers in molecular biosciences. 7, 33, https://doi.
+                                 org/10.3389/fmolb.2020.00033 (2020).
+                              2. Kapałczyńska, M. et al. 2D and 3D cell cultures - a comparison of different types of cancer cell cultures. Arch Med Sci. 14(4),
+                                 910–919, https://doi.org/10.5114/aoms.2016.63743 (2018).
+                              3. Kim, S. J., Kim, E. M., Yamamoto, M., Park, H. & Shin, H. Engineering multi‐cellular spheroids for tissue engineering and
+                                 regenerative medicine. Advanced Healthcare Materials. 9(23), 2000608, https://doi.org/10.1002/adhm.202000608 (2020).
+                              4. Peirsman, A. et al. MISpheroID: a knowledgebase and transparency tool for minimum information in spheroid identity. Nature
+                                 methods. 18(11), 1294–1303, https://doi.org/10.1038/s41592-021-01291-4 (2021).
+                              5. Zanoni, M. et al. 3D tumor spheroid models for in vitro therapeutic screening: a systematic approach to enhance the biological
+                                 relevance of data obtained. Scientific reports. 6(1), 19103, https://doi.org/10.1038/srep19103 (2016).
+                              6. Senrung, A. et al. 3D tumor spheroids: morphological alterations a yardstick to anti-cancer drug response. In vitro models. 2,
+                                 219–248, https://doi.org/10.1007/s44164-023-00059-8 (2023).
+                              7. Valente, R. et al. Doxorubicin-sensitive and -resistant colorectal cancer spheroid models: assessing tumor microenvironment
+                                 features for therapeutic modulation. Front Cell Dev Biol. 11, 1310397, https://doi.org/10.3389/fcell.2023.1310397 (2023).
+                              8. Lampart, F. L., Iber, D. & Doumpas, N. Organoids in high-throughput and high-content screenings. Frontiers in Chemical
+                                 Engineering. 5, 1120348, https://doi.org/10.3389/fceng.2023.1120348 (2023).
+                              9. Han, S. J., Kwon, S. & Kim, K. S. Challenges of applying multicellular tumor spheroids in preclinical phase. Cancer Cell Int. 21, 152,
+                                 https://doi.org/10.1186/s12935-021-01853-8 (2021).
+                             10. Manduca, N., Maccafeo, E., De Maria, R., Sistigu, A. & Musella, M. 3D cancer models: One step closer to in vitro human studies.
+                                 Front Immunol. 11(14), 1175503, https://doi.org/10.3389/fimmu.2023.1175503 (2023).
+                             11. Sakalem, M. E., De Sibio, M. T., da Costa, F. A. D. S. & de Oliveira, M. Historical evolution of spheroids and organoids, and
+                                 possibilities of use in life sciences and medicine. Biotechnology Journal. 16(5), 2000463, https://doi.org/10.1002/biot.202000463
+                                 (2021).
+                             12. Yang, Y. et al. Advances and Applications of Cancer Organoids in Drug Screening and Personalized Medicine. Stem Cell Rev and Rep
+                                 20, 1213–1226, https://doi.org/10.1007/s12015-024-10714-6 (2024).
+                             13. Janesick, A. et al. High resolution mapping of the tumor microenvironment using integrated single-cell, spatial and in situ analysis.
+                                 Nature Commun. 14(1), 8353, https://doi.org/10.1038/s41467-023-43458-x (2023).
+
+
+
+Scientific Data |   (2025) 12:492 | https://doi.org/10.1038/s41597-025-04832-0                                                                                             5
+www.nature.com/scientificdata/                                                                                       www.nature.com/scientificdata
+
+
+                             14. Shi, Y. et al. Smart lattice light-sheet microscopy for imaging rare and complex cellular events. Nature Methods. 21, 301–310, https://
+                                 doi.org/10.1038/s41592-023-02126-0 (2024).
+                             15. Sritharan, S. & Sivalingam, N. A comprehensive review on time-tested anticancer drug doxorubicin. Life sciences 278, 119527,
+                                 https://doi.org/10.1016/j.lfs.2021.119527 (2021).
+                             16. Piccinini, F. AnaSP: a software suite for automatic image analysis of multicellular spheroids. Computer Methods and Programs in
+                                 Biomedicine. 119(1), 43–52, https://doi.org/10.1016/j.cmpb.2015.02.006 (2015).
+                             17. Stellato, M. et al. Radiomic analysis of 3D spheroids using 2D brightfield images. Biomedical Signal Processing and Control 103,
+                                 107366, https://doi.org/10.1016/j.bspc.2024.107366 (2025).
+                             18. Piccinini, F., Tesei, A., Arienti, C. & Bevilacqua, A. Cancer multicellular spheroids: Volume assessment from a single 2D projection.
+                                 Computer Methods and Programs in Biomedicine. 118(2), 95–106, https://doi.org/10.1016/j.cmpb.2014.12.003 (2015).
+                             19. Piccinini, F. & Diosdi, A. 2024_Diosdi_ tumour-stroma_spheroid_multicultures_dataset. figshare https://doi.org/10.6084/
+                                 m9.figshare.c.7357135 (2024).
+                             20. Shishido, A. et al. Mesothelial cells facilitate cancer stem-like properties in spheroids of ovarian cancer cells. Oncology reports. 40(4),
+                                 2105–2114, https://doi.org/10.3892/or.2018.6605 (2018).
+                             21. Diosdi, A. et al. A quantitative metric for the comparative evaluation of optical clearing protocols for 3D multicellular spheroids.
+                                 Computational and Structural Biotechnology Journal. 19, 1233–1243, https://doi.org/10.1016/j.csbj.2021.01.040 (2021).
+                             22. Mukashyaka, P. et al. High-throughput deconvolution of 3D organoid dynamics at cellular resolution for cancer pharmacology with
+                                 Cellos. Nature Commun. 14(1), 8406, https://doi.org/10.1038/s41467-023-44162-6 (2023).
+                             23. Hollandi, R. et al. Nucleus segmentation: towards automated solutions. Trends in Cell Biology. 32(4), 295–310, https://doi.
+                                 org/10.1016/j.tcb.2021.12.004 (2022).
+                             24. Diosdi, A. et al. HCS-3DX, a next-generation AI-driven automated 3D high-content screening system. BioRxiv. 2024.07.15.603536
+                                 https://doi.org/10.1101/2024.07.15.603536 (2024).
+                             25. Diosdi, A. et al. Cell lines and clearing approaches: a single-cell level 3D light-sheet fluorescence microscopy dataset of multicellular
+                                 spheroids. Data in Brief. 36, 107090, https://doi.org/10.1016/j.dib.2021.107090 (2021).
+
+                             Acknowledgements
+                             We acknowledge support from the HUNRENTECH (TECH-2024-34), Lendület BIOMAG grant (no. 2018–342),
+                             TKP2021-EGA09, Horizon-BIALYMPH, Horizon-SYMMETRY, Horizon-SWEEPICS, H2020-Fair-CHARM, CZI
+                             Deep Visual Proteomics, HAS-NAP3, the ELKH-Excellence grant from OTKA-SNN no. 139455/ARRS, the FIMM
+                             High Content Imaging and Analysis Unit (FIMM-HCA; HiLIFE-HELMI), and Finnish Cancer Society. FP and GC
+                             acknowledge support from the MAECI Science and Technology Cooperation Italy-South Korea Grant Years 2023–
+                             2025 by the Italian Ministry of Foreign Affairs and International Cooperation (CUP project: J53C23000300003);
+                             MH acknowledges support from the ÚNKP-23-4-SZTE-639 New National Excellence Program of the Ministry for
+                             Culture and Innovation from the source of the National Research, Development and Innovation Fund and the János
+                             Bolyai Research Scholarship of the Hungarian Academy of Sciences. TB acknowledges support from the EKÖP-24-3-
+                             SZTE-318. We would like to thank Lilla Pinter (HUN-REN BRC, Szeged, Hungary) for technical assistance in preparing
+                             the spheroids; Mariachiara Stellato (University of Bologna, Italy) for checking all the files uploaded to figshare.
+
+                             Author contributions
+                             Conceptualization: M.H., A.D., G.D.; Data curation: M.H., A.D., G.C., F.P.; Formal analysis: M.H., A.D., F.P.;
+                             Funding acquisition: P.H., K.B., M.H.; Investigation: M.H., A.D., T.B.; Methodology: M.H., A.D., G.D.; Project
+                             administration: M.H., A.D., F.P.; Resources: P.H., K.B.; Software: A.D.; Supervision: P.H., K.B.; Validation: M.H.;
+                             Visualization: G.C., F.P.; Writing - original draft: M.H., A.D., F.P.; Writing - review & editing: G.C., P.H., K.B.
+
+                             Funding
+                             Open access funding provided by HUN-REN Biological Research Centre, Szeged.
+
+                             Competing interests
+                             The authors declare no competing interests.
+
+                             Additional information
+                             Supplementary information The online version contains supplementary material available at https://doi.
+                             org/10.1038/s41597-025-04832-0.
+                             Correspondence and requests for materials should be addressed to M.H.
+                             Reprints and permissions information is available at www.nature.com/reprints.
+                             Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and
+                             institutional affiliations.
+                                           Open Access This article is licensed under a Creative Commons Attribution 4.0 International
+                                           License, which permits use, sharing, adaptation, distribution and reproduction in any medium or
+                             format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Cre-
+                             ative Commons licence, and indicate if changes were made. The images or other third party material in this
+                             article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the
+                             material. If material is not included in the article’s Creative Commons licence and your intended use is not per-
+                             mitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the
+                             copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+
+                             © The Author(s) 2025
+
+
+
+
+Scientific Data |   (2025) 12:492 | https://doi.org/10.1038/s41597-025-04832-0                                                                                            6
+

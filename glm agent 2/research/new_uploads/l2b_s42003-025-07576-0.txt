@@ -1,0 +1,756 @@
+                                    communications biology                                                                                                                           Article
+
+
+
+                                                                                                                                                  https://doi.org/10.1038/s42003-025-07576-0
+
+
+                                    Transient destabilization of whole
+                                    brain dynamics induced by N,N-
+                                    Dimethyltryptamine (DMT)
+                                                                                                                                                                              Check for updates
+                                                                   1                               1,2                      1,3                      2,4
+                                    Juan Ignacio Piccinini     , Yonatan Sanz Perl   , Carla Pallavicini , Gustavo Deco   ,
+                                    Morten Kringelbach 5,6,7, David Nutt 8, Robin Carhart-Harris8,9, Christopher Timmermann8 &
+                                    Enzo Tagliazucchi 1,10
+
+
+                                    The transition towards the brain state induced by psychedelic drugs is frequently neglected in favor of
+                  1234567890():,;
+1234567890():,;
+
+
+
+
+                                    a static description of their acute effects. We use a time-dependent whole-brain model to reproduce
+                                    large-scale brain dynamics measured with fMRI from 15 volunteers under 20 mg intravenous N,N-
+                                    Dimethyltryptamine (DMT), a short-acting psychedelic. To capture its transient effects, we parametrize
+                                    the proximity to a global bifurcation using a pharmacokinetic equation. Simulated perturbations reveal
+                                    a transient of heightened reactivity concentrated in fronto-parietal regions and visual cortices,
+                                    correlated with serotonin 5HT2a receptor density, the primary target of psychedelics. These advances
+                                    suggest a mechanism to explain key features of the psychedelic state and also predicts that the
+                                    temporal evolution of these features aligns with pharmacokinetics. Our results contribute to
+                                    understanding how psychedelics introduce a transient where minimal perturbations can achieve a
+                                    maximal effect, shedding light on how short psychedelic episodes may extend an overarching
+                                    inﬂuence over time.
+
+
+                                    Psychedelic drugs offer an opportunity to investigate how changes in the               In recent years, generative whole-brain activity models have been
+                                    brain across multiple spatiotemporal scales interact with human con-             increasingly adopted to test potential mechanisms underlying neuroima-
+                                    sciousness and cognition1. At the molecular level, psychedelics bind to the      ging data, including successful applications to the speciﬁc case of psyche-
+                                    serotonin 5HT2a receptor2, recruiting speciﬁc intracellular signaling path-      delic compounds psilocybin and lysergic acid diethylamide (LSD)20. In these
+                                    ways that are different from those implicated in the action of non-              two case studies, biophysical models consisting of local excitatory and
+                                    psychedelic 5HT2A agonists3,4. The subjective effects of psychedelics may        inhibitory populations with excitatory long-range connections were used to
+                                    also depend on other pharmacological and non-pharmacological factors5,           provide evidence supporting psychedelic-induced modulation of 5HT2a
+                                    the latter including the context of drug intake and the mindset of the user6.    synaptic scaling21–23. Herzog and colleagues implemented a similar model to
+                                    At the systems level, psychedelics increase global network integration           show that 5HT2a receptor stimulation is consistent with increased brain-
+                                    measured with functional magnetic resonance imaging (fMRI)7–12, and              wide entropy13, in agreement with the theoretical model of psychedelic
+                                    evidence from multiple modalities links their effects to increased entropy       action proposed by Carhart-Harris24. A complementary approach is to
+                                    and complexity of spontaneous brain activity ﬂuctuations13–19. An inte-          consider phenomenological models to investigate changes in global brain
+                                    grative understanding of psychedelic action would require the identiﬁcation      dynamics in line with insights and metrics from complexity science25. This
+                                    of causal mechanisms behind these empirical observations, from molecules         approach was followed to demonstrate that LSD increases the complexity of
+                                    to subjective experience1.                                                       spontaneous brain activity as assessed via fMRI26, an observation consistent
+
+
+                                    1
+                                      Universidad de Buenos Aires, Facultad de Ciencias Exactas y Naturales, Departamento de Física, and CONICET - Universidad de Buenos Aires, Instituto de Física
+                                    Aplicada e Interdisciplinaria (INFINA), Buenos Aires, Argentina. 2Center for Brain and Cognition, Computational Neuroscience Group, Department of Information
+                                    and Communication Technologies, Universitat Pompeu Fabra, Barcelona, Spain. 3Integrative Neuroscience and Cognition Center, CNRS, Université Paris Cité,
+                                    Paris, France. 4Institució Catalana de la Recerca i Estudis Avançats (ICREA), Barcelona, Spain. 5Centre for Eudaimonia and Human Flourishing, University of
+                                    Oxford, Oxford, UK. 6Department of Psychiatry, University of Oxford, Oxford, UK. 7Center for Music in the Brain, Department of Clinical Medicine, Aarhus
+                                    University, Aarhus, Denmark. 8Centre for Psychedelic Research, Department of Brain Sciences, Faculty of Medicine, Imperial College London, London, UK.
+                                    9
+                                      Psychedelics Division, Neuroscape, Department of Neurology, University of California San Francisco, San Francisco, CA, USA. 10Latin American Brain Health
+                                    Institute (BrainLat), Universidad Adolfo Ibañez, Santiago, Chile.    e-mail: piccijuan@gmail.com; tagliazucchi.enzo@googlemail.com
+
+
+                                    Communications Biology | (2025)8:409                                                                                                                         1
+https://doi.org/10.1038/s42003-025-07576-0                                                                                                                Article
+
+with previous studies showing an expanded repertoire of brain states with          similarity between functional connectivity (FC) matrices computed over
+facilitated transitions between them19,27, constituting a potential mechanism      short windows starting at time points i and j (see Methods). Note that in
+for the psychedelic-induced enhancement of neural ﬂexibility28. Moreover,          contrast to previous applications of this model to resting state data21,34,36–38,
+the dynamical characterization of psychedelic action reveals a scenario            we did not optimize the statistical similarity between the empirical and
+opposite to that of unconsciousness, where a reduction in the repertoire of        simulated FCD matrices; instead, we employed the Euclidean distance -also
+brain states and an increase in their stability against perturbations is           known as Frobenius distance- for their comparison, as we were interested in
+observed25,29,30 as hypothesized in previous theoretical work24.                   capturing the temporal evolution introduced by DMT.
+      To date, whole-brain models have been used to investigate the
+mechanisms underlying the steady-state effects of LSD and psilocybin, two          Model optimization
+classic psychedelic drugs. However, it is currently unknown whether the            To determine the optimal gamma function parameters to reproduce the
+putative mechanisms of psychedelic action identiﬁed by these models also           whole-brain dynamics represented by the FCD, we performed an exhaustive
+extend to the transitions from pre-dose baseline and the acute effects. Time-      exploration of all pairwise combinations of λ and β within a range of values
+dependent models capable of ﬁtting dynamics across transitions are                 compatible with the expected DMT pharmacokinetics (see Methods). The
+necessary to distinguish between the neurochemical modulation of brain             results of this exploration are shown in Fig. 2A for the placebo (left) and
+activity, aligned with the drug pharmacokinetics, and the indirect effects of      DMT conditions (right), with lower values indicating a better model ﬁt
+factors linked to the interplay between expectations, subjective effects, and      (average of n = 50 independent simulations). For the placebo condition, the
+the short-term impact of the experience on the emotional state of the              optimal values were located within a large region of comparatively low
+subjects1. Moreover, developing computational models sensitive to slow             amplitude and variable latency, evidencing a weak temporal dependency
+temporal ﬂuctuations in brain activity may contribute to determine whether         without a clearly deﬁned peak of maximal intensity. Conversely, for DMT
+the pharmacology of certain psychedelics is multi-phasic, as has been pro-         this region was displaced and reduced to encompass shorter and less vari-
+posed for the case of LSD31. The short-lasting psychedelic effects of intra-       able latencies, together with larger amplitude values. Figure 2B represents
+venous DMT are ideally suited for this purpose, as they are highly dynamic         the empirical (left column) and optimal simulated (right column) FCD
+and give way to the recovery of the baseline state after around 30 minutes32.      matrices for the placebo (ﬁrst row) and DMT conditions (second row). Note
+Making progress in this direction, recent studies have found that speciﬁc          that the two diagonal blocks of the FCD matrices separate the baseline (see
+EEG features of the DMT state are correlated with the serum concentration          Fig. 1, “Functional connectivity dynamics”) and post-administration peri-
+of the drug17,33. However, the dynamical principles behind the transition to       ods. The model is capable of approximating this temporal structure, as well
+altered consciousness remain to be addressed by modeling efforts.                  as the overall intensity of the matrix element values.
+      In this work, we adopted a model previously used to investigate the                After determining the optimal λ and β for each independent run of the
+effects of psychedelic drugs26, introducing time dependency in the para-           simulation, we explored the corresponding aðtÞ plots displayed in Fig. 3A for
+meter governing the proximity to dynamical criticality, i.e. a phase transition    placebo and DMT, with thicker lines indicating the mean across all n = 50
+between qualitatively different dynamics (chaos/noise vs. statistical regula-      simulations. This ﬁgure shows that dynamics start from a baseline of sus-
+rities/oscillations34). To model the relatively short-lasting effects induced by   tained oscillations at a = 0.07. After DMT infusion, we observed a sharp and
+DMT, the temporal evolution of the model bifurcation parameter was                 rapid decrease of aðtÞ which displaced whole-brain dynamics towards the
+constrained to represent a simpliﬁed version of DMT pharmacokinetics35.            bifurcation at a = 0. Reaching its peak after  5 minutes, the parameter aðtÞ
+The optimization of the free parameters underlying this temporal evolution         gradually recovered towards baseline values at the end of the scanning
+allowed us to reproduce the empirical functional connectivity dynamics             session. In contrast, results for the placebo condition showed a lower peak
+(FCD)36, and subsequently the optimal peak intensity and latency for DMT           amplitude combined with longer latencies, to the point where the peaks were
+vs. a placebo control condition. Finally, we investigated the stability of the     not reached during the scanning session. As a consequence, aðtÞ for the
+simulated dynamics against external perturbations, thus assessing potential        placebo condition approximated the constant baseline value with com-
+correlations between the local regional reactivity and the density of 5HT2a        paratively smaller temporal variation. Figure 3B summarizes the differences
+receptors, the main pharmacological target of DMT2.                                between the dynamics of aðtÞ found for placebo and DMT in the two-
+                                                                                   dimensional space spanned by λ and β, where each point represents optimal
+Results                                                                            values for an independent run of the simulation, and the larger full circles
+Methodological overview                                                            indicate the mean across all simulations. For the DMT condition, we could
+Figure 1 provides an outline of the methods and the overall procedure.             observe that λ and β were clustered in the upper left corner, indicating
+Following previous work, the local dynamics in the whole-brain model were          comparatively low latencies and high amplitude peaks (λ = 159.3 ± 7, β =
+given by Stuart-Landau nonlinear oscillators, with a bifurcation at a = 036.       284 ± 37, 95% conﬁdence interval [CI]). Conversely, the placebo condition
+For a > 0 the model presents stable oscillations, while a < 0 results in stable    resulted in low amplitude values and more variable latencies, skewed
+spirals, which extinguish the oscillation amplitude until the dynamics are         towards larger values relative to DMT (λ = 65.6 ± 9, β = 588 ± 69, 95% CI).
+dominated by the additive noise term, ηðtÞ. Close to the bifurcation (i.e.         Both clusters of values could be clearly separated, supporting the ﬁnding of
+dynamic criticality), the noise introduces spontaneous switches between            qualitatively different aðtÞ dynamics between conditions (t-test p < 0.0001
+both regimes, resulting in oscillations with complex amplitude ﬂuctuations.        for both parameters).
+To model the time-dependent changes introduced by DMT, we put forward
+an assumed equation for the bifurcation parameter aðtÞ given by the gamma          Oscillatory perturbations produce transients of heightened
+function shown in Fig. 1. Parameters λ and β determine the peak amplitude          reactivity in DMT
+and its latency, respectively. For an adequate choice of parameters, this          After determining the optimal parameters to ﬁt the FCD, we used the
+function rises rapidly and then presents a slow decay, constituting an             resulting models to investigate the time-dependent effects of delivering
+approximate description of the pharmacokinetics of bolus intravenous               external perturbations. This analysis was motivated in previous reports
+DMT administration35. The local Stuart-Landau nonlinear oscillators were           indicating that psychedelics increase the reactivity to external stimuli and
+coupled using an averaged structural connectivity matrix inferred using            facilitate transitions between brain metastable states26,27. Based on these
+diffusion tensor imaging (DTI) from healthy individuals and scaled by the          results, we hypothesized that DMT would result in a transient episode of
+global coupling parameter G. Since we aimed to capture the temporal                more sensitive brain dynamics, arising due to a destabilization of whole-
+evolution introduced by the short-acting effects of DMT, we optimized the          brain dynamics, i.e. due to the increased proximity to dynamic criticality.
+gamma function parameters λ and β to ﬁt the reproduction of the mean                     To test our hypothesis, we introduced a periodic external perturbation
+FCD computed from n = 15 participants, which contains in its i; j entry the        at the frequency of the endogenous oscillations, which was previously shown
+
+
+Communications Biology | (2025)8:409                                                                                                                              2
+https://doi.org/10.1038/s42003-025-07576-0                                                                                                                        Article
+
+
+
+
+Fig. 1 | Overview of the whole-brain model and the choice of optimization target.        structural connectivity given by DTI scaled by G to reproduce the empirical FCD.
+A Dynamics of a single node (“Local Model”), consisting of a Stuart-Landau non-          D Representation of the computation of the FCD matrix, which contains in its i; j
+linear oscillator with bifurcation parameter a, and the imaginary and real part of       entry the similarity between FC matrices computed over short windows starting at
+complex variable z vs. a, showing a transition between stable spirals and limit cycles   time points i and j. The diagonal block encased in red indicates the baseline period
+at a = 0. B Temporal parametrization of the bifurcation parameter aðtÞ, given by a       before the administration of DMT (FCD: functional connectivity dynamics; DMT:
+gamma function with parameters λ (peak amplitude) and β (peak latency).                  dimethyltryptamine; DTI: diffusion tensor imaging).
+C Illustration of how the nodes were coupled (“Inter-areal coupling”) following the
+
+
+
+
+to maximize the effect on the ongoing brain activity39,40. We determined the             Consistent with the results shown in Fig. 4A, the peak values were sys-
+reactivity or sensitivity to the perturbation at each time point, noted here by          tematically lower in placebo vs. DMT for all intensities, indicating higher
+χðtÞ, computing the derivative of the induced FCD changes with a numerical               reactivity to external perturbations during the acute effects of the drug.
+differentiation algorithm (see methods for more details, and see Supple-
+mentary Fig. 1 for an example of how FCD changes at two different sti-                   Correlation between peak differential reactivity and local 5HT2a
+mulation intensities). To facilitate the interpretation of the results, we               receptor density
+introduced this perturbation at nodes located within six resting state net-              Finally, we investigated the correlation between the 5HT2a receptor density
+works (RSN)41 known to encompass different functional brain systems:                     (see Methods) and the peak reactivity (χ max ) across RSN. Based on the
+primary visual (Vis), extrastriate (ES), auditory (Aud), sensorimotor (SM),              known pharmacological action of DMT2, we expected a positive correlation
+default mode (DM) and executive control (EC) cortices. Figure 4A shows                   between these two variables, i.e. that RSN with higher 5HT2a receptor
+χðtÞ for each RSN, both for the placebo (top) and DMT (bottom) conditions                density would show higher χ max values, and vice-versa. Figure 5A illustrates
+(see Supplementary Fig. 2 for an analysis of χ ðt Þ computed using inter-                the spatial conﬁguration of the RSN, while the mean 5HT2a receptor density
+network FCD only). For the latter, it is clear that χðtÞ is aligned with the             per RSN is shown in Fig. 5B. To assess if the difference in χ max between
+expected evolution of drug effect intensity, with the largest reactivity                 conditions can be attributed to the local density of serotonin receptors, we
+obtained at the extrastriate visual cortex. In contrast, the time dependency of          ﬁrst computed the difference between the reactivity curves of DMT and
+χðtÞ was considerably less marked for the placebo group. Figure 4B displays              placebo, resulting in ΔχðtÞ. Figure 5C shows the peak of ΔχðtÞ, Δχ max , vs. the
+the peak of χðtÞ, i.e. χ max , for each RSN and for three different external             5HT2a receptor density of each RSN, together with the best least-squares
+perturbation intensities (F ext ), comparing the DMT and placebo conditions.             linear ﬁt. To estimate the signiﬁcance of this correlation, we conducted a
+
+
+Communications Biology | (2025)8:409                                                                                                                                       3
+https://doi.org/10.1038/s42003-025-07576-0                                                                                                                        Article
+
+
+
+
+Fig. 2 | Exploration of parameter space and Functional Connectivity Dynamics             the placebo and DMT conditions (rows) averaged over n = 15 subjects (independent
+(FCD) corresponding to the optimal model parameters. A Normalized Euclidean              simulations). Simulated FCD matrices were computed using optimal λ and β
+distance between simulated and empirical FCD averaged across n = 50 simulations          parameters marked with the red stars in the left panel. Euclidean distances between
+for every pair of parameters λ and β. The matrices reveal different peak amplitude (λ)   simulated and empirical FCDs were 0.19 ± 0.03 and 0.14 ± 0.02 (95% conﬁdence
+and latency (β) values for placebo vs. DMT. Optimal performance for DMT is               interval [CI]) for DMT and placebo respectively (FCD: functional connectivity
+restricted to a narrower region. The red stars indicate the optimal pair of parameters   dynamics; DMT: dimethyltryptamine).
+selected for each condition. B Empirical and optimal simulated FCD (columns) for
+
+
+
+Fig. 3 | The temporal evolution of the bifurcation
+parameter, a(t), distinguishes between DMT and
+the placebo condition. A aðtÞ, deﬁned as a gamma
+function, for n = 50 independent runs of parameter
+optimization, compared between both conditions.
+Plots with thicker lines indicate the curves associated
+with mean value parameters. B Two-dimensional
+representation of the optimal gamma function
+parameters, λ and β, both for placebo and DMT.
+Individual points indicate the outcome of the n = 50
+independent runs of parameter optimization, while
+the larger full circles represent the average across
+simulation runs. Comparisons for the means of both
+parameters were made with two-sided t-tests with
+p-values < 0.0001 for both parameters (DMT:
+dimethyltryptamine).
+
+
+
+
+bootstrap procedure which resulted in the distribution of correlation coef-              responds to incoming sensory stimuli under the effects of the drug, and may
+ﬁcients (ρ) presented in the inset of this panel, with a mean value of                   also impact on its capacity to amplify endogenous events linked to ongoing
+ρ ¼ 0:9059 ± 0:0003, 95% CI. Figure 5D displays the mean ρ (Δχ max vs.                   mentation and cognitive processing. Note our emphasis on endogenous
+5HT2a receptor density) across a range of external perturbation intensities              events in this regard, as a converse reduced sensitivity to perturbation may
+(F ext ). This plot indicates that low stimulation amplitudes exert an effect that       be true in relation to certain external perturbations, such as sensory-evoked
+is comparatively independent of the local 5HT2a receptor density. However,               potentials42. Indeed, recent work showed that external stimulation delivered
+as the perturbation intensity increases, the receptor density becomes more               during the psychedelic state has stronger effects relative to a control con-
+relevant, peaking at ρ > 0.9. Finally, as the intensity keeps increasing, the            dition, which include changes in the intensity of the experience as well as a
+reactivity decouples again from the receptor density.                                    substantial modiﬁcation of entropy-based metrics of neural activity43. It is
+                                                                                         also important to note that in the study by Mediano et al. the content and
+Discussion                                                                               structure of the stimulation was linked to the change in brain entropy, and
+This study represents a ﬁrst step towards the computational modeling of                  that the results were partially driven by increased entropy of the baseline
+time-dependent psychedelic effects. Our main ﬁnding is that DMT desta-                   condition. In contrast, in our analyses the structured and periodic nature of
+bilizes (i.e. brings closer to the global bifurcation point, or dynamic criti-           the external stimulation exerted a comparatively weak effect on the placebo
+cality) whole-brain dynamics, and that the extent of this destabilization is             vs. drug condition.
+compatible with the characteristic pharmacokinetics of the drug, here                          Previous studies have used similar models to investigate the mechan-
+constrained by a gamma function35. Conversely, an inactive placebo resulted              isms underlying psychedelic-induced changes in fMRI resting state
+in extreme parameter values that ﬂattened this function, thus approx-                    activity26. However, these studies were concerned primarily with the steady-
+imating a constant value over time. A consequence of this loss of stability is           state effects of the drugs, thus neglecting the analysis of periods when their
+the heightened sensitivity to external perturbations39, paralleling the                  intensity changes over time, such as the transitions between the baseline and
+dynamics of the bifurcation parameter and thus being maximal when the                    the acute state. These transitions are difﬁcult to capture for the oral
+perturbation is applied in nodes belonging to RSN with high 5HT2a                        administration of LSD or psilocybin, which results in a slower onset and a
+receptor density. This increased sensitivity may affect how the brain                    less marked transition towards the psychedelic state44,45. In contrast, the
+
+
+Communications Biology | (2025)8:409                                                                                                                                      4
+https://doi.org/10.1038/s42003-025-07576-0                                                                                                                         Article
+
+
+
+
+Fig. 4 | Time-dependent effect of simulated perturbations indicate higher reac-            each RSN and three different external perturbation intensities (F ext ) (n = 200
+tivity for DMT vs. placebo. A Reactivity χðtÞ normalized by the number of nodes in         bootstrapped samples). Comparisons between conditions (for a given perturbation
+the corresponding RSN, for placebo (top) and DMT (bottom). DMT curves peak                 intensity) and between successive perturbation intensities (for a given condition)
+around 4 minutes after the dose, restoring baseline values at the end of the session.      were made with two-sided t-tests, giving p-values < 0.0001 for all comparisons.
+Placebo shows a lower peak amplitude and longer latencies remaining constant               Executive control (EC) network was an exception when comparing F ext = 0.005 and
+during the whole study. Shaded regions of each line denote the standard deviation of       F ext = 0.01 (p = 0.23) (DMT: dimethyltryptamine; RSN: resting state network).
+the reactivities (n = 25 simulations). B Plots of the peak χðtÞ across time (χ max ) for
+
+
+
+intravenous administration of DMT results in a fast-onset and relatively                         Our results draw a parallel between the effects of DMT on whole-brain
+brief psychedelic episode that peaks in subjective intensity only a few                    dynamics and the theory of dynamical and statistical criticality. The main
+minutes after the infusion32 as indeed occurred in our previous work9,17. Our              difference between conditions was the behavior of the bifurcation parameter
+current study shows that the whole-brain FCD dynamics induced by DMT                       across time, resulting in values closer to the critical value coincident with the
+on fMRI data recapitulate this temporal evolution, which was not observed                  peak effects of DMT. This ﬁnding, which is consistent with prior work
+for the placebo. It is important to note that even if the intensity of the DMT             implying increased signatures of criticality in the psychedelic state46,49,50, can
+effects is not reﬂected on the amplitude of the time-domain fMRI signals,                  be interpreted through the critical brain hypothesis, stating that the major
+whole-brain FCD contains sufﬁcient information to determine the temporal                   features of brain dynamics can be explained by proximity to a second-order
+evolution of the DMT experience as shown by the optimal ﬁt of the model to                 phase transition51,52. Near this critical point, the system exhibits divergent
+the FCD data.                                                                              susceptibility (i.e. reactivity), allowing minor perturbations to propagate
+      The transient destabilization of brain dynamics induced by DMT is                    throughout the entire system53. Extending this analogy, we can postulate
+consistent with multiple experimental results and theoretical accounts of                  that 5HT2a receptor activation shifts the network state towards dynamic
+psychedelic action in the human brain24. Drawing from the theory of                        criticality, which is consistent with multiple other ﬁndings related to the
+bifurcations in dynamical systems, as the model approximates the bifur-                    brain dynamics under the effects of psychedelic drugs, as discussed by Girn,
+cation point, both the complexity and entropy of simulated brain activity                  M. et al 202325. We are mindful, however, that certain speciﬁc stimuli
+are expected to increase13–19, together with an expansion in the repertoire                consonant with the ongoing state, such as music54, may have a bigger psy-
+of possible metastable states19. Also, near the bifurcation point, the sen-                chological and, presumably, neurobiological55 impact under psychedelics.
+sitivity of the system to external perturbations is maximized26,39, predicting             This matter may point to the special value of utilizing naturalistic stimuli
+a larger response to a perturbation within the psychedelic state. A pro-                   with good ecological validity in the context of psychedelic research.
+longed period of recovery from perturbation is known as critical slowing                         We also report that the sensitivity to external perturbations covariates
+and is considered to be one of several signatures of critical states, such as a            with the density of 5HT2a receptors. Since we normalized this value by the
+global dynamic bifurcation46. Using non-invasive transcranial magnetic                     total number of nodes in each RSN, the explanation for this correlation
+stimulation (TMS) combined with electroencephalography (EEG), Ort                          should be found in the inﬂuence of 5HT2a in the organization of functional
+and colleagues could not ﬁnd changes in cortical reactivity induced by                     and structural connectivity. This serotonin receptor subtype is implicated in
+psilocybin; however, they informed changes in spectral content and                         large-scale heterogeneities of the human cerebral cortex, constituting an
+subjective experience linked to the stimulation47. This result is partially                important factor to distinguish between unimodal and the higher-level
+consistent with our prediction, especially when taking into account the                    integrative transmodal cortex56. Moreover, by bringing the global dynamics
+differences between TMS and a periodic perturbation delivered at the                       closer to dynamical criticality, 5HT2a receptor activation may facilitate the
+natural frequency of the endogenous oscillations. Empirically, this per-                   switching between inter-areal coupling that may underly psychedelic-
+turbation could be achieved by non-invasive methods such as transcranial                   induced neural57,58 and possibly cognitive ﬂexibility28, and also open a
+alternating current stimulation (tACS)48; however, to date, this form of                   transient window where the increased functional diversity may exert an
+stimulation has not been investigated in participants undergoing the                       effect in the underlying structural connectivity via plasticity effects59.
+effects of psychedelic drugs.                                                              Eventually, this could contribute to consolidating the long-term effects
+
+
+Communications Biology | (2025)8:409                                                                                                                                       5
+https://doi.org/10.1038/s42003-025-07576-0                                                                                                                       Article
+
+
+
+
+Fig. 5 | The peak differential reactivity to external perturbations (Δχmax)              RSN (individual points and mean ± SE). C Peak of ΔχðtÞ (n = 200), Δχ max , vs. the
+between DMT and placebo correlates with the local 5HT2a receptor density.                5HT2a receptor density of each RSN together with the best least-squares linear ﬁt.
+A Spatial conﬁguration of the six RSN that constrained the simulated delivery of the     The inset shows the distribution of correlation coefﬁcients (ρ) obtained using a
+perturbation (Vis: primary visual, nVis = 7; ES: extrastriate, nES = 9; Aud: auditory,   bootstrap procedure (ncorr = 1000). D Correlation coefﬁcient ρ (mean ± SD) vs. the
+nAud = 26; SM: sensorimotor, nSM = 13; DM: default mode, nDM = 12; EC: executive         external perturbation intensity, F ext , n = 1000. (DMT: dimethyltryptamine; RSN:
+control, nEC = 24), adapted from Ipiña, I. P. et al.40. B 5HT2a receptor density per     resting state network; 5HT: 5-hydroxytryptamine).
+
+
+associated with brief psychedelic episodes60. For high values of the external            pass ﬁlters which are necessary to attenuate the effects of scanner drift and
+perturbation amplitude, the reactivity decoupled from the 5HT2a receptor                 head movement63. Therefore, the fMRI time series may not directly reﬂect
+density, likely indicating the saturation of the induced effects on whole-brain          the dynamics of the phenomenon under study, unless the experiment is
+dynamics.                                                                                designed to maximize the signal-to-noise ratio, e.g. with tasks or stimulation
+     We opted to simulate perturbations of the ongoing dynamics with a                   structured in according to an adequate block design64. However, it may not
+periodic signal matching the frequency of the local dynamics, i.e. the                   be possible to control the onset and length of the temporal process under
+resonant frequency. This choice represents transcranial alternating current              study, as in the current application to the study of a transient pharmaco-
+stimulation (tACS) at the peak frequency of the endogenous oscillations.                 logically induced event. This could also occur in the study of seizures65,
+The resonant frequency is a natural choice for stimulation, given that it is             sleep-related transients and graphoelements (e.g. spindles, K-complexes)66,
+known to elicit a maximal response39. Also, more complicated signals can be              spontaneous mentation or ongoing cognition67, and in other endogenous
+represented in the frequency space via their Fourier decomposition, where                phenomena with an interesting temporal structure beyond experimental
+the response will be predominantly elicited by the amplitude of the Fourier              control. In these cases, the use of time-dependent whole-brain models may
+component at the resonant frequency. Previous studies modeled other                      be useful to detect the ﬁngerprints of the event in the FCD, by comparing
+forms of stimulation resembling a single transcranial magnetic stimulation               different temporal parametrizations by ﬁtting and contrasting their corre-
+(TMS) pulse38,61,62. In our model, this would correspond to displacing the               sponding goodness of ﬁt.
+dynamics away from the limit cycle and then determining the necessary                          One important limitation of our approach is that the temporal para-
+time to recover baseline dynamics. This choice presents the advantage of                 metrization a priori constrains the model and its capacity to detect the
+representing the effects of a TMS pulse localized in time, one of the most               underlying temporal dynamics. By choosing a gamma function, our
+commonly used forms of transcranial stimulation. However, it is unloca-                  approach only allowed us to test whether the FCD dynamics under DMT
+lized in the frequency domain, and therefore it does not inform how the                  could be better explained by this speciﬁc temporal evolution of the bifur-
+model responds to speciﬁc frequencies.                                                   cation parameter relative to the placebo condition. However, since we did
+     Beyond the current application, the temporal parametrization of                     not specify a prior the direction of the effect, this approach allowed us to test
+whole-brain models may ﬁnd other uses to test whether a certain temporal                 whether DMT could bring the dynamics closer to the global bifurcation and
+process underlies the recorded neuroimaging data, and to inform the                      therefore towards a point of decreased stability. When comparing the
+potential mechanisms behind the empirical observations. The signal pre-                  gamma function with a null model keeping aðtÞ constant post-dose, we
+processing steps applied to resting state fMRI data typically include high               found that this parametrization outperformed the gamma function for the
+
+
+Communications Biology | (2025)8:409                                                                                                                                     6
+https://doi.org/10.1038/s42003-025-07576-0                                                                                                             Article
+
+placebo condition, as expected from our results. However, we did not ﬁnd           London—Brent and the Health Research Authority, conducted in adher-
+signiﬁcant differences relative to the gamma function for the DMT condi-           ence to the Declaration of Helsinki (2000), the International Committee on
+tion (see supplementary Fig. 3). We note that within the family of gamma           Harmonization Good Clinical Practices guidelines, and the National Health
+functions used to parametrize the bifurcation parameter, the optimal ﬁt was        Service Research Governance Framework. All ethical regulations relevant to
+consistently obtained in a region of parameter space corresponding to a            human research participants were followed.
+relatively early peak at 10 min, and a peak value that was in all cases larger          Volunteers complete two visits at the Imperial College Clinical Imaging
+than the peak value obtained for the placebo condition. These parameter            Facility, spaced two weeks apart. On each testing day, participants were
+values are compatible with human studies of DMT pharmacokinetics68. The            subject to separate scanning sessions. In the initial session, they received
+lack of difference observed between both models could depend on metho-             intravenous administration of either placebo (10 mL sterile saline) or 20 mg
+dological choices (e.g. the choice of the optimization metric and the need to      DMT (fumarate form dissolved in 10 mL sterile saline). This was done in a
+balance relative differences between matrix values vs. the overall magnitude       counter-balanced order, with half receiving placebo and the rest receiving
+of the matrix entries), which could be addressed in future studies ﬁtting          DMT. The ﬁrst session comprised continuous resting-state scans lasting
+whole-brain models to transient brain states.                                      28 minutes, with DMT/placebo administered at the end of the 8th minute,
+      The choice of the gamma function can be justiﬁed by the prior lit-           and scanning concluding 20 minutes after injection. Participants lay in the
+erature on the time course of DMT-induced effects, as well as its effects on       scanner with closed eyes aided by an eye mask, while fMRI data was
+EEG activity and their correlation with the drug pharmacokinetics9,16,17,32.       recorded. In the second session, participants were cued to verbally rate the
+While more complex models could be implemented to adequately describe              subjective intensity of drug effects every minute in real-time. Only fMRI data
+these dynamics33, our choice has the merit of constituting a qualitative           from the ﬁrst scanning session was used for the present analysis.
+description of the transient effects of DMT without incurring in a pro-                 A cohort of 20 participants completed all study visits, consisting of 7
+liferation of free parameters required for more neurobiological realism.           females and a mean age of 33.5 years and a standard deviation of 7.9. For the
+Moreover, the comparatively poor temporal resolution of fMRI may limit             present study data from only 15 of the subjects were used, the rest being
+the potential gain of including a more nuanced description of pharmaco-            discarded due to strong head movement artifacts inside the scanner (see
+dynamics. This limitation could be addressed by reproducing our work with          below for further information on the exclusion criterion). This ﬁnal sample
+data from faster imaging modalities (such as EEG and MEG). Another                 consisted of a cohort with 5 females and a mean age of 39.6 and a standard
+limitation is the number of participants (n = 15), which is comparatively low      deviation of 9.6.
+for a pharmacological fMRI study. In the case of this study, after applying
+strict criteria to exclude subjects due to head motion in the scanner only 75%     fMRI acquisition and preprocessing
+of the original data was included. While we modeled group-averaged FCD             Images were acquired using a 3 T MR scanner (Siemens Magnetom Verio
+matrices, future studies at the single-subject level should attempt to raise the   syngo MR B17) with a 12-channel head coil for compatibility with EEG
+effective number of subjects included in the model. Finally, psychedelics are      acquisition. Functional imaging was performed using a T2*-weighted
+known to introduce physiological effects (e.g. heart rate, blood pressure,         BOLD-sensitive gradient echo planar imaging sequence [repetition
+respiration), as well as alterations to the coupling between neural activity       time (TR) = 2000 ms, echo time (TE) = 30 ms, acquisition time (TA) =
+and the cardiovascular system69. In our study, we followed previous research        28.06 min, ﬂip angle (FA) = 80°, voxel size = 3.0 × 3.0 × 3.0 mm3, 35 slices,
+by modeling physiological noise in terms of the average signal measured at         interslice distance = 0 mm].
+the ventricles, draining veins, and local white matter. While this is a standard         The preprocessing steps involved despiking, slice time correction,
+procedure in the ﬁeld8,70–73, there could be limitations associated with this      motion correction, brain extraction, rigid body registration to anatomical
+approach which could be overcome by introducing regressors based on                scans, nonlinear registration to 2 mm MNI brain, denoising (via Indepen-
+cardiac and respiratory time series74. The limitations imposed by changes to       dent Component Analysis), and scrubbing (using a framewise displacement
+neurovascular coupling could be addressed in future studies by using a             [FD] threshold of 0.4, with scrubbed volumes replaced by the mean of
+condition-speciﬁc hemodynamic response, estimated either from task and/            surrounding volumes)77. The BOLD time series were ﬁltered with a second-
+or stimulation paradigms75, or by deconvolution of resting state BOLD              order Butterworth ﬁlter in the range between 0.01 and 0.08 Hz, in line with
+signals76.                                                                         previous studies78–81. The choice of the low-pass cutoff was justiﬁed as it
+      In summary, our work shifts the focus from the reproduction of the           helps to ﬁlter out physiological noise, which tends to dominate higher
+steady-state effects of psychedelics towards disentangling the dynamics of         frequencies78. Further steps included spatial smoothing (FWHM) of 6 mm,
+the fast-onset and short-lived intravenous DMT experience. The future              linear and quadratic detrending, and regressing out nine nuisance regres-
+implementation of more realistic biophysical models could contribute to            sors. These regressors, all band-pass ﬁltered, consisted of six motion-related
+our understanding of how the interaction between drugs, neurotransmitters          parameters (3 translations, 3 rotations) and three anatomically related
+and receptors is capable of initiating a cascade of neural events which            parameters (ventricles, draining veins, local white matter).
+ultimately results in a global brain state associated with profound alterations          Finally, time series were extracted for each Automated Anatomical
+in consciousness and cognitive processing with potentially lasting                 Labeling (AAL)82 template region by averaging the time series from all
+consequences60. The combination of these models with a more nuanced                voxels within the corresponding region.
+description of drug pharmacokinetics and pharmacodynamics could also                     Out of 20 participants, ﬁve were excluded from group analyses due to
+contribute to explain the potential multiphasic effects of some psychedelic        excessive head movement during the 8-minute post-DMT period ( > 20% of
+compounds, and to test potential mechanisms behind their long-lasting              scrubbed volumes with a framewise displacement threshold [FD] of 0.4).
+effects, which are a key aspect of their possible therapeutic use in patients
+with depression and other psychiatric disorders.                                   Anatomical connectivity matrix (SC)
+                                                                                   The structural connectome was obtained by applying diffusion tensor
+Methods                                                                            imaging (DTI) to diffusion-weighted imaging (DWI) recordings from 16
+Study participants and experimental design                                         healthy right-handed participants (11 men and 5 women, mean age: 24.75 ±
+This is a re-analysis of a previously published EEG-fMRI dataset acquired          2.54 years) recruited online at Aarhus University, Denmark. Subjects with
+from healthy participants under the acute effects of DMT9. The original            psychiatric or neurological disorders (or a history thereof) were excluded
+publication can be referenced for in-depth methodological details.                 from participation. The MRI data (structural MRI, DTI) were recorded in a
+     The study followed a single-blind, placebo-controlled design, with all        single session on a 3 TS Skyra scanner. The following parameters were used
+participants providing written informed consent. The experimental proto-           for the structural MRI T1 scan: voxel size of 1 mm3; reconstructed matrix
+col received approval from the National Research Ethics Committee                  size 256 × 256; echo time (TE) of 3.8 ms and repetition time (TR) of 2300 ms.
+
+
+Communications Biology | (2025)8:409                                                                                                                           7
+https://doi.org/10.1038/s42003-025-07576-0                                                                                                               Article
+
+DWI data were collected using the following parameters: TR = 9000 ms, TE          representing the 90 cortical and subcortical brain areas from AAL parcel-
+= 84 ms, ﬂip angle = 90°, reconstructed matrix size of 106 × 106, voxel size of   lation, with the following temporal evolution for region n:
+1.98 × 1.98 mm with slice thickness of 2 mm and a bandwidth of
+1745 Hz/Px. Furthermore, the data were recorded with 62 optimal nonlinear
+diffusion gradient directions at b = 1500 s/mm2. Approximately one non-               dxn                              P90
+                                                                                       dt ¼ aðtÞ  x n  yn xn  ωyn þ G     C np ðxp  xn Þ þ γηn ðtÞ
+                                                                                                      2    2
+diffusion-weighted image (b = 0) per 10 diffusion-weighted images was                                                    p¼1
+acquired. Additionally, the DTI images were recorded with different phase
+                                                                                     dyn                                P90
+                                                                                      dt ¼ aðtÞ  xn  y n yn þ ωn xn þ G     C np ðyp  yn Þ þ γηn ðtÞ
+                                                                                                    2     2
+encoding directions. One set was collected applying anterior to posterior
+                                                                                                                          p¼1
+phase encoding direction and the second one was acquired in the opposite
+direction. The AAL template was used to parcellate the entire brain into 90                                                                                    ð1Þ
+regions (76 cortical regions and 14 subcortical regions). The parcellation
+contained 45 regions in each hemisphere. To co-register the EPI image to
+                                                                                  Here, ηn represents additive Gaussian noise with standard deviation γ (set to
+the T1-weighted structural image, the linear registration tool from the FSL
+                                                                                  0.05), Cnp are the matrix elements of the anatomical connectivity matrix, G
+toolbox (www.fmrib.ox.ac.uk/fsl, FMRIB, Oxford)83 was employed. The T1-
+                                                                                  is a factor that scales the anatomical connectivity (ﬁxed at G = 0.5,as
+weighted images were co-registered to the T1 template of ICBM 152 in MNI
+                                                                                  determined previously elsewhere40; see also section “Model ﬁtting to base-
+space. The resulting transformations were concatenated, inverted and fur-
+                                                                                  line data”), ωn is the peak frequency of node n in the 0.01-0.08 Hz band
+ther applied to warp the AAL template from MNI space to the EPI native
+                                                                                  (determined using Fourier analysis applied to the empirical time series and
+space, where the discrete labeling values were preserved by applying nearest-
+                                                                                  averaged across participants, see Supplementary Fig. 5 for the distribution of
+neighbor interpolation. SC networks were constructed following a three-
+                                                                                  node frequencies), and variable xn represents the empirical brain activity
+step process. First, the regions of the whole-brain network were deﬁned
+                                                                                  signal of node n, which was used to compute the simulated FC and FCD
+using the AAL template. Second, the connections between nodes in the
+                                                                                  matrices. The simulated time series were not band-pass ﬁltered, given that
+whole-brain network (i.e., edges) were estimated using probabilistic trac-
+                                                                                  the frequency of each node was deﬁned based on the empirical data, and that
+tography for each participant. Third, results were averaged across
+                                                                                  the positive optimal bifurcation parameters resulted in oscillating behavior
+participants.
+                                                                                  with frequencies within the range of the empirical values.
+      Data preprocessing was performed using FSL diffusion toolbox (Fdt)
+                                                                                        The local dynamics present a supercritical bifurcation at a = 0, so that if
+with default parameters. Following this preprocessing, the local probability
+                                                                                  a > 0 the system engages in a stable limit cycle (i.e. oscillations) with angular
+distributions of ﬁber directions were estimated at each voxel84. The prob-
+                                                                                  frequency ωn , and when a < 0 the local dynamics are attracted to a stable
+trackx tool in Fdt was used to provide an automatic estimation of crossing
+                                                                                  ﬁxed point representing a low activity state dominated by noise. Close to the
+ﬁbers within each voxel, which has been shown to signiﬁcantly improve the
+                                                                                  bifurcation, the additive noise can induce a switching behavior between
+tracking sensitivity of non-dominant ﬁber populations in the human
+                                                                                  regimes, resulting oscillations with a complex envelope36.
+brain85. The connectivity probability from a seed voxel i to another voxel j
+                                                                                        To model the short-lasting effects of DMT, we introduce a time-
+was deﬁned by the proportion of ﬁbers passing through voxel i that reached
+                                                                                  dependent bifurcation parameter aðtÞ following a gamma function that
+voxel j (sampling of 5000 streamlines per voxel). All the voxels in each AAL
+                                                                                  represents a simpliﬁed description of drug pharmacokinetics35:
+parcel were seeded (i.e. gray and white matter voxels were considered). This
+was extended from the voxel level to the region level, i.e. in a parcel con-
+sisting of n voxels, 5000 × n ﬁbers were sampled. The connectivity prob-                                                  t=β 
+                                                                                                                          te
+ability Pij from region i to region j was calculated as the number of sampled                                   aðtÞ ¼ λ                                       ð2Þ
+                                                                                                                             N
+ﬁbers in region i that connected the two regions, divided by 5000 × n, where
+n represents the number of voxels in region i. The resulting SC matrices were
+thresholded at 0.1% (i.e. a minimum of ﬁve streamlines).                          where N is a constant that normalizes the term between brackets, λ is a scale
+      Due to the dependence of tractography on the seeding location, the          parameter determining the amplitude of the peak, and β the parameter that
+probability from i to j was not necessarily equivalent to that from j to i.       controls the rate of decay of the function, and therefore is related to the
+However, these two probabilities were highly correlated across the brain for      latency of the peak (see Fig. 1, “Time dependency”).
+all participants (r > 0.70, p < 10 − 50). As the directionality of connections         All codes necessary for the implementation of the model are available
+cannot be determined using diffusion MRI, the unidirectional connectivity         online at https://github.com/juanpiccinini/DMT-whole-brain.
+probability Pij between regions i and j was deﬁned by averaging these two
+connectivity probabilities. This unidirectional connectivity was considered a     Model ﬁtting to empirical data
+measure of SC between the two areas, with Cij = Cji. The regional con-            To characterize the time-dependent structure of brain dynamics, we com-
+nectivity probability was calculated using in-house Perl scripts. For both        puted the FCD matrices (see Fig. 1, “Functional connectivity dynamics”)37.
+phase encoding directions, 90 × 90 symmetric weighted networks were               For this purpose, each full-length signal of 28 min was split up into
+constructed based on the AAL parcellation, and normalized by the number           M = 82 sliding windows of 60 s each, with an overlap of 40 s between suc-
+of voxels in each AAL region, thus representing the SC network organiza-          cessive windows. For each sliding window centered at time t, the functional
+tion of the brain of each participant. Finally, the data was averaged across      connectivity matrix FC(t) was computed. The FCD matrix is a M × M
+participants. (Supplementary Fig. 4 summarizes the similarity between             symmetric matrix whose t 1 , t 2 entry is deﬁned by the Pearson correlation
+structural and functional connectivity, both for simulated and                    coefﬁcient between the upper triangular parts of the two matrices FC(t 1 )
+empirical data).                                                                  and FC(t 2 ). These matrices were computed for each of the ﬁfteen partici-
+                                                                                  pants and simulations by exhaustively exploring the model parameters
+Whole-brain computational model                                                   related to the temporal evolution of the bifurcation parameter, λ and β. To
+We simulated brain activity measured with fMRI at the whole-brain level by        compare the FCD matrices taking into account their temporal structure, we
+using a Stuart–Landau oscillator (i.e. Hopf normal form) for the local            used the Euclidean distance between the elements of the empirical and
+dynamics (see Fig. 1, “Local model”). This phenomenological model aims to         simulated matrices. In Supplementary Fig. 6, we compare the obtained FCD
+directly simulate recorded brain signals. The emergent global dynamics are        matrices with an alternative construction based on phase coherence, while
+simulated by including mutual interactions between brain areas according          the agreement between sliding windows and phase coherence is summar-
+to the anatomical connectivity matrix C ij obtained from DTI (see Fig. 1,         ized in Supplementary Fig. 7. An alternative analysis based on metastability
+“Inter-areal coupling”). The full model consists of 90 coupled nodes              and synchrony is presented in Supplementary Fig. 8.
+
+
+Communications Biology | (2025)8:409                                                                                                                             8
+https://doi.org/10.1038/s42003-025-07576-0                                                                                                                   Article
+
+Model ﬁtting to baseline data                                                         functions, a = 0.07 and ap , with p = 0,…,42. This procedure allowed to
+To ﬁt the model to the baseline data before drug administration, we ﬁrst              compute how the dynamics responded to the external perturbation at each
+conducted a search for the optimal values of the bifurcation parameter a and          ap value over the extended period of time that was used to obtain the FCD.
+the coupling parameter G. This was done by ﬁtting the FCD submatrix                   Regarding the stimulation, we applied the perturbation after the ﬁrst
+comprising the 22 temporal windows (corresponding to the ﬁrst 8 minutes               8 minutes corresponding to the baseline, varying the amplitude Fext from 0
+before DMT injection) averaged over all subjects during both sessions                 to 0.015 in 0.0125 steps. The maximum value of this range was chosen as
+(30 submatrices in total). We performed an exhaustive parameter space                 higher values saturated the local reactivity, ﬂattening the curves. To sum-
+exploration by varying the two free parameters of the model: a was changed            marize, for each combination of RSN, amplitude F ext and the value of ap , we
+homogeneously across all nodes from –0.1 to 0.1 in increments of 0.01, while          computed the resulting FCD and its distance to the empirical condition, and
+G was varied from 0 to 2 in steps of 0.1. This procedure was performed 30             then assessed the impact of the perturbation as explained in the following
+times for each pair of parameters, and the resulting distance metrics were            section.
+then averaged to determine the optimal parameters (see Supplementary
+Fig. 9A). We observed that the optimal values spanned an extended region              Measure of reactivity to perturbations
+in parameter space, which included G = 0.5, a value consistent with pre-              We interpret the whole-brain model reactivity as the sensitivity of brain
+vious determinations of the coupling parameter in similar datasets40. While           activity to changes in the external periodic stimulation. Following an ana-
+the global minimum was found for another value of G, the resulting                    logy with the concept of susceptibility in statistical physics, we deﬁned the
+goodness of ﬁt was almost identical to the value obtained for G = 0.5,                reactivity as the following derivative:
+without signiﬁcant differences between both choices (see panel B of Sup-
+plementary Fig. 9). With the choice of G = 0.5 and a = 0.07, the Euclidean                                                         ∂M
+                                                                                                                       χ ðt Þ ¼                                    ð3Þ
+distance found for the baseline was 0.084 ± 0.005, 95% conﬁdence interval                                                         ∂F ext
+[CI]. Supplementary Fig. 10 presents a complementary comparison of the
+normalized Euclidean distance and the Pearson correlation computed                    where M denotes the Euclidean distance between the simulated and
+between the empirical and simulated FCD and FC matrices.                              empirical FCD matrices. As F ext is increased, we expect the stimulated FCD
+                                                                                      to depart from the baseline empirical value. χ ðt Þ measures the rate at which
+Fitting the temporal evolution of the bifurcation parameter                           this divergence occurs. Thus, a large χ ðt Þ value indicates that at time t, the
+We ﬁxed the value of the bifurcation parameter to the baseline value of a =           effect of changing F ext is maximal, measured in terms of its impact on the
+0.07 for the ﬁrst 8 minutes of the simulation and introduced the time                 Euclidean distance between the simulated and empirical FCD matrices.
+dependency afterwards, given
+                           bythe difference between the baseline value              Conversely, a small χ ðt Þ represents a regime were changing F ext exerts
+and the gamma function λ te N
+                                t=β
+                                       , with t = 0 here indicating the time of the   comparatively little impact on the FCD. The reactivity χðtÞ was computed
+                                                                                      using a second order ﬁnite difference method. We evaluated χðtÞ relative to
+drug injection. Next, we performed an exhaustive exploration of the para-             its value at t = 0 by subtracting χðt ¼ 0Þ at later times. This was done in order
+meter space spanned by λ and β, searching for the optimal combination of              to capture the changes of the perturbation relative to the baseline part.
+parameters. For this purpose, we explored a grid given by λ = [0, 200] and            Furthermore, given that the number of nodes differs across the RSNs, and
+β = [20, 900] in steps of 5 and 20 units, respectively. For each parameter            that the reactivity can depend on the number of stimulated nodes, we
+combination, we computed the FCD 15 times (i.e. once per participant)                 normalized its value by the number of nodes of each RSN.
+randomly changing the initial conditions of the model. The resulting FCD
+matrices were averaged and compared with the empirical FCD using the                  Bootstrap method
+Euclidean distance. To compare the FCD matrices taking into account their             To determine the peak of χðtÞ across the duration of the simulation, we used
+temporal structure, we used the Euclidean distance between the elements of            a bootstrapping procedure to obtain a distribution of peak values which
+the empirical and simulated matrices, and then we normalized the results              allowed us to compute a conﬁdence interval for the resulting average value.
+dividing by the empirical norm to account for the relative change. The                The bootstrap procedures were conducted by randomly drawing samples
+procedure described in this section was repeated 50 times for each pair of            (with replacement) from the distribution of values, creating different χðtÞ
+parameters.                                                                           curves in each iteration and measuring its maximum value. The size of the
+                                                                                      sampled subset was equal to that of the original distribution. This procedure
+Simulated perturbations                                                               was repeated 200 times, generating a bootstrap distribution of the desired
+Next, we modeled an oscillatory perturbation and investigated the response            magnitude. When calculating the correlations between local 5HT2a
+of the whole-brain model ﬁtted as explained in the previous section. The              receptor density and the maximum reactivity per RSN, the bootstrap was
+perturbation was given by an external additive periodic forcing term applied          done 1000 times to generate the histograms.
+to node n, Fn ¼ Fext ðcosðωn tÞ þ i sinðωn tÞÞ, where the real part of the
+perturbation is added to the equation for dxdtn in Eq. 1 and the imaginary part       Statistics and Reproducibility
+                                                                                      95% Conﬁdence Intervals were calculated using the standard error of the
+to the equation for dydtn . In the equation for Fn , ωn is the natural frequency of
+                                                                                      mean (SEM) and a z-score of 1.96. Metric comparisons were achieved using
+the time series corresponding to node n (same as in Eq. 1).
+                                                                                      a two-sided paired t-test assuming non-equal variance between pair of
+       To facilitate the interpretation of the results, we applied this pertur-       metrics. To determine the peak location and signiﬁcance of χðtÞ across the
+bation to nodes located within six different resting state networks (RSN)             duration of the simulation, we implemented a bootstrap procedure (see
+identiﬁed using independent component analysis (ICA) by Beckmann,                     section “Bootstrap method”). A Kolmogorov Smirnov test was used in
+et al.41. To account for the time variation of the reactivity, we sampled equally     Supplementary Fig. 3. Effect size to compare model simulations in Sup-
+spaced values of aðtÞ, here noted ap , with p indexing the time sample. In total      plementary Fig. 9 were calculated using Cohen’s d.
+we ended up with 42 ap values corresponding to the gamma function of each
+condition sampled at these time points. Then, for every one of those values,          Receptor density maps
+we performed a simulation keeping ap constant until the end of the simu-              The receptor density maps used were estimated using PET tracer studies
+lation, i.e. for every simulation we set a = 0.07 for the ﬁrst 8 minutes,             obtained by Hansen and colleagues86. All PET images were registered to the
+corresponding to the pre-dose time interval, and then keeping the constant            MNI-ICBM 152 nonlinear 2009 (version c, asymmetric) template and
+value ap until the end of the simulation. Therefore, the functional form of the       subsequently parcellated to the 90 region AAL atlas82. For more details on
+bifurcation parameter is given by the concatenation of two constant                   the acquisitions and limitations of the data set see the original publication86.
+
+
+Communications Biology | (2025)8:409                                                                                                                                 9
+https://doi.org/10.1038/s42003-025-07576-0                                                                                                              Article
+
+Reporting summary                                                                   18. Lebedev, A. V. et al. LSD-induced entropic brain activity predicts
+Further information on research design is available in the Nature Portfolio             subsequent personality change. Hum. Brain Mapp. 37, 3203–3213
+Reporting Summary linked to this article.                                               (2016).
+                                                                                    19. Tagliazucchi, E., Carhart-Harris, R., Leech, R., Nutt, D. & Chialvo, D. R.
+Data availability                                                                       Enhanced repertoire of brain dynamical states during the psychedelic
+Source data to reproduce ﬁgures is available on https://github.com/                     experience. Hum. Brain Mapp. 35, 5442–5456 (2014).
+juanpiccinini/DMT-whole-brain.git along with the code87 (See Code avail-            20. Cofré, R. et al. Whole-Brain Models to Explore Altered States of
+ability). All other data is available from the corresponding author on rea-             Consciousness from the Bottom Up. Brain Sci. 10, 626 (2020).
+sonable request.                                                                    21. Deco, G. et al. Whole-Brain Multimodal Neuroimaging Model Using
+                                                                                        Serotonin Receptor Maps Explains Non-linear Functional Effects of
+Code availability                                                                       LSD. Curr. Biol. 28, 3065–3074.e6 (2018).
+Code needed to simulate the model and evaluate the conclusions in this              22. Kringelbach, M. L. et al. Dynamic coupling of whole-brain neuronal
+paper are available at https://github.com/juanpiccinini/DMT-whole-                      and neurotransmitter systems. Proc. Natl. Acad. Sci. 117, 9566–9576
+brain.git87.                                                                            (2020).
+                                                                                    23. Burt, J. B. et al. Transcriptomics-informed large-scale cortical model
+Received: 13 March 2024; Accepted: 20 January 2025;                                     captures topography of pharmacological neuroimaging effects of
+                                                                                        LSD. eLife 10, e69320 (2021).
+                                                                                    24. Carhart-Harris, R. L. et al. The entropic brain: a theory of conscious
+References                                                                              states informed by neuroimaging research with psychedelic drugs.
+1.    Kwan, A. C., Olson, D. E., Preller, K. H. & Roth, B. L. The neural basis of       Front. Hum. Neurosci. 8, (2014).
+      psychedelic action. Nat. Neurosci. 25, 1407–1419 (2022).                      25. Girn, M. et al. A complex systems perspective on psychedelic brain
+2.    Nichols, D. E. Psychedelics. Pharm. Rev. 68, 264–355 (2016).                      action. Trends Cogn. Sci. 27, 433–445 (2023).
+3.    Wallach, J. et al. Identiﬁcation of 5-HT2A receptor signaling pathways        26. Jobst, B. M. et al. Increased sensitivity to strong perturbations in a
+      associated with psychedelic potential. Nat. Commun. 14, 8221 (2023).              whole-brain model of LSD. NeuroImage 230, 117809 (2021).
+4.    González-Maeso, J. et al. Hallucinogens Recruit Speciﬁc Cortical              27. Singleton, S. P. et al. Receptor-informed network control theory links
+      5-HT2A Receptor-Mediated Signaling Pathways to Affect Behavior.                   LSD and psilocybin to a ﬂattening of the brain’s control energy
+      Neuron 53, 439–452 (2007).                                                        landscape. Nat. Commun. 13, 5812 (2022).
+5.    Zamberlan, F. et al. The Varieties of the Psychedelic Experience: A           28. Doss, M. K. et al. Psilocybin therapy increases cognitive and neural
+      Preliminary Study of the Association Between the Reported                         ﬂexibility in patients with major depressive disorder. Transl. Psychiatry
+      Subjective Effects and the Binding Afﬁnity Proﬁles of Substituted                 11, 1–10 (2021).
+      Phenethylamines and Tryptamines. Front. Integr. Neurosci. 12,                 29. Demertzi, A. et al. Human consciousness is supported by dynamic
+      (2018).                                                                           complex patterns of brain signal coordination. Sci. Adv. 5, eaat7603
+6.    Carhart-Harris, R. L. et al. Psychedelics and the essential importance            (2019).
+      of context. J. Psychopharmacol. 32, 725–731 (2018).                           30. Solovey, G. et al. Loss of Consciousness Is Associated with
+7.    Tagliazucchi, E. et al. Increased Global Functional Connectivity                  Stabilization of Cortical Activity. J. Neurosci. 35, 10866–10877 (2015).
+      Correlates with LSD-Induced Ego Dissolution. Curr. Biol. 26,                  31. Marona-Lewicka, D., Thisted, R. A. & Nichols, D. E. Distinct temporal
+      1043–1050 (2016).                                                                 phases in the behavioral pharmacology of LSD: dopamine D2
+8.    Carhart-Harris, R. L. et al. Neural correlates of the LSD experience              receptor-mediated effects in the rat and implications for psychosis.
+      revealed by multimodal neuroimaging. Proc. Natl. Acad. Sci. 113,                  Psychopharmacology 180, 427–435 (2005).
+      4853–4858 (2016).                                                             32. Strassman, R. J. Human psychopharmacology of N,N-
+9.    Timmermann, C. et al. Human brain effects of DMT assessed via EEG-                dimethyltryptamine. Behavioural Brain Res. 73, 121–124 (1995).
+      fMRI. Proc. Natl. Acad. Sci. 120, e2218949120 (2023).                         33. Eckernäs, E., Timmermann, C., Carhart-Harris, R., Röshammar, D. &
+10.   Preller, K. H. et al. Changes in global and thalamic brain connectivity in        Ashton, M. N,N-dimethyltryptamine affects electroencephalography
+      LSD-induced altered states of consciousness are attributable to the               response in a concentration-dependent manner—A
+      5-HT2A receptor. eLife 7, e35082 (2018).                                          pharmacokinetic/pharmacodynamic analysis. CPT Pharm. Syst.
+11.   Luppi, A. I. et al. LSD alters dynamic integration and segregation in the         Pharma 12, 474–486 (2023).
+      human brain. NeuroImage 227, 117653 (2021).                                   34. Piccinini, J. et al. Noise-driven multistability vs deterministic chaos in
+12.   Bedford, P. et al. The effect of lysergic acid diethylamide (LSD) on              phenomenological semi-empirical models of whole-brain activity.
+      whole-brain functional and effective connectivity.                                Chaos: Interdiscip. J. Nonlinear Sci. 31, 023127 (2021).
+      Neuropsychopharmacol 48, 1175–1183 (2023).                                    35. Salway, R. & Wakeﬁeld, J. Gamma Generalized Linear Models for
+13.   Herzog, R. et al. A whole-brain model of the neural entropy increase              Pharmacokinetic Data. Biometrics 64, 620–626 (2008).
+      elicited by psychedelic drugs. Sci. Rep. 13, 6244 (2023).                     36. Deco, G., Kringelbach, M. L., Jirsa, V. K. & Ritter, P. The dynamics of
+14.   Schartner, M. M., Carhart-Harris, R. L., Barrett, A. B., Seth, A. K. &            resting ﬂuctuations in the brain: metastability and its dynamical
+      Muthukumaraswamy, S. D. Increased spontaneous MEG signal                          cortical core. Sci. Rep. 7, 3095 (2017).
+      diversity for psychoactive doses of ketamine, LSD and psilocybin. Sci.        37. Hansen, E. C. A., Battaglia, D., Spiegler, A., Deco, G. & Jirsa, V. K.
+      Rep. 7, 46421 (2017).                                                             Functional connectivity dynamics: Modeling the switching behavior of
+15.   Viol, A., Palhano-Fontes, F., Onias, H., de Araujo, D. B. & Viswanathan,          the resting state. NeuroImage 105, 525–535 (2015).
+      G. M. Shannon entropy of brain functional complex networks under              38. Kaboodvand, N., van den Heuvel, M. P. & Fransson, P. Adaptive
+      the inﬂuence of the psychedelic Ayahuasca. Sci. Rep. 7, 7388 (2017).              frequency-based modeling of whole-brain oscillations: Predicting
+16.   Pallavicini, C. et al. Neural and subjective effects of inhaled N,N-              regional vulnerability and hazardousness rates. Netw. Neurosci. 3,
+      dimethyltryptamine in natural settings. J. Psychopharmacol. 35,                   1094–1120 (2019).
+      406–420 (2021).                                                               39. Jobst, B. M. et al. Increased Stability and Breakdown of Brain Effective
+17.   Timmermann, C. et al. Neural correlates of the DMT experience                     Connectivity During Slow-Wave Sleep: Mechanistic Insights from
+      assessed with multivariate EEG. Sci. Rep. 9, 16324 (2019).                        Whole-Brain Computational Modelling. Sci. Rep. 7, 4634 (2017).
+
+
+
+Communications Biology | (2025)8:409                                                                                                                           10
+https://doi.org/10.1038/s42003-025-07576-0                                                                                                                 Article
+
+40. Ipiña, I. P. et al. Modeling regional changes in dynamic stability during             and facilitates stratiﬁed neuro-stimulation therapy. NeuroImage 231,
+    sleep and wakefulness. NeuroImage 215, 116833 (2020).                                 117844 (2021).
+41. Beckmann, C. F., DeLuca, M., Devlin, J. T. & Smith, S. M.                       63.   Cordes, D. et al. Frequencies Contributing to Functional Connectivity
+    Investigations into resting-state connectivity using independent                      in the Cerebral Cortex in “Resting-state” Data. Am. J. Neuroradiol. 22,
+    component analysis. Philos. Trans. R. Soc. B: Biol. Sci. 360,                         1326–1333 (2001).
+    1001–1013 (2005).                                                               64.   Liu, J., Duffy, B. A., Bernal-Casas, D., Fang, Z. & Lee, J. H. Comparison
+42. Murray, C. H. et al. Low doses of LSD reduce broadband oscillatory                    of fMRI analysis methods for heterogeneous BOLD responses in
+    power and modulate event-related potentials in healthy adults.                        block design studies. NeuroImage 147, 390–408 (2017).
+    Psychopharmacology 239, 1735–1747 (2022).                                       65.   Chaudhary, U. J., Duncan, J. S. & Lemieux, L. Mapping hemodynamic
+43. Mediano, P. A. M. et al. Effects of External Stimulation on Psychedelic               correlates of seizures using fMRI: A review. Hum. Brain Mapp. 34,
+    State Neurodynamics. ACS Chem. Neurosci. 15, 462–471 (2024).                          447–466 (2013).
+44. Dolder, P. C. et al. Pharmacokinetics and Pharmacodynamics of                   66.   Duyn, J. H. EEG-fMRI Methods for the Study of Brain Networks during
+    Lysergic Acid Diethylamide in Healthy Subjects. Clin. Pharmacokinet.                  Sleep. Front. Neurol. 3, (2012).
+    56, 1219–1230 (2017).                                                           67.   Bréchet, L. et al. Capturing the spatiotemporal dynamics of self-
+45. Holze, F., Becker, A. M., Kolaczynska, K. E., Duthaler, U. & Liechti, M.              generated, task-initiated thoughts with EEG and fMRI. NeuroImage
+    E. Pharmacokinetics and Pharmacodynamics of Oral Psilocybin                           194, 82–92 (2019).
+    Administration in Healthy Participants. Clin. Pharmacol. Therapeutics           68.   Good, M. et al. Pharmacokinetics of N,N-dimethyltryptamine in
+    113, 822–831 (2023).                                                                  Humans. Eur. J. Drug Metab. Pharmacokinet. 48, 311–327 (2023).
+46. Toker, D. et al. Consciousness is supported by near-critical slow               69.   Padawer-Curry, J. A. et al. Psychedelic 5-HT2A Receptor Agonism
+    cortical electrodynamics. Proc. Natl. Acad. Sci. 119, e2024455119                     Alters Neurovascular Coupling in Mice. in Optica Biophotonics
+    (2022).                                                                               Congress: Biomedical Optics 2024 (Translational, Microscopy, OCT,
+47. Ort, A. et al. TMS-EEG and resting-state EEG applied to altered states                OTS, BRAIN) (2024), paper JS4A.48 JS4A.48 (Optica Publishing Group,
+    of consciousness: oscillations, complexity, and phenomenology.                        2024). https://doi.org/10.1364/TRANSLATIONAL.2024.JS4A.48.
+    iScience 26, 106589 (2023).                                                     70.   Mueller, F. et al. Acute effects of LSD on amygdala activity during
+48. Helfrich, R. F. et al. Entrainment of Brain Oscillations by Transcranial              processing of fearful stimuli in healthy subjects. Transl. Psychiatry 7,
+    Alternating Current Stimulation. Curr. Biol. 24, 333–339 (2014).                      e1084–e1084 (2017).
+49. Atasoy, S. et al. Connectome-harmonic decomposition of human                    71.   Schmidt, A. et al. Acute LSD effects on response inhibition neural
+    brain activity reveals dynamical repertoire re-organization under LSD.                networks. Psychological Med. 48, 1464–1473 (2018).
+    Sci. Rep. 7, 17661 (2017).                                                      72.   Carhart-Harris, R. L. et al. Neural correlates of the psychedelic state as
+50. Varley, T. F., Carhart-Harris, R., Roseman, L., Menon, D. K. &                        determined by fMRI studies with psilocybin. Proc. Natl. Acad. Sci.
+    Stamatakis, E. A. Serotonergic psychedelics LSD & psilocybin                          109, 2138–2143 (2012).
+    increase the fractal dimension of cortical brain activity in spatial and        73.   Grimm, O., Kraehenmann, R., Preller, K. H., Seifritz, E. & Vollenweider,
+    temporal domains. NeuroImage 220, 117049 (2020).                                      F. X. Psilocybin modulates functional connectivity of the amygdala
+51. Chialvo, D. R. Emergent complex neural dynamics. Nat. Phys. 6,                        during emotional face discrimination. Eur. Neuropsychopharmacol.
+    744–750 (2010).                                                                       28, 691–700 (2018).
+52. Cocchi, L., Gollo, L. L., Zalesky, A. & Breakspear, M. Criticality in the       74.   Kasper, L. et al. The PhysIO Toolbox for Modeling Physiological Noise
+    brain: A synthesis of neurobiology, models and cognition. Prog.                       in fMRI Data. J. Neurosci. Methods 276, 56–72 (2017).
+    Neurobiol. 158, 132–152 (2017).                                                 75.   Chang, C., Thomason, M. E. & Glover, G. H. Mapping and correction of
+53. Tian, Y. et al. Theoretical foundations of studying criticality in the brain.         vascular hemodynamic latency in the BOLD signal. NeuroImage 43,
+    Netw. Neurosci. 6, 1148–1185 (2022).                                                  90–102 (2008).
+54. Kaelen, M. et al. LSD enhances the emotional response to music.                 76.   Wu, G.-R. et al. rsHRF: A toolbox for resting-state HRF estimation and
+    Psychopharmacology 232, 3607–3614 (2015).                                             deconvolution. NeuroImage 244, 118591 (2021).
+55. Kaelen, M. et al. LSD modulates music-induced imagery via changes               77.   Power, J. D., Barnes, K. A., Snyder, A. Z., Schlaggar, B. L. & Petersen, S.
+    in parahippocampal connectivity. Eur. Neuropsychopharmacol. 26,                       E. Spurious but systematic correlations in functional connectivity MRI
+    1099–1109 (2016).                                                                     networks arise from subject motion. NeuroImage 59, 2142–2154 (2012).
+56. Luppi, A. I. et al. A role for the serotonin 2A receptor in the expansion       78.   Zou, Q.-H. et al. An improved approach to detection of amplitude of
+    and functioning of human transmodal cortex. Brain 147, 56–80 (2024).                  low-frequency ﬂuctuation (ALFF) for resting-state fMRI: Fractional
+57. Roseman, L., Leech, R., Feilding, A., Nutt, D. J. & Carhart-Harris, R. L.             ALFF. J. Neurosci. Methods 172, 137–141 (2008).
+    The effects of psilocybin and MDMA on between-network resting                   79.   Cabral, J. et al. Cognitive performance in healthy older adults relates
+    state functional connectivity in healthy volunteers. Front. Hum.                      to spontaneous switching between states of functional connectivity
+    Neurosci. 8, (2014).                                                                  during rest. Sci. Rep. 7, 5135 (2017).
+58. Petri, G. et al. Homological scaffolds of brain functional networks. J. R.      80.   Deco, G. et al. One ring to rule them all: The unifying role of prefrontal
+    Soc. Interface 11, 20140873 (2014).                                                   cortex in steering task-related brain dynamics. Prog. Neurobiol. 227,
+59. Rocha, R. P. et al. Recovery of neural dynamics criticality in                        102468 (2023).
+    personalized whole-brain models of stroke. Nat. Commun. 13, 3683                81.   Gu, Y. et al. Abnormal dynamic functional connectivity in Alzheimer’s
+    (2022).                                                                               disease. CNS Neurosci. Therapeutics 26, 962–971 (2020).
+60. Aday, J. S., Mitzkovitz, C. M., Bloesch, E. K., Davoli, C. C. & Davis, A.       82.   Tzourio-Mazoyer, N. et al. Automated Anatomical Labeling of
+    K. Long-term effects of psychedelic drugs: A systematic review.                       Activations in SPM Using a Macroscopic Anatomical Parcellation of
+    Neurosci. Biobehav. Rev. 113, 179–189 (2020).                                         the MNI MRI Single-Subject Brain. NeuroImage 15, 273–289 (2002).
+61. Spiegler, A., Hansen, E. C. A., Bernard, C., McIntosh, A. R. & Jirsa, V.        83.   Jenkinson, M., Bannister, P., Brady, M. & Smith, S. Improved
+    K. Selective Activation of Resting-State Networks following Focal                     Optimization for the Robust and Accurate Linear Registration and
+    Stimulation in a Connectome-Based Network Model of the Human                          Motion Correction of Brain Images. NeuroImage 17, 825–841 (2002).
+    Brain. eNeuro 3, (2016).                                                        84.   Behrens, T. E. J. et al. Characterization and propagation of uncertainty
+62. Iravani, B., Arshamian, A., Fransson, P. & Kaboodvand, N. Whole-                      in diffusion-weighted MR imaging. Magn. Reson. Med. 50, 1077–1088
+    brain modelling of resting state fMRI differentiates ADHD subtypes                    (2003).
+
+
+Communications Biology | (2025)8:409                                                                                                                              11
+https://doi.org/10.1038/s42003-025-07576-0                                                                                                             Article
+
+85. Behrens, T. E. J., Berg, H. J., Jbabdi, S., Rushworth, M. F. S. &             Correspondence and requests for materials should be addressed to
+    Woolrich, M. W. Probabilistic diffusion tractography with multiple ﬁbre       Juan Ignacio Piccinini or Enzo Tagliazucchi.
+    orientations: What can we gain? NeuroImage 34, 144–155 (2007).
+86. Hansen, J. Y. et al. Mapping neurotransmitter systems to the                  Peer review information Communications Biology thanks the anonymous
+    structural and functional organization of the human neocortex. Nat.           reviewers for their contribution to the peer review of this work. Primary
+    Neurosci. 25, 1569–1581 (2022).                                               Handling Editors: Laura Rodríguez Pérez and Benjamin Bessieres. A peer
+87. juanpiccinini. juanpiccinini/DMT-whole-brain: DMT_whole_brain.                review ﬁle is available.
+    Zenodo https://doi.org/10.5281/ZENODO.14588378 (2025).
+                                                                                  Reprints and permissions information is available at
+Acknowledgements                                                                  http://www.nature.com/reprints
+E.T. is supported by PICT-2019–02294 (Agencia I + D + i, Argentina), ANID/
+FONDECYT Regular 1220995 (Chile) and by PIP 1122021010 0800CO                     Publisher’s note Springer Nature remains neutral with regard to
+(2022-2024) (CONICET, Argentina). The collection of the empirical data used       jurisdictional claims in published maps and institutional afﬁliations.
+in this manuscript was funded via a donation by Patrick Vernon, mediated by
+the Beckley Foundation. C.T. is funded by a donation by Anton Bilton to the       Open Access This article is licensed under a Creative Commons
+Centre for Psychedelic Research.                                                  Attribution 4.0 International License, which permits use, sharing,
+                                                                                  adaptation, distribution and reproduction in any medium or format, as long
+Author contributions                                                              as you give appropriate credit to the original author(s) and the source,
+J.I.P., Y.S.-P., C.P. and E.T. designed the research. J.I.P. conducted the        provide a link to the Creative Commons licence, and indicate if changes
+research. J.I.P., Y.S.-P. and E.T. analyzed and interpreted the results. J.I.P.   were made. The images or other third party material in this article are
+created the code and made the ﬁgures. D.N, R.C.-H. and C.T. provided the          included in the article’s Creative Commons licence, unless indicated
+curated data. J.I.P. and E.T. wrote the manuscript. C.P., G.D, M.K. provided      otherwise in a credit line to the material. If material is not included in the
+analytic support. Y.S.-P. and E.T. supervised the research. All authors edited    article’s Creative Commons licence and your intended use is not permitted
+the manuscript.                                                                   by statutory regulation or exceeds the permitted use, you will need to
+                                                                                  obtain permission directly from the copyright holder. To view a copy of this
+Competing interests                                                               licence, visit http://creativecommons.org/licenses/by/4.0/.
+The authors declare no competing interest. E.T. is an Editorial Board
+Member for Communications Biology, but was not involved in the editorial          © The Author(s) 2025
+review or the decision to publish this article.
+
+Additional information
+Supplementary information The online version contains
+supplementary material available at
+https://doi.org/10.1038/s42003-025-07576-0.
+
+
+
+
+Communications Biology | (2025)8:409                                                                                                                         12
+
