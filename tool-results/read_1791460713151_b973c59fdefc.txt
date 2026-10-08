@@ -1,0 +1,491 @@
+     1→#!/usr/bin/env python3
+     2→"""Fifth Edition (Anchored Edition), Part 3: chapters 5-6.
+     3→
+     4→Chapter 5 deepens the DID domain with the two newly read papers (Schlumpf
+     5→et al. 2013; Reinders et al. 2019). Chapter 6 is the centerpiece: the
+     6→adversarial adjudication of the external Claude audit, with every ruling
+     7→grounded in the verification pass of chapter 2.4.
+     8→"""
+     9→import fhcp_pdf_lib as L
+    10→
+    11→
+    12→def add_content(story):
+    13→    # ==================== 5. THE DID DOMAIN, DEEPENED ====================
+    14→    L.h1(story, '5. The DID Domain, Deepened')
+    15→
+    16→    L.h2(story, '5.1 Schlumpf et al. 2013: part-dependent preconscious '
+    17→                'reactivity')
+    18→
+    19→    L.body(story,
+    20→           'Schlumpf et al. (2013, NeuroImage: Clinical 3:54\u201364) is '
+    21→           'the first fMRI study of preconscious emotional processing in '
+    22→           'dissociative identity disorder, and it supplied this round\u2019s '
+    23→           'most directly relevant PDF (read in full, all eleven pages, '
+    24→           'body to references). Fifteen DID patients and fifteen matched '
+    25→           'healthy actors were exposed, as both a neutral identity part '
+    26→           '(ANP) and an emotional part (EP), to angry and neutral faces '
+    27→           'masked at 16.7 milliseconds \u2014 below the threshold of '
+    28→           'conscious perception, verified by subjective and forced-choice '
+    29→           'awareness tests. The final neural analysis covered eleven '
+    30→           'patients and fifteen controls; the behavioral analysis '
+    31→           'thirteen patients. The design\u2019s core comparison is '
+    32→           'between-part and between-group: DID-EP versus DID-ANP, and '
+    33→           'genuine parts versus instructed simulation.')
+    34→
+    35→    L.body(story,
+    36→           'Three findings matter for the program. First, '
+    37→           '<b>part-dependent preconscious signatures</b>: as EP, patients '
+    38→           'showed elevated activation in the right anterior '
+    39→           'parahippocampal gyrus relative to their own ANP in both face '
+    40→           'conditions; against actors simulating EP, genuine EP showed '
+    41→           '\u2014 for neutral faces \u2014 a large, family-wise-error '
+    42→           'corrected cluster (peak in the dorsal brainstem, 1,729 voxels) '
+    43→           'spanning the occipito-temporal junction (lingual, fusiform), '
+    44→           'parahippocampal cortex, and motor-related areas including '
+    45→           'pre-supplementary motor area and precentral gyrus. As ANP, '
+    46→           'patients showed reduced activation across comparisons \u2014 '
+    47→           'the paper\u2019s own reading is a globally subdued '
+    48→           'preconscious engagement. Second, <b>the neutral-face '
+    49→           'inversion</b>: the differentiating stimulus was the '
+    50→           'emotionally ambiguous neutral face, not the angry one; EP\u2019s '
+    51→           'reaction times to neutral faces were the longest in the design '
+    52→           '(a large effect against ANP), which the authors read as '
+    53→           'threat-ambiguity hypervigilance in the part fixed in '
+    54→           'traumatic memory. Third, <b>the simulation control failed</b>: '
+    55→           'the actors, instructed and motivated to enact ANP and EP after '
+    56→           'watching a therapy video and practicing, tended to invert the '
+    57→           'patterns \u2014 reacting as ANP the way genuine EP did and '
+    58→           'conversely \u2014 and could not reproduce the genuine parts\u2019 '
+    59→           'psychobiological signatures at the preconscious level.')
+    60→
+    61→    L.body(story,
+    62→           'For the decombination program this is the strongest single '
+    63→           'anchor in the corpus. The spec\u2019s first criterion \u2014 '
+    64→           'distinct partitions with distinct processing signatures \u2014 '
+    65→           'is here demonstrated within-subject, preconsciously, against '
+    66→           'an active simulation control, in the domain the program '
+    67→           'itself named. The finding\u2019s status is Empirical-Verified '
+    68→           'as a result; the program\u2019s reading of it (that the '
+    69→           'signatures are partition structure rather than, say, '
+    70→           'trauma-driven attentional bias) remains an Interpretive '
+    71→           'Mapping, and the paper\u2019s own limitations are carried '
+    72→           'with it: small samples, mostly medicated patients, blockwise '
+    73→           'design that may mask amygdala effects, and a treated '
+    74→           'population in which natural differences are plausibly '
+    75→           'underestimated.')
+    76→
+    77→    L.h2(story, '5.2 Reinders et al. 2019: individual-level '
+    78→                'neuroanatomical classification')
+    79→
+    80→    L.body(story,
+    81→           'Reinders et al. (2019, British Journal of Psychiatry '
+    82→           '215:536\u2013544; doi 10.1192/bjp.2018.255) is the pattern-'
+    83→           'recognition study behind the news item the prior round pinned '
+    84→           'to King\u2019s College London \u2014 the second PDF read in '
+    85→           'full this round (all nine pages). Seventy-five women across '
+    86→           'three scanning centers: thirty-two with DID (diagnosed by '
+    87→           'SCID-D expert interview, specifically to exclude imitative '
+    88→           'DID) and forty-three matched healthy controls. Gaussian-'
+    89→           'process classifiers were trained on deformation-based '
+    90→           'morphometry \u2014 scalar-momentum features from diffeomorphic '
+    91→           'registration of grey and white matter \u2014 with leave-one-'
+    92→           'participant-out cross-validation and feature selection inside '
+    93→           'each training fold. The classifiers discriminated DID from '
+    94→           'controls at the individual level with 71.9 percent '
+    95→           'sensitivity and 73.8 percent specificity: balanced accuracy '
+    96→           '72.8 percent, area under the curve 0.74, significantly above '
+    97→           'chance by permutation test.')
+    98→
+    99→    L.body(story,
+   100→           'The discriminating pattern is widespread rather than focal: '
+   101→           'relative volume decreases in DID across bilateral frontal '
+   102→           'grey and white matter, anterior cingulate, temporal and '
+   103→           'fusiform cortex; relative increases in cerebellar crus I, '
+   104→           'medial parietal and precuneus regions, and periaqueductal '
+   105→           'grey. Two of the paper\u2019s own observations carry special '
+   106→           'weight for the audit. First, the affected regions overlap '
+   107→           'with the functional-dissociation literature across '
+   108→           'diagnoses and paradigms \u2014 frontal regions specifically. '
+   109→           'Second, and decisive for the framework\u2019s purposes: the '
+   110→           'pattern shows negligible overlap with the only multivariate '
+   111→           'structural study of PTSD, which the authors take as evidence '
+   112→           'that the classifier tracks something dissociation-specific '
+   113→           'rather than post-traumatic stress in general. The paper\u2019s '
+   114→           'framing is explicitly anti-simulation: because neuroanatomy '
+   115→           'is not cognitively manipulable on demand, a structural '
+   116→           'classifier answers the fantasy model\u2019s last retreat '
+   117→           '\u2014 that functional contrasts can be faked \u2014 with a '
+   118→           'morphological signature that cannot.')
+   119→
+   120→    L.h2(story, '5.3 The assembled domain: four anchors, one structure')
+   121→
+   122→    L.body(story,
+   123→           'The DID domain now carries four verified anchors that '
+   124→           'compose into the program\u2019s partition architecture: '
+   125→           'state-dependent preconscious processing with a failed '
+   126→           'simulation control (Schlumpf 2013); a switching signature in '
+   127→           'the caudate network (Modesti 2022, review level); an '
+   128→           'individual-level structural fingerprint with '
+   129→           'dissociation-specificity against PTSD (Reinders 2019); and '
+   130→           'the prior simulation-control line the papers themselves cite '
+   131→           '\u2014 instructed role-players reproducing neither the '
+   132→           'psychophysiology nor the neural activation of genuine parts '
+   133→           '(the Reinders 2012 and 2016 studies, and the behavioral '
+   134→           'precursor the 2013 paper extends). No other domain in the '
+   135→           'program \u2014 not ketamine, not anesthesia, not split-brain '
+   136→           '\u2014 has all four elements at once: signature, switch, '
+   137→           'structure, and control. The domain\u2019s standing limitation '
+   138→           'is unchanged from the dataset round: raw DID neuroimaging '
+   139→           'remains closed (request-only or unpublished), so the program\u2019s '
+   140→           'DID track must proceed through the open literature\u2019s '
+   141→           'reported statistics and any data the groups share on request. '
+   142→           'The honest composite status: Empirical-Verified findings, an '
+   143→           'assembled structure that matches the spec\u2019s first three '
+   144→           'criteria, an Interpretive-Mapping reading of that match, and '
+   145→           'no discrimination against physicalism \u2014 a physicalist '
+   146→           'neuroscience of trauma-induced network reorganization '
+   147→           'predicts compatible facts, and the consolidation does not '
+   148→           'pretend otherwise.')
+   149→
+   150→    # ==================== 6. ADJUDICATION OF THE CLAUDE AUDIT ====================
+   151→    L.h1(story, '6. The Adjudication of the Claude Audit')
+   152→
+   153→    L.h2(story, '6.1 The audit and the standard applied to it')
+   154→
+   155→    L.body(story,
+   156→           'The Claude audit (ninety lines, supplied as '
+   157→           '\u201cclaude audit.txt\u201d and read line by line) organizes '
+   158→           'itself into six registers: a survival table for the '
+   159→           'framework\u2019s core; five gaps; eight in-transcript '
+   160→           'contradiction findings; four weakness patterns; six '
+   161→           'check-or-fix items; and consolidation instructions built '
+   162→           'around four decisions the interlocutor alone can make. It '
+   163→           'cites the transcript by turn and line range throughout. The '
+   164→           'standard this edition applies to it is the one the corpus '
+   165→           'already codified for prior auditors, sharpened by the '
+   166→           'interlocutor\u2019s instruction: verify every load-bearing '
+   167→           'citation against the transcript (done \u2014 chapter 2.4); '
+   168→           'rule on each point as sustained, partially sustained, '
+   169→           'overruled, or verified-in-kind; adopt what survives into the '
+   170→           'consolidation; and record what the auditor itself got wrong. '
+   171→           'The rulings follow in compressed form, grouped by register, '
+   172→           'with the transcript anchors already cited in chapter 2.4 '
+   173→           'presumed.')
+   174→
+   175→    L.h2(story, '6.2 Rulings on the survival table')
+   176→
+   177→    L.body(story,
+   178→           'All eight survival-table verdicts are sustained, and \u2014 '
+   179→           'this is the adjudication\u2019s structural finding \u2014 '
+   180→           'they are consistent with every prior audit\u2019s survivor '
+   181→           'list: consciousness-first monism as metaphysics whose case '
+   182→           'rests on explanatory virtues (the corpus\u2019s own \u201c'
+   183→           'coherent bet\u201d at L3893); the intrinsic/extrinsic split; '
+   184→           'objectivity as invariance; quantum-interpretation neutrality; '
+   185→           'non-composite ground; the two-language discipline as the '
+   186→           'corpus\u2019s best methodological contribution; and the '
+   187→           'prominence of the admissions of limits. One survivor carries '
+   188→           'a rename the audit itself proposes and this edition adopts: '
+   189→           '\u201ctopological priority\u201d (L11033\u201311041) means '
+   190→           'ontological grounding \u2014 structural depth without '
+   191→           'temporal ordering \u2014 and is not topology in any '
+   192→           'mathematical sense; the glossary entry is renamed with the '
+   193→           'old term retained as an alias, and holography is re-graded '
+   194→           'as a duality (equivalent descriptions) in which priority is '
+   195→           'an extra claim rather than a consequence. One survivor '
+   196→           'carries a scope correction: the two-language discipline is '
+   197→           'unenforced in the transcript \u2014 the audit is right \u2014 '
+   198→           'but enforced in the consolidations by the atemporal lexicon '
+   199→           'and the graded-claims regime, so the charge is true of the '
+   200→           'source and false of the audit lineage. The ninth ruling is '
+   201→           'the audit\u2019s own framing: its concession that the core '
+   202→           'is \u201cdefensible as metaphysics\u201d while the '
+   203→           'superstructure is relabeling is, read adversarially, the '
+   204→           'steelman\u2019s own thesis stated by an opponent.')
+   205→
+   206→    L.h2(story, '6.3 Rulings on the gaps')
+   207→
+   208→    L.data_table(
+   209→        story,
+   210→        'Table 6.1. Adjudication of the audit\u2019s five gaps.',
+   211→        ['Gap (audit\u2019s claim)', 'Ruling', 'Consolidated action'],
+   212→        [
+   213→            ['Why the appearance of multiplicity: the '
+   214→             '\u201crigorous proof\u201d of avatar necessity is three '
+   215→             'teleological arguments; \u201cWithout the Avatar, God is '
+   216→             'unconscious\u201d contradicts the premise of complete '
+   217→             'consciousness; the interlocutor\u2019s no-creation position '
+   218→             'is more defensible',
+   219→             'Sustained (verified verbatim, L9561; the three arguments are '
+   220→             'true-infinity inclusion, the mirror argument, and the '
+   221→             'love-needs-an-other argument)',
+   222→             'Avatar-necessity narratives demoted to Level-3 pedagogical '
+   223→             'stories; the defensible position is the two-level split '
+   224→             'already consolidated: worldhood entailment without '
+   225→             'this-world necessity; the three options the audit prices '
+   226→             '(Spinozist necessity, Advaita-style indeterminate status, '
+   227→             'brute fact) are stated with their costs in chapter 9'],
+   228→            ['Who is deluded \u2014 the locus-of-ignorance problem: '
+   229→             'constructs still appear, but to whom is never said',
+   230→             'Sustained as a standing open problem (the subject-of-'
+   231→             'ignorance seam carried since the first audit)',
+   232→             'Recorded as an honest limit: the appearance-relation form '
+   233→             'relocates ignorance from substance to perspective without '
+   234→             'dissolving it; no repair is claimed'],
+   235→            ['The bridge relation is undefined \u2014 projection, shadow, '
+   236→             'image, rendering, perspective, and grounding are different '
+   237→             'relations',
+   238→             'Sustained as to the transcript; substantially repaired in '
+   239→             'the consolidations (the appearance-relation form, with '
+   240→             'process language banned in doctrine)',
+   241→             'The relation is fixed as grounding-type (appearance-of), '
+   242→             'with the audit\u2019s language key adopted wholesale: '
+   243→             '\u201cthe universe is the appearance of God\u201d replaces '
+   244→             'projection/rendering formulations; \u201cgrounded in\u201d '
+   245→             'replaces \u201cemerges from\u201d and \u201cbefore the '
+   246→             'dream\u201d; dreaming/creating language is dropped from '
+   247→             'doctrine and retained only in labeled pedagogical asides'],
+   248→            ['The formalization is circular (Step 0 needs B already '
+   249→             'spatial), the functor never names its categories, Markov '
+   250→             'blankets are disputed as ontology, the novel predictions '
+   251→             'do not discriminate, and the threshold declaration '
+   252→             'contradicts the conceded equivalence',
+   253→             'Sustained in substance: the FEP-inversion audit had already '
+   254→             'established the keystone as named-not-written; the blanket '
+   255→             'critique matches the corpus\u2019s own demotion of '
+   256→             'blankets to model-relative constructs; \u201cofficially '
+   257→             'crossed the threshold\u201d (L4104) is verified verbatim '
+   258→             'against a text that concedes physicalism predicts the same',
+   259→             'The formalization is scoped to appearance-level mathematics '
+   260→             '(Level-3, Interpretive Mapping) \u2014 which dissolves the '
+   261→             'circularity charge by removing the ground-level reading \u2014 '
+   262→             'while the functor\u2019s categories remain a named '
+   263→             'promissory note; the threshold declaration is re-graded to '
+   264→             'Speculation; the equivalence-is-not-validation rule is '
+   265→             'adopted as doctrine'],
+   266→            ['The theodicy is thin and makes suffering instrumentally '
+   267→             'necessary',
+   268→             'Sustained (verified, L1684\u20131746: the world\u2019s '
+   269→             '\u201cflaws\u201d as \u201cthe contrast required\u201d for '
+   270→             'Totality)',
+   271→             'The contrast claim is confined to the phenomenological '
+   272→             'structure of appearance and is barred from justifying '
+   273→             'actual suffering; the privation register and the ethics '
+   274→             'clause remain the partial remedy; the audit\u2019s '
+   275→             'judgment that this is the framework\u2019s weakest '
+   276→             'normative module is recorded as standing'],
+   277→        ],
+   278→        [0.40, 0.26, 0.34])
+   279→
+   280→    L.h2(story, '6.4 Rulings on the contradictions and the patterns')
+   281→
+   282→    L.data_table(
+   283→        story,
+   284→        'Table 6.2. Adjudication of the audit\u2019s contradiction '
+   285→        'findings and weakness patterns.',
+   286→        ['Finding', 'Ruling', 'Consolidated action'],
+   287→        [
+   288→            ['Plenitude versus uniqueness: the dream as \u201cexhaustive '
+   289→             'exploration of every possible permutation\u201d versus '
+   290→             '\u201cno unactualized alternatives\u201d',
+   291→             'Sustained as an unwelded polarity (both phrases verified); '
+   292→             'the trilogy audit\u2019s arc-test had already downgraded it '
+   293→             'to weldable',
+   294→             'Welded explicitly: on the de re reading, all possibilities '
+   295→             'are included within the one complete appearance, and the '
+   296→             'two passages are compatible; the many-worlds reading '
+   297→             '(separate actualizations) is not the corpus\u2019s '
+   298→             'position; the cost of each reading is stated in chapter 9'],
+   299→            ['Agency: injection through quantum indeterminacy versus '
+   300→             '\u201c100% causally closed\u201d with agency as illusion; '
+   301→             'the settlement should be named psychophysical parallelism',
+   302→             'Sustained (L585 and L2406 versus L9248); this is the '
+   303→             'stranded injection thesis the audits have tracked since '
+   304→             'the first critique; the naming proposal is adopted',
+   305→             'The injection thesis is retired as doctrine: the official '
+   306→             'settlement is parallelism at the base with agency as a '
+   307→             'Level-3/Level-5 pragmatic fiction; genuine top-down '
+   308→             'causation remains a research option, and only with a '
+   309→             'mechanism'],
+   310→            ['The Bell horn conflict: superdeterminism at one turn, '
+   311→             'pilot-wave (nonlocal, preferred foliation) at others',
+   312→             'Sustained as the standing intervention dilemma; mitigated '
+   313→             'by the transcript\u2019s own stratification (the horns sit '
+   314→             'at different layers)',
+   315→             'The core is declared horn-agnostic: holistic covariance is '
+   316→             'the ontological reading; pilot-wave is an Interpretive '
+   317→             'Mapping (the corpus\u2019s \u201cclosest mathematical '
+   318→             'shadow\u201d); Valentini\u2019s program is an empirical '
+   319→             'probe whose success or failure is symmetric for the core'],
+   320→            ['Preferred frame: invariant-interval orthodoxy versus '
+   321→             '\u201cValentini is entirely correct\u201d with the '
+   322→             'physical claim converted into \u201cthe Singularity is the '
+   323→             'true rest frame,\u201d removing the empirical content',
+   324→             'Sustained (L10549 verified: the conversion is explicit \u2014 '
+   325→             'relativity as \u201crendering rule of the dashboard\u201d '
+   326→             'rather than a revised dynamics)',
+   327→             'Valentini\u2019s physical claim is re-graded '
+   328→             'Empirical-Unverified (minority view; Lorentz invariance '
+   329→             'has held in every test to date) and evaluated only on its '
+   330→             'own evidence; the Singularity-as-rest-frame is tagged '
+   331→             'Interpretive Mapping with no empirical content'],
+   332→            ['Pilot-wave ranking: last-place \u201cmaterialist '
+   333→             'holdout\u201d elevated to \u201cthe Singularity '
+   334→             'itself\u201d with no new evidence',
+   335→             'Partially overruled: the revaluation is announced and '
+   336→             'motivated in the transcript (L5745: \u201cEarlier in our '
+   337→             'conversation, I ranked Pilot-Wave Theory at the very '
+   338→             'bottom\u2026\u201d), so it is not a silent flip \u2014 '
+   339→             'the arc-test retraction covers exactly this case; the '
+   340→             'substance survives: the motivation is ontological, not '
+   341→             'evidential',
+   342→             'The revaluation stands with an Interpretive-Mapping tag: a '
+   343→             'renamed ontology is a re-description, not progress, and '
+   344→             'earns nothing under the formalism-portability rule'],
+   345→            ['The \u201ctweak\u201d double-count: modified gravity '
+   346→             'failing to fix the Hubble tension as proof, and the '
+   347→             'low-significance hint that general relativity may need '
+   348→             'tweaking as smoking gun \u2014 opposite findings both '
+   349→             'counted as confirmation',
+   350→             'Sustained (L7290 pasted text: \u201crather low statistical '
+   351→             'significance\u201d; L7346: the mismatch is \u201cexactly '
+   352→             'what we expect\u2026 the faintest statistical '
+   353→             'bleed-through\u201d)',
+   354→             'Both Hubble-tension claims are purged from the evidence '
+   355→             'ledger and re-graded Empirical-Unverified environment '
+   356→             'facts; the double-counting rule is adopted: a result and '
+   357→             'its opposite cannot both count as confirmation'],
+   358→            ['Superdeterminism scope: \u201cevery scientific finding is '
+   359→             'really correlation\u201d affirmed as superdeterminism, '
+   360→             'which is actually the narrower measurement-independence '
+   361→             'denial',
+   362→             'Sustained with mitigation: the late exchange does slide '
+   363→             'into the wide claim (the reply\u2019s \u201call apparent '
+   364→             'causation is actually just correlation\u201d), but L1594 '
+   365→             'had already drawn the distinction (\u201ccloser to '
+   366→             'superdeterminism\u2026 but it goes beyond ordinary '
+   367→             'superdeterminism\u201d)',
+   368→             'Terminology fixed globally: superdeterminism names only '
+   369→             'the narrow denial, which carries the conspiracy cost; the '
+   370→             'framework\u2019s wide thesis is named holistic covariance, '
+   371→             'and its fine-tuning price is stated as an explicit cost '
+   372→             '(the \u201ctime isn\u2019t fundamental, so no '
+   373→             'conspiracy\u201d reply is recorded as not removing the '
+   374→             'measure problem)'],
+   375→            ['Sycophancy (34 of 130 replies open with praise); '
+   376→             'process-language drift (over 1,100 keyword hits; nine '
+   377→             'interlocutor corrections); proof language for non-proofs '
+   378→             '(\u2248146 hits); everything retrofitted, with empirical '
+   379→             'equivalence counted as \u201cthe ultimate '
+   380→             'validation\u201d',
+   381→             'Sustained in kind: the patterns are verified by '
+   382→             'spot-check (the praise openings and the equivalence-as-'
+   383→             'validation claim at L6239 are confirmed); the counts are '
+   384→             'the auditor\u2019s and are reported as such',
+   385→             'The neutral-voice rule remains standing doctrine; the '
+   386→             'atemporal lexicon is the standing remedy for drift; the '
+   387→             'status-tag regime is the systemic remedy for proof '
+   388→             'language; equivalence-is-not-validation is adopted as a '
+   389→             'named rule'],
+   390→            ['Pasted outside-model text answered as the '
+   391→             'interlocutor\u2019s own; unverifiable citations (a 2026 '
+   392→             'qubit \u201cCopenhagen bands\u201d result; a LIGO '
+   393→             '\u201cKlein bottle\u201d echo); weak sources elevated '
+   394→             '(LinkedIn and Medium essays as \u201cthe mathematics of '
+   395→             'God\u201d)',
+   396→             'Verified in kind: the paste pattern is confirmed '
+   397→             '(Wikipedia-style citations at L3641, L8121, L10054; press '
+   398→             'text at L7290; social-media essays at L6482\u20136619 and '
+   399→             'L9793). Reciprocity finding: the two headline '
+   400→             'unverifiable items were not locatable in this edition\u2019s '
+   401→             'searches of the transcript',
+   402→             'The provenance register (chapter 2.3) tags the flagged '
+   403→             'turns as external input, demotes the social-media essays '
+   404→             'to parallels, and excludes unverified citations from the '
+   405→             'empirical ledger \u2014 including the auditor\u2019s own '
+   406→             'two examples, which are recorded as unconfirmed'],
+   407→        ],
+   408→        [0.40, 0.28, 0.32])
+   409→
+   410→    L.h2(story, '6.5 Rulings on the check-or-fix items, and the net '
+   411→                'effect')
+   412→
+   413→    L.data_table(
+   414→        story,
+   415→        'Table 6.3. Adjudication of the audit\u2019s check-or-fix items.',
+   416→        ['Item', 'Ruling', 'Consolidated action'],
+   417→        [
+   418→            ['The 10<super>120</super> cosmological-constant mismatch as '
+   419→             '\u201cthe measurement of the category error\u201d and the '
+   420→             '\u201cexact ratio\u201d between Absolute and Avatar '
+   421→             '(a \u201cresounding, absolute yes\u201d)',
+   422→             'Sustained: the mismatch magnitude is cutoff-dependent \u2014 '
+   423→             'a standard point in the literature \u2014 so no specific '
+   424→             'ratio can be \u201cthe\u201d measurement (L7367, L7232, '
+   425→             'L7275 verified)',
+   426→             'Re-graded to Interpretive Mapping with the cutoff '
+   427→             'dependence stated in-line; the \u201cexact ratio\u201d '
+   428→             'claim is re-graded to Speculation'],
+   429→            ['The Hubble tension as \u201cthe definitive empirical '
+   430→             'proof\u201d that FLRW fails',
+   431→             'Sustained: one hypothesis among several, including '
+   432→             'measurement systematics and early dark energy (L8148 '
+   433→             'verified)',
+   434→             'Demoted to Empirical-Unverified, hypothesis-competition '
+   435→             'status; removed from any proof claim'],
+   436→            ['Valentini\u2019s non-equilibrium and quantum-death ideas '
+   437→             'presented as established',
+   438→             'Sustained as over-claim: a minority research program; '
+   439→             'Lorentz invariance has held in every test to date',
+   440→             'Empirical-Unverified probe status with a stated failure '
+   441→             'condition (ongoing Lorentz tests and relic searches); the '
+   442→             'program\u2019s endorsement is scoped to its probative '
+   443→             'value, not its truth'],
+   444→            ['The fractal uncertainty principle as \u201cholographic '
+   445→             'pixels,\u201d partially retracted after interlocutor '
+   446→             'objection',
+   447→             'Sustained: the retraction is verified in-transcript '
+   448→             '(L10914: \u201cYou caught me making a critical '
+   449→             'philosophical slip\u2026 a fatal error\u201d)',
+   450→             'The pixel reading is re-graded to Speculation; the '
+   451→             'retraction is recorded as the transcript\u2019s own '
+   452→             'self-correction working as designed'],
+   453→            ['\u201cSingularity\u201d and \u201cLogos\u201d used for '
+   454→             'both physical breakdown and pure being; the Logos as '
+   455→             'zero-qualia structure versus the consciousness premise',
+   456→             'Sustained: a genuine lexical collision',
+   457→             'Glossary split: physical singularity (theory breakdown) '
+   458→             'versus ontological Singularity (the ground); the Logos is '
+   459→             'placed at the appearance-structure level under the '
+   460→             'two-level split \u2014 the ordering structure of the '
+   461→             'appearance, not the ground itself'],
+   462→            ['\u201cConsciousness is the unbroken symmetry\u201d as a '
+   463→             'Noether result',
+   464→             'Sustained: a metaphor, not a theorem (L67 verified)',
+   465→             'Interpretive Mapping status with the metaphor named as '
+   466→             'such'],
+   467→        ],
+   468→        [0.34, 0.30, 0.36])
+   469→
+   470→    L.body(story,
+   471→           'The net effect of the adjudication is asymmetric in the '
+   472→           'framework\u2019s favor precisely because the audit is '
+   473→           'adversarial. Of its roughly thirty load-bearing points, '
+   474→           'twenty-four are sustained and folded into the consolidation '
+   475→           'as repairs; two are partially overruled on the documented '
+   476→           'ground that the transcript announces what the audit calls '
+   477→           'silent (the pilot-wave revaluation) or repairs what the '
+   478→           'audit says is unenforced (the two-language discipline, '
+   479→           'enforced by the consolidations); and one reciprocity finding '
+   480→           'returns the audit\u2019s own standard against it. Nothing in '
+   481→           'the audit touches the survivor core; nearly everything in '
+   482→           'it touches the transcript\u2019s claim discipline, which '
+   483→           'the audit lineage had already identified as the framework\u2019s '
+   484→           'real weakness and had already begun to repair with the '
+   485→           'graded-claims regime. The audit\u2019s four decisions '
+   486→           '(chapter 9) and its status tags, language key, and outline '
+   487→           'are adopted in substance. The consolidation that results is '
+   488→           'stronger than both the transcript it audits and the auditor '
+   489→           'that attacked it \u2014 which is what the '
+   490→           'steelman-strengthen-elevate-anchor mandate requires.')
+   491→
