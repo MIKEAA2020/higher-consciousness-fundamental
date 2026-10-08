@@ -4,20 +4,22 @@
 # Note: MIKEAA2020/master is READ-ONLY for the current PAT (Contents:write denied,
 # 403). If a future token grants master write access, the PREFERENCES.md master
 # protocol can be resumed with a worktree-based additive merge.
-# Token: /home/z/my-project/.github_pat (never printed, never committed).
+# Token: layered self-healing store via scripts/pat_store.sh (never printed,
+# never committed). Falls back through plain + base64-obfuscated copies and
+# regenerates any copy wiped by a session reset.
 set -e
 
 WS=/home/z/my-project
 export GIT_ASKPASS=$WS/scripts/git-askpass.sh
 export GIT_TERMINAL_PROMPT=0
-TOKEN=$(cat "$WS/.github_pat")
+TOKEN=$("$WS/scripts/pat_store.sh" get)
 cd "$WS"
 
 echo "[1/4] Verifying token..."
 LOGIN=$(curl -s -m 20 -H "Authorization: Bearer $TOKEN" https://api.github.com/user \
         | python3 -c "import json,sys; print(json.load(sys.stdin).get('login',''))")
 if [ "$LOGIN" != "MIKEAA2020" ]; then
-  echo "ERROR: token rejected (login='$LOGIN'). Replace $WS/.github_pat with a valid PAT."
+  echo "ERROR: token rejected (login='$LOGIN'). Run: scripts/pat_store.sh save <new-PAT>"
   exit 1
 fi
 echo "    authenticated as: $LOGIN"
