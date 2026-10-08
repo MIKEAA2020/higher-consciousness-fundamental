@@ -1,0 +1,602 @@
+     1→
+     2→===== PAGE 1/12 =====
+     3→The Virtual Epileptic Patient: Individualized whole-brain models
+     4→of epilepsy spread
+     5→V.K. Jirsa a,⁎, T. Proix a, D. Perdikis a, M.M. Woodman a, H. Wang a, J. Gonzalez-Martinez d, C. Bernard a, C. Bénar a,
+     6→M. Guye c, P. Chauvel a,d, F. Bartolomei a,b
+     7→a Aix Marseille Univ, INSERM, INS, Inst Neurosci Syst, Marseille, France
+     8→b Epileptology Department, and Clinical Neurophysiology Department, Assistance Publique des Hôpitaux de Marseille, Marseille, France
+     9→c Aix Marseille Univ, CNRS, CRMBM, Marseille, France
+    10→d Epilepsy Center, Cleveland Clinic, Cleveland, OH, USA
+    11→a b s t r a c t
+    12→a r t i c l e
+    13→i n f o
+    14→Article history:
+    15→Received 19 October 2015
+    16→Accepted 20 April 2016
+    17→Available online 28 July 2016
+    18→Individual variability has clear effects upon the outcome of therapies and treatment approaches. The customization
+    19→of healthcare options to the individual patient should accordingly improve treatment results. We propose a novel
+    20→approach to brain interventions based on personalized brain network models derived from non-invasive structural
+    21→data of individual patients. Along the example of a patient with bitemporal epilepsy, we show step by step how to
+    22→develop a Virtual Epileptic Patient (VEP) brain model and integrate patient-speciﬁc information such as brain con-
+    23→nectivity, epileptogenic zone and MRI lesions. Using high-performance computing, we systematically carry out pa-
+    24→rameter space explorations, ﬁt and validate the brain model against the patient's empirical stereotactic EEG (SEEG)
+    25→data and demonstrate how to develop novel personalized strategies towards therapy and intervention.
+    26→© 2016 The Authors. Published by Elsevier Inc. This is an open access article under the CC BY-NC-ND license
+    27→(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+    28→Introduction
+    29→Personalized medicine proposes the customization of healthcare
+    30→with medical decisions, practices and products being tailored to the
+    31→individual patient. Individual variability has clear effects upon the re-
+    32→sponsiveness to treatment approaches, thus diagnostic testing is often
+    33→employed for selecting appropriate and optimal therapies based on
+    34→the context of a patient's genetic content or other molecular and cellular
+    35→analysis. Historically personalized medicine uses heavily genetic
+    36→information, but ﬁnds more and more viability on the systems level.
+    37→Structural and functional neuroimaging play a key role and have already
+    38→contributed concrete diagnostic tools that are though mostly restricted
+    39→to neurology, e.g., such as presurgical evaluation of epilepsy or differen-
+    40→tial diagnosis of coma. Other domains such as psychiatry suffer from a
+    41→void of diagnostic tools for routine clinical practice.
+    42→One solution to this issue that has been proposed by several groups is
+    43→to link the interpretation of neuroimaging signals to computational brain
+    44→models (Deco et al., 2011; Friston et al., 2014; Jirsa et al., 2010; Stephan
+    45→and Mathys, 2014; Stephan et al., 2015). (Jirsa et al., 2002) proposed
+    46→the use of connectivity (later referred to as the connectome, Sporns et
+    47→al., 2005) derived from Diffusion-weighted MRI (dMRI) to constrain
+    48→large-scale brain network models. An upsurge of connectome-based
+    49→model development followed with applications to the resting state
+    50→(Deco et al., 2009; Ghosh et al., 2008; Honey et al., 2007), aging
+    51→(Nakagawa et al., 2013), and pathologies such as schizophrenia (Deco
+    52→and Kringelbach, 2014) and lesions (Falcon et al., 2015). So far, modeling
+    53→has focused on reproducing the set of functionally active links between
+    54→brain areas (the so-called functional connectivity), but has been ham-
+    55→pered by the stationary nature of most connectivity-based metrics ap-
+    56→plied to validate the models (Hansen et al., 2014). In fact, most
+    57→meaningful situations and tasks in neuroscience pose themselves as
+    58→non-stationary processes including the resting state, as well as cognitive
+    59→and motor behaviors (Allen et al., 2012; Hansen et al., 2014). The same
+    60→applies to pathological behaviors also, of which seizure recruitment, the
+    61→focus of the current article, is only one example.
+    62→Here we argue that large-scale brain network models may make the
+    63→link between non-stationary network dynamics (such as seizure propa-
+    64→gation) and person-speciﬁc structural indicators including connectivity.
+    65→We take advantage of two recent developments in system neuroscience
+    66→that is adding Connectomics to Genomics in personalized medicine, and
+    67→using patient-speciﬁc connectomes in large-scale brain networks as
+    68→generative models of neuroimaging signals. To successfully make this
+    69→link, three requirements need to be satisﬁed:
+    70→1. Demonstration of systematic and reproducible variation of structural
+    71→connectomes across subjects (Bernhardt et al., 2013; Besson et al.,
+    72→NeuroImage 145 (2017) 377–388
+    73→⁎ Corresponding author.
+    74→E-mail address: viktor.jirsa@univ-amu.fr (V.K. Jirsa).
+    75→http://dx.doi.org/10.1016/j.neuroimage.2016.04.049
+    76→1053-8119/© 2016 The Authors. Published by Elsevier Inc. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+    77→Contents lists available at ScienceDirect
+    78→NeuroImage
+    79→journal homepage: www.elsevier.com/locate/ynimg
+    80→
+    81→===== PAGE 2/12 =====
+    82→2014). An obvious prerequisite is that dMRI sufﬁciently faithfully re-
+    83→constructs individual connectomes. Validation studies have demon-
+    84→strated good reliability of dMRI when state-of-the-art acquisition
+    85→and post-processing techniques are applied (Knösche et al., 2015;
+    86→Seehaus et al., 2013).
+    87→2. Existence of a link between individual structural and functional
+    88→variation. At the group level, patterns of whole-brain connectome
+    89→alterations were proven to distinguish left from right temporal lobe
+    90→epilepsy (Besson et al., 2014; Wirsich et al., 2016.). At the individual
+    91→level, resting state studies in healthy and pathological brains have
+    92→established the predictive value of structural connectivity (Falcon
+    93→et al., 2015; Finn et al., 2015).
+    94→3. Demonstration of explanatory power of connectome-based large-
+    95→scale brain models. (Deco et al., 2014) showed that the structure-
+    96→function relation is maximal when the global network dynamics ap-
+    97→proaches criticality. Further support of this link is provided by the
+    98→derivation of the well-known resting state network patterns from
+    99→connectome-based models in spontaneous conditions (Hansen
+   100→et al., 2014) and following stimulation (Spiegler et al., in press).
+   101→This link justiﬁes clustering of patients into subpopulations of clinical
+   102→functional relevance.
+   103→There is thus evidence indicating that all three criteria may indeed
+   104→be satisﬁed, at least for certain cases including epilepsy and lesions
+   105→and careful choice of the validation metrics. Under these conditions a
+   106→virtualization strategy needs to be established, which is the objective
+   107→of this article, and systematically validated. We present our systematic
+   108→virtualization approach of an individual patient's brain along the exam-
+   109→ple of epilepsy spread and deﬁne the Virtual Epileptic Patient (VEP)
+   110→model, thereby identifying the key challenges along its way. All steps
+   111→can be performed within the neuroinformatics platform The Virtual
+   112→Brain (see http://www.thevirtualbrain.org; (Sanz Leon et al., 2013,
+   113→2015 Spiegler and Jirsa, 2013)) and its associated pipelines (Schirner
+   114→et al., 2015; Proix et al., 2016).
+   115→Our approach to build the VEP brain model comprises the following
+   116→steps:
+   117→i) Structural network modeling: non-invasive structural neuroim-
+   118→aging using MRI and dMRI allows the reconstruction of the
+   119→patient's individual brain network topography and connection
+   120→topology within the 3D physical space.
+   121→ii) Functional network modeling: Neural population models are de-
+   122→ﬁned on each network node. For epilepsy, our preferred model is
+   123→the Epileptor, which comprises variables for the fast discharges
+   124→and the slow energetic processes. Couplings between Epileptors
+   125→are deﬁned using the patient's connectome, that is the complete
+   126→set of reconstructed white matter tracts
+   127→iii) Hypothesis formulation: Structural anomalies such as hamartoma,
+   128→pachygyria, etc. (as observed for instance in the MRI) are identi-
+   129→ﬁed within the network. Non-invasive functional neuroimaging
+   130→further informs the expert clinician on the evolution of the
+   131→epileptic seizure and allows the formulation of ﬁrst hypotheses
+   132→of the location of the Epileptogenic Zone (EZ), here deﬁned as
+   133→the hypothetical area in the brain responsible for the origin
+   134→and early organization of the epileptic activity (Talairach and
+   135→Bancaud, 1966). The Propagation Zone (PZ) comprises areas that
+   136→are recruited during the seizure evolution, but are by themselves
+   137→not epileptogenic. Parameters (epileptogenicity, anomalies) are
+   138→set in the network model following the hypothesis on EZ
+   139→(Bartolomei et al., 2013).
+   140→iv) Evaluation of the VEP brain model: The patient's brain network
+   141→model is evaluated via simulation, data ﬁtting and mathematical
+   142→analysis. It can be used to either “ﬁngerprint” individual patient
+   143→brains by identifying a personalized parameter set through data
+   144→ﬁtting or according to clinical criterion. Systematic computational
+   145→simulations will further generate parameter maps outlining the
+   146→zones of seizures and seizure freedom. These maps will give guid-
+   147→ance of how to tune model parameters (patient charts). The result
+   148→of this evaluation predicts the most likely propagation patterns
+   149→through the patient's brain and allows the exploration of brain
+   150→intervention strategies.
+   151→In the following we demonstrate all steps necessary to build a VEP
+   152→model for a particular patient. We simulate and analyze the VEP
+   153→model. In particular we show parametric analyses of the VEP model
+   154→and ﬁt it against functional stereotactic EEG (SEEG) data. Finally we
+   155→discuss the limits of its interpretation and point out future avenues for
+   156→VEP modeling.
+   157→Materials and methods
+   158→Patient data
+   159→The patient is a right-handed 41-year-old female initially diagnosed
+   160→with bitemporal epilepsy. The patient underwent comprehensive
+   161→presurgical evaluation, including clinical history, neurological examina-
+   162→tion, neuropsychological testing, structural and diffusion MRI scanning,
+   163→EEG and stereotactic EEG (SEEG) recordings along with video monitor-
+   164→ing. Nine SEEG electrodes were placed in critical regions (see Table 1)
+   165→based on the presurgical evaluation. SEEG electrodes comprise 10 to
+   166→15 contacts. Each contact is 2 mm of length, 0.8 mm in diameter and
+   167→is 1.5 mm apart from other contacts. Brain signals were recorded
+   168→using a 128-channel Deltamed™system (sampling rate: 512 Hz, hard-
+   169→ware band-pass ﬁltering: between 0.16 and 97 Hz).
+   170→Structural and diffusion MRI were acquired with a Siemens
+   171→Magnetom Verio 3 T MR-Scanner Siemens, Erlangen, Germany).
+   172→T1-weighted images were acquired with a MPRAGE-sequence (TR =
+   173→1900 ms, TE = 2.19 ms, voxel size =1 × 1 × 1 mm3, 208 slices). The
+   174→diffusion acquisition used a DTI-MR sequence (angular gradient set of
+   175→64 directions, TR = 10.7 s, TE = 95 ms, 70 slices, voxel size =
+   176→2 × 2 × 2 mm3, b-value = 1000 s/mm2).
+   177→Structural reconstruction
+   178→The large-scale connectivity and the cortical surface of the patient
+   179→were reconstructed using SCRIPTS (available on GitHub: https://
+   180→github.com/timpx/scripts), a processing pipeline tailored for TVB
+   181→(Proix et al., 2016). The pipeline uses FreeSurfer (Fischl, 2012), FSL
+   182→(Jenkinson et al., 2012), remesher (Fuhrmann et al., 2010), and MRtrix
+   183→(Smith et al., 2013, 2012; Tournier et al., 2007) to process T1 and
+   184→dMRI scans. The brain is divided in several regions according to a
+   185→parcellation template, which is used for whole brain tractography to
+   186→develop the connectivity (number of streamlines) and delay (length of
+   187→streamlines) matrices. Cortical and subcortical surfaces are reconstruct-
+   188→ed and downsampled, along with a mapping of vertices to correspond-
+   189→ing region labels. All processed data are formatted to facilitate import
+   190→into TVB.
+   191→Table 1
+   192→SEEG electrode locations for the virtualized patient. The prime in the electrode name indi-
+   193→cates a left electrode. Often both internal and external structures are recorded with the in-
+   194→ternal and external contacts respectively.
+   195→Name of the
+   196→electrode
+   197→External structure
+   198→Internal structure
+   199→B′ (left)
+   200→Anterior middle temporal gyrus
+   201→Hippocampus head
+   202→C′ (left)
+   203→Posterior middle temporal gyrus
+   204→Hippocampus tail
+   205→H′ (left)
+   206→Superior temporal gyrus
+   207→Thalamus
+   208→HH′ (left)
+   209→Frontal lobe
+   210→Hypothalamic hamartoma
+   211→OR′ (left)
+   212→Middle frontal gyrus
+   213→Orbitofrontal cortex
+   214→TB′ (left)
+   215→Inferior temporal gyrus
+   216→Entorhinal cortex
+   217→TP′ (left)
+   218→Temporal pole
+   219→Temporal pole
+   220→B (right)
+   221→Lateral temporal cortex (T2)
+   222→Hippocampus head
+   223→TP (right)
+   224→Temporal pole
+   225→Temporal pole
+   226→378
+   227→V.K. Jirsa et al. / NeuroImage 145 (2017) 377–388
+   228→
+   229→===== PAGE 3/12 =====
+   230→Network node and neural mass model
+   231→We use the Epileptor (Jirsa et al., 2014) as a network node model.
+   232→The Epileptor comprises ﬁve state variables acting on three different
+   233→time scales. On the fastest time scale, state variables x1 and y1 account
+   234→for the fast discharges during the seizure. On the slowest time scale,
+   235→the permittivity state variable z accounts for slow processes such as
+   236→variation in extracellular ion concentrations (Heinemann et al., 1986),
+   237→energy consumption (Zhao et al., 2011), and tissue oxygenation (Suh
+   238→et al., 2006). The system exhibits fast oscillations during the ictal state
+   239→through the variables x1 and y1. Autonomous switching between
+   240→interictal and an ictal states is realized via the permittivity variable z
+   241→through saddle-node and homoclinic bifurcation mechanisms for the
+   242→seizure onset and offset, respectively. The switching is accompanied
+   243→by a direct current (DC) shift, which has been recorded in vitro and
+   244→in vivo (Ikeda et al., 1999; Jirsa et al., 2014; Vanhatalo et al., 2003). On
+   245→the intermediate time scale, state variables x2 and y2 describe the
+   246→spike-and-wave electrographic patterns observed during the seizure,
+   247→as well as the interictal and preictal spikes when excited by the fastest
+   248→system via the coupling g(x1). The Epileptor equations read as follows:
+   249→_x1 ¼ y1−f 1 x1; x2
+   250→ð
+   251→Þ−z þ I1
+   252→_y1 ¼ 1−5x2
+   253→1−y1
+   254→_z ¼ 1
+   255→τ0
+   256→4 x1−x0
+   257→ð
+   258→Þ−z
+   259→ð
+   260→Þ
+   261→_x2 ¼ −y2 þ x2−x3
+   262→2 þ I2 þ 0:002g x1
+   263→ð
+   264→Þ−0:3 z−3:5
+   265→ð
+   266→Þ
+   267→_y2 ¼ 1
+   268→τ2
+   269→−y2 þ f 2 x1; x2
+   270→ð
+   271→Þ
+   272→ð
+   273→Þ
+   274→where
+   275→f 1 x1; x2
+   276→ð
+   277→Þ ¼
+   278→x3
+   279→1−3x2
+   280→1
+   281→if x1b0
+   282→x2−0:6 z−4
+   283→ð
+   284→Þ2
+   285→
+   286→
+   287→x1
+   288→if x1 ≥0
+   289→(
+   290→f 2 x1; x2
+   291→ð
+   292→Þ ¼
+   293→0
+   294→if x2b−0:25
+   295→6 x2 þ 0:25
+   296→ð
+   297→Þx1
+   298→if x2 ≥−0:25
+   299→
+   300→g x1
+   301→ð
+   302→Þ ¼
+   303→Zt
+   304→t0
+   305→e−γ t−τ
+   306→ð
+   307→Þx1 τ
+   308→ð Þdt
+   309→and x0= −1.6;τ0=2857;τ2=10;I1=3.1;I2=0.45;γ=0.01. The
+   310→parameter x0 controls the tissue excitability, and is epileptogenic
+   311→triggering seizures autonomously, if x0 is greater than a critical value,
+   312→x0C = −2.05; otherwise the tissue is healthy. I1 and I2 are passive
+   313→currents setting the operating point of the Epileptor. The excitability pa-
+   314→rameter x0 and its spatial distribution are the target of all parameter-
+   315→ﬁtting approaches described further on. The LFP is the directed sum of
+   316→discharges, –x1 + x2. Detailed bifurcation analyses of these parameters
+   317→have been performed by El Houssaini et al. (2015).
+   318→Deﬁnition of the network and the epileptogenic zone
+   319→We couple the network nodes by permittivity coupling (Proix et al.,
+   320→2014), which quantiﬁes the inﬂuence of neuronal fast discharges x1j of a
+   321→remote region j on the local slow permittivity variable of region i.
+   322→Changes in ion homeostasis are inﬂuenced by both local and remote
+   323→neuronal discharges via a linear difference coupling function, which
+   324→quantiﬁes the deviation from the interictal stable state as a perturbation
+   325→perpendicular to the synchronization manifold. The linearity is justiﬁed
+   326→as a ﬁrst order approximation of the Taylor expansion around the
+   327→synchronized solution (Proix et al., 2014). Then permittivity coupling
+   328→further includes the connectome Cij, a scaling factor G, which both are
+   329→absorbed in Kij = GCij. The permittivity coupling from area j to area i
+   330→reads∑
+   331→N
+   332→j¼1
+   333→Kij  ðx1;jðt−τijÞ−x1;jðtÞÞ, where τij denotes the signal transmis-
+   334→sion delay. Here we neglect the signal transmission time delays, because
+   335→we do not consider synchronization effects, but rather only epileptic
+   336→spread, which is determined by the slow dynamics of the permittivity
+   337→coupling. Mathematically, then the full VEP brain model equations
+   338→read as follows:
+   339→_x1;j ¼ y1;i−f 1 x1;i; x2;i
+   340→
+   341→
+   342→−zi þ I1;i
+   343→_y1;i ¼ 1−5 x1;i
+   344→
+   345→2−y1;i
+   346→_zi ¼ 1
+   347→τ0
+   348→4 x1−x0
+   349→ð
+   350→Þ−zi−
+   351→X
+   352→N
+   353→j¼1
+   354→Kij  x1;j−x1;i
+   355→
+   356→
+   357→0
+   358→@
+   359→1
+   360→A
+   361→_x2;i ¼ −y2;i þ x2;i−x2;i
+   362→
+   363→3 þ I2:i þ 0:002g x1;i
+   364→
+   365→
+   366→−0:3 zi−3:5
+   367→ð
+   368→Þ
+   369→_y2;i ¼ 1
+   370→τ2
+   371→−y2;i þ f 2 x1;i; x2;i
+   372→
+   373→
+   374→
+   375→
+   376→To deﬁne the EZ, we deﬁned a spatial map of epileptogenicity where
+   377→each node was characterized by an excitability value x0, which quan-
+   378→tiﬁes the ability of an Epileptor to trigger a seizure. For an isolated
+   379→Epileptor, G = 0, the Epileptor can trigger seizures autonomously if
+   380→x0 N x0c and is referred to as epileptogenic; inversely if x0 b x0c, the
+   381→Epileptor does not trigger seizures autonomously and is not epilepto-
+   382→genic. The spatial map of epileptogenicity comprises the excitability
+   383→values of the EZ, the PZ and all other regions (see Fig. 1). Note that
+   384→only nodes in the EZ discharge autonomously while embedded in the
+   385→network (for G ≠0). For the simulations, the different regions were set
+   386→in the EZ or the PZ according to the clinician expertise (see Table 2).
+   387→Forward solutions
+   388→The functional data available for this patient includes SEEG, fMRI and
+   389→EEG; however, in the following, we focus on the SEEG data as it plays the
+   390→largest role in the clinical analysis. Like other modalities, the SEEG
+   391→measurements can be modeled using a forward solution that describes
+   392→the contribution of each source dipole to each contact's measurement.
+   393→As with M/EEG, the patient's anatomy, speciﬁcally the so-called bound-
+   394→ary elements of the brain-skull, skull-scalp and scalp-air interfaces may
+   395→be taken into account, however unlike in M/EEG, boundary effects are
+   396→usually insigniﬁcant and can be ignored for all contacts but those very
+   397→close to the boundaries (Gramfort et al., 2010). We compute the poten-
+   398→tial for a point dipole in a homogeneous medium following (Sarvas,
+   399→Fig. 1. Spatial distribution map of epileptogenicity. Isolated nodes outside of the network
+   400→are epileptogenic for the critical value x0C= −2.05. When embedded into the network,
+   401→the nodes in the EZ (red) have a high excitability value (x0Nx0C+0.4), whereas the
+   402→nodes in the PZ (blue) have elevated excitability (x0C+0.4Nx0Nx0C). Finally, all other
+   403→nodes (white) are not epileptogenic (x0bx0C). EZ: left hippocampus, right hippocampus,
+   404→left hypothalamus, right hypothalamus. PZ: left parahippocampal, left temporal pole, left
+   405→parahippocampal, brainstem, left thalamus proper.
+   406→379
+   407→V.K. Jirsa et al. / NeuroImage 145 (2017) 377–388
+   408→
+   409→===== PAGE 4/12 =====
+   410→1987), ignoring the effect of source orientation, given that it is largely
+   411→unknown for a given epileptic source and cannot be captured reliably
+   412→at the resolution of a region-level brain network model. Dropping this
+   413→factor from the lead ﬁeld has, approximately, a spatial smoothing effect
+   414→in cases where multiple areas contribute similarly to a given electrode,
+   415→however given the sparsity of the lead ﬁeld, the vast majority of
+   416→electrodes effectively measures activity of a single area.
+   417→Anomalies in the MRI
+   418→Structural anomalies will require their integration into the model.
+   419→Here we included a hypothalamic hamartoma in our virtualization via
+   420→a modiﬁcation of the local connectivity Kij=GhypCij of the hypothala-
+   421→mus. We delineated the hamartoma in the MRI scan and tractography
+   422→and used the hypothalamic hamartoma as a seed region of interest to
+   423→reconstruct its local connectivity. The local connectivity strength is
+   424→scaled up parametrically by a scalar factor Ghyp to quantify the effect of
+   425→the hamartoma without changing its local connection topology.
+   426→Data ﬁtting
+   427→The target for all data ﬁtting is the excitability parameter x0, which
+   428→may be set either to clinical criterion (see the Virtual Brain based
+   429→simulations, EZ and PZ section) or estimated using more automated
+   430→approaches. Obtaining such estimates of the parameters of the network
+   431→model, given the available functional data is performed within a
+   432→Bayesian framework, using a reduced Epileptor model (Proix et al.,
+   433→2014) and reduced functional data set for the ﬁtting. The SEEG data
+   434→are windowed and Fourier transformed to obtain estimates of their
+   435→spectral density over time (Bricolo et al., 1978). Then SEEG power
+   436→above 10 Hz is summed to capture the temporal variation of the
+   437→fast activity. These time series are corrected to a preictal baseline,
+   438→log-transformed and linearly detrended over the time window
+   439→encompassing the seizure (Makeig, 1993). Contacts are selected,
+   440→which present greater high-frequency activity than their neighbors on
+   441→the same electrode. Given that, contrary to M/EEG, the SEEG lead ﬁeld
+   442→is very sparse, three nodes per contact are used in the network model.
+   443→Other nodes are not recruited and rest at their ﬁxed points. We approx-
+   444→imate this effect, in the ﬁtting only, through a constant sum over the cor-
+   445→responding elements of the structural connectivity matrix. These
+   446→elements correspond to areas, which neither participate in the seizure,
+   447→nor have nearby depth electrodes and are thus observable only through
+   448→network effects, whose hidden states prove uninformative and unreli-
+   449→able in their estimation. Next, we use an observation model that
+   450→incorporates the SEEG forward solution described above, under the as-
+   451→sumption that the x1 variable describes ﬂuctuations in the log power
+   452→of high frequency activity, predicting sensor log power, with normally
+   453→distributed observation error.
+   454→Hidden states in Bayesian modeling represent states of the genera-
+   455→tive model (variables, parameters) that are not directly observable.
+   456→Uninformative priors are placed on the hidden states' initial conditions,
+   457→while their evolution follows a Euler-Maruyama discretization of the
+   458→corresponding stochastic differential equations with linear additive
+   459→normally distributed noise. Uninformative priors are also placed on
+   460→the excitability parameter per node x0 observation baseline power,
+   461→scale and noise. Finally the length of the seizure is also allowed to freely
+   462→vary to match that of a given recorded seizure. Structural connectivity
+   463→speciﬁes a gamma prior on the connectivity used in the generative
+   464→method. This model is implemented using Stan, a software for Bayesian
+   465→inference, which implements both Hamiltonian Monte-Carlo and auto-
+   466→matic variational inference algorithms for generic differential probabil-
+   467→ity models (Hoffman and Gelman, 2011; The Stan Development Team,
+   468→2015). This approach takes advantage of the efﬁciency of the variational
+   469→algorithm, which constructs an approximate proxy distribution on the
+   470→true posterior optimized via stochastic gradient ascent (Kucukelbir
+   471→et al., 2015).
+   472→Numerical methods
+   473→To simulate the system of stochastic differential equations, we used
+   474→an Euler-Maruyama integration scheme with an integration step of 0.05.
+   475→Additive white Gaussian noise was introduced in the variables x2 and y2
+   476→with mean 0 and variance 0.0025 (Jirsa et al., 2014). Other variables ex-
+   477→perienced only little or no noise due to their high sensitivity. 256 time
+   478→steps are equivalent to one second of real time to obtain realistic
+   479→frequency ranges, seizure lengths, and matched intracranial EEG
+   480→sampling frequency. Whenever speciﬁed in the Results section, we
+   481→used a bandpass Butterworth ﬁlter of order 5, with cut-off frequencies
+   482→of 0.16 Hz and 97 Hz at −3 dB (Fig. 2D). The ﬁlter is identical to the
+   483→one used to process intracranial EEG signals (see (Bartolomei et al.,
+   484→2008) for processing methods of intracranial EEG signals). Finally, for
+   485→the stimulated seizure, a rectangular function in time was applied on
+   486→the z variable of the stimulated region (amplitude: 0.5, length: 2 s).
+   487→Results
+   488→Empirical patient data
+   489→The patient was diagnosed with bitemporal epilepsy and experi-
+   490→enced simple and secondary generalized seizures, which were accom-
+   491→panied by déjà-vu hallucinations, associated with palpitations,
+   492→horripilation, and frisson sensations. Fixed gaze, chewing up and pallor
+   493→were observed during the seizure. In the post-critic period the patient
+   494→showed temporal disorientation, repetition of the same questions and
+   495→retrograde amnesia during one week. The MRI examination revealed a
+   496→hypothalamic hamartoma. Surface EEG recordings revealed interictal
+   497→spikes and indicated a bias towards the left hemisphere. Based on the
+   498→presurgical evaluation, seven SEEG electrodes were implanted in the
+   499→left hemisphere, and two in the right hemisphere. One electrode was
+   500→implanted in the hypothalamic hamartoma. Fig. 2 shows the implanta-
+   501→tion sheme in the left column, color-coding the SEEG electrodes. During
+   502→two weeks of continuous SEEG recordings, we recorded 6 simple sei-
+   503→zures localized in the right hippocampus, and two complex seizures
+   504→starting in the right hippocampus and then recruiting the left hippo-
+   505→campus, the left temporal lobe and the hypothalamic hamartoma.
+   506→Representative seizure propagation patterns are shown in Fig. 2.
+   507→Connectivity patterns
+   508→We reconstructed the large-scale connectivity of the patient, in
+   509→particular the weight and tract length matrices, using the pipeline de-
+   510→scribed in the Structural reconstruction section. The tract length matrix
+   511→divided by the signal transmission speed deﬁnes the time delays. The
+   512→two matrices (see Fig. 3A and B) establish the space-time structure of
+   513→the coupling (Jirsa, 2009) and allow a full virtualization of the patient's
+   514→brain model. Fig. 3C shows the location of the hypothalamic hamartoma
+   515→and 3D the reconstructed streamlines from the hypothalamus, which
+   516→Table 2
+   517→Excitability values x0=x0C+Δx0 are expressed via their deviations Δx0from the critical
+   518→value x0C= −2.05. Positive Δx0 indicates increased excitability. These excitability values
+   519→are used to simulate the time series shown in Fig. 5.
+   520→Name of the region
+   521→Δx0
+   522→Zones
+   523→Right hippocampus
+   524→1.3
+   525→EZ
+   526→Left hippocampus
+   527→0.4
+   528→EZ
+   529→Left hypothalamus
+   530→0.4
+   531→EZ
+   532→Right hypothalamus
+   533→0.4
+   534→EZ
+   535→Brain stem
+   536→0.31
+   537→PZ
+   538→Left parahippocampal
+   539→0.27
+   540→PZ
+   541→Left thalamus
+   542→0.24
+   543→PZ
+   544→Left temporal pole
+   545→0.16
+   546→PZ
+   547→Other regions
+   548→−0.2
+   549→Other regions
+   550→380
+   551→V.K. Jirsa et al. / NeuroImage 145 (2017) 377–388
+   552→
+   553→===== PAGE 5/12 =====
+   554→we used to mimic the hypothalamic hamartoma and differentially
+   555→weigh its inﬂuence on the network dynamics.
+   556→Virtual Brain based simulations, EZ and PZ
+   557→Each node of the network was occupied with an Epileptor, a neural
+   558→mass model able to reproduce epileptic seizures dynamics (Jirsa et al.,
+   559→2014). For the Epileptor in isolation (i.e. no network coupling), if
+   560→x0Nx0C, the neural mass is above threshold: the Epileptor can trigger sei-
+   561→zures and is said epileptogenic, and inversely if, x0bx0C, the Epileptor
+   562→does not trigger seizure and is said not epileptogenic. When embedded
+   563→into a network, each network node's capacity of triggering seizures will
+   564→then depend on its excitability and connectivity. The nodes were con-
+   565→nected via permittivity coupling, which acts on a slow time scale and
+   566→allow the spread of the seizure through the network by recruiting re-
+   567→gions not in the EZ. In this section we set the excitability parameters
+   568→for EZ, PZ and all other regions according to clinical criteria comprising
+   569→(i) regions involved in the seizure; (ii) seizure length; (iii) length of
+   570→time delays before recruitment of other regions; (iv) seizure frequency
+   571→in each region. These criteria are used clinically in standard-of-care to
+   572→evaluate the epileptogenicity of brain regions (Bartolomei et al., 2008,
+   573→Proix et al., 2014). The spatial distribution of excitability was heteroge-
+   574→neous across the network (see Fig. 1), with high value of excitability for
+   575→regions in the EZ (x0≥x0C+0.4), smaller excitability values for regions
+   576→in the PZ (x0C+0.4Nx0≥x0C), and other nodes not epileptogenic
+   577→(x0bx0C).
+   578→Once EZ and PZ were deﬁned, a systematic parameter space explora-
+   579→tion was performed by varying the following parameters: (i) the global
+   580→coupling strength G, which is a scalar factor multiplying the whole
+   581→connectivity matrix, (ii) the local coupling strength Ghyp of the hypothal-
+   582→amus, which is a scalar factor multiplying the contribution of the
+   583→hypothalamus to the connectivity matrix, (iii) the excitability values
+   584→x0
+   585→right hippocampus of the right hippocampus, (iv) the excitability values
+   586→x0
+   587→Other regions of the regions not recruited in the propagation zone. The
+   588→excitability values of the other regions in the EZ and the PZ were
+   589→ﬁxed (see Table 2). To describe the network behavior in the thus four-
+   590→dimensional parameter space, we use the clinical criteria i) through
+   591→iv) for seizure quantiﬁcation. - Fig. 4 shows one of these quantiﬁers,
+   592→the frequency of recruitment for three different regions in a seizure
+   593→over a ﬁxed simulation time as a function of the four parameters G,
+   594→Ghyp, x0
+   595→right hippocampus, and x0
+   596→Other regions.
+   597→Fig. 4 illustrates an important deliverable of the VEP brain model,
+   598→that is the results of the systematic parameter space explorations.
+   599→These navigation charts offer the clinician a tool for decision-making
+   600→and hypothesis building. For instance, Fig. 4 demonstrates for this par-
+
+[showing lines 1-600 of 1170; use offset=601 with limit to continue reading]

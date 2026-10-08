@@ -1,0 +1,1433 @@
+
+===== PAGE 1/19 =====
+Article
+Whole-Brain Multimodal Neuroimaging Model Using
+Serotonin Receptor Maps Explains Non-linear
+Functional Effects of LSD
+Highlights
+d Causal whole-brain model integrating neurotransmitter data
+and brain dynamics
+d This explains the functional effects of serotonin 2A receptor
+stimulation with LSD
+d Non-linear effects of speciﬁc brainwide distribution of
+neurotransmitter density
+d Exciting possibilities for drug discovery and design in
+neuropsychiatric disorders
+Authors
+Gustavo Deco, Josephine Cruzat,
+Joana Cabral, ..., Peter C. Whybrow,
+Nikos K. Logothetis,
+Morten L. Kringelbach
+Correspondence
+gustavo.deco@upf.edu (G.D.),
+morten.kringelbach@psych.ox.ac.uk
+(M.L.K.)
+In Brief
+Deco et al. combined multimodal imaging
+(dMRI, fMRI, and PET) in a causal whole-
+brain model to explain the functional
+effects of 5-HT2AR with LSD in healthy
+humans. The model identiﬁes the
+mechanisms for non-linear interactions
+between the neuronal and
+neurotransmitter systems and could be
+used for drug discovery in
+neuropsychiatric disorders.
+Deco et al., 2018, Current Biology 28, 3065–3074
+October 8, 2018 ª 2018 Elsevier Ltd.
+https://doi.org/10.1016/j.cub.2018.07.083
+
+===== PAGE 2/19 =====
+Current Biology
+Article
+Whole-Brain Multimodal Neuroimaging Model
+Using Serotonin Receptor Maps Explains
+Non-linear Functional Effects of LSD
+Gustavo Deco,1,2,3,4,* Josephine Cruzat,1 Joana Cabral,5,6,7 Gitte M. Knudsen,8,9 Robin L. Carhart-Harris,10
+Peter C. Whybrow,11 Nikos K. Logothetis,12,13 and Morten L. Kringelbach5,6,7,14,15,*
+1Center for Brain and Cognition, Computational Neuroscience Group, Department of Information and Communication Technologies,
+Universitat Pompeu Fabra, Roc Boronat 138, 08018 Barcelona, Spain
+2Institucio´ Catalana de la Recerca i Estudis Avanc¸ ats (ICREA), Passeig Lluı´s Companys 23, 08010 Barcelona, Spain
+3Department of Neuropsychology, Max Planck Institute for Human Cognitive and Brain Sciences, 04103 Leipzig, Germany
+4School of Psychological Sciences, Monash University, Melbourne, Clayton VIC 3800, Australia
+5Department of Psychiatry, University of Oxford, Oxford, UK
+6Center for Music in the Brain, Department of Clinical Medicine, Aarhus University, Aarhus, Denmark
+7Life and Health Sciences Research Institute (ICVS), School of Medicine, University of Minho, 4710-057 Braga, Portugal
+8Neurobiology Research Unit and Center for Integrated Molecular Brain Imaging, Rigshospitalet, Copenhagen, Denmark
+9Faculty of Health and Medical Sciences, Copenhagen University, DK-2100 Copenhagen, Denmark
+10Psychedelic Research Group, Centre for Psychiatry, Division of Brain Sciences, Imperial College London, London, UK
+11Semel Institute for Neuroscience and Human Behavior, University of California, Los Angeles, Los Angeles, CA, USA
+12Max Planck Institute for Biological Cybernetics, 72076 Tu¨ bingen, Germany
+13Imaging Science and Biomedical Engineering, University of Manchester, Manchester M13 9PT, UK
+14Institut d’etudes avancees de Paris, Paris, France
+15Lead Contact
+*Correspondence: gustavo.deco@upf.edu (G.D.), morten.kringelbach@psych.ox.ac.uk (M.L.K.)
+https://doi.org/10.1016/j.cub.2018.07.083
+SUMMARY
+Understanding the underlying mechanisms of the hu-
+man brain in health and disease will require models
+with necessary and sufﬁcient details to explain how
+function emerges from the underlying anatomy and
+is shaped by neuromodulation. Here, we provide
+such a detailed causal explanation using a whole-
+brain
+model
+integrating
+multimodal
+imaging
+in
+healthy human participants undergoing manipulation
+of the serotonin system. Speciﬁcally, we combined
+anatomical data from diffusion magnetic resonance
+imaging (dMRI) and functional magnetic resonance
+imaging (fMRI) with neurotransmitter data obtained
+with positron emission tomography (PET) of the
+detailed serotonin 2A receptor (5-HT2AR) density
+map. This allowed us to model the resting state
+(with and without concurrent music listening) and
+mechanistically explain the functional effects of
+5-HT2AR stimulation with lysergic acid diethylamide
+(LSD) on healthy participants. The whole-brain model
+used a dynamical mean-ﬁeld quantitative description
+of populations of excitatory and inhibitory neurons as
+well as the associated synaptic dynamics, where the
+neuronal gain function of the model is modulated
+by the 5-HT2AR density. The model identiﬁed the
+causative mechanisms for the non-linear interactions
+between the neuronal and neurotransmitter sys-
+tem, which are uniquely linked to (1) the underlying
+anatomical connectivity, (2) the modulation by the
+speciﬁc brainwide distribution of neurotransmitter
+receptor density, and (3) the non-linear interactions
+between the two. Taking neuromodulatory activity
+into account when modeling global brain dynamics
+will lead to novel insights into human brain function
+in health and disease and opens exciting possibilities
+for drug discovery and design in neuropsychiatric
+disorders.
+INTRODUCTION
+Human brain activity results from the self-organization of large
+neural networks, emerging from complex recursive non-linear
+interactions between interconnected neural populations [1–3].
+Understanding brain function and dysfunction clearly requires
+measurements of such activity in various spatiotemporal scales,
+some of which may be done by combining neurophysiological
+and neuroimaging methods, including electrical measurements,
+fMRI, dMRI (diffusion MRI), and PET (positron emission tomogra-
+phy) [4, 5]. Moreover, modeling of such large-scale brain
+dynamics is absolutely essential for gaining insights into the
+generative mechanisms of ongoing neuronal dynamics [6, 7].
+Not surprisingly, following the development and optimization
+of various methodologies over the last 2 decades, signiﬁcant
+progress has been made in measuring the spontaneous spatio-
+temporal unfolding of brain activity, revealing a repertoire of what
+is currently called resting-state networks [8–10]. In parallel, the
+spatial patterns of correlated activity in such networks have
+been increasingly studied with a variety of computational
+Current Biology 28, 3065–3074, October 8, 2018 ª 2018 Elsevier Ltd.
+
+===== PAGE 3/19 =====
+methods, including whole-brain models relying on the mean
+activity and variance of excitatory and inhibitory neuronal popu-
+lations [1, 3, 6, 11–14].
+However, the explanatory and potentially predictive power of
+neuronal population models, such as those of neural mass and
+mean ﬁeld, strongly depend on the integration of information
+that may selectively and differentially affect the activity of popu-
+lations at different spatial scales [5]. More speciﬁcally, whole-
+brain models commonly rely on structural and functional
+connectivity of a number of anatomically deﬁned brain regions,
+the activity of each of which is described by the estimated
+mean activity of local neuronal populations. Yet, it is now well
+established that such activity is strongly modulated by the syner-
+gistic interactions of the diffuse ascending systems, spreading in
+a global or local fashion by so-called neuromodulators, including
+acetylcholine, various monoamines, and tryptamines [15–17].
+The effects of these neuromodulators go well beyond the activity
+proﬁles of typical excitation-inhibition microcircuits and could
+only be computationally assessed by having detailed maps of
+regional density of their receptors.
+To address this important problem, we combine standard
+anatomical and functional maps of the human brain with a
+detailed map of 5-HT2A receptor (5-HT2AR) density of the neuro-
+modulator serotonin, obtained from a new high-resolution
+human brain in vivo atlas [18], recently composed on the basis
+of images from 210 healthy individuals (see details of radio-
+tracers in [18]). We added the receptor maps to the standard
+whole-brain model by investigating how gain values can be
+adapted by the local regional values of the PET-based empirical
+values of 5-HT2AR density. To this end, we deﬁned a global gain
+scaling parameter, sE, which was added to the original ﬁxed gain
+parameters (which were the same for all regions) and thus
+scaling the regional 5-HT2AR values inﬂuencing the recursive
+circuits of excitatory and inhibitory neurons. We ﬁrst ﬁtted the
+model to the placebo condition but not the LSD condition, i.e.,
+assuming zero values of sE that correspond to the original gain
+values. The main question then becomes whether any sE values
+would ﬁt the LSD condition (using the sensitivity of the functional
+connectivity dynamics) while still using the original whole-brain
+placebo model but now including the new element of receptor
+binding through the global gain scaling parameter, which modu-
+lates each region with the different empirical measures of
+5-HT2AR binding. If this were found to be true, neurotransmitter
+modulation of whole-brain activity dynamics would be—for the
+ﬁrst time—quantitatively ascribed to one type of receptor bind-
+ing (here 5-HT2A) that would be modulating brainwide neural
+responses.
+RESULTS
+The main aim is to provide a detailed mechanistic explanation of
+how neuromodulation is coupled with the neuronal system and
+serves to shape how function emerges from the underlying anat-
+omy. Here, we describe the results of using a whole-brain model,
+integrating a whole-brain density map of the 5-HT2AR [18] with
+traditional structural and functional connectivity representations
+obtained by means of dMRI and fMRI, respectively. The combi-
+nation of the multimodal data in the whole-brain model is
+described in schematized form in Figure 1. Notably, the model
+only uses two parameters: a neuronal parameter scaling the
+global coupling of neuronal populations and a neuromodulator
+parameter scaling the effects of neurotransmitter on the
+neuronal gain function weighted by the empirical regional recep-
+tor density. For each of the multimodal neuroimaging modalities,
+we used the automated anatomical labeling (AAL) parcellation
+with 90 cortical and subcortical regions [19], which has been
+extensively and successfully used over the last decade for
+resting-state neuroimaging studies and whole-brain modeling.
+We investigated the inﬂuence of neuromodulation on the
+neuronal system using the well-known effects of LSD on the se-
+rotonin system by using data obtained in healthy participants
+receiving small doses of LSD or placebo, with or without music,
+which can acutely induce synesthesia, altered perceptions,
+bliss, depersonalization, and mystical experiences [20]. Impor-
+tantly, LSD with music has been found to enhance the emotional
+response and produced greater feelings of wonder and tran-
+scendence compared with listening to music after placebo
+[21]. We therefore used the music conditions with placebo and
+LSD in order to increase the impact on the serotonin system
+(see Figure 3, and we also conﬁrmed the results for the non-mu-
+sic condition [Figure S1]).
+Speciﬁcally, the model was ﬁrst ﬁtted to the placebo condi-
+tion, and subsequently, the regional 5-HT2AR densities from
+the in vivo atlas were used to explain the functional resting-state
+activity in the LSD condition. The role of the empirical 5-HT2AR
+was ultimately assessed by comparing the LSD maps with neu-
+romodulatory maps of randomly shufﬂed 5-HT2AR densities. As
+shown below, we found that a robust explanation of global activ-
+ity changes induced by the LSD administration is only possible
+when the neuromodulation proﬁles estimated by the density of
+the 5-HT2ARs from the in vivo serotonin atlas is taken into
+account.
+Brieﬂy summarizing the methods (full details can be found in
+the STAR Methods), the whole-brain model was composed of
+90 anatomically delineated brain regions linked by the structural
+connectivity (SC) matrix of ﬁber densities obtained by tractogra-
+phy [23, 24]. The activity of each region was represented by a
+dynamic neuronal mean-ﬁeld model derived from the collective
+behavior of empirically validated integrate-and-ﬁre (80% excit-
+atory and 20% inhibitory) neurons [25, 26]. The population
+responses for pools of excitatory neurons were given by
+independent sigmoid functions, regulated by a gain parameter
+sE, common in all brain regions and initially set to zero (see
+STAR Methods and [25]). In the model, the inter-regional
+coupling (given by the SC) was scaled by a single global param-
+eter, G, corresponding to the conductivity of each ﬁber (same for
+all ﬁbers). Modulation of the brain’s dynamic working point, i.e.,
+changes in the magnitude of coupling of the network (from weak
+to strong), could be implemented by changing the G parameter.
+Explaining the Inﬂuence of Neuromodulation
+Our optimization of the whole-brain model on the basis of the
+aforementioned diverse structural, functional, and regulatory
+data started with the ﬁtting of the whole-brain mean-ﬁeld model
+to the placebo condition, using the same ﬁxed gain-value param-
+eters for all regions and adapting only the G coupling parameter.
+This optimal global coupling parameter value was subsequently
+used for explaining the LSD condition by selectively changing the
+
+Current Biology 28, 3065–3074, October 8, 2018
+
+===== PAGE 4/19 =====
+neuronal gain of each region according to the empirical
+measured 5-HT2AR density. To take into account the spatiotem-
+poral ﬂuctuations in functional brain dynamics over time, the
+model was ﬁtted to the spatiotemporal dynamics of the data
+(i.e., to the functional connectivity dynamics [FCD]) [27–29]
+rather than to the static grand-average functional connectivity
+[30] (see Figure 2, describing the process of estimating and ﬁtting
+the FCD in the whole-brain model). As previously shown, the
+FCD is a powerful sensitive measure of the spatiotemporal
+changes in functional connectivity, which maximally constrains
+the working space parameters of whole-brain models [27, 31].
+For this reason, the sensitivity of the FCD offers an excellent
+metric for determining subtle differences.
+Importantly, the gain values were adapted by taking into
+account the local regional values of 5-HT2AR density (see
+STAR Methods). Speciﬁcally, we deﬁned a global gain-scaling
+parameter, sE, which was added to the original ﬁxed gain param-
+eters (same for all regions) and thus could serve for scaling of the
+regional 5-HT2A values, potentially signaling the inﬂuence of the
+receptors on the recursive circuits of excitatory and inhibitory
+neurons. Zero values of sE yield the original gain values, ﬁtting
+the model to the placebo condition but not the LSD condition.
+An important subsequent question is whether any sE values
+would ﬁt the LSD condition (using the sensitivity of the FCD mea-
+sure) while still using the optimal coupling G parameter of the
+placebo condition. If this were true, LSD-induced whole-brain
+activity dynamics would be quantitatively ascribed to one type
+(i.e., 5-HT2A) of serotonergic modulation of brainwide neural
+responses.
+Results of Fitting Whole-Brain Neuromodulation Model
+to Empirical Data
+To ﬁnd the causal mechanisms linking neuromodulation and
+neuronal activity, we ﬁrst estimated the optimal coupling param-
+eter G such that the whole-brain model (with original gain values,
+i.e., sE = 0 for all regions) optimally ﬁts the placebo condition.
+Figure 3A shows the dependency for G of the ﬁtting in terms of
+(1) the grand-average static functional connectivity (FC) and (2)
+Figure 1. Overview of Integrating Multimodal Data Including Neuromodulation into a Whole-Brain Neuronal Model
+We show the basic ingredients for the integration of multimodal neuroimaging data from structural (dMRI, top left), functional (fMRI, bottom left), and
+neurotransmission (PET, top right) using the same parcellation for each neuroimaging modality (bottom right) for generating a whole-brain computational model
+(middle). Each node of the model is using a realistic underlying biophysical neuronal model including AMPA, GABA, and NMDA synapses as well as
+neurotransmitter gain modulation (bottom row) of these.
+Current Biology 28, 3065–3074, October 8, 2018
+
+===== PAGE 5/19 =====
+the FCD. For the FC ﬁtting, higher values indicate a better ﬁt
+since it reﬂects a simple correlation between model and empir-
+ical data. We include this measure as the grand-average FC
+spatial correlation has traditionally been used to constrain whole
+brain, yet it is not particularly sensitive to the spatiotemporal in-
+formation [27, 31] and thus not relevant for constraining the
+model here. Instead, we show that a better measure for model
+ﬁtting is the FCD, which take into account the spatiotemporal
+information and where lower values indicate a better ﬁt of the
+Kolmogorov-Smirnov distance between the FCD of the model
+and empirical data. As is shown in Figures 3A and 3B, the results
+using this measure (level of ﬁtting) are excellent. For the subse-
+quent analyses, we use this placebo condition for which we
+selected the optimum point of G, when the model was ﬁtted to
+the FCD (G = 2.1 at minimum of green line in Figure 3A).
+The neuromodulatory effects in the LSD condition were then
+modeled by estimating the neuronal gain function, namely
+by scaling the parameter sE and the corresponding regional
+empirical 5-HT2AR data. Figure 3B shows how this approach
+signiﬁcantly changed the ﬁt, revealing an optimal sE value of
+approximately 0.2. In contrast, trying to improve the ﬁt with the
+placebo condition at the optimal coupling point G as a function
+of changing the PET-based excitatory gain modulation (see
+STAR Methods) did not show any improvement. There was no
+optimal gain modulation. Instead the placebo ﬁt to FCD (green
+line in Figure 3B) decreased monotonically, as can be seen by
+the green line in Figure 3B. The ﬁnding clearly demonstrates
+that the brain-activity proﬁles, induced by the 5-HT2AR agonist
+LSD (as ﬁtted to the FCD) depend on the precise 5-HT2AR den-
+sity distribution map. While we show that this response is non-
+linear, this ﬁnding is consistent with the existing physiological
+literature revealing a main action of psychedelics such as LSD
+on the 5-HT2AR [22].
+Furthermore, to demonstrate that the LSD function is depen-
+dent on the precise distribution of the 5-HT2AR, at the optimal
+gain value sE, we randomly shufﬂed the empirical 5-HT2AR den-
+sities; i.e., the original 90 values for the receptor maps were
+randomly re-assigned to different regions, and the model was
+run 200 times with each different randomly re-assigned receptor
+map. Figure 3C shows the results of randomly shufﬂing the
+empirical 5-HT2AR densities across the regions at the optimum
+point sE (obtained and shown in Figure 3B). This randomly re-
+shufﬂed manipulation yields a signiﬁcantly worse ﬁt compared
+to the actual empirical receptor densities (as shown by the Wil-
+coxon statistics in the boxplot).
+In order to further test the robustness of our whole-brain
+modeling approach, we used a number of different strategies
+to test the speciﬁcity of receptor-binding maps. In Figure 3D,
+we show a boxplot of the results of using a uniform receptor-
+binding distribution (to the far right). This is signiﬁcantly worse
+than all other receptor-binding distributions. We also show the
+results of using the other serotonin receptors, namely 5-HT1A,
+5-HT1B, 5-HT4, and the serotonin transporter, 5-HTT. These
+maps all perform signiﬁcantly worse than that for the 5-HT2AR,
+Figure 2. Overview of Process for Estimating and Fitting the FCD in the Whole-Brain Model
+(A) First, we extract the timeseries from the fMRI data from each brain region in the parcellation (shown here for a single participant).
+(B) The average functional connectivity is computed over a sliding window of 30 repetition time (TR) with increments of 2 TR, resulting in time-evolving FC
+matrices.
+(C) Subsequently, we compute a time-versus-time matrix of FCD, where each entry, FCD(tx,ty), corresponds to the correlation between the FC centered at times tx
+and the FC centered at ty.
+(D) We generate the distributions of the upper triangular elements of the FCD matrices over all participants in a given condition (LSD or placebo) and here show the
+histogram for the single participant.
+(E) The distribution of FCD for the placebo condition is used to ﬁt the whole-brain computational model, which is compared using the Kolmogorov-Smirnov
+distance, allowing for an effective evaluation of the model performance in explaining the changes observed in resting-state FC in dynamical terms.
+
+Current Biology 28, 3065–3074, October 8, 2018
+
+===== PAGE 6/19 =====
+which conﬁrms the main role this receptor plays in the effects of
+LSD [22]. It has been suggested that the 5-HT1A receptor also
+contributes to the effects of LSD [22, 32], and indeed, this is
+conﬁrmed by the improved performance of the 5-HT1A recep-
+tor-binding map compared to the 5-HT1B, 5-HT4, and 5-HTT
+maps [22].
+We also wanted to test the generalization capability of our
+model by training and testing the 5-HT2AR maps on a random
+50% subset of participants. While our sample was comparably
+small for a generalization study, we nevertheless were able to
+show that the training performance was very similar to the orig-
+inal results, while the testing performance was equally good (see
+Figure 3D).
+Further demonstrating the excellent ﬁt, we plot the FCD histo-
+grams of LSD and placebo for both the empirical data and
+the optimized model in Figure 3E, where the histograms of
+the LSD and placebo conditions are different for both empir-
+ical and model. This suggests that the 5-HT2AR density is
+fundamental for describing the neuromodulatory effects of
+psychedelics.
+DISCUSSION
+The ﬁndings presented here show for the ﬁrst time the potential
+of whole-brain modeling to capture the modulation of brainwide
+regional activities, typically induced by the ascending neuromo-
+dulatory systems that regulate the balance, excitability, and
+speciﬁcity of cortical microcircuits and subcortical neuronal as-
+semblies. We built a novel whole-brain model integrating
+neuronal and neuromodulation multimodal data from dMRI and
+fMRI with neurotransmitter data obtained with PET, revealing a
+detailed whole-brain map of 5-HT2AR densities. This provided
+new causative insights into the non-linear interactions between
+anatomy, neuronal activity, and more importantly, speciﬁc
+neurotransmitter receptor density.
+Our framework enabled us to model the resting state (with
+and without music listening) and, more importantly, mechanisti-
+cally explain the functional effects of 5-HT2AR stimulation with
+Figure 3. Results of Whole-Brain Model of Placebo and Explaining
+Effects of LSD with 5HT2A Modulation of Gain Function
+(A) Whole-brain ﬁtting of the placebo condition shows the ﬁt of grand
+average functional connectivity (FC, in red) and functional connectivity
+dynamics (FCD, in green) as a function of the global coupling parameter,
+G (with the error bars indicating the standard error across simulations). For
+the FC ﬁt, higher values indicate a better ﬁt since it reﬂects a simple cor-
+relation between the model and empirical data. However, for the FCD ﬁt,
+lower values indicate a better ﬁt since we use the Kolmogorov-Smirnov
+distance between the FCD of the model and empirical data (see STAR
+Methods for full details). Similar to our previous published research, this
+shows that the FCD ﬁtting is much more informative that the static grand-
+average FC, which is to be expected given that FCD provides the functional
+dynamics. The obtained optimum of G for ﬁtting the model to the FCD (at
+minimum of green line, G = 2.1) is then used for the subsequent neuro-
+modulatory analyses.
+(B) For the LSD condition, when using this optimal coupling point of the pla-
+cebo condition and systematically scaling the excitatory gain function in each
+region with the empirical 5-HT2AR data, we ﬁnd that there is an optimum at
+around (0.2,0.045) (minimum of blue line). In contrast, varying the scaling of the
+neuronal gain for the placebo condition does not yield an optimum (see
+monotonically rising green line), and thus the ﬁt is not improved by changing
+the scaling of the neuronal gain by 5-HT2AR density. This clearly demonstrates
+that the LSD brain activity is dependent on the precise 5-HT2A density distri-
+bution maps.
+(C) Further, reshufﬂing the 5-HT2AR densities randomly across the regions at
+the optimum point in (B), shown within orange box, makes the ﬁt signiﬁcantly
+worse (p < 0.0016). This again demonstrates that the precise distribution of
+5-HT2A is very important for how LSD affects the brain state.
+(D) To further test the robustness of our whole-brain modeling approach, we
+tested the speciﬁcity of other receptor-binding maps. Here, we show a boxplot
+of the results of the generalization capability of our model by training and
+testing the 5-HT2AR maps on 50% subset of participants (columns 2 and 3).
+The results are remarkably similar to using the full set of participants, attesting
+to the robustness of our results. We also show the results of using other se-
+rotonin receptor-binding maps, namely 5-HT1A, 5-HT1B, 5-HT4, and 5-HTT
+(columns 4–7), which all perform signiﬁcantly worse than 5-HT2A, conﬁrming
+the main role this receptor to the effects of LSD [22]. Interestingly, however,
+5-HT1A receptor-binding map performs slightly better than the 5-HT1B, 5-HT4,
+and 5-HTT receptor maps, which conﬁrms its role in LSD [22]. In the last row,
+we show the results of using a uniform receptor-binding distribution (column
+8), which is signiﬁcantly worse than all other receptor-binding distributions.
+(E) Finally, the FCD histograms of LSD and placebo for both the empirical data
+and the optimized model clearly show the excellent ﬁt. We also conﬁrmed the
+results for the non-music conditions, as shown in Figure S1.
+Current Biology 28, 3065–3074, October 8, 2018
+
+===== PAGE 7/19 =====
+well-known 5-HT2AR agonist compound LSD in healthy partici-
+pants. We were able to do so by creating a whole-brain model
+using the underlying anatomical connectivity linking local nodes,
+which were modeled using a dynamical mean-ﬁeld quantitative
+description of populations of excitatory and inhibitory neurons
+as well the associated synaptic dynamics, where the neuronal
+gain function of the model was modulated by the 5-HT2AR den-
+sity. As such, we were able to model the non-linear interactions
+between the underlying anatomical connectivity and the modula-
+tion by the speciﬁc brainwide distribution of neurotransmitter re-
+ceptor density.
+Importantly, the results were informed by the properties of
+the serotonin (5-hydroxytryptamine, 5-HT) system, which is a
+remarkably
+evolutionary
+conserved
+neuromodulator/neuro-
+transmitter that not only regulates psychophysiological func-
+tions like sleep, food intake, body temperature, depression/
+anxiety,
+alcohol/drug-reinforcement,
+emotional
+behavior,
+environmental sensitivity, and adaptive responsivity but also
+modulates cognitive capacities such as learning and memory
+by interacting with other neuromodulatory and neurotransmitter
+systems [33–36]. 5-HT is synthesized within the brainstem’s
+raphe nuclei (dorsal and median), which have distributed
+projections to subcortical, limbic, and neocortical regions
+[37–39]. On the basis of structural, functional, and transduc-
+tional features, 5-HT receptors have been grouped into seven
+receptor groups, including a total of 14 subtypes, and one
+transporter (5-HTT), which typically transfers a neuromodulator,
+e.g., serotonin, from the synaptic cleft to the presynaptic
+neuron [40, 41]. The most abundant and extensively researched
+subtypes of serotonin receptors are the 5-HT1A and 5-HT2A
+receptors [36]; the latter has been shown to mediate an adap-
+tive plasticity (i.e., behavioral capacity for change) that is critical
+for dealing with pathologies, such as stress, adversity, and
+depression [36]. The hallucinogenic effects of psychedelics
+such
+as LSD
+are
+mediated
+through
+their
+stimulation
+of
+5-HT2AR [36, 42] (but also to a lesser degree some of the other
+receptors), and this mode of action may explain the potentially
+beneﬁcial effects on some of the aforementioned pathologies
+[43, 44].
+The present results extend the recent ﬁndings of Shine and
+colleagues [45] to the human whole-brain level and specially
+emphasize the role of PET-based binding receptors for global
+brain dynamics. Until now, it was generally believed that
+whole-brain dynamics are shaped mainly by the underlying
+anatomy and the local dynamics. But this is not enough to fully
+describe the dynamics, as shown by the elegant results of
+Shine and colleagues emphasizing the role of gain modulation.
+The present results supplement this work while emphasizing
+that the incorporation of neuromodulatory properties can
+signiﬁcantly add to an account of global functional dynamics.
+Even
+more
+importantly,
+future
+research
+should
+seek
+to
+describe the full entanglement of the two very different neural
+and neurotransmitter dynamical systems with very different
+timescales.
+Here, neuromodulation was artiﬁcially induced by using a se-
+rotonin agonist, namely the psychedelic LSD. Yet, the method
+can be further optimized—potentially by including the receptor
+distribution
+of
+additional
+neuromodulators—and
+used
+for
+discerning self-generated changes in brain states. Clearly, a
+new approach that can reliably describe the evolution of brain
+states would be of great value both for diagnosis of diseases
+and drug optimization.
+Numerous investigations in human and animals using a great
+repertoire of non-invasive and invasive techniques has convinc-
+ingly demonstrated that the functional whole-brain activity de-
+pends both on effective connectivity and so-called brain states,
+reﬂecting system properties such as anatomical organization,
+dynamic thalamocortical loops, and the function of ascending
+arousal systems. Evidently, such evolving activity patterns are
+affected by diseases and may be eventually used to predict ap-
+proaching ‘‘criticalities,’’ as the latter transitions are often pre-
+ceded by robust gradual reorganization of complex systems in
+general [46].
+Further integration of information and modeling is undoubtedly
+important given the inadequacy of animal models and studies at
+the microscopic level to fully describe human neuropsychiatric
+disorders, which have contributed the paucity of effective clinical
+neuropharmacological interventions such as antidepressants
+having limited success compared to placebo [47, 48], clearly
+indicating that new research strategies are needed [49, 50]. In
+fact, the development and discovery of new effective pharmaco-
+logical treatments for neuropsychiatric disorders is making in-
+cremental progress only, and it has been argued that treatments
+available today are no more effective than those available over
+50 years ago, despite intensive neurobiological investigation
+[49, 51, 52].
+What is needed is a mechanistic understanding of the imbal-
+ances found in neuropsychiatric disorders, speciﬁcally at both
+local and global whole-brain levels [4]. This could help open up
+rational ways for effective brain interventions to rebalance the
+brain networks and help the identiﬁcation of biomarkers strati-
+fying a broad illness phenotype into a ﬁnite number of treat-
+ment-relevant subgroups [53–56].
+Neuropsychiatric disorders are bound together by changes on
+many networks of the brain and in particular in the reward
+network of the brain [57], with anhedonia, i.e., lack of pleasure,
+being the cardinal symptom [58]. Systematic studies of changes
+in local and global neuromodulatory activity, development, opti-
+mization and classiﬁcation of models, and observations of drug
+effects on them may greatly increase our understanding of path-
+ological states and their potential treatment.
+Based on the current ﬁndings, we offer here an example of a
+pipeline (Figure 4) that could potentially be used to combine
+structural,
+functional,
+and
+neurotransmitter
+neuroimaging
+data for modeling a disease state (leftmost). Once the model
+is established, the regional drug receptor modulation can
+be optimized by ﬁnding the optimal weighting of the receptor
+density such that the optimized model generates the func-
+tional dynamics of the healthy state. The current evidence sug-
+gests that it would be important to combine such direct brain
+manipulations with environmental manipulations, e.g., drug-
+assisted psychotherapy, which could be a particularly fruitful
+approach [59].
+In summary, we have demonstrated how the anatomical
+brainwide distribution of neuromodulatory activity can be inte-
+grated in a whole-brain computational model to provide new
+causative insights into the non-linear interactions between
+anatomy, neuronal activity, and more importantly, speciﬁc
+
+Current Biology 28, 3065–3074, October 8, 2018
+
+===== PAGE 8/19 =====
+neurotransmitter receptor density. These novel insights are only
+possible when using a whole-brain model given the fact that it is
+not possible to scramble the neurotransmitter receptor density
+in vivo. With time, this new approach could eventually lead to
+fundamental insights into human brain function in health and dis-
+ease and be used for drug discovery and design in neuropsychi-
+atric disorders.
+STAR+METHODS
+Detailed methods are provided in the online version of this paper
+and include the following:
+d KEY RESOURCES TABLE
+d CONTACT FOR REAGENT AND RESOURCE SHARING
+d EXPERIMENTAL MODEL AND SUBJECT DETAILS
+B Anatomical connectivity dataset using diffusion mag-
+netic resonance imaging
+B Functional dataset using functional magnetic reso-
+nance imaging
+B Neurotransmitter dataset using positron emission to-
+mography
+d METHOD DETAILS
+B 1. Structural connectivity
+B 2. Functional connectivity
+B 3. Neurotransmitter density
+d QUANTIFICATION AND STATISTICAL ANALYSIS
+B 1. Structural connectivity
+B 2. Functional connectivity
+B 3. Parcellation
+B 4. Whole-Brain Dynamic Mean Field Model
+B 5. Serotonergic Modulation
+d DATA AND SOFTWARE AVAILABILITY
+SUPPLEMENTAL INFORMATION
+Supplemental Information includes one ﬁgure and can be found with this
+article online at https://doi.org/10.1016/j.cub.2018.07.083.
+ACKNOWLEDGMENTS
+G.D. is supported by the ERC Advanced Grant DYSTRUCTURE (295129), the
+Spanish Research Project PSI2016-75688-P, and the European Union’s
+Horizon 2020 Framework Programme for Research and Innovation under the
+Speciﬁc Grant Agreement No. 785907 (Human Brain Project SGA2). M.L.K.
+is supported by the ERC Consolidator Grant: CAREGIVING (615539) and
+Center for Music in the Brain, funded by the Danish National Research Foun-
+dation (DNRF117). R.L.C.-H. is supported by the Alex Mosley Charitable Trust,
+and the study that yielded the empirical LSD data was carried out as part of a
+Beckley-Imperial research collaboration. J. Cabral is supported under the proj-
+ect NORTE-01-0145-FEDER-000023 from the Northern Portugal Regional
+Operational Program (NORTE 2020) under the Portugal 2020 Partnership
+Agreement through the European Regional Development Fund (FEDER).
+Figure 4. Potential of Using Whole-Brain Modeling for Optimal Drug Modulation Discovery
+The principles of combining whole-brain computational modeling with neurotransmitter density maps to ﬁt functional brain dynamics open up for novel rational
+drug discovery design. The ﬁgure provides a pipeline for how to combine structural, functional, and neurotransmitter neuroimaging data to model the disease
+state (leftmost). Once the model is established, the regional drug receptor modulation (RDRM) can be optimized by ﬁnding the optimal weighting of the receptor
+density such that the optimized model generates the functional dynamics of the healthy state.
+Current Biology 28, 3065–3074, October 8, 2018
+
+===== PAGE 9/19 =====
+G.M.K. and the Cimbi database were supported by a centre grant from the
+Lundbeck Foundation (2010-5364).
+AUTHOR CONTRIBUTIONS
+G.D. and M.L.K. designed and conducted the whole-brain models, with further
+analysis by J. Cabral and J. Cruzat. R.L.C.-H. and G.M.K. provided the exper-
+imental data. G.D., M.L.K., N.K.L., J. Cabral, J. Cruzat, P.C.W., G.M.K., and
+R.L.C.-H. wrote the paper.
+DECLARATION OF INTERESTS
+The authors declare to have no conﬂict of interest.
+Received: May 9, 2018
+Revised: June 21, 2018
+Accepted: July 31, 2018
+Published: September 27, 2018
+REFERENCES
+1. Breakspear, M. (2017). Dynamic models of large-scale brain activity. Nat.
+Neurosci. 20, 340–352.
+2. Deco, G., Jirsa, V., McIntosh, A.R., Sporns, O., and Ko¨ tter, R. (2009). Key
+role of coupling, delay, and noise in resting brain ﬂuctuations. Proc. Natl.
+Acad. Sci. USA 106, 10302–10307.
+3. Deco, G., Tononi, G., Boly, M., and Kringelbach, M.L. (2015). Rethinking
+segregation and integration: contributions of whole-brain modelling. Nat.
+Rev. Neurosci. 16, 430–439.
+4. Deco, G., and Kringelbach, M.L. (2014). Great expectations: using whole-
+brain computational connectomics for understanding neuropsychiatric
+disorders. Neuron 84, 892–905.
+5. Cabral, J., Kringelbach, M.L., and Deco, G. (2017). Functional connectivity
+dynamically evolves on multiple time-scales over a static structural con-
+nectome: Models and mechanisms. Neuroimage 160, 84–96.
+6. Honey, C.J., Ko¨ tter, R., Breakspear, M., and Sporns, O. (2007). Network
+structure of cerebral cortex shapes functional connectivity on multiple
+time scales. Proc. Natl. Acad. Sci. USA 104, 10240–10245.
+7. Ghosh, A., Rho, Y., McIntosh, A.R., Ko¨ tter, R., and Jirsa, V.K. (2008). Noise
+during rest enables the exploration of the brain’s dynamic repertoire. PLoS
+Comput. Biol. 4, e1000196.
+8. Biswal, B., Yetkin, F., Haughton, V., and Hyde, J. (1995). Functional con-
+nectivity in the motor cortex of resting human brain using echo-planar
+MRI. Mag Reson Med. 34, 537–541.
+9. Raichle, M.E., MacLeod, A.M., Snyder, A.Z., Powers, W.J., Gusnard, D.A.,
+and Shulman, G.L. (2001). A default mode of brain function. Proc. Natl.
+Acad. Sci. USA 98, 676–682.
+10. Damoiseaux, J.S., Rombouts, S.A., Barkhof, F., Scheltens, P., Stam, C.J.,
+Smith, S.M., and Beckmann, C.F. (2006). Consistent resting-state net-
+works across healthy subjects. Proc. Natl. Acad. Sci. USA 103, 13848–
+13853.
+11. Deco, G., Cabral, J., Woolrich, M.W., Stevner, A.B.A., van Hartevelt, T.J.,
+and Kringelbach, M.L. (2017). Single or multiple frequency generators in
+on-going brain activity: A mechanistic whole-brain model of empirical
+MEG data. Neuroimage 152, 538–550.
+12. Cabral, J., Luckhoo, H., Woolrich, M., Joensson, M., Mohseni, H., Baker,
+A., Kringelbach, M.L., and Deco, G. (2014). Exploring mechanisms of
+spontaneous functional connectivity in MEG: how delayed network inter-
+actions lead to structured amplitude envelopes of band-pass ﬁltered oscil-
+lations. Neuroimage 90, 423–435.
+13. Ghosh, A., Rho, Y., McIntosh, A.R., Ko¨ tter, R., and Jirsa, V.K. (2008).
+Cortical network dynamics with time delays reveals functional connectivity
+in the resting brain. Cogn Neurodyn 2, 115–120.
+14. Kringelbach, M.L., McIntosh, A.R., Ritter, P., Jirsa, V.K., and Deco, G.
+(2015). The rediscovery of slowness: exploring the timing of cognition.
+Trends Cogn. Sci. 19, 616–628.
+15. Bargmann, C.I. (2012). Beyond the connectome: how neuromodulators
+shape neural circuits. BioEssays 34, 458–465.
+16. Smythies, J. (2005). Section V. Serotonin system. Int. Rev. Neurobiol. 64,
+217–268.
+17. Marder, E. (2012). Neuromodulation of neuronal circuits: back to the
+future. Neuron 76, 1–11.
+18. Beliveau, V., Ganz, M., Feng, L., Ozenne, B., Højgaard, L., Fisher, P.M.,
+Svarer, C., Greve, D.N., and Knudsen, G.M. (2017). A High-Resolution
+In Vivo Atlas of the Human Brain’s Serotonin System. J. Neurosci. 37,
+120–128.
+19. Tzourio-Mazoyer, N., Landeau, B., Papathanassiou, D., Crivello, F., Etard,
+O., Delcroix, N., Mazoyer, B., and Joliot, M. (2002). Automated anatomical
+labeling of activations in SPM using a macroscopic anatomical parcella-
+tion of the MNI MRI single-subject brain. Neuroimage 15, 273–289.
+20. Carhart-Harris, R.L., Muthukumaraswamy, S., Roseman, L., Kaelen, M.,
+Droog, W., Murphy, K., Tagliazucchi, E., Schenberg, E.E., Nest, T.,
+Orban, C., et al. (2016). Neural correlates of the LSD experience revealed
+by multimodal neuroimaging. Proc. Natl. Acad. Sci. USA 113, 4853–4858.
+21. Kaelen, M., Barrett, F.S., Roseman, L., Lorenz, R., Family, N., Bolstridge,
+M., Curran, H.V., Feilding, A., Nutt, D.J., and Carhart-Harris, R.L. (2015).
+LSD enhances the emotional response to music. Psychopharmacology
+(Berl.) 232, 3607–3614.
+22. Nichols, D.E. (2016). Psychedelics. Pharmacol. Rev. 68, 264–355.
+23. Hagmann, P., Cammoun, L., Gigandet, X., Meuli, R., Honey, C.J., Wedeen,
+V.J., and Sporns, O. (2008). Mapping the structural core of human cerebral
+cortex. PLoS Biol. 6, e159.
+24. Cabral, J., Kringelbach, M.L., and Deco, G. (2014). Exploring the network
+dynamics underlying brain activity during rest. Prog. Neurobiol. 114,
+102–131.
+25. Deco, G., Ponce-Alvarez, A., Hagmann, P., Romani, G.L., Mantini, D., and
+Corbetta, M. (2014). How local excitation-inhibition ratio impacts the
+whole brain dynamics. J. Neurosci. 34, 7886–7898.
+26. Brunel, N., and Wang, X.J. (2001). Effects of neuromodulation in a cortical
+network model of object working memory dominated by recurrent inhibi-
+tion. J. Comput. Neurosci. 11, 63–85.
+27. Hansen, E.C., Battaglia, D., Spiegler, A., Deco, G., and Jirsa, V.K. (2015).
+Functional connectivity dynamics: modeling the switching behavior of the
+resting state. Neuroimage 105, 525–535.
+28. Allen, E.A., Damaraju, E., Plis, S.M., Erhardt, E.B., Eichele, T., and
+Calhoun, V.D. (2014). Tracking whole-brain connectivity dynamics in the
+resting state. Cereb. Cortex 24, 663–676.
+29. Deco, G., and Kringelbach, M.L. (2016). Metastability and Coherence:
+Extending the Communication through Coherence Hypothesis Using A
+Whole-Brain Computational Perspective. Trends Neurosci. 39, 125–135.
+30. Messe, A., Rudrauf, D., Benali, H., and Marrelec, G. (2014). Relating struc-
+ture and function in the human brain: relative contributions of anatomy,
+stationary dynamics, and non-stationarities. PLoS Comput. Biol. 10,
+e1003530.
+31. Deco, G., Kringelbach, M.L., Jirsa, V.K., and Ritter, P. (2017). The dy-
+namics of resting ﬂuctuations in the brain: metastability and its dynamical
+cortical core. Sci. Rep. 7, 3095.
+32. Halberstadt, A.L. (2015). Recent advances in the neuropsychopharmacol-
+ogy of serotonergic hallucinogens. Behav. Brain Res. 277, 99–120.
+33. King, M.V., Marsden, C.A., and Fone, K.C. (2008). A role for the 5-HT(1A),
+5-HT4 and 5-HT6 receptors in learning and memory. Trends Pharmacol.
+Sci. 29, 482–492.
+34. Svob Strac, D., Pivac, N., and Mu¨ ck-Seler, D. (2016). The serotonergic
+system and cognitive function. Transl. Neurosci. 7, 35–49.
+
+Current Biology 28, 3065–3074, October 8, 2018
+
+===== PAGE 10/19 =====
+35. Atasoy, S., Deco, G., Kringelbach, M.L., and Pearson, J. (2018). Harmonic
+brain modes: a unifying framework for linking space and time in brain dy-
+namics. Neuroscientist 24, 277–293.
+36. Carhart-Harris, R.L., and Nutt, D.J. (2017). Serotonin and brain function: a
+tale of two receptors. J. Psychopharmacol. (Oxford) 31, 1091–1120.
+37. Azmitia, E.C., and Gannon, P.J. (1986). The primate serotonergic system:
+a review of human and animal studies and a report on Macaca fascicularis.
+Adv. Neurol. 43, 407–468.
+38. Wilson, M.A., and Molliver, M.E. (1991). The organization of serotonergic
+projections to cerebral cortex in primates: retrograde transport studies.
+Neuroscience 44, 555–570.
+39. Jacobs, B.L., and Azmitia, E.C. (1992). Structure and function of the brain
+serotonin system. Physiol. Rev. 72, 165–229.
+40. Serretti, A., Calati, R., Mandelli, L., and De Ronchi, D. (2006). Serotonin
+transporter gene variants and behavior: a comprehensive review. Curr.
+Drug Targets 7, 1659–1669.
+41. Amara, S.G., and Kuhar, M.J. (1993). Neurotransmitter transporters:
+recent progress. Annu. Rev. Neurosci. 16, 73–93.
+42. Preller, K.H., Herdener, M., Pokorny, T., Planzer, A., Kraehenmann, R.,
+St€ampﬂi, P., Liechti, M.E., Seifritz, E., and Vollenweider, F.X. (2017). The
+Fabric of Meaning and Subjective Effects in LSD-Induced States
+Depend on Serotonin 2A Receptor Activation. Curr. Biol. 27, 451–457.
+43. Carhart-Harris, R.L., Kaelen, M., Bolstridge, M., Williams, T.M., Williams,
+L.T., Underwood, R., Feilding, A., and Nutt, D.J. (2016). The paradoxical
+psychological effects of lysergic acid diethylamide (LSD). Psychol. Med.
+46, 1379–1390.
+44. Nichols, D.E. (2018). Chemistry and Structure-Activity Relationships of
+Psychedelics. Curr. Top. Behav. Neurosci. 36, 1–43.
+45. Shine, J.M., Aburn, M.J., Breakspear, M., and Poldrack, R.A. (2018). The
+modulation of neural gain facilitates a transition between functional segre-
+gation and integration in the brain. eLife 7, e31130.
+46. Atasoy, S., Roseman, L., Kaelen, M., Kringelbach, M.L., Deco, G., and
+Carhart-Harris, R. (2017). Connectome-harmonic decomposition of hu-
+man brain activity reveals dynamical repertoire re-organization under
+LSD. Sci. Rep. 7, 17661.
+47. Kirsch, I., Deacon, B.J., Huedo-Medina, T.B., Scoboria, A., Moore, T.J.,
+and Johnson, B.T. (2008). Initial severity and antidepressant beneﬁts: a
+meta-analysis of data submitted to the Food and Drug Administration.
+PLoS Med. 5, e45.
+48. Fountoulakis, K.N., and Moller, H.J. (2011). Efﬁcacy of antidepres-
+sants: are-analysis and re-interpretation of the Kirsch data. Int J
+Neuropsychopharmacol. 14, 405–412.
+49. Holtzheimer, P.E., and Mayberg, H.S. (2011). Stuck in a rut: rethinking
+depression and its treatment. Trends Neurosci. 34, 1–9.
+50. Kapur, S., Phillips, A.G., and Insel, T.R. (2012). Why has it taken so long for
+biological psychiatry to develop clinical tests and what to do about it? Mol.
+Psychiatry 17, 1174–1179.
+51. Conn, P.J., Tamminga, C., Schoepp, D.D., and Lindsley, C. (2008).
+Schizophrenia: moving beyond monoamine antagonists. Mol. Interv. 8,
+99–107.
+52. Starcevic, V., and Brakoulias, V. (2008). Symptom subtypes of obsessive-
+compulsive disorder: are they relevant for treatment? Aust. N. Z. J.
+Psychiatry 42, 651–661.
+53. Trusheim, M.R., Berndt, E.R., and Douglas, F.L. (2007). Stratiﬁed medi-
+cine: strategic and economic implications of combining drugs and clinical
+biomarkers. Nat. Rev. Drug Discov. 6, 287–293.
+54. Cuthbert, B.N., and Insel, T.R. (2013). Toward the future of psychiatric
+diagnosis: the seven pillars of RDoC. BMC Med. 11, 126.
+55. Stephan, K.E., Bach, D.R., Fletcher, P.C., Flint, J., Frank, M.J., Friston,
+K.J., Heinz, A., Huys, Q.J.M., Owen, M.J., Binder, E.B., et al. (2016).
+Charting the landscape of priority problems in psychiatry, part 1: classiﬁ-
+cation and diagnosis. Lancet Psychiatry 3, 77–83.
+56. Stephan, K.E., Binder, E.B., Breakspear, M., Dayan, P., Johnstone, E.C.,
+Meyer-Lindenberg, A., Schnyder, U., Wang, X.J., Bach, D.R., Fletcher,
+P.C., et al. (2016). Charting the landscape of priority problems in psychia-
+try, part 2: pathogenesis and aetiology. Lancet Psychiatry 3, 84–90.
+57. Berridge, K.C., and Kringelbach, M.L. (2015). Pleasure systems in the
+brain. Neuron 86, 646–664.
+58. Rømer Thomsen, K., Whybrow, P.C., and Kringelbach, M.L. (2015).
+Reconceptualizing anhedonia: novel perspectives on balancing the plea-
+sure networks in the human brain. Front. Behav. Neurosci. 9, 49.
+59. Carhart-Harris, R.L., Roseman, L., Haijen, E., Erritzoe, D., Watts, R.,
+Branchi, I., and Kaelen, M. (2018). Psychedelics and the essential impor-
+tance of context. J. Psychopharmacol. (Oxford) 32, 725–731.
+60. Knudsen, G.M., Jensen, P.S., Erritzoe, D., Baare, W.F., Ettrup, A., Fisher,
+P.M., Gillings, N., Hansen, H.D., Hansen, L.K., Hasselbalch, S.G., et al.
+(2016). The center for integrated molecular brain imaging (Cimbi) data-
+base. Neuroimage 124 (Pt B), 1213–1219.
+61. Kaelen, M., Lorenz, R., Barrett, F.S., Roseman, L., Orban, C., Santos-
+Ribeiro, A., Wall, M.B., Feilding, A., Nutt, D., Muthukumaraswamy, S.,
+et al. (2017). Effects of LSD on music-evoked brain activity. bioRxiv.
+https://doi.org/10.1101/153031.
+62. Olesen, O.V., Sibomana, M., Keller, S.H., Andersen, F., Jensen, J., Holm,
+S., Svarer, C., and Højgaard, L. (2009). Spatial resolution of the HRRT PET
+scanner using 3D-OSEM PSF reconstruction. In Proceedings from the
+2009 IEEE Nuclear Science Symposium Conference Record (IEEE), pp.
+3789–3790.
+63. Ettrup, A., da Cunha-Bang, S., McMahon, B., Lehel, S., Dyssegaard, A.,
+Skibsted, A.W., Jørgensen, L.M., Hansen, M., Baandrup, A.O., Bache,
+S., et al. (2014). Serotonin 2A receptor agonist binding in the human brain
+with [11C]Cimbi-36. J. Cereb. Blood Flow Metab. 34, 1188–1196.
+64. Ettrup, A., Svarer, C., McMahon, B., da Cunha-Bang, S., Lehel, S., Møller,
+K., Dyssegaard, A., Ganz, M., Beliveau, V., Jørgensen, L.M., et al. (2016).
+Serotonin 2A receptor agonist binding in the human brain with [(11)C]
+Cimbi-36: Test-retest reproducibility and head-to-head comparison with
+the antagonist [(18)F]altanserin. Neuroimage 130, 167–174.
+65. Comtat, C., Sureau, F., Sibomana, M., Hong, I., Sjoholm, N., and
+Trebossen, R. (2008). Image based resolution modeling for the HRRT
+OSEM reconstructions software. In Proceedings of the 2008 IEEE
+Nuclear Science Symposium Conference Record (IEEE), pp. 4120–4123.
+66. Sureau, F.C., Reader, A.J., Comtat, C., Leroy, C., Ribeiro, M.-J., Buvat, I.,
+and Trebossen, R. (2008). Impact of image-space resolution modeling for
+studies with the high-resolution research tomograph. J. Nucl. Med. 49,
+1000–1008.
+67. Woods, R.P., Cherry, S.R., and Mazziotta, J.C. (1992). Rapid automated
+algorithm for aligning and reslicing PET images. J. Comput. Assist.
+Tomogr. 16, 620–633.
+68. Jovicich, J., Czanner, S., Greve, D., Haley, E., van der Kouwe, A., Gollub,
+R., Kennedy, D., Schmitt, F., Brown, G., Macfall, J., et al. (2006). Reliability
+in multi-site structural MRI studies: effects of gradient non-linearity correc-
+tion on phantom and human data. Neuroimage 30, 436–443.
+69. Fischl, B. (2012). FreeSurfer. Neuroimage 62, 774–781.
+70. Greve, D.N., and Fischl, B. (2009). Accurate and robust brain image align-
+ment using boundary-based registration. Neuroimage 48, 63–72.
+71. Postelnicu, G., Zollei, L., and Fischl, B. (2009). Combined volumetric and
+surface registration. IEEE Trans. Med. Imaging 28, 508–522.
+72. Jenkinson, M., Bannister, P., Brady, M., and Smith, S. (2002). Improved
+optimization for the robust and accurate linear registration and motion
+correction of brain images. Neuroimage 17, 825–841.
+73. Collins, D.L., Neelin, P., Peters, T.M., and Evans, A.C. (1994). Automatic
+3D intersubject registration of MR volumetric data in standardized
+Talairach space. J. Comput. Assist. Tomogr. 18, 192–205.
+74. Gordon, E.M., Laumann, T.O., Adeyemo, B., Huckins, J.F., Kelley, W.M.,
+and Petersen, S.E. (2016). Generation and Evaluation of a Cortical Area
+Parcellation from Resting-State Correlations. Cereb. Cortex 26, 288–303.
+Current Biology 28, 3065–3074, October 8, 2018
+
+===== PAGE 11/19 =====
+75. Eickhoff, S.B., Constable, R.T., and Yeo, B.T.T. (2018). Topographic orga-
+nization of the cerebral cortex and brain cartography. Neuroimage 170,
+332–347.
+76. Behrens, T.E., Woolrich, M.W., Jenkinson, M., Johansen-Berg, H., Nunes,
+R.G., Clare, S., Matthews, P.M., Brady, J.M., and Smith, S.M. (2003).
+Characterization and propagation of uncertainty in diffusion-weighted
+MR imaging. Mag Reson Med. 50, 1077–1088.
+77. Behrens, T.E., Berg, H.J., Jbabdi, S., Rushworth, M.F., and Woolrich,
+M.W. (2007). Probabilistic diffusion tractography with multiple ﬁbre orien-
+tations: What can we gain? Neuroimage 34, 144–155.
+78. Beckmann, C.F., and Smith, S.M. (2004). Probabilistic independent
+component analysis for functional magnetic resonance imaging. IEEE
+Trans. Med. Imaging 23, 137–152.
+79. Wong, K.F., and Wang, X.J. (2006). A recurrent network mechanism of
+time integration in perceptual decisions. J. Neurosci. 26, 1314–1328.
+80. Abbott, L.F., and Chance, F.S. (2005). Drivers and modulators from push-
+pull and balanced synaptic input. Prog. Brain Res. 149, 147–155.
+81. Burns, B.D., and Webb, A. (1976). The spontaneous activity of neurones in
+the cat’s cerebral cortex. Proc R Soc Lond B Biol Sci. 194, 211–223.
+82. Koch, K.W., and Fuster, J.M. (1989). Unit activity in monkey parietal cortex
+related to haptic perception and temporary memory. Exp. Brain Res. 76,
+292–306.
+83. Softky, W.R., and Koch, C. (1993). The highly irregular ﬁring of cortical cells
+is inconsistent with temporal integration of random EPSPs. J. Neurosci.
+13, 334–350.
+84. Shadlen, M.N., and Newsome, W.T. (1998). The variable discharge of
+cortical neurons: implications for connectivity, computation, and informa-
+tion coding. J. Neurosci. 18, 3870–3896.
+85. Stephan, K.E., Weiskopf, N., Drysdale, P.M., Robinson, P.A., and Friston,
+K.J. (2007). Comparing hemodynamic models with DCM. Neuroimage 38,
+387–401.
+86. Glerean, E., Salmi, J., Lahnakoski, J.M., J€a€askel€ainen, I.P., and Sams, M.
+(2012). Functional magnetic resonance imaging phase synchronization as
+a measure of dynamic functional connectivity. Brain Connect. 2, 91–101.
+87. Buckner, R.L., Sepulcre, J., Talukdar, T., Krienen, F.M., Liu, H., Hedden,
+T., Andrews-Hanna, J.R., Sperling, R.A., and Johnson, K.A. (2009).
+Cortical hubs revealed by intrinsic functional connectivity: mapping,
+assessment of stability, and relation to Alzheimer’s disease. J. Neurosci.
+29, 1860–1873.
+88. Achard, S., Salvador, R., Whitcher, B., Suckling, J., and Bullmore, E.
+(2006). A resilient, low-frequency, small-world human brain functional
+network with highly connected association cortical hubs. J. Neurosci.
+26, 63–72.
+89. Grasso, C., Li Volsi, G., and Barresi, M. (2016). Serotonin modiﬁes the
+spontaneous spiking activity of gracile nucleus neurons in rats: role of
+5-HT1A and 5-HT2 receptors. Arch. Ital. Biol. 154, 39–49.
+90. Licata, F., Li Volsi, G., Maugeri, G., and Santangelo, F. (1993). Excitatory
+and inhibitory effects of 5-hydroxytryptamine on the ﬁring rate of medial
+vestibular nucleus neurons in the rat. Neurosci. Lett. 154, 195–198.
+91. Licata, F., Li Volsi, G., Maugeri, G., and Santangelo, F. (1995). Neuronal re-
+sponses to 5-hydroxytryptamine in the red nucleus of rats. Exp. Brain Res.
+107, 215–220.
+92. Licata, F., Li Volsi, G., Maugeri, G., Ciranna, L., and Santangelo, F. (1993).
+Serotonin-evoked modiﬁcations of the neuronal ﬁring rate in the superior
+vestibular nucleus: a microiontophoretic study in the rat. Neuroscience
+52, 941–949.
+93. Schmied, A., Farin, D., Amalric, M., and Dormont, J.F. (1991). Changes in
+motor performance and rubral single unit activity in cats after microinjec-
+tions of serotonin into the red nucleus area. Brain Res. 567, 91–100.
+94. Chance, F.S., Abbott, L.F., and Reyes, A.D. (2002). Gain modulation from
+background synaptic input. Neuron 35, 773–782.
+
+Current Biology 28, 3065–3074, October 8, 2018
+
+===== PAGE 12/19 =====
+STAR+METHODS
+KEY RESOURCES TABLE
+CONTACT FOR REAGENT AND RESOURCE SHARING
+Further information and requests for resources should be directed to and will be fulﬁlled by the Lead Contact: Morten L. Kringelbach
+(morten.kringelbach@psych.ox.ac.uk).
+EXPERIMENTAL MODEL AND SUBJECT DETAILS
+Three empirical datasets using human participants were used:
+Anatomical connectivity dataset using diffusion magnetic resonance imaging
+We used diffusion MRI (dMRI) data collected in 16 healthy right-handed participants at Aarhus University, Denmark (5 women, mean
+age: 24.8 ± 2.5). The study was approved by the internal research board at CFIN, Aarhus University, Denmark. Ethics approval was
+granted by the Research Ethics Committee of the Central Denmark Region (De Videnskabsetiske Komiteer for Region Midtjylland).
+Written informed consent was obtained from all participants prior to participation.
+Functional dataset using functional magnetic resonance imaging
+All 15 participants (four women; mean age, 30.5 ± 8.0) were recruited via word of mouth and provided written informed consent to
+participate after study brieﬁng and screening for physical and mental health. The study was approved by the National Research
+Ethics Service committee London-West London and was conducted in accordance with the revised declaration of Helsinki
+(2000), the International Committee on Harmonization of Good Clinical Practice guidelines, and National Health Service Research
+Governance Framework. Imperial College London sponsored the research, which was conducted under a Home Ofﬁce license
+for research with schedule 1 drugs. The screening for physical health included electrocardiogram (ECG), routine blood tests, and
+urine test for recent drug use and pregnancy. A psychiatric interview was conducted and participants provided full disclosure of their
+drug use history. Key exclusion criteria included: < 21 years of age, personal history of diagnosed psychiatric illness, immediate
+family history of a psychotic disorder, an absence of previous experience with a classic psychedelic drug (e.g., LSD, mescaline,
+psilocybin/magic mushrooms or DMT/Ayahuasca), any psychedelic drug use within 6 weeks of the ﬁrst scanning day, pregnancy,
+problematic alcohol use (i.e., > 40 units consumed per week), or a medically signiﬁcant condition rendering the volunteer unsuitable
+for the study.
+Neurotransmitter dataset using positron emission tomography
+The participants were healthy male and female controls from the Cimbi database [60]; all data from this database are freely acces-
+sible. The data analysis was restricted to include individuals aged between 18 and 45 years. Participants were recruited by adver-
+tisement for different research protocols approved by the Ethics Committee of Copenhagen and Frederiksberg, Denmark. A total of
+232 positron emission tomography (PET) scans and corresponding structural MRI scans were acquired for 210 individual partici-
+pants; 189 participants had only one scan, 20 participants had two scans, and a single had three scans.
+METHOD DETAILS
+Here we describe the methods for obtaining 1) structural connectivity: probabilistic tractography derived from the dMRI, 2) functional
+connectivity: functional dynamics estimated from the fMRI in the placebo and LSD condition, and 3) neurotransmitter density: esti-
+mation of the density of the 5HT-2A receptors that has been obtained using PET.
+REAGENT or RESOURCE
+SOURCE
+IDENTIFIER
+Software and Algorithms
+Whole-brain modeling
+Custom software
+https://github.com/decolab/cb-neuromod
+MATLAB 2014b
+MathWorks
+https://www.mathworks.com
+SPM
+Wellcome Department of Cognitive Neurology, London, UK
+https://www.ﬁl.ion.ucl.ac.uk/spm/
+FSL
+FMRIB Software Library
+https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/
+Current Biology 28, 3065–3074.e1–e6, October 8, 2018
+e1
+
+===== PAGE 13/19 =====
+1. Structural connectivity
+Participants and acquisition
+We used dMRI data collected in 16 healthy right-handed participants at Aarhus University, Denmark (5 women, mean age: 24.8 ± 2.5).
+The imaging data were recorded in a single session on a 3 T Siemens Skyra scanner at CFIN, Aarhus University, Denmark. The
+following parameters were used for the structural MRI T1 scan: voxel size of 1 mm3; reconstructed matrix size 256 3 256; echo
+time (TE) of 3.8 ms and repetition time (TR) of 2300 ms. dMRI data were collected using TR = 9000 ms, TE = 84 ms, ﬂip angle =
+90, reconstructed matrix size of 106 3 106, voxel size of 1.98 3 1.98 mm with slice thickness of 2 mm and a bandwidth of
+1745 Hz/Px. Furthermore, the data were recorded with 62 optimal nonlinear diffusion gradient directions at b = 1500 s/mm2. One
+non-diffusion weighted image (b = 0) per 10 diffusion-weighted images was acquired, approximately. One of dMRI images was
+collected applying anterior to posterior phase encoding direction and the other acquired in the opposite direction.
+2. Functional connectivity
+The functional data is described in details in a previous study [20] but here we brieﬂy summarize the study setting and acquisition
+protocol.
+Study setting and overview
+Screening took place at Imperial’s clinical research facility (ICRF) at the Hammersmith hospital campus. Participants who were found
+eligible for the study attended two study days that were separated by at least 14 days. On one day, the participants received placebo,
+and on the other day they received LSD. The order of the conditions was balanced across participants, and participants were blind to
+this order but the researchers were not.
+On scanning days, volunteers arrived at the study center at 8:00am. They were briefed in detail about the study day schedule, gave
+a urine test for recent drug use and pregnancy, and carried out a breathalyser test for recent alcohol use. A cannula was inserted into
+a vein in the antecubital fossa by a medical doctor and secured. The participants were encouraged to close their eyes and relax in a
+reclined position when the drug was administered. All participants received 75 mg of LSD, administered intravenously via a 10ml
+solution infused over a two minutes’ period, followed by an infusion of saline. The administration was followed by an acclimatization
+period of approximately 60 min, in which (for at least some of the time) participants were encouraged to relax and lie with their eyes
+closed inside a mock MRI scanner. This functioned to psychologically prepare the participants for being in the subsequent (poten-
+tially anxiogenic) MRI scanning environment.
+Participants reported noticing subjective drug effects between 5 to 15 min post-dosing, and these approached peak intensity be-
+tween 60 to 90 min post-dosing. The duration of a subsequent plateau of drug effects varied among individuals but was generally
+maintained for approximately four hours post-dosing. MRI scanning started approximately 70 min post- dosing, and lasted for
+approximately 60 min. This included a structural scan and BOLD fMRI. Once the subjective effects of LSD had sufﬁciently subsided,
+the study psychiatrist assessed the participant’s suitability for discharge.
+Scanning design and content
+The BOLD scanning consisted of three eyes-closed resting state scans, each lasting seven minutes. After each seven-minute scan,
+VAS ratings were performed in the scanner via a response-box. The ﬁrst and third scans were eyes-closed rest but the second scan
+also incorporated listening to two excerpts of music from two songs by ambient artist Robert Rich [61]. The stimuli were both 7.3 min
+long and were balanced in their acoustic properties, and rich in timbre, but not in rhythm. Pre-study assessments in a separate group
+conﬁrmed balance for their emotional potency. In order to reduce interference of fMRI scanning noise with the music experience,
+volume-maximization and broadband compression was carried out using Ableton Live 9 software. Each participant listened to
+both stimuli, in a balanced order across conditions. Prior to each scan, participants were instructed via onscreen instructions to close
+their eyes and relax. Here we used the music + LSD condition since this has been demonstrated to yield a larger effect on brain ac-
+tivity [20] but we also found the effects for LSD without music.
+Anatomical Scans
+Imaging was performed on a 3T GE HDx system. These were 3D fast spoiled gradient echo scans in an axial orientation, with ﬁeld
+of view = 256 3 256 3 192 and matrix = 256 3 256 3 192 to yield 1mm isotropic voxel resolution. TR/TE = 7.9/3.0ms; inversion
+time = 450ms; ﬂip angle = 20.
+BOLD fMRI Data Acquisition
+Two BOLD-weighted fMRI data were acquired using a gradient echo planer imaging sequence, TR/TE = 2000/35ms, ﬁeld-of-view =
+220mm, 64 3 64 acquisition matrix, parallel acceleration factor = 2, 90 ﬂip angle. Thirty-ﬁve oblique axial slices were acquired in an
+interleaved fashion, each 3.4mm thick with zero slice gap (3.4mm isotropic voxels). The precise length of each of the two BOLD scans
+was 7:20 min.
+3. Neurotransmitter density
+The methods used to obtain the 5HT2A receptor density distribution is described in details elsewhere [18] but in the following we
+brieﬂy summarize the main methods.
+PET and structural MRI
+PET data were acquired in list mode on a Siemens HRRT scanner operating in 3D acquisition mode with an approximate in-plane
+resolution of 2 mm (1.4 mm in the center of the ﬁeld of view and 2.4 mm in cortex[62]). The PET scanning used the recently developed
+[11C]Cimbi-36 as a selective serotonin 2A (5-HT2A) receptor agonist radioligand [63, 64]. The radioligands for the other serotonin
+e2
+Current Biology 28, 3065–3074.e1–e6, October 8, 2018
+
+===== PAGE 14/19 =====
+receptors are described in the paper by Beliveau and colleagues [18]. PET frames were reconstructed using a 3D–OSEM–PSF algo-
+rithm [65, 66]. Scan time and frame length were designed according to the radiotracer characteristics. Dynamic PET frames were
+realigned using AIR 5.2.5[67]. T1- and T2-weighted structural MRI were acquired on four different Siemens scanners with standard
+parameters. All structural MRIs (T1 and T2) were unwarped ofﬂine using FreeSurfer’s gradient-_nonlin_unwarp version 0.8 or online
+on the scanner [68]. For further details on structural MRI acquisition parameters, see [60].
+Further processing was performed with FreeSurfer 5.3 [69] (http://surfer.nmr.mgh.harvard.edu) using a surface and a volume
+stream. The individual cortical surfaces were reconstructed using the structural MRI corrected for gradient nonlinearities. The pial
+surfaces were further reﬁned using T2-weighted structural images and corrected manually where necessary. PET–MR coregistration
+was estimated using boundary-based registration[70] between the time- weighted sum of the PET time–activity curves (TACs) and
+the structural MRI. Additionally, the transformation from individual MR space to normal MNI152 space was estimated with combined
+volume–surface (CVS) registration [71].
+QUANTIFICATION AND STATISTICAL ANALYSIS
+First we provide a general overview of the analysis pipeline used to integrate structural and functional connectivity (diffusion magnetic
+resonance imaging, dMRI, and functional magnetic resonance, fMRI) with neurotransmission (positron emission tomography, PET) in
+a model of the placebo and LSD response in healthy participants (see Figure 1 in main paper).
+This overview is subsequently followed by the speciﬁc methods, namely:
+1. Structural connectivity: probabilistic tractography derived from the dMRI
+2. Functional connectivity: functional dynamics estimated from the fMRI in the placebo and LSD condition
+3. Parcellation: all structural, functional and neuromodulation data are integrated into the Automated Anatomical Labeling (AAL)
+parcellation
+4. Whole-brain computational model: a dynamic mean ﬁeld model was used to integrate the available data to ﬁt the placebo con-
+dition
+5. Neuromodulation in whole-brain model: integration of the neurotransmission data by changing the gain of neurons in the pla-
+cebo-ﬁtted whole-brain model in order to ﬁt the LSD condition
+1. Structural connectivity
+Tractography
+For the present study, we used the structural connectivity between the 90 AAL regions obtained in a previous study [11] averaged
+across 16 healthy young adults (5 females, mean ± SD age: 24.75 ± 2.54). The linear registration tool from the FSL toolbox (www.
+fmrib.ox.ac.uk/fsl, FMRIB, Oxford)[72] was used to coregister the EPI image to the T1-weighted structural image. The T1-weighted
+image was co-registered to the T1 template of ICBM152 in MNI space[73]. The resulting transformations were concatenated and
+inversed and further applied to warp the AAL template [19] from MNI space to the EPI native space, where interpolation using near-
+est-neighbor method ensured that the discrete labeling values were preserved. Thus the brain parcellations were conducted in each
+individual’s native space. We generated the structural connectivity (SC) maps for each participant using the dMRI data acquired. We
+processed the two datasets acquired (each with different phase encoding to optimize signal in difﬁcult regions). The construction of
+these structural connectivity maps or structural brain networks consisted of a three-step process. First, the regions of the whole-brain
+network were deﬁned using the AAL template as used in the functional MRI data. Second, the connections between nodes in the
+whole-brain network (i.e., edges) were estimated using probabilistic tractography. Third, data was averaged across participants.
+We note that the recent results from Gordon and colleagues would seem to suggest that the AAL parcellation is less than optimal, in
+that the AAL was the least homogeneous parcellation scheme tested [74]. Nevertheless, it is not clear if the methodology used in that
+paper is particularly meaningful. Indeed, in the recent paper by Eickhoff and colleagues, they review the literature on the topographic
+organization of the brain and conclude that it is presently not clear what is the right spatial parcellation [75]. Both papers are mostly
+concerned with the spatial organization of the brain, while in this ms, we focus on the spatiotemporal global dynamics. For this goal,
+AAL would appear to be a good choice for the following reasons: 1) AAL yields excellent signiﬁcant results in the whole-brain literature
+in general [5, 12, 31]. 2) The relative low number of parcels in the AAL is highly suitable for our very extensive computational demands.
+We used the FSL diffusion toolbox (Fdt) in FSL to carry out the various processing stages of the diffusion MRI data. We used the
+default parameters of this imaging pre-processing pipeline on all participants. Following this preprocessing, we estimated the local
+probability distribution of ﬁber direction at each voxel [76]. We used the probtrackx tool in Fdt to provide automatic estimation of
+crossing ﬁbers within each voxel. This has been shown to signiﬁcantly improve the tracking sensitivity of non-dominant ﬁber popu-
+lations in the human brain [77].
+The connectivity probability from a seed voxel i to another voxel j was deﬁned by the proportion of ﬁbers passing through
+voxel i that reach voxel j using a sampling of 5000 streamlines per voxel [77]. This was extended from the voxel level to the region
+level, i.e., in an AAL parcel consisting of n voxels, 5000x n ﬁbers were sampled. The connectivity probability Pij from region i to
+region j is calculated as the number of sampled ﬁbers in region i that connect the two regions divided by 5000 x n, where n is the
+number of voxels in region i. We threshold the SC matrix at 0.1%, i.e., ﬁve streamlines.
+Current Biology 28, 3065–3074.e1–e6, October 8, 2018
+e3
+
+===== PAGE 15/19 =====
+For each brain region, the connectivity probability to each of the other 89 regions within the AAL was calculated. Due to the depen-
+dence of tractography on the seeding location, the probability from i to j is not necessarily equivalent to that from j to i. However, these
+two probabilities are highly correlated across the brain for all participants (the least Pearson r = 0.70, p < 1050). As directionality of
+connections cannot be determined based on diffusion MRI, the unidirectional connectivity probability Pij between regions i and j was
+deﬁned by averaging these two connectivity probabilities. This unidirectional connectivity was considered as a measure of the struc-
+tural connectivity between the two areas, with Cij = Cji. We implemented the calculation of regional connectivity probability using
+in-house Perl scripts. For both phase encoding directions, 90x90 symmetric weighted networks were constructed based on the
+AAL90 parcellation, and normalized by the number of voxels in each AAL region; thus representing the structural connectivity network
+organization of the brain.
+We applied the AAL90 template using the FLIRT tool from the FSL toolbox (www.fmrib.ox.ac.uk/fsl, FMRIB, Oxford) to coregister
+the b0 image in diffusion MRI space to the T1-weighted structural image and then to the T1 template of ICBM152 in MNI space [73].
+The two transformation matrices from these coregistration steps were concatenated and inversed to subsequently be applied to
+warp the AAL templates [19] from MNI space to the diffusion MRI native space.
+2. Functional connectivity
+Preprocessing
+We ﬁrst preprocessed the fMRI data using MELODIC 3.14 [78], part of FSL (FMRIB’s Software Library, www.fmrib.ox.ac.uk/fsl) with
+standard parameters and not discarding any ICA components. Head motion during the experiments was corrected using the FSL
+tools mcﬂirt as part of the standard MELODIC pipeline and was within normal acceptable range for neuroimaging experiments. Spe-
+ciﬁcally, the cloud plot in Figure S7 in the original LSD data paper [20] shows that motion is similar in the placebo and LSD conditions
+in terms of its effects on biasing potential related motion artifacts. For each participant and for each brain state (i.e., placebo and
+LSD), we used FSL tools to extract and average the BOLD signals from all voxels within each ROI deﬁned in the AAL atlas (considering
+only the 90 cortical and subcortical non-cerebellar brain regions) [19]. We computed both the static functional connectivity (FC) and
+the functional connectivity dynamics (FCD). In brief, the FCD is a matrix that expresses the spatiotemporal statistics of a snapshot of
+FC across different sliding windows. The matrix is thus not locked in time to a particular instance and the spatiotemporal evolution
+(between different sessions, subjects or simulations) is thus not aligned. As a consequence, comparing the differences between
+empirical and whole-brain model level of ﬁtting, we need to compare the distributions of the elements of those matrices. For this
+the standard method is to use the Kolmogorov-Smirnov (KS) distance (see details in [31]) where a smaller value means better ﬁt.
+For the grand average FC, the standard approach is to use correlation between the FC matrices, because the matrices are aligned
+and what matters are the correlations between different pairs, i.e., a higher correlation value would mean a better ﬁt. More specif-
+ically, we computed FC and FCD in the following ways:
+1) Static Functional Connectivity
+The static FC is deﬁned as the NxN matrix of BOLD signal correlations between brain areas computed over the whole recording time.
+The empirical and simulated FC matrices were compared by computing the Pearson correlation between their upper triangular
+elements (due to matrix symmetry).
+2) Functional Connectivity Dynamics
+To consider the temporal dynamics of resting-state FC, we computed the FC over a sliding window of 30 TR with increments of 2 TR,
+resulting in a time-evolving FC matrix (see Figure 2). Subsequently, we compute a time-versus-time matrix of Functional Connectivity
+Dynamics (FCD), where each entry, FCD(tx,ty), corresponds to the correlation between the FC centered at times tx and the FC
+centered at ty.
+Typically, the FCD matrices computed in the resting-state reveal a characteristic checkered pattern indicative of spontaneous
+switching between different FC patterns. Importantly, the distribution of FCD values contains valuable information regarding the
+time-dependencies of resting-state activity and we use it to as way to characterize the dynamical properties of resting-state activity
+in the different conditions and simulations. To do so, we generate the distributions of the upper triangular elements of the FCD
+matrices over all participants in a given condition (LSD or placebo), as well as of the FCD matrices obtained from simulations. The
+different distributions are then compared using the Kolmogorov-Smirnov (KS) distance, allowing for a meaningful evaluation of
+the model performance in predicting the changes observed in resting-state FC in dynamical terms.
+3. Parcellation
+Based on our previous whole-brain studies we used the AAL atlas but considering only the 90 cortical and subcortical non-cerebellar
+brain regions [19]. All structural, functional and neuromodulation data was integrated using this atlas. We used FSL tools on the freely
+available 5HT2A receptor density map in MNI space to extract the average receptor density for each individual AAL region.
+4. Whole-Brain Dynamic Mean Field Model
+We used a network model to simulate spontaneous brain activity at the whole-brain level, where each node represents a brain area
+and the links represent the white matter connections between them. The activity in each brain area is represented by the Dynamic
+Mean Field (DMF) model proposed by Deco et al. [25], which reduces the activity of large ensembles of interconnected excitatory and
+inhibitory spiking neurons to a reduced set of dynamical equations describing the activity of coupled excitatory (E) and inhibitory (I)
+pools of neurons, based on the original reduction of Wong and Wang [79]. In this DMF reduction, the excitatory synaptic currents, I(E),
+e4
+Current Biology 28, 3065–3074.e1–e6, October 8, 2018
+
+===== PAGE 16/19 =====
+are mediated by NMDA receptors and the inhibitory currents, I(I), are mediated by GABAA receptors. Within each brain area n, the E
+and I neuronal pools are reciprocally connected, whereas inter-area coupling between two areas n and p occurs only at the E-to-E
+level and is scaled by the structural connectivity Cnp (see Methods - Structural Connectivity).
+More speciﬁcally, the DMF model at the whole-brain level is expressed by the following system of coupled differential equations:
+IðEÞ
+n = WEI0 + w + JNMDASðEÞ
+n + GJNMDA
+X
+p
+CnpSðEÞ
+p
+ JnSðIÞ
+n ;
+(1)
+IðIÞ
+n = WII0 + JNMDASðEÞ
+n
+ SðIÞ
+n ;
+(2)
+rðEÞ
+n
+= HðEÞ
+IðEÞ
+n
+
+=
+gE
+
+IðEÞ
+n
+ IðEÞ
+thr
+
+1  exp
+
+ dEgE
+
+IðEÞ
+n
+ IðEÞ
+thr
+;
+(3)
+rðIÞ
+n = HðIÞ
+IðIÞ
+n
+
+=
+gI
+
+IðIÞ
+n  IðIÞ
+thr
+
+1  exp
+
+ dIgI
+
+IðIÞ
+n  IðIÞ
+thr
+;
+(4)
+dSðEÞ
+n ðtÞ
+dt
+=  SðEÞ
+n
+tNMDA
++
+
+1  SðEÞ
+n
+
+grðEÞ
+n
++ synðtÞ;
+(5)
+dSðIÞ
+n ðtÞ
+dt
+=  SðIÞ
+n
+tGABA
++ rðIÞ
+n + synðtÞ:
+(6)
+Here, for each excitatory (E) or inhibitory (I) pool of neurons in each brain area n, In
+(E,I) (in nA) represents the total input current, rn
+(E,I)
+(in Hz) denotes the ﬁring rate and Si
+(E,I) denotes the synaptic gating variable. The neuronal response functions, H(E,I), convert the total
+input currents received by the E and I pools into ﬁring rates, ri
+(E,I), following the input-output function of Abbott and Chance [80], where
+gE = 310 nC-1 and gI = 615 nC-1 are gain factors determining the slope of H, Ithr
+(E) = 0.403 nA, and Ithr
+(I) = 0.288 nA are the threshold
+currents above which the ﬁring rates increase linearly with the input currents, and dE = 0.16 and dI = 0.087 are constants determining
+the shape of the curvature of H around Ithr. The synaptic gating variable of excitatory pools, Si
+(E), is controlled by NMDA receptors with
+a decay time constant tNMDA = 0.1 s and g = 0.641, whereas the average synaptic gating in inhibitory pools depends on GABA
+receptors with tGABA = 0.01 s. The overall effective external input is I0 = 0.382 nA with WE = 1 and WI = 0.7. Furthermore, w+ = 1.4
+is the weight of recurrent excitation and JNMDA = 0.15 nA weighs all excitatory synaptic couplings. In Equations 5 and 6 yn is uncor-
+related standard Gaussian noise with an amplitude of s = 0.01nA. All parameters were set as in Wong and Wang [79].
+The parameters of the DMF model were deﬁned in Wong and Wang [79] to emulate resting-state conditions, such that each iso-
+lated node displays the typical noisy spontaneous activity with low ﬁring rate (r(E)3Hz) observed in electrophysiology experiments
+[81–84]. Moreover, following Deco et al. [25], the inhibition weight, Jn, was adjusted for each node n such that the ﬁring rate of the
+excitatory pools rn
+(E) remains clamped at 3Hz even when receiving excitatory input from connected areas. This regulation is known
+as Feedback Inhibition Control (FIC) and the algorithm to achieve it is described in Deco et al. [25]. It has been demonstrated that the
+FIC leads to a better prediction of the resting-state FC and to a more realistic evoked activity [25].
+Following the parcellation applied to the structural and functional MRI data, we considered N = 90 brain areas in our whole-brain
+network model. Each area n receives excitatory input from all structurally connected areas p into its excitatory pool, weighted by the
+connectivity matrix, Cnp, obtained from dMRI (see Methods: Structural Connectivity). Furthermore, all inter-area E-to-E connections
+are equally scaled by a global coupling factor G. This global scaling factor is the only control parameter that is adjusted to move the
+system to its optimal working point, where the simulated activity maximally ﬁts the empirical resting-state activity of participants un-
+der placebo conditions.
+Simulations were run for a range of G between 0 and 2.5 with an increment of 0.025 and with a time step of 1 ms. For each G, we ran
+200 simulations of 435 s each, in order to emulate the empirical resting-state scans from 15 participants.
+Simulated BOLD Signal
+To transform the simulated mean ﬁeld activity into a BOLD signal we used the generalized hemodynamic model of Stephan et al. [85].
+We compute the BOLD signal in each brain area n from the ﬁring rate of the excitatory pools rn
+(E), such that an increase in the ﬁring rate
+causes an increase in a vasodilatory signal, sn, that is subject toauto-regulatory feedback. Blood inﬂow fn responds in proportion to this
+signal inducing changes in blood volume vn and deoxyhemoglobin content qn. The equations relating these biophysical variables are:
+dsn=dt = 0:5rðEÞ
+n
++ 3  ksn  gðfn  1Þ
+(7)
+dfn=dt = sn
+(8)
+Current Biology 28, 3065–3074.e1–e6, October 8, 2018
+e5
+
+===== PAGE 17/19 =====
+t dvn=dt = fn  va1
+n
+(9)
+t dqn=dt = fnð1  rÞf1
+n .
+r  qnva1
+n
+.
+vn
+(10)
+where r is the resting oxygen extraction fraction, t is a time constant and a that represents the resistance of the veins. Finally, the
+BOLD signal in each area n, Bn, is a static nonlinear function of volume, vn, and deoxyhemoglobin content, qn, that comprises a
+volume-weighted sum of extra- and intravascular signals:
+Bn = V0
+
+k1ð1  qnÞ + k2
+
+1  qn=vn
+
++ k3ð1  vnÞ
+
+(11)
+All biophysical parameters were taken as in Stephan et al. [85]. To concentrate on the frequency range where resting-state activity
+appears the most functionally relevant, both empirical and simulated BOLD signals were band pass ﬁltered between 0.1 and 0.01 Hz
+[8, 86–88].
+5. Serotonergic Modulation
+We used the high-resolution atlas of human brain serotonin system measured with PET by Beliveau et al. [18] (see above) to obtain a
+quantitative measure of 5-HT2A receptor density in each AAL region n, d5HT2An. Density values were divided by the maximum, such
+that max(d5HT2A) = 1.
+We used d5HT2An to modulate the ﬁring rates ri
+(E,I) of the excitatory and inhibitory pools of each brain region, following a number of
+experimental studies in cats and rats showing that serotonin injection modulates the ﬁring rate of neurons with 5-HT receptors
+[89–93]. Moreover, while some neurons respond with an increased ﬁring rate, others consistently decrease the ﬁring rate after sero-
+tonin injection, indicating that 5-HT2A receptors have both excitatory and inhibitory effects [89, 90].
+To be precise, we consider that d5HT2An modulates the gain of the neuronal response function H(E) in each brain area according to
+the modiﬁed Equation 3, using the standard computational deﬁnition of gain modulation given by Chance and colleagues [94]:
+rðEÞ
+n
+= HðEÞ
+IðEÞ
+n
+
+=
+g0gE
+
+IðEÞ
+n
+ IðEÞ
+thr
+
+1  exp
+
+ dEg0gE
+
+IðEÞ
+n
+ IðEÞ
+thr
+
+g0 = 1 + sEd5HT2An
+(12)
+Here, the scaling factor sE is the only free parameter equally scaling in all brain areas the slope of H in the E pool according to the
+normalized density of serotonin receptors in each area, d5HT2An. To simulate the resting-state activity under placebo condition, we
+use sE = 0.
+DATA AND SOFTWARE AVAILABILITY
+The code to run the analysis is available on GitHub (https://github.com/decolab/cb-neuromod). The multimodal neuroimaging data
+from the experiment is available upon request.
+e6
+Current Biology 28, 3065–3074.e1–e6, October 8, 2018
+
+===== PAGE 18/19 =====
+Current Biology, Volume 28
+Supplemental Information
+Whole-Brain Multimodal Neuroimaging Model
+Using Serotonin Receptor Maps Explains
+Non-linear Functional Effects of LSD
+Gustavo Deco, Josephine Cruzat, Joana Cabral, Gitte M. Knudsen, Robin L. Carhart-
+Harris, Peter C. Whybrow, Nikos K. Logothetis, and Morten L. Kringelbach
+
+===== PAGE 19/19 =====
+ 
+ 
+ 
+Figure S1. Results of whole-brain model of non-music LSD condition, related to Figure 3. 
+ 
+In order to confirm the results from the music LSD condition, we modelled the two non-music LSD  
+conditions. (A) For the LSD conditions (no music pre and post), when using the optimal coupling point of the 
+placebo condition and systematically scaling the excitatory gain function in each region with the empirical 
+5-HT2A receptor data, we find that there is an optimum at around (0.17,0.036) (minimum of blue line, pre 
+music) and at around (0.18,0.041) (minimum of red line, post music). In contrast, varying the scaling of the 
+neuronal gain for the placebo condition does not yield an optimum (see monotonically rising green line) and 
+thus the fit is not improved by changing the scaling of the neuronal gain by 5-HT2A receptor density (with the 
+error bars for three lines indicating the standard error across simulations). This clearly demonstrates that the 
+LSD brain activity is dependent on the precise 5-HT2A density distribution maps irrespective of music-
+listening. (B) Further, in the boxplot, we compare results of using the 5-HT2A        receptor densities across 
+the regions at the optimum points, which are both significantly different (p<6.80e- 
+08) from a uniform receptor density receptor map. This clearly demonstrates that the precise distribution of 
+5-HT2A is very important for how LSD affects the brain state with or without music-listening. 

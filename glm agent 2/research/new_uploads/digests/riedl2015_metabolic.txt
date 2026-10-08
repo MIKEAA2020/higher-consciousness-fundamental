@@ -1,0 +1,811 @@
+
+===== PAGE 1/6 =====
+Metabolic connectivity mapping reveals effective
+connectivity in the resting human brain
+Valentin Riedla,b,c,1, Lukas Utza,c,d, Gabriel Castrillóna,c,e, Timo Grimmerc,f, Josef P. Rauscheckerc,d,g, Markus Plonerc,h,
+Karl J. Fristoni, Alexander Drzezgaj, and Christian Sorga,c,f
+aDepartment of Neuroradiology, Klinikum rechts der Isar, Technischen Universitaet Muenchen, 81675 Muenchen, Germany; bDepartment of Nuclear
+Medicine, Klinikum rechts der Isar, Technischen Universitaet Muenchen, 81675 Muenchen, Germany; cNeuroimaging Center, Klinikum Rechts der Isar,
+Technischen Universitaet Muenchen, 81675 Muenchen, Germany; dInstitute of Advanced Studies, Technischen Universitaet Muenchen, 81675 Muenchen,
+Germany; eInstituto de Alta Tecnologia Medica, 050026 Medellin, Colombia; fDepartment of Psychiatry and Psychotherapy, Klinikum Rechts der Isar,
+Technischen Universitaet Muenchen, 81675 Muenchen, Germany; gLaboratory of Integrative Neuroscience and Cognition, Georgetown University,
+Washington, DC 20057; hDepartment of Neurology, Klinikum Rechts der Isar, Technischen Universitaet Muenchen, 81675 Muenchen, Germany; iThe
+Wellcome Trust Centre for Neuroimaging, University College London, London WC1N 3BG, United Kingdom; and jDepartment of Nuclear Medicine, Uniklinik
+Köln, 50937 Köln, Germany
+Edited by Peter A. Bandettini, National Institutes of Mental Health, Bethesda, MD, and accepted by the Editorial Board December 4, 2015 (received for review
+July 13, 2015)
+Directionality of signaling among brain regions provides essential
+information about human cognition and disease states. Assessing
+such effective connectivity (EC) across brain states using functional
+magnetic resonance imaging (fMRI) alone has proven difficult,
+however. We propose a novel measure of EC, termed metabolic
+connectivity mapping (MCM), that integrates undirected functional
+connectivity (FC) with local energy metabolism from fMRI and posi-
+tron emission tomography (PET) data acquired simultaneously. This
+method is based on the concept that most energy required for neu-
+ronal communication is consumed postsynaptically, i.e., at the target
+neurons. We investigated MCM and possible changes in EC within
+the physiological range using “eyes open” versus “eyes closed” con-
+ditions in healthy subjects. Independent of condition, MCM reliably
+detected stable and bidirectional communication between early and
+higher visual regions. Moreover, we found stable top-down signal-
+ing from a frontoparietal network including frontal eye fields. In
+contrast, we found additional top-down signaling from all major
+clusters of the salience network to early visual cortex only in the
+eyes open condition. MCM revealed consistent bidirectional and uni-
+directional signaling across the entire cortex, along with prominent
+changes in network interactions across two simple brain states. We
+propose MCM as a novel approach for inferring EC from neuronal
+energy metabolism that is ideally suited to study signaling hierar-
+chies in the brain and their defects in brain disorders.
+simultaneous PET/fMRI | energy metabolism | directional signaling |
+effective connectivity | resting state
+C
+omplex cognition emerges by integrating upstream sensory
+information with feedback signaling from higher cortical
+regions (1–4). Networks related to sensory processing or cogni-
+tion reliably occur in the human brain even at rest (5, 6). These
+networks are identified by synchronous signal fluctuations, or func-
+tional connectivity (FC), among brain regions when neuronal activity
+is recorded by functional magnetic resonance imaging (fMRI). In
+recent years, various FC patterns have emerged as reliable indicators
+of different brain states, because they have been found to adapt to
+recent behavior or cognition (7–12) and to be disrupted in patients
+suffering from specific psychiatric disorders (13, 14). Further
+knowledge about important aspects of cognition and diseases could
+be gained from a better distinction between feedback and feedfor-
+ward communication. Our understanding of the signaling hierarchy
+in different brain states remains incomplete, however.
+Although FC captures correlations among neuronal signals, only
+effective connectivity (EC) describes the influence exerted by one
+neuronal system over another (15). Recent approaches to model-
+ing EC during different brain states appear promising (16, 17), but
+face problems inherent to fMRI. First, EC is estimated directly
+from the time-varying fluctuations or cross-spectra of the observed
+fMRI signal, and thus is prone to confounds from different he-
+modynamic responses across groups, particularly when studying
+patient populations (15, 17). Second, analyses are usually restricted
+to a limited number of brain regions, owing to the need for com-
+plex computations. Here we propose a novel approach integrating
+FC with simultaneously measured energy metabolism from posi-
+tron emission tomography (PET) to derive a voxel-wise, whole-
+brain mapping of EC in humans.
+Energy consumption is an essential aspect of neuronal com-
+munication. Consistently across species, the greatest amount of
+energy metabolism is dedicated to signaling, with the remaining
+part dedicated to housekeeping functions (18). Up to 75% of
+signaling-related energy is consumed postsynaptically, i.e., at
+the target neurons (19–22). Scaled to the systems level, we as-
+sume that an increase in local metabolism reflects an increase
+in afferent EC from source regions. We hypothesize that the
+spatial profile of this relationship is expressed in terms of spatial
+correlations between metabolic activity and long-range FC,
+which we term metabolic connectivity mapping (MCM). We
+simultaneously acquired fMRI and PET data for the glucose
+analog 18F-fludeoxyglucose (FDG) during two different brain
+states, as reported previously (10). In individual subject space, we
+Significance
+Noninvasive brain imaging of humans identifies prominent net-
+works related to sensory and cognitive functions in the resting
+state; however, the signaling hierarchy and directionality among
+these networks remain largely unknown. Integrating simulta-
+neously recorded measures for network identification and regional
+energy metabolism, we propose metabolic connectivity mapping
+(MCM) as a novel measure to reveal signaling directionality in the
+human brain. Comparing simple “eyes closed” and “eyes open”
+conditions in healthy subjects, MCM revealed stable bidirectional
+signaling among visual cortices and top-down signaling from pa-
+rietal control regions. Additional top-down signaling from a sa-
+lience network occurs only during the eyes open condition. We
+propose MCM as a measure for investigating signaling directions
+among brain networks in healthy and diseased brains.
+Author contributions: V.R., A.D., and C.S. designed research; V.R., T.G., and A.D. performed
+research; V.R., L.U., and G.C. analyzed data; and V.R., J.P.R., M.P., K.J.F., A.D., and C.S. wrote
+the paper.
+The authors declare no conflict of interest.
+This article is a PNAS Direct Submission. P.A.B. is a guest editor invited by the Editorial
+Board.
+Freely available online through the PNAS open access option.
+1To whom correspondence should be addressed. Email: valentin.riedl@mytum.de.
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1513752113/-/DCSupplemental.
+428–433
+|
+PNAS
+|
+January 12, 2016
+|
+vol. 113
+|
+no. 2
+www.pnas.org/cgi/doi/10.1073/pnas.1513752113
+SEE CORRECTION FOR THIS ARTICLE
+Downloaded from https://www.pnas.org by 2.176.250.41 on October 8, 2026 from IP address 2.176.250.41.
+
+===== PAGE 2/6 =====
+performed spatial correlation analyses of voxel FC and FDG to
+test whether the metabolic profile indicates the target area of
+communication between functionally connected regions (Fig. 1).
+Vision is the only sensation that can be interrupted volitionally
+in a natural way. Opening the eyes is a fundamental behavior for
+directing attention to the external world, i.e., changing from an
+interoceptive state to an exteroceptive state (3, 23, 24). Current
+knowledge of the signaling hierarchy in the extended visual sys-
+tem has emerged from animal and tracer studies. These data
+reveal reciprocal (bottom-up and top-down) connections along
+the ventral and dorsal visual stream (25), including top-down
+projections from frontal back to early visual cortices (3, 4, 26, 27).
+To test this signaling hierarchy in humans, we scanned healthy
+human subjects in two brain states, lying with either eyes closed
+or eyes open in darkness, and calculated EC using our integrated
+approach. Consistent with previously reported data, MCM revealed
+persistent and bidirectional interactions between visual stream areas
+during both the “eyes closed” and “eyes open” conditions, but
+frontal top-down modulation of early visual areas only during the
+eyes open condition.
+In the present study, we used FDG to inform undirected FC
+from fMRI with a directional measure of postsynaptic neuronal
+activity. Our results indicate that the integrated measure of
+MCM serves as a proxy for EC in brain states. Our approach
+might be particularly useful for investigating other signaling hier-
+archies in higher cognition or in brain disorders involving, e.g.,
+hippocampal-cortical circuits in Alzheimer’s disease (28) or fronto-
+midbrain interactions in major depression (29).
+Results
+We investigated the signaling hierarchy between an early visual
+area and functional regions across the entire cortex during
+conditions of eyes closed and eyes open in a three-step pro-
+cedure. We first identified regions of interest (ROIs) in visual
+and association cortices, then determined the FC pathways be-
+tween the early visual ROIs and all other ROIs, and finally in-
+tegrated voxel FC and FDG values to reveal the directionality of
+signaling along these functional pathways via MCM.
+Regions Belonging to Visual Stream and Prefrontal Association Networks.
+Using independent component analysis (ICA) of fMRI data, we
+parcellated the cortex into clusters sharing characteristic temporal
+BOLD dynamics. Each cluster had to fulfill certain properties with
+respect to size and stability of occurrence (Materials and Methods).
+We then mapped these clusters onto recently defined networks from
+a 1,000-subject dataset (Fig. 2, colored outline). Previous work
+identified two networks (dark violet, green) as part of an extended
+visual hierarchy and three networks covering prefrontal association
+areas (30). According to this nomenclature, we identified five ROIs
+along ventral and dorsal visual streams (Fig. 2, Left) and five ROIs in
+frontal association networks (Fig. 2, Right). Table 1 lists all anatomic
+structures covered by each ROI. We selected the calcarine sulcus
+(CaS) as the early visual area for all subsequent analyses of FC and
+MCM, because it fully covers the area of greatest metabolic increase
+when subjects open their eyes (10) (Fig. 2, Middle, blue).
+FC Pathways Between Regions. In a second step, we identified FC
+pathways between the CaS and all other ROIs via pairwise tem-
+poral correlations between individual cluster time-series (FCcl)
+from the ICA. For each subject, we first calculated the FCcl
+between the CaS and all ROIs of the visual stream and sub-
+mitted these values to ANOVA with region [striate cortex (StC),
+extrastriate cortex (ExC), inferior temporal gyrus (ITG), and su-
+perior parietal lobe (SPL)] and condition (eyes closed/open) as
+factors (Fig. 3A). We found a main effect for region (F1,21 = 3.41,
+P = 0.02), but not for condition (F1,21 = 3.27, P = 0.075), and no
+interaction of region and condition (F3,19 = 2.14, P = 0.1). One-
+sample t tests, however, showed a positive FCcl between the CaS
+and each of the visual stream ROIs across both conditions
+(StC: t21 = 5.72, P = 1.1 × 10−5; ExC: t21 = 10.06, P = 1.7 × 10−9;
+Fig. 1.
+MCM reveals EC in the human brain. (A) FC reveals undirected path-
+ways of synchronous fMRI signal fluctuations between two regions, X and Y.
+For each subject, FC is calculated as the temporal correlation, [r] between
+the cluster time series. In our example, we identified FC pathways during
+conditions of eyes closed and eyes open. (B) In a next step, we identified EC
+(i.e., the directionality of signaling) in a given functional pathway. For each
+region, we calculated the spatial correlation, [r], between voxel FC and FDG
+values of simultaneously acquired fMRI and PET data. According to cellular
+recordings (see text), the majority of signaling-related energy is consumed
+postsynaptically, i.e., at the target region. Thus, MCM identifies afferent EC in
+the signaling pathway between region X and region Y.
+Fig. 2.
+Brain regions belonging to visual stream and prefrontal association
+networks. Spatial maps (P < 0.05, corrected) are projected onto the inflated
+cortical surface of a standard brain. Major networks of a recent 1,000-subject
+analysis are illustrated in the middle panel (top, lateral surface; bottom, medial
+surface) using different colors and serve as a reference for the assignment of
+each of our ROIs to its closest match. Reprinted from ref. 30. Ventral/dorsal visual
+stream ROIs include the CaS, StC, ExC, ITG, and SPL. Prefrontal association net-
+work ROIs include the PFCa, INS, PFCdl, MCC, and PFCvm. Table 1 lists the ana-
+tomic structures covered by each ROI. The CaS was chosen as the early visual
+region for further analyses, because it fully covers the cluster of greatest increase
+in metabolic activity during the eyes open condition from an earlier analysis (10).
+Riedl et al.
+PNAS
+|
+January 12, 2016
+|
+vol. 113
+|
+no. 2
+|
+
+NEUROSCIENCE
+Downloaded from https://www.pnas.org by 2.176.250.41 on October 8, 2026 from IP address 2.176.250.41.
+
+===== PAGE 3/6 =====
+ITG: t21 = 6.62, P = 1.5 × 10−6; SPL: t21 = 8.12, P = 5.8 × 10−8).
+Thus, persistent functional pathways between CaS and all regions
+along the ventral and dorsal visual streams exist during both the
+eyes closed and eyes open conditions.
+Similarly, we tested whether functional pathways exist between
+the CaS and any prefrontal association region. We calculated the
+FCcl between the CaS and each frontal ROI and submitted these
+measures to ANOVA with region [anterior prefrontal cortex
+(PFCa), insular cortex (INS), dorsolateral prefrontal cortex (PFCdl),
+middle cingulate cortex (MCC), and ventromedial prefrontal cortex
+(PFCvm)] and condition (eyes closed/open) as factors. We found
+main effects for region (F1,21 = 11.1, P = 1.7 × 10−7) and condition
+(F1,21 = 19.14, P = 3.0 × 10−5), along with an interaction of region
+and condition (F4,18 = 5.54, P = 0.0005). This means that the FCcl
+between the CaS and prefrontal ROIs strongly differs for selected
+regions between conditions. Post hoc two-sample t tests evaluating
+the two-way interaction indicated that the FCcl between the CaS
+and PFCa (t21 = 2.58, P = 0.02), INS (t21 = 4.17, P = 0.0005) and
+MCC (t21 = 4.07, P = 0.0006) increased during the eyes open
+condition (Fig. 3B); interestingly, these three frontal regions all
+belong to the salience network (shown in purple). Note that only
+salience regions INS and MCC showed increased FC when using a
+stringent Bonferroni correction for possibly nine two-sample t tests
+in this FC analysis. Thus, FCcl between early visual and salience
+regions increases when subjects open their eyes. On the other hand,
+we found no difference in or persistent FCcl with the PFCdl (P >
+0.1) and PFCvm (P > 0.1), which belong to the central executive and
+default mode networks, respectively. Taken together, our FCcl
+analyses reveal persisting visual pathways across conditions and
+additional salience pathways once subjects open their eyes.
+MCM Reveals EC Between Regions. In a final step, we investigated
+EC among these visual and salience pathways. Here MCM iden-
+tifies whether an area receives signaling input, or afferent EC, by
+integrating voxels’ FC and energy metabolism. For a given pathway,
+e.g., between the CaS and StC, we first used a cluster time course of
+the CaS to calculate FCvox for each voxel in the StC. The spatial
+correlation analysis between FCvox and FDGvox then revealed
+whether the StC receives afferent, or bottom-up, signaling (Fig. 4,
+red bars). A similar analysis in the CaS tested for the inverse di-
+rection, i.e., top-down signaling (Fig. 4, blue bars). Importantly, we
+performed this integrated analysis on maximally unsmoothed data
+by omitting spatial normalization or smoothing of both the fMRI
+and FDG data. This allowed us to calculate the signaling hierarchy
+in each subject individually. Illustrations of alignment between
+coregistered EPI and PET images are provided in Fig. S1.
+First, we examined the signaling hierarchy along the visual
+stream pathways. We calculated MCM for all visual ROIs on both
+eyes closed and eyes open datasets and submitted these measures
+to ANOVA with region (StC, ExC, ITG, and SPL) and direction
+(bottom-up/top-down) as factors. We found main effects of region
+(F1,21 = 3.92, P = 0.01) and direction (F1,21 = 4.62, P = 0.033),
+along with a two-way interaction between region and direction
+(F3,19 = 5.21, P = 0.002), indicating that signaling direction differs
+for only certain pathways. Post hoc t tests evaluating this two-way
+interaction revealed unidirectional signaling for the SPL path-
+way (t21 = 4.1, P = 0.0002; P = 0.001 Bonferroni-corrected for
+seven two-sample t tests in MCM analysis), but not for any of
+the other connections (P > 0.1). As shown in Fig. 4A, the SPL
+pathway is driven by top-down signaling (blue bar), whereas
+communication in all other visual stream pathways is charac-
+terized by bidirectional EC.
+Similarly, we investigated the EC along the salience pathways
+during the eyes open condition. In individual subject spaces, we
+calculated MCM and submitted these measures to ANOVA with
+region (PFCa, INS, and MCC) and direction (bottom-up/top-
+down) as factors. We found a main effect of direction (F1,21 =
+41.53, P = 4.1 × 10−9), but no main effect of region (P > 0.1) or any
+interaction effects (P > 0.2). Thus, there is consistent unidirectional
+communication along the salience pathways. Post hoc t tests
+revealed that all salience regions exert a top-down influence on the
+CaS (PFCa: t21 = 4.78, P = 0.0001; INS: t21 = 3.26, P = 0.004; MCC:
+t21 = 3.04, P = 0.007; all P < 0.05 Bonferroni-corrected) (Fig. 4B).
+Taken together, these MCM values reveal a distinct signaling
+hierarchy along visual stream and salience pathways. Indepen-
+dent of condition, bidirectional communication occurs between
+early and higher visual regions, but top-down signaling occurs
+from a parietal region. Once subjects open their eyes, additional
+top-down signaling from a salience network occurs.
+Finally, in two control analyses, we evaluated the effects of voxel
+and ROI size on the results of MCM. To diminish the effect of
+spatial smoothing, which might artificially increase spatial correlations
+Table 1.
+Brain regions and associated networks as illustrated in Fig. 2
+Label
+Anatomy
+Network
+CaS
+Calcarine sulcus
+Visual (dark violet)
+StC
+Striate cortex, lingual gyrus, lateral occipital
+Visual (dark violet)
+ExC
+Extrastriate cortex, inferior parietal
+Visual (dark violet)
+ITG
+Fusiform gyrus, inferior temporal
+Visual (dark violet)
+SPL
+Superior parietal/frontal eye fields
+Spatial attention (green)
+PFCa
+Anterior prefrontal cortex
+Salience (purple)
+INS
+Insular cortex, frontal operculum
+Salience (purple)
+PFCdl
+Dorsolateral prefrontal cortex
+Central executive (yellow)
+MCC
+Middle cingulate cortex
+Salience (purple)
+PFCvm
+Ventromedial prefrontal cortex
+Default mode (red)
+Fig. 3.
+FC pathways during the eyes closed and eyes open conditions. (A)
+Stable FC is seen between the CaS (image to the right of the graph) and all other
+visual regions (StC, ExC, ITG, and SPL) independent of condition (results of one-
+sample t tests; see text). (B) FC between the CaS and all regions of the salience
+network (purple) increases only during the eyes open condition (two-sample
+t tests; PFCa: P < 0.05; INS: P < 0.0005; MCC: P < 0.005). The two other regions
+(PFCdl and PFCvm) show no FC with the CaS (P > 0.1). Note that only salience
+regions INS and MCC show increased FC when a stringent Bonferroni correction
+is applied for possibly nine two-sample t tests in this FC analysis. Boxplots in-
+dicate median, 25th–75th percentiles (box), and extreme data points (whiskers).
+
+|
+www.pnas.org/cgi/doi/10.1073/pnas.1513752113
+Riedl et al.
+Downloaded from https://www.pnas.org by 2.176.250.41 on October 8, 2026 from IP address 2.176.250.41.
+
+===== PAGE 4/6 =====
+between voxel values, we omitted spatial normalization and
+smoothing during preprocessing. Nonetheless, spatial sampling
+and the extent of ROI size in the target area might influence the
+strength of MCM. Fig. S2 presents MCM data for varying ROI
+and voxel sizes (Fig. S2A), both of which show very consistent
+results. We found identical directionality with larger voxels (Fig.
+S2B), as well as with smaller target ROIs down to one-quarter of
+the original ROI size (Fig. S2C).
+Discussion
+Here we have established a new framework for identifying brain
+state EC from simultaneously acquired fMRI and FDG-PET
+data. We first characterized functional pathways among visual,
+parietal, and frontal regions by calculating FC from fMRI data.
+We then identified the direction of communication among these
+pathways by integrating neuroenergetics data obtained from
+FDG-PET. We found permanent and bidirectional communi-
+cation between early and higher visual regions of the occipital
+cortex and top-down signaling from parietal regions. Only during
+the eyes open condition did additional top-down signaling from a
+frontal salience network emerge. We have identified dynamically
+changing signaling pathways during simple brain states in hu-
+mans, offering a method to further investigate directed com-
+munication in healthy and diseased brains.
+In human brain imaging, the visual networks are among the
+most consistent networks in FC analyses (30, 31). Our FC analysis
+revealed functional pathways between the early visual CaS ROI and
+all ROIs along the ventral and dorsal visual streams, including in-
+ferior temporal and parietal regions. These functional pathways
+were stable across conditions, suggesting interaction between these
+regions beyond functional processing of visual input, possibly
+reflecting underlying anatomic connections. In the monkey brain,
+retrograde tracer studies have shown feedforward and feedback
+pathways among striate, extrastriate, and parietal regions (4, 26, 27).
+Structural imaging with diffusion tensor imaging in humans also has
+identified a strong overlap between FC and anatomic pathways
+(32). Our FC analysis supports the notion of functionally distinct,
+yet highly connected, areas along the visual processing stream.
+The frontal cortex includes a core set of networks—default
+mode, central executive, and salience networks—that have been
+assigned to higher cognitive functions and are prominently af-
+fected in neuropsychiatric disorders (13, 33). We evaluated
+functional pathways between the early visual cortex and all three
+networks, but identified FC only with regions of the salience
+network and then only during the eyes open condition. This
+finding is interesting, because it is consistent with the behavioral
+relevance ascribed to each network. Current knowledge assigns
+self-related memory processing to the default mode network (34),
+event-related and error-based processing to the central executive
+network (35), and set maintenance or salience processing of internal
+and external states to the salience network (36). For instance, FC in
+the salience network correlates with prescan anxiety ratings in hu-
+mans (37). The switch from eyes closed to eyes open might induce a
+change in brain state reflected by salience FC and prepare the or-
+ganism for event- or self-related processing in the central executive
+and default mode networks once visual input is present.
+We next integrated independent voxel measures of FC and
+FDG to reveal EC along the visual stream and salience pathways.
+For the visual pathways, we identified bidirectional communi-
+cation among regions in the occipital cortex and top-down sig-
+naling from fronto-parietal regions. Whereas early anatomic
+studies suggested a bottom-up hierarchy along the visual streams,
+recent work has stressed the importance of feedback signaling
+onto early visual areas. The StC receives considerably more
+feedback and lateral input than feedforward thalamic afferents
+(27, 38). This is achieved by a dense network of cortico-cortical
+connections (1), and feedback signaling occurs not only from
+extrastriate cortices, but also from parietal cortices (39, 40). Direct
+feedback connections onto V1 have even been shown for the frontal
+eye fields (4) that we identified as the most frontal region within the
+dorsal visual stream (SPL). Taken together, our results largely reflect
+anatomic data from nonhuman primate studies of strong reciprocal
+connections along the extended visual processing pathway. Our data
+only indicate the directionality of communication between major
+hubs of functional networks, however, and we cannot rule out the
+possibility of intermediate brain regions below the spatial resolution
+of fMRI that might mediate the influence on early visual areas.
+Finally, we also found a top-down influence from all prefrontal
+regions of the salience network. Again, this communication
+might occur along downstream regions that we have missed with
+current human imaging methods. Nonetheless, previous work
+revealed top-down modulation of visual cortex activity by frontal
+regions. In humans, inhibitory transcranial magnetic stimulation
+of the inferior frontal cortex has been shown to decrease the
+performance of early visual processing (41). Moreover, recent
+studies in monkeys using novel tracer techniques have identified
+previously unknown long-range connections between the pre-
+frontal and early visual cortex (42). Our finding of top-down sig-
+naling also might reflect a more general notion about the
+underestimated influence of cortical feedback, particularly onto
+the early visual cortex (3, 24). A recent study identified twice as
+many feedback connections as feedforward connections for cortico-
+cortical pathways, and also showed that feedback connections
+tend to be more long-range, whereas feedforward pathways are
+comparatively short-range (26).
+Certain methodological factors must be taken into account
+when interpreting our MCM data. First, our experimental setup
+has several limitations. The instruction to keep eyes closed or
+open is easy for subjects to follow, particularly with respect to
+scanning; however, resting brain states obviously differ across
+subjects and entail neuronal processes across many cognitive
+domains that cannot be controlled for. We chose the resting state
+on the basis of the extensive literature in this area, and because
+of the self-evident difficulties in designing tasks that engage
+sustained and consistent processing over extended time periods
+(necessary to acquire PET data). A positive aspect, however, is
+the fact that a basic set of networks emerged consistently in the
+resting state across subjects (43). Our study design also had to
+accommodate the fact that temporal resolution of PET is limited
+to one saturated image of accumulated tracer after 30 min of
+scanning. Although recent fMRI studies suggest temporal vari-
+ability of FC (i.e., dynamic FC) within and between networks
+(44), the MCM approach is based on FC expressed (possibly
+intermittently) consistently over extended periods. This property
+ensures that the time scale of coupling is commensurate with the
+time scale of metabolic (PET) measurements. In other words,
+Fig. 4.
+EC between regions using MCM. (A) Stable bidirectional (bottom-up/
+top-down) signaling between the CaS and all other visual regions (StC, ExC,
+ITG, and SPL) and top-down modulation from the SPL (P < 0.0005) independent
+of condition. (B) All frontal regions of the salience network (purple) exert top-
+down modulation of the CaS only during the eyes open condition (PFCa: P <
+0.0005; INS: P < 0.005; MCC: P < 0.05). Boxplots indicate median, 25th–75th
+percentiles (box), and extreme data points (whiskers).
+Riedl et al.
+PNAS
+|
+January 12, 2016
+|
+vol. 113
+|
+no. 2
+|
+
+NEUROSCIENCE
+Downloaded from https://www.pnas.org by 2.176.250.41 on October 8, 2026 from IP address 2.176.250.41.
+
+===== PAGE 5/6 =====
+MCM pertains to the EC mediating consistent FC that may or
+may not be fluctuating over time. It might be interesting to revisit
+this issue by using the average of dynamic FC, as opposed to FC
+per se. A final limitation of the present study is that interpre-
+tation of MCM results might be confounded by varying levels of
+arousal during the eyes closed and eyes open conditions. In other
+words, frontal top-down signaling during eyes open might in-
+dicate anticipatory signaling from salience regions, or frontal
+uncoupling during eyes closed may occur simply because subjects
+have lower levels of arousal.
+Second, MCM relies on the assumption that voxel values of FC
+and FDG spatially correlate with each other in connected regions.
+Underlying vascular heterogeneity might induce false-positive or
+-negative spatial correlations, however. In the resting state fMRI
+literature, the influence of cerebral blood flow (CBF) and vessel
+size on BOLD-FC is increasingly discussed (45), and recent studies
+suggest strong BOLD-CBF coupling (46, 47). There is also evidence
+that these CBF fluctuations indicate reactivity to neuronal activity
+rather than to heterogeneous vascularity, however. Tak et al. (46)
+also acquired data on large-vessel volume fraction and found that
+BOLD-FC was inversely related to macrovascular volume fraction.
+The stronger relationship with small- to medium-sized vessels
+(closer to neuronal activity) was particularly prominent for major
+FC hubs. In summary, spatial variation in neurovascular mecha-
+nisms will lead to spatial inhomogeneities in measured BOLD
+signals that will clearly affect spatial correlation over voxels. To a
+certain extent, our use of FC (as opposed to BOLD signal per se)
+mitigates this problem, in the sense that the correlation between the
+BOLD signals in two regions does not change with their amplitude
+(e.g., neurovascular sensitivity). This assumes that the signal-to-
+noise ratio of BOLD time series is spatially invariant, however. If it
+is not, then MCM may be prone to false-negative results.
+As noted by our reviewers, the potentially confounding effects
+of neurovascular heterogeneity cannot be invoked to explain the
+condition-specific changes in EC that we observed. This means
+that the assessment of changes in EC may be more robust to
+vascular heterogeneity. On the other hand, the combination of
+two modalities with similar voxel resolution also has distinct
+advantages with respect to sensitivity. Integrating data acquired
+simultaneously and independently from the same subject allowed
+us to avoid spatial distortion of imaging data, which commonly
+occurs before statistical analysis (48). We omitted spatial nor-
+malization to a standard brain and also spatial smoothing as we
+integrated the two datasets in individual subject space. More-
+over, our control analyses showed that MCM was robust against
+variations in voxel and ROI size. Thus, this approach might
+prove sufficiently sensitive for even single-subject analyses.
+Third, an ongoing discussion in the PET literature surrounds
+the issue of how to interpret FDG signals. FDG uptake reflects
+energy consumption and to a large part is related to neuronal
+signaling (49); however, a critical question is whether neurons
+themselves or astrocytes consume most of the energy provided by
+glucose. Numerous studies have provided evidence for both cell
+types, but a very recent study “identified neurons as the principle
+locus of glucose uptake as visualized by functional brain imaging”
+(50). According to that study, FDG-PET is an ideal surrogate for
+energy consumption in neurons and specifically at synapses. Fur-
+thermore, this idea supports the general assumption about the
+neuronal basis of the BOLD signal. Earlier studies of simulta-
+neous electrophysiology and fMRI have concluded that BOLD
+signal fluctuations reflect synaptic activity rather than spiking ac-
+tivity (51, 52). Using complementary methods like PET, we can
+now confirm this assumption directly in humans.
+Although we and others found a partial spatial overlap between
+FDG and fMRI measures in previous studies (10, 53), MCM is a
+novel approach using energy consumption as a proxy for directional
+signaling. The question remains as to which aspects of EC (and
+endogenous fluctuations) best predict metabolic activity as measured
+by FDG. There are a number of competing hypotheses here. For
+example, a decrease in regional self-inhibition may correspond to
+increased excitability and an increase in metabolism (and spatial
+correlation with FC). Conversely, metabolic increases may be
+mediated directly by afferent EC from source regions. Finally,
+the best predictor of metabolic activity may be the amplitude of
+neuronal fluctuations mediated by changes in EC. In a future
+study, we will apply stochastic and spectral dynamic causal mod-
+eling (DCM) to the data described above (17). The parameters
+(intrinsic and extrinsic connectivity) and the amplitude of inferred
+neuronal fluctuations will be used to predict regional metabolism
+(and its spatial correlation with FC) to identify the key determi-
+nants that underlie MCM. The use of spectral DCM here may be
+interesting, because this approach explicitly parameterizes the
+spectral profile of endogenous neuronal fluctuations, aa well as
+their implicit time constants. We hope to test the hypothesis that
+the determinants of MCM rely not just on the amplitude of neu-
+ronal fluctuations (mediated by EC), but also on the characteristic
+time constants as modeled with power law scaling.
+Materials and Methods
+Our analysis was performed on 24 healthy subjects (16 males, 8 females; average
+age, 54.7 ± 9.9 y; all right-handed) participating in a simultaneous FDG-PET/
+fMRI brain imaging study. All participants gave informed consent to procedures
+approved by the Ethics Review Board of the Klinikum Rechts der Isar, Techni-
+sche Universität München. Scanning was performed on an integrated Siemens
+Biograph mMR scanner capable of simultaneously acquiring PET and MRI (3 T)
+data using the vendor-supplied 12-channel phase-array head coil.
+We simultaneously measured FDG-PET activity and BOLD-fMRI signals
+during resting conditions of either eyes closed (CLOSED) or eyes open (OPEN)
+during the initial 10 min immediately after bolus injection of FDG tracer. At
+30 min postinjection, we recorded the saturated list mode PET dataset for
+10 min. All scanning was performed in a dimmed environment obtained by
+switching off all lights, including those in the scanner bore. Subjects were
+instructed to keep their eyes closed/open, to relax, to not think of anything in
+particular, and to not fall asleep. We assessed each subject’s level of arousal
+and anxiety using the State Trait Anxiety Inventory before the start of the
+scanning session (CLOSED/OPEN: 35.5 ± 6.9/30.8 ± 5.6; P = 0.18), and mea-
+sured blood pressure and venous glucose level (<140 mg/dL in all subjects).
+We applied two different preprocessing pipelines for the initial FC analysis
+of fMRI data, and for the final integrated MCM analysis of fMRI and PET data
+in single-subject space.
+FC Analysis. We first identified ROIs according to a standard set of networks
+that Yeo et al. (30) recently established in a 1,000-subject dataset. We fol-
+lowed our previous processing pipeline for ICA of fMRI data (54). We applied
+slice-time correction, realignment, normalization to a standard template,
+and spatial smoothing using a Gaussian kernel with an FWHM of 6 mm. We
+then subjected the concatenated data of all subjects to a group ICA using
+GIFT (Medical Imaging Analysis Lab, The Mind Research Network) and
+identified 70 spatially independent components (ICs) with corresponding
+signal time series (31). Only the most stable ICs with a stability index > 0.9
+were identified by iteratively running 30 ICAs using the ICASSO procedure
+(55). We automatically selected ICs as relevant ROIs by running spatial re-
+gression against the spatial maps of the seven-network decomposition from
+Yeo et al. (30). Finally, we identified functional pathways of FC between an
+early visual area (CaS) and all other visual stream ROIs (StC, ExC, and ITG, SPL)
+and prefrontal association ROIs (PFCa, INS, PFCdl, MCC, and PFCvm). For each
+subject separately, we calculated the temporal Pearson’s correlation be-
+tween the cluster time series of the CaS and that of all other ROIs.
+Multimodal MCM Analysis in Single-Subject Space. In this analysis, we inte-
+grated voxel-wise measures of FC and FDG activity in single-subject spaces to
+reveal EC among previously established FC pathways. We used the temporally
+(slice time corrected) and spatially corrected EPI volumes of each subject, but
+omitted normalization and smoothing procedures to achieve the least dis-
+torted volumes. We then coregistered the mean FDG-PET volume to the mean
+EPI volume, scaled PET data to normalized FDG activity by whole-brain FDG
+uptake values, and resampled both datasets to common voxel dimensions of
+2 × 2 x 2 mm3. We then submitted the fMRI and FDG-PET data to a two-step
+procedure to calculate MCM (Fig. 1).
+Based on the energy model of neuronal signaling, a positive spatial cor-
+relation between the voxel profiles of FC (FCvox) and FDG activity (FDGvox)
+
+|
+www.pnas.org/cgi/doi/10.1073/pnas.1513752113
+Riedl et al.
+Downloaded from https://www.pnas.org by 2.176.250.41 on October 8, 2026 from IP address 2.176.250.41.
+
+===== PAGE 6/6 =====
+identifies a region as the input area of a pathway. FDGvox is derived from
+FDG activity maps, and FCvox is calculated as the temporal correlation be-
+tween each voxel time series within the (target) ROI and the cluster time
+series of the connected (seed) region, i.e., FCvox in the StC with cluster time
+series of the CaS. The spatial extent of each ROI was defined by the initial
+ICA maps (z > 3) back-projected into individual space.
+More detailed information is provided in SI Materials and Methods.
+ACKNOWLEDGMENTS. We thank Edward Bullmore for discussions during
+the process of data analysis. We also thank our colleagues at the
+Technische Universitaet Muenchen, particularly Claus Zimmer, Markus
+Schwaiger, Igor Yakushev, Anne Winter, Sylvia Schachoff, Brigitte Dzewas,
+Michael Herz, and Mathias Lukas. This work was supported by a university
+grant from the Kommission fuer klinische Forschung (Grant 8762754, to
+V.R. and A.D.) at the Klinikum Rechts der Isar der Technischen Universitaet
+Muenchen.
+1. Felleman DJ, Van Essen DC (1991) Distributed hierarchical processing in the primate
+cerebral cortex. Cereb Cortex 1(1):1–47.
+2. Goldman-Rakic PS (1988) Topography of cognition: Parallel distributed networks in
+primate association cortex. Annu Rev Neurosci 11(1):137–156.
+3. Gilbert CD, Li W (2013) Top-down influences on visual processing. Nat Rev Neurosci
+14(5):350–363.
+4. Clavagnier S, Falchier A, Kennedy H (2004) Long-distance feedback projections to area
+V1: Implications for multisensory integration, spatial awareness, and visual con-
+sciousness. Cogn Affect Behav Neurosci 4(2):117–126.
+5. Bressler SL, Menon V (2010) Large-scale brain networks in cognition: Emerging
+methods and principles. Trends Cogn Sci 14(6):277–290.
+6. Fox MD, Raichle ME (2007) Spontaneous fluctuations in brain activity observed with
+functional magnetic resonance imaging. Nat Rev Neurosci 8(9):700–711.
+7. Lewis CM, Baldassarre A, Committeri G, Romani GL, Corbetta M (2009) Learning
+sculpts the spontaneous activity of the resting human brain. Proc Natl Acad Sci USA
+106(41):17558–17563.
+8. Albert NB, Robertson EM, Miall RC (2009) The resting human brain and motor learning.
+Curr Biol 19(12):1023–1027.
+9. van Kesteren MTR, Fernández G, Norris DG, Hermans EJ (2010) Persistent schema-
+dependent hippocampal–neocortical connectivity during memory encoding and
+postencoding rest in humans. Proc Natl Acad Sci USA 107(16):7550–7555.
+10. Riedl V, et al. (2011) Repeated pain induces adaptations of intrinsic brain activity to
+reflect past and predict future pain. NeuroImage 57(1):206–213.
+11. Hampson M, Driesen NR, Skudlarski P, Gore JC, Constable RT (2006) Brain connectivity
+related to working memory performance. J Neurosci 26(51):13338–13343.
+12. Harmelech T, Preminger S, Wertman E, Malach R (2013) The day-after effect: Long-
+term, Hebbian-like restructuring of resting-state fMRI patterns induced by a single
+epoch of cortical activation. J Neurosci 33(22):9488–9497.
+13. Menon V (2011) Large-scale brain networks and psychopathology: A unifying triple
+network model. Trends Cogn Sci 15(10):483–506.
+14. Greicius M (2008) Resting-state functional connectivity in neuropsychiatric disorders.
+Curr Opin Neurol 21(4):424–430.
+15. Friston KJ (2011) Functional and effective connectivity: A review. Brain Connect 1(1):
+13–36.
+16. Bastos-Leite AJ, et al. (2015) Dysconnectivity within the default mode in first-episode
+schizophrenia: A stochastic dynamic causal modeling study with functional magnetic
+resonance imaging. Schizophr Bull 41(1):144–153.
+17. Friston KJ, Kahan J, Biswal B, Razi A (2014) A DCM for resting-state fMRI. Neuroimage
+94:396–407.
+18. Hyder F, Rothman DL, Bennett MR (2013) Cortical energy demands of signaling and
+nonsignaling components in brain are conserved across mammalian species and ac-
+tivity levels. Proc Natl Acad Sci USA 110(9):3549–3554.
+19. Attwell D, Laughlin SB (2001) An energy budget for signaling in the grey matter of
+the brain. J Cereb Blood Flow Metab 21(10):1133–1145.
+20. Attwell D, Iadecola C (2002) The neural basis of functional brain imaging signals.
+Trends Neurosci 25(12):621–625.
+21. Alle H, Roth A, Geiger JRP (2009) Energy-efficient action potentials in hippocampal
+mossy fibers. Science 325(5946):1405–1408.
+22. Harris JJ, Jolivet R, Attwell D (2012) Synaptic energy use and supply. Neuron 75(5):
+762–777.
+23. Jao T, et al. (2013) Volitional eyes opening perturbs brain dynamics and functional
+connectivity regardless of light input. Neuroimage 69:21–34.
+24. Anderson JC, Kennedy H, Martin KAC (2011) Pathways of attention: Synaptic rela-
+tionships of frontal eye field to V4, lateral intraparietal cortex, and area 46 in ma-
+caque monkey. J Neurosci 31(30):10872–10881.
+25. Mishkin M, Ungerleider LG, Macko KA (1983) Object vision and spatial vision: Two
+cortical pathways. Trends Neurosci 6:414–417.
+26. Markov NT, et al. (2014) Anatomy of hierarchy: Feedforward and feedback pathways
+in macaque visual cortex. J Comp Neurol 522(1):225–259.
+27. Muckli L, Petro LS (2013) Network interactions: Non-geniculate input to V1. Curr Opin
+Neurobiol 23(2):195–201.
+28. Pasquini L, et al. (2015) Link between hippocampus’ raised local and eased global
+intrinsic connectivity in AD. Alzheimers Dement 11(5):475–484.
+29. Lui S, et al. (2011) Resting-state functional connectivity in treatment-resistant de-
+pression. Am J Psychiatry 168(6):642–648.
+30. Yeo BTT, et al. (2011) The organization of the human cerebral cortex estimated by
+intrinsic functional connectivity. J Neurophysiol 106(3):1125–1165.
+31. Allen EA, et al. (2011) A baseline for the multivariate comparison of resting-state
+networks. Front Syst Neurosci 5:2.
+32. Honey CJ, Kötter R, Breakspear M, Sporns O (2007) Network structure of cerebral
+cortex shapes functional connectivity on multiple time scales. Proc Natl Acad Sci USA
+104(24):10240–10245.
+33. Chen AC, et al. (2013) Causal interactions between fronto-parietal central executive
+and default-mode networks in humans. Proc Natl Acad Sci USA 110(49):19944–19949.
+34. Andrews-Hanna JR, Reidler JS, Sepulcre J, Poulin R, Buckner RL (2010) Functional-
+anatomic fractionation of the brain’s default network. Neuron 65(4):550–562.
+35. Dosenbach NUF, Fair DA, Cohen AL, Schlaggar BL, Petersen SE (2008) A dual-networks
+architecture of top-down control. Trends Cogn Sci 12(3):99–105.
+36. Menon V, Uddin LQ (2010) Saliency, switching, attention and control: A network
+model of insula function. Brain Struct Funct 214(5-6):655–667.
+37. Seeley WW, et al. (2007) Dissociable intrinsic connectivity networks for salience pro-
+cessing and executive control. J Neurosci 27(9):2349–2356.
+38. Budd JM (1998) Extrastriate feedback to primary visual cortex in primates: A quan-
+titative analysis of connectivity. Proc Biol Sci 265(1400):1037–1044.
+39. Barone P, Batardiere A, Knoblauch K, Kennedy H (2000) Laminar distribution of
+neurons in extrastriate areas projecting to visual areas V1 and V4 correlates with the
+hierarchical rank and indicates the operation of a distance rule. J Neurosci 20(9):
+3263–3281.
+40. Lewis JW, Van Essen DC (2000) Corticocortical connections of visual, sensorimotor,
+and multimodal processing areas in the parietal lobe of the macaque monkey. J Comp
+Neurol 428(1):112–137.
+41. Zanto TP, Rubens MT, Thangavel A, Gazzaley A (2011) Causal role of the prefrontal
+cortex in top-down modulation of visual processing and working memory. Nat
+Neurosci 14(5):656–661.
+42. Markov NT, et al. (2013) The role of long-range connections on the specificity of the
+macaque interareal cortical network. Proc Natl Acad Sci USA 110(13):5187–5192.
+43. Biswal BB, et al. (2010) Toward discovery science of human brain function. Proc Natl
+Acad Sci USA 107(10):4734–4739.
+44. Allen EA, et al. (2014) Tracking whole-brain connectivity dynamics in the resting state.
+Cereb Cortex 24(3):663–676.
+45. Liu TT (2013) Neurovascular factors in resting-state functional MRI. Neuroimage 80:
+339–348.
+46. Tak S, Polimeni JR, Wang DJJ, Yan L, Chen JJ (2015) Associations of resting-state fMRI
+functional connectivity with flow-BOLD coupling and regional vasculature. Brain
+Connect 5(3):137–146.
+47. Liang X, Zou Q, He Y, Yang Y (2013) Coupling of functional connectivity and regional
+cerebral blood flow reveals a physiological basis for network hubs of the human
+brain. Proc Natl Acad Sci USA 110(5):1929–1934.
+48. Shaw ME, et al. (2003) Evaluating subject specific preprocessing choices in multi-
+subject fMRI data sets using data-driven performance metrics. Neuroimage 19(3):
+988–1001.
+49. Raichle ME (2009) A brief history of human brain mapping. Trends Neurosci 32(2):118–126.
+50. Lundgaard I, et al. (2015) Direct neuronal glucose uptake heralds activity-dependent
+increases in cerebral metabolism. Nat Commun 6:6807.
+51. Viswanathan A, Freeman RD (2007) Neurometabolic coupling in cerebral cortex re-
+flects synaptic more than spiking activity. Nat Neurosci 10(10):1308–1312.
+52. Logothetis NK, Pauls J, Augath M, Trinath T, Oeltermann A (2001) Neurophysiological
+investigation of the basis of the fMRI signal. Nature 412(6843):150–157.
+53. Tomasi D, Wang G-J, Volkow ND (2013) Energetic cost of brain functional connec-
+tivity. Proc Natl Acad Sci USA 110(33):13642–13647.
+54. Dovern A, et al. (2012) Intrinsic network connectivity reflects consistency of synes-
+thetic experiences. J Neurosci 32(22):7614–7621.
+55. Himberg J, Hyvärinen A, Esposito F (2004) Validating the independent components of
+neuroimaging time series via clustering and visualization. Neuroimage 22(3):1214–1222.
+56. Tagliazucchi E, et al. (2012) Automatic sleep staging using fMRI functional connec-
+tivity data. Neuroimage 63(1):63–72.
+57. Fox PT, Raichle ME, Mintun MA, Dence C (1988) Nonoxidative glucose consumption
+during focal physiologic neural activity. Science 241(4864):462–464.
+58. Drzezga A, et al. (2011) Neuronal dysfunction and disconnection of cortical hubs in
+non-demented subjects with elevated amyloid burden. Brain 134(Pt 6):1635–1646.
+59. Vlassenko AG, Rundle MM, Mintun MA (2006) Human brain glucose metabolism may
+evolve during activation: findings from a modified FDG PET paradigm. Neuroimage
+33(4):1036–1041.
+60. Calhoun VD, Adali T, Pearlson GD, Pekar JJ (2001) A method for making group in-
+ferences from functional MRI data using independent component analysis. Hum Brain
+Mapp 14(3):140–151.
+61. Erhardt EB, et al. (2011) Comparison of multi-subject ICA methods for analysis of fMRI
+data. Hum Brain Mapp 32(12):2075–2095.
+Riedl et al.
+PNAS
+|
+January 12, 2016
+|
+vol. 113
+|
+no. 2
+|
+
+NEUROSCIENCE
+Downloaded from https://www.pnas.org by 2.176.250.41 on October 8, 2026 from IP address 2.176.250.41.
