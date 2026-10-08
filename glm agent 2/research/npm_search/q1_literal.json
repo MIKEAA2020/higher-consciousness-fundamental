@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://arxiv.org",
+    "name": "Model of Brain Activation Predicts the Neural Collective",
+    "snippet": "Apr 15, 2017 — The model predicts the map of neural collective influencers (NCIs) in the brain , through the optimization of the influence of the minimal set ...",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "Apr 15, 2017",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov",
+    "name": "Imaging neuroscience: Principles or maps? - PMC",
+    "snippet": "by KJ Friston · 1998 · Cited by 162 — A distinction is made between making maps of functional responses in the brain and discerning the rules or principles that underlie their organization.",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://icml.cc",
+    "name": "Inverting Foundation Models of Brain Function",
+    "snippet": "Our results show that these parameters can be recovered from predicted brain maps , validating the quality of neural encodings. They also show that LLMs can ... Read more",
+    "host_name": "icml.cc",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pure.johnshopkins.edu",
+    "name": "Computational maps in the brain",
+    "snippet": "by EI Knudsen · 1987 · Cited by 596 — Computational maps represent ranges of parameter values that are relevant to the animal, and may differentially magnify the representation of values that are of ... Read more",
+    "host_name": "pure.johnshopkins.edu",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://neurolib-dev.github.io",
+    "name": "Example 0 aln minimal",
+    "snippet": "The neural mass model . In this example, we will learn about the basic of neurolib . We will create a two-population mean-field model of exponential ... Read more",
+    "host_name": "neurolib-dev.github.io",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com",
+    "name": "A neural model of how the brain represents and compares",
+    "snippet": "by S Grossberg · 2003 · Cited by 90 — SpaN model is defined by a neural network which models the spatial representation and comparison of numerical information in the brain.",
+    "host_name": "www.sciencedirect.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://patents.google.com/patent/WO2023094473A1/en",
+    "name": "A method of simulating a brain neural field",
+    "snippet": "The invention relates to a method of simulating a human brain neural field in a computerized platform modelling various zones of a human brain and connectivity ...",
+    "host_name": "patents.google.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net",
+    "name": "Parameter maps obtained by different fitting methods for a",
+    "snippet": "Parameter maps obtained by different fitting methods for a simulated brain in SNR = 50. From top to bottom are the results of LSQ‐full, LSQ‐seg, Bayesian, ... Read more",
+    "host_name": "www.researchgate.net",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,119 @@
+[
+ {
+  "label": "Preller 2019 PNAS \u2014 Effective connectivity changes in LSD",
+  "hits": [
+   {
+    "title": "Effective connectivity changes in LSD-induced altered states of consciousness in humans.",
+    "journal": "",
+    "year": "2019",
+    "doi": "10.1073/pnas.1815129116",
+    "pmcid": "PMC6377471",
+    "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6377471/",
+    "doi_url": "https://doi.org/10.1073/pnas.1815129116",
+    "probe_pmc": "200",
+    "probe_doi": "403"
+   }
+  ]
+ },
+ {
+  "label": "Penas 2024 PLOS Comput Biol \u2014 Parameter estimation whole-brain epilepsy",
+  "hits": [
+   {
+    "title": "Parameter estimation in a whole-brain network model of epilepsy: Comparison of parallel global optimization solvers.",
+    "journal": "",
+    "year": "2024",
+    "doi": "10.1371/journal.pcbi.1011642",
+    "pmcid": "PMC11265693",
+    "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11265693/",
+    "doi_url": "https://doi.org/10.1371/journal.pcbi.1011642",
+    "probe_pmc": "200",
+    "probe_doi": "200"
+   },
+   {
+    "title": "Parameter estimation in a whole-brain network model of epilepsy: comparison of parallel global optimization solvers",
+    "journal": "",
+    "year": "2023",
+    "doi": "10.1101/2023.11.01.565083",
+    "pmcid": "",
+    "pmc_url": "",
+    "doi_url": "https://doi.org/10.1101/2023.11.01.565083",
+    "probe_pmc": "-",
+    "probe_doi": "403"
+   }
+  ]
+ },
+ {
+  "label": "Eisen 2024 Neuron \u2014 Propofol destabilizes neural dynamics",
+  "hits": [
+   {
+    "title": "Propofol anesthesia destabilizes neural dynamics across cortex.",
+    "journal": "",
+    "year": "2024",
+    "doi": "10.1016/j.neuron.2024.06.011",
+    "pmcid": "PMC11923585",
+    "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11923585/",
+    "doi_url": "https://doi.org/10.1016/j.neuron.2024.06.011",
+    "probe_pmc": "200",
+    "probe_doi": "200"
+   },
+   {
+    "title": "Propofol anesthesia destabilizes neural dynamics across cortex",
+    "journal": "",
+    "year": "2023",
+    "doi": "10.1101/2023.11.24.568595",
+    "pmcid": "",
+    "pmc_url": "",
+    "doi_url": "https://doi.org/10.1101/2023.11.24.568595",
+    "probe_pmc": "-",
+    "probe_doi": "403"
+   }
+  ]
+ },
+ {
+  "label": "Haldeman & Beggs 2005 \u2014 Critical branching",
+  "hits": [
+   {
+    "title": "Comment on \"Critical branching captures activity in living neural networks and maximizes the number of metastable states\".",
+    "journal": "",
+    "year": "2005",
+    "doi": "10.1103/physrevlett.95.219801",
+    "pmcid": "",
+    "pmc_url": "",
+    "doi_url": "https://doi.org/10.1103/physrevlett.95.219801",
+    "probe_pmc": "-",
+    "probe_doi": "200"
+   },
+   {
+    "title": "Critical branching captures activity in living neural networks and maximizes the number of metastable States.",
+    "journal": "",
+    "year": "2005",
+    "doi": "10.1103/physrevlett.94.058101",
+    "pmcid": "",
+    "pmc_url": "",
+    "doi_url": "https://doi.org/10.1103/physrevlett.94.058101",
+    "probe_pmc": "-",
+    "probe_doi": "200"
+   }
+  ]
+ },
+ {
+  "label": "Robinson et al. 2001 \u2014 Prediction and quantification of spatiotemporal EEG dynamics",
+  "hits": []
+ },
+ {
+  "label": "Deco 2018 Current Biology \u2014 serotonin receptor maps LSD (verify)",
+  "hits": [
+   {
+    "title": "Whole-Brain Multimodal Neuroimaging Model Using Serotonin Receptor Maps Explains Non-linear Functional Effects of LSD.",
+    "journal": "",
+    "year": "2018",
+    "doi": "10.1016/j.cub.2018.07.083",
+    "pmcid": "",
+    "pmc_url": "",
+    "doi_url": "https://doi.org/10.1016/j.cub.2018.07.083",
+    "probe_pmc": "-",
+    "probe_doi": "200"
+   }
+  ]
+ }
+]

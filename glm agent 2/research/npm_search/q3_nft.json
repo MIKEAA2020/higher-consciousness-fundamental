@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.frontiersin.org",
+    "name": "Ketamine, Propofol, and the EEG: A Neural Field Analysis",
+    "snippet": "by I Bojak · 2013 · Cited by 70 — We have shown that observed changes of the EEG α peak frequency induced by the presence of the anesthetic agents propofol and ketamine, but in particular also ... Read more",
+    "host_name": "www.frontiersin.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov",
+    "name": "A Pharmacokinetics-Neural Mass Model (PK-NMM) for the",
+    "snippet": "by Z Liang · 2015 · Cited by 14 — The aim of this study was to set up a combined model to relate actual drug levels to EEG dynamics and behavioral states during propofol -induced ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com",
+    "name": "Electrorhythmogenesis and anaesthesia in a physiological",
+    "snippet": "by I Bojak · 2004 · Cited by 26 — The full mean field theory of Liley et. EEG resonances like the α-rhythm can be generated with physiologically plausible parameters . Connecting mean field ...",
+    "host_name": "www.sciencedirect.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://link.aps.org",
+    "name": "Modeling the effects of anesthesia on the electroencephalogram",
+    "snippet": "by I Bojak · 2005 · Cited by 236 — Changes to the electroencephalogram ( EEG ) observed during general anesthesia are modeled with a physiological mean field theory of",
+    "host_name": "link.aps.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://epubs.siam.org",
+    "name": "On the Global Dynamics of an Electroencephalographic",
+    "snippet": "This paper investigates the global dynamics of a mean field model of the electroencephalogram developed by Liley, propofol and the EEG: A neural field analysis ...",
+    "host_name": "epubs.siam.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.semanticscholar.org",
+    "name": "Anesthetic action on the transmission delay between cortex",
+    "snippet": "Meanfield modeling of propofol-induced changes in spontaneous EEG rhythms . EEG: A Neural Field Analysis of HCN1-Mediated Interactions I. BojakHarry C. DayD.  ...",
+    "host_name": "www.semanticscholar.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org",
+    "name": "Metabifurcation analysis of a mean field model of the cortex",
+    "snippet": "Aug 24, 2010 — Mean field models (MFMs) propofol , and midazolam. Bojak, D. T. J. Liley, Modeling the effects of anesthesia on the electroencephalogram, ...",
+    "host_name": "arxiv.org",
+    "rank": 6,
+    "date": "Aug 24, 2010",
+    "favicon": ""
+  },
+  {
+    "url": "https://doi.org",
+    "name": "Electrorhythmogenesis and anaesthesia in a physiological",
+    "snippet": "We solve eight partial-differential, two-dimensional, nonlinear mean field equations, which describe the dynamics of large populations of cortical neurons. Read more",
+    "host_name": "doi.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

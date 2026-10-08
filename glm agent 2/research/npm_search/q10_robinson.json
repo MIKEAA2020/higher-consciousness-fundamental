@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov",
+    "name": "A Thalamocortical Neural Mass Model of the EEG during",
+    "snippet": "by MS Costa · 2016 · Cited by 57 — A neurophysiologically - based mathematical model of flash visual evoked potentials. Rennie CJ, Robinson PA. Physiology- based modeling of cortical auditory ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com",
+    "name": "Nonlinear harmonic generation in the corticothalamic system",
+    "snippet": "by M Ferdousi · 2019 · Cited by 9 — This paper focuses on harmonic generation in a neural field corticothalamic model that has successfully reproduced many features of linear and ...",
+    "host_name": "www.sciencedirect.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net",
+    "name": "Schematic of the corticothalamic model [1, 73], consisting",
+    "snippet": "Building on Robinson's modeling framework, Zobaer et al. (2017) constructed a corticothalamic model to reproduce KCs, sleep spindles, evoked response potentials ... Read more",
+    "host_name": "www.researchgate.net",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pubmed.ncbi.nlm.nih.gov",
+    "name": "Modal analysis of corticothalamic dynamics",
+    "snippet": "by PA Robinson · 2001 · Cited by 216 — The effects of cortical boundary conditions and resulting modal aspects of continuum corticothalamic electrodynamics are explored, including feedbacks.",
+    "host_name": "pubmed.ncbi.nlm.nih.gov",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.npsm-kps.org",
+    "name": "Neural-field Theories of the Electrophysiology of the Brain",
+    "snippet": "by JW KIM · 2014 — When this framework is applied to the corticothalamic basal ganglia (CTB) systems, it reproduces many salient features of EEG , in- cluding spectra and coherence ... Read more",
+    "host_name": "www.npsm-kps.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  }
+]

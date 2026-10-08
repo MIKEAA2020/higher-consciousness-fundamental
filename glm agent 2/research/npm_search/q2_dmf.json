@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://pubmed.ncbi.nlm.nih.gov",
+    "name": "Lag-based effective connectivity applied to fMRI",
+    "snippet": "by J Rodrigues · 2014 · Cited by 32 — Lag-based effective connectivity applied to fMRI : a simulation study highlighting dependence on experimental parameters and formulation. Read more\nby WJ Rappel · 1992 · Cited by 247 — Dynamics of the globally coupled complex Ginzburg-Landau equation. Phys Rev A. 1992 Dec 15;46(12):R7347-R7350. doi: 10.1103/physreva.46.r7347. Read more",
+    "host_name": "pubmed.ncbi.nlm.nih.gov",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.liebertpub.com/doi/brain.2020.0854",
+    "name": "Motion-Dependent Effects of Functional Magnetic",
+    "snippet": "Nov 19, 2020 — Preprocessing choices in fMRI studies influence overall FC and global network properties and can have motion-dependent effects.",
+    "host_name": "www.liebertpub.com",
+    "rank": 1,
+    "date": "Nov 19, 2020",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/q-bio",
+    "name": "Neurovascular coupling: insights from multi-modal dynamic",
+    "snippet": "by A Jafarian · 2019 · Cited by 10 — Abstract:This technical note presents a framework for investigating the underlying mechanisms of neurovascular coupling in the human brain ... Read more",
+    "host_name": "arxiv.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/figure",
+    "name": "Two complementary forms of phase coupling for the",
+    "snippet": "Dynamic functional connectivity (dFC) in resting-state fMRI holds promise to deliver candidate biomarkers for clinical applications. Read more\nThe correlation function of fMRI signals was approximately power- analyzing human resting-state (rs-) fMRI signals, together with diffusion MRI (dMRI)",
+    "host_name": "www.researchgate.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication",
+    "name": "Autonomic physiological coupling of the global fMRI signal",
+    "snippet": "May 7, 2025 — global fMRI signal leads the physiological signal . 'clamped' CO2 condition. Recent evidence shows that low-frequency fMRI cofluctuations are ...",
+    "host_name": "www.researchgate.net",
+    "rank": 4,
+    "date": "May 7, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://inria.hal.science/hal-01221115",
+    "name": "A differential evolution-based approach for fitting",
+    "snippet": "by P Mesejo · 2016 · Cited by 10 — In this work we focus on the extended Balloon model and propose the estimation of 15 parameters using two stochastic approaches: an Evolutionary Computation ... Read more",
+    "host_name": "inria.hal.science",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://is.mpg.de/publications/item_3248111",
+    "name": "Decoupling the default mode network and global state",
+    "snippet": "The ESN enables to decouple the brain state-dependent global rs- fMRI signal fluctuation from the intrinsic activity of the default-mode network.}",
+    "host_name": "is.mpg.de",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/adrianponce",
+    "name": "adrianponce/DynamicMeanFieldModel",
+    "snippet": "- FC_prediction_LNA.m : uses the linear noise approximation to calculate the fitting between the model FC and the empirical FC for varying global couplings . - ... Read more",
+    "host_name": "github.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

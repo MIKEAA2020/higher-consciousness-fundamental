@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov",
+    "name": "Critical synchronization dynamics of the Kuramoto model on",
+    "snippet": "by G Ódor · 2019 · Cited by 72 — Kuramoto equation, a fundamental model for synchronization , The global coupling K is the control parameter of this model, a critical coupling strength , the ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org",
+    "name": "Kuramoto model based analysis reveals oxytocin effects on",
+    "snippet": "by S Zheng · 2021 · Cited by 27 — It can reveal the strength of synchronization between brain regions through the coupling matrix, and quantify the overall co- herence by the ... Read more",
+    "host_name": "arxiv.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://motion.me.ucsb.edu",
+    "name": "on the critical coupling for kuramoto oscillators",
+    "snippet": "by F DÖRFLER · Cited by 447 — The celebrated Kuramoto model captures various synchronization phenomena in biological and man-made dynamical systems of coupled oscillators. 27 pages",
+    "host_name": "motion.me.ucsb.edu",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com",
+    "name": "Explosive synchronization dependence on initial conditions",
+    "snippet": "by A Bayani · 2023 · Cited by 56 — We also determine the critical coupling strength for explosive synchronization , which also depends on the initial conditions.",
+    "host_name": "www.sciencedirect.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://epubs.siam.org",
+    "name": "On the Critical Coupling for Kuramoto Oscillators",
+    "snippet": "by F Dörfler · 2011 · Cited by 447 — It is well known that there exists a critical coupling strength among the oscillators at which a phase transition from incoherency to synchronization occurs. Read more",
+    "host_name": "epubs.siam.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://skoge.folk.ntnu.no",
+    "name": "On the Critical Coupling Strength for Kuramoto Oscillators",
+    "snippet": "by F Dörfler · 2011 · Cited by 17 — The celebrated Kuramoto model captures various synchronization phenomena in biological and man-made dy- namical systems of coupled oscillators.",
+    "host_name": "skoge.folk.ntnu.no",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.emergentmind.com",
+    "name": "Kuramoto Model for Synchronization",
+    "snippet": "Sep 23, 2025 — The Kuramoto model is a paradigmatic system in nonlinear dynamics that captures the synchronization of coupled oscillators through sine ... Read more",
+    "host_name": "www.emergentmind.com",
+    "rank": 6,
+    "date": "Sep 23, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.biorxiv.org",
+    "name": "Hierarchical whole-brain modeling of critical",
+    "snippet": "by V Myrov · 2024 · Cited by 15 — The Kuramoto model is the simplest model of synchronization dynamics and captures the emergence of self-organized synchrony in a system of  ...",
+    "host_name": "www.biorxiv.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov",
+    "name": "Dynamic Causal Models and Physiological Inference - PMC",
+    "snippet": "by RJ Moran · 2011 · Cited by 103 — Dynamic causal modeling (DCM) uses Bayesian model inversion and selection to infer the synaptic mechanisms underlying empirically observed brain responses.",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com",
+    "name": "Adiabatic dynamic causal modelling",
+    "snippet": "by A Jafarian · 2021 · Cited by 24 — This technical note introduces adiabatic dynamic causal modelling , a method for inferring slow changes in biophysical parameters that control fluctuations ... Read more",
+    "host_name": "www.sciencedirect.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.frontiersin.org",
+    "name": "Neural masses and fields in dynamic causal modeling",
+    "snippet": "by R Moran · 2013 · Cited by 342 — This paper reviews the suite of neuronal population models including neural masses, fields and conductance-based models that are used in DCM. These models are ... Read more",
+    "host_name": "www.frontiersin.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "http://www.scholarpedia.org",
+    "name": "Dynamic causal modeling",
+    "snippet": "Feb 15, 2010 — The aim of dynamic causal modeling (DCM) is to infer the causal architecture of coupled or distributed dynamical systems. It is a Bayesian  ...",
+    "host_name": "www.scholarpedia.org",
+    "rank": 3,
+    "date": "Feb 15, 2010",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org",
+    "name": "Dynamic Causal Models of Time-Varying Connectivity",
+    "snippet": "Nov 25, 2024 — This paper introduces a novel approach for modelling time-varying connectivity in neuroimaging data, focusing on the slow fluctuations in ... Read more",
+    "host_name": "arxiv.org",
+    "rank": 4,
+    "date": "Nov 25, 2024",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fil.ion.ucl.ac.uk",
+    "name": "Dynamic Causal Modelling",
+    "snippet": "by KJ Friston · Cited by 6191 — Dynamic causal modelling represents a fundamental departure from existing approaches to effective connectivity because it employs a more plausible generative  ...",
+    "host_name": "www.fil.ion.ucl.ac.uk",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://synapse.patsnap.com",
+    "name": "What is the mechanism of Propofol?",
+    "snippet": "Jul 17, 2024 — Propofol enhances the inhibitory effects of GABA by binding to a specific site on the GABAA receptor. and anesthesia.",
+    "host_name": "synapse.patsnap.com",
+    "rank": 6,
+    "date": "Jul 17, 2024",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net",
+    "name": "The PK parameters of the Schnider propofol model.",
+    "snippet": "The aim of this study was to set up a combined model to relate actual drug levels to EEG dynamics and behavioral states during propofol -induced anesthesia. Read more",
+    "host_name": "www.researchgate.net",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

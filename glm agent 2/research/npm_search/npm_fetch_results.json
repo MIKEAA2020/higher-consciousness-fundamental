@@ -1,0 +1,290 @@
+[
+ {
+  "url": "https://arxiv.org",
+  "source": "q1_literal.json",
+  "code": "200",
+  "title": "arXiv.org e-Print archive"
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov",
+  "source": "q1_literal.json",
+  "code": "200",
+  "title": "PMC Home"
+ },
+ {
+  "url": "https://icml.cc",
+  "source": "q1_literal.json",
+  "code": "200",
+  "title": "2026 Conference"
+ },
+ {
+  "url": "https://pure.johnshopkins.edu",
+  "source": "q1_literal.json",
+  "code": "200",
+  "title": "Johns Hopkins University"
+ },
+ {
+  "url": "https://neurolib-dev.github.io",
+  "source": "q1_literal.json",
+  "code": "200",
+  "title": "Neurolib"
+ },
+ {
+  "url": "https://www.sciencedirect.com",
+  "source": "q1_literal.json",
+  "code": "400",
+  "title": ""
+ },
+ {
+  "url": "https://patents.google.com/patent/WO2023094473A1/en",
+  "source": "q1_literal.json",
+  "code": "200",
+  "title": "WO2023094473A1 - A method of simulating a brain neural field - Google Patents"
+ },
+ {
+  "url": "https://www.researchgate.net",
+  "source": "q1_literal.json",
+  "code": "403",
+  "title": "ResearchGate - Temporarily Unavailable"
+ },
+ {
+  "url": "https://pubmed.ncbi.nlm.nih.gov",
+  "source": "q2_dmf.json",
+  "code": "200",
+  "title": "PubMed"
+ },
+ {
+  "url": "https://www.liebertpub.com/doi/brain.2020.0854",
+  "source": "q2_dmf.json",
+  "code": "403",
+  "title": "Just a moment..."
+ },
+ {
+  "url": "https://arxiv.org/q-bio",
+  "source": "q2_dmf.json",
+  "code": "404",
+  "title": ""
+ },
+ {
+  "url": "https://www.researchgate.net/figure",
+  "source": "q2_dmf.json",
+  "code": "403",
+  "title": "ResearchGate - Temporarily Unavailable"
+ },
+ {
+  "url": "https://www.researchgate.net/publication",
+  "source": "q2_dmf.json",
+  "code": "403",
+  "title": "ResearchGate - Temporarily Unavailable"
+ },
+ {
+  "url": "https://inria.hal.science/hal-01221115",
+  "source": "q2_dmf.json",
+  "code": "200",
+  "title": "Oh noes!"
+ },
+ {
+  "url": "https://is.mpg.de/publications/item_3248111",
+  "source": "q2_dmf.json",
+  "code": "200",
+  "title": "Bot Detection"
+ },
+ {
+  "url": "https://github.com/adrianponce",
+  "source": "q2_dmf.json",
+  "code": "200",
+  "title": "adrianponce (Adri\u00e1n Ponce-Alvarez) \u00b7 GitHub"
+ },
+ {
+  "url": "https://www.frontiersin.org",
+  "source": "q3_nft.json",
+  "code": "200",
+  "title": "Frontiers | Publisher of peer-reviewed articles in open access journals"
+ },
+ {
+  "url": "https://link.aps.org",
+  "source": "q3_nft.json",
+  "code": "200",
+  "title": "APS Journals"
+ },
+ {
+  "url": "https://epubs.siam.org",
+  "source": "q3_nft.json",
+  "code": "403",
+  "title": "Just a moment..."
+ },
+ {
+  "url": "https://www.semanticscholar.org",
+  "source": "q3_nft.json",
+  "code": "200",
+  "title": "Semantic Scholar | AI-Powered Research Tool"
+ },
+ {
+  "url": "https://doi.org",
+  "source": "q3_nft.json",
+  "code": "200",
+  "title": "Home Page"
+ },
+ {
+  "url": "http://www.scholarpedia.org",
+  "source": "q4_dcm.json",
+  "code": "200",
+  "title": ""
+ },
+ {
+  "url": "https://www.fil.ion.ucl.ac.uk",
+  "source": "q4_dcm.json",
+  "code": "200",
+  "title": "Department of Imaging Neuroscience"
+ },
+ {
+  "url": "https://synapse.patsnap.com",
+  "source": "q4_dcm.json",
+  "code": "200",
+  "title": "Synapse - Global Drug Intelligence Database"
+ },
+ {
+  "url": "https://www.biorxiv.org",
+  "source": "q5_psilo.json",
+  "code": "403",
+  "title": "Just a moment..."
+ },
+ {
+  "url": "https://www.cell.com",
+  "source": "q5_psilo.json",
+  "code": "403",
+  "title": "Just a moment..."
+ },
+ {
+  "url": "https://jmsgr.tamhsc.edu",
+  "source": "q5_psilo.json",
+  "code": "000",
+  "title": ""
+ },
+ {
+  "url": "https://www.nature.com",
+  "source": "q5_psilo.json",
+  "code": "200",
+  "title": "Nature"
+ },
+ {
+  "url": "https://febs.onlinelibrary.wiley.com",
+  "source": "q5_psilo.json",
+  "code": "403",
+  "title": "Just a moment..."
+ },
+ {
+  "url": "https://journals.plos.org",
+  "source": "q6_vep.json",
+  "code": "403",
+  "title": "Just a moment..."
+ },
+ {
+  "url": "https://search.kg.ebrains.eu",
+  "source": "q6_vep.json",
+  "code": "200",
+  "title": "EBRAINS - Knowledge Graph Search"
+ },
+ {
+  "url": "https://www.thevirtualbrain.org",
+  "source": "q6_vep.json",
+  "code": "200",
+  "title": "The Virtual Brain: Delivering practical results. For novel clinical applications."
+ },
+ {
+  "url": "https://github.com",
+  "source": "q6_vep.json",
+  "code": "200",
+  "title": "GitHub \u00b7 Change is constant. GitHub keeps you ahead. \u00b7 GitHub \u00b7 GitHub"
+ },
+ {
+  "url": "https://motion.me.ucsb.edu",
+  "source": "q7_critical.json",
+  "code": "200",
+  "title": "Redirecting to new homepage for Francesco Bullo"
+ },
+ {
+  "url": "https://skoge.folk.ntnu.no",
+  "source": "q7_critical.json",
+  "code": "200",
+  "title": "Sigurd Skogestad"
+ },
+ {
+  "url": "https://www.emergentmind.com",
+  "source": "q7_critical.json",
+  "code": "200",
+  "title": "Emergent Mind: Frontier Research Explorer"
+ },
+ {
+  "url": "https://www.nature.com/articles/s42003-022-03330-y",
+  "source": "q8_anes_dmf.json",
+  "code": "200",
+  "title": "Whole-brain modelling identifies distinct but convergent paths to unconsciousness in anaesthesia and disorders"
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12119344",
+  "source": "q8_anes_dmf.json",
+  "code": "200",
+  "title": "A computational approach to evaluate how molecular mechanisms impact large-scale brain activity - PMC"
+ },
+ {
+  "url": "https://medicine.yale.edu/psychiatry/education/programs-and-initiatives/map/support/deco",
+  "source": "q8_anes_dmf.json",
+  "code": "200",
+  "title": "Modeling Whole-Brain Dynamics: Turbulence as a framework for brain dynamics in health and disease | Psychiatry"
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=v_BxSVZ0Jnk",
+  "source": "q8_anes_dmf.json",
+  "code": "200",
+  "title": ""
+ },
+ {
+  "url": "https://www.sciencedirect.com/science/article/pii/S089662732400446X",
+  "source": "q8_anes_dmf.json",
+  "code": "403",
+  "title": "ScienceDirect"
+ },
+ {
+  "url": "https://news.mit.edu/2021/anesthesia-changes-brain-rhythms-0511",
+  "source": "q8_anes_dmf.json",
+  "code": "200",
+  "title": "Anesthesia doesn't simply turn off the brain \u2014 it changes its rhythms | MIT News | Massachusetts Institute of "
+ },
+ {
+  "url": "https://ora.ox.ac.uk/objects/uuid:0698e16e-95da-4a7a-8028-e017b4f8d5c0",
+  "source": "q8_anes_dmf.json",
+  "code": "403",
+  "title": "Just a moment..."
+ },
+ {
+  "url": "https://hedonia.kringelbach.org/wp-content/uploads/2025/12/Book_DecoKringelbach_WBM2025.pdf",
+  "source": "q8_anes_dmf.json",
+  "code": "200",
+  "title": ""
+ },
+ {
+  "url": "https://www.pnas.org",
+  "source": "q9_psy_dcm.json",
+  "code": "403",
+  "title": "Just a moment..."
+ },
+ {
+  "url": "https://onlinelibrary.wiley.com",
+  "source": "q9_psy_dcm.json",
+  "code": "403",
+  "title": "Just a moment..."
+ },
+ {
+  "url": "https://www.medrxiv.org",
+  "source": "q9_psy_dcm.json",
+  "code": "200",
+  "title": "medRxiv.org - the preprint server for Health Sciences"
+ },
+ {
+  "url": "https://www.biologicalpsychiatrycnni.org",
+  "source": "q9_psy_dcm.json",
+  "code": "403",
+  "title": "Just a moment..."
+ }
+]

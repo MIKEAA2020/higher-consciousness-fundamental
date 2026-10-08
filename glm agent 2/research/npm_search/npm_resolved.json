@@ -1,0 +1,150 @@
+[
+ {
+  "label": "Bojak & Liley 2005 \u2014 Modeling the effects of anesthesia on the EEG (Phys Rev E)",
+  "title": "Modeling the effects of anesthesia on the electroencephalogram",
+  "doi": "10.1103/physreve.71.041902",
+  "journal": "Physical Review E",
+  "year": 2005,
+  "cited": 149,
+  "fetch_probes": {
+   "doi_landing": "200"
+  },
+  "in_epmc": false
+ },
+ {
+  "label": "Bojak et al. 2013 \u2014 Ketamine, Propofol, and the EEG: neural field analysis (Front Comput Neurosci)",
+  "title": "Ketamine, Propofol, and the EEG: A Neural Field Analysis of HCN1-Mediated Interactions",
+  "doi": "10.3389/fncom.2013.00022",
+  "journal": "Frontiers in Computational Neuroscience",
+  "year": 2013,
+  "cited": 44,
+  "fetch_probes": {
+   "doi_landing": "200",
+   "pmc": "200"
+  },
+  "in_epmc": true
+ },
+ {
+  "label": "Deco et al. 2018 \u2014 Whole-brain multimodal model using 5HT2A receptor density (Cell Rep)",
+  "title": "Whole-Brain Multimodal Neuroimaging Model Using Serotonin Receptor Maps Explains Non-linear Functional Effects of LSD",
+  "doi": "10.1016/j.cub.2018.07.083",
+  "journal": "Current Biology",
+  "year": 2018,
+  "cited": 244,
+  "fetch_probes": {
+   "doi_landing": "200"
+  },
+  "in_epmc": false
+ },
+ {
+  "label": "Jirsa et al. 2017 \u2014 Individualized whole-brain models of epilepsy spread (NeuroImage)",
+  "title": "The Virtual Epileptic Patient: Individualized whole-brain models of epilepsy spread",
+  "doi": "10.1016/j.neuroimage.2016.04.049",
+  "journal": "NeuroImage",
+  "year": 2017,
+  "cited": 448,
+  "fetch_probes": {
+   "doi_landing": "200"
+  },
+  "in_epmc": false
+ },
+ {
+  "label": "Penas et al. 2024 \u2014 Parameter estimation whole-brain network model epilepsy (PLOS Comput Biol)",
+  "title": "Parameter estimation in a whole-brain network model of epilepsy: comparison of parallel global optimization solvers",
+  "doi": "10.1101/2023.11.01.565083",
+  "journal": "",
+  "year": 2023,
+  "cited": 3,
+  "fetch_probes": {
+   "doi_landing": "403"
+  },
+  "in_epmc": false
+ },
+ {
+  "label": "Odor 2019 \u2014 Critical synchronization dynamics Kuramoto human connectome",
+  "title": "Critical synchronization dynamics of the Kuramoto model on connectome and small world graphs",
+  "doi": "10.1038/s41598-019-54769-9",
+  "journal": "Scientific Reports",
+  "year": 2019,
+  "cited": 50,
+  "fetch_probes": {
+   "doi_landing": "200",
+   "pmc": "200"
+  },
+  "in_epmc": true
+ },
+ {
+  "label": "Luppi et al. 2022 \u2014 Whole-brain modelling effects of anaesthesia (Nat Commun)",
+  "title": "Whole-brain modelling identifies distinct but convergent paths to unconsciousness in anaesthesia and disorders of consciousness",
+  "doi": "10.1038/s42003-022-03330-y",
+  "journal": "Communications Biology",
+  "year": 2022,
+  "cited": 69,
+  "fetch_probes": {
+   "doi_landing": "200",
+   "pmc": "200"
+  },
+  "in_epmc": true
+ },
+ {
+  "label": "Herzog et al. 2023 \u2014 Whole-brain model neural entropy increase psychedelics",
+  "title": "A whole-brain model of the neural entropy increase elicited by psychedelic drugs",
+  "doi": "10.1038/s41598-023-32649-7",
+  "journal": "Scientific Reports",
+  "year": 2023,
+  "cited": 57,
+  "fetch_probes": {
+   "doi_landing": "200",
+   "pmc": "200"
+  },
+  "in_epmc": true
+ },
+ {
+  "label": "Preller et al. 2019 \u2014 Effective connectivity changes in LSD (PNAS)",
+  "title": "Decision letter: Changes in global and thalamic brain connectivity in LSD-induced altered states of consciousness are attributable",
+  "doi": "10.7554/elife.35082.sa1",
+  "journal": "",
+  "year": 2018,
+  "cited": 0,
+  "fetch_probes": {
+   "doi_landing": "406"
+  },
+  "in_epmc": false
+ },
+ {
+  "label": "Eisen et al. 2024 \u2014 Propofol anesthesia destabilizes neural dynamics (Neuron)",
+  "title": "Propofol anesthesia destabilizes neural dynamics across cortex",
+  "doi": "10.1101/2023.11.24.568595",
+  "journal": "",
+  "year": 2023,
+  "cited": 2,
+  "fetch_probes": {
+   "doi_landing": "403"
+  },
+  "in_epmc": false
+ },
+ {
+  "label": "Haldeman & Beggs 2005 \u2014 Critical branching neural networks",
+  "title": "Comment on \u201cCritical Branching Captures Activity in Living Neural Networks and Maximizes the Number of Metastable States\u201d",
+  "doi": "10.1103/physrevlett.95.219801",
+  "journal": "Physical Review Letters",
+  "year": 2005,
+  "cited": 6,
+  "fetch_probes": {
+   "doi_landing": "200"
+  },
+  "in_epmc": false
+ },
+ {
+  "label": "Robinson et al. 2001 \u2014 Prediction and quantification of spatiotemporal EEG dynamics",
+  "title": "Spatiotemporal dynamics in neocortex : quantification, analysis, models",
+  "doi": "10.70675/f51645eez86f0z4e55z950cz479373cf87af",
+  "journal": "",
+  "year": null,
+  "cited": 0,
+  "fetch_probes": {
+   "doi_landing": "200"
+  },
+  "in_epmc": false
+ }
+]

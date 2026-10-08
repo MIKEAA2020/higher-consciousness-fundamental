@@ -373,3 +373,22 @@ Stage Summary:
 - The reciprocity finding is retracted with the search-protocol rule as its institutional remedy; the Claude audit's net ruling is now 25 sustained / 2 partially overruled
 - The culmination arc's surviving points are consolidated (D6-D9); the differentiation program's epistemic ceiling is stated by the counterpart itself (useful, not necessary; no bridge because no two banks)
 - Level-2 decombination protocol status (task 3): specified (round 9-11), dataset-mapped (8 psychedelic + 13 anesthesia open corpora; split-brain/DID raw closed), literature-anchored (round 13), NOT executed on data; now explicitly scoped to conventional-level explanatory power by the culmination arc
+
+---
+Task ID: 17
+Agent: Super Z (main)
+Task: Round 17 — (1) restore PAT after 4th wipe, push all previous and future creations, recover anything lost; (2) answer the user's challenge on "neural parameter map doesn't exist" via web search, providing any links that cannot be fetched.
+
+Work Log:
+- Confirmed post-cutoff state: all 7 PAT store locations wiped (4th occurrence: rounds 9->10, 13->14, 15-layered store, now 16->17); local main at 052c5f1 (Round 16) exactly 1 commit ahead of origin — the Sixth (Audited) Edition push had been blocked
+- New 93-char PAT written via file-write to .github_pat; pat_store.sh get self-healed all 7 copies; API-verified as MIKEAA2020 with full push permission on higher-consciousness-fundamental
+- Ran push_to_github.sh: recovered the blocked Round 16 push and committed this round's state (46f0155..3de8345); remote verified — all six editions (Steelman/Strengthened/Revised/2nd/Anchored/Audited) + every deliverable now live; zero untracked deliverables; token never tracked (credential sweep pass)
+- Web-searched the "neural parameter map" (11 queries, 48 unique URLs, all fetch-probed; 12 papers resolved via CrossRef + Europe PMC after OpenAlex 429-blocked): verdict = the literal unified GL-to-neural artifact does not exist anywhere, but the function exists piecemeal in five verified programs — Bojak-Liley/Robinson neural field theory (anesthesia: drug->field parameters->EEG), Deco-group DMF fitting (G as J-analog; Luppi 2022; Eisen 2024), Deco 2018 Current Biology (5-HT2A receptor density -> regional parameters, psychedelic arm), TVB/BVEP Virtual Epileptic Patient (patient-level "spatial map of epileptogenicity" from iEEG), Odor 2019 Kuramoto-on-connectome critical coupling (the J vs J_c structure on real topology)
+- Canonical corrections recorded: Deco 2018 is Current Biology not Cell Reports; Haldeman & Beggs 2005 PRL 94:058101; Robinson et al. 2001 PRE 63:021903 "Prediction of electroencephalographic spectra from neurophysiology" (309 cites); Penas 2024 PLOS Comput Biol 10.1371/journal.pcbi.1011642
+- Unfetchable links catalogued (13 rows, each with workaround where one exists): cell.com 403, pnas.org 403 (PMC mirrors work), sciencedirect 400/403, biorxiv 403, researchgate 403, epubs.siam.org 403 (NTNU mirror works), wiley 403, ora.ox.ac.uk 403, biologicalpsychiatrycnni.org 403, jmsgr.tamhsc.edu no-route, ETH collection 403, pubmed challenge-gated
+- Wrote glm agent 2/research/npm_search/NEURAL_PARAMETER_MAP_REPORT.md (full findings, fetch table, assembly path for the Level-2 protocol: Odor-style J/Jc + Bojak-Liley anesthesia sweeps + Deco 2018 receptor parameterization + BVEP patient inference; theta/phi phase parameters have no published neural assignment anywhere)
+
+Stage Summary:
+- Recovery complete: nothing lost — Round 16 Sixth Edition and all prior creations confirmed on origin/main; PAT persistence restored at all 7 locations for future rounds
+- The user's challenge sustained in part: "doesn't exist" corrected to "no unified map exists; per-domain fragments are published and verified" — the four-domain conjectural marking stands but with literature-grounded ingredients now listed; the GL quartic-stabilized glue remains the genuinely missing piece
+- Deliverable: research/npm_search/NEURAL_PARAMETER_MAP_REPORT.md + 11 raw search JSONs + 3 resolver JSONs + npm_fetch_results.json; all pushed

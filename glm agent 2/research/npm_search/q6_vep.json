@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.sciencedirect.com",
+    "name": "Individualized whole-brain models of epilepsy spread",
+    "snippet": "by VK Jirsa · 2017 · Cited by 568 — Jirsa a , Personalization is achieved by integrating patient specific brain connectivity, epileptogenic zone and MRI lesions. Virtual Epileptic Patient (VEP)  ...",
+    "host_name": "www.sciencedirect.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://journals.plos.org",
+    "name": "Parameter estimation in a whole-brain network model of",
+    "snippet": "by DR Penas · 2024 · Cited by 18 — The Virtual Epileptic Patient (VEP) refers to a computer-based representation of a patient with epilepsy that combines personalized anatomical data with ... Read more",
+    "host_name": "journals.plos.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://search.kg.ebrains.eu",
+    "name": "The Virtual Epileptic Patient (v1)",
+    "snippet": "The Virtual Epileptic Patient (VEP) model provides the perfect test bed for clinical hypothesis testing of questions linked to network-based mechanisms.",
+    "host_name": "search.kg.ebrains.eu",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov",
+    "name": "Parameter estimation in a whole-brain network model  - PMC",
+    "snippet": "by DR Penas · 2024 · Cited by 18 — The Virtual Epileptic Patient (VEP) refers to a computer-based representation of a patient with epilepsy that combines personalized anatomical data with ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.thevirtualbrain.org",
+    "name": "LEARN: The Virtual Epileptic Patient: Part 1",
+    "snippet": "Dec 23, 2020 — We propose a novel approach to brain interventions based on personalized brain network models derived from non-invasive structural data of ... Read more",
+    "host_name": "www.thevirtualbrain.org",
+    "rank": 4,
+    "date": "Dec 23, 2020",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.nature.com",
+    "name": "Virtual brain twins for stimulation in epilepsy",
+    "snippet": "by HE Wang · 2025 · Cited by 44 — We developed a workflow for the estimation of a patient's EZN using personalized whole- brain models , called the virtual epileptic patient (VEP). Read more",
+    "host_name": "www.nature.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com",
+    "name": "BVEP - The Bayesian Virtual Epileptic Patient",
+    "snippet": "A probabilistic framework designed to infer the spatial map of epileptogenicity in a personalized large-scale brain model of epilepsy spread.",
+    "host_name": "github.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.semanticscholar.org",
+    "name": "Individualized whole‐brain models of epilepsy spread",
+    "snippet": "The Virtual Epileptic Patient is presented, a multimodal probabilistic modeling framework for personalized end-to-end analysis of brain imaging data of drug",
+    "host_name": "www.semanticscholar.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]
