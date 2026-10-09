@@ -14,7 +14,10 @@ glm agent 2/research/ds_chunks/b64_*.txt
 # layered PAT store (never commit — repo is PUBLIC, see RULES.md §2)
 session_config/
 scripts/.build_cache
+scripts/.qcache
+tool-results/.meta_hash
 glm agent 2/scripts/.cfg
+glm agent 2/scripts/.layout_c
 
 # Raw_data_2 release assets (947 MB; canonical home is the GitHub release
 # itself — sha256 digests recorded in rawdata2/manifest.tsv, which IS committed)
