@@ -15,3 +15,9 @@ glm agent 2/research/ds_chunks/b64_*.txt
 session_config/
 scripts/.build_cache
 glm agent 2/scripts/.cfg
+
+# Raw_data_2 release assets (947 MB; canonical home is the GitHub release
+# itself — sha256 digests recorded in rawdata2/manifest.tsv, which IS committed)
+glm agent 2/research/rawdata2/evoked/
+glm agent 2/research/rawdata2/spontaneous/
+glm agent 2/research/rawdata2/*.mat

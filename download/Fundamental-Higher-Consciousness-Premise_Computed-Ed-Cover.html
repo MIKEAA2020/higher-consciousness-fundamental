@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    @page { size: 794px 1123px; margin: 0; }
+    :root {
+      --c-bg: #201c14;        /* dark warm umber, series palette */
+      --c-accent: #87702a;    /* body cascade ACCENT (gold) */
+      --c-text: #f5f2e9;      /* warm off-white */
+      --c-muted: #a89f8a;
+      --c-footer: #77705e;
+    }
+    html, body {
+      margin: 0; padding: 0;
+      width: 794px; height: 1123px;
+      background: var(--c-bg);
+      color: var(--c-text);
+      font-family: 'Inter', sans-serif;
+    }
+    @media screen {
+      html { height: auto; display: flex; justify-content: center; min-height: 100vh; background: var(--c-bg); }
+      body { transform-origin: top center; scale: min(1, calc(100vw / 794), calc(100vh / 1123)); margin: 0 auto; box-shadow: 0 0 60px rgba(0,0,0,0.3); }
+    }
+    .cover { width: 794px; height: 1123px; position: relative; box-sizing: border-box; border: none; outline: none; box-shadow: none; }
+    .vline { position: absolute; left: 57px; top: 76px; bottom: 76px; width: 2.5px; background: var(--c-accent); }
+    .content { position: absolute; left: 104px; right: 76px; top: 0; bottom: 0; }
+    .label { position: absolute; top: 132px; font-size: 9pt; color: var(--c-accent); letter-spacing: 3px; text-transform: uppercase; font-family: 'Inter', sans-serif; }
+    .title { position: absolute; top: 228px; font-size: 32pt; font-weight: 700; line-height: 1.3; font-family: 'Playfair Display', serif; color: var(--c-text); max-width: 580px; }
+    .subtitle { position: absolute; top: 530px; font-size: 12pt; line-height: 1.6; color: var(--c-muted); max-width: 500px; }
+    .authors { position: absolute; top: 790px; font-size: 12pt; color: var(--c-text); letter-spacing: 0.5px; }
+    .institution { position: absolute; top: 845px; font-size: 10pt; color: var(--c-muted); line-height: 1.6; max-width: 520px; }
+    .footer { position: absolute; bottom: 76px; left: 0; right: 0; display: flex; justify-content: space-between; font-size: 9pt; color: var(--c-footer); letter-spacing: 1px; }
+  </style>
+</head>
+<body>
+  <div class="cover">
+    <div class="vline"></div>
+    <div class="content">
+      <div class="label">Philosophical Audit Report &middot; Computed Edition</div>
+      <div class="title">The Fundamental<br>Higher Consciousness<br>Premise</div>
+      <div class="subtitle">The protocol turns executable in fact: Phase 1
+        places the brain&rsquo;s operating point inside the extended
+        critical neighborhood for 7 of 7 connectomes and computes
+        &beta;&#770; = 0.12 with its honest structure-function negative;
+        Phase 2 passes the &beta; sedation-ordering validation in its
+        clean form; and the Farnes corpus, supplied complete through the
+        Raw_data_2 release, yields the evoked-LZ contrast as a
+        three-layer result &mdash; background up, post-pulse up,
+        background-corrected null &mdash; reproducing the paper&rsquo;s
+        spontaneous-yes, evoked-no dissociation while the spontaneous
+        LZc increase replicates at 9&ndash;10 of 10 subjects.</div>
+      <div class="authors">Audit and Consolidation, Eighth Edition &middot; Z.ai</div>
+      <div class="institution">Executed this round: the Raw_data_2 release
+        ingested (101 sha256-verified assets; evoked matrices in both
+        conditions; complete spontaneous recordings; ten subjects);
+        the round-twenty reshape error repaired (R32) with exact
+        reproduction and the TMS-evoked structure restored<br>
+        Method: three compute rounds on open and user-supplied data;
+        Wilcoxon signed-rank contrasts with bootstrap intervals;
+        every honest negative recorded at grade<br>
+        Scope: the differentiation program&rsquo;s first executed
+        phases, consolidated; the conventional-level ceiling and the
+        equivalence doctrine unchanged</div>
+      <div class="footer">
+        <span>OCTOBER 2026</span>
+        <span>CONSCIOUSNESS-FIRST MONISM &middot; AUDIT SERIES</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

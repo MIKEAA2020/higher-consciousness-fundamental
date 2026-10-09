@@ -5,7 +5,7 @@ Working repository for the decombination research program (the
 
 ## Edition index (download/)
 
-The consolidated treatise has seven editions, newest last. Each is a
+The consolidated treatise has eight editions, newest last. Each is a
 complete standalone PDF with its own cover HTML source:
 
 | # | File | Edition |
@@ -17,6 +17,7 @@ complete standalone PDF with its own cover HTML source:
 | 5 | `Fundamental-Higher-Consciousness-Premise_Audit-and-Consolidation_Anchored-Ed.pdf` | Fifth (Anchored) Edition |
 | 6 | `Fundamental-Higher-Consciousness-Premise_Audit-and-Consolidation_Audited-Ed.pdf` | Sixth (Audited) Edition |
 | 7 | `Fundamental-Higher-Consciousness-Premise_Audit-and-Consolidation_Parameter-Map-Ed.pdf` | **Seventh (Parameter-Map) Edition** — adds the parameter-map chapter ("Fragments and Assembly Path") and the concrete seven-phase Level-2 protocol |
+| 8 | `Fundamental-Higher-Consciousness-Premise_Audit-and-Consolidation_Computed-Ed.pdf` | **Eighth (Computed) Edition** — folds Phases 1+2 executed into the chapter "Phases 1 and 2, Executed: The Computations"; completes the Farnes evoked-LZ contrast (R32 repair, three-layer dissociation result, spontaneous LZc replication) |
 
 Companion line: `The_Dream_That_Must_Be_Critique_Steelman_Survival_Test.pdf`,
 `The_Dream_That_Must_Be_v2_Trilogy_Edition.pdf`, and the exported chat
@@ -36,6 +37,18 @@ transcripts (qwen/deepseek line-level readings).
   Myrov-convention grid with structure-function nulls.
 - `glm agent 2/research/r19_new_sources.md`, `r20_notes.md` — reading
   records for the 13 supplied papers + the Butler 5-HT2A article.
+- `glm agent 2/research/phase2/farnes/` — **Round 21** (the Farnes
+  completion): the Raw_data_2 release ingested (101 sha256-verified
+  assets — TMS-evoked matrices awake(31)/ketamine(32) for 10 subjects
+  plus the complete spontaneous recordings); the evoked-LZ contrast
+  completed as the three-layer result (background +0.032 p=0.002
+  10/10; post-pulse unadjusted +0.028 p=0.002; background-corrected
+  NULL p=0.375 — the paper's spontaneous-yes/evoked-no dissociation
+  reproduced); the spontaneous LZc replication (+0.045 p=0.004 9/10
+  eyes-closed); the R32 reshape repair validated by exact reproduction;
+  `farnes_contrast_summary.json` + 60 per-file JSONs + 2 figures.
+- `glm agent 2/research/rawdata2/` — the verified release download
+  (manifest + assets; not committed in full — see .gitignore).
 
 ## Source archive
 
