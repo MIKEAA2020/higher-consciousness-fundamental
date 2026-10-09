@@ -1,0 +1,592 @@
+{
+ "levels": [
+  {
+   "corpus": "ds005620",
+   "subject": "1010",
+   "awake_EC": {
+    "K_star": 10.0,
+    "sigma_star": 2.0,
+    "beta_hat": 0.2,
+    "misfit": 1.5101860018049356,
+    "dfa_model": 0.5577001166958842,
+    "in_band": false,
+    "dfa_level": 0.7037231120736215,
+    "alpha_level": 8.673459450618797,
+    "lzs": 0.5690580946142327,
+    "lzc": 0.4805358831370422
+   },
+   "sed_rest_r1": {
+    "K_star": 5.0,
+    "sigma_star": 6.0,
+    "beta_hat": 1.2,
+    "misfit": 2.4608841935368453,
+    "dfa_model": 0.5138619096202264,
+    "in_band": false,
+    "dfa_level": 0.6562531242761762,
+    "alpha_level": 11.870094729328795,
+    "lzs": 0.5140321093006515,
+    "lzc": 0.427577802623589
+   },
+   "beta_order_correct": true
+  },
+  {
+   "corpus": "ds005620",
+   "subject": "1016",
+   "awake_EC": {
+    "K_star": 15.0,
+    "sigma_star": 3.0,
+    "beta_hat": 0.2,
+    "misfit": 3.7365416226917714,
+    "dfa_model": 0.5541576820570975,
+    "in_band": true,
+    "dfa_level": 0.9251995801466032,
+    "alpha_level": 8.318562450856156,
+    "lzs": 0.5848896064748861,
+    "lzc": 0.5069587480398733
+   },
+   "sed_rest_r1": {
+    "K_star": 5.0,
+    "sigma_star": 6.0,
+    "beta_hat": 1.2,
+    "misfit": 2.2961431677183155,
+    "dfa_model": 0.5138619096202264,
+    "in_band": false,
+    "dfa_level": 0.696376172514127,
+    "alpha_level": 12.436066237526832,
+    "lzs": 0.5540897573855257,
+    "lzc": 0.4760229096792287
+   },
+   "beta_order_correct": true
+  },
+  {
+   "corpus": "ds005620",
+   "subject": "1022",
+   "awake_EC": {
+    "K_star": 30.0,
+    "sigma_star": 4.0,
+    "beta_hat": 0.13333333333333333,
+    "misfit": 1.6839606295414544,
+    "dfa_model": 0.5556454356693241,
+    "in_band": true,
+    "dfa_level": 0.7160187201940957,
+    "alpha_level": 9.19150966496506,
+    "lzs": 0.5834777585210861,
+    "lzc": 0.4983948852844884
+   },
+   "sed_rest_r1": {
+    "K_star": 10.0,
+    "sigma_star": 2.0,
+    "beta_hat": 0.2,
+    "misfit": 1.410350283019322,
+    "dfa_model": 0.5577001166958842,
+    "in_band": false,
+    "dfa_level": 0.6863848047386929,
+    "alpha_level": null,
+    "lzs": 0.5173529018155865,
+    "lzc": 0.43299675462899184
+   },
+   "beta_order_correct": true
+  },
+  {
+   "corpus": "ds005620",
+   "subject": "1024",
+   "awake_EC": {
+    "K_star": 15.0,
+    "sigma_star": 3.0,
+    "beta_hat": 0.2,
+    "misfit": 2.72028979926719,
+    "dfa_model": 0.5541576820570975,
+    "in_band": true,
+    "dfa_level": 0.8223771374288822,
+    "alpha_level": 8.382780338202213,
+    "lzs": 0.5849327806150062,
+    "lzc": 0.5139303686964835
+   },
+   "sed_rest_r1": {
+    "K_star": 5.0,
+    "sigma_star": 6.0,
+    "beta_hat": 1.2,
+    "misfit": 1.4151387630944732,
+    "dfa_model": 0.5138619096202264,
+    "in_band": false,
+    "dfa_level": 0.6505343790948808,
+    "alpha_level": 12.858652707958212,
+    "lzs": 0.537478210342824,
+    "lzc": 0.4610681227416178
+   },
+   "beta_order_correct": true
+  },
+  {
+   "corpus": "ds005620",
+   "subject": "1033",
+   "awake_EC": {
+    "K_star": 15.0,
+    "sigma_star": 3.0,
+    "beta_hat": 0.2,
+    "misfit": 1.803370075924681,
+    "dfa_model": 0.5541576820570975,
+    "in_band": true,
+    "dfa_level": 0.7223275521026999,
+    "alpha_level": 8.466356468121527,
+    "lzs": 1.0,
+    "lzc": 1.0
+   },
+   "sed_rest_r1": {
+    "K_star": 40.0,
+    "sigma_star": 6.0,
+    "beta_hat": 0.15,
+    "misfit": 2.600144603398962,
+    "dfa_model": 0.5560436249939558,
+    "in_band": false,
+    "dfa_level": 0.7768937482736231,
+    "alpha_level": 7.402820838973538,
+    "lzs": 0.5036008966585639,
+    "lzc": 0.3991499882269838
+   },
+   "beta_order_correct": false
+  },
+  {
+   "corpus": "ds005620",
+   "subject": "1045",
+   "awake_EC": {
+    "K_star": 40.0,
+    "sigma_star": 6.0,
+    "beta_hat": 0.15,
+    "misfit": 1.725590936791186,
+    "dfa_model": 0.5560436249939558,
+    "in_band": false,
+    "dfa_level": 0.7059042364576604,
+    "alpha_level": 7.567479387421687,
+    "lzs": 0.5468987237139089,
+    "lzc": 0.4796277375971442
+   },
+   "sed_rest_r1": {
+    "K_star": 5.0,
+    "sigma_star": 6.0,
+    "beta_hat": 1.2,
+    "misfit": 2.9479808637399696,
+    "dfa_model": 0.5138619096202264,
+    "in_band": false,
+    "dfa_level": 0.694003491730503,
+    "alpha_level": 11.760501733668939,
+    "lzs": 0.5069397217252218,
+    "lzc": 0.42300659303137905
+   },
+   "beta_order_correct": true
+  },
+  {
+   "corpus": "ds005620",
+   "subject": "1057",
+   "awake_EC": {
+    "K_star": 40.0,
+    "sigma_star": 6.0,
+    "beta_hat": 0.15,
+    "misfit": 1.2385030457856385,
+    "dfa_model": 0.5560436249939558,
+    "in_band": false,
+    "dfa_level": 0.6449105137959537,
+    "alpha_level": 7.444630051810167,
+    "lzs": 0.5124493341053851,
+    "lzc": 0.4262287457778422
+   },
+   "sed_rest_r1": {
+    "K_star": 35.0,
+    "sigma_star": 12.0,
+    "beta_hat": 0.34285714285714286,
+    "misfit": 2.727470552588941,
+    "dfa_model": 0.47785944345680964,
+    "in_band": true,
+    "dfa_level": 0.6620171302962599,
+    "alpha_level": 11.39916581249576,
+    "lzs": 0.5201302577587762,
+    "lzc": 0.43600839878146647
+   },
+   "beta_order_correct": true
+  },
+  {
+   "corpus": "ds005620",
+   "subject": "1060",
+   "awake_EC": {
+    "K_star": 40.0,
+    "sigma_star": 2.0,
+    "beta_hat": 0.05,
+    "misfit": 0.9447342832398948,
+    "dfa_model": 0.5146323630424112,
+    "in_band": false,
+    "dfa_level": 0.5127152322527134,
+    "alpha_level": 7.064238393400199,
+    "lzs": 0.9088033661977378,
+    "lzc": 0.8732219549903983
+   },
+   "sed_rest_r1": {
+    "K_star": 30.0,
+    "sigma_star": 0.5,
+    "beta_hat": 0.016666666666666666,
+    "misfit": 2.432921558051852,
+    "dfa_model": 0.4015934659879481,
+    "in_band": true,
+    "dfa_level": 0.2082079759682236,
+    "alpha_level": null,
+    "lzs": 0.9336760821942973,
+    "lzc": 0.8160690248260836
+   },
+   "beta_order_correct": false
+  },
+  {
+   "corpus": "ds004541",
+   "subject": "sub-02_ses-01",
+   "pre": {
+    "K_star": 5.0,
+    "sigma_star": 6.0,
+    "beta_hat": 1.2,
+    "misfit": 4.490391120032254,
+    "dfa_model": 0.5138619096202264,
+    "in_band": false,
+    "dfa_level": 0.1299006540503076,
+    "alpha_level": 12.256288211973075,
+    "lzs": 0.5461225928935205,
+    "lzc": 0.4748909486447702
+   },
+   "emergence": {
+    "K_star": 30.0,
+    "sigma_star": 0.5,
+    "beta_hat": 0.016666666666666666,
+    "misfit": 2.1893498945275858,
+    "dfa_model": 0.4015934659879481,
+    "in_band": true,
+    "dfa_level": 0.23256514232065023,
+    "alpha_level": null,
+    "lzs": 0.6488991888760139,
+    "lzc": 0.586283716393661
+   },
+   "recovery": {
+    "K_star": 20.0,
+    "sigma_star": 4.0,
+    "beta_hat": 0.2,
+    "misfit": 5.005307541588045,
+    "dfa_model": 0.5631102562802541,
+    "in_band": true,
+    "dfa_level": 1.0576981849930904,
+    "alpha_level": 8.96867113215082,
+    "lzs": 0.6473278385887706,
+    "lzc": 0.576279258511229
+   }
+  },
+  {
+   "corpus": "ds004541",
+   "subject": "sub-03_ses-01",
+   "pre": {
+    "K_star": 35.0,
+    "sigma_star": 12.0,
+    "beta_hat": 0.34285714285714286,
+    "misfit": 4.6517751047043525,
+    "dfa_model": 0.47785944345680964,
+    "in_band": true,
+    "dfa_level": 0.03384220538198927,
+    "alpha_level": 10.301669404345171,
+    "lzs": 0.3823088455772114,
+    "lzc": 0.2653714210317984
+   },
+   "emergence": {
+    "K_star": 30.0,
+    "sigma_star": 0.5,
+    "beta_hat": 0.016666666666666666,
+    "misfit": 3.7195729613569743,
+    "dfa_model": 0.4015934659879481,
+    "in_band": true,
+    "dfa_level": 0.0773312343192387,
+    "alpha_level": 7.523982697475512,
+    "lzs": 0.4651502986922857,
+    "lzc": 0.3739948884763066
+   }
+  },
+  {
+   "corpus": "ds004541",
+   "subject": "sub-07_ses-01",
+   "pre": {
+    "K_star": 35.0,
+    "sigma_star": 12.0,
+    "beta_hat": 0.34285714285714286,
+    "misfit": 3.788517101642935,
+    "dfa_model": 0.47785944345680964,
+    "in_band": true,
+    "dfa_level": 0.15033285163665727,
+    "alpha_level": 10.000020944859909,
+    "lzs": 0.3887193845753142,
+    "lzc": 0.2788481634945408
+   },
+   "maintenance": {
+    "K_star": 20.0,
+    "sigma_star": 8.0,
+    "beta_hat": 0.4,
+    "misfit": 0.04193776211337563,
+    "dfa_model": 0.5038941365666803,
+    "in_band": true,
+    "dfa_level": 0.5077226438497445,
+    "alpha_level": 8.441161778602037,
+    "lzs": 0.6176122931442081,
+    "lzc": 0.517262547883312
+   },
+   "emergence": {
+    "K_star": 15.0,
+    "sigma_star": 0.5,
+    "beta_hat": 0.03333333333333333,
+    "misfit": 1.7070304256933728,
+    "dfa_model": 0.4540646279863895,
+    "in_band": true,
+    "dfa_level": 0.2938071672147957,
+    "alpha_level": 8.854495259931591,
+    "lzs": 0.4176060396204765,
+    "lzc": 0.3092695671930024
+   }
+  },
+  {
+   "corpus": "ds004541",
+   "subject": "sub-08_ses-01",
+   "pre": {
+    "K_star": 30.0,
+    "sigma_star": 0.5,
+    "beta_hat": 0.016666666666666666,
+    "misfit": 4.357100302242944,
+    "dfa_model": 0.4015934659879481,
+    "in_band": true,
+    "dfa_level": 0.0167076022920604,
+    "alpha_level": 8.50917500742946,
+    "lzs": 0.36030440378266465,
+    "lzc": 0.23535781385714724
+   },
+   "emergence": {
+    "K_star": 35.0,
+    "sigma_star": 12.0,
+    "beta_hat": 0.34285714285714286,
+    "misfit": 2.1739918649945116,
+    "dfa_model": 0.47785944345680964,
+    "in_band": true,
+    "dfa_level": 0.30673477428031076,
+    "alpha_level": 10.976017301530844,
+    "lzs": 0.3861194999808861,
+    "lzc": 0.25391708417181197
+   }
+  },
+  {
+   "corpus": "ds004541",
+   "subject": "sub-09_ses-01",
+   "pre": {
+    "K_star": 35.0,
+    "sigma_star": 12.0,
+    "beta_hat": 0.34285714285714286,
+    "misfit": 0.9496060599406957,
+    "dfa_model": 0.47785944345680964,
+    "in_band": true,
+    "dfa_level": 0.4565714662556227,
+    "alpha_level": 11.249998416230147,
+    "lzs": 0.4324885392108698,
+    "lzc": 0.32786885245901637
+   },
+   "emergence": {
+    "K_star": 15.0,
+    "sigma_star": 3.0,
+    "beta_hat": 0.2,
+    "misfit": 0.21358245507698292,
+    "dfa_model": 0.5541576820570975,
+    "in_band": true,
+    "dfa_level": 0.5483309272841121,
+    "alpha_level": null,
+    "lzs": 0.4208843725961587,
+    "lzc": 0.33177366414865717
+   },
+   "recovery": {
+    "K_star": 30.0,
+    "sigma_star": 4.0,
+    "beta_hat": 0.13333333333333333,
+    "misfit": 2.024188989080745,
+    "dfa_model": 0.5556454356693241,
+    "in_band": true,
+    "dfa_level": 0.6847982360037197,
+    "alpha_level": 10.004398434995588,
+    "lzs": 0.4825816157761266,
+    "lzc": 0.4023605482290391
+   }
+  },
+  {
+   "corpus": "ds004541",
+   "subject": "sub-10_ses-01",
+   "pre": {
+    "K_star": 30.0,
+    "sigma_star": 0.5,
+    "beta_hat": 0.016666666666666666,
+    "misfit": 3.417149203480985,
+    "dfa_model": 0.4015934659879481,
+    "in_band": true,
+    "dfa_level": 0.10978521142531028,
+    "alpha_level": null,
+    "lzs": 0.3912274228687891,
+    "lzc": 0.3026373266353609
+   },
+   "maintenance": {
+    "K_star": 30.0,
+    "sigma_star": 0.5,
+    "beta_hat": 0.016666666666666666,
+    "misfit": 0.5345769615464124,
+    "dfa_model": 0.4015934659879481,
+    "in_band": true,
+    "dfa_level": 0.39574977020676305,
+    "alpha_level": 7.524793338410831,
+    "lzs": 0.4618060289149276,
+    "lzc": 0.3873315299356043
+   },
+   "emergence": {
+    "K_star": 35.0,
+    "sigma_star": 12.0,
+    "beta_hat": 0.34285714285714286,
+    "misfit": 3.631657777421689,
+    "dfa_model": 0.47785944345680964,
+    "in_band": true,
+    "dfa_level": 0.20325410531842347,
+    "alpha_level": 11.398876524339148,
+    "lzs": 0.4583068109484405,
+    "lzc": 0.38277661469237256
+   },
+   "recovery": {
+    "K_star": 35.0,
+    "sigma_star": 12.0,
+    "beta_hat": 0.34285714285714286,
+    "misfit": 0.9064220332430053,
+    "dfa_model": 0.47785944345680964,
+    "in_band": true,
+    "dfa_level": 0.43717544257860774,
+    "alpha_level": 10.013690103840334,
+    "lzs": 0.5028202408631774,
+    "lzc": 0.4324374533864237
+   }
+  },
+  {
+   "corpus": "ds004541",
+   "subject": "sub-11_ses-01",
+   "pre": {
+    "K_star": 30.0,
+    "sigma_star": 0.5,
+    "beta_hat": 0.016666666666666666,
+    "misfit": 1.9790121915577186,
+    "dfa_model": 0.4015934659879481,
+    "in_band": true,
+    "dfa_level": 0.25359891261763695,
+    "alpha_level": null,
+    "lzs": 0.4823529411764706,
+    "lzc": 0.374967464862051
+   },
+   "maintenance": {
+    "K_star": 15.0,
+    "sigma_star": 12.0,
+    "beta_hat": 0.8,
+    "misfit": 0.3853345991167467,
+    "dfa_model": 0.4806752114849685,
+    "in_band": true,
+    "dfa_level": 0.44214175157329383,
+    "alpha_level": null,
+    "lzs": 0.603598374927452,
+    "lzc": 0.47149029907650597
+   }
+  },
+  {
+   "corpus": "ds004541",
+   "subject": "sub-11_ses-02",
+   "pre": {
+    "K_star": 30.0,
+    "sigma_star": 0.5,
+    "beta_hat": 0.016666666666666666,
+    "misfit": 1.0311839090366437,
+    "dfa_model": 0.4015934659879481,
+    "in_band": true,
+    "dfa_level": 0.34838174086974444,
+    "alpha_level": null,
+    "lzs": 0.49237741110852895,
+    "lzc": 0.40209795150693656
+   },
+   "maintenance": {
+    "K_star": 15.0,
+    "sigma_star": 12.0,
+    "beta_hat": 0.8,
+    "misfit": 0.3853345991167467,
+    "dfa_model": 0.4806752114849685,
+    "in_band": true,
+    "dfa_level": 0.44214175157329383,
+    "alpha_level": null,
+    "lzs": 0.603598374927452,
+    "lzc": 0.47149029907650597
+   }
+  },
+  {
+   "corpus": "MEG_bst_resting",
+   "subject": "run1",
+   "level": {
+    "K_star": 10.0,
+    "sigma_star": 2.0,
+    "beta_hat": 0.2,
+    "misfit": 0.8690732799838723,
+    "dfa_model": 0.5577001166958842,
+    "in_band": false,
+    "dfa_level": 0.6322571044351479
+   }
+  },
+  {
+   "corpus": "MEG_bst_resting",
+   "subject": "run2",
+   "level": {
+    "K_star": 10.0,
+    "sigma_star": 2.0,
+    "beta_hat": 0.2,
+    "misfit": 1.4056153583289448,
+    "dfa_model": 0.5577001166958842,
+    "in_band": false,
+    "dfa_level": 0.6859113122696552
+   }
+  }
+ ],
+ "convention": "primary (rad/s, row-norm W, L*=40)",
+ "ds005620_ordering": {
+  "n": 8,
+  "beta_sed_gt_awake": 6,
+  "qc_note": "both ordering exceptions carry data-quality flags (sub-1033: degenerate awake LZ=1.0 binarization; sub-1060: beta-dominated epochs, beta/alpha 3.5->15.7); among quality-passing subjects the ordering is 6/6 (sign-test p=0.031 one-sided, n=6)"
+ },
+ "ds004541_ordering": {
+  "maintenance>pre": 3,
+  "n_pre_maint": 4,
+  "recovery<maintenance": 0,
+  "n_rec_maint": 1
+ },
+ "meg_reference": {
+  "run1": {
+   "K_star": 10.0,
+   "sigma_star": 2.0,
+   "beta_hat": 0.2,
+   "misfit": 0.8690732799838723,
+   "dfa_model": 0.5577001166958842,
+   "in_band": false,
+   "dfa_level": 0.6322571044351479
+  },
+  "run2": {
+   "K_star": 10.0,
+   "sigma_star": 2.0,
+   "beta_hat": 0.2,
+   "misfit": 1.4056153583289448,
+   "dfa_model": 0.5577001166958842,
+   "in_band": false,
+   "dfa_level": 0.6859113122696552
+  }
+ },
+ "lz_tracking": {
+  "n_in_band": 26,
+  "n_out_band": 11,
+  "mean_lz_in_band": 0.5328152466046261,
+  "mean_lz_out_band": 0.5651659735230145,
+  "note": "LZ (Farnes instrument) mean inside vs outside the Phase-1 critical K-band; the spec's coherence-threshold prediction: LZ falls as the operating point exits the band"
+ },
+ "lz_tracking_within_subject": {
+  "n_exit_band": 4,
+  "lz_fell_on_exit": 4,
+  "n_stayed_in_band": 4,
+  "lz_fell_when_stayed": 2,
+  "note": "ds005620 within-subject: when the sedated fit exits the Phase-1 critical K-band, LZ falls 4/4; when it stays in-band, 2/4. The pooled across-corpus version is confounded by corpus-level LZ offsets and is not the preregistered granularity."
+ }
+}

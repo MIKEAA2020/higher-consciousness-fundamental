@@ -1,0 +1,130 @@
+{
+ "data": {
+  "snapshot": {
+   "id": "ds003171:2.0.1",
+   "tag": "2.0.1",
+   "files": [
+    {
+     "id": "35b8bbfa6a5ec7e9850116b54cc65bcb601e99a7",
+     "filename": "CHANGES",
+     "size": 104
+    },
+    {
+     "id": "c40ce215ba8d9fffe96e10588fa65e7b793ce026",
+     "filename": "README",
+     "size": 470
+    },
+    {
+     "id": "cd2984c42c77486e3f0e3f79765f05eabd668f64",
+     "filename": "dataset_description.json",
+     "size": 1480
+    },
+    {
+     "id": "cbe8be6ae0096250c16bdc3640e50742989569e1",
+     "filename": ".gitattributes",
+     "size": 284
+    },
+    {
+     "id": "b31fd925ca4228218a4637e0a2526d0aeb3cd2a8",
+     "filename": "participants.tsv",
+     "size": 170
+    },
+    {
+     "id": "2f079f89274a4dbc130a278894e3f8a58403bdef",
+     "filename": ".datalad",
+     "size": 0
+    },
+    {
+     "id": "173c287d22d291f09470917ca1598ab94af2fda6",
+     "filename": "sub-02CB",
+     "size": 0
+    },
+    {
+     "id": "fae2d2f012afdd4adcaaad300c0db726063ff22b",
+     "filename": "sub-04HD",
+     "size": 0
+    },
+    {
+     "id": "695f92f9be6f491d9782b976f53985c70252218e",
+     "filename": "sub-04SG",
+     "size": 0
+    },
+    {
+     "id": "d8dc1f6221394c8da07a59646dd3c328bc5c4def",
+     "filename": "sub-08BC",
+     "size": 0
+    },
+    {
+     "id": "8e8e8b23d8284aff0d0ad4b45fe91d4aa5a708b7",
+     "filename": "sub-08VR",
+     "size": 0
+    },
+    {
+     "id": "d630442da4fcf7c3df8d80e2a10d37cdcf0324ba",
+     "filename": "sub-10JR",
+     "size": 0
+    },
+    {
+     "id": "af0a800910efcd58c42fe552b4a419ae21d864ce",
+     "filename": "sub-13CA",
+     "size": 0
+    },
+    {
+     "id": "27ff5bdf6ba40a653da11862baf6dd7aac0e6915",
+     "filename": "sub-16RA",
+     "size": 0
+    },
+    {
+     "id": "8269cfdf0c84e5572c9ba6113c2c89e46ce8ca9e",
+     "filename": "sub-17EK",
+     "size": 0
+    },
+    {
+     "id": "c944adc557dca8e1b2730a1ad4b7ac2bb05c7469",
+     "filename": "sub-17NA",
+     "size": 0
+    },
+    {
+     "id": "3825738f66a24a28f455ec0482c9174b4c8c6dd0",
+     "filename": "sub-19AK",
+     "size": 0
+    },
+    {
+     "id": "a09ce53e826569089857198e5184f7d1a5161767",
+     "filename": "sub-19SA",
+     "size": 0
+    },
+    {
+     "id": "cc8e9abaa7e035318336a23528d110343c09bfce",
+     "filename": "sub-22CY",
+     "size": 0
+    },
+    {
+     "id": "d85d89853a228b92e9e8008fe5938cf38cdfb190",
+     "filename": "sub-22TK",
+     "size": 0
+    },
+    {
+     "id": "08e006759138a9284790e3718b4cc7a116323317",
+     "filename": "sub-2525JK",
+     "size": 0
+    },
+    {
+     "id": "fa1d201599baab1c9b3dc3a5a1edd587d873ef79",
+     "filename": "sub-27HF",
+     "size": 0
+    },
+    {
+     "id": "21f01f8742cce74d863df552459ec620905e21ab",
+     "filename": "sub-30AQ",
+     "size": 0
+    }
+   ]
+  }
+ },
+ "extensions": {
+  "openneuro": {
+   "version": "5.8.0"
+  }
+ }
+}

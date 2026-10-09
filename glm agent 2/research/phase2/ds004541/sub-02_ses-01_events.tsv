@@ -1,0 +1,11 @@
+﻿onset	duration	trial_type	value	sample
+82.188	0.0	baseline	1	82188
+385.205	0.0	start	6	385205
+496.477	0.0	verbal/soft	9	496477
+625.635	0.0	verbal/strong	10	625635
+745.356	0.0	motor	4	745356
+885.848	0.0	tetanic/1	7	885848
+895.848	0.0	loc	3	895848
+948.42	0.0	end	2	948420
+1068.999	0.0	tetanic/2	8	1068999
+1970.693	0.0	roc	5	1970693
