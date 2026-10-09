@@ -1,0 +1,402 @@
+    30→e0242056.https://doi.org/10.1371/journal. dosesofketamineinanopen-labelwithin-subjectdesign.Evokedsignaldiversitywas
+    31→pone.0242056 assessedusingtheperturbationalcomplexityindex(PCI),calculatedfromEEGresponses
+    32→Editor:VladyslavVyazovskiy,UniversityofOxford, toTMSperturbations.SignaldiversityofspontaneousEEG,witheyesopenandeyes
+    33→UNITEDKINGDOM closed,wasassessedbyLempelZivcomplexity(LZc),amplitudecoalitionentropy(ACE),
+    34→Received:June25,2020 andsynchronycoalitionentropy(SCE).Althoughnosignificantdifferencewasfoundin
+    35→TMS-evokedcomplexity(PCI)betweenthesub-anaestheticketamineconditionandnormal
+    36→Accepted:October27,2020
+    37→wakefulness,allmeasuresofspontaneousEEGsignaldiversity(LZc,ACE,SCE)showed
+    38→Published:November23,2020
+    39→significantlyincreasedvaluesinthesub-anaestheticketaminecondition.Thisincreasein
+    40→PeerReviewHistory:PLOSrecognizesthe
+    41→signaldiversitycorrelatedwithsubjectiveassessmentofalteredstatesofconsciousness.
+    42→benefitsoftransparencyinthepeerreview
+    43→Moreover,spontaneoussignaldiversitywassignificantlyhigherwhenparticipantshadeyes
+    44→process;therefore,weenablethepublicationof
+    45→allofthecontentofpeerreviewandauthor opencomparedtoeyesclosed,bothduringnormalwakefulnessandduringinfluenceof
+    46→responsesalongsidefinal,publishedarticles.The sub-anaestheticketamine.TheresultssuggestthatPCIandspontaneoussignaldiversity
+    47→editorialhistoryofthisarticleisavailablehere:
+    48→mayreflectdistinct,complementaryaspectsofchangesinbrainpropertiesrelatedtoaltered
+    49→https://doi.org/10.1371/journal.pone.0242056
+    50→statesofconsciousness:thebrain’scapacityforinformationintegration,assessedbyPCI,
+    51→Copyright:©2020Farnesetal.Thisisanopen
+    52→mightbeindicativeofthebrain’sabilitytosustainconsciousness,whilespontaneouscom-
+    53→accessarticledistributedunderthetermsofthe
+    54→plexity,asmeasuredbyEEGsignaldiversity,maybeindicativeofthecomplexityofcon-
+    55→CreativeCommonsAttributionLicense,which
+    56→permitsunrestricteduse,distribution,and sciouscontent.Thus,sub-anaestheticketaminemayincreasethecomplexityofthe
+    57→reproductioninanymedium,providedtheoriginal consciouscontentandthebrainactivityunderlyingit,whilethelevelorgeneralcapacityfor
+    58→authorandsourcearecredited.
+    59→consciousnessremainslargelyunaffected.
+    60→DataAvailabilityStatement:Anonymizedpre-
+    61→processeddataforspontaneousandTMS-evoked
+    62→PLOSONE|https://doi.org/10.1371/journal.pone.0242056 November23,2020 1/21
+    63→===== PAGE 2/21 =====
+    64→PLOS ONE SignaldiversityinthepsychedelicstateusingEEGandTMS
+    65→EEGisavailableontheDryadrepository:https:// Introduction
+    66→doi.org/10.5061/dryad.j9kd51c9q.
+    67→Understandingthenatureandmechanismsofconsciousnessiswidelyregardedasoneofthe
+    68→Funding:Thisstudywassupportedbythe
+    69→deepestunsolvedproblemsofneuroscienceandscienceingeneral[1–6].Toadvancethefield
+    70→EuropeanUnion’sHorizon2020researchand
+    71→itiscrucialtodevelopwaystomeasurealterationsinstatesandcontentofconsciousness.To
+    72→innovationprogrammeundergrantagreement
+    73→thisend,generalanaestheticdrugsareamongthemostpowerfulinterventionaltoolsasthey
+    74→7202070(HumanBrainProject(HBP))andthe
+    75→NorwegianResearchCouncil(NRC:262950/F20 allowquitespecificandgradedmanipulationofthestateofconsciousness[7],withoutsup-
+    76→and214079/F20)toauthorJFS.Thefundershad pressingmanylower-levelbrainfunctions[5,8,9],andhavebeencrucialforaseriesofrecent
+    77→noroleinstudydesign,datacollectionand discoveriesofbrainfunction.Theseincludechangesinnetworkactivityandconnectivityin
+    78→analysis,decisiontopublish,orpreparationofthe
+    79→theanaesthetizedstatecomparedtothenormalwakefulstateusingnon-invasiveneuralmea-
+    80→manuscript.
+    81→suressuchasfMRI,TMSandEEG[7,10].
+    82→Competinginterests:Theauthorshavedeclared Onelineofobservationsandtheoreticaldevelopmentssuggeststhatthebrainmustbeboth
+    83→thatnocompetinginterestsexist.
+    84→informationallyintegratedanddifferentiatedtosupportconsciousness[5,10,11].Thisidea
+    85→cantosomeextentbetestedexperimentally,albeitindirectly,inbiologicalsystemsbymethods
+    86→suchastheperturbationalcomplexityindex[PCI;12].PCIisassumedtoassessthebrain’scur-
+    87→rentcapacityforsustainingconsciousness,byroughlyindexingitspotentialforinformation
+    88→differentiationandintegration.PCIisobtainedbyperturbingasmallpartofthecerebralcor-
+    89→texwithtranscranialmagneticstimulation(TMS)andmeasuringtheresultingspatiotemporal
+    90→responsesinlargepartsofthecortexwithhigh-densityelectroencephalography(EEG).Then,
+    91→byquantifyinghowcompressiblethespatio-temporalEEGpatternsare,onecanestimatethe
+    92→KolmogorovcomplexityoftheTMS-evokedactivity.Thus,PCIisameasureoftheglobal,spa-
+    93→tio-temporalcomplexityofevoked,corticalresponsestoalocalperturbation.Thisisthought
+    94→toreflectthestructuralandfunctionalcomplexityoftheunderlyingsystem,includingbothits
+    95→interconnectedness(integration),andthediversityofitsavailablestatesofactivity
+    96→(differentiation).
+    97→Sofar,PCIhasmainlybeenusedtoassessthebrain’scapacityforcomplexdynamicsin
+    98→statesthatappeartodifferdrasticallyintermsofconsciousness.TheresultsindicatethatPCI
+    99→scoresarehighduringwakefulness,REMsleep(withhighfrequencyofvividdreams),inketa-
+   100→mineanaesthesia(whichcancauselong-lasting,vividhallucinationsordreams),andin
+   101→locked-insyndrome(aconditionoffullparalysis,butwithintactconsciousness)[12,13].Con-
+   102→versely,PCIscoresaretypicallylowinstatesofgeneralanaesthesia(otherthanwithketamine),
+   103→unresponsivewakefulnesssyndrome,coma,anddeep,NREMsleep,whichisassumedtobe
+   104→largelydreamless[12–15].Thus,reducedPCIscores,indicatingreducedintegrationand/or
+   105→differentiation,seemstocorrelatewellwithreducedcapacityforphenomenologicalexperi-
+   106→ences(consciousness)relativetonormalwakefulness[althoughdreamsordream-likeexperi-
+   107→enceshavebeenreportedfollowingbothNREMsleepandgeneralanaesthesia;12].Forthese
+   108→reasons,PCIissuggestedtobeahighlypromisinggeneralindexofthebrain’scapacityforsus-
+   109→tainingwake-likecomplexconsciousexperiences[4,14].
+   110→WhilePCIaimstocapturebothneuraldifferentiationandintegration,recentstudieshave
+   111→indicatedthatmeasuresthatsolelycapturedifferentiationinrecordingsofspontaneousbrain
+   112→activity,seemstovarywithbrainstateinparallelwithPCI[10,16].Here,welabelsuchmea-
+   113→suresofdifferentiationas“signaldiversitymeasures”.Thus,asignaldiversitymeasurequanti-
+   114→fiesthevariationofneuralsignalsinagivenphysiologicalbrainstateandprovidesanestimate
+   115→ofthedifferentiationinthesignal.Inthesestudies,threemeasuresofsignaldiversityweresuc-
+   116→cessfullyappliedtobrainactivityrecordings;Lempel-Zivcomplexity(LZc),amplitudecoali-
+   117→tionentropy(ACE),andsynchronycoalitionentropy(SCE).Thesemeasurescapturehow
+   118→“disordered”,i.e.differentiated,thespatio-temporalsignalrecordedfromspontaneousbrain
+   119→activityis.Thiscanforexamplebequantifiedbycalculatingthesignal’scompressibilityusing
+   120→anadaptedLempel-Zivcompressionalgorithmoroneofthemanyavailableentropymeasures
+   121→PLOSONE|https://doi.org/10.1371/journal.pone.0242056 November23,2020 2/21
+   122→===== PAGE 3/21 =====
+   123→PLOS ONE SignaldiversityinthepsychedelicstateusingEEGandTMS
+   124→(e.g.coalitionentropy[10]).WhilethesemeasuresbehavesimilarlyasPCI(e.g.decreasingin
+   125→generalanaesthesiaanddeepsleep)theyalsoshowcounterintuitiveresultsundersomecondi-
+   126→tions.Forexample,signaldiversityofspontaneousmagnetoencephalography(MEG)record-
+   127→ingsincreasedinthepsychedelicstateinducedbyLSD,psilocybin,orsub-anaestheticdosesof
+   128→ketamine,comparedtonormalwakefulness.Thissuggeststhatthesepsychedelicstatesare
+   129→associatedwithanincreaseinneuraldifferentiation[17].
+   130→Whilethesefindingsseemtobeincontrastwiththedropinsignaldiversitytypicallyseen
+   131→whenconsciousnessappearstobelost,theydonotnecessarilyyieldsupporttospeculations
+   132→thatpsychedelicscanproducea‘higher’or‘richer’stateofconsciousnessthannormalwakeful-
+   133→ness[18].Firstofall,theuseofunidimensionalmeasurestoquantifyconsciousnesshasbeen
+   134→criticized[19],suggestingthatthenotionof‘higher’or‘lower’levelsofconsciousnessmaybe
+   135→misleading.Secondly,evenifunidimensionalmeasurescapturesomerelevantpropertylike
+   136→degreeorlevelofconsciousness,sometheoreticalconsiderationsemphasizethatbothintegra-
+   137→tionanddifferentiationarenecessarytosustainconsciousness[2,5].Thus,accordingtothese
+   138→theories,anincreaseinsignaldiversityaloneisinsufficientevidenceforaheightenedlevelof
+   139→consciousness.Finally,thesignaldiversitymeasuresarecalculatedfromrecordingsofsponta-
+   140→neousbrainactivity.Thus,itispossiblethattheobservedincreaseisduetofactorsoutsidethe
+   141→brainregionsrelevantforconsciousness.Anextremeexamplecouldbethateveryneuronin
+   142→thebrainwasdrivenbyindividual,independentnoisegenerators.Insuchasituation,signal
+   143→diversitywouldbemaximal,butitseemsunlikelythatsuchabrainwouldhavethecapacityto
+   144→supportconsciousness.Inordertoovercomesomeofthesedifficulties,onecanuseaperturba-
+   145→tionalapproache.g.bymeasuringPCI[12,14,20].PCIhastoourknowledgenotpreviously
+   146→beentestedinanypurelypsychedelicstate.
+   147→Amongthecommonlyusedgeneralanaesthetics,thedissociativeanaestheticdrugketamine
+   148→standsoutasquiteunique,bothintermsofcellularmechanisms,electrophysiologicalpatterns,
+   149→andbehaviouraleffects[21–24].Athighdoses,sufficientforsurgicalgeneralanaesthesia,keta-
+   150→mineinducesanunresponsive,dissociatedstate,withsedation,analgesiaandamnesia,but
+   151→withstronginnerexperiencesintheformofvividdreams[13,25].Unlike“typical”general
+   152→anaesthetics,ketaminealsopreserveswake-likelevelsofPCI[13],andalternatingwake-like
+   153→andlowlevelsofsignaldiversity[5].Atlowsub-anaestheticdoses,ketaminehasdistinctive
+   154→dissociativeandhallucinogeniceffects[9,10],withincreasedlevelsofsignaldiversitysimilar
+   155→tothatmeasuredinLSDandpsilocybininducedpsychedelicstates[17,22].Giventheseprop-
+   156→erties,ketamineisanexcellenttoolforpharmacologicalmanipulationofconsciousness,with
+   157→dose-dependentqualitativeandquantitativeeffectsonelectrophysiologicalproperties,aswell
+   158→asonreportedconsciousexperienceandbehaviour.
+   159→OurmainaiminthisstudywastoinvestigatewhetherPCIincreasesinthepsychedelic
+   160→stateinducedbysub-anaestheticlevelsofketamine,comparedtonormalwakefulness.Inaddi-
+   161→tion,wewantedtotestwhetherwecanreplicatereportedincreasesinelectrophysiologicalsig-
+   162→naldiversityduringsub-anaestheticketamine[17,22].Finally,weaimedtoinvestigatethe
+   163→relationshipsbetweensubjectivereportsfromthepsychedelicstate,ononehand,andboth
+   164→PCIandmeasuresofspontaneoussignaldiversityontheother.Giventhatpreviousresults
+   165→fromtheliteratureregardingsignaldiversityreplicate,andanassumptionthatPCIandsignal
+   166→diversitymeasurescovaryinhealthyhumans,wehypothesizedthatPCIwouldincreaseinthe
+   167→psychedelicstatecomparedtothenormalwakefulness.
+   168→Methods
+   169→ThisstudywasapprovedbytheNorwegianRegionalCommitteesforMedicalandHealth
+   170→ResearchEthics(2015/1520/REKSør-ØstA)andwritteninformedconsentwasobtainedfrom
+   171→PLOSONE|https://doi.org/10.1371/journal.pone.0242056 November23,2020 3/21
+   172→===== PAGE 4/21 =====
+   173→PLOS ONE SignaldiversityinthepsychedelicstateusingEEGandTMS
+   174→allparticipantsbeforethestartofthestudy.Participantswererecruitedbypostersatthe
+   175→universitycampusandparticipantsreceivedfinancialcompensationforparticipationinthe
+   176→study.
+   177→Participants
+   178→Werecruited34participants.Participantswereexcludediftheyfulfilledanyofthefollowing
+   179→criteria:(1)undertheageof18,(2)incompatibilitywithMRIscanning(metalorelectric
+   180→implants,pregnancy,breastfeeding,reducedkidneyfunctionandclaustrophobia),(3)incom-
+   181→patibilitywithTMSadministration(recentlossofconsciousnesscausedbyheadinjuryorepi-
+   182→lepsy),(4)incompatibilitywithketamineadministration(somaticdiseases,previousorpresent
+   183→neurologicalorpsychiatricillnesses,psychiatricillnessesinfamilymembers,medicationor
+   184→allergiesthatcouldinteractwithketamine,substanceabuse,recentorregulardruguse,previ-
+   185→ousadversereactiontodrugs,orneedlephobia),(5)difficultyfindingsuitablerestingmotor
+   186→thresholdforTMS(RMT,i.e.thestimulationintensityatwhich50%ofTMSpulsesoverthe
+   187→optimalspotinprimarymotorcortexgeneratetwitchesinthepollicisbrevis(thumb)muscle
+   188→asrecordedwithsurfaceelectromyography[26]),and,(6)lowTMSevokedpotential(TEP)
+   189→quality(muscleartefactsandpeaktopeakamplitudelessthan10μV).Themostcommonrea-
+   190→sonforexclusionbeingdifficultyfindingRMTorlowsignaltonoiseratiointheTEPs.Based
+   191→onthis,10participants(7menand3women,medianage27.5,range:21–44yearsold)were
+   192→includedandcompletedthestudy(seeS1Figforaflowchartofparticipationofthestudy).
+   193→Procedure
+   194→AllexperimentalprocedureswerecarriedoutattheInterventionCentreatOsloUniversity
+   195→Hospital.Beforethemainexperiment,spontaneousEEGandTMSevokedEEGresponses
+   196→wererecordedwithoutketamine(day1)toassessparticipants’TEPstoensurethatonlypartic-
+   197→ipantswithstrongresponsestoTMScompletedthemainexperiment(day2),about6days
+   198→afterday1(median6days;range:3–23days).TwoTMS-EEGandspontaneousEEGsessions
+   199→werecompletedonday2;baselineandinterventioninvolvingadministrationofsub-anaes-
+   200→theticdosesofketamine(seeS1Fig).Onday2,wefirstfoundtheRMTandsearchedforasuit-
+   201→abletargetlocationforTMSstimulationforthemainexperiment.Thereafter,300TMS-EEG
+   202→trialswererecordedwhiletheparticipantswereinarestful,wakefulstatewiththeireyesopen.
+   203→Inaddition,two2-minutesegmentsofspontaneousEEGwererecorded—firstwitheyesopen
+   204→andthenwitheyesclosed.Therecordingsfortheeyes-openconditionsweredonewiththe
+   205→lightsintheoperatingtheaterslightlydimmed.Thereafter,participantsweregivenanintrave-
+   206→nousinfusionofsub-anaestheticdosesofketamine.Whentheparticipantreachedastatein
+   207→whichtheyreportedanoticeableeffectofthedrug,wemeasuredtheRMTagain[27],and
+   208→adjustedtheTMSstimulationintensitytothesamepercentageoftheRMTaswasusedduring
+   209→thewakefulstate.Wethendeliveredanother300TMSpulses,whilekeepingthestimulation
+   210→targetthesameasbeforeketamineadministration.Inaddition,spontaneousEEGwas
+   211→recordedunderthesameconditions,onceagainaskingtheparticipantsfirsttokeeptheireyes
+   212→openandthentohavetheireyesclosed.TheTMS-EEGmeasurementswereonlydonewith
+   213→eyesopentokeepthetimespentundertheeffectofketamineshort,astherequiredmeasure-
+   214→mentstakeatleast10minutesandtheethicalapprovalonlyallowedonesetofTMS-EEGmea-
+   215→surementspercondition(normalwakefulnessandketamine).
+   216→Duringthestimulationperiodtheparticipantsworeearphoneswithanoisemasking
+   217→sound,madefromrandomlyscrambledaudiorecordingsofTMSclicks,toreduceauditory
+   218→potentialsevokedbytheTMSclicks[28].Thenoisemaskingsoundwasadjustedsothatthe
+   219→TMSclickcouldnotbeheardbutwasneversoloudthatthesoundbecameuncomfortablefor
+   220→PLOSONE|https://doi.org/10.1371/journal.pone.0242056 November23,2020 4/21
+   221→===== PAGE 5/21 =====
+   222→PLOS ONE SignaldiversityinthepsychedelicstateusingEEGandTMS
+   223→theparticipant.Throughouttheprocedure,participantswerelyingdownandhadtheirhead
+   224→fixedonavacuumpillowtoensurestabilityduringstimulation.
+   225→IdentifyingtargetareaforTMSstimulation. Onday1,basedoneachparticipant’sMR
+   226→image,asuitabletargetpointforstimulationwasidentifiedwithintheparietal(Brodmann
+   227→Areas:BA7,BA5)orprefrontalcortex(BA6),similartotheproceduresusedin[14]and[12].
+   228→Iftherewerenolargemuscularormagneticartefactlastingover10msvisibleintheEEG
+   229→responsetosinglepulses,20–30pulsesweregiven,andtheresultingTEPwasexaminedonline.
+   230→IftheTEPamplitudewasbelow10μVpeak-to-peak(usinganaveragereference)withinthe
+   231→first50ms,wetriedtoimprovetheTEPsignalbyincreasingtheintensityofstimulation.Ifthis
+   232→didnotimprovetheTEPorintroducedmoreartefacts,weadjustedcoilrotationorposition.
+   233→Thetargetpointforstimulationwasacceptedifanon-artefactualTEP,withapeak-to-peak
+   234→amplitudeequaltoorexceeding10μVinthechannelsnearthestimulationsiteinthefirst50
+   235→msafterstimulation,wasobservedintheaveragedTEPsignalfollowing30consecutivesingle
+   236→pulses.Whenthestimulationareawasfound,300singlepulsesweregivenwitharandomjit-
+   237→teringinter-stimulusinterval[range:1.7–2.3seconds,4].Oneparticipantwasstimulatedin
+   238→BA4becausethiswastheonlyareawithoutlargemuscleartefacts(SeeS1Tableforanover-
+   239→viewoftheTMStargetsandstimulationparametersforallparticipants).Navigationofthecoil
+   240→positionandanglerelativetotheparticipant’sbrainwasusedtominimizethedeviationfrom
+   241→thesettargetpointposition(Neuro-navigationwithPowerMagView).Toreducethedistance
+   242→betweenthecentreofthecoilandthetargetpoint,carewastakentokeepthecentreofthecoil
+   243→positionedastangentiallytothescalpaspossible[29].Theprocedureforfindinganareaof
+   244→stimulationwasthesameforday1andday2.
+   245→Ketamineadministration. Participantsweretoldtoabstainfromfood6hoursbeforethe
+   246→firstrecordingsessionstartedandfromdrinking2hoursbeforeketamineadministration.
+   247→Racemicketamine10mg/ml(Ketalar1,PfizerAS,Lysaker,Norway)wasadministeredbyan
+   248→anaesthesiologistoranurseanaesthetistbycontinuousintravenousinfusionusinganinfusion
+   249→pump(Braun1)inincreasingstepsfrom0.1to1.0mg/kg/h,increasingwith0.1mg/kg/h
+   250→everyfifthminute.Theparticipantswereaskedtoreportwhentheyfelttheyhadapossible
+   251→drugeffectandwhentheywerecertainthattheyhadaneffect.Whenboththeanaesthesiolo-
+   252→gistandtheparticipantwerecertainthattheparticipanthadaneffectofthedrug,thecontinu-
+   253→ousketamineinfusionratewasstabilizedtomaintainthesubjectiveeffect(B.BraunPerfusor
+   254→Space,B.BraunMelsungenAG,Melsungen,Germany).Themediancontinuousinfusionwas
+   255→0.7mg/kg/hr(range:0.5to1.0mg/kg/hr)foreachparticipant,producingpsychotomimetic
+   256→effectswithoutlossofconsciousness[30].Seesupportinginformationformaintained,contin-
+   257→uousdose,totaldosereceivedforeachparticipant,anddosagestepsovertime.Participants’
+   258→pulseoximetryandheartratewascontinuouslymonitoredduringtheketamineadministra-
+   259→tionbytheanaesthesiologistorthenurseanaesthetist.Medianadministrationtimewas43.5
+   260→minutes(range:37–73minutes).Participantscouldleavethehospitalfacilitiesaftertheanaes-
+   261→thesiologisthadcheckedtoensurethattheeffectsofthedrughadsubsided(approximately2
+   262→hoursafterdiscontinuationofketamineadministration).Afollow-upemailwassenttothe
+   263→participantsmorethanaweekafterthefinishedexperimenttochecktheirwellbeing.Onepar-
+   264→ticipantexperiencednausearightaftertheendoftheexperiment,butnootherunwanted
+   265→adverseeffectsoflow-doseketaminewasreported.
+   266→Psychedelicassessment:11D-ASC. Toassessthepsychedeliceffectsofketaminerelative
+   267→tothepre-ketaminecondition,participantsretrospectivelyratedthecontentoftheirexperi-
+   268→enceusinganalteredstatesofconsciousnessquestionnaire:anextended,11-dimensionalver-
+   269→sion(11D-ASC)ofthe5-DimensionalAlteredStatesofConsciousnessRatingScale[5D-ASC;
+   270→31],translatedintoNorwegian.The11D-ASCquestionnairehas11subscales:1.experienceof
+   271→unity,2.spiritualexperience,3.blissfulstate,4.insightfulness,5.disembodiment,6.impaired
+   272→PLOSONE|https://doi.org/10.1371/journal.pone.0242056 November23,2020 5/21
+   273→===== PAGE 6/21 =====
+   274→PLOS ONE SignaldiversityinthepsychedelicstateusingEEGandTMS
+   275→cognitionandcontrol,7.anxiety,8.compleximagery,9.elementaryimagery,10.audio-visual
+   276→synaesthesia,and11.changedmeaningofpercepts[32].Foreachstatementinthequestion-
+   277→naire,participantsweretoldtoindicatetheirlevelofagreementonavisualanaloguescale
+   278→(VAS)anchoredfrom“No,notmorethanusual”(left)to“Yes,muchmorethanusual”(right),
+   279→andscoredbyusingpercentage(lefttoright).Anexampleofastatementis“IsawthingsI
+   280→knewwerenotreal”.Participantswereinstructedtorespondconsideringthetimeinterval
+   281→fromwhentheyfelttheyhadaneffectofthedruguntiltheeffectssubsided,andwherethe
+   282→“usualstate”wasbeforeketamineadministration.Thus,thescoreindicatedstrengthofexperi-
+   283→encerelativetothenormalnon-psychedelicstate.Themeanscoreofallthequestionsgivesthe
+   284→global-ASCscore.The11D-ASCwasadministered45–60minutesafterdiscontinuationof
+   285→ketamine,whennoticeabledrugeffectshadsubsided.
+   286→Set-up
+   287→IndividualT1weightedstructuralMRimages(Phillips3.0TIngeniaMRsystem,Philips
+   288→Healthcare,TheNetherlands)wereobtainedfromeachparticipantforspatialnavigationto
+   289→preciselylocatethecorticaltargetforTMSstimulation.Forneuro-navigationweusedthe
+   290→PowerMagView!system(MAG&MoreGmbH,Mu¨nchen,Germany).Thissystemusestwo
+   291→infraredcameras(PolarisSpectra)totrackthepositionoftheparticipant’sheadandTMScoil
+   292→inspace.Afigure-eightcoil(DoublecoilPMD70-pCool,MAG&MoreGmbH,Mu¨nchen,
+   293→Germany)wasusedforstimulation(maximumfieldstrengthof2T(~210V/m),pulselength
+   294→of100μs,windingdiameterof70mm,biphasicpulseform)drivenbyaPowerMagResearch
+   295→100stimulator(MAG&MoreGmbH,Mu¨nchen,Germany).TheRMTwasdeterminedusing
+   296→PowerMAGControl(MAG&MoreGmbH,Mu¨nchen,Germany).EEGwasrecordedwith
+   297→two32-channelTMS-compatibleamplifiers(BrainAmpDC,BrainProducts,Germany)con-
+   298→nectedtoa60channelTMS-compatibleEEGcap.Inaddition,twoelectrodesdetectedeye
+   299→movements(EOG),andacommonreferencewaspositionedattheforeheadwiththeground
+   300→electrode.TheimpedanceofallEEGelectrodeswaskeptunder10kΩ.EEGsignalsweresam-
+   301→pledat5000Hzwith16-bitresolutionanda1000Hzlowpassfilterwasappliedupon
+   302→acquisition.
+   303→Analysis
+   304→TMS-EEGpre-processingandPCIanalysis. Allpre-processingoftheTMS-EEGdata
+   305→wasdonemanuallyusingtheMATLAB(MATLABR2016A,TheMathworks)basedSiSyPhus
+   306→Project(SSP2.3e,UniversityofMilan,Italy).EEGresponsestoTMSwerevisuallyinspected
+   307→byatrainedanalysttoidentifyartefactualtrialsandchannelscontainingabnormalamplitude
+   308→activitywhichwereexcludedfromfurtheranalysis.TheintervalaroundthetimeoftheTMS-
+   309→pulse(-2msto5ms)wasremovedforallparticipantstoexcludetheTMSartefact,andartefac-
+   310→tualchannels(flat,noisyorwithhighamplitudeoveralargedurationoftherecording)were
+   311→interpolated.Trialswithabnormalvoltagetraces(highvariance,largetransientdeflections,
+   312→movementartefactsetc.)inmultiplechannelswererejectedandremovedfromfurtheranaly-
+   313→sis.Theremainingdatawerezero-centred(meanbaselinecorrection;-500msto-5ms)toelim-
+   314→inateanyvoltageoffsets.Anyresidualartefactsinthedataafter5mswasdetectedby
+   315→independentcomponentanalysis(ICA)andthenremoved.Identificationofartefactualcom-
+   316→ponentswasdonemanuallybyinspectingEEGcomponenttopography,activityovertimeand
+   317→powerspectrum(S2Fig).Inordertominimizetheriskofdiscardingbrainactivitysignals,
+   318→onlycomponentsthatwereclearlydominatedbyeyeblinks,eyemovementsandothermuscle
+   319→andnon-physiologicalartefactswereremoved[33,34].Componentsthatwereofunclearori-
+   320→ginwerekeptinthedata[35].Ingeneral,weaimedtostayascloseaspossibletotheanalysis
+   321→PLOSONE|https://doi.org/10.1371/journal.pone.0242056 November23,2020 6/21
+   322→===== PAGE 7/21 =====
+   323→PLOS ONE SignaldiversityinthepsychedelicstateusingEEGandTMS
+   324→describedbythedevelopersofPCI[12–14].Thus,signalswerereferencedtothecommon
+   325→averagereference,usinga1Hzhighpassfilterand45Hzlowpassfilter(Hammingwindow
+   326→sincFIRfilter)toavoidtheneedforanotchfiltertoremovelinenoise,anddownsampledto
+   327→312.5Hz.Thefilterorderwaskepttoitsdefaultvalue(3�rate/2).
+   328→TheremaininganalysesusedforPCIcalculationwerefullyautomaticandperformedby
+   329→useofMATLABscripts(MATLABR2013A,TheMathworks)courtesyofAdenauerCasali
+   330→(UniversityofMilan,Italy)asdescribedin[12].First,sourceestimationofsignificantcortical
+   331→sourceswasdonebyusingastandardheadmodelfromtheMontrealNeurologicalInstitute
+   332→(MNI)atlas.Then,thesignificantlyactivecorticalsourceswereestimatedusingathresholdset
+   333→bythe99thpercentileofthedistributionofmaximumamplitudesofbootstrapresampled
+   334→baselineactivitiesbeforeTMSpulse.Iftheamplitudeofthesourceataspecifictimeexceeded
+   335→thisthreshold,itwasgiventhevalue1,otherwiseitwasgiventhevalue0.Thisresultedina
+   336→binarizedmatrixofsignificantsourcesovertime,time-lockedtotheTMSpulse.Datainthe
+   337→interval8–300msafterthepulseoftheresultingbinarizedmatrixwasusedtoderivethePCI
+   338→valuebycalculatingtheLempel-Zivcomplexity(LZc),usingtheLZ76compressionalgorithm.
+   339→Finally,theLZcwasnormalizedbytheasymptoticmaximumcomplexityofamatrixofthe
+   340→samesizecontainingthesameproportionof1sto0s,yieldingthePCIvalueforthesession
+   341→[12,seesupplementalmaterialforadetailedexplanation].
+   342→ToavoidinstabilityinthePCIvalues,athresholdforsourceentropywassetto0.08,in
+   343→accordancewith[12].AlloftheTMS-EEGrecordingsexceededthisthreshold(mean=0.6,
+   344→SD=0.2)andallthedatashowedahighsignal-to-noiseratio(SNR>2,S3Fig).
+   345→SpontaneousEEGpre-processingandsignaldiversityanalysis. ThespontaneousEEG
+   346→datawerepre-processedusingEEGLAB.First,thedataweresplitinto8-secondnon-overlap-
+   347→pingsegments,resultingin15epochspercondition(normalwakefulnessandduringketamine
+   348→infusion,witheyesopenandeyesclosed).Artefactualchannelsweremarked,removed,and
+   349→interpolated.EpochswererejectedbasedonthesamecriteriaasfortheTMS-EEGdataand
+   350→thedatawerebaselinecorrected(zeromeanforthefulllengthoftheepoch).Signalswereref-
+   351→erencedtothecommonaveragereference,filteredwitha0.5Hzhighpassand45Hzlowpass
+   352→filter(HammingwindowsincFIRfilter,defaultfilterordervalue(3�rate/2)),anddown-
+   353→sampledto250Hz.ICAcomponentssuchaseyeblinksandeyemovementweremanually
+   354→detectedandexcisedfromthedata.Asin[10],thesurfaceLaplacianofthedatawascomputed,
+   355→increasingtopographicalspecificitybysubtractingtheaveragedsignalofeachchannels’near-
+   356→estneighbours[36].Fromthe62channels,only9werechosenforsignaldiversityanalysis(S3
+   357→Fig)duetotheentropymeasuresbeingcalculatedbasedonthedistributionofstatesobserved
+   358→inthedata.Sincenumberofstates,S,availableinanetworkofNbinarynodesisS=2N,and
+   359→themeasuresrequireanestimateoftheprobabilitydensitydistributionoverstates,thenumber
+   360→ofsamplesinanepochshouldbeatleastaslargeasthenumberofstatesavailabletoyielda
+   361→representativeestimateoftheunderlyingdistributionofstates.Witheachepochcontaining
+   362→2000samples(8sepochlengthx250Hzsamplingrate),themaximalnumberofchannelsthat
+   363→couldbeincludedintheanalysisifallstatesweretohaveachanceofbeingsampledatleast
+   364→once,wouldbe10(#availablestates=2^10=1024).However,usingasimulationstudywe
+   365→estimatedthenumberofsamplesrequiredtoexpectsamplingeachstateatleastoncetobe
+   366→~2100evenwithonly9channelsincluded(resultsnotshown).Thus,toincreasethechanceof
+   367→gettingadecentsamplingofthedistribution,eveninaconditionyieldingthemaximum
+   368→entropydistributionofcoalition,wedecidedtouseonly9channels.Itshouldbenotedthat
+   369→ourestimationassumesthatthesamplesareindependent,whichisnotagoodassumptionfor
+   370→EEGdata,indicatingthatourinclusionof9channelsmay,ifanything,betoooptimisticwith
+   371→regardstoobtainingagoodestimateofthedistributionofcoalitions.
+   372→PLOSONE|https://doi.org/10.1371/journal.pone.0242056 November23,2020 7/21
+   373→===== PAGE 8/21 =====
+   374→PLOS ONE SignaldiversityinthepsychedelicstateusingEEGandTMS
+   375→Thesignaldiversitymeasuresamplitudecoalitionentropy(ACE),synchronycoalition
+   376→entropy(SCE),andLempelZivComplexity(LZc),werecalculatedasdescribedin[10].We
+   377→firstperformedaHilberttransformationandthenbinarizedthedata.Thebinarizationthresh-
+   378→oldwassettothemeanabsoluteamplitude(ACE,LZc)ortotheabsolutephasesynchrony
+   379→betweeneachchannelpairaccordingtoa0.8radianthreshold(SCE).Next,wefoundthedis-
+   380→tributionofstatesovertime,definingastateasabinarystringoftheactivityoverchannels
+   381→(ACE)orphasesynchronyoverchannelpairs(SCE)atagiventimepoint.Shannonentropy
+   382→wasthencalculatedoverthestatedistributionsandnormalizedaccordingtothemaximum
+   383→entropyofarandomizedsequencewithsimilarcharacteristicsastheoriginal(ACE,SCE).
+   384→Finally,themeanvalueswerecalculatedoverepochs(ACE)orchannelpairsandepochs
+   385→(SCE).LZcwascalculatedbydirectlyapplyingtheLZ76algorithm[37,38]tothespatially
+   386→concatenatedbinarizedactivitymatrix.Normalizationwasdonebydividingtheresultingraw
+   387→valuewiththeLZcofthesamedatashuffledintime.
+   388→Statisticalanalysis. AllstatisticalanalysesweredoneinSPSS(IBMSPSSStatistics24).
+   389→NormalitywasdeterminedbytheShapiro-Wilktest(significancep>0.05).Toinvestigatedif-
+   390→ferencesbetweenthesub-anaestheticketamineconditionandthenormalwakefulstateonPCI
+   391→andRMTweusedtheparametricpaired-samplesT-testandthenon-parametricWilcoxon
+   392→signed-rank(WSR)test,respectively.Alinearmixedmodelwasusedtoassesswhether
+   393→changesinstimulationintensityaffectedthespatiotemporalactivationvalues(averageofthe
+   394→significantcorticalsourcesactivatedafterTMS)andPCIvalues.Arandominterceptwas
+   395→includedtoaccountforwithin-subjectcorrelations.Themodelparameterswereestimated
+   396→usingrestrictedmaximumlikelihood,andstatisticalsignificancewasassessedbyt-tests.To
+   397→assesstheeffectsofsub-anaestheticketamine,relativetonormalwakefulness,ineyesopen
+   398→comparedtoeyesclosedcondition,weusedarepeatedtwo-wayANOVAwithspontaneous
+   399→signaldiversitymeasuresasdependentvariables(LZc,ACE,SCE).Theanalysiswasdesigned
+   400→touncovereffectsoftheconditions(normalvsketamineandeyesopenvseyesclosed)aswell
+   401→asanyinteractioneffectbetweentheconditions.ToassesstherelationsbetweenPCIvalues
+   402→andstimulationintensity,PCIandspontaneoussignaldiversitymeasuresandcontinuousand
+   403→totalketaminedose,andtotalketaminedoseandglobal-ASCscore,weusedSpearman’srank
+   404→ordercorrelation.Moreover,PCIandspontaneoussignaldiversityintheketaminecondition
+   405→wascorrelatedwiththe11-ASCandglobal-ASC.Significancethresholdforalltestswas
+   406→p<0.05.
+   407→Results
+   408→Increasedspontaneous,butnotevokedsignaldiversityinsub-anaesthetic
+   409→ketaminecomparedtonormalwakefulness
+   410→Ourmainaimwastoinvestigatewhetherinformationintegrationanddifferentiationasmea-
+   411→suredbyPCI,andspontaneoussignaldiversityasmeasuredbyLZc,ACE,andSCE,isaffected
+   412→bysub-anaestheticdosesofketaminecomparedtonormalwakefulness.ForPCI,wefirst
+   413→investigatedthespatiotemporalresponsetoTMS(Fig1)andfoundthatbothinthenormal
+   414→wakefulstateandthesub-anaestheticcondition,thebrainrespondedtoTMSwithlong-lasting
+   415→patternsofactivation.Theresponsewasnotlimitedtothesiteofactivation,asseenbythedis-
+   416→tributionofsignificantsources,butspreadtodifferentcorticallocations.Qualitatively,thespa-
+   417→tiotemporalcharacteristicsappearedsimilarinbothconditions,withsmallvariationsin
+   418→amplitudeandlatenciesbetweenthetwoconditionsforindividualparticipants.Inaccordance
+   419→withtheseobservations,wefoundnosignificantdifferencebetweenPCIvaluesfornormal
+   420→wakefulness(mean=0.53,SE=0.02)andsub-anaestheticketamine(mean=0.55,SE=0.03,t
+   421→(9)=-0.87,p=0.41,r=0.27,Fig2).
+   422→PLOSONE|https://doi.org/10.1371/journal.pone.0242056 November23,2020 8/21
+   423→===== PAGE 9/21 =====
+   424→PLOS ONE SignaldiversityinthepsychedelicstateusingEEGandTMS
+   425→Fig1.SpatiotemporaldynamicsofTMS-EEGresponsesinnormalwakefulnessversusketamine-inducedpsychedelicstate.Averagedpotentialsevokedby
+   426→localtranscranialmagneticstimulation(TMS)overallEEGchannels(298and281trials)inonerepresentativesubject(a)beforeand(b)duringketamine
+   427→administration(stimulationlocationwasrightBA7).TheTMSstimulationintensitieswere80%and79%ofthemaximalstimulatoroutput,respectively.Upper
+   428→panels:TMS-evokedpotentialsforallchannels.Middlepanels:voltagetopographies,ofselectedlatencies,reflectingtheelectricalactivityacrossthescalpand
+   429→correspondingdistributionsofsignificantcorticalcurrents.Bottompanels:binarySS(x,t)-matriceswheresignificantsourcesatagiventimearedisplayedas
+
+[showing lines 30-429 of 1001; use offset=430 with limit to continue reading]
