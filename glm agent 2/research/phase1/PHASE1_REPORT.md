@@ -271,3 +271,21 @@ Figure: `figs/phase1_subjects.png`.
 3. The convention-arm result (structure-function coupling +0.18..+0.36)
    as the replication target for the full-grid Myrov-convention sweep,
    if a second compute round is commissioned.
+
+---
+
+## ADDENDUM (Round 22 / Phase 1.5, 2026-10-10): P1/P2 re-tag
+
+The user's critique (Round 22) is sustained: section 3's status table above
+conflated two predictions. P1 (operating point near J_c) was weakly
+confirmed — and "weak, edge-concentrated" is the PREDICTED low-beta
+metastable regime (order 0.498, PLV 0.0098 at the op point: bifurcation
+crossed, coherence threshold not), not underperformance. The "honest
+negative" (op-point structure-function coupling not topology-specific) is a
+P2-adjacent (dynamics-level) failure, not a P1 failure — and P2 proper
+(domain structure) was never tested by the Phase-1 fit. P2 has now been
+tested by the Phase-1.5 Fiedler-boundary battery: see
+research/phase15/PHASE15_REPORT.md — level-1 domains = hemispheres (7/7,
+shuffle floor); network geometry confirmed vs block null (7/7); DID
+directional null; dynamic sensor-level eigengap null. Re-tagged status
+table there (section 6).

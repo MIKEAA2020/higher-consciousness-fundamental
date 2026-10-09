@@ -1,0 +1,9 @@
+{
+ "n_pairs": 20,
+ "awake_mean": 0.012001797768936135,
+ "ketamine_mean": 0.01105966090365787,
+ "wilcoxon_awake_gt_ketamine_p": 0.4491586685180664,
+ "frac_ketamine_lower": 0.5,
+ "psi_stability_abs_rho_mean": 0.6341366372037974,
+ "psi_stability_sd": 0.27706184133391304
+}
